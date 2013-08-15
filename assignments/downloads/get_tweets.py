@@ -1,4 +1,5 @@
 #!/usr/bin/python
+# -*- coding: utf-8 -*-
 
 from tweepy.streaming import StreamListener
 from tweepy import OAuthHandler
@@ -25,7 +26,7 @@ class StdOutListener(StreamListener):
         if self.count == CUTOFF : exit(0)
 
         if "lang" in tweet["user"] and tweet["user"]["lang"] == "en":
-            print "\t".join([tweet["text"],tweet["user"]["screen_name"]])
+            print "\t".join([tweet["text"],tweet["user"]["screen_name"]]).encode('ascii', 'ignore')
 	    self.count += 1
 
         return True

@@ -27,7 +27,7 @@ We are providing you with code that makes it very easy to search Twitter for key
 
 <li> Download our <a href="downloads/get_tweets.py">script</a> for pulling data from Twitter using tweepy. (Courtesy of <a href="https://github.com/ryancotterell">Ryan Cotterall</a>, guru of all things python).
 
-<li> To run the script in the command line, use the following command where <code>n</code> is (optionally) the maximum number of tweets to grab and keywords are the words you want to search for. You must give at least one keyword. If you leave out the <code>n</code> parameter, you will continue to get tweets in a stream until you kill the program.
+<li> To run the script in the command line, use the following command where <code>n</code> is (optionally) the maximum number of tweets to grab and keywords are the words you want to search for. You must give at least one keyword. If you leave out the <code>n</code> parameter, you will continue to get tweets in a stream until you kill the program. Note that the program will stop after <i>roughly</i> <code>n</code> tweets. It won't be exact.
 <ul>
 <li><code>$ python get_tweets.py [n] keyword1 [keyword2 ... keywordn]</code></li>
 </ul>
@@ -44,6 +44,15 @@ We are providing you with code that makes it very easy to search Twitter for key
 <li><code>$ cat apple_tweets.txt | shuf | head -100 > labeled_apple_tweets.txt </code></li>
 </ul>
 </ol>
+
+Here are some example tweets I got by searching for 'Apple'. 
+
+- Using apple headphones on my galaxy s4 surely this must be a crime?     LSudeene
+- I'm dying. In the apple store there is some guys with a beer bong       kristinrutty
+- Smoking Near Apple Computers Creates Biohazard, Voids Warranty http://t.co/mVyy65Zn5W via @wordpressdotcom      TisOsama
+- RT @RudeComedian: I hate it when I'm wearing my apple bottom jeans and I can't find my boots with the fur.      emmilyy_b
+- Apple patent points to NFC on next iteration of the Apple iPhone and Apple iPad http://t.co/0S2OyY6HHb  yushadi_sy
+- RT @HonestToddler: I mean, Apple Juice is wonderful, but Apple Sauce? Room temperature smoothie in a bowl. Failure.	LT_Kbyrne
 
 
 
