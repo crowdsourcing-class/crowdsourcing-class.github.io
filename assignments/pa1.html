@@ -19,8 +19,7 @@
 <p>We are providing you with code that makes it very easy to search Twitter for keywords and grab the ones you want, but we encourage you to play around with the code and extend it. We will be using <a href="http://pythonhosted.org/tweepy/html/index.html">tweepy</a>, which, like all python packages, is hosted on github, is well documented, and has a cutesy name involving 'py'.   </p>
 
 <ol>
-<li>Download and install tweepy from <a href="https://github.com/tweepy/tweepy">github</a>. If you have never installed code from github before, its very easy. Just open a terminal and run the following commands:</li>
-</ol>
+<li> Download and install tweepy from [github](https://github.com/tweepy/tweepy). If you have never installed code from github before, its very easy. Just open a terminal and run the following commands:
 
 <ul>
 <li><code>$ git clone https://github.com/tweepy/tweepy.git</code>
@@ -29,30 +28,24 @@
 <li>type pas$word123, or whichever other unhackable password you are using.
 </ul>
 
-<ol>
-<li><p>Download our <a href="downloads/get_tweets.py">script</a> for pulling data from Twitter using tweepy. (Courtesy of <a href="https://github.com/ryancotterell">Ryan Cotterell</a>, guru of all things python).</p></li>
-<li><p>To run the script in the command line:</p></li>
-</ol>
+<li> Download our <a href="downloads/get_tweets.py">script</a> for pulling data from Twitter using tweepy. (Courtesy of <a href="https://github.com/ryancotterell">Ryan Cotterall</a>, guru of all things python).
 
+<li> To run the script in the command line, use the following command where <code>n</code> is (optionally) the maximum number of tweets to grab and keywords are the words you want to search for. You must give at least one keyword. If you leave out the <code>n</code> parameter, you will continue to get tweets in a stream until you kill the program.
 <ul>
 <li><code>$ python get_tweets.py [n] keyword1 [keyword2 ... keywordn]</code></li>
 </ul>
 
-<ul>
-<li><p>where <code>n</code> is (optionally) the maximum number of tweets to grab and keywords are the words you want to search for. You must give at least one keyword. If you leave out the <code>n</code> parameter, you will continue to get tweets in a stream until you kill the program.</p></li>
-<li><p>Collect 1000 tweets which reference a company of your choice.</p></li>
-</ul>
+
+<li> Collect 1000 tweets which reference a company of your choice.
 
 <ul>
 <li><code>$ python get_tweets.py 1000 Apple > apple_tweets.txt </code></li>
 </ul>
 
-<ol>
-<li>Grab a random sample of 100 tweets and manually label them for sentiment (positive, negative, or neutral). You will use your own labels later to check that Turkers are doing their work well (or at least as well as you are).</li>
-</ol>
-
+<li> Grab a random sample of 100 tweets and manually label them for sentiment (positive, negative, or neutral). You will use your own labels later to check that Turkers are doing their work well (or at least as well as you are).
 <ul>
 <li><code>$ cat apple_tweets.txt | shuf | head -100 > labeled_apple_tweets.txt </code></li>
 </ul>
+</ol>
 </body>
 </html>
