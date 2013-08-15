@@ -12,22 +12,22 @@
 ## Assignments and grading
 Grades for the course will be based on weekly homework assignments and a final term project. The weekly homework will consist of a mixture of writing and programming assignments.  
 
+## Written assignments
+
+- [Written Assignment 1](wa1.html) : Sign up for a Worker accout on MTurk and write about your experience
+- Written Assignment 2 : Write a synthesis of academic papers
+- Written Assignment 3 : Write a company profile
+- Written Assignment 4 : Cost analysis of Twitter sentiment classifer
+
 ## Programming assignments
 
 You will complete a sequence of programming assignments that culminate in building a [Sentiment Analysis](http://en.wikipedia.org/wiki/Sentiment_analysis) system that will classify Tweets about companies as either positive, negative, or neutral.  Sample python code will be provided for many of the programming assignments.
 
-- [Programming Assignment 1]() : Sign up for a Requester account on MTurk, gather data from Twitter
-- [Programming Assignment 2]() : Design a HIT
-- [Programming Assignment 3]() : Automaticaly grade the Turkers
-- [Programming Assignment 4]() : Quality control comparison
-- [Programming Assignment 5]() : Train a machine learning classifier to predict sentiment on Twitter
-
-## Written assignments
-
-- [Written Assignment 1](wa1.html) : Sign up for a Worker accout on MTurk and write about your experience
-- [Written Assignment 2]() : Write a synthesis of academic papers
-- [Written Assignment 3]() : Write a company profile
-- [Written Assignment 4]() : Cost analysis of Twitter sentiment classifer
+- Programming Assignment 1 : Sign up for a Requester account on MTurk, gather data from Twitter
+- Programming Assignment 2 : Design a HIT
+- Programming Assignment 3 : Automaticaly grade the Turkers
+- Programming Assignment 4 : Quality control comparison
+- Programming Assignment 5 : Train a machine learning classifier to predict sentiment on Twitter
 
 ## Final project
 The final term project will be a self-designed project created by the students in consultation with the professor and the TA.  Here are the guidelines for the final project.
