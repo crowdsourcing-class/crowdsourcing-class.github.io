@@ -9,6 +9,8 @@
 
 # Crowdsourcing and Human Computation
 
+##Written Assignment 1 : Due Wednesday, September 4
+
 The point of the first assignment is to get to acquainted with Mechanical Turk from the worker's perspective. The crowdsourcing platform allows us, the programmers, to completely anonymize our workforce, and work with humans as though they are function calls (fullfilling every antisocial CS student's dreams). Since, for the rest of the semester, you will be relying on Turkers to complete work for you quickly and accurately, you should take this first assignment as an opportunity to understand your workers and the ways you can help them work best for you. Pay attention to what makes tasks interesting and attractive, how much each task pays, and whether you think the compensation is fair. We will ask you to turn in a short writeup describing your experience.
 
 You should be excited about this assignment! You will actually get *paid* to do it! For my 50 HITs, I made a full $1.14. That is a far better return than the [terrible stock](https://www.google.com/finance?q=vaso&ei=oBMMUqixB47q0QH-owE) which I am holding for no good reason. So go! Have fun!
