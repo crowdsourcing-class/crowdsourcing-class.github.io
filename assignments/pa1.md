@@ -40,10 +40,14 @@ We are providing you with code that makes it very easy to search Twitter for key
 <li><code>$ python get_tweets.py 1000 Apple > apple_tweets.txt </code></li>
 </ul>
 
-<li> Grab a random sample of 100 tweets and manually label them for sentiment (positive, negative, or neutral). You will use your own labels later to check that Turkers are doing their work well (or at least as well as you are).
+<li> Download our <a href="downloads/convert_to_csv.py">script</a> to convert the Twitter output into a nice csv format. This script makes sure your data is in the format that MTurk expects, so that you can use it in the next assignment. Here, we use python's <a href="http://docs.python.org/2/library/csv.html">csv library</a> which is one you should definitely become comfortable with if you intend to do more large-scale data processing. It isn't difficult to convert into csv format by yourself, but using a library lets you avoid the little details, like escaping <a href="http://en.wikipedia.org/wiki/Comma-separated_values#Basic_rules_and_examples">special characters</a>, that are finicky and not particularly fun.
+
+<li> Convert your tweets into csv format using the below command. This will create a file called <code>tweets.csv</code>, which you can open in a spreadsheet program. Or in vim or emacs, if you are too hipster for spreadsheet programs. Look at the first 100 tweets and manually label them for sentiment (positive, negative, or neutral). You will use your own labels later to check that Turkers are doing their work well (or at least as well as you are). Note we use <code>shuf</code> to randomize the order of the tweets so that you can easily label the first 100 without having to worry about having a biased sample. 
+
 <ul>
-<li><code>$ cat apple_tweets.txt | shuf | head -100 > labeled_apple_tweets.txt </code></li>
+<li><code>$ cat apple_tweets.txt | shuf | python convert_to_csv.py </code></li>
 </ul>
+
 </ol>
 
 Here are some example tweets I got by searching for 'Apple'. 
