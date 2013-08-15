@@ -19,11 +19,13 @@ You should be excited about this assignment! You will actually get *paid* to do 
 
 3. Provide short answers (a few sentences each) to the following questions:
 
-* What tasks did you do, and how did you pick them?
-* How much money did you make?
-* What was your hourly wage per task?
-* How long did it take you to get paid?
-* Serveral tools exists for better Turking (e.g. [Turkopticon](http://turkopticon.differenceengines.com/) and [TurkerNation](http://turkernation.com/)). Explore a few of these and give us your thoughts.  
+<ul>
+<li>What tasks did you do, and how did you pick them?
+<li>How much money did you make?
+<li>What was your hourly wage per task?
+<li>How long did it take you to get paid?
+<li>Serveral tools exists for better Turking (e.g. <a href="http://turkopticon.differenceengines.com/">Turkopticon</a> and <a href="http://turkernation.com/">TurkerNation</a>). Explore a few of these and give us your thoughts.  
+</ul>
 
 
 

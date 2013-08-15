@@ -32,12 +32,12 @@ You will complete a sequence of programming assignments that culminate in buildi
 ## Final project
 The final term project will be a self-designed project created by the students in consultation with the professor and the TA.  Here are the guidelines for the final project.
 
-1. Should solve a real world problem
-2. Should actually use crowdsourcing (default: via MTurk)
-3. Should involve either an HCI or a ML component
-4. Should explain the choice of incentives and discuss alternative ways of incentivizing workers 
-5. Should contain a quality control component
-6. Analyze costs, decide whether it is a viable business
+- Should solve a real world problem
+- Should actually use crowdsourcing (default: via MTurk)
+- Should involve either an HCI or a ML component
+- Should explain the choice of incentives and discuss alternative ways of incentivizing workers 
+- Should contain a quality control component
+- Analyze costs, decide whether it is a viable business
 
 ###Deliverables: 
 - [Midterm]() : Proposal for project, selection of team, pitch to class, critique 

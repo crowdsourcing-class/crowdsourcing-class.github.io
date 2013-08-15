@@ -13,7 +13,7 @@
 html {
 	/* cf. http://www.hicksdesign.co.uk/journal/forcing-scrollbars-now-even-better */
 	height: 100%;
-	margin-bottom: 5px;
+	padding-bottom: 5em;
 	}
 
 body {
@@ -207,9 +207,22 @@ code {
 	}
 
 
-ul {
+ul.syllabus {
 	list-style-type: none;
 	font-family: "Gill Sans", "Gill Sans Std", "Gill Sans MT", Verdana, "Bitstream Vera Sans", sans-serif;
+	font-size: .97em;
+	color : #728C00;
+}
+ul ul.syllabus {
+	list-style-type: none;
+	font-family: "Gill Sans", "Gill Sans Std", "Gill Sans MT", Verdana, "Bitstream Vera Sans", sans-serif;
+	font-size: .97em;
+	color : black;
+}
+
+ul {
+	list-style-type: none;
+	font-family: "Gill Sans", "Gill Sans Std", "Gill Sans MT", Georgia, serif;
 	font-size: .97em;
 	color : black;
 }
