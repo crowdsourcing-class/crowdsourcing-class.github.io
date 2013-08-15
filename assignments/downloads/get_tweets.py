@@ -26,7 +26,7 @@ class StdOutListener(StreamListener):
         if self.count == CUTOFF : exit(0)
 
         if "lang" in tweet["user"] and tweet["user"]["lang"] == "en":
-            print "\t".join([tweet["text"],tweet["user"]["screen_name"]]).encode('ascii', 'ignore')
+            print "\t".join([tweet["text"],tweet["user"]["screen_name"]]).encode('ascii', 'ignore').replace('\n', ' ')
 	    self.count += 1
 
         return True
