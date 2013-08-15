@@ -1,0 +1,16 @@
+<ul id="ProjectSubmenu">
+    <li><a class="home" href="index.html" title="Home">Home</a></li>
+    <li><a class="syllabus" href="syllabus.html" title="Syllabus">Syllabus</a></li>
+    <li><a class="assignments" href="assignments.html" title="Assignments">Assignments</a></li>
+    <li><a class="resources" href="resources.html" title="Resources">Resources</a></li>
+</ul>
+
+<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+
+# Crowdsourcing and Human Computation
+
+## Readings:
+Selections from ["The Wisdom of Crowds" by James Surowiecki](http://www.amazon.com/The-Wisdom-Crowds-James-Surowiecki/dp/0385721706/), and various academic papers
+
+
+
