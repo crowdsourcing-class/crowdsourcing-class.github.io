@@ -40,9 +40,9 @@ The final term project will be a self-designed project created by the students i
 - Analyze costs, decide whether it is a viable business
 
 ###Deliverables: 
-- [Midterm]() : Proposal for project, selection of team, pitch to class, critique 
-- [Progress Update]() : 2/3s of the way through: individual team meetings with TA+Prof, give concrete progress update
-- [Final]() : Writeup and demonstration system
+- Midterm : Proposal for project, selection of team, pitch to class, critique 
+- Progress Update : 2/3s of the way through: individual team meetings with TA+Prof, give concrete progress update
+- Final : Writeup and demonstration system
 
 ###Extra credit: 
 - Lay the foundation for a PennApp 
