@@ -1,11 +1,11 @@
 <ul id="ProjectSubmenu">
-    <li><a class="home" href="index.html" title="Home">Home</a></li>
-    <li><a class="syllabus" href="syllabus.html" title="Syllabus">Syllabus</a></li>
-    <li><a class="assignments" href="assignments.html" title="Assignments">Assignments</a></li>
-    <li><a class="resources" href="resources.html" title="Resources">Resources</a></li>
+    <li><a class="home" href="../index.html" title="Home">Home</a></li>
+    <li><a class="syllabus" href="../syllabus.html" title="Syllabus">Syllabus</a></li>
+    <li><a class="assignments" href="../assignments.html" title="Assignments">Assignments</a></li>
+    <li><a class="resources" href="../resources.html" title="Resources">Resources</a></li>
 </ul>
 
-<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+<link rel="stylesheet" type="text/css" href="../stylesheet.css" />
 
 # Crowdsourcing and Human Computation
 
@@ -17,9 +17,12 @@ You should be excited about this assignment! You will actually get *paid* to do 
 
 1. Sign up for MTurk as a worker [here](https://www.mturk.com/mturk/welcome).
 
-2. Choose at least 50 assignments to complete. Try to get a sense of the variety of tasks that are available, and the kinds of projects for which Mturk is being used. Once you sign up, you will see that you *can* complete this assignment by doing 50 google searches, but come on, really? 
+2. Sign up for MTurk as a requester [here](https://www.mturk.com/mturk/welcome). You won't use this for this assignment directly, but we want everyone signed up early so we can get you set up with Amazon credits.
 
-3. Provide short answers (a few sentences each) to the following questions:
+
+3. Choose at least 50 assignments to complete. Try to get a sense of the variety of tasks that are available, and the kinds of projects for which Mturk is being used. Once you sign up, you will see that you *can* complete this assignment by doing 50 google searches, but come on, really? 
+
+4. Provide short answers (a few sentences each) to the following questions:
 
 <ul>
 <li>What tasks did you do, and how did you pick them?

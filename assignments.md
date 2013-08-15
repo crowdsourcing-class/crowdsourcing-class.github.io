@@ -14,7 +14,7 @@ Grades for the course will be based on weekly homework assignments and a final t
 
 ## Written assignments
 
-- [Written Assignment 1](wa1.html) : Sign up for a Worker accout on MTurk and write about your experience
+- [Written Assignment 1](assignments/wa1.html) : Sign up for a Worker accout on MTurk and write about your experience
 - Written Assignment 2 : Write a synthesis of academic papers
 - Written Assignment 3 : Write a company profile
 - Written Assignment 4 : Cost analysis of Twitter sentiment classifer
@@ -23,7 +23,7 @@ Grades for the course will be based on weekly homework assignments and a final t
 
 You will complete a sequence of programming assignments that culminate in building a [Sentiment Analysis](http://en.wikipedia.org/wiki/Sentiment_analysis) system that will classify Tweets about companies as either positive, negative, or neutral.  Sample python code will be provided for many of the programming assignments.
 
-- Programming Assignment 1 : Sign up for a Requester account on MTurk, gather data from Twitter
+- [Programming Assignment 1](assignments/pa1.html) : Sign up for a Requester account on MTurk, gather data from Twitter
 - Programming Assignment 2 : Design a HIT
 - Programming Assignment 3 : Automaticaly grade the Turkers
 - Programming Assignment 4 : Quality control comparison
@@ -45,11 +45,17 @@ The final term project will be a self-designed project created by the students i
 - Final : Writeup and demonstration system
 
 ###Extra credit: 
-- Lay the foundation for a PennApp 
-- Use 99designs to create cool web site
-- Bonus Extra credit: start a business and put your Prof + TA on the board of advisors
-- Super extra mega credit: raise VC funding 
-- Loss of all credit: dropping out of school 
+- Lay the foundation for a [PennApp](http://2013f.pennapps.com/) 
+- Use [99designs](http://99designs.com/) to create cool web site
+
+###Bonus Extra credit: 
+- Start a business and put your Prof + TA on the board of advisors
+
+###Super extra mega credit: 
+- raise VC funding 
+
+###Loss of all credit: 
+- dropping out of school 
 
 
 

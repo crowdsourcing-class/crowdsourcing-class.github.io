@@ -8,7 +8,6 @@
 <link rel="stylesheet" type="text/css" href="stylesheet.css" />
 
 - Design a HIT
-	- Create some gold standard items yourself
 	- collect redundant labels
 	- embed gold standard items alongside other data
 
