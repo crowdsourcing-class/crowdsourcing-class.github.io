@@ -15,7 +15,7 @@ In this assignment, we will be collecting data from Twitter which we will use to
 
 We are providing you with code that makes it very easy to search Twitter for keywords and grab the ones you want, but we encourage you to play around with the code and extend it. We will be using [tweepy](http://pythonhosted.org/tweepy/html/index.html), which, like all python packages, is hosted on github, is well documented, and has a cutesy name involving 'py'. 	
 
-1. Download and install tweepy from [github](https://github.com/tweepy/tweepy). If you have never installed code from github before, its very just. Just open a terminal and run the following commands:
+1. Download and install tweepy from [github](https://github.com/tweepy/tweepy). If you have never installed code from github before, its very easy. Just open a terminal and run the following commands:
 
 <ul>
 <li><code>$ git clone https://github.com/tweepy/tweepy.git</code>
@@ -24,7 +24,7 @@ We are providing you with code that makes it very easy to search Twitter for key
 <li>type pas$word123, or whichever other unhackable password you are using.
 </ul>
 
-2. Download our [script](../../../assignments/ccb-scraper.py) for pulling data from Twitter using tweepy. (Courtesy of [Ryan Cotterell](https://github.com/ryancotterell), guru of all things python).
+2. Download our [script](downloads/get_tweets.py) for pulling data from Twitter using tweepy. (Courtesy of [Ryan Cotterell](https://github.com/ryancotterell), guru of all things python).
 
 3. To run the script in the command line:
 <ul>
