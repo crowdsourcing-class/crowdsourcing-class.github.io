@@ -63,14 +63,14 @@
 
 <li>Company profiles (student presentations)
 <ul>
-<li>Platform providers: Amazon Mechanical Turk, oDesk, Crowdflower</li>
-<li>Creativity: Threadless, iStockPhoto, 99Designs</li>
-<li>Reviews: Amazon reviews, Yelp, RottenTomatoes, reddit, digg, eBay buyer/seller rating system</li>
-<li>Recommendations: Netflix, Amazon product recommendations, LastFM, Pandora, OKCupid</li>
-<li>Finance: Kickstarter, Kiva</li>
-<li> Prediction Markets: Iowa Electronic Markets, in-trade </li>
-<li> Social change: Ushahiti, PatientsLikeMe. crowdsourced patent review reform </li>
-<li> Outsourcing knowledge work: InnoCentive, Freelancer, SalesForce </li>
+<li>Platform providers: [Amazon Mechanical Turk](https://www.mturk.com/mturk/welcome), [oDesk](https://www.odesk.com/), [CrowdFlower](http://crowdflower.com/)</li>
+<li>Creativity: [Threadless](http://www.threadless.com/), [iStockPhoto](http://www.istockphoto.com/), [99Designs](http://99designs.com/)</li>
+<li>Reviews: [Amazon](http://www.amazon.com/) reviews, [Yelp](http://www.yelp.com/), [RottenTomatoes](http://www.rottentomatoes.com/), [Reddit](http://www.reddit.com/), [digg](http://digg.com/), [eBay](http://www.ebay.com/) buyer/seller rating system</li>
+<li>Recommendations: [Netflix](https://signup.netflix.com/), [Amazon](http://www.amazon.com/) product recommendations, [LastFM](http://www.last.fm/), [Pandora](http://www.pandora.com/), [OKCupid](http://www.okcupid.com/)</li>
+<li>Finance: [Kickstarter](http://www.kickstarter.com/), [Kiva](http://www.kiva.org/start)</li>
+<li> Prediction Markets: [Iowa Electronic Markets](http://tippie.uiowa.edu/iem/), [Intrade](http://www.intrade.com/) (you can also read about its [fall from grace](http://en.wikipedia.org/wiki/Intrade)) </li>
+<li> Social change: [Ushahidi](http://www.ushahidi.com/), [PatientsLikeMe](http://www.patientslikeme.com/), [crowdsourced patent review](http://www.forbes.com/sites/timworstall/2013/07/23/crowdsourcing-the-fight-against-bad-software-patents/) </li>
+<li> Outsourcing knowledge work: [InnoCentive](http://www.innocentive.com/), [Freelancer](http://www.freelancer.com/), [SalesForce](http://www.salesforce.com/) </li>
 </ul></li>
 
 
