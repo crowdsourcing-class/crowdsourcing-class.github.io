@@ -9,10 +9,5 @@
 
 # Crowdsourcing and Human Computation
 
-- Quality control comparison 
-	- majority vote
-	- accuracy against gold standard
-	- Run Panos's EM implementation
-
-
-
+- "The Wisdom of Crowds" Chapter 2 - The Difference Difference Makes 
+- "The Wisdom of Crowds" Chapter 3 - Monkey See, Monkey Do

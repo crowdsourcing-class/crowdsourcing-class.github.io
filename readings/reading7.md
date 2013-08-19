@@ -9,10 +9,4 @@
 
 # Crowdsourcing and Human Computation
 
-- Quality control comparison 
-	- majority vote
-	- accuracy against gold standard
-	- Run Panos's EM implementation
-
-
-
+- "The Wisdom of Crowds" Chapter 11 - Markets

@@ -26,7 +26,7 @@ You will complete a sequence of programming assignments that culminate in buildi
 - [Programming Assignment 1](assignments/pa1.html) : Sign up for a Requester account on MTurk, gather data from Twitter
 - [Programming Assignment 2](assignments/pa2.html) : Design a HIT
 - [Programming Assignment 3](assignments/pa3.html) : Automaticaly grade the Turkers
-- Programming Assignment 4 : Quality control comparison
+- [Programming Assignment 4](assignments/pa4.html) : Quality control comparison
 - Programming Assignment 5 : Train a machine learning classifier to predict sentiment on Twitter
 
 ## Final project
@@ -52,10 +52,10 @@ The final term project will be a self-designed project created by the students i
 - Start a business and put your Prof + TA on the board of advisors
 
 ###Super extra mega credit: 
-- raise VC funding 
+- Raise VC funding 
 
 ###Loss of all credit: 
-- dropping out of school 
+- Dropping out of school 
 
 
 

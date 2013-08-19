@@ -10,7 +10,11 @@
 # Crowdsourcing and Human Computation
 
 ## Readings:
-Selections from ["The Wisdom of Crowds" by James Surowiecki](http://www.amazon.com/The-Wisdom-Crowds-James-Surowiecki/dp/0385721706/), and various academic papers
 
+As assigned readings, we will use selections from Surowiecki's book, as well as various academic papers and articles. See the individual topics on the syllabus for specific readings. Below are some resources which may be interesting or useful throughout the semester. 
 
+["The Wisdom of Crowds" by James Surowiecki](http://www.amazon.com/The-Wisdom-Crowds-James-Surowiecki/dp/0385721706/)
 
+Here is a great [blog](http://www.behind-the-enemy-lines.com/) by Panos Ipeirotis from NYU's Stern School of Business about the trials and tribulations of crowdsourcing. 
+
+FAQs about [creating HITs on MTurk](https://requester.mturk.com/help/getting_started.html) and about [MTurk in general](http://aws.amazon.com/mturk/faqs/).

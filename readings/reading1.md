@@ -9,10 +9,6 @@
 
 # Crowdsourcing and Human Computation
 
-- Quality control comparison 
-	- majority vote
-	- accuracy against gold standard
-	- Run Panos's EM implementation
-
-
-
+- "The Wisdom of Crowds" Chapter 0 - Introduction
+- "The Wisdom of Crowds" Chapter 1 - The Wisdom of Crowds 
+- ["Computation: A Survey and Taxonomy of a Growing Field"](downloads/QuinnAndBederson.pdf) by Alexander J. Quinn and Benjamin B. Bederson from UMD
