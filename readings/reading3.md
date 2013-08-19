@@ -11,4 +11,4 @@
 
 - "The Wisdom of Crowds" Chapter 4 - Putting the Pieces Together 
 - "The Wisdom of Crowds" Chapter 5 - Shall We Dance?
-- [Exploring Iterative and Parallel Human Computation Processes](downloads/LittleEtAl.pdf), by researchers out of MIT and University of Washington. Bear with the unnecessary schematics. 
+- [Exploring Iterative and Parallel Human Computation Processes](downloads/LittleEtAl.pdf), by researchers out of MIT and University of Washington. Bear with the unnecessary schematics. (Also, this paper wins the prize for the best quote : "We considered other puzzle possibilities, but were concerned that they might be too fun.")
