@@ -52,7 +52,7 @@
 <li>[Crowdsourcing and social science](readings/reading7.html)
 <ul>
 <li>Experiments in linguistics, cognitive science, and political science</li>
-<li>Is the Turker popul ation representative of the general popul ation? Is the Turker popul ation more or less representative than undergraduate Psych majors?</li>
+<li>Is the Turker population representative of the general population? Is the Turker popul ation more or less representative than undergraduate Psych majors?</li>
 <li>How to apply for Institutional Review Board approval</li>
 </ul></li>
 
