@@ -11,3 +11,4 @@
 
 - "The Wisdom of Crowds" Chapter 4 - Putting the Pieces Together 
 - "The Wisdom of Crowds" Chapter 5 - Shall We Dance?
+- [Exploring Iterative and Parallel Human Computation Processes](downloads/LittleEtAl.pdf)
