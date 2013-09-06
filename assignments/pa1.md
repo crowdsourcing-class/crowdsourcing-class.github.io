@@ -9,7 +9,7 @@
 
 # Crowdsourcing and Human Computation
 
-##Programming Assignment 1 : Due TBA 
+##Programming Assignment 1 : Due Wednesday, September 11
 
 In this assignment, we will be collecting data from Twitter which we will use to train our sentiment classifiers. Scraping Twitter for news and sentiment data has become a huge deal for businesses and researchers, and not *just* because people care about [kittens](https://twitter.com/CatsPorn/status/367992670745927680/photo/1). Governments and academics are interested in whether Twitter and other [social media can reveal breaking news](http://homepages.inf.ed.ac.uk/miles/papers/short-breaking.pdf) before news networks can, and [many investors](http://www.sntmnt.com/), despite all [economic theory](http://en.wikipedia.org/wiki/Efficient_market_hypothesis), believe social media can help them beat the market. Being able to use Twitter data at scale is a great skill for graduating computer scientists and business-minded students, and not a bad starting point for those of you who want to get rich ([boost UPenn's ranking!](http://www.forbes.com/2008/05/19/billionaires-harvard-education-biz-billies-cx_af_0519billieu_slide_4.html)) and spend your 30s sipping cocktails on rooftop terraces.
 
@@ -52,11 +52,15 @@ Here are some example tweets I got by searching for 'Apple'.
 
 <li> Download our <a href="downloads/convert_to_csv.py">script</a> to convert the Twitter output into a nice csv format. This script makes sure your data is in the format that MTurk expects, so that you can use it in the next assignment. Here, we use python's <a href="http://docs.python.org/2/library/csv.html">csv library</a> which is one you should definitely become comfortable with if you intend to do more large-scale data processing. It isn't difficult to convert into csv format by yourself, but using a library lets you avoid the little details, like escaping <a href="http://en.wikipedia.org/wiki/Comma-separated_values#Basic_rules_and_examples">special characters</a>, that are finicky and not particularly fun.
 
-<li> Convert your tweets into csv format using the below command. This will create a file called <code>tweets.csv</code>, which you can open in a spreadsheet program. Or in vim or emacs, if you are too hipster for spreadsheet programs. Look at the first 100 tweets and manually label them for sentiment (positive, negative, or neutral). You will use your own labels later to check that Turkers are doing their work well (or at least as well as you are). Note we use <code>shuf</code> to randomize the order of the tweets so that you can easily label the first 100 without having to worry about having a biased sample. 
+<li> Convert your tweets into csv format using the below command. This will create a file called <code>tweets.csv</code>, which you can open in a spreadsheet program. Or in vim or emacs, if you are too hipster for spreadsheet programs, or if your computer is not <a href="http://i.imgur.com/3Fcper4.jpg">fancy enough for such things</a>. Note we use <code>shuf</code> to randomize the order of the tweets, because its good to randomize in research (i.e. good research is random...?). 
 
 <ul>
 <li><code>$ cat apple_tweets.txt | shuf | python convert_to_csv.py </code></li>
 </ul>
+
+<li>Look at the first 100 tweets and manually label them for sentiment (positive, negative, or neutral). You will use your own labels later to check that Turkers are doing their work well (or at least as well as you are), so you should only label tweets that are fairly unambiguous. Skip over those that are very ambiguous, since it would not be fair to punish Turkers for disagreeing with you about labels of unclear or mixed-sentiment tweets. Remember, skipping over tweets is fine, but when you finish, <b>you need to have 100 tweets labled as either 'positive', 'negative', or 'neutral'.</b>
+
+<li>You only need to turn in <code>tweets.csv</code>, which should contain 1000 tweets, 100 of which are labeled. I.e. it should contain 1000 lines, 900 of which have two columns (tweet and user) and 100 of which have three columns (tweet, user, and label).  
 
 </ol>
 

@@ -20,17 +20,24 @@ You should be excited about this assignment! You will actually get *paid* to do 
 2. Sign up for MTurk as a requester [here](https://www.mturk.com/mturk/welcome). You won't use this for this assignment directly, but we want everyone signed up early so we can get you set up with Amazon credits.
 
 
-3. Choose at least 50 assignments to complete. Try to get a sense of the variety of tasks that are available, and the kinds of projects for which Mturk is being used. Once you sign up, you will see that you *can* complete this assignment by doing 50 google searches, but come on, really? 
+3. Choose at least 50 assignments to complete. Try to get a sense of the variety of tasks that are available, and the kinds of projects for which Mturk is being used. Once you sign up, you will see that you *can* complete this assignment by doing 50 google searches, but come on, really? Keep a log to record, for each HIT:
+
+	<ul>
+	<li>Description
+	<li>How many you did
+	<li>How much it paid
+	<li>How long it took you to complete
+	</ul>
 
 4. Provide short answers (a few sentences each) to the following questions:
 
-<ul>
-<li>What tasks did you do, and how did you pick them?
-<li>How much money did you make?
-<li>What was your hourly wage per task?
-<li>How long did it take you to get paid?
-<li>Serveral tools exists for better Turking (e.g. <a href="http://turkopticon.differenceengines.com/">Turkopticon</a> and <a href="http://turkernation.com/">TurkerNation</a>). Explore a few of these and give us your thoughts.  
-</ul>
+	<ul>
+	<li>What tasks did you do, and how did you pick them?
+	<li>How much money did you make?
+	<li>What was your hourly wage per task?
+	<li>How long did it take you to get paid?
+	<li>Serveral tools exists for better Turking (e.g. <a href="http://turkopticon.differenceengines.com/">Turkopticon</a> and <a href="http://turkernation.com/">TurkerNation</a>). Explore a few of these and give us your thoughts.  
+	</ul>
 
 
 

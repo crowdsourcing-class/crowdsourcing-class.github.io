@@ -18,3 +18,5 @@ As assigned readings, we will use selections from Surowiecki's book, as well as 
 Here is a great [blog](http://www.behind-the-enemy-lines.com/) by Panos Ipeirotis from NYU's Stern School of Business about the trials and tribulations of crowdsourcing. 
 
 FAQs about [creating HITs on MTurk](https://requester.mturk.com/help/getting_started.html) and about [MTurk in general](http://aws.amazon.com/mturk/faqs/).
+
+If you want a deeper introduction to EM, here is a [great lecture](http://www.youtube.com/watch?v=ZZGTuAkF-Hw&feature=PlayList&p=A89DCFA6ADACE599&index=11) by Andrew Ng at Stanford. Actually, [all of their machine learning lectures](http://see.stanford.edu/see/lecturelist.aspx?coll=348ca38a-3a6d-4052-937d-cb017338d7b1) are available online, and very well delivered.

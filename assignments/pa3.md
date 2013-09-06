@@ -35,7 +35,7 @@ Before we delve into the assignment, a word to the wise: About a year ago, I acc
 
 6. Open the output file, <code>hits&#95;graded.csv</code>. <b>Double check</b> by spot checking some of the approvals and rejections and verifying that you agree with the decisions your script made. 
 
-7. If everything looks normal and happy, you can upload <code>hits&#95;graded.csv</code> to MTurk from the same screen where you downloaded the data. After processing, you should get a screen like this. Go ahead and repost the HITs which you are rejecting. You will want to have three good quality judgements on each tweet for our future assignments.
+7. If everything looks normal and happy, you can upload <code>hits&#95;graded.csv</code> to MTurk from the same screen where you downloaded the data. After processing, you should get a screen like this. 
 
 	<img src="../images/approve-reject.png" align="middle">
 
