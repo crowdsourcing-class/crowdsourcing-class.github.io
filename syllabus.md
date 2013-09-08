@@ -19,14 +19,10 @@
 <li>September 4: [The Mechanical Turk crowdsourcing platform - part 1](readings/platform.html)
 <ul>
 <li>Working on Mechanical Turk, demographics of Mechanical Turk workers, estimating the size ofthe Mechanical Turk Marketplace</li>
-</ul></li>
-
-
-<li>September 4: [The Mechanical Turk crowdsourcing platform](readings/platform.html)
-<ul>
 <li>Terminology and mechanics: Turkers, Requesters, HITs, micropayments</li>
-<li>Analyzing the Mechanical Turk Marketplace, demographics of Mechanical Turk</li>
 </ul></li>
+
+
 
 <li>September 9: The Mechanical Turk crowdsourcing platform - part 2
 <ul>
@@ -87,7 +83,7 @@ Designing HITs, qualifications, pricing HITs, approving/rejecting, IRB/human sub
 <li>Company profiles (student presentations)
 <ul>
 <li>Platform providers: [Amazon Mechanical Turk](https://www.mturk.com/mturk/welcome), [oDesk](https://www.odesk.com/), [CrowdFlower](http://crowdflower.com/)</li>
-<li>Creativity: [Threadless](http://www.threadless.com/), [iStockPhoto](http://www.istockphoto.com/), [99Designs](http://99designs.com/)</li>
+<li>Creativity: [Threadless](http://www.threadless.com/), [iStockPhoto](http://www.istockphoto.com/), [99Designs](http://99designs.com/), [Book Country](http://www.bookcountry.com)</li>
 <li>Reviews: [Amazon](http://www.amazon.com/) reviews, [Yelp](http://www.yelp.com/), [RottenTomatoes](http://www.rottentomatoes.com/), [Reddit](http://www.reddit.com/), [digg](http://digg.com/), [eBay](http://www.ebay.com/) buyer/seller rating system</li>
 <li>Recommendations: [Netflix](https://signup.netflix.com/), [Amazon](http://www.amazon.com/) product recommendations, [LastFM](http://www.last.fm/), [Pandora](http://www.pandora.com/), [OKCupid](http://www.okcupid.com/)</li>
 <li>Finance: [Kickstarter](http://www.kickstarter.com/), [Kiva](http://www.kiva.org/start)</li>
