@@ -15,8 +15,8 @@ Grades for the course will be based on weekly homework assignments and a final t
 ## Written assignments
 
 - [Written Assignment 1](assignments/wa1.html) : Sign up for a Worker accout on MTurk and write about your experience
-- Written Assignment 2 : Write a synthesis of academic papers
-- Written Assignment 3 : Write a company profile
+- Written Assignment 2 : Write a company profile
+- Written Assignment 3 : Write a synthesis of academic papers
 - Written Assignment 4 : Cost analysis of Twitter sentiment classifer
 
 ## Programming assignments
