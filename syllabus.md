@@ -11,11 +11,16 @@
 
 ## Topics on the syllabus
 <ul>
-<li>August 28 : [Taxonomy of crowdsourcing and human computation](readings/intro.html)
+<li>August 28: [Intro Lecture](readings/intro.html)
 <ul>
 <li>Relationship between crowdsourcing, human computation, collective intelligence, data mining, social computing </li>
-<li>Categorization system: motivation, quality control, aggregation, human skill, process flow</li>
 </ul></li>
+
+<li>September 4: [The Mechanical Turk crowdsourcing platform - part 1](readings/platform.html)
+<ul>
+<li>Working on Mechanical Turk, demographics of Mechanical Turk workers, estimating the size ofthe Mechanical Turk Marketplace</li>
+</ul></li>
+
 
 <li>September 4: [The Mechanical Turk crowdsourcing platform](readings/platform.html)
 <ul>
@@ -23,7 +28,23 @@
 <li>Analyzing the Mechanical Turk Marketplace, demographics of Mechanical Turk</li>
 </ul></li>
 
-<li>Date TBA : [Programming concepts for human computation](readings/programming.html)
+<li>September 9: The Mechanical Turk crowdsourcing platform - part 2
+<ul>
+<li>Amazon Mechanical Turk from the Requester’s perspective:
+Designing HITs, qualifications, pricing HITs, approving/rejecting, IRB/human subjects and university research</li>
+</ul></li>
+
+
+
+
+
+<li>Upcoming: [Taxonomy of crowdsourcing and human computation](readings/intro.html)
+<ul>
+<li>Categorization system: motivation, quality control, aggregation, human skill, process flow</li>
+</ul></li>
+
+
+<li>Upcoming: [Programming concepts for human computation](readings/programming.html)
 <ul>
 <li>People as function calls</li>
 <li>Designing good HITs: Decomposing complex tasks into simpler subtasks</li>
@@ -31,33 +52,33 @@
 <li>Controlling quality</li>
 </ul></li>
 
-<li>Date TBA : [The economics of crowdsourcing](readings/econ.html)
+<li>Upcoming: [The economics of crowdsourcing](readings/econ.html)
 <ul>
 <li>Pricing HITs, incentivizing Turkers</li>
 <li>Ensuring high quality data, balancing cost and quality</li>
 </ul></li>
 
-<li>Date TBA : [Crowdsourcing and machine learning](readings/ml.html)
+<li>Upcoming: [Crowdsourcing and machine learning](readings/ml.html)
 <ul>
 <li>Importance of labeled training data in ML, Computer Vision, Natural Language Processing</li>
 <li>Uses of crowdsourcing to reduce cost of ML, cost of expert annotations</li>
 <li>Uses of ML to reduce cost of crowdsourcing, EM algorithms for qualtiy estimation</li>
 </ul></li>
 
-<li>Date TBA : [Applications to human computer interaction (HCI) design](readings/hci.html)
+<li>Upcoming: [Applications to human computer interaction (HCI) design](readings/hci.html)
 <ul>
 <li>Next generation interfaces  </li>
 <li>Soylent word processor ("it's made of people"), VizWiz - an iPhone app for blind people, Games with a Purpose</li>
 </ul></li>
 
-<li>Date TBA : [Crowdsourcing and social science](readings/social-science.html)
+<li>Upcoming: [Crowdsourcing and social science](readings/social-science.html)
 <ul>
 <li>Experiments in linguistics, cognitive science, and political science</li>
 <li>Ethics of crowdsourcing</li>
 <li>How to apply for Institutional Review Board approval</li>
 </ul></li>
 
-<li>Date TBA : [Collective intelligence](readings/collective-intelligence.html)
+<li>Upcoming: [Collective intelligence](readings/collective-intelligence.html)
 <ul>
 <li>Surveying and polls, Prediction markets, A/B testing, Data mining</li>
 <li>Crowdfunding, product valuation, product reviews</li>
