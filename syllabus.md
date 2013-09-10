@@ -10,9 +10,8 @@
 # Crowdsourcing and Human Computation
 
 ## Topics on the syllabus
-<<<<<<< HEAD
 
-###August 28 : [Taxonomy of crowdsourcing and human computation](slides/class-intro.pdf)
+###August 28 : [Intro Lecture](slides/class-intro.pdf)
 - Relationship between crowdsourcing, human computation, collective intelligence, data mining, social computing
 - Categorization system: motivation, quality control, aggregation, human skill, process flow
 #####Reading
@@ -22,21 +21,22 @@
 	- ["Harnessing Crowds: Mapping the Genome of Collective Intelligence"](readings/downloads/intro/MaloneEtAl.pdf) by researchers out of MIT and Boston University
 	- The [Wired article](readings/downloads/intro/Wired.pdf) which coined the phrase "Crowdsourcing"
 
-###September 4: [The Mechanical Turk crowdsourcing platform](slides/amazon-mechanical-turk.pdf)
+###September 4: [The Mechanical Turk crowdsourcing platform - part 1](slides/amazon-mechanical-turk.pdf)
+- Working on Mechanical Turk, demographics of Mechanical Turk workers, estimating the size ofthe Mechanical Turk Marketplace
 - Terminology and mechanics: Turkers, Requesters, HITs, micropayments
-- Analyzing the Mechanical Turk Marketplace, demographics of Mechanical Turk
 ####Reading
 	- "The Wisdom of Crowds" Chapter 2 - The Difference Difference Makes
+	- [Analyzing the Amazon Mechanical Turk Marketplace](readings/downloads/platform/Ipeirotis.pdf), about the demographics of MTurk
+
+###September 9: [The Mechanical Turk crowdsourcing platform - part 2]()
+- Amazon Mechanical Turk from the Requester's perspective: Designing HITs, qualifications, pricing HITs, approving/rejecting, IRB/human subjects and university research
+####Reading
 	- "The Wisdom of Crowds" Chapter 3 - Monkey See, Monkey Do
 	- ["Running experiments on Amazon Mechanical Turk"](readings/downloads/platform/PaolacciEtAl.pdf), an overview of the MTurk platform, and the associated benefits and challenges
 	- [Crowdsourcing User Studies With Mechanical Turk](readings/downloads/platform/KitturEtAl.pdf), about best-practices for designing tasks for a crowdsourcing environment.
-	- [Analyzing the Amazon Mechanical Turk Marketplace](readings/downloads/platform/Ipeirotis.pdf), about the demographics of MTurk
 
-###Date TBA : [Programming concepts for human computation]
-- People as function calls
-- Designing good HITs: Decomposing complex tasks into simpler subtasks
-- Memorizataion, parallel processing, iterative refinement
-- Controlling quality
+###Upcoming: [Taxonomy of crowdsourcing and human computation]()
+- Categorization system: motivation, quality control, aggregation, human skill, process flow
 ####Reading
 	- "The Wisdom of Crowds" Chapter 4 - Putting the Pieces Together
 	- "The Wisdom of Crowds" Chapter 5 - Shall We Dance?
@@ -44,7 +44,13 @@
 	- ["TurKit: Human Computation Algorithms on Mechanical Turk"](readings/downloads/programming/Turkit.pdf), the research from the above paper applied
 	- [Worker Evaluation in Crowdsourcing: Gold Data or Multiple Workers?](http://www.behind-the-enemy-lines.com/2010/09/worker-evaluation-in-crowdsourcing-gold.html), Panos Ipeirotis' blog post estimating the quality of workers. 
 
-###Date TBA : [The economics of crowdsourcing]
+###Upcoming: [Programming concepts for human computation]()
+- People as function calls</li>
+- Designing good HITs: Decomposing complex tasks into simpler subtasks</li>
+- Memorizataion, parallel processing, iterative refinement</li>
+- Controlling quality</li>
+
+###Date Upcoming : [The economics of crowdsourcing]()
 - Pricing HITs, incentivizing Turkers
 - Ensuring high quality data, balancing cost and quality
 ####Reading 
@@ -55,7 +61,7 @@
 	- [Get Another Label? Improving Data Quality and Data Mining Using Multiple, Noisy Labelers](readings/downloads/econ/ShengEtAl.pdf), about using redundant labeling to improve data quality and how to balance cost and quality
 
 
-###Date TBA : [Crowdsourcing and machine learning]
+###Date Upcoming : [Crowdsourcing and machine learning]()
 - Importance of labeled training data in ML, Computer Vision, Natural Language Processing
 - Uses of crowdsourcing to reduce cost of ML, cost of expert annotations
 - Uses of ML to reduce cost of crowdsourcing, EM algorithms for qualtiy estimation
@@ -65,79 +71,7 @@
 	- [Maximum Likelihood Estimation of Observer Error-rates using the EM Algorithm](readings/downloads/ml/EM.pdf), the theory which is implemented by [Project Troia](http://project-troia.com/), which you will use in your assignment. This paper is math-heavy, but you all are a smart lot. [Believe in yourself.](http://virginiachepete.com/wp-content/uploads/2013/06/hey-you-can-do-it.jpg)
 	- [CrowdFlow: Integrating Machine Learning with Mechanical Turk for Speed-Cost-Quality Flexibility](readings/downloads/ml/QuinnEtAl.pdf), describes a framework for using both computers and humans to label data
 
-=======
-<ul>
-<li>August 28: [Intro Lecture](readings/intro.html)
-<ul>
-<li>Relationship between crowdsourcing, human computation, collective intelligence, data mining, social computing </li>
-</ul></li>
-
-<li>September 4: [The Mechanical Turk crowdsourcing platform - part 1](readings/platform.html)
-<ul>
-<li>Working on Mechanical Turk, demographics of Mechanical Turk workers, estimating the size ofthe Mechanical Turk Marketplace</li>
-<li>Terminology and mechanics: Turkers, Requesters, HITs, micropayments</li>
-</ul></li>
-
-
-
-<li>September 9: The Mechanical Turk crowdsourcing platform - part 2
-<ul>
-<li>Amazon Mechanical Turk from the Requester’s perspective:
-Designing HITs, qualifications, pricing HITs, approving/rejecting, IRB/human subjects and university research</li>
-</ul></li>
-
-
-
-
-
-<li>Upcoming: [Taxonomy of crowdsourcing and human computation](readings/intro.html)
-<ul>
-<li>Categorization system: motivation, quality control, aggregation, human skill, process flow</li>
-</ul></li>
-
-
-<li>Upcoming: [Programming concepts for human computation](readings/programming.html)
-<ul>
-<li>People as function calls</li>
-<li>Designing good HITs: Decomposing complex tasks into simpler subtasks</li>
-<li>Memorizataion, parallel processing, iterative refinement</li>
-<li>Controlling quality</li>
-</ul></li>
-
-<li>Upcoming: [The economics of crowdsourcing](readings/econ.html)
-<ul>
-<li>Pricing HITs, incentivizing Turkers</li>
-<li>Ensuring high quality data, balancing cost and quality</li>
-</ul></li>
-
-<li>Upcoming: [Crowdsourcing and machine learning](readings/ml.html)
-<ul>
-<li>Importance of labeled training data in ML, Computer Vision, Natural Language Processing</li>
-<li>Uses of crowdsourcing to reduce cost of ML, cost of expert annotations</li>
-<li>Uses of ML to reduce cost of crowdsourcing, EM algorithms for qualtiy estimation</li>
-</ul></li>
-
-<li>Upcoming: [Applications to human computer interaction (HCI) design](readings/hci.html)
-<ul>
-<li>Next generation interfaces  </li>
-<li>Soylent word processor ("it's made of people"), VizWiz - an iPhone app for blind people, Games with a Purpose</li>
-</ul></li>
-
-<li>Upcoming: [Crowdsourcing and social science](readings/social-science.html)
-<ul>
-<li>Experiments in linguistics, cognitive science, and political science</li>
-<li>Ethics of crowdsourcing</li>
-<li>How to apply for Institutional Review Board approval</li>
-</ul></li>
-
-<li>Upcoming: [Collective intelligence](readings/collective-intelligence.html)
-<ul>
-<li>Surveying and polls, Prediction markets, A/B testing, Data mining</li>
-<li>Crowdfunding, product valuation, product reviews</li>
-</ul></li>
->>>>>>> 28b0e88a84db0dda39111cfefe6746674eb3aff0
-
-###Date TBA : [Applications to human computer interaction (HCI) design]
+###Date Upcoming : [Applications to human computer interaction (HCI) design]()
 - Next generation interfaces 
 - Soylent word processor ("it's made of people"), VizWiz - an iPhone app for blind people, Games with a Purpose
 ####Reading
@@ -146,7 +80,7 @@ Designing HITs, qualifications, pricing HITs, approving/rejecting, IRB/human sub
 	- [VizWiz: Nearly Real-time Answers to Visual Questions](readings/downloads/hci/Vizwiz.pdf), an app which uses MTurk to help blind people with simple tasks, like finding matching socks or reading the nutrition labels.
 	- [Games with a purpose](readings/downloads/hci/GWAP.pdf), clever ideas for tricking people into having fun so you don't have to pay them to label your data.
 
-###Date TBA : [Crowdsourcing and social science]
+###Date Upcoming : [Crowdsourcing and social science]()
 - Experiments in linguistics, cognitive science, and political science
 - Ethics of crowdsourcing
 - How to apply for Institutional Review Board approval
@@ -156,7 +90,7 @@ Designing HITs, qualifications, pricing HITs, approving/rejecting, IRB/human sub
 	- [Mechanical Turk is not Anonymous](readings/downloads/social-science/LeaseEtAl.pdf), discusses a privacy vunerability in MTurk, and the implications for research ethics.
 	- [Dirty Deeds Done Dirt Cheap](readings/downloads/social-science/Harris.pdf), discussion of some of the potentially malicious uses of crowdsourcing. Mostly included for the fantastically scathing title.
 
-###Date TBA : [Collective intelligence]
+###Date Upcoming : [Collective intelligence]()
 - Surveying and polls, Prediction markets, A/B testing, Data mining
 - Crowdfunding, product valuation, product reviews
 ####Reading
