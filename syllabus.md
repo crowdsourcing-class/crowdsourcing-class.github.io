@@ -10,6 +10,7 @@
 # Crowdsourcing and Human Computation
 
 ## Topics on the syllabus
+<<<<<<< HEAD
 
 ###August 28 : [Taxonomy of crowdsourcing and human computation](slides/class-intro.pdf)
 - Relationship between crowdsourcing, human computation, collective intelligence, data mining, social computing
@@ -64,6 +65,77 @@
 	- [Maximum Likelihood Estimation of Observer Error-rates using the EM Algorithm](readings/downloads/ml/EM.pdf), the theory which is implemented by [Project Troia](http://project-troia.com/), which you will use in your assignment. This paper is math-heavy, but you all are a smart lot. [Believe in yourself.](http://virginiachepete.com/wp-content/uploads/2013/06/hey-you-can-do-it.jpg)
 	- [CrowdFlow: Integrating Machine Learning with Mechanical Turk for Speed-Cost-Quality Flexibility](readings/downloads/ml/QuinnEtAl.pdf), describes a framework for using both computers and humans to label data
 
+=======
+<ul>
+<li>August 28: [Intro Lecture](readings/intro.html)
+<ul>
+<li>Relationship between crowdsourcing, human computation, collective intelligence, data mining, social computing </li>
+</ul></li>
+
+<li>September 4: [The Mechanical Turk crowdsourcing platform - part 1](readings/platform.html)
+<ul>
+<li>Working on Mechanical Turk, demographics of Mechanical Turk workers, estimating the size ofthe Mechanical Turk Marketplace</li>
+<li>Terminology and mechanics: Turkers, Requesters, HITs, micropayments</li>
+</ul></li>
+
+
+
+<li>September 9: The Mechanical Turk crowdsourcing platform - part 2
+<ul>
+<li>Amazon Mechanical Turk from the Requester’s perspective:
+Designing HITs, qualifications, pricing HITs, approving/rejecting, IRB/human subjects and university research</li>
+</ul></li>
+
+
+
+
+
+<li>Upcoming: [Taxonomy of crowdsourcing and human computation](readings/intro.html)
+<ul>
+<li>Categorization system: motivation, quality control, aggregation, human skill, process flow</li>
+</ul></li>
+
+
+<li>Upcoming: [Programming concepts for human computation](readings/programming.html)
+<ul>
+<li>People as function calls</li>
+<li>Designing good HITs: Decomposing complex tasks into simpler subtasks</li>
+<li>Memorizataion, parallel processing, iterative refinement</li>
+<li>Controlling quality</li>
+</ul></li>
+
+<li>Upcoming: [The economics of crowdsourcing](readings/econ.html)
+<ul>
+<li>Pricing HITs, incentivizing Turkers</li>
+<li>Ensuring high quality data, balancing cost and quality</li>
+</ul></li>
+
+<li>Upcoming: [Crowdsourcing and machine learning](readings/ml.html)
+<ul>
+<li>Importance of labeled training data in ML, Computer Vision, Natural Language Processing</li>
+<li>Uses of crowdsourcing to reduce cost of ML, cost of expert annotations</li>
+<li>Uses of ML to reduce cost of crowdsourcing, EM algorithms for qualtiy estimation</li>
+</ul></li>
+
+<li>Upcoming: [Applications to human computer interaction (HCI) design](readings/hci.html)
+<ul>
+<li>Next generation interfaces  </li>
+<li>Soylent word processor ("it's made of people"), VizWiz - an iPhone app for blind people, Games with a Purpose</li>
+</ul></li>
+
+<li>Upcoming: [Crowdsourcing and social science](readings/social-science.html)
+<ul>
+<li>Experiments in linguistics, cognitive science, and political science</li>
+<li>Ethics of crowdsourcing</li>
+<li>How to apply for Institutional Review Board approval</li>
+</ul></li>
+
+<li>Upcoming: [Collective intelligence](readings/collective-intelligence.html)
+<ul>
+<li>Surveying and polls, Prediction markets, A/B testing, Data mining</li>
+<li>Crowdfunding, product valuation, product reviews</li>
+</ul></li>
+>>>>>>> 28b0e88a84db0dda39111cfefe6746674eb3aff0
 
 ###Date TBA : [Applications to human computer interaction (HCI) design]
 - Next generation interfaces 
@@ -95,7 +167,7 @@
 ###Company profiles (student presentations)
 <ul>
 <li>Platform providers: [Amazon Mechanical Turk](https://www.mturk.com/mturk/welcome), [oDesk](https://www.odesk.com/), [CrowdFlower](http://crowdflower.com/)</li>
-<li>Creativity: [Threadless](http://www.threadless.com/), [iStockPhoto](http://www.istockphoto.com/), [99Designs](http://99designs.com/)</li>
+<li>Creativity: [Threadless](http://www.threadless.com/), [iStockPhoto](http://www.istockphoto.com/), [99Designs](http://99designs.com/), [Book Country](http://www.bookcountry.com)</li>
 <li>Reviews: [Amazon](http://www.amazon.com/) reviews, [Yelp](http://www.yelp.com/), [RottenTomatoes](http://www.rottentomatoes.com/), [Reddit](http://www.reddit.com/), [digg](http://digg.com/), [eBay](http://www.ebay.com/) buyer/seller rating system</li>
 <li>Recommendations: [Netflix](https://signup.netflix.com/), [Amazon](http://www.amazon.com/) product recommendations, [LastFM](http://www.last.fm/), [Pandora](http://www.pandora.com/), [OKCupid](http://www.okcupid.com/)</li>
 <li>Finance: [Kickstarter](http://www.kickstarter.com/), [Kiva](http://www.kiva.org/start)</li>

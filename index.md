@@ -5,8 +5,6 @@
     <li><a class="resources" href="resources.html" title="Resources">Readings</a></li>
 </ul>
 
-<link rel="stylesheet" type="text/css" href="stylesheet.css" />
-
 # Crowdsourcing and Human Computation
 
 ### Course ID: Special Topics CIS 399-001
