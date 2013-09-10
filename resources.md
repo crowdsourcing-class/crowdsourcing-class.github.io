@@ -49,6 +49,6 @@ If you need help with python basics, there are [many good tutorials](http://www.
 
 Here is a link to the [MTurk API](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_OperationsArticle.html) and to [boto](http://boto.readthedocs.org/en/latest/ref/mturk.html), the python interface we covered in class. 
 
-Here is a [nice boto tutorial](http://www.toforge.com/2011/04/boto-mturk-tutorial-create-hits/), from which I stole most of the code for the in-class tutorial. You can download the code from the in-class python tutorial [here](slides/boto-example.tar.gz). To run it, you will need to install boto, which is available on [git](https://github.com/boto/boto).
+Here is a [nice boto tutorial](http://www.toforge.com/2011/04/boto-mturk-tutorial-create-hits/), from which I stole most of the code for the in-class tutorial. You can download the code from the in-class python tutorial [here](slides/boto-tutorial.tar.gz). To run it, you will need to install boto, which is available on [git](https://github.com/boto/boto).
 
 If you want a deeper introduction to EM, here is a [great lecture](http://www.youtube.com/watch?v=ZZGTuAkF-Hw&feature=PlayList&p=A89DCFA6ADACE599&index=11) by Andrew Ng at Stanford. Actually, [all of their machine learning lectures](http://see.stanford.edu/see/lecturelist.aspx?coll=348ca38a-3a6d-4052-937d-cb017338d7b1) are available online, and very well delivered.
