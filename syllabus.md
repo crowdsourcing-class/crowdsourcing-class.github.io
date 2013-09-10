@@ -88,6 +88,7 @@
 	- [Citizen Science: Can Volunteers Do Real Research?](readings/downloads/social-science/Cohn.pdf), discussion of the ability of non-experts to collect scientific data.
 	- [Mechanical Turk is not Anonymous](readings/downloads/social-science/LeaseEtAl.pdf), discusses a privacy vunerability in MTurk, and the implications for research ethics.
 	- [Dirty Deeds Done Dirt Cheap](readings/downloads/social-science/Harris.pdf), discussion of some of the potentially malicious uses of crowdsourcing. Mostly included for the fantastically scathing title.
+	- ["Gold Mine or Coal Mine?"](readings/downloads/social-science/FortEtAl.pdf), another fantastically scathing title...
 
 ###Date Upcoming : [Collective intelligence]()
 - Surveying and polls, Prediction markets, A/B testing, Data mining
