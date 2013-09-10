@@ -1,8 +1,8 @@
 <ul  id="ProjectSubmenu">
     <li><a class="home" href="index.html" title="Home">Home</a></li>
-    <li><a  href="syllabus.html" title="Syllabus">Syllabus</a></li>
+    <li><a  href="syllabus.html" title="Lectures">Lectures</a></li>
     <li><a class="assignments" href="assignments.html" title="Assignments">Assignments</a></li>
-    <li><a class="resources" href="resources.html" title="Resources">Resources</a></li>
+    <li><a class="resources" href="resources.html" title="Resources">Readings</a></li>
 </ul>
 
 <link rel="stylesheet" type="text/css" href="stylesheet.css" />
@@ -10,60 +10,89 @@
 # Crowdsourcing and Human Computation
 
 ## Topics on the syllabus
-<ul>
-<li>August 28 : [Taxonomy of crowdsourcing and human computation](readings/intro.html)
-<ul>
-<li>Relationship between crowdsourcing, human computation, collective intelligence, data mining, social computing </li>
-<li>Categorization system: motivation, quality control, aggregation, human skill, process flow</li>
-</ul></li>
 
-<li>September 4: [The Mechanical Turk crowdsourcing platform](readings/platform.html)
-<ul>
-<li>Terminology and mechanics: Turkers, Requesters, HITs, micropayments</li>
-<li>Analyzing the Mechanical Turk Marketplace, demographics of Mechanical Turk</li>
-</ul></li>
+###August 28 : [Taxonomy of crowdsourcing and human computation](slides/class-intro.pdf)
+- Relationship between crowdsourcing, human computation, collective intelligence, data mining, social computing
+- Categorization system: motivation, quality control, aggregation, human skill, process flow
+#####Reading
+	- "The Wisdom of Crowds" Chapter 0 - Introduction
+	- "The Wisdom of Crowds" Chapter 1 - The Wisdom of Crowds
+	- ["Human Computation: A Survey and Taxonomy of a Growing Field"](readings/downloads/intro/QuinnAndBederson.pdf) by researchers out of University of Maryland
+	- ["Harnessing Crowds: Mapping the Genome of Collective Intelligence"](readings/downloads/intro/MaloneEtAl.pdf) by researchers out of MIT and Boston University
+	- The [Wired article](readings/downloads/intro/Wired.pdf) which coined the phrase "Crowdsourcing"
 
-<li>Date TBA : [Programming concepts for human computation](readings/programming.html)
-<ul>
-<li>People as function calls</li>
-<li>Designing good HITs: Decomposing complex tasks into simpler subtasks</li>
-<li>Memorizataion, parallel processing, iterative refinement</li>
-<li>Controlling quality</li>
-</ul></li>
+###September 4: [The Mechanical Turk crowdsourcing platform](slides/amazon-mechanical-turk.pdf)
+- Terminology and mechanics: Turkers, Requesters, HITs, micropayments
+- Analyzing the Mechanical Turk Marketplace, demographics of Mechanical Turk
+####Reading
+	- "The Wisdom of Crowds" Chapter 2 - The Difference Difference Makes
+	- "The Wisdom of Crowds" Chapter 3 - Monkey See, Monkey Do
+	- ["Running experiments on Amazon Mechanical Turk"](readings/downloads/platform/PaolacciEtAl.pdf), an overview of the MTurk platform, and the associated benefits and challenges
+	- [Crowdsourcing User Studies With Mechanical Turk](readings/downloads/platform/KitturEtAl.pdf), about best-practices for designing tasks for a crowdsourcing environment.
+	- [Analyzing the Amazon Mechanical Turk Marketplace](readings/downloads/platform/Ipeirotis.pdf), about the demographics of MTurk
 
-<li>Date TBA : [The economics of crowdsourcing](readings/econ.html)
-<ul>
-<li>Pricing HITs, incentivizing Turkers</li>
-<li>Ensuring high quality data, balancing cost and quality</li>
-</ul></li>
+###Date TBA : [Programming concepts for human computation]
+- People as function calls
+- Designing good HITs: Decomposing complex tasks into simpler subtasks
+- Memorizataion, parallel processing, iterative refinement
+- Controlling quality
+####Reading
+	- "The Wisdom of Crowds" Chapter 4 - Putting the Pieces Together
+	- "The Wisdom of Crowds" Chapter 5 - Shall We Dance?
+	- [Exploring Iterative and Parallel Human Computation Processes](readings/downloads/programming/LittleEtAl.pdf), by researchers out of MIT and University of Washington. (This paper wins the prize for the best quote : "We considered other puzzle possibilities, but were concerned that they might be too fun.")
+	- ["TurKit: Human Computation Algorithms on Mechanical Turk"](readings/downloads/programming/Turkit.pdf), the research from the above paper applied
+	- [Worker Evaluation in Crowdsourcing: Gold Data or Multiple Workers?](http://www.behind-the-enemy-lines.com/2010/09/worker-evaluation-in-crowdsourcing-gold.html), Panos Ipeirotis' blog post estimating the quality of workers. 
 
-<li>Date TBA : [Crowdsourcing and machine learning](readings/ml.html)
-<ul>
-<li>Importance of labeled training data in ML, Computer Vision, Natural Language Processing</li>
-<li>Uses of crowdsourcing to reduce cost of ML, cost of expert annotations</li>
-<li>Uses of ML to reduce cost of crowdsourcing, EM algorithms for qualtiy estimation</li>
-</ul></li>
+###Date TBA : [The economics of crowdsourcing]
+- Pricing HITs, incentivizing Turkers
+- Ensuring high quality data, balancing cost and quality
+####Reading 
+	- "The Wisdom of Crowds" Chapter 9 - Committees, Juries, and Teams
+	- "The Wisdom of Crowds" Chapter 10 - The Company
+	- [Financial Incentives and the "Performance of Crowds"](readings/downloads/econ/MasonAndWatts.pdf)
+	- [Cheap and Fast - But is it Good?](readings/downloads/econ/SnowEtAl.pdf), about the using non-expert workers to collect expert-quality data.
+	- [Get Another Label? Improving Data Quality and Data Mining Using Multiple, Noisy Labelers](readings/downloads/econ/ShengEtAl.pdf), about using redundant labeling to improve data quality and how to balance cost and quality
 
-<li>Date TBA : [Applications to human computer interaction (HCI) design](readings/hci.html)
-<ul>
-<li>Next generation interfaces  </li>
-<li>Soylent word processor ("it's made of people"), VizWiz - an iPhone app for blind people, Games with a Purpose</li>
-</ul></li>
 
-<li>Date TBA : [Crowdsourcing and social science](readings/social-science.html)
-<ul>
-<li>Experiments in linguistics, cognitive science, and political science</li>
-<li>Ethics of crowdsourcing</li>
-<li>How to apply for Institutional Review Board approval</li>
-</ul></li>
+###Date TBA : [Crowdsourcing and machine learning]
+- Importance of labeled training data in ML, Computer Vision, Natural Language Processing
+- Uses of crowdsourcing to reduce cost of ML, cost of expert annotations
+- Uses of ML to reduce cost of crowdsourcing, EM algorithms for qualtiy estimation
+####Reading
+	- "The Wisdom of Crowds" Chapter 7 - Traffic
+	- "The Wisdom of Crowds" Chapter 8 - Science
+	- [Maximum Likelihood Estimation of Observer Error-rates using the EM Algorithm](readings/downloads/ml/EM.pdf), the theory which is implemented by [Project Troia](http://project-troia.com/), which you will use in your assignment. This paper is math-heavy, but you all are a smart lot. [Believe in yourself.](http://virginiachepete.com/wp-content/uploads/2013/06/hey-you-can-do-it.jpg)
+	- [CrowdFlow: Integrating Machine Learning with Mechanical Turk for Speed-Cost-Quality Flexibility](readings/downloads/ml/QuinnEtAl.pdf), describes a framework for using both computers and humans to label data
 
-<li>Date TBA : [Collective intelligence](readings/collective-intelligence.html)
-<ul>
-<li>Surveying and polls, Prediction markets, A/B testing, Data mining</li>
-<li>Crowdfunding, product valuation, product reviews</li>
-</ul></li>
 
-<li>Company profiles (student presentations)
+###Date TBA : [Applications to human computer interaction (HCI) design]
+- Next generation interfaces 
+- Soylent word processor ("it's made of people"), VizWiz - an iPhone app for blind people, Games with a Purpose
+####Reading
+	- "The Wisdom of Crowds" Chapter 6 - Society Does Exist
+	- [Soylent : A Word Processor with a Crowd Inside](readings/downloads/hci/Soylent.pdf), a plugin for MS Word which allows users to have their work edited by Turkers.
+	- [VizWiz: Nearly Real-time Answers to Visual Questions](readings/downloads/hci/Vizwiz.pdf), an app which uses MTurk to help blind people with simple tasks, like finding matching socks or reading the nutrition labels.
+	- [Games with a purpose](readings/downloads/hci/GWAP.pdf), clever ideas for tricking people into having fun so you don't have to pay them to label your data.
+
+###Date TBA : [Crowdsourcing and social science]
+- Experiments in linguistics, cognitive science, and political science
+- Ethics of crowdsourcing
+- How to apply for Institutional Review Board approval
+####Reading
+	- "The Wisdom of Crowds" Chapter 11 - Markets
+	- [Citizen Science: Can Volunteers Do Real Research?](readings/downloads/social-science/Cohn.pdf), discussion of the ability of non-experts to collect scientific data.
+	- [Mechanical Turk is not Anonymous](readings/downloads/social-science/LeaseEtAl.pdf), discusses a privacy vunerability in MTurk, and the implications for research ethics.
+	- [Dirty Deeds Done Dirt Cheap](readings/downloads/social-science/Harris.pdf), discussion of some of the potentially malicious uses of crowdsourcing. Mostly included for the fantastically scathing title.
+
+###Date TBA : [Collective intelligence]
+- Surveying and polls, Prediction markets, A/B testing, Data mining
+- Crowdfunding, product valuation, product reviews
+####Reading
+	- "The Wisdom of Crowds" Chapter 12 - Democracy
+	- [Harnessing the Wisdom of Crowds in Wikipedia: Quality through Coordination](readings/downloads/collective-intelligence/Wikipedia.pdf). I now feel guilty for complaining about group projects with a group size of 3.
+	- [Opinion Mining Using Econometrics: A Case Study of Reputation Systems](readings/downloads/collective-intelligence/GhoseEtAl.pdf), about using online reviews to predict the price differentials for products sold online.
+
+###Company profiles (student presentations)
 <ul>
 <li>Platform providers: [Amazon Mechanical Turk](https://www.mturk.com/mturk/welcome), [oDesk](https://www.odesk.com/), [CrowdFlower](http://crowdflower.com/)</li>
 <li>Creativity: [Threadless](http://www.threadless.com/), [iStockPhoto](http://www.istockphoto.com/), [99Designs](http://99designs.com/)</li>

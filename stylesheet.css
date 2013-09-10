@@ -131,12 +131,14 @@ h6 + h2 {
 
 
 h4, h5, h6 {
-	font-family: Verdana, "Bitstream Vera Sans", sans-serif;
-	font-size: 1em;
+	font-family: "Gill Sans", "Gill Sans Std", "Gill Sans MT", Verdana, "Bitstream Vera Sans", sans-serif;
+	font-size: .88em;
 	text-align: left;
-	font-weight: bold;
+	font-weight: normal;
 	line-height: 1.8em;
-	margin: 2em 0 0 0;
+	letter-spacing: .2em;
+	margin-bottom: 0.1em;
+	margin-top: 0.3em;
 	}
 
 strong {
