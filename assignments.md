@@ -16,6 +16,14 @@ You will be allowed 5 late days total to be used across all assignments, without
 
 Please email your assignments to <b>crowdsourcing.class@gmail.com</b>, with <b>{{YOUR NAME}} Assignment #</b> in the subject line. (I tried for crowdsourcing-class@gmail.com, but '-' is a special character. I know. I cried, too.)
 
+###Grading scale
+
+- 9 weekly assignments : 45 pts (5 pt each)
+- In-class presentation of company profile : 10 pts 
+- In-class proposal of final project : 10 pts
+- In-class video demo of final project : 10 pts
+- Final project : 25 pts
+
 ## Written assignments
 
 - Due September 4 [Written Assignment 1](assignments/wa1.html): Sign up for a Worker accout on MTurk and write about your experience

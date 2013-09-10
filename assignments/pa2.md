@@ -9,7 +9,7 @@
 
 # Crowdsourcing and Human Computation
 
-##Programming Assignment 2 : Due TBA 
+##Programming Assignment 2 : Due Wednesday, September 18
 
 This week, you will be using MTurk to label the data you scraped from Twitter in the last programming assignment. The theme of this assignment (and, really, the class) is quality. As you saw in your first assignment, MTurk tasks are usually simple and, yes, boring. Some turkers are lured in by the desire to strike it rich, two cents at a time, and will not pour their heart into giving you their highest quality work. Many other Turkers make a sincere effort, but can still make errors. Even if every Turker is perfectly reliable, we are dealing with a subjective question- classifying sentiment- and are guarenteed to get variation in the answers we recieve. In this assignment, we will address these issues in two ways:
 
@@ -45,17 +45,21 @@ For this assignment, we will be using MTurk's online GUI interface to design our
 
 ###Designing the HIT
 
-1. Log onto MTurk as a requester
+1. Log onto MTurk as a requester. You should log onto the [requester sandbox site](https://requestersandbox.mturk.com/), and design your HIT there. This will look exactly like the regular requester site, except it will post your HITs to the [worker sandbox site](https://workersandbox.mturk.com/mturk/welcome) so you can view them from the worker's perspective, and try them yourself, before posting them for real. 
 
 2. Click on <img src="../images/getstarted.png" align="middle"> and then choose "New Project" <img src="../images/newproject.png" align="middle">
 
 3. We will be using the "Other" option. You probably noticed that there is a "Sentiment" option (we never claimed that this assignment was original). Feel free to click through it and see how it is set up; nothing should look too different from what we will be doing. For a lesser person, this click-and-go option is perfectly sufficient. We, however, have standards to uphold, and so will not be using it since it does not allow us to add in our gold standard data.  
 
-4. Fill out the fields with titles, descriptions, etc. Check the "explicit content" box if relevent. (Oh God! Which company did you choose?) When you get to the "reward per assignment" and the "number of assignments per HIT" fields, we will be offering $.XX per HIT and assigning each HIT to Y Turkers. 
+4. Fill out the fields with titles, descriptions, etc. Check the "explicit content" box if relevent. (Oh God! Which company did you choose?) When you get to the "reward per assignment" and the "number of assignments per HIT" fields, we will be offering $.05 per HIT and assigning each HIT to 3 Turkers. 
 
-5. Click on "Advanced" and "Worker Qualifications." Remove the "Master Qualification" requirement, and any other requirements that are listed. MTurk offers to screen workers for you, based on the number and types of HITs they have done in the past. In general, this is a good idea, but for this class, we are willing to face the wild west of of Mechanical Turk : Unfiltered.
+5. Click on "Advanced" and "Worker Qualifications." Remove the "Master Qualification" requirement, and any other requirements that are listed. MTurk offers to screen workers for you, based on the number and types of HITs they have done in the past. In general, this may be a good idea, but for this class, we are willing to face the wild west of of Mechanical Turk : Unfiltered.
 
 6. In the next screen, you will see a frame where you can edit your HIT graphically, which is primed with examples of every possible button/menu/checkbox you could never need. You can delete most of this, it is just there for illustration. You are free to design your HIT however you want, using either the GUI editor or using your shiny CS degree to edit the html directly. Keep in mind what we have discussed in lecture about good HIT design. Keep things simple and clear.
+
+7. Make sure your directions <b>explicitly</b> instruct turkers to rate sentiment with respect to your chosen person or company. Tweets are very often ambiguous, emotionally complex, deeply profound statements on the human condition. Don't make your Turkers decipher all of that. Tell them exactly what you are expecting. 
+
+8. Your HIT should allow workers to rate the HIT sentiment on a 5-point scale (<code>strongly negative, negative, neutral, positive, strongly positive</code>), and should also contain a sixth option <code>"tweet does not refer to subject X"</code>. This is important to avoid confusion in the case of companies like Apple or Windows, whose names have meanings other than the company. 
 
 	You will need to encode variables into your HIT design, so that each HIT loads its data from a different line in your CSV file. On MTurk, you can denote variable fields using the syntax <code>${{VARIABLE&#95;NAME}}</code>. When being compiled, this field will be populated with a cell from your CSV file from the column headed by <code>VARIABLE&#95;NAME</code>. You can read more about MTurk's conventions [here](https://requester.mturk.com/help/getting_started.html#TemplateVariables). This syntax can be used either in the GUI or in the html, e.g.
 
@@ -63,10 +67,12 @@ For this assignment, we will be using MTurk's online GUI interface to design our
 	<td><img src="../images/vars1.png" align="middle"></td><td><img src="../images/vars2.png" align="middle"></td>
 	</tr></table>
 
-7. When you complete the design for your template and click finish, you should see your project listed next to a button that says "New Batch". Click this and upload your data, <code>tweets&#95;with&#95;controls.csv</code>. Make sure the preview looks okay, and then you can publish your HITs.  
+9. When you complete the design for your template and click finish, you should see your project listed next to a button that says "New Batch". Click this and upload your data, <code>tweets&#95;with&#95;controls.csv</code>. Make sure the preview looks okay, and then you can publish your HITs.  
 <img src="../images/newbatch.png" align="middle">
 
-8. Congrats! You can now sit back and watch the highly noisy data roll in. Under the "Manage" tab, you can keep track of how many of your HITs have been completed and can look at the results you are receiving. You should follow the progress of your HIT over the next week, but do not approve or reject anyone yet. This will be the subject of the next assignment. I know, I know, try to contain the excitement. 
+10. Your HITs should be available on the worker sandbox. You can find them by searching for your requester name. Do a few of them and make sure everything looks and works as you envisioned it. Sanity check the results under the manage tab on the requester sandbox. When everything looks good, you can post it on the real mturk. 
+
+11. Congrats! You can now sit back and watch the highly noisy data roll in. Under the "Manage" tab, you can keep track of how many of your HITs have been completed and can look at the results you are receiving. You should follow the progress of your HIT over the next week, but do not approve or reject anyone yet. This will be the subject of the next assignment. I know, I know, try to contain the excitement. 
 
 
 
