@@ -39,23 +39,22 @@
 - Categorization system: motivation, quality control, aggregation, human skill, process flow
 ####Reading
 	- "The Wisdom of Crowds" Chapter 4 - Putting the Pieces Together
-	- "The Wisdom of Crowds" Chapter 5 - Shall We Dance?
-	- [Exploring Iterative and Parallel Human Computation Processes](readings/downloads/programming/LittleEtAl.pdf), by researchers out of MIT and University of Washington. (This paper wins the prize for the best quote : "We considered other puzzle possibilities, but were concerned that they might be too fun.")
-	- ["TurKit: Human Computation Algorithms on Mechanical Turk"](readings/downloads/programming/Turkit.pdf), the research from the above paper applied
 	- [Worker Evaluation in Crowdsourcing: Gold Data or Multiple Workers?](http://www.behind-the-enemy-lines.com/2010/09/worker-evaluation-in-crowdsourcing-gold.html), Panos Ipeirotis' blog post estimating the quality of workers. 
 
 ###Upcoming: [Programming concepts for human computation]()
-- People as function calls</li>
-- Designing good HITs: Decomposing complex tasks into simpler subtasks</li>
-- Memorizataion, parallel processing, iterative refinement</li>
-- Controlling quality</li>
+- People as function calls, decomposing complex tasks into simpler subtasks
+- Memorizataion, parallel processing, iterative refinement
+####Reading
+	- "The Wisdom of Crowds" Chapter 5 - Shall We Dance?
+	- [Exploring Iterative and Parallel Human Computation Processes](readings/downloads/programming/LittleEtAl.pdf), by researchers out of MIT and University of Washington. (This paper wins the prize for the best quote : "We considered other puzzle possibilities, but were concerned that they might be too fun.")
+	- ["TurKit: Human Computation Algorithms on Mechanical Turk"](readings/downloads/programming/Turkit.pdf), the research from the above paper applied
 
 ###Date Upcoming : [The economics of crowdsourcing]()
 - Pricing HITs, incentivizing Turkers
 - Ensuring high quality data, balancing cost and quality
 ####Reading 
-	- "The Wisdom of Crowds" Chapter 9 - Committees, Juries, and Teams
 	- "The Wisdom of Crowds" Chapter 10 - The Company
+	- "The Wisdom of Crowds" Chapter 11 - Markets
 	- [Financial Incentives and the "Performance of Crowds"](readings/downloads/econ/MasonAndWatts.pdf)
 	- [Cheap and Fast - But is it Good?](readings/downloads/econ/SnowEtAl.pdf), about the using non-expert workers to collect expert-quality data.
 	- [Get Another Label? Improving Data Quality and Data Mining Using Multiple, Noisy Labelers](readings/downloads/econ/ShengEtAl.pdf), about using redundant labeling to improve data quality and how to balance cost and quality
@@ -66,8 +65,8 @@
 - Uses of crowdsourcing to reduce cost of ML, cost of expert annotations
 - Uses of ML to reduce cost of crowdsourcing, EM algorithms for qualtiy estimation
 ####Reading
+	- "The Wisdom of Crowds" Chapter 6 - Society Does Exist
 	- "The Wisdom of Crowds" Chapter 7 - Traffic
-	- "The Wisdom of Crowds" Chapter 8 - Science
 	- [Maximum Likelihood Estimation of Observer Error-rates using the EM Algorithm](readings/downloads/ml/EM.pdf), the theory which is implemented by [Project Troia](http://project-troia.com/), which you will use in your assignment. This paper is math-heavy, but you all are a smart lot. [Believe in yourself.](http://virginiachepete.com/wp-content/uploads/2013/06/hey-you-can-do-it.jpg)
 	- [CrowdFlow: Integrating Machine Learning with Mechanical Turk for Speed-Cost-Quality Flexibility](readings/downloads/ml/QuinnEtAl.pdf), describes a framework for using both computers and humans to label data
 
@@ -75,7 +74,7 @@
 - Next generation interfaces 
 - Soylent word processor ("it's made of people"), VizWiz - an iPhone app for blind people, Games with a Purpose
 ####Reading
-	- "The Wisdom of Crowds" Chapter 6 - Society Does Exist
+	- "The Wisdom of Crowds" Chapter 8 - Science
 	- [Soylent : A Word Processor with a Crowd Inside](readings/downloads/hci/Soylent.pdf), a plugin for MS Word which allows users to have their work edited by Turkers.
 	- [VizWiz: Nearly Real-time Answers to Visual Questions](readings/downloads/hci/Vizwiz.pdf), an app which uses MTurk to help blind people with simple tasks, like finding matching socks or reading the nutrition labels.
 	- [Games with a purpose](readings/downloads/hci/GWAP.pdf), clever ideas for tricking people into having fun so you don't have to pay them to label your data.
@@ -85,7 +84,7 @@
 - Ethics of crowdsourcing
 - How to apply for Institutional Review Board approval
 ####Reading
-	- "The Wisdom of Crowds" Chapter 11 - Markets
+	- "The Wisdom of Crowds" Chapter 9 - Committees, Juries, and Teams
 	- [Citizen Science: Can Volunteers Do Real Research?](readings/downloads/social-science/Cohn.pdf), discussion of the ability of non-experts to collect scientific data.
 	- [Mechanical Turk is not Anonymous](readings/downloads/social-science/LeaseEtAl.pdf), discusses a privacy vunerability in MTurk, and the implications for research ethics.
 	- [Dirty Deeds Done Dirt Cheap](readings/downloads/social-science/Harris.pdf), discussion of some of the potentially malicious uses of crowdsourcing. Mostly included for the fantastically scathing title.
