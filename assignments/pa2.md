@@ -72,7 +72,7 @@ For this assignment, we will be using MTurk's online GUI interface to design our
 
 10. Your HITs should be available on the worker sandbox. You can find them by searching for your requester name. Do a few of them and make sure everything looks and works as you envisioned it. Sanity check the results under the manage tab on the requester sandbox. When everything looks good, you can post it on the real mturk. 
 
-11. Congrats! You can now sit back and watch the highly noisy data roll in. Under the "Manage" tab, you can keep track of how many of your HITs have been completed and can look at the results you are receiving. You should follow the progress of your HIT over the next week, but do not approve or reject anyone yet. This will be the subject of the next assignment. I know, I know, try to contain the excitement. 
+11. Congrats! You can now sit back and watch the highly noisy data roll in. Under the "Manage" tab, you can keep track of how many of your HITs have been completed and can look at the results you are receiving. You should follow the progress of your HIT over the next week, and approve the submissions. We will run several 'what-if' quality control scenerios in the next assignment to see who we could've rejected, but for now, we will just approve everyone.
 
 
 
