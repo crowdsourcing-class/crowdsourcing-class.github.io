@@ -27,7 +27,7 @@ Please email your assignments to <b>crowdsourcing.class@gmail.com</b>, with <b>{
 ## Written assignments
 
 - Due September 4 [Written Assignment 1](assignments/wa1.html): Sign up for a Worker accout on MTurk and write about your experience
-- Written Assignment 2 : Write a company profile
+- [<b>Sign up for a company and presentation date</b>](https://docs.google.com/spreadsheet/ccc?key=0Aqm_QKjV_1EkdHdYRU1lOXFncHFxaXVDdTJqZVRuR1E&usp=sharing) Written Assignment 2 : Write a company profile 
 - Written Assignment 3 : Write a synthesis of academic papers
 - Written Assignment 4 : Cost analysis of Twitter sentiment classifer
 
@@ -36,7 +36,7 @@ Please email your assignments to <b>crowdsourcing.class@gmail.com</b>, with <b>{
 You will complete a sequence of programming assignments that culminate in building a [Sentiment Analysis](http://en.wikipedia.org/wiki/Sentiment_analysis) system that will classify Tweets about companies as either positive, negative, or neutral.  Sample python code will be provided for many of the programming assignments.
 
 - Due September 11 [Programming Assignment 1](assignments/pa1.html): Sign up for a Requester account on MTurk, gather data from Twitter
-- <b>Due Sepetember 18th</b> [Programming Assignment 2](assignments/pa2.html): Design a HIT
+- Due Sepetember 18th [Programming Assignment 2](assignments/pa2.html): Design a HIT
 - Due TBA [Programming Assignment 3](assignments/pa3.html) : Automaticaly grade the Turkers
 - Due TBA [Programming Assignment 4](assignments/pa4.html) : Quality control comparison
 - Due TBA Programming Assignment 5 : Train a machine learning classifier to predict sentiment on Twitter
