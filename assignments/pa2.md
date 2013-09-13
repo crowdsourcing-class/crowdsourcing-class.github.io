@@ -39,7 +39,7 @@ For this assignment, we will be using MTurk's online GUI interface to design our
  
 2. Once you have completed the code, you can run the script in the command line:
 
-	<code>$ python embed_controls.py</code>
+	<code>$ python embed&#95;controls.py</code>
 	
 	This will generate a file called <code>tweets&#95;with&#95;controls.csv</code>. Open it and check that it looks sensible.  
 
@@ -74,5 +74,4 @@ For this assignment, we will be using MTurk's online GUI interface to design our
 
 11. Congrats! You can now sit back and watch the highly noisy data roll in. Under the "Manage" tab, you can keep track of how many of your HITs have been completed and can look at the results you are receiving. You should follow the progress of your HIT over the next week, and approve the submissions. We will run several 'what-if' quality control scenerios in the next assignment to see who we could've rejected, but for now, we will just approve everyone.
 
-
-
+12. When all your HITs are completed, you can download your results. This will give you a file called something intuitive like <code>Batch&#95;55579&#95;batch&#95;results.csv</code>. You can rename this whatever you like, but I will refer to it as <code>hits.csv</code>. See [part b](pa2b.html), which guides you through a quick analysis of your data and gives information on what you need to actually submit to me.

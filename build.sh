@@ -6,6 +6,7 @@
 ./Markdown_1.0.1/Markdown.pl resources.md | perl Markdown_1.0.1/wrap.pl > resources.html 
 ./Markdown_1.0.1/Markdown.pl assignments/pa1.md | perl Markdown_1.0.1/wrap.pl > assignments/pa1.html 
 ./Markdown_1.0.1/Markdown.pl assignments/pa2.md | perl Markdown_1.0.1/wrap.pl > assignments/pa2.html 
+./Markdown_1.0.1/Markdown.pl assignments/pa2b.md | perl Markdown_1.0.1/wrap.pl > assignments/pa2b.html 
 ./Markdown_1.0.1/Markdown.pl assignments/pa3.md | perl Markdown_1.0.1/wrap.pl > assignments/pa3.html 
 ./Markdown_1.0.1/Markdown.pl assignments/pa4.md | perl Markdown_1.0.1/wrap.pl > assignments/pa4.html 
 ./Markdown_1.0.1/Markdown.pl assignments/pa5.md | perl Markdown_1.0.1/wrap.pl > assignments/pa5.html 

@@ -1,0 +1,38 @@
+<html>
+<head><title>Crowdsourcing and Human Computation: Special Topics CIS 399-001</title></head>
+<body>
+<link rel="stylesheet" type="text/css" href="stylesheet.css" /><ul id="ProjectSubmenu">
+    <li><a class="home" href="../index.html" title="Home">Home</a></li>
+    <li><a class="syllabus" href="../syllabus.html" title="Lectures">Lectures</a></li>
+    <li><a class="assignments" href="../assignments.html" title="Assignments">Assignments</a></li>
+    <li><a class="resources" href="../resources.html" title="Resources">Readings</a></li>
+</ul>
+
+<p><link rel="stylesheet" type="text/css" href="../stylesheet.css" /></p>
+
+<h1>Crowdsourcing and Human Computation</h1>
+
+<h2>Programming Assignment 2 : Due Wednesday, September 18</h2>
+
+<p>Now that you have data from MTurk, let's take a look at your results. We will make use of <a href="https://google-developers.appspot.com/chart/interactive/docs/index">Google Charts API</a>, probably Google's single greatest contribution to society at large. This will allow us generate fancy looking charts without having to have any artistic vision or skill. </p>
+
+<p>Download this <a href="downloads/visualize_data.py">brute force python script</a> and run it like so:</p>
+
+<ul>
+<li><code>$ python visualize&#95;.py hits.csv > hit_analysis.html</code></li>
+</ul>
+
+<p>This will generate some html and javascript for you, and you should be able to open the the html file in your browser. You should see the distribution of the labels you received. Click on the bars to see the tweets that received that label (clicking on the tweet text will scroll advance you through all the tweets). </p>
+
+<p><b>Note</b>: The python script assumes that the answers you received from the turkers are the string <code>['strongly negative', 'negative', 'neutral', 'positive', 'strongly positive']</code>. If you saved turkers' answers using some other labeling, you will need to edit lines 26 and 27 to reflect this.</p>
+
+<p>You should turn in:</p>
+
+<ul>
+<li>A screen shot of your Requester page showing your HITs are posted and/or are in progress</li>
+<li>Your <code>hits.csv</code> file, with your Turkers' answers</li>
+<li><code>hit_analysis.html</code>, with your visualization of the data</li>
+<li>Some intelligent and/or interesting observation about your data. Are the tweets skewed in one direction? Why do you think that is? Is agreement high? Is it higher for positive tweets than for negative tweets? What are some especially ambiguous tweets? </li>
+</ul>
+</body>
+</html>
