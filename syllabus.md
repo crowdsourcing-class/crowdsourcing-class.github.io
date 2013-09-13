@@ -17,7 +17,6 @@
 #####Reading
 	- "The Wisdom of Crowds" Chapter 0 - Introduction
 	- "The Wisdom of Crowds" Chapter 1 - The Wisdom of Crowds
-	- ["Human Computation: A Survey and Taxonomy of a Growing Field"](readings/downloads/intro/QuinnAndBederson.pdf) by researchers out of University of Maryland
 	- ["Harnessing Crowds: Mapping the Genome of Collective Intelligence"](readings/downloads/intro/MaloneEtAl.pdf) by researchers out of MIT and Boston University
 	- The [Wired article](readings/downloads/intro/Wired.pdf) which coined the phrase "Crowdsourcing"
 
@@ -35,10 +34,11 @@
 	- ["Running experiments on Amazon Mechanical Turk"](readings/downloads/platform/PaolacciEtAl.pdf), an overview of the MTurk platform, and the associated benefits and challenges
 	- [Crowdsourcing User Studies With Mechanical Turk](readings/downloads/platform/KitturEtAl.pdf), about best-practices for designing tasks for a crowdsourcing environment.
 
-###Upcoming: [Taxonomy of crowdsourcing and human computation]()
+###September 11: [Taxonomy of crowdsourcing and human computation](slides/taxonomy-of-human-computation.pdf)
 - Categorization system: motivation, quality control, aggregation, human skill, process flow
 ####Reading
 	- "The Wisdom of Crowds" Chapter 4 - Putting the Pieces Together
+	- ["Human Computation: A Survey and Taxonomy of a Growing Field"](readings/downloads/intro/QuinnAndBederson.pdf) by researchers out of University of Maryland
 	- [Worker Evaluation in Crowdsourcing: Gold Data or Multiple Workers?](http://www.behind-the-enemy-lines.com/2010/09/worker-evaluation-in-crowdsourcing-gold.html), Panos Ipeirotis' blog post estimating the quality of workers. 
 
 ###Upcoming: [Programming concepts for human computation]()
