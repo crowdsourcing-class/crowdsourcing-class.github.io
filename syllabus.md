@@ -24,7 +24,8 @@
 - Terminology and mechanics: Turkers, Requesters, HITs, micropayments
 ####Reading
 	- "The Wisdom of Crowds" Chapter 2 - The Difference Difference Makes
-	- [Analyzing the Amazon Mechanical Turk Marketplace](readings/downloads/platform/Ipeirotis.pdf), about the demographics of MTurk
+	- [Analyzing the Amazon Mechanical Turk Marketplace](readings/downloads/platform/Ipeirotis.pdf)
+	- [The Demographics of MTurk](readings/downloads/platform/demographics-of-mturk.pdf)
 
 ###September 9: [The Mechanical Turk crowdsourcing platform - part 2](slides/being-an-mturk-requester.pdf)
 - Amazon Mechanical Turk from the Requester's perspective: Designing HITs, qualifications, pricing HITs, approving/rejecting, IRB/human subjects and university research
