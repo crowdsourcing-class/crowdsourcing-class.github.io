@@ -28,11 +28,12 @@
 	- [The Demographics of MTurk](readings/downloads/platform/demographics-of-mturk.pdf)
 
 ###September 9: [The Mechanical Turk crowdsourcing platform - part 2](slides/being-an-mturk-requester.pdf)
-- Amazon Mechanical Turk from the Requester's perspective: Designing HITs, qualifications, pricing HITs, approving/rejecting, IRB/human subjects and university research
+- Amazon Mechanical Turk from the Requester's perspective: Designing HITs, qualifications, pricing HITs, approving/rejecting
 ####Reading
 	- "The Wisdom of Crowds" Chapter 3 - Monkey See, Monkey Do
-	- ["Running experiments on Amazon Mechanical Turk"](readings/downloads/platform/PaolacciEtAl.pdf), an overview of the MTurk platform, and the associated benefits and challenges
-	- [Crowdsourcing User Studies With Mechanical Turk](readings/downloads/platform/KitturEtAl.pdf), about best-practices for designing tasks for a crowdsourcing environment.
+	- [Requester Tour of Mechanical Turk](https://requester.mturk.com/tour}
+	- [Mechanical Turk blog](http://mechanicalturk.typepad.com/blog/requester/)
+
 
 ###September 11: [Taxonomy of crowdsourcing and human computation](slides/taxonomy-of-human-computation.pdf)
 - Categorization system: motivation, quality control, aggregation, human skill, process flow
@@ -91,6 +92,8 @@
 - How to apply for Institutional Review Board approval
 ####Reading
 	- "The Wisdom of Crowds" Chapter 9 - Committees, Juries, and Teams
+	- ["Running experiments on Amazon Mechanical Turk"](readings/downloads/platform/PaolacciEtAl.pdf), an overview of the MTurk platform, and the associated benefits and challenges
+	- [Crowdsourcing User Studies With Mechanical Turk](readings/downloads/platform/KitturEtAl.pdf), about best-practices for designing tasks for a crowdsourcing environment.
 	- [Citizen Science: Can Volunteers Do Real Research?](readings/downloads/social-science/Cohn.pdf), discussion of the ability of non-experts to collect scientific data.
 	- [Mechanical Turk is not Anonymous](readings/downloads/social-science/LeaseEtAl.pdf), discusses a privacy vunerability in MTurk, and the implications for research ethics.
 	- [Dirty Deeds Done Dirt Cheap](readings/downloads/social-science/Harris.pdf), discussion of some of the potentially malicious uses of crowdsourcing. Mostly included for the fantastically scathing title.
