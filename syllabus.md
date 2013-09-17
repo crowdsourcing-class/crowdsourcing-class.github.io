@@ -13,7 +13,6 @@
 
 ###August 28 : [Intro Lecture](slides/class-intro.pdf)
 - Relationship between crowdsourcing, human computation, collective intelligence, data mining, social computing
-- Categorization system: motivation, quality control, aggregation, human skill, process flow
 #####Reading
 	- "The Wisdom of Crowds" Chapter 0 - Introduction
 	- "The Wisdom of Crowds" Chapter 1 - The Wisdom of Crowds
@@ -41,13 +40,18 @@
 	- ["Human Computation: A Survey and Taxonomy of a Growing Field"](readings/downloads/intro/QuinnAndBederson.pdf) by researchers out of University of Maryland
 	- [Worker Evaluation in Crowdsourcing: Gold Data or Multiple Workers?](http://www.behind-the-enemy-lines.com/2010/09/worker-evaluation-in-crowdsourcing-gold.html), Panos Ipeirotis' blog post estimating the quality of workers. 
 
-###Upcoming: [Programming concepts for human computation]()
+###September 17: [Programming concepts for human computation]()
 - People as function calls, decomposing complex tasks into simpler subtasks
 - Memorizataion, parallel processing, iterative refinement
 ####Reading
 	- "The Wisdom of Crowds" Chapter 5 - Shall We Dance?
-	- [Exploring Iterative and Parallel Human Computation Processes](readings/downloads/programming/LittleEtAl.pdf), by researchers out of MIT and University of Washington. (This paper wins the prize for the best quote : "We considered other puzzle possibilities, but were concerned that they might be too fun.")
 	- ["TurKit: Human Computation Algorithms on Mechanical Turk"](readings/downloads/programming/Turkit.pdf), the research from the above paper applied
+
+###September 18: [Experiments with TurKit]()
+####Reading
+	- [Exploring Iterative and Parallel Human Computation Processes](readings/downloads/programming/LittleEtAl.pdf), by researchers out of MIT and University of Washington. (This paper wins the prize for the best quote : "We considered other puzzle possibilities, but were concerned that they might be too fun.")
+
+
 
 ###Date Upcoming : [The economics of crowdsourcing]()
 - Pricing HITs, incentivizing Turkers
