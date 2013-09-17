@@ -48,7 +48,8 @@
 - [Quicksort for kittens](slides/quicksort-with-kittens.mov)
 ####Reading
 	- "The Wisdom of Crowds" Chapter 5 - Shall We Dance?
-	- ["TurKit: Human Computation Algorithms on Mechanical Turk"](readings/downloads/programming/Turkit.pdf), the research from the above paper applied
+	- ["TurKit: Human Computation Algorithms on Mechanical Turk"](readings/downloads/programming/Turkit.pdf)
+	- [Download the TurKit software from the MIT Computer Science and Artificial Intelligence Laboratory](http://groups.csail.mit.edu/uid/turkit/)
 
 ###September 18: [Experiments with TurKit]()
 ####Reading
