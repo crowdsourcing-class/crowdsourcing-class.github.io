@@ -40,9 +40,10 @@
 	- ["Human Computation: A Survey and Taxonomy of a Growing Field"](readings/downloads/intro/QuinnAndBederson.pdf) by researchers out of University of Maryland
 	- [Worker Evaluation in Crowdsourcing: Gold Data or Multiple Workers?](http://www.behind-the-enemy-lines.com/2010/09/worker-evaluation-in-crowdsourcing-gold.html), Panos Ipeirotis' blog post estimating the quality of workers. 
 
-###September 17: [Programming concepts for human computation]()
+###September 17: [Programming concepts for human computation](slides/programming-the-crowd.pdf)
 - People as function calls, decomposing complex tasks into simpler subtasks
-- Memorizataion, parallel processing, iterative refinement
+- Memoizataion of expensive function calls, "Crash and Re-Run"
+- [Quicksort for kittens](slides/quicksort-with-kittens.mov)
 ####Reading
 	- "The Wisdom of Crowds" Chapter 5 - Shall We Dance?
 	- ["TurKit: Human Computation Algorithms on Mechanical Turk"](readings/downloads/programming/Turkit.pdf), the research from the above paper applied
