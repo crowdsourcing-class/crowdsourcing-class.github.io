@@ -54,7 +54,7 @@
 
 
 
-###Date Upcoming : [The economics of crowdsourcing]()
+###Upcoming: [The economics of crowdsourcing]()
 - Pricing HITs, incentivizing Turkers
 - Ensuring high quality data, balancing cost and quality
 ####Reading 
@@ -65,7 +65,7 @@
 	- [Get Another Label? Improving Data Quality and Data Mining Using Multiple, Noisy Labelers](readings/downloads/econ/ShengEtAl.pdf), about using redundant labeling to improve data quality and how to balance cost and quality
 
 
-###Date Upcoming : [Crowdsourcing and machine learning]()
+###Upcoming: [Crowdsourcing and machine learning]()
 - Importance of labeled training data in ML, Computer Vision, Natural Language Processing
 - Uses of crowdsourcing to reduce cost of ML, cost of expert annotations
 - Uses of ML to reduce cost of crowdsourcing, EM algorithms for qualtiy estimation
@@ -75,7 +75,7 @@
 	- [Maximum Likelihood Estimation of Observer Error-rates using the EM Algorithm](readings/downloads/ml/EM.pdf), the theory which is implemented by [Project Troia](http://project-troia.com/), which you will use in your assignment. This paper is math-heavy, but you all are a smart lot. [Believe in yourself.](http://virginiachepete.com/wp-content/uploads/2013/06/hey-you-can-do-it.jpg)
 	- [CrowdFlow: Integrating Machine Learning with Mechanical Turk for Speed-Cost-Quality Flexibility](readings/downloads/ml/QuinnEtAl.pdf), describes a framework for using both computers and humans to label data
 
-###Date Upcoming : [Applications to human computer interaction (HCI) design]()
+###Upcoming: [Applications to human computer interaction (HCI) design]()
 - Next generation interfaces 
 - Soylent word processor ("it's made of people"), VizWiz - an iPhone app for blind people, Games with a Purpose
 ####Reading
@@ -84,7 +84,7 @@
 	- [VizWiz: Nearly Real-time Answers to Visual Questions](readings/downloads/hci/Vizwiz.pdf), an app which uses MTurk to help blind people with simple tasks, like finding matching socks or reading the nutrition labels.
 	- [Games with a purpose](readings/downloads/hci/GWAP.pdf), clever ideas for tricking people into having fun so you don't have to pay them to label your data.
 
-###Date Upcoming : [Crowdsourcing and social science]()
+###Upcoming: [Crowdsourcing and social science]()
 - Experiments in linguistics, cognitive science, and political science
 - Ethics of crowdsourcing
 - How to apply for Institutional Review Board approval
@@ -95,7 +95,7 @@
 	- [Dirty Deeds Done Dirt Cheap](readings/downloads/social-science/Harris.pdf), discussion of some of the potentially malicious uses of crowdsourcing. Mostly included for the fantastically scathing title.
 	- ["Gold Mine or Coal Mine?"](readings/downloads/social-science/FortEtAl.pdf), another fantastically scathing title...
 
-###Date Upcoming : [Collective intelligence]()
+###Upcoming: [Collective intelligence]()
 - Surveying and polls, Prediction markets, A/B testing, Data mining
 - Crowdfunding, product valuation, product reviews
 ####Reading
