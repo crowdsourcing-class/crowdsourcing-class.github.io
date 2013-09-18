@@ -27,7 +27,7 @@ Please email your assignments to <b>crowdsourcing.class@gmail.com</b>, with <b>{
 ## Written assignments
 
 - Due September 4 [Written Assignment 1](assignments/wa1.html): Sign up for a Worker accout on MTurk and write about your experience
-- [<b>Sign up for a company and presentation date</b>](https://docs.google.com/spreadsheet/ccc?key=0Aqm_QKjV_1EkdHdYRU1lOXFncHFxaXVDdTJqZVRuR1E&usp=sharing) Written Assignment 2 : Write a company profile 
+- Due on your [chosen date](https://docs.google.com/spreadsheet/ccc?key=0Aqm_QKjV_1EkdHdYRU1lOXFncHFxaXVDdTJqZVRuR1E&usp=sharing) [Written Assignment 2](assignments/wa3.html) : Write a company profile 
 - Written Assignment 3 : Write a synthesis of academic papers
 - Written Assignment 4 : Cost analysis of Twitter sentiment classifer
 
