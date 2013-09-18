@@ -42,7 +42,7 @@
 	- ["Human Computation: A Survey and Taxonomy of a Growing Field"](readings/downloads/intro/QuinnAndBederson.pdf) by researchers out of University of Maryland
 	- [Worker Evaluation in Crowdsourcing: Gold Data or Multiple Workers?](http://www.behind-the-enemy-lines.com/2010/09/worker-evaluation-in-crowdsourcing-gold.html), Panos Ipeirotis' blog post estimating the quality of workers. 
 
-###September 17: [Programming concepts for human computation](slides/programming-the-crowd.pdf)
+###September 16: [Programming concepts for human computation](slides/programming-the-crowd.pdf)
 - People as function calls, decomposing complex tasks into simpler subtasks
 - Memoizataion of expensive function calls, "Crash and Re-Run"
 - [Quicksort for kittens](slides/quicksort-with-kittens.mov)
@@ -52,10 +52,9 @@
 	- [Download the TurKit software from the MIT Computer Science and Artificial Intelligence Laboratory](http://groups.csail.mit.edu/uid/turkit/)
 
 ###September 18: [Experiments with TurKit]()
+- Programming language with MTurk built in
 ####Reading
 	- [Exploring Iterative and Parallel Human Computation Processes](readings/downloads/programming/LittleEtAl.pdf), by researchers out of MIT and University of Washington. (This paper wins the prize for the best quote : "We considered other puzzle possibilities, but were concerned that they might be too fun.")
-
-
 
 ###Upcoming: [The economics of crowdsourcing]()
 - Pricing HITs, incentivizing Turkers
