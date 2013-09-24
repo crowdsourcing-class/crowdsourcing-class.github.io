@@ -41,6 +41,8 @@ Below are some resources which may be interesting or useful throughout the semes
 
 ["The Wisdom of Crowds" by James Surowiecki](http://www.amazon.com/The-Wisdom-Crowds-James-Surowiecki/dp/0385721706/)
 
+["Human Computation" by Edith Law and Luis Von Ahn](http://www.morganclaypool.com/doi/abs/10.2200/S00371ED1V01Y201107AIM013)
+
 Here is a great [blog](http://www.behind-the-enemy-lines.com/) by Panos Ipeirotis from NYU's Stern School of Business about the trials and tribulations of crowdsourcing. 
 
 FAQs about [creating HITs on MTurk](https://requester.mturk.com/help/getting_started.html) and about [MTurk in general](http://aws.amazon.com/mturk/faqs/).

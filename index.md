@@ -20,6 +20,10 @@
 ##Your [writeup for the next assignment](assignments/wa3.html) is due on Wednesday, September 25. 
 ##The presentation is due on your [chosen presentation day](https://docs.google.com/spreadsheet/ccc?key=0Aqm_QKjV_1EkdHdYRU1lOXFncHFxaXVDdTJqZVRuR1E&usp=sharing). 
 
+##Chris's Office Hours this week will be Thursday 9/27 at 4pm on Google Hangouts. This week's guest will be [Michael Bernstein](http://hci.stanford.edu/msb/).
+
+
+
 ## Course description
 Crowdsourcing and human computation are emerging fields that sit squarely at the intersection of economics and computer science.  They examine how people can be used to solve complex tasks that are currently beyond the capabilities of artificial intelligence algorithms.  Online marketplaces like Mechanical Turk provide an infrastructure that allows micropayments to be given to people in return for completing human intelligence tasks. This opens up previously unthinkable possibilities like people being used as function calls in software.  We will investigate how crowdsourcing can be used for computer science applications like machine learning, next-generation interfaces, and data mining.  Beyond these computer science aspects, we will also delve into topics like prediction markets, how businesses can capitalize on collective intelligence, and the fundamental principles that underly democracy and other group decision-making processes.</p>
 

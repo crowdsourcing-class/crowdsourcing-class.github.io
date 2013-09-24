@@ -51,10 +51,28 @@
 	- ["TurKit: Human Computation Algorithms on Mechanical Turk"](readings/downloads/programming/Turkit.pdf)
 	- [Download the TurKit software from the MIT Computer Science and Artificial Intelligence Laboratory](http://groups.csail.mit.edu/uid/turkit/)
 
-###September 18: [Experiments with TurKit]()
+###September 18: [Experiments with TurKit](slides/iterative-and-parallel-processing.pdf)
 - Programming language with MTurk built in
 ####Reading
 	- [Exploring Iterative and Parallel Human Computation Processes](readings/downloads/programming/LittleEtAl.pdf), by researchers out of MIT and University of Washington. (This paper wins the prize for the best quote : "We considered other puzzle possibilities, but were concerned that they might be too fun.")
+
+###September 23: [Crowdsourcing and human computer interaction (HCI) design](slides/crowdsourcing-and-HCI.pdf)
+- Next generation interfaces 
+- Soylent word processor ("it's made of people")
+####Reading
+	- "The Wisdom of Crowds" Chapter 8 - Science
+	- [Soylent : A Word Processor with a Crowd Inside](readings/downloads/hci/Soylent.pdf), a plugin for MS Word which allows users to have their work edited by Turkers.
+	- [VizWiz: Nearly Real-time Answers to Visual Questions](readings/downloads/hci/Vizwiz.pdf), an app which uses MTurk to help blind people with simple tasks, like finding matching socks or reading the nutrition labels.
+
+###September 25: [Crowdsourcing and HCI part 2 - privacy and latency]()
+- E-mail Valet
+- Adrenaline
+####Reading
+	- [Crowds in Two Seconds: Enabling Realtime Crowd-Powered Interfaces](readings/downloads/hci/adrenaline.pdf)
+	- [EmailValet: Managing Email Overload through Private, Accountable Crowdsourcing](readings/downloads/hci/EmailValet.pdf)
+	- [VizWiz: Nearly Real-time Answers to Visual Questions](readings/downloads/hci/Vizwiz.pdf), an app which uses MTurk to help blind people with simple tasks, like finding matching socks or reading the nutrition labels.
+
+
 
 ###Upcoming: [The economics of crowdsourcing]()
 - Pricing HITs, incentivizing Turkers
@@ -76,14 +94,6 @@
 	- "The Wisdom of Crowds" Chapter 7 - Traffic
 	- [Maximum Likelihood Estimation of Observer Error-rates using the EM Algorithm](readings/downloads/ml/EM.pdf), the theory which is implemented by [Project Troia](http://project-troia.com/), which you will use in your assignment. This paper is math-heavy, but you all are a smart lot. [Believe in yourself.](http://virginiachepete.com/wp-content/uploads/2013/06/hey-you-can-do-it.jpg)
 	- [CrowdFlow: Integrating Machine Learning with Mechanical Turk for Speed-Cost-Quality Flexibility](readings/downloads/ml/QuinnEtAl.pdf), describes a framework for using both computers and humans to label data
-
-###Upcoming: [Applications to human computer interaction (HCI) design]()
-- Next generation interfaces 
-- Soylent word processor ("it's made of people"), VizWiz - an iPhone app for blind people, Games with a Purpose
-####Reading
-	- "The Wisdom of Crowds" Chapter 8 - Science
-	- [Soylent : A Word Processor with a Crowd Inside](readings/downloads/hci/Soylent.pdf), a plugin for MS Word which allows users to have their work edited by Turkers.
-	- [VizWiz: Nearly Real-time Answers to Visual Questions](readings/downloads/hci/Vizwiz.pdf), an app which uses MTurk to help blind people with simple tasks, like finding matching socks or reading the nutrition labels.
 	- [Games with a purpose](readings/downloads/hci/GWAP.pdf), clever ideas for tricking people into having fun so you don't have to pay them to label your data.
 
 ###Upcoming: [Crowdsourcing and social science]()
