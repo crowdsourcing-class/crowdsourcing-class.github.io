@@ -98,7 +98,7 @@ Once these categories are known, the logic is very simple. See the pseudocode be
 
 <br><br>
 
-<li> Finally, run the analysis. This will just pring out how many approvals and rejections you made under each of the methods. 
+<li> Finally, run the analysis. This will just print out how many approvals and rejections you made under each of the methods. 
 
 	<ul>
 	<li><code>$ python analysis.py</code> 
