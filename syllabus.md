@@ -13,6 +13,7 @@
 
 ###August 28 : [Intro Lecture](slides/class-intro.pdf)
 - Relationship between crowdsourcing, human computation, collective intelligence, data mining, social computing
+- Examples of crowdsourcing and human computation
 #####Reading
 	- "The Wisdom of Crowds" Chapter 0 - Introduction
 	- "The Wisdom of Crowds" Chapter 1 - The Wisdom of Crowds
