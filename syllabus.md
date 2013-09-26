@@ -62,7 +62,6 @@
 ####Reading
 	- "The Wisdom of Crowds" Chapter 8 - Science
 	- [Soylent : A Word Processor with a Crowd Inside](readings/downloads/hci/Soylent.pdf), a plugin for MS Word which allows users to have their work edited by Turkers.
-	- [VizWiz: Nearly Real-time Answers to Visual Questions](readings/downloads/hci/Vizwiz.pdf), an app which uses MTurk to help blind people with simple tasks, like finding matching socks or reading the nutrition labels.
 
 ###September 25: [Crowdsourcing and HCI part 2 - privacy and latency](slides/crowdsourcing-and-HCI-privacy-and-latency.pdf)
 - E-mail Valet
