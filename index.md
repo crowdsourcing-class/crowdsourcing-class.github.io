@@ -17,8 +17,7 @@
 ### Email for submitting assignments: crowdsourcing.class@gmail.com
 
 
-##Your [writeup for the next assignment](assignments/wa3.html) is due on Wednesday, September 25. 
-##The presentation is due on your [chosen presentation day](https://docs.google.com/spreadsheet/ccc?key=0Aqm_QKjV_1EkdHdYRU1lOXFncHFxaXVDdTJqZVRuR1E&usp=sharing). 
+##Your [next assignment](assignments/pa3.html) is due on Wednesday, October 2. 
 
 ##Chris's Office Hours this week will be Thursday 9/27 at 4pm on Google Hangouts. This week's guest will be [Michael Bernstein](http://hci.stanford.edu/msb/).
 
