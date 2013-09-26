@@ -38,7 +38,7 @@ You will complete a sequence of programming assignments that culminate in buildi
 - Due September 11 [Programming Assignment 1](assignments/pa1.html): Sign up for a Requester account on MTurk, gather data from Twitter
 - Due Sepetember 18th [Programming Assignment 2a](assignments/pa2.html): Design a HIT
 - Due Sepetember 18th [Programming Assignment 2b](assignments/pa2b.html): Visualization of your results (super easy) 
-- Due October 2nd [Programming Assignment 3](assignments/pa3.html) : Automaticaly grade the Turkers
+- Due October 2nd [Programming Assignment 3](assignments/pa3.html) : Automatically grade the Turkers
 - Due TBA [Programming Assignment 4]() : Quality control comparison
 - Due TBA Programming Assignment 5 : Train a machine learning classifier to predict sentiment on Twitter
 
