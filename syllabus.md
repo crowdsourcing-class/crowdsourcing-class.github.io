@@ -72,6 +72,13 @@
 	- [EmailValet: Managing Email Overload through Private, Accountable Crowdsourcing](readings/downloads/hci/EmailValet.pdf)
 	- [VizWiz: Nearly Real-time Answers to Visual Questions](readings/downloads/hci/Vizwiz.pdf), an app which uses MTurk to help blind people with simple tasks, like finding matching socks or reading the nutrition labels.
 
+###September 25: [Quality Control](slides/quality-control.pdf)
+- Aggregation and redundancy
+- Embedded gold standard data
+####Reading
+	- [Labeling Images with a Computer Game](readings/downloads/gwap/ESP.pdf)
+	- [Cheap and Fast — But is it Good? Evaluating Non-Expert Annotations for Natural Language Tasks](readings/downloads/nlp/evaluating-non-expert-annotations-for-nlp.pdf)
+
 
 
 ###Upcoming: [The economics of crowdsourcing]()
