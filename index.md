@@ -19,7 +19,7 @@
 
 ##Your [next assignment](assignments/pa3.html) is due on Wednesday, October 2. 
 
-##Chris's Office Hours this week will be Thursday 9/27 at 4pm on Google Hangouts. This week's guest will be [Michael Bernstein](http://hci.stanford.edu/msb/).
+##Chris's Office Hours on Thursday 10/3 will be at 6pm on Google Hangouts. This week's guest will be [Lukas Biewald](http://www.lukasbiewald.com), the CEO of [Crowdflower](http://crowdflower.com).
 
 
 

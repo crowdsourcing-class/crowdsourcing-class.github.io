@@ -13,6 +13,7 @@
 
 ###August 28 : [Intro Lecture](slides/class-intro.pdf)
 - Relationship between crowdsourcing, human computation, collective intelligence, data mining, social computing
+- Examples of crowdsourcing and human computation
 #####Reading
 	- "The Wisdom of Crowds" Chapter 0 - Introduction
 	- "The Wisdom of Crowds" Chapter 1 - The Wisdom of Crowds
@@ -62,15 +63,21 @@
 ####Reading
 	- "The Wisdom of Crowds" Chapter 8 - Science
 	- [Soylent : A Word Processor with a Crowd Inside](readings/downloads/hci/Soylent.pdf), a plugin for MS Word which allows users to have their work edited by Turkers.
-	- [VizWiz: Nearly Real-time Answers to Visual Questions](readings/downloads/hci/Vizwiz.pdf), an app which uses MTurk to help blind people with simple tasks, like finding matching socks or reading the nutrition labels.
 
-###September 25: [Crowdsourcing and HCI part 2 - privacy and latency]()
+###September 25: [Crowdsourcing and HCI part 2 - privacy and latency](slides/crowdsourcing-and-HCI-privacy-and-latency.pdf)
 - E-mail Valet
 - Adrenaline
 ####Reading
 	- [Crowds in Two Seconds: Enabling Realtime Crowd-Powered Interfaces](readings/downloads/hci/adrenaline.pdf)
 	- [EmailValet: Managing Email Overload through Private, Accountable Crowdsourcing](readings/downloads/hci/EmailValet.pdf)
 	- [VizWiz: Nearly Real-time Answers to Visual Questions](readings/downloads/hci/Vizwiz.pdf), an app which uses MTurk to help blind people with simple tasks, like finding matching socks or reading the nutrition labels.
+
+###September 25: [Quality Control](slides/quality-control.pdf)
+- Aggregation and redundancy
+- Embedded gold standard data
+####Reading
+	- [Labeling Images with a Computer Game](readings/downloads/gwap/ESP.pdf)
+	- [Cheap and Fast — But is it Good? Evaluating Non-Expert Annotations for Natural Language Tasks](readings/downloads/nlp/evaluating-non-expert-annotations-for-nlp.pdf)
 
 
 
