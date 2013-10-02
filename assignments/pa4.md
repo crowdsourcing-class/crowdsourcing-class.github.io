@@ -17,18 +17,18 @@
 
 ##Programming Assignment 4 : Due TBA
 
-In the previous assignment, you collected data from MTurk. This week, we want to try to figure out how good that data is. Is it good enough to train a sentiment classifier in the next assignment? Or did you waste all of your hard-earned free Amazon money on utter crap? 
+Last week, we used the embedded quality controls in order to determine how to approve and reject workers. This week, we will continue with the quality-control theme, but with a slightly different perspective. Now, we want to try to figure out how 'good' that data is. Is it good enough to train a sentiment classifier in the next assignment? Or did you waste all of your hard-earned-free-Amazon-money on utter crap? 
 
 We will attempt to answer two questions:
 
 1. How good are the labels I received? How do I combine the (likely conflicting) labels from multiple Turkers in order to accurately label my data?
 2. How good are my workers? Which workers are reliable and which ones appear to be lazy and/or inebriated?
 
-We will use three different quality estimation methods to answer these questions:
+In class, we have discussed three different quality estimation methods to answer these questions:
 
+0. Embedded controls (What you did last week) : A label is considered 'correct' if the Turker who provided it correctly answered the embedded gold standard question. Note that, using this method, we can get more than one 'correct' label for the same tweet. Based on the data and the application, this may or may not be a property that you want.
 1. Majority vote : A label is considered 'correct' if it agrees with the majority, i.e. matches whatever is most popular. This is an intuitive algorithm, widely used among insecure adolescents.* 
-2. Embedded controls : A label is considered 'correct' if the Turker who provided it correctly answered the embedded gold standard question. Note that, using this method, we can get more than one 'correct' label for the same tweet. Based on the data and the application, this may or may not be a property that you want.
-3. [Expectation maximization](http://en.wikipedia.org/wiki/Expectation%E2%80%93maximization_algorithm) : A label's 'correctness' is determined using an iterative algorithm, which uses the estimated quality of the worker in order to infer the labels, and then the estimated labels in order to infer the quality of the worker. This algorithmic framework is one of the favorites of machine learning and NLP, and we will cover it in more detail in the lecture. For this assignment, we will use Panos Ipeirotis' implementation, [Project Troia](http://project-troia.com/).
+2. [Expectation maximization](http://en.wikipedia.org/wiki/Expectation%E2%80%93maximization_algorithm) : A label's 'correctness' is determined using an iterative algorithm, which uses the estimated quality of the worker in order to infer the labels, and then the estimated labels in order to infer the quality of the worker. This algorithmic framework is one of the favorites of machine learning and NLP, and we will cover it in more detail in the lecture. For this assignment, we will use Panos Ipeirotis' implementation, [Project Troia](http://project-troia.com/).
 
 *<font size="1px">(Alternatively, although we will not be implimenting it, one could conceive of an algorithm which always chooses the least popular answer, just to be different. See [Hipster](http://www.urbandictionary.com/define.php?term=hipster) and [Too Cool for School](http://www.urbandictionary.com/define.php?term=Too%20Cool%20for%20School&defid=4468945).)</font>
 

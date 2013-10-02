@@ -35,7 +35,7 @@ Please email your assignments to <b>crowdsourcing.class@gmail.com</b>, with <b>{
 
 You will complete a sequence of programming assignments that culminate in building a [Sentiment Analysis](http://en.wikipedia.org/wiki/Sentiment_analysis) system that will classify Tweets about companies as either positive, negative, or neutral.  Sample python code will be provided for many of the programming assignments.
 
-- Due September 11 [Programming Assignment 1](assignments/pa1.html): Sign up for a Requester account on MTurk, gather data from Twitter
+- Due September 11th [Programming Assignment 1](assignments/pa1.html): Sign up for a Requester account on MTurk, gather data from Twitter
 - Due Sepetember 18th [Programming Assignment 2a](assignments/pa2.html): Design a HIT
 - Due Sepetember 18th [Programming Assignment 2b](assignments/pa2b.html): Visualization of your results (super easy) 
 - Due October 2nd [Programming Assignment 3](assignments/pa3.html) : Automatically grade the Turkers
@@ -43,32 +43,29 @@ You will complete a sequence of programming assignments that culminate in buildi
 - Due TBA Programming Assignment 5 : Train a machine learning classifier to predict sentiment on Twitter
 
 ## Final project
-The final term project will be a self-designed project created by the students in consultation with the professor and the TA.  Here are the guidelines for the final project.
+The final term project will be a self-designed project created by the students in consultation with the professor and the TA.  
+
+###Deliverables: 
+- Due October 9th [Midterm](assignments/midterm.html) : In class proposal for project/pitch to class
+- Progress Update : Individual team meetings with TA+Prof, give concrete progress update
+- Final : Writeup and demonstration system
+
+Your project should meet the following guidelines:
 
 - Should solve a real world problem
-- Should actually use crowdsourcing (default: via MTurk)
+- Should actually use crowdsourcing (it doesn't have to be via MTurk, but that is a good default way to incorporate crowdsourcing)
 - Should involve either an HCI or a ML component
 - Should explain the choice of incentives and discuss alternative ways of incentivizing workers 
 - Should contain a quality control component
 - Analyze costs, decide whether it is a viable business
 
-###Deliverables: 
-- Midterm : Proposal for project, selection of team, pitch to class, critique 
-- Progress Update : 2/3s of the way through: individual team meetings with TA+Prof, give concrete progress update
-- Final : Writeup and demonstration system
+Extra credit: Lay the foundation for a [PennApp](http://2013f.pennapps.com/), Use [99designs](http://99designs.com/) to create cool web site
 
-###Extra credit: 
-- Lay the foundation for a [PennApp](http://2013f.pennapps.com/) 
-- Use [99designs](http://99designs.com/) to create cool web site
+Bonus Extra credit: Start a business and put your Prof + TA on the board of advisors
 
-###Bonus Extra credit: 
-- Start a business and put your Prof + TA on the board of advisors
+Super extra mega credit: Raise VC funding 
 
-###Super extra mega credit: 
-- Raise VC funding 
-
-###Loss of all credit: 
-- Dropping out of school 
+Loss of all credit: Dropping out of school 
 
 
 
