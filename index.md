@@ -17,7 +17,7 @@
 ### Email for submitting assignments: crowdsourcing.class@gmail.com
 
 
-##Your [midterm](assignments/midterm.html) will be on Wednesday, October 9. 
+##Your [next assignment](assignments/pa4.html) will be on Wednesday, October 16. 
 
 ###Chris's Office Hours on Thursday 10/3 will be at 6pm on Google Hangouts. This week's guest will be [Lukas Biewald](http://www.lukasbiewald.com), the CEO of [Crowdflower](http://crowdflower.com).
 
