@@ -209,17 +209,12 @@ code {
 	}
 
 
-ul.syllabus {
-	list-style-type: none;
-	font-family: "Gill Sans", "Gill Sans Std", "Gill Sans MT", Verdana, "Bitstream Vera Sans", sans-serif;
-	font-size: .97em;
-	color : #728C00;
+ul.bullets {
+	list-style-type: square;
 }
-ul ul.syllabus {
-	list-style-type: none;
-	font-family: "Gill Sans", "Gill Sans Std", "Gill Sans MT", Verdana, "Bitstream Vera Sans", sans-serif;
-	font-size: .97em;
-	color : black;
+
+ul ul.bullets {
+	list-style-type: square;
 }
 
 ul {
