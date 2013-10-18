@@ -17,9 +17,9 @@
 ### Email for submitting assignments: crowdsourcing.class@gmail.com
 
 
-##Your [next assignment](assignments/pa3.html) is due on Wednesday, October 2. 
+##Your [next assignment](assignments/pa4.html) is due on Wednesday, October 23. 
 
-##Chris's Office Hours on Thursday 10/3 will be at 6pm on Google Hangouts. 
+
 
 
 
