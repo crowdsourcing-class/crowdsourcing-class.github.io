@@ -72,12 +72,14 @@
 	- [EmailValet: Managing Email Overload through Private, Accountable Crowdsourcing](readings/downloads/hci/EmailValet.pdf)
 	- [VizWiz: Nearly Real-time Answers to Visual Questions](readings/downloads/hci/Vizwiz.pdf), an app which uses MTurk to help blind people with simple tasks, like finding matching socks or reading the nutrition labels.
 
-###September 25: [Quality Control](slides/quality-control.pdf)
-- Aggregation and redundancy
-- Embedded gold standard data
+###October 2: [Quality Control - part 2](slides/quality-control-2.pdf)
+- Reputation systems
+- Economic incentives 
 ####Reading
-	- [Labeling Images with a Computer Game](readings/downloads/gwap/ESP.pdf)
-	- [Cheap and Fast — But is it Good? Evaluating Non-Expert Annotations for Natural Language Tasks](readings/downloads/nlp/evaluating-non-expert-annotations-for-nlp.pdf)
+	- [Opinion Mining Using Econometrics: A Case Study on Reputation Systems](readings/downloads/nlp/opinion-mining-using-econometrics.pdf)
+	- [Financial Incetives and the Performance of Crowds](readings/downloads/econ/financial-incentives-and-the-performance-of-crowds.pdf)
+
+
 
 
 
@@ -88,8 +90,8 @@
 	- "The Wisdom of Crowds" Chapter 10 - The Company
 	- "The Wisdom of Crowds" Chapter 11 - Markets
 	- [Financial Incentives and the "Performance of Crowds"](readings/downloads/econ/MasonAndWatts.pdf)
-	- [Cheap and Fast - But is it Good?](readings/downloads/econ/SnowEtAl.pdf), about the using non-expert workers to collect expert-quality data.
-	- [Get Another Label? Improving Data Quality and Data Mining Using Multiple, Noisy Labelers](readings/downloads/econ/ShengEtAl.pdf), about using redundant labeling to improve data quality and how to balance cost and quality
+	- [Cheap and Fast - But is it Good?](readings/downloads/nlp/evaluating-non-expert-annotations-for-nlp.pdf), about the using non-expert workers to collect expert-quality data.
+	- [Get Another Label? Improving Data Quality and Data Mining Using Multiple, Noisy Labelers](readings/downloads/econ/get-another-label.pdf), about using redundant labeling to improve data quality and how to balance cost and quality
 
 
 ###Upcoming: [Crowdsourcing and machine learning]()
