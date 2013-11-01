@@ -41,7 +41,7 @@ You will complete a sequence of programming assignments that culminate in buildi
 - Due Sepetember 18th [Programming Assignment 2b](assignments/pa2b.html): Visualization of your results (super easy) 
 - Due October 2nd [Programming Assignment 3](assignments/pa3.html) : Automatically grade the Turkers
 - Due October 23rd [Programming Assignment 4](assignments/pa4.html) : Quality control comparison
-- Due TBA Programming Assignment 5 : Train a machine learning classifier to predict sentiment on Twitter
+- Due November 13th [Programming Assignment 5](assignments/pa5.html) : Train a machine learning classifier to predict sentiment on Twitter
 
 ## Final project
 The final term project will be a self-designed project created by the students in consultation with the professor and the TA.  

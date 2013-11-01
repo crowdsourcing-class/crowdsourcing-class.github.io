@@ -16,7 +16,7 @@
 ### Google Group (for announcements and Q/A): [crowdsourcing-class](https://groups.google.com/forum/#!forum/crowdsourcing-class)
 ### Email for submitting assignments: crowdsourcing.class@gmail.com
 
-##Your [next assignment](assignments/wa2.html) will be on Wednesday, October 30. 
+##Your [next assignment](assignments/pa5.html) will be on Wednesday, November 13. 
 
 
 ## Course description
