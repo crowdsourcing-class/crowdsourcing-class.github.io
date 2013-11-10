@@ -86,11 +86,51 @@
 	- [Opinion Mining Using Econometrics: A Case Study on Reputation Systems](readings/downloads/nlp/opinion-mining-using-econometrics.pdf)
 	- [Financial Incetives and the Performance of Crowds](readings/downloads/econ/financial-incentives-and-the-performance-of-crowds.pdf)
 
-###October 2: [Quality Control - part 3](slides/quality-control-3.pdf)
+
+###October 7: [Quality Control - part 3](slides/quality-control-3.pdf)
 - The EM algortihm 
 ####Reading
         - [Maximum Likelihood Estimation of Observer Error-Rates Using the EM Algorithm](readings/downloads/ml/EM.pdf)
 	- [Get Another Label? Improving Data Quality and Data Mining Using Multiple, Noisy Labelers](readinds/downloads/econ/get-another-label.pdf)
+
+
+###October 9: [Machine Learning - part 1](slides/machine-learning.pdf)
+- Examples of machine learning applications
+- Naieve Bayes
+- Text classification
+####Videos
+        - [Hilary Mason - Intro to Machine Learning in Python](http://shop.oreilly.com/product/0636920017493.do)
+
+###October 14: [Machine Learning - part 2](slides/machine-learning-2.pdf)
+- A high level perspective on how machine learning works and why it can fail
+####Reading
+        - [A Few Useful Things to Know about Machine Learning](readings/downloads/ml/useful-things-to-know-about-machine-learning.pdf)
+
+
+###October 16: [Machine Learning - part 3](slides/machine-learning-3.pdf)
+- Integrating machine learning and crowdsourcing
+####Reading
+        - [CrowdFlow: Integrating Machine Learning with Mechanical Turk for Speed-Cost-Quality Flexibility](readings/downloads/ml/CrowdFlow.pdf)
+
+
+
+###October 21: [Distilling Collective Intelligence from Twitter - part 1](slides/twitter-first-story-detection.pdf)
+- Topic Detection and Tracking
+- Approximate alogriths for scaling to large data sets
+####Reading
+        - [Streaming First Story Detection with application to Twitter](readings/downloads/twitter/streaming-first-story-detection-with-application-to-twitter.pdf)
+	- [Online Generation of Locality Sensitive Hash Signatures](readings/downloads/twitter/online-generation-of-locality-sensitive-hash-signatures.pdf)
+	- [Approximate Nearest Neighbors: Towards Removing the Curse of Dimensionality](readings/downloads/twitter/approximate-nearest-neighbors.pdf)
+	
+
+###October 23: [Distilling Collective Intelligence from Twitter - part 2](slides/twitter-for-public-health.pdf) - Guest lecture by [Michael Paul](http://cs.jhu.edu/~mpaul/)
+- Public health and Twitter
+####Reading
+	- [You are what you Tweet: Analyzing Twitter for Public Health](readings/downloads/twitter/analyzing-twitter-for-public-health.pdf)
+
+
+	
+
 
 
 
