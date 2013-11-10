@@ -93,6 +93,8 @@
 	- [Maximum Likelihood Estimation of Observer Error-Rates Using the EM Algorithm](readings/downloads/ml/EM.pdf)
 	- [Get Another Label? Improving Data Quality and Data Mining Using Multiple, Noisy Labelers](readinds/downloads/econ/get-another-label.pdf)
 
+###October 9 and 14: [In-class presentions: Pitch your term project ideas](assignments/midterm.html)
+
 
 ###October 15: [Machine Learning - part 1](slides/machine-learning.pdf)
 - Examples of machine learning applications
