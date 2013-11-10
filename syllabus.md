@@ -72,6 +72,13 @@
 	- [EmailValet: Managing Email Overload through Private, Accountable Crowdsourcing](readings/downloads/hci/EmailValet.pdf)
 	- [VizWiz: Nearly Real-time Answers to Visual Questions](readings/downloads/hci/Vizwiz.pdf), an app which uses MTurk to help blind people with simple tasks, like finding matching socks or reading the nutrition labels.
 
+###September 30: [Quality Control - part 1](slides/quality-control.pdf)
+- Agreement-based methods
+- Embedded gold standard
+####Reading
+	- [Labeling Images with a Computer Game](readings/downloads/gwap/ESP.pdf)
+	- [Cheap and Fast — But is it Good? Evaluating Non-Expert Annotations for Natural Language Tasks](readings/downloads/nlp/evaluating-non-expert-annotations-for-nlp.pdf)
+
 ###October 2: [Quality Control - part 2](slides/quality-control-2.pdf)
 - Reputation systems
 - Economic incentives 
@@ -79,7 +86,11 @@
 	- [Opinion Mining Using Econometrics: A Case Study on Reputation Systems](readings/downloads/nlp/opinion-mining-using-econometrics.pdf)
 	- [Financial Incetives and the Performance of Crowds](readings/downloads/econ/financial-incentives-and-the-performance-of-crowds.pdf)
 
-
+###October 2: [Quality Control - part 3](slides/quality-control-3.pdf)
+- The EM algortihm 
+####Reading
+        - [Maximum Likelihood Estimation of Observer Error-Rates Using the EM Algorithm](readings/downloads/ml/EM.pdf)
+	- [Get Another Label? Improving Data Quality and Data Mining Using Multiple, Noisy Labelers](readinds/downloads/econ/get-another-label.pdf)
 
 
 
