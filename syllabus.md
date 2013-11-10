@@ -94,27 +94,27 @@
 	- [Get Another Label? Improving Data Quality and Data Mining Using Multiple, Noisy Labelers](readinds/downloads/econ/get-another-label.pdf)
 
 
-###October 9: [Machine Learning - part 1](slides/machine-learning.pdf)
+###October 15: [Machine Learning - part 1](slides/machine-learning.pdf)
 - Examples of machine learning applications
 - Naieve Bayes
 - Text classification
 ####Videos
         - [Hilary Mason - Intro to Machine Learning in Python](http://shop.oreilly.com/product/0636920017493.do)
 
-###October 14: [Machine Learning - part 2](slides/machine-learning-2.pdf)
+###October 21: [Machine Learning - part 2](slides/machine-learning-2.pdf)
 - A high level perspective on how machine learning works and why it can fail
 ####Reading
         - [A Few Useful Things to Know about Machine Learning](readings/downloads/ml/useful-things-to-know-about-machine-learning.pdf)
 
 
-###October 16: [Machine Learning - part 3](slides/machine-learning-3.pdf)
+###October 23: [Machine Learning - part 3](slides/machine-learning-3.pdf)
 - Integrating machine learning and crowdsourcing
 ####Reading
         - [CrowdFlow: Integrating Machine Learning with Mechanical Turk for Speed-Cost-Quality Flexibility](readings/downloads/ml/CrowdFlow.pdf)
 
 
 
-###October 21: [Distilling Collective Intelligence from Twitter - part 1](slides/twitter-first-story-detection.pdf)
+###October 28: [Distilling Collective Intelligence from Twitter - part 1](slides/twitter-first-story-detection.pdf)
 - Topic Detection and Tracking
 - Approximate alogriths for scaling to large data sets
 ####Reading
@@ -123,13 +123,18 @@
 	- [Approximate Nearest Neighbors: Towards Removing the Curse of Dimensionality](readings/downloads/twitter/approximate-nearest-neighbors.pdf)
 	
 
-###October 23: [Distilling Collective Intelligence from Twitter - part 2](slides/twitter-for-public-health.pdf) - Guest lecture by [Michael Paul](http://cs.jhu.edu/~mpaul/)
+###October 30: [Distilling Collective Intelligence from Twitter - part 2](slides/twitter-for-public-health.pdf) - Guest lecture by [Michael Paul](http://cs.jhu.edu/~mpaul/)
 - Public health and Twitter
 ####Reading
 	- [You are what you Tweet: Analyzing Twitter for Public Health](readings/downloads/twitter/analyzing-twitter-for-public-health.pdf)
 
-
-	
+###November 4: [Crowdsourcing and Human Subjects Research](slides/crowdsourcing-and-the-social-sciences.pdf)
+- Is the Mechanical Turk population representative enough of the population to do social science experiments?
+- Can we use Mechanical Turk to study clinical populations?
+- Institutional Review Boards and human subject experiments
+####Reading
+	- [Amazon’s Mechanical Turk: A New Source of Inexpensive, Yet High-Quality, Data?](readings/downloads/social-science/perspectives-on-psychological-science.pdf)
+	- [Using Mechanical Turk to Study Clinical Populations](http://cpx.sagepub.com/content/early/2013/01/31/2167702612469015.abstract)
 
 
 
