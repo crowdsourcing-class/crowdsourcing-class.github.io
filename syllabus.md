@@ -90,7 +90,7 @@
 ###October 7: [Quality Control - part 3](slides/quality-control-3.pdf)
 - The EM algortihm 
 ####Reading
-        - [Maximum Likelihood Estimation of Observer Error-Rates Using the EM Algorithm](readings/downloads/ml/EM.pdf)
+	- [Maximum Likelihood Estimation of Observer Error-Rates Using the EM Algorithm](readings/downloads/ml/EM.pdf)
 	- [Get Another Label? Improving Data Quality and Data Mining Using Multiple, Noisy Labelers](readinds/downloads/econ/get-another-label.pdf)
 
 
@@ -99,7 +99,7 @@
 - Naieve Bayes
 - Text classification
 ####Videos
-        - [Hilary Mason - Intro to Machine Learning in Python](http://shop.oreilly.com/product/0636920017493.do)
+	- [Hilary Mason - Intro to Machine Learning in Python](http://shop.oreilly.com/product/0636920017493.do)
 
 ###October 21: [Machine Learning - part 2](slides/machine-learning-2.pdf)
 - A high level perspective on how machine learning works and why it can fail
@@ -110,7 +110,7 @@
 ###October 23: [Machine Learning - part 3](slides/machine-learning-3.pdf)
 - Integrating machine learning and crowdsourcing
 ####Reading
-        - [CrowdFlow: Integrating Machine Learning with Mechanical Turk for Speed-Cost-Quality Flexibility](readings/downloads/ml/CrowdFlow.pdf)
+	- [CrowdFlow: Integrating Machine Learning with Mechanical Turk for Speed-Cost-Quality Flexibility](readings/downloads/ml/CrowdFlow.pdf)
 
 
 
@@ -118,7 +118,7 @@
 - Topic Detection and Tracking
 - Approximate alogriths for scaling to large data sets
 ####Reading
-        - [Streaming First Story Detection with application to Twitter](readings/downloads/twitter/streaming-first-story-detection-with-application-to-twitter.pdf)
+	- [Streaming First Story Detection with application to Twitter](readings/downloads/twitter/streaming-first-story-detection-with-application-to-twitter.pdf)
 	- [Online Generation of Locality Sensitive Hash Signatures](readings/downloads/twitter/online-generation-of-locality-sensitive-hash-signatures.pdf)
 	- [Approximate Nearest Neighbors: Towards Removing the Curse of Dimensionality](readings/downloads/twitter/approximate-nearest-neighbors.pdf)
 	
