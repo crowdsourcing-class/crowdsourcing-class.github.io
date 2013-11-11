@@ -149,7 +149,26 @@
 	- Ben Tilly ["Effective A/B Testing"](http://elem.com/~btilly/effective-ab-testing/)
 	- [Optimizely](https://www.optimizely.com)
 
+###November 13: Prediction Markets (Ellie Pavlick)
 
+###November 18: Crowdsourcing Translation
+
+###November 20: Crowdsourcing for Automatic Speech Recognition (guest lecture by Scott Novotney)
+
+###November 25: Statistics are sexy - What big data can tell us about our sex and relationships
+####Reading
+	- [OKCupid blog](http://blog.okcupid.com) - This blog was amazing.  Read every post.
+	- [Detecting friendly, flirtatious, awkward, and assertive speech in speed-dates](http://www.stanford.edu/~jurafsky/pubs/ranganath2013.pdf)
+
+###November 27: No class today (Thursday/Friday class schedule)
+
+###December 2: TBD
+
+###December 4: TBD
+
+###December 9: Course wrap-up. (Last day of class)
+
+###December 18: Course Final (Final project presentations)
 
 ###Company profiles (student presentations)
 <ul>
