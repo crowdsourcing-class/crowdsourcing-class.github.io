@@ -138,7 +138,16 @@
 	- [Amazon’s Mechanical Turk: A New Source of Inexpensive, Yet High-Quality, Data?](readings/downloads/social-science/perspectives-on-psychological-science.pdf)
 	- [Using Mechanical Turk to Study Clinical Populations](http://cpx.sagepub.com/content/early/2013/01/31/2167702612469015.abstract)
 
+###November 6: Guest lecture by Alex Quinn
 
+###November 11: [A/B Testing](slides/ab-testing.pdf)
+- Active versus passive crowdsourcing
+- Optimizing web sites using A/B testing
+####Reading
+	- Wired Magazine ["The A/B Test: Inside the Technology That’s Changing the Rules of Business"](http://www.wired.com/business/2012/04/ff_abtesting)
+	- Kyle Rush ["Optimization at the Obama campaign: a/b testing"](http://o04151985.kylerush.net/blog/optimization-at-the-obama-campaign-ab-testing/)
+	- Ben Tilly ["Effective A/B Testing"](http://elem.com/~btilly/effective-ab-testing/)
+	- [Optimizely](https://www.optimizely.com)
 
 
 

@@ -10,7 +10,7 @@
 ### Course ID: Special Topics CIS 399-001
 ### Class time: MW 4:30-6PM 
 ### Classroom: MOORE 212
-### Instructor: [Chris Callison-Burch](http://www.cs.jhu.edu/~ccb/)
+### Instructor: [Chris Callison-Burch](http://www.cis.upenn.edu/~ccb/)
 ### TA: [Ellie Pavlick](http://www.seas.upenn.edu/~epavlick/)
 ### Course Website: [crowdsourcing-class.or](http://crowdsourcing-class.org)<a href="http://en.wikipedia.org/wiki/Loop_(graph_theory)">g</a>
 ### Google Group (for announcements and Q/A): [crowdsourcing-class](https://groups.google.com/forum/#!forum/crowdsourcing-class)
