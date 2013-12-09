@@ -167,7 +167,7 @@
 
 ###November 25: [What big data can tell us about our sex and relationships](slides/speed-dating-okcupid.pdf)
 ####Reading
-	- [OKCupid blog](http://blog.okcupid.com) - This blog was amazing.  Read every post.
+	- [OKCupid blog](http://blog.okcupid.com)
 	- [Detecting friendly, flirtatious, awkward, and assertive speech in speed-dates](http://www.stanford.edu/~jurafsky/pubs/ranganath2013.pdf)
 
 ###November 27: No class today (Thursday/Friday class schedule)
