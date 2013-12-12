@@ -162,6 +162,7 @@
 ###November 20: [Crowdsourcing for Automatic Speech Recognition (guest lecture by Scott Novotney)](slides/crowdsourcing-speech-recognition.pdf)
 - A high level overview of automatic speech recognition
 - Using crowdsourcing to train ASR systems
+####Reading
 	- [Cheap, Fast and Good Enough: Automatic Speech Recognition with Non-Expert Transcription](http://www.cis.upenn.edu/~ccb/publications/automatic-speech-recognition-with-non-expert-transcription.pdf)
 	- [Crowdsourcing for Speech Processing: Applications to Data Collection, Transcription and Assessment](www.amazon.com/Crowdsourcing-Speech-Processing-Applications-Transcription/dp/1118358694/)
 
