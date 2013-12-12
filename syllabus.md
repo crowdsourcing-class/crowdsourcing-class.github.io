@@ -165,7 +165,7 @@
 	- [Cheap, Fast and Good Enough: Automatic Speech Recognition with Non-Expert Transcription](http://www.cis.upenn.edu/~ccb/publications/automatic-speech-recognition-with-non-expert-transcription.pdf)
 	- [Crowdsourcing for Speech Processing: Applications to Data Collection, Transcription and Assessment](www.amazon.com/Crowdsourcing-Speech-Processing-Applications-Transcription/dp/1118358694/)
 
-###November 25: [What big data can tell us about our sex and relationships](slides/speed-dating-okcupid.pdf)
+###November 25: [What big data can tell us about sex and relationships](slides/speed-dating-okcupid.pdf)
 ####Reading
 	- [OKCupid blog](http://blog.okcupid.com)
 	- [Detecting friendly, flirtatious, awkward, and assertive speech in speed-dates](http://www.stanford.edu/~jurafsky/pubs/ranganath2013.pdf)
