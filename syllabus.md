@@ -149,24 +149,37 @@
 	- Ben Tilly ["Effective A/B Testing"](http://elem.com/~btilly/effective-ab-testing/)
 	- [Optimizely](https://www.optimizely.com)
 
-###November 13: Prediction Markets (Ellie Pavlick)
+###November 13: [Prediction Markets (Ellie Pavlick)](slides/prediction-markets.pdf)
 
-###November 18: Crowdsourcing Translation
-
-###November 20: Crowdsourcing for Automatic Speech Recognition (guest lecture by Scott Novotney)
-
-###November 25: Statistics are sexy - What big data can tell us about our sex and relationships
+###November 18: [Crowdsourcing Translation](slides/crowdsourcing-translation.pdf)
+- The language demographics of Mechanical Turk
+- Using crowdsourcing to collect data to train SMT systems
 ####Reading
-	- [OKCupid blog](http://blog.okcupid.com) - This blog was amazing.  Read every post.
+	- [Crowdsourcing Translation: Professional Quality from Non-Professionals](http://www.cis.upenn.edu/~ccb/publications/crowdsourcing-translation.pdf)
+	- [Constructing Parallel Corpora for Six Indian Languages via Crowdsourcing](http://www.cis.upenn.edu/~ccb/publications/constructing-parallel-corpora-for-six-indian-languages-via-crowdsourcing.pdf)
+	- [Machine Translation of Arabic Dialects](http://www.cis.upenn.edu/~ccb/publications/machine-translation-of-arabic-dialects.pdf)
+
+###November 20: [Crowdsourcing for Automatic Speech Recognition (guest lecture by Scott Novotney)](slides/crowdsourcing-speech-recognition.pdf)
+- A high level overview of automatic speech recognition
+- Using crowdsourcing to train ASR systems
+####Reading
+	- [Cheap, Fast and Good Enough: Automatic Speech Recognition with Non-Expert Transcription](http://www.cis.upenn.edu/~ccb/publications/automatic-speech-recognition-with-non-expert-transcription.pdf)
+	- [Crowdsourcing for Speech Processing: Applications to Data Collection, Transcription and Assessment](www.amazon.com/Crowdsourcing-Speech-Processing-Applications-Transcription/dp/1118358694/)
+
+###November 25: [What big data can tell us about sex and relationships](slides/speed-dating-okcupid.pdf)
+####Reading
+	- [OKCupid blog](http://blog.okcupid.com)
 	- [Detecting friendly, flirtatious, awkward, and assertive speech in speed-dates](http://www.stanford.edu/~jurafsky/pubs/ranganath2013.pdf)
 
 ###November 27: No class today (Thursday/Friday class schedule)
 
-###December 2: TBD
+###December 2: Review of machine learning homework
 
-###December 4: TBD
+###December 4: [Personality, Gender and Age in the Language of Social Media (guest lecture by Andy Schwartz)](slides/personality-gender-age-in-social-media.pdf)
+####Reading
+	- [Personality, Gender, and Age in the Language of Social Media: The Open-Vocabulary Approach](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0073791)
 
-###December 9: Course wrap-up. (Last day of class)
+###December 9: [Course wrap-up. (Last day of class)](slides/wrap-up.pdf)
 
 ###December 18: Course Final (Final project presentations)
 
