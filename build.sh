@@ -4,6 +4,7 @@
 ./Markdown_1.0.1/Markdown.pl syllabus.md | perl Markdown_1.0.1/wrap.pl > syllabus.html
 ./Markdown_1.0.1/Markdown.pl assignments.md | perl Markdown_1.0.1/wrap.pl > assignments.html
 ./Markdown_1.0.1/Markdown.pl resources.md | perl Markdown_1.0.1/wrap.pl > resources.html 
+./Markdown_1.0.1/Markdown.pl final-projects.md | perl Markdown_1.0.1/wrap.pl > final-projects.html 
 ./Markdown_1.0.1/Markdown.pl assignments/pa1.md | perl Markdown_1.0.1/wrap.pl > assignments/pa1.html 
 ./Markdown_1.0.1/Markdown.pl assignments/pa2.md | perl Markdown_1.0.1/wrap.pl > assignments/pa2.html 
 ./Markdown_1.0.1/Markdown.pl assignments/pa2b.md | perl Markdown_1.0.1/wrap.pl > assignments/pa2b.html 
