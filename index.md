@@ -25,8 +25,9 @@ Discussion Forum
 Time and place
 : Mondays and Wednesdays 4:30-6pm, Moore 212
 
-Course Reader
-: XXX
+Course Readings
+: Selections from [The Wisdom of Crowds by James Surowiecki](www.amazon.com/Wisdom-Crowds-James-Surowiecki-ebook/dp/B000FCKC3I/)
+: Various academic papers
 
 Grading
 : This is a project-based course.  Instead of exams, you will do a series of hands-on assignments and a final project.  
