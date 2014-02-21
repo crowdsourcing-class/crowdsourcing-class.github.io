@@ -3,6 +3,9 @@
   title: Introduction
   lecturer: Callison-Burch
   slides: http://crowdsourcing-class.org/slides/class-intro.pdf
+  topics:
+    -
+      highlight: Relationship between crowdsourcing, human computation, collective intelligence, data mining, social computing
   reading:
     -
       author: Surowiecki
