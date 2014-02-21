@@ -1,24 +1,14 @@
 -
-  date: 2014-01-16
+  date: 2014-08-28
   title: Introduction
   lecturer: Callison-Burch
-  slides: http://mt-class.org/penn/slides/1-intro.pdf 
+  slides: http://crowdsourcing-class.org/slides/class-intro.pdf
   reading:
     -
-      author: Koehn 
-      title: chapter 1
+      author: Surowiecki
+      title: Introduction and Chapter 1 The Wisdom of Crowds
     -
-      author: Knight
-      title:  Automating Knowledge Acquisition for Machine Translation
-      url: http://www.isi.edu/natural-language/mt/aimag97.pdf
-      optional: true
-    -
-      author: Weaver
-      title: Translation
-      url: http://www.mt-archive.info/Weaver-1949.pdf
-      optional: true
-    -
-      author: Kay
-      title: Translation
-      url: http://www.stanford.edu/~mjkay/CurrentState.pdf
+      author: 
+      title:  Harnessing Crowds - Mapping the Genome of Collective Intelligence
+      url: http://crowdsourcing-class.org/readings/downloads/intro/MaloneEtAl.pdf
       optional: true
