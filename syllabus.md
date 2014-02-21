@@ -22,15 +22,15 @@ Subject to change as the term progresses.
         {% if lecture.slides %}<a href="{{ lecture.slides }}">{{ lecture.title }}</a>
         {% else %}{{ lecture.title }}{% endif %}
 	{% if lecture.topics %}
-	  <ul class="fa-ul">
+	  <ul>
 	   {% for topic in lecture.topics %}	
 	   <li>
 	   {{ topic.highlight }}
 	   </li>
           {% endfor %}
         {% endif %}
-	{% if lecture.language %}
-	<br/><a href="lin10.html">Language in 10</a>: <a href="{{ lecture.language_slides }}">{{ lecture.language }}</a>
+	{% if lecture.profile %}
+	<br/><a href="company-profile.html">Company Profile</a>: <a href="{{ lecture.profile_slides }}">{{ lecture.profile }}</a>
         {% endif %}
       </td>
       <td>
