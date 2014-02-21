@@ -3,35 +3,13 @@
   title: Introduction
   lecturer: Callison-Burch
   slides: http://crowdsourcing-class.org/slides/class-intro.pdf 
-  topics:
-    -	 
-      highlight: Relationship between crowdsourcing, human computation, collective intelligence, data mining, social computing
-    -	 	 
-      highlight: Examples of crowdsourcing and human computation
   reading:
     -
       author: Surowiecki 
-      title: "The Wisdom of Crowds" Chapter 0 Introduction
+      title: Chapter 0 Introduction
     -
       author: Surowiecki 
-      title: "The Wisdom of Crowds" Chapter 1 The Wisdom of Crowds
-    -
-      author: researchers out of MIT and Boston University
-      title:  Harnessing Crowds: Mapping the Genome of Collective Intelligence
-      url: http://crowdsourcing-class.org/readings/downloads/intro/MaloneEtAl.pdf
-      optional: true
--
-  date: 2014-09-03
-  title: Introduction
-  lecturer: Callison-Burch
-  slides: http://crowdsourcing-class.org/slides/class-intro.pdf 
-  reading:
-    -
-      author: Surowiecki 
-      title: "The Wisdom of Crowds" Chapter 0 - Introduction
-    -
-      author: Surowiecki 
-      title: "The Wisdom of Crowds" Chapter 1 - The Wisdom of Crowds
+      title: Chapter 1 The Wisdom of Crowds
     -
       author: researchers out of MIT and Boston University
       title:  Harnessing Crowds: Mapping the Genome of Collective Intelligence
