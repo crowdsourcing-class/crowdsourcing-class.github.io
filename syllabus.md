@@ -24,9 +24,9 @@ Subject to change as the term progresses.
 	{% if lecture.topics %}
 	  <ul>
 	   {% for topic in lecture.topics %}	
-	   <li>
+	   <span class="text-muted"><li>
 	   {{ topic.highlight }}
-	   </li>
+	   </li></span>
           {% endfor %}
         {% endif %}
 	{% if lecture.profile %}
