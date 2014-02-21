@@ -3,7 +3,7 @@ layout: default
 img: artsrouni
 img_link: todo
 caption: todo
-title: Course Information
+title: Final project videos
 active_tab: main_page 
 ---
 
@@ -21,11 +21,3 @@ These are absolutely awesome! I've been bragging about you all to my mom...
 - Jason and Josh [Prediciton markets on MTurk](https://vimeo.com/82152227)
 - Susan and Evan [The Ultimatum Game](http://vimeo.com/82157250)
 - Daniel and Cris [TurkWager](https://vimeo.com/82169139)
-<!--- Dan and Varun [Twitter Health](http://vimeo.com/82165332?utm_source=email&utm_medium=clip-transcode_complete-finished-20120100&utm_campaign=7701&email_id=Y2xpcF90cmFuc2NvZGVkfGU0ZDg2ZjQ5Zjk3YjE0OWExODAyNjdjZGMzMzgzMjE1MjIxfDIzNTY2NTI5fDEzODczNDcwMzJ8NzcwMQ%3D%3D)>
-<!--- Christina [Turkifying Songs](https://vimeo.com/82206183)>
-<!--- Crystal and Tina [Linguistic Relativity](http://vimeo.com/82176120)>
-<!--- Tommy and Neil [Crowdsourcing interns](https://vimeo.com/82220356) >
-<!--- Lewis [AB Testing](https://vimeo.com/82224910)>
-<!--- Jiten [Crowdsourcing melodies](http://vimeo.com/82206009)>
-<!--- Matt [Crowdsourcing essays](https://vimeo.com/82223449) >
-<!--- Shadia [BathroomSOS](https://vimeo.com/82319135)>
