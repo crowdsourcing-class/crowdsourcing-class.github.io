@@ -3,11 +3,17 @@ layout: default
 img: rosetta
 img_url: http://www.flickr.com/photos/calotype46/6683293633/
 caption: Rosetta stone (credit&#59; calotype46)
-title: Homework 1 | Being a Crowd Worker
+title: Homework 1 | Become a Crowd Worker
 active_tab: homework
 ---
 
-Written Assignment 1 : Due Wednesday, September 3
+
+<div class="alert alert-info">
+  Implementation due before class on Wednesday, September 3.
+</div>
+
+
+Become a Crowd Worker <span class="text-muted">Written Assignment 1</span> 
 =============================================================
 
 The point of the first assignment is to get to acquainted with Mechanical Turk from the worker's perspective. The crowdsourcing platform allows us, the programmers, to completely anonymize our workforce, and work with humans as though they are function calls (fullfilling every antisocial CS student's dreams). Since, for the rest of the semester, you will be relying on Turkers to complete work for you quickly and accurately, you should take this first assignment as an opportunity to understand your workers and the ways you can help them work best for you. Pay attention to what makes tasks interesting and attractive, how much each task pays, and whether you think the compensation is fair. We will ask you to turn in a short writeup describing your experience.
