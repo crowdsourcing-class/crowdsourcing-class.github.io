@@ -13,7 +13,7 @@ Subject to change as the term progresses.
     <tr>
       <th>Date</th>
       <th>Topic</th>
-      <th>Readings (starred=graduate level)</th>
+      <th>Readings (starred=optional)</th>
     </tr>
     {% for lecture in site.data.syllabus %}
     <tr>
