@@ -1,9 +1,9 @@
 ---
-layout: ../default
+layout: default
 img: rosetta
 img_url: http://www.flickr.com/photos/calotype46/6683293633/
 caption: Rosetta stone (credit&#59; calotype46)
-title: Homework 1 | Alignment
+title: Homework 1 | Being a Crowd Worker
 active_tab: homework
 ---
 
