@@ -1,24 +1,38 @@
-<ul id="ProjectSubmenu">
-    <li><a class="home" href="index.html" title="Home">Home</a></li>
-    <li><a class="syllabus" href="syllabus.html" title="Lectures">Lectures</a></li>
-    <li><a class="assignments" href="assignments.html" title="Assignments">Assignments</a></li>
-    <li><a class="resources" href="resources.html" title="Resources">Readings</a></li>
-</ul>
-
-# Crowdsourcing and Human Computation
-
-### Course ID: Special Topics CIS 399-001
-### Class time: MW 4:30-6PM 
-### Classroom: MOORE 212
-### Instructor: [Chris Callison-Burch](http://www.cis.upenn.edu/~ccb/)
-### TA: [Ellie Pavlick](http://www.seas.upenn.edu/~epavlick/)
-### Course Website: [crowdsourcing-class.or](http://crowdsourcing-class.org)<a href="http://en.wikipedia.org/wiki/Loop_(graph_theory)">g</a>
-### Google Group (for announcements and Q/A): [crowdsourcing-class](https://groups.google.com/forum/#!forum/crowdsourcing-class)
-### Email for submitting assignments: crowdsourcing.class@gmail.com
-
-##Check out these fantastic [final project videos](final-projects.html)! 
+---
+layout: default
+img: artsrouni
+img_link: todo
+caption: todo
+title: Course Information
+active_tab: main_page 
+---
+Crowdsourcing and human computation are emerging fields that sit squarely at the intersection of economics and computer science. They examine how people can be used to solve complex tasks that are currently beyond the capabilities of artificial intelligence algorithms. Online marketplaces like [Mechanical Turk](https://www.mturk.com/) and [CrowdFlower](https://crowdflower.com) provide an infrastructure that allows micropayments to be given to people in return for completing human intelligence tasks. This opens up previously unthinkable possibilities like people being used as function calls in software. We will investigate how crowdsourcing can be used for computer science applications like machine learning, next-generation interfaces, and data mining. Beyond these computer science aspects, we will also delve into topics like prediction markets, how businesses can capitalize on collective intelligence, and the fundamental principles that underly democracy and other group decision-making processes.
 
 
-## Course description
-Crowdsourcing and human computation are emerging fields that sit squarely at the intersection of economics and computer science.  They examine how people can be used to solve complex tasks that are currently beyond the capabilities of artificial intelligence algorithms.  Online marketplaces like Mechanical Turk provide an infrastructure that allows micropayments to be given to people in return for completing human intelligence tasks. This opens up previously unthinkable possibilities like people being used as function calls in software.  We will investigate how crowdsourcing can be used for computer science applications like machine learning, next-generation interfaces, and data mining.  Beyond these computer science aspects, we will also delve into topics like prediction markets, how businesses can capitalize on collective intelligence, and the fundamental principles that underly democracy and other group decision-making processes.</p>
+<div class="alert alert-info" markdown="span">
+Check out these fantastic [final project videos](final-projects.html)!
+</div>
+
+Instructor
+: [Chris Callison-Burch](http://www.cis.upenn.edu/~ccb/) - Office hours on Mondays from 10:30am-11:30am in Levine 506
+
+Teaching Assistant
+: [Ellie Pavlick](http://www.seas.upenn.edu/~epavlick/)  - Office hours on Wednesdays from 2pm-3pm in the Levine 5th floor bump space
+
+Discussion Forum
+: [Piazza](https://piazza.com/class/hlji2xpu1r6580)
+
+Time and place
+: Mondays and Wednesdays 4:30-6pm, Moore 212
+
+Course Reader
+: XXX
+
+Grading
+: This is a project-based course.  Instead of exams, you will do a series of hands-on assignments and a final project.  
+
+* 6 programming assignments (10% each)
+* Final project (30%)
+* In-class presentation: Company Profile (10%)
+
 
