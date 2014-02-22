@@ -13,18 +13,18 @@
       title: Introduction and Chapter 1 ("The Wisdom of Crowds")
     -
       author: Malone, Laubacher, and Dellarocas
-      title:  Harnessing Crowds - Mapping the Genome of Collective Intelligence
+      title:  Harnessing Crowds&#58; Mapping the Genome of Collective Intelligence
       url: http://crowdsourcing-class.org/readings/downloads/intro/MaloneEtAl.pdf
       optional: true
 -
   date: 2014-09-03
-  title: The Mechanical Turk crowdsourcing platform - part 
+  title: The Mechanical Turk crowdsourcing platform - part 1
   slides: http://crowdsourcing-class.org/slides/amazon-mechanical-turk.pdf
   topics:
     - 
       highlight: Working on Mechanical Turk, demographics of Mechanical Turk workers, estimating the size of the Mechanical Turk Marketplace
     -
-      highlight: Terminology and mechanics - Turkers, Requesters, HITs, micropayments
+      highlight: Terminology and mechanics&#58; Turkers, Requesters, HITs, micropayments
   reading:
     -
       author: Surowiecki

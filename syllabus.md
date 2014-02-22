@@ -25,7 +25,7 @@ Subject to change as the term progresses.
 	  <ul>
 	   {% for topic in lecture.topics %}	
 	   <span class="text-muted"><li>
-	   {{ topic.highlight }}
+	   {{ topic }}
 	   </li></span>
           {% endfor %}
         {% endif %}
