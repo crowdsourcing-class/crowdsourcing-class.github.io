@@ -1,7 +1,6 @@
 ---
 layout: default
 img: raised-fist
-img_url: http://en.wikipedia.org/wiki/Workers_of_the_world,_unite!
 caption: Workers of the world, unite!
 title: Homework 1 | Become a Crowd Worker
 active_tab: homework

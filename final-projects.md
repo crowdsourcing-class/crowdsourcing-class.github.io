@@ -1,13 +1,12 @@
 ---
 layout: default
-img: artsrouni
-img_link: todo
-caption: todo
+img: sudo-make-make-a-sandwich
+img_link: http://xkcd.com/149/
 title: Final project videos
 active_tab: main_page 
 ---
 
-Final Project Demos
+Final Project Videos
 =============================================================
 
 These are absolutely awesome! I've been bragging about you all to my mom...
