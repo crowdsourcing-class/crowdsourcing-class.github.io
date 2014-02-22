@@ -78,7 +78,7 @@
     - <a href="http://crowdsourcing-class.org/slides/quicksort-with-kittens.mov">Quicksort for kittens</a>
   reading:
     -
-      title: The Wisdom of Crowds&#58; Chapter 5 ("Shall We Dance?")
+      title: The Wisdom of Crowds&#58; Chapter 5 ("Shall We Dance?&#58; Coordination in a Complex World")
     -
       author: Greg Little, Lydia B. Chilton, Max Goldman, and Robert C. Miller
       title:  TurKit&#58; Human Computation Algorithms on Mechanical Turk
@@ -87,3 +87,17 @@
       title:  Download the TurKit software from the MIT Computer Science and Artificial Intelligence Laboratory
       url: http://www.behind-the-enemy-lines.com/2010/09/worker-evaluation-in-crowdsourcing-gold.html
       optional: true
+-
+  date: 2014-09-22
+  slides: http://crowdsourcing-class.org/slides/crowdsourcing-and-HCI.pdf
+  title: Crowdsourcing and human computer interaction (HCI) design
+  highlights:
+    - Next generation interfaces
+    - Soylent word processor ("it's made of people")
+  reading:
+    -
+      title: The Wisdom of Crowds&#58; Chapter 6 ("Society Does Exist&#58; Taxes, Tipping, Television and Trust")
+    -
+      author: Michael Bernstein, Greg Little, Rob Miller, Björn Hartmann, Mark Ackerman, David Karger, David Crowell, and Katrina Panovich
+      title:  Soylent&#58; A Word Processor with a Crowd Inside
+      url: readings/downloads/hci/Soylent.pdf
