@@ -75,7 +75,7 @@
   highlights:
     - People as function calls, decomposing complex tasks into simpler subtasks
     - Memoizataion of expensive function calls, "Crash and Re-Run"
-    - Quicksort for kittens
+    - <a href="http://crowdsourcing-class.org/slides/quicksort-with-kittens.mov">Quicksort for kittens</a>
   reading:
     -
       title: The Wisdom of Crowds&#58; Chapter 5 ("Shall We Dance?")
