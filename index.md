@@ -1,8 +1,8 @@
 ---
 layout: default
-img: artsrouni
-img_link: todo
-caption: todo
+img: turk-engraving5
+img_link: http://en.wikipedia.org/wiki/The_Turk
+caption: An engraving of the Turk from Karl Gottlieb von Windisch's 1784 book Inanimate Reason
 title: Course Information
 active_tab: main_page 
 ---
