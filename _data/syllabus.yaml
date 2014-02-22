@@ -263,6 +263,19 @@
       url: readings/downloads/twitter/approximate-nearest-neighbors.pdf
       optional: true
 -
+  date: 2014-10-29
+  slides: http://crowdsourcing-class.org/slides/twitter-for-public-health.pdf
+  title: Distilling Collective Intelligence from Twitter part 2
+  speaker: Michael Paul
+  speaker_url: http://cs.jhu.edu/~mpaul/
+  highlights:
+    - Public health and Twitter
+  reading:
+    -
+      author: Michael Paul and Mark Dredze
+      title:  You are what you Tweet&#58; Analyzing Twitter for Public Health
+      url: readings/downloads/twitter/analyzing-twitter-for-public-health.pdf
+-
   date: 2014-11-05
   title: AskSheet&#58; Efficient Human Computation for Decision Making with Spreadsheets
   speaker: Alex Quinn
