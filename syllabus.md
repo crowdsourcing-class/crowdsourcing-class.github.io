@@ -19,18 +19,23 @@ Subject to change as the term progresses.
     <tr>
       <td>{{ lecture.date | date: "%b %d" }}</td>
       <td>
+	{% if lecture.profile %}
+	<a href="company-profile.html">Company Profile</a>: 
+        {% endif %}
         {% if lecture.slides %}<a href="{{ lecture.slides }}">{{ lecture.title }}</a>
         {% else %}{{ lecture.title }}{% endif %}
-	{% if lecture.topics %}
+
+	{% if lecture.speaker %}
+	({{ lecture.speaker }})
+        {% endif %}
+
+	{% if lecture.highlights %}
 	  <ul>
 	   {% for highlight in lecture.highlights %}	
 	   <span class="text-muted"><li>
 	   {{ highlight }}
 	   </li></span>
           {% endfor %}
-        {% endif %}
-	{% if lecture.profile %}
-	<br/><a href="company-profile.html">Company Profile</a>: <a href="{{ lecture.profile_slides }}">{{ lecture.profile }}</a>
         {% endif %}
       </td>
       <td>
@@ -53,7 +58,6 @@ Subject to change as the term progresses.
       </td>
     </tr>
     {% endfor %}
-
   </tbody>
 </table>
 
