@@ -193,16 +193,8 @@
       url: readings/downloads/econ/get-another-label.pdf
 -
   date: 2014-10-08
-  title: In-class presentations: Pitch your term project ideas
-  reading:
-    -
-      title: The Wisdom of Crowds&#58; Chapter 9 ("Committees, Juries and Teams&#58; The Columbia Disaster and how Small Groups can be Made to Work")
--
-  date: 2014-10-13
-  title: In-class presentations: Pitch your term project ideas
-  reading:
-    -
-      title: The Wisdom of Crowds&#58; Chapter 10 ("The Company&#58; Meet the New Boss, Same as the Old Boss?")
+  slides: http://crowdsourcing-class.org/slides/machine-learning.pdf
+  title: XXXXX
 -
   date: 2014-10-14
   slides: http://crowdsourcing-class.org/slides/machine-learning.pdf
