@@ -101,3 +101,21 @@
       author: Michael Bernstein, Greg Little, Rob Miller, Björn Hartmann, Mark Ackerman, David Karger, David Crowell, and Katrina Panovich
       title:  Soylent&#58; A Word Processor with a Crowd Inside
       url: readings/downloads/hci/Soylent.pdf
+-
+  date: 2014-09-24
+  slides: http://crowdsourcing-class.org/slides/crowdsourcing-and-HCI.pdf
+  title: Crowdsourcing and HCI part 2
+  highlights:
+    - E-mail Valet
+    - Adrenaline
+  reading:
+    -
+      title: The Wisdom of Crowds&#58; Chapter 7 ("Traffic&#58; What We Have Here is a Failure to Communicate")
+    -
+      author: Michael Bernstein, Joel Brandt, Rob Miller, and David Karger
+      title:  Crowds in Two Seconds&#58; Enabling Realtime Crowd-Powered Interfaces
+      url: readings/downloads/hci/adrenaline.pdf
+    -
+      author: Nicolas Kokkalis, Thomas Köhn, Carl Pfeiffer, Dima Chornyi, Michael Bernstein, and Scott Klemmer
+      title:  EmailValet&#58; Managing Email Overload through Private, Accountable Crowdsourcing
+      url: readings/downloads/hci/EmailValet.pdf
