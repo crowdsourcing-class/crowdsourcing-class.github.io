@@ -1,7 +1,6 @@
 -
-  date: 2014-08-28
+  date: 2014-08-27
   title: Intro Lecture
-  lecturer: Callison-Burch
   slides: http://crowdsourcing-class.org/slides/class-intro.pdf
   topics:
     -
@@ -11,9 +10,27 @@
   reading:
     -
       author: Surowiecki
-      title: Introduction and Chapter 1
+      title: Introduction and Chapter 1 ("The Wisdom of Crowds")
     -
       author: Malone, Laubacher, and Dellarocas
       title:  Harnessing Crowds - Mapping the Genome of Collective Intelligence
       url: http://crowdsourcing-class.org/readings/downloads/intro/MaloneEtAl.pdf
+      optional: true
+-
+  date: 2014-09-03
+  title: The Mechanical Turk crowdsourcing platform - part 
+  slides: http://crowdsourcing-class.org/slides/amazon-mechanical-turk.pdf
+  topics:
+    - 
+      highlight: Working on Mechanical Turk, demographics of Mechanical Turk workers, estimating the size ofthe Mechanical Turk Marketplace
+    -
+      highlight: Terminology and mechanics: Turkers, Requesters, HITs, micropayments
+  reading:
+    -
+      author: Surowiecki
+      title: Chapter 2 ("The Difference Difference Makes")
+    -
+      author: Ipeirotis
+      title:  The Demographics of MTurk
+      url: http://crowdsourcing-class.org/readings/downloads/platform/demographics-of-mturk.pdf
       optional: true
