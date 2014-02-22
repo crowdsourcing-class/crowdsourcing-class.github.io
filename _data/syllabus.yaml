@@ -7,8 +7,7 @@
     - Examples of crowdsourcing and human computation
   reading:
     -
-      author: Surowiecki
-      title: Introduction and Chapter 1 ("The Wisdom of Crowds")
+      title: The Wisdom of Crowds&#58; Introduction and Chapter 1
     -
       author: Malone, Laubacher, and Dellarocas
       title:  Harnessing Crowds&#58; Mapping the Genome of Collective Intelligence
@@ -23,8 +22,7 @@
     - Terminology and mechanics&#58; Turkers, Requesters, HITs, micropayments
   reading:
     -
-      author: Surowiecki
-      title: Chapter 2 ("The Difference Difference Makes")
+      title: The Wisdom of Crowds&#58; Chapter 2 ("The Difference Difference Makes")
     -
       author: Ipeirotis
       title:  The Demographics of MTurk
@@ -37,3 +35,19 @@
   title: In-Trade
   speaker: Ellie Pavlick
   speaker_url: http://www.seas.upenn.edu/~epavlick/
+-
+  date: 2014-09-08
+  slides: http://crowdsourcing-class.org/slides/being-an-mturk-requester.pdf
+  title: The Mechanical Turk crowdsourcing platform - part 1
+  highlights:
+    - Amazon Mechanical Turk from the Requester's perspective&#58; Designing HITs, qualifications, pricing HITs, approving/rejecting
+  reading:
+    -
+      title: The Wisdom of Crowds&#58; Chapter 3 ("Monkey See, Monkey Do")
+    -
+      title:  Requester Tour of Mechanical Turk
+      url: https://requester.mturk.com/tour
+    -
+      title:  Mechanical Turk blog
+      url: http://mechanicalturk.typepad.com/blog/requester/
+      optional: true
