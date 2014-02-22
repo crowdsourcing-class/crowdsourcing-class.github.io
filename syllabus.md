@@ -26,8 +26,9 @@ Subject to change as the term progresses.
         {% else %}{{ lecture.title }}{% endif %}
 
 	{% if lecture.speaker %}
-        {% if lecture.speaker_url %}<a href="{{ lecture.speaker_url }}">{{ lecture.speaker }}</a>
-        {% else %}{{ lecture.speaker }}{% endif %}
+        {% if lecture.speaker_url %} by <a href="{{ lecture.speaker_url }}">{{ lecture.speaker }}</a>
+        {% else %} by {{ lecture.speaker }}{% endif %}
+	{% endif %}
 
 	{% if lecture.highlights %}
 	  <ul>
