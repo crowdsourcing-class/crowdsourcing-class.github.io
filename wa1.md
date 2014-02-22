@@ -9,7 +9,7 @@ active_tab: homework
 
 
 <div class="alert alert-info">
-  Assignment is due before class on Wednesday, September 3.
+  This assignment is due before class on Wednesday, September 3.
 </div>
 
 
