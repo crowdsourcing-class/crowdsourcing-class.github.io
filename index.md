@@ -1,6 +1,6 @@
 ---
 layout: default
-img: turk-engraving5
+img: turk-engraving-detail
 img_link: http://en.wikipedia.org/wiki/The_Turk
 caption: An engraving of the Mechanical Turk, the 18th century chess-playing automaton
 title: Crowdsourcing and Human Computation
