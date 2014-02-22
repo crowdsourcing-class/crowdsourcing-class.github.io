@@ -46,11 +46,13 @@ Subject to change as the term progresses.
             <li>
             {% if reading.optional %}<i class="fa-li fa fa-star"> </i>
             {% else %}<i class="fa-li fa"> </i> {% endif %}
-            {{ reading.author }},
             {% if reading.url %}
             <a href="{{ reading.url }}">{{ reading.title }}</a>
             {% else %}
             {{ reading.title }} 
+            {% endif %}
+	    {% if reading.author %}
+            by {{ reading.author }}
             {% endif %}
             </li>
           {% endfor %}
