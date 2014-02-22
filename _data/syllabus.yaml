@@ -124,3 +124,53 @@
       author: Nicolas Kokkalis, Thomas Köhn, Carl Pfeiffer, Dima Chornyi, Michael Bernstein, and Scott Klemmer
       title:  EmailValet&#58; Managing Email Overload through Private, Accountable Crowdsourcing
       url: readings/downloads/hci/EmailValet.pdf
+-
+  date: 2014-09-22
+  slides: http://crowdsourcing-class.org/slides/crowdsourcing-and-HCI-privacy-and-latency.pdf
+  title: Crowdsourcing and human computer interaction (HCI) design
+  highlights:
+    - Next generation interfaces
+    - Soylent word processor ("it's made of people")
+  reading:
+    -
+      title: The Wisdom of Crowds&#58; Chapter 6 ("Society Does Exist&#58; Taxes, Tipping, Television and Trust")
+    -
+      author: Michael Bernstein, Greg Little, Rob Miller, Björn Hartmann, Mark Ackerman, David Karger, David Crowell, and Katrina Panovich
+      title:  Soylent&#58; A Word Processor with a Crowd Inside
+      url: readings/downloads/hci/Soylent.pdf
+-
+  date: 2014-09-29
+  slides: http://crowdsourcing-class.org/slides/quality-control.pdf
+  title: Quality Control part 1
+  highlights:
+    - Agreement-based methods
+    - Embedded gold standard
+  reading:
+    -
+      title: The Wisdom of Crowds&#58; Chapter 7 ("Traffic&#58; What We Have Here is a Failure to Communicate")
+    -
+      author: Luis von Ahn and Laura Dabbish
+      title:  Labeling Images with a Computer Game
+      url: readings/downloads/gwap/ESP.pdf
+    -
+      author: Rion Snow, Brendan O’Connor, Daniel Jurafsky and Andrew Ng
+      title:  Cheap and Fast — But is it Good? Evaluating Non-Expert Annotations for Natural Language Tasks
+      url: readings/downloads/nlp/evaluating-non-expert-annotations-for-nlp.pdf
+-
+  date: 2014-10-01
+  slides: http://crowdsourcing-class.org/slides/quality-control-2.pdf
+  title: Quality Control part 2
+  highlights:
+    - Reputation systems
+    - Economic incentives
+  reading:
+    -
+      title: The Wisdom of Crowds&#58; Chapter 8 ("Traffic&#58; What We Have Here is a Failure to Communicate")
+    -
+      author: Anindya Ghose, Panos Ipeirotis, and Arun Sundararajan
+      title:  Opinion Mining Using Econometrics&#58; A Case Study on Reputation Systems
+      url: readings/downloads/nlp/opinion-mining-using-econometrics.pdf
+    -
+      author: Winter Mason and Duncan Watts
+      title:  Financial Incentives and the Performance of Crowds
+      url: readings/downloads/econ/financial-incentives-and-the-performance-of-crowds.pdf
