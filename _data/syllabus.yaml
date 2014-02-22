@@ -29,13 +29,6 @@
       url: http://crowdsourcing-class.org/readings/downloads/platform/demographics-of-mturk.pdf
       optional: true
 -
-  date: 2014-09-03
-  profile: true
-  slides: https://docs.google.com/presentation/d/1IJJ0MfVyxHLJDAh2eVFHCL3ba1IRtsR5rpQf8M6VkTg/edit?usp=sharing
-  title: In-Trade
-  speaker: Ellie Pavlick
-  speaker_url: http://www.seas.upenn.edu/~epavlick/
--
   date: 2014-09-08
   slides: http://crowdsourcing-class.org/slides/being-an-mturk-requester.pdf
   title: The Mechanical Turk crowdsourcing platform - part 2
@@ -50,4 +43,29 @@
     -
       title:  Mechanical Turk blog
       url: http://mechanicalturk.typepad.com/blog/requester/
+      optional: true
+-
+  date: 2014-09-10
+  profile: true
+  slides: https://docs.google.com/presentation/d/1IJJ0MfVyxHLJDAh2eVFHCL3ba1IRtsR5rpQf8M6VkTg/edit?usp=sharing
+  title: In-Trade
+  speaker: Ellie Pavlick
+  speaker_url: http://www.seas.upenn.edu/~epavlick/
+-
+  date: 2014-09-10
+  slides: http://crowdsourcing-class.org/slides/taxonomy-of-human-computation.pdf
+  title: Taxonomy of crowdsourcing and human computation
+  highlights:
+    - Categorization system&#58; motivation, quality control, aggregation, human skill, process flow
+  reading:
+    -
+      title: The Wisdom of Crowds&#58; Chapter 4 ("Putting the Pieces Together")
+    -
+      author: Quinn and Bederson
+      title:  Human Computation&#58; A Survey and Taxonomy of a Growing Field
+      url: readings/downloads/intro/QuinnAndBederson.pdf
+    -
+      author: Ipeirotis
+      title:  Worker Evaluation in Crowdsourcing&#58; Gold Data or Multiple Workers?
+      url: http://www.behind-the-enemy-lines.com/2010/09/worker-evaluation-in-crowdsourcing-gold.html
       optional: true
