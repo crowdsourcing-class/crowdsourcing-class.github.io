@@ -1,8 +1,8 @@
 -
   date: 2014-08-27
-  title: Intro Lecture
   slides: http://crowdsourcing-class.org/slides/class-intro.pdf
-  topics:
+  title: Intro Lecture
+  highlights:
     - Relationship between crowdsourcing, human computation, collective intelligence, data mining, social computing
     - Examples of crowdsourcing and human computation
   reading:
@@ -16,9 +16,9 @@
       optional: true
 -
   date: 2014-09-03
-  title: The Mechanical Turk crowdsourcing platform - part 1
   slides: http://crowdsourcing-class.org/slides/amazon-mechanical-turk.pdf
-  topics:
+  title: The Mechanical Turk crowdsourcing platform - part 1
+  highlights:
     - Working on Mechanical Turk, demographics of Mechanical Turk workers, estimating the size of the Mechanical Turk Marketplace
     - Terminology and mechanics&#58; Turkers, Requesters, HITs, micropayments
   reading:
