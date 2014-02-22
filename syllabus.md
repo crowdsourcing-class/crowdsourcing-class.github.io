@@ -2,7 +2,7 @@
 layout: default
 img: Francis-Galton
 img_link: http://en.wikipedia.org/wiki/Francis_Galton
-caption: Fracis Galton wrote about the wisdom of crowds in his Nature article [Vox Populi](http://wisdomofcrowds.blogspot.com/2009/12/vox-populi-sir-francis-galton.html) 
+caption: Fracis Galton wrote about the wisdom of crowds in his Nature article Vox Populi 
 title: Syllabus
 active_tab: syllabus
 ---
