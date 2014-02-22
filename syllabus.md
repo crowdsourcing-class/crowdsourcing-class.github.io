@@ -1,7 +1,7 @@
 ---
 layout: default
-img: do_not_want
-img_link: http://winterson.com/2005/06/episode-iii-backstroke-of-west.html
+img: Francis-Galton
+img_link: http://en.wikipedia.org/wiki/Francis_Galton
 title: Syllabus
 active_tab: syllabus
 ---
