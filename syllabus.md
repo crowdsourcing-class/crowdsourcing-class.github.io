@@ -20,7 +20,7 @@ Subject to change as the term progresses.
       <td>{{ lecture.date | date: "%b %d" }}</td>
       <td>
 	{% if lecture.profile %}
-	<b>Company Profile</b>:  
+	Company Profile:  
         {% endif %}
         {% if lecture.slides %}<a href="{{ lecture.slides }}">{{ lecture.title }}</a>
         {% else %}{{ lecture.title }}{% endif %}
