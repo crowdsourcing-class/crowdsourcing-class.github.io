@@ -27,7 +27,6 @@
       author: Ipeirotis
       title:  The Demographics of MTurk
       url: http://crowdsourcing-class.org/readings/downloads/platform/demographics-of-mturk.pdf
-      optional: true
 -
   date: 2014-09-08
   slides: http://crowdsourcing-class.org/slides/being-an-mturk-requester.pdf
@@ -61,11 +60,30 @@
     -
       title: The Wisdom of Crowds&#58; Chapter 4 ("Putting the Pieces Together")
     -
-      author: Quinn and Bederson
+      author: Alex Quinn and Ben Bederson
       title:  Human Computation&#58; A Survey and Taxonomy of a Growing Field
       url: readings/downloads/intro/QuinnAndBederson.pdf
     -
-      author: Ipeirotis
+      author: Panos Ipeirotis
       title:  Worker Evaluation in Crowdsourcing&#58; Gold Data or Multiple Workers?
+      url: http://www.behind-the-enemy-lines.com/2010/09/worker-evaluation-in-crowdsourcing-gold.html
+      optional: true
+-
+  date: 2014-09-15
+  slides: http://crowdsourcing-class.org/slides/programming-the-crowd.pdf
+  title: Programming concepts for human computation
+  highlights:
+    - People as function calls, decomposing complex tasks into simpler subtasks
+    - Memoizataion of expensive function calls, "Crash and Re-Run"
+    - [Quicksort for kittens](http://crowdsourcing-class.org/slides/quicksort-with-kittens.mov)
+  reading:
+    -
+      title: The Wisdom of Crowds&#58; Chapter 5 ("Shall We Dance?")
+    -
+      author: Greg Little, Lydia B. Chilton, Max Goldman, and Robert C. Miller
+      title:  TurKit&#58; Human Computation Algorithms on Mechanical Turk
+      url: readings/downloads/programming/LittleEtAl.pdf
+    -
+      title:  Download the TurKit software from the MIT Computer Science and Artificial Intelligence Laboratory
       url: http://www.behind-the-enemy-lines.com/2010/09/worker-evaluation-in-crowdsourcing-gold.html
       optional: true
