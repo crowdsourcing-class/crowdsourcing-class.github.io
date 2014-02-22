@@ -226,7 +226,7 @@
       title:  A Few Useful Things to Know about Machine Learning
       url: readings/downloads/ml/useful-things-to-know-about-machine-learning.pdf
 -
-  date: 2014-10-23
+  date: 2014-10-22
   slides: http://crowdsourcing-class.org/slides/machine-learning-3.pdf
   title: Machine Learning part 3
   highlights:
@@ -238,3 +238,27 @@
       author: Pedro Domingos
       title:  A Few Useful Things to Know about Machine Learning
       url: readings/downloads/ml/useful-things-to-know-about-machine-learning.pdf
+-
+  date: 2014-10-27
+  slides: http://crowdsourcing-class.org/slides/twitter-first-story-detection.pdf
+  title: Distilling Collective Intelligence from Twitter part 1
+  highlights:
+    - Topic Detection and Tracking
+    - Approximate algorithms for scaling to large data sets
+  reading:
+    -
+      title: The Wisdom of Crowds&#58; Chapter 11 ("Democracy&#58; Dreams of the Common Good")
+    -
+      author: Sasa Petrovic, Miles Osborne, and Victor Lavrenko
+      title:  Streaming First Story Detection with application to Twitter
+      url: readings/downloads/twitter/streaming-first-story-detection-with-application-to-twitter.pdf
+    -
+      author: Ben Van Durme and Ashwin Lall
+      title:  Online Generation of Locality Sensitive Hash Signatures
+      url: readings/downloads/twitter/online-generation-of-locality-sensitive-hash-signatures.pdf
+      optional: true
+    -
+      author: Sariel Har-Peled, Piotr Indyk and Rajeev Motwani 
+      title:  Approximate Nearest Neighbors&#58; Towards Removing the Curse of Dimensionality
+      url: readings/downloads/twitter/approximate-nearest-neighbors.pdf
+      optional: true
