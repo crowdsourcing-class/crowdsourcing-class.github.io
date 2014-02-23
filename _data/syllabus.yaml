@@ -320,7 +320,7 @@
 -
   date: 2014-11-12
   title: Prediction Markets
-  slides: http://crowdsourcing-class.org/slides/ab-testing.pdf
+  slides: http://crowdsourcing-class.org/slides/prediction-markets.pdf
   speaker: Ellie Pavlick
   speaker_url: http://www.seas.upenn.edu/~epavlick/
 -
@@ -371,4 +371,22 @@
       title:  Detecting friendly, flirtatious, awkward, and assertive speech in speed-dates
       url: http://www.stanford.edu/~jurafsky/pubs/ranganath2013.pdf
       optional: true
-
+-
+  date: 2014-12-01
+  title: Review of machine learning homework
+  speaker: Ellie Pavlick
+  speaker_url: http://www.seas.upenn.edu/~epavlick/
+-
+  date: 2014-12-03
+  title: Personality, Gender and Age in the Language of Social Media
+  speaker: Andy Schwartz
+  slides: http://crowdsourcing-class.org/slides/personality-gender-age-in-social-media.pdf
+  reading:
+    -
+      title:  Personality, Gender, and Age in the Language of Social Media&#58; The Open-Vocabulary Approach
+      url: http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0073791
+      optional: true
+-
+  date: 2014-12-08
+  title: Course wrap-up
+  slides: http://crowdsourcing-class.org/slides/wrap-up.pdf
