@@ -317,3 +317,45 @@
       title:  Optimizely
       url: https://www.optimizely.com
       optional: true
+-
+  date: 2014-11-12
+  title: Prediction Markets
+  slides: http://crowdsourcing-class.org/slides/ab-testing.pdf
+  speaker: Ellie Pavlick
+  speaker_url: http://www.seas.upenn.edu/~epavlick/
+-
+  date: 2014-11-17
+  title: Crowdsourcing Translation
+  slides: http://crowdsourcing-class.org/slides/ab-testing.pdf
+  highlights:
+    - The language demographics of Mechanical Turk
+    - Using crowdsourcing to collect data to train SMT systems
+  reading:
+    -
+      author: Omar Zaidan and Chris Callison-Burch
+      title:  Crowdsourcing Translation&#58; Professional Quality from Non-Professionals
+      url: http://www.cis.upenn.edu/~ccb/publications/crowdsourcing-translation.pdf
+    -
+      title:  Machine Translation of Arabic Dialects
+      url: http://www.cis.upenn.edu/~ccb/publications/machine-translation-of-arabic-dialects.pdf
+      optional: true
+-
+  date: 2014-11-19
+  title: Crowdsourcing for Automatic Speech Recognition
+  slides: http://crowdsourcing-class.org/slides/crowdsourcing-speech-recognition.pdf
+  speaker: Scott Novotney
+  speaker_url: http://www.clsp.jhu.edu/people/scott-novotney/
+  highlights:
+    - A high level overview of automatic speech recognition
+    - Using crowdsourcing to train ASR systems
+  reading:
+    -
+      author: Scott Novotney and Chris Callison-Burch
+      title:  Cheap, Fast and Good Enough&#58; Automatic Speech Recognition with Non-Expert Transcription
+      url: http://www.cis.upenn.edu/~ccb/publications/automatic-speech-recognition-with-non-expert-transcription.pdf
+    -
+      title:  Crowdsourcing for Speech Processing&#58; Applications to Data Collection, Transcription and Assessment
+      url: http://www.amazon.com/Crowdsourcing-Speech-Processing-Applications-Transcription/dp/1118358694/
+      optional: true
+
+
