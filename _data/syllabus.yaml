@@ -286,4 +286,34 @@
       title:  AskSheet&#58; Efficient Human Computation for Decision Making with Spreadsheets
       url: readings/downloads/hci/asksheet.pdf
       optional: true
- 
+     -
+      author: Michael Ekstrand
+      title:  The Crowd is a Monad
+      url: http://elehack.net/blog/2014/02/crowd-monad
+      optional: true
+-
+  date: 2014-11-10
+  title: A/B Testing
+  slides: http://crowdsourcing-class.org/slides/ab-testing.pdf
+  highlights:
+    - Active versus passive crowdsourcing
+    - Optimizing web sites using A/B testing
+  reading:
+    -
+      author: Wired Magazine
+      title:  The A/B Test&#58; Inside the Technology That’s Changing the Rules of Business
+      url: http://www.wired.com/business/2012/04/ff_abtesting
+    -
+      author: Kyle Rush
+      title:  Optimization at the Obama campaign&#58; A/B Testing
+      url: http://o04151985.kylerush.net/blog/optimization-at-the-obama-campaign-ab-testing/
+      optional: true
+    -
+      author: Ben Tilly
+      title:  Effective A/B Testing
+      url: http://elem.com/~btilly/effective-ab-testing/
+      optional: true
+      -
+      title:  Optimizely
+      url: https://www.optimizely.com
+      optional: true
