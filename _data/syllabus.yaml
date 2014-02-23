@@ -357,5 +357,18 @@
       title:  Crowdsourcing for Speech Processing&#58; Applications to Data Collection, Transcription and Assessment
       url: http://www.amazon.com/Crowdsourcing-Speech-Processing-Applications-Transcription/dp/1118358694/
       optional: true
-
+-
+  date: 2014-11-19
+  title: What big data can tell us about sex and relationships
+  slides: http://crowdsourcing-class.org/slides/speed-dating-okcupid.pdf)
+  reading:
+    -
+      title:  OKCupid Blog
+      url: http://blog.okcupid.com
+      optional: true
+    -
+      author: Rajesh Ranganath, Dan Jurafsky and Daniel McFarland
+      title:  Detecting friendly, flirtatious, awkward, and assertive speech in speed-dates
+      url: http://www.stanford.edu/~jurafsky/pubs/ranganath2013.pdf
+      optional: true
 
