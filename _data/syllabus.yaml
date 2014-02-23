@@ -29,9 +29,13 @@
     -
       title: The Wisdom of Crowds&#58; Chapter 2 ("The Difference Difference Makes")
     -
-      author: Ipeirotis
+      author: Panos Ipeirotis
       title:  The Demographics of MTurk
       url: http://crowdsourcing-class.org/readings/downloads/platform/demographics-of-mturk.pdf
+    -
+      author: David Martin, Benjamin V. Hanrahan, Jacki O’Neill and Neha Gupta
+      title:  Being A Turker
+      url: http://crowdsourcing-class.org/readings/downloads/ethics/being-a-turker.pdf
 -
   date: 2014-09-08
   slides: http://crowdsourcing-class.org/slides/being-an-mturk-requester.pdf
@@ -337,6 +341,10 @@
       title:  Crowdsourcing Translation&#58; Professional Quality from Non-Professionals
       url: http://www.cis.upenn.edu/~ccb/publications/crowdsourcing-translation.pdf
     -
+      author: Ellie Pavlick, Matt Post, Ann Irvine, Dmitry Kachaev, and Chris Callison-Burch
+      title:  The Language Demographics of Amazon Mechanical Turk
+      url: http://www.cis.upenn.edu/~ccb/publications/language-demographics-of-mechanical-turk.pdf
+    -
       title:  Machine Translation of Arabic Dialects
       url: http://www.cis.upenn.edu/~ccb/publications/machine-translation-of-arabic-dialects.pdf
       optional: true
@@ -361,7 +369,7 @@
 -
   date: 2014-11-19
   title: What big data can tell us about sex and relationships
-  slides: http://crowdsourcing-class.org/slides/speed-dating-okcupid.pdf)
+  slides: http://crowdsourcing-class.org/slides/speed-dating-okcupid.pdf
   reading:
     -
       title:  OKCupid Blog
