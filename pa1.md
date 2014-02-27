@@ -20,10 +20,10 @@ We are providing you with code that makes it very easy to search Twitter for key
 
 1. Download and install tweepy from <a href="https://github.com/tweepy/tweepy">github</a>. If you have never installed code from github before, its very easy. Just open a terminal and run the following commands:
 
-#<code>$ git clone https://github.com/tweepy/tweepy.git</code>
-#<code>$ cd tweepy</code>
-#<code>$ sudo python setup.py install</code>
-#type pas$word123, or whichever other unhackable password you are using.
+$ git clone https://github.com/tweepy/tweepy.git
+$ cd tweepy
+$ sudo python setup.py install
+type pas$word123, or whichever other unhackable password you are using.
 
 2. Download our <a href="downloads/get_tweets.py">script</a> for pulling data from Twitter using tweepy. (Courtesy of <a href="https://github.com/ryancotterell">Ryan Cotterall</a>, guru of all things python).
 
