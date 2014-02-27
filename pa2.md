@@ -37,7 +37,7 @@ This code assumes you did the previous assignment correctly, and that you have a
 	
 Here, the control column will be an integer, indicating which of the tweets is the control. This method of bookkeeping* makes it easy for us to randomize the location of the control tweet. In embed_controls.py, fill in the few lines of code (marked as TODO in the file) to generate a random location for the control and write the line to a CSV. 
 
-	<font size="1%">*Fun fact: Bookkeeping is one of the only two words in English with three consecutive pairs of repeated letters. Also, sweettooth. I learned this in third grade. It is valuable knowledge which I've never used.</font>
+<font size="1%">*Fun fact: Bookkeeping is one of the only two words in English with three consecutive pairs of repeated letters. Also, sweettooth. I learned this in third grade. It is valuable knowledge which I've never used.</font>
  
 2. Once you have completed the code, you can run the script in the command line:
 
