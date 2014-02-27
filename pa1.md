@@ -1,7 +1,7 @@
 ---
 layout: default
-img: raised-fist
-caption: Workers of the world, unite!
+img: twitter
+caption: Diverse tweets
 title: Homework 2 | Twittering
 active_tab: homework
 ---
