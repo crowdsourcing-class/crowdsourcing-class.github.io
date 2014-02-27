@@ -20,9 +20,11 @@ We are providing you with code that makes it very easy to search Twitter for key
 
 1. Download and install tweepy from <a href="https://github.com/tweepy/tweepy">github</a>. If you have never installed code from github before, its very easy. Just open a terminal and run the following commands:
 
-	$ git clone https://github.com/tweepy/tweepy.git
-	$ cd tweepy
-	$ sudo python setup.py install
+    $ git clone https://github.com/tweepy/tweepy.git
+
+    $ cd tweepy
+
+    $ sudo python setup.py install
 
 type pas$word123, or whichever other unhackable password you are using.
 
@@ -30,16 +32,12 @@ type pas$word123, or whichever other unhackable password you are using.
 
 3. To run the script in the command line, use the following command where <code>n</code> is (optionally) the maximum number of tweets to grab and keywords are the words you want to search for. You must give at least one keyword. If you leave out the <code>n</code> parameter, you will continue to get tweets in a stream until you kill the program. 
 
-<ul>
-<li><code>$ python get_tweets.py [n] keyword1 [keyword2 ... keywordn]</code></li>
-</ul>
+    $ python get_tweets.py [n] keyword1 [keyword2 ... keywordn]
 
 
 4. Collect 1000 tweets which reference a company of your choice.
 
-<ul>
-<li><code>$ python get_tweets.py 1000 Apple > apple_tweets.txt </code></li>
-</ul>
+    $ python get_tweets.py 1000 Apple > apple_tweets.txt 
 
 Here are some example tweets I got by searching for 'Apple'. 
 <ul>
@@ -55,9 +53,7 @@ Here are some example tweets I got by searching for 'Apple'.
 
 6. Convert your tweets into csv format using the below command. This will create a file called <code>tweets.csv</code>, which you can open in a spreadsheet program. Or in vim or emacs, if you are too hipster for spreadsheet programs, or if your computer is not <a href="http://i.imgur.com/3Fcper4.jpg">fancy enough for such things</a>. Note we use <code>shuf</code> to randomize the order of the tweets, because its good to randomize in research (i.e. good research is random...?). 
 
-<ul>
-<li><code>$ cat apple_tweets.txt | shuf | python convert_to_csv.py </code></li>
-</ul>
+    $ cat apple_tweets.txt | shuf | python convert_to_csv.py 
 
 7. Look at the first 100 tweets and manually label them for sentiment (positive, negative, or neutral). You will use your own labels later to check that Turkers are doing their work well (or at least as well as you are), so you should only label tweets that are fairly unambiguous. Skip over those that are very ambiguous, since it would not be fair to punish Turkers for disagreeing with you about labels of unclear or mixed-sentiment tweets. Remember, skipping over tweets is fine, but when you finish, <b>you need to have 100 tweets labled as either 'positive', 'negative', or 'neutral'.</b>
 
