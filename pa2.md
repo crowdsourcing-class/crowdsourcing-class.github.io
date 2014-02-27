@@ -1,7 +1,7 @@
 ---
 layout: default
-img: raised-fist
-caption: Workers of the world, unite!
+img: capitalist-greed
+caption: Exploit the masses
 title: Homework 3 | Become a Requester
 active_tab: homework
 ---
