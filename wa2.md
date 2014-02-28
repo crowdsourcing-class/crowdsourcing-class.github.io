@@ -1,7 +1,7 @@
 ---
 layout: default
-img: raised-fist
-caption: Workers of the world, unite!
+img: launching-a-start-up
+caption: Crowdsource your startup!
 title: Homework 4 | Market Research
 active_tab: homework
 ---
