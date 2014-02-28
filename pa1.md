@@ -37,7 +37,7 @@ We are providing you with code that makes it very easy to search Twitter for key
 
 	$ python get_tweets.py 1000 Apple > apple_tweets.txt 
 
-Here are some example tweets I got by searching for 'Apple'. 
+  Here are some example tweets I got by searching for 'Apple'. 
 
   * Using apple headphones on my galaxy s4 surely this must be a crime?   
   * I'm dying. In the apple store there is some guys with a beer bong      
