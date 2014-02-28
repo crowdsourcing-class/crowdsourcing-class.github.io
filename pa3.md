@@ -32,7 +32,9 @@ Approval and rejection of workers is done in three ways. You will probably use (
     You will see three files. The ones denoted 'template' are the ones that you will have to edit. As a brief overview of the files:
 	
     <code>grade&#95;hits&#95;naive&#95;template.py</code> : Grading script which approves or rejects each HIT based only on the control tweet in that HIT.
+
     <code>grade&#95;hits&#95;moresmarter&#95;template.py</code> : Grading script which approves or rejects each HIT based on the average performance of each worker. 
+
     <code>analysis.py</code> : Very short script to compile results.
 
 3. Open <code>grade&#95;hits&#95;naive&#95;template.py</code>. There are a few lines that need to be completed in order for you to run the script, and they are marked with 'TODO'. All this script needs to do is check each control tweet against the gold standard answer and determine whether the Turker answered correctly. The script should then put an <code>'X'</code> in either the <code>Approve</code> or <code>Reject</code> column of the CSV. 
@@ -64,12 +66,12 @@ Approval and rejection of workers is done in three ways. You will probably use (
 
     Once these categories are known, the logic is very simple. See the pseudocode below. We will simulate this whole process in a streaming style, meaning that we will look at the HITs one at a time, make our updates, and then approve or reject before seeing the next HIT. This means that if a worker were to fall into <code>BLOCKED</code> status in their first 10 HITs, and then bounce back, we would continue to reject their work. This is a natural way to process the HITs since, in a real-world setting, you often do not have all the data available from which to make your decisions. 
 
-    for each HIT : 
-        update worker status to include their performance on this HIT
-        if worker.status == '<code>PREAPPROVE</code>' : Approve HIT
-        else if worker.status == '<code>BLOCKED</code>' : Reject HIT
-        else if worker.status == '<code>TRUSTED</code>' : Approve HIT
-        else if worker.status == '<code>PENDING</code>' : Approve if control is correct, reject otherwise
+	for each HIT : 
+        	update worker status to include their performance on this HIT
+        	if worker.status == 'PREAPPROVE' : Approve HIT
+        	else if worker.status == 'BLOCKED' : Reject HIT
+        	else if worker.status == 'TRUSTED' : Approve HIT
+        	else if worker.status == 'PENDING' : Approve if control is correct, reject otherwise
 
     When you think your script is working, run it by passing it the path to your downloaded data. E.g.
 
