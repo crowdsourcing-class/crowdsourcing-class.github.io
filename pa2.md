@@ -31,19 +31,19 @@ For this assignment, we will be using MTurk's online GUI interface to design our
 
 1. First, we need to transform the data you collected and labeled in assignment 1 into data for MTurk HITs. Download our [script](downloads/embed_controls.py) for making this conversion. The code is documented line by line, so it should be easy to see what is happening. You will have to fill in a few lines in order for it to run.  The script makes use of python's [csv module](http://docs.python.org/2/library/csv.html) to simplify the file IO, and the [random module](http://docs.python.org/2/library/random.html) to choose the order in which to display the tweets. You should familiarize yourself with these modules if you have not yet seen them.
 
-This code assumes you did the previous assignment correctly, and that you have a file called <code>tweets.csv</code> which contains 1000 lines, 900 of which have two columns (<code>tweet</code> and <code>user</code>) and 100 of which have three columns (<code>tweet</code>, <code>user</code>, and <code>label</code>). Since we want each of our HITs to present the Turker with 10 tweets to label, one of which will be a hidden quality control tweet for which we know the correct label, we want to generate a new CSV file which contains 100 lines, each of which corresponds to the data for one HIT. We will do this using 12 columns:
+    This code assumes you did the previous assignment correctly, and that you have a file called <code>tweets.csv</code> which contains 1000 lines, 900 of which have two columns (<code>tweet</code> and <code>user</code>) and 100 of which have three columns (<code>tweet</code>, <code>user</code>, and <code>label</code>). Since we want each of our HITs to present the Turker with 10 tweets to label, one of which will be a hidden quality control tweet for which we know the correct label, we want to generate a new CSV file which contains 100 lines, each of which corresponds to the data for one HIT. We will do this using 12 columns:
 
     tweet0...tweet9 control label
 	
-Here, the control column will be an integer, indicating which of the tweets is the control. This method of bookkeeping* makes it easy for us to randomize the location of the control tweet. In embed_controls.py, fill in the few lines of code (marked as TODO in the file) to generate a random location for the control and write the line to a CSV. 
+    Here, the control column will be an integer, indicating which of the tweets is the control. This method of bookkeeping* makes it easy for us to randomize the location of the control tweet. In embed_controls.py, fill in the few lines of code (marked as TODO in the file) to generate a random location for the control and write the line to a CSV. 
 
-<font size="1%">*Fun fact: Bookkeeping is one of the only two words in English with three consecutive pairs of repeated letters. Also, sweettooth. I learned this in third grade. It is valuable knowledge which I've never used.</font>
+    <font size="1%">*Fun fact: Bookkeeping is one of the only two words in English with three consecutive pairs of repeated letters. Also, sweettooth. I learned this in third grade. It is valuable knowledge which I've never used.</font>
  
 2. Once you have completed the code, you can run the script in the command line:
 
     $ python embed&#95;controls.py
 	
-	This will generate a file called <code>tweets&#95;with&#95;controls.csv</code>. Open it and check that it looks sensible.  
+    This will generate a file called <code>tweets&#95;with&#95;controls.csv</code>. Open it and check that it looks sensible.  
 
 ###Designing the HIT
 
