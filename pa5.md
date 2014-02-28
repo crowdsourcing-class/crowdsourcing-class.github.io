@@ -1,7 +1,7 @@
 ---
 layout: default
 img: big-data-for-dummies
-caption: 
+caption: How hard can it be...?
 title: Homework 8 | Classification
 active_tab: homework
 ---

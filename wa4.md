@@ -1,7 +1,7 @@
 ---
 layout: default
-img: launching-a-start-up
-caption: Crowdsource your startup!
+img: the-bottom-line
+caption: Always remember the bottom line.
 title: Homework 9 | Cost Analysis
 active_tab: homework
 ---
