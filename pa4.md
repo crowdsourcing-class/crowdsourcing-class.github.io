@@ -40,7 +40,7 @@ For this assignment, you will run all three algorithms and provide a brief analy
 
     <code>majority&#95;vote&#95;template.py</code> : Majority vote quality estimation
     
-    <code>embedded&#95;control&#95;.py</code> : Embedded control quality estimation. You will not need to edit this file since you did this last week.
+    <code>embedded&#95;control&#95;template.py</code> : Embedded control quality estimation. You will not need to edit this file since you did this last week.
     <code>troia&#95;em&#95;template.py</code> : EM quality estimation using Troia server .
     
     <code>quality&#95;estimation.py</code> : Combines the estimates from the above three algorithms, and outputs aggregated CSV files for analyzing.
