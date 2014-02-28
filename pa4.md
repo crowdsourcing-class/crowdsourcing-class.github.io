@@ -12,7 +12,7 @@ active_tab: homework
 </div>
 
 
-EM Algorithm<span class="text-muted">: Programming Assignment 4</span> 
+EM Algorithm<span class="text-muted">: Assignment 6</span> 
 =============================================================
 Last week, we used the embedded quality controls in order to determine how to approve and reject workers. This week, we will continue with the quality-control theme, but with a slightly different perspective. Now, we want to try to figure out how 'good' that data is. Is it good enough to train a sentiment classifier in the next assignment? Or did you waste all of your hard-earned-free-Amazon-money on utter crap? 
 

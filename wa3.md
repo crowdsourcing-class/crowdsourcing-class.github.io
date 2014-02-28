@@ -2,7 +2,7 @@
 layout: default
 img: launching-a-start-up
 caption: Crowdsource your startup!
-title: Homework 4 | Lit Review
+title: Homework 7 | Lit Review
 active_tab: homework
 ---
 
@@ -12,7 +12,7 @@ active_tab: homework
 </div>
 
 
-Lit Review<span class="text-muted">: Written Assignment 2</span> 
+Lit Review<span class="text-muted">: Assignment 7</span> 
 =============================================================
 Paraphrasing and summarization are two very interesting, very open problems in NLP, which are very near and dear to my heart. The most popular way to automatically summarize is to just find the "best" sentences from the document(s) you want to summarize, and throw away the rest. The [other option](http://sifaka.cs.uiuc.edu/czhai/pub/coling10-opinosis.pdf) is to use lots of math and graphs to try to have the computer generate new text to summarize the document(s). The results of this approach are often...crap : 
 

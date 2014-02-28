@@ -2,7 +2,7 @@
 layout: default
 img: launching-a-start-up
 caption: Crowdsource your startup!
-title: Homework 7 | Cost Analysis
+title: Homework 9 | Cost Analysis
 active_tab: homework
 ---
 
@@ -12,7 +12,7 @@ active_tab: homework
 </div>
 
 
-Cost Analysis<span class="text-muted">: Written Assignment 4</span> 
+Cost Analysis<span class="text-muted">: Assignment 9</span> 
 =============================================================
 
 Today is a very sad today. Your final homework assignment of the semester. The beginning of the end. I will greatly miss creating work for you all to do, as I know you will miss doing it. But for those of you who are not yet graduating and moving on to bigger and better things, take Machine Translation next semester (CIS 800/003)! I will not be TAing, but I will be taking it, so this is actually not shameless self-promotion.

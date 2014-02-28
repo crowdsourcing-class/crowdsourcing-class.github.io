@@ -12,7 +12,7 @@ active_tab: homework
 </div>
 
 
-Become a Requester <span class="text-muted">: Programming Assignment 2</span> 
+Become a Requester <span class="text-muted">: Assignment 3</span> 
 =============================================================
 This week, you will be using MTurk to label the data you scraped from Twitter in the last programming assignment. The theme of this assignment (and, really, the class) is quality. As you saw in your first assignment, MTurk tasks are usually simple and, yes, boring. Some turkers are lured in by the desire to strike it rich, two cents at a time, and will not pour their heart into giving you their highest quality work. Many other Turkers make a sincere effort, but can still make errors. Even if every Turker is perfectly reliable, we are dealing with a subjective question- classifying sentiment- and are guarenteed to get variation in the answers we recieve. In this assignment, we will address these issues in two ways:
 

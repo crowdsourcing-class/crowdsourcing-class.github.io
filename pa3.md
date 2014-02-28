@@ -12,7 +12,7 @@ active_tab: homework
 </div>
 
 
-Quality control<span class="text-muted">: Programming Assignment 2</span> 
+Quality control<span class="text-muted">: Assignment 5</span> 
 =============================================================
 The original plan for this week was for you to automatically grade your Turkers by checking the control tweets you embedded and rejecting the workers who failed to match your answer. There were a few problems with this. Primarily : we didn't want to make you do two assignments in one week, but Turkers are not nearly patient enough to wait two weeks for their payments. So we are reworking the assignment. (Of course, not until after I had completely designed the old assignment. Way to incentivize procrastination, world...). Instead you will run a few 'what-if' scenarios and analyze the tradeoffs. Next week, we will go into more depth and look at quality control mechanisms that do not use embedded controls. 
 

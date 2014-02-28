@@ -12,7 +12,7 @@ active_tab: homework
 </div>
 
 
-Market Research <span class="text-muted">: Written Assignment 2</span> 
+Market Research <span class="text-muted">: Assignment 4</span> 
 =============================================================
 You get a break from python this week. Instead, we are taking a step back, looking at the wealth of companies that use crowdsourcing as part of their business. ('wealth' [sense 2, not sense 1](http://wordnetweb.princeton.edu/perl/webwn?s=wealth&sub=Search+WordNet&o2=&o0=1&o8=1&o1=1&o7=&o5=&o9=&o6=&o3=&o4=&h=). [Word sense disambiguation](http://en.wikipedia.org/wiki/Word-sense_disambiguation) is still an open problem!)
 

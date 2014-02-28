@@ -1,8 +1,8 @@
 ---
 layout: default
-img: quality-never-goes-out-of-style
-caption: Quality never goes out of style.
-title: Homework 7 | Classification
+img: Big data for dummies.
+caption: 
+title: Homework 8 | Classification
 active_tab: homework
 ---
 
@@ -12,7 +12,7 @@ active_tab: homework
 </div>
 
 
-Classification <span class="text-muted">: Programming Assignment 5</span> 
+Classification <span class="text-muted">: Assignment 8</span> 
 =============================================================
 Okay! This is it! The assignment you have all been waiting for! We will finally take all the data you guys gathered and do something with it (besides sit and marvel at 'look what my Turkers did!') The goal of this assignment is very straightforward: you want to predict the sentiment of each tweet using statistical machine learning. How you do it is almost entirely up to you. You will have two weeks (almost) to do this assignment, so use all the extra time to make your classifier as good as possible. These kinds of projects take a lot of finessing to get right. 
 
@@ -106,6 +106,6 @@ The following steps with help get you familiar with the data, get familiar with 
 	- Test Average : 0.38871 
 </code>
 
-	[Mother#*$&#^!](../images/football.html) Memorizing companies in training is exactly what our classifier did. 
+	[Mother#*$&#^!](assets/img/football.html) Memorizing companies in training is exactly what our classifier did. 
 
 

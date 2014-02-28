@@ -12,7 +12,7 @@ active_tab: homework
 </div>
 
 
-Twittering <span class="text-muted">: Programming Assignment 2</span> 
+Twittering <span class="text-muted">: Assignment 2</span> 
 =============================================================
 In this assignment, we will be collecting data from Twitter which we will use to train our sentiment classifiers. Scraping Twitter for news and sentiment data has become a huge deal for businesses and researchers, and not *just* because people care about [kittens](https://twitter.com/CatsPorn/status/367992670745927680/photo/1). Governments and academics are interested in whether Twitter and other [social media can reveal breaking news](http://homepages.inf.ed.ac.uk/miles/papers/short-breaking.pdf) before news networks can, and [many investors](http://www.sntmnt.com/), despite all [economic theory](http://en.wikipedia.org/wiki/Efficient_market_hypothesis), believe social media can help them beat the market. Being able to use Twitter data at scale is a great skill for graduating computer scientists and business-minded students, and not a bad starting point for those of you who want to get rich ([boost UPenn's ranking!](http://www.forbes.com/2008/05/19/billionaires-harvard-education-biz-billies-cx_af_0519billieu_slide_4.html)) and spend your 30s sipping cocktails on rooftop terraces.
 
