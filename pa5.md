@@ -1,6 +1,6 @@
 ---
 layout: default
-img: big_data_for_dummies.jpg
+img: big_data_for_dummies.jpg 
 caption: 
 title: Homework 8 | Classification
 active_tab: homework
@@ -108,4 +108,7 @@ The following steps with help get you familiar with the data, get familiar with 
 
 	[Mother#*$&#^!](assets/img/football.gif) Memorizing companies in training is exactly what our classifier did. 
 
+And so it goes with machine learning...so now your assignment : fix it. Make it work. Make the accuracy on the leave one out cross validation as high as humanly possible.  You will want to edit around lines 43 and 58 (you can and should define more functions as needed). There are some methods and code snippets for you to use for debugging and analysis purposes, if you want them. Take some time to go through the code and figure out what is happening before you start feature engineering. I am happy to answer any questions that come up. There are so many directions to take this, so get creative. This is the fun part! I'm not even being facetious this time. :-)
+
+Good luck!! And may the best win!
 
