@@ -1,6 +1,6 @@
 ---
 layout: default
-img: big_data_for_dummies.jpg 
+img: big-data-for-dummies.jpg 
 caption: 
 title: Homework 8 | Classification
 active_tab: homework
