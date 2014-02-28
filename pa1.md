@@ -41,17 +41,17 @@ We are providing you with code that makes it very easy to search Twitter for key
 
 Here are some example tweets I got by searching for 'Apple'. 
 
- * Using apple headphones on my galaxy s4 surely this must be a crime?     LSudeene
+    * Using apple headphones on my galaxy s4 surely this must be a crime?     LSudeene
 
- * I'm dying. In the apple store there is some guys with a beer bong       kristinrutty
+    * I'm dying. In the apple store there is some guys with a beer bong       kristinrutty
 
- * Smoking Near Apple Computers Creates Biohazard, Voids Warranty http://t.co/mVyy65Zn5W via @wordpressdotcom      TisOsama
+    * Smoking Near Apple Computers Creates Biohazard, Voids Warranty http://t.co/mVyy65Zn5W via @wordpressdotcom      TisOsama
 
- * RT @RudeComedian: I hate it when I'm wearing my apple bottom jeans and I can't find my boots with the fur.      emmilyy_b
+    * RT @RudeComedian: I hate it when I'm wearing my apple bottom jeans and I can't find my boots with the fur.      emmilyy_b
 
- * Apple patent points to NFC on next iteration of the Apple iPhone and Apple iPad http://t.co/0S2OyY6HHb  yushadi_sy
+    * Apple patent points to NFC on next iteration of the Apple iPhone and Apple iPad http://t.co/0S2OyY6HHb  yushadi_sy
  
- * RT @HonestToddler: I mean, Apple Juice is wonderful, but Apple Sauce? Room temperature smoothie in a bowl. Failure.	LT_Kbyrne
+    * RT @HonestToddler: I mean, Apple Juice is wonderful, but Apple Sauce? Room temperature smoothie in a bowl. Failure.	LT_Kbyrne
 
 5. Download our <a href="downloads/convert_to_csv.py">script</a> to convert the Twitter output into a nice csv format. This script makes sure your data is in the format that MTurk expects, so that you can use it in the next assignment. Here, we use python's <a href="http://docs.python.org/2/library/csv.html">csv library</a> which is one you should definitely become comfortable with if you intend to do more large-scale data processing. It isn't difficult to convert into csv format by yourself, but using a library lets you avoid the little details, like escaping <a href="http://en.wikipedia.org/wiki/Comma-separated_values#Basic_rules_and_examples">special characters</a>, that are finicky and not particularly fun.
 
