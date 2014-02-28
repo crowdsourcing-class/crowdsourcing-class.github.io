@@ -67,10 +67,15 @@ Approval and rejection of workers is done in three ways. You will probably use (
     Once these categories are known, the logic is very simple. See the pseudocode below. We will simulate this whole process in a streaming style, meaning that we will look at the HITs one at a time, make our updates, and then approve or reject before seeing the next HIT. This means that if a worker were to fall into <code>BLOCKED</code> status in their first 10 HITs, and then bounce back, we would continue to reject their work. This is a natural way to process the HITs since, in a real-world setting, you often do not have all the data available from which to make your decisions. 
 
 	for each HIT : 
+
         	update worker status to include their performance on this HIT
+
         	if worker.status == 'PREAPPROVE' : Approve HIT
+
         	else if worker.status == 'BLOCKED' : Reject HIT
+
         	else if worker.status == 'TRUSTED' : Approve HIT
+
         	else if worker.status == 'PENDING' : Approve if control is correct, reject otherwise
 
     When you think your script is working, run it by passing it the path to your downloaded data. E.g.
