@@ -61,6 +61,6 @@ For this assignment, we will be using MTurk's online GUI interface to design our
 
 7. Make sure your directions <b>explicitly</b> instruct turkers to rate sentiment with respect to your chosen person or company. Tweets are very often ambiguous, emotionally complex, deeply profound statements on the human condition. Don't make your Turkers decipher all of that. Tell them exactly what you are expecting. 
 
-8. Your HIT should allow workers to rate the HIT sentiment on a 5-point scale (<code>strongly negative, negative, neutral, positive, strongly positive</code>), and should also contain a sixth option <code>"tweet does not refer to subject X"</code>. This is important to avoid confusion in the case of companies like Apple or Windows, whose names have meanings other than the company. 
+8. Your HIT should allow workers to rate the HIT sentiment on a 5-point scale (strongly negative, negative, neutral, positive, strongly positive), and should also contain a sixth option "tweet does not refer to subject X". This is important to avoid confusion in the case of companies like Apple or Windows, whose names have meanings other than the company. 
 
 
