@@ -1,6 +1,6 @@
 ---
 layout: default
-img: Big data for dummies.
+img: big_data_for_dummies.jpg
 caption: 
 title: Homework 8 | Classification
 active_tab: homework
@@ -106,6 +106,6 @@ The following steps with help get you familiar with the data, get familiar with 
 	- Test Average : 0.38871 
 </code>
 
-	[Mother#*$&#^!](assets/img/football.html) Memorizing companies in training is exactly what our classifier did. 
+	[Mother#*$&#^!](assets/img/football.gif) Memorizing companies in training is exactly what our classifier did. 
 
 
