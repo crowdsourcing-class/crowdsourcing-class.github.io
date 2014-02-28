@@ -40,7 +40,7 @@ For this assignment, you will run all three algorithms and provide a brief analy
 
     <code>majority&#95;vote&#95;template.py</code> : Majority vote quality estimation
     
-    <code>embedded&#95;control&#95.py</code> : Embedded control quality estimation. You will not need to edit this file since you did this last week.
+    <code>embedded&#95;control&#95;.py</code> : Embedded control quality estimation. You will not need to edit this file since you did this last week.
     <code>troia&#95;em&#95;template.py</code> : EM quality estimation using Troia server .
     
     <code>quality&#95;estimation.py</code> : Combines the estimates from the above three algorithms, and outputs aggregated CSV files for analyzing.
@@ -63,7 +63,7 @@ Each of the three algorithm files (<code>majority&#95;vote&#95;template.py</code
 
 	Okay, there that is. We've met our quota for overly-mathifying very simple concepts. CS classes must do this at minimum once per semester in order to reassure the engineering school that we are sufficiently rigorous.
 
-4. Open <code>embedded&#95;control.py</code>. Verify that this looks similar to what you did in the last assignment. The functions will be slightly different:
+4. Open <code>embedded_control.py</code>. Verify that this looks similar to what you did in the last assignment. The functions will be slightly different:
 
     <code>estimate&#95;data&#95;labels()</code> : In this case, we are accepting <i>all</i> labels from a HIT if the control tweet in that HIT was labeled correctly. This means that, unlike before, we may accept multiple labels for the same tweet. Therefore, we return a dictionary mapping each tweet to a set of accepted labels.
 
@@ -91,11 +91,11 @@ Each of the three algorithm files (<code>majority&#95;vote&#95;template.py</code
 
 This will give you 1) a graph comparing the estimated overall data accuracy, according to each algorithm and 2) a graph of each worker's estimated quality according to each algorithm. Use these to answer the following questions:
 	
-	* What was your accuracy a) against the majority vote? b) against the controls? c) against the EM estimated labels? Why do the estimates differ? What are some of the weakness of each approach?
-	* How does each algorithm rank your workers? Do they agree on which workers are most/least trustworthy? 
+  * What was your accuracy a) against the majority vote? b) against the controls? c) against the EM estimated labels? Why do the estimates differ? What are some of the weakness of each approach?
+  * How does each algorithm rank your workers? Do they agree on which workers are most/least trustworthy? 
 	
 9. Finally, open <code>troia&#95;em.py</code> again, and uncomment the code block around line 40. This will seed the EM algorithm with your gold data. Reproduce the graphs (you might want to go into the code and change the names that they are saved as, so you don't overwrite your first graphs). Answer the following question:
 
-	* How is EM different when you seed it with gold data? Does it agree more or less with the other algorithms?
+  * How is EM different when you seed it with gold data? Does it agree more or less with the other algorithms?
 
 10. Turn in your code, your two pairs of graphs and a few paragraphs. (!!)
