@@ -31,9 +31,9 @@ Approval and rejection of workers is done in three ways. You will probably use (
 
     You will see three files. The ones denoted 'template' are the ones that you will have to edit. As a brief overview of the files:
 	
-    grade&#95;hits&#95;naive&#95;template.py</code> : Grading script which approves or rejects each HIT based only on the control tweet in that HIT.
-    grade&#95;hits&#95;moresmarter&#95;template.py</code> : Grading script which approves or rejects each HIT based on the average performance of each worker. 
-    analysis.py</code> : Very short script to compile results.
+    <code>grade&#95;hits&#95;naive&#95;template.py</code> : Grading script which approves or rejects each HIT based only on the control tweet in that HIT.
+    <code>grade&#95;hits&#95;moresmarter&#95;template.py</code> : Grading script which approves or rejects each HIT based on the average performance of each worker. 
+    <code>analysis.py</code> : Very short script to compile results.
 
 3. Open <code>grade&#95;hits&#95;naive&#95;template.py</code>. There are a few lines that need to be completed in order for you to run the script, and they are marked with 'TODO'. All this script needs to do is check each control tweet against the gold standard answer and determine whether the Turker answered correctly. The script should then put an <code>'X'</code> in either the <code>Approve</code> or <code>Reject</code> column of the CSV. 
 
