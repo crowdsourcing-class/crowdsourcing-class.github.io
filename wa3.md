@@ -1,7 +1,7 @@
 ---
 layout: default
-img: launching-a-start-up
-caption: Crowdsource your startup!
+img: venn-diagram
+caption: Time to catch up on some reading!
 title: Homework 7 | Lit Review
 active_tab: homework
 ---
