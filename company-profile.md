@@ -2,7 +2,7 @@
 layout: default
 img: Crowdsourcing_Landscape
 img_link: http://www.thinketc.com/wp-content/uploads/2012/05/Crowdsourcing_Landscape.jpg
-title: In class presentation: Profile a company that uses crowdsourcing in its business
+title: Company profile presentation
 active_tab: company-profile
 ---
 
