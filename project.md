@@ -20,16 +20,17 @@ Progress Update: Individual team meetings with TA+Prof, give concrete progress u
 Final: Writeup and demonstration system
 
 Your project should meet the following guidelines:
- - Should solve a real world problem
- - Should actually use crowdsourcing (it doesn't have to be via MTurk, but that is a good default way to incorporate crowdsourcing)
- - Should involve either an HCI or a ML component
- - Should explain the choice of incentives and discuss alternative ways of incentivizing workers
- - Should contain a quality control component
- - Analyze costs, decide whether it is a viable business
- - Extra credit: Lay the foundation for a PennApp, Use 99designs to create cool web site
- - Bonus Extra credit: Start a business and put your Prof + TA on the board of advisors
- - Super extra mega credit: Raise VC funding
- - Loss of all credit: Dropping out of school
+
+- Should solve a real world problem
+- Should actually use crowdsourcing (it doesn't have to be via MTurk, but that is a good default way to incorporate crowdsourcing)
+- Should involve either an HCI or a ML component
+- Should explain the choice of incentives and discuss alternative ways of incentivizing workers
+- Should contain a quality control component
+- Analyze costs, decide whether it is a viable business
+- Extra credit: Lay the foundation for a PennApp, Use 99designs to create cool web site
+- Bonus Extra credit: Start a business and put your Prof + TA on the board of advisors
+- Super extra mega credit: Raise VC funding
+- Loss of all credit: Dropping out of school
 
 ## Project ideas
 
