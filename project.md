@@ -3,7 +3,7 @@ layout: default
 img: sudo-make-make-a-sandwich
 img_link: http://xkcd.com/149/
 title: Term project
-active_tab: term_project
+active_tab: project
 ---
 
 Final Project
