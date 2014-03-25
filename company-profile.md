@@ -19,34 +19,33 @@ Turn in a short writeup (~ 1 page) answering these questions by <b>Wednesday, Se
 
 Your TA will give an example presentation for Intrade.  [Here are her slides.](https://docs.google.com/presentation/d/1IJJ0MfVyxHLJDAh2eVFHCL3ba1IRtsR5rpQf8M6VkTg/edit#slide=id.ge736661f_022)
 
-* ODesk
-* CrowdFlower
-* Threadless
-* iStockPhoto
-* 99Designs
-* Instacart
-* Uber
-* Book Country
+* [ODesk](https://www.odesk.com)
+* [CrowdFlower](http://www.crowdflower.com)
+* [Threadless](https://www.threadless.com/how-it-works/)
+* [iStockPhoto](http://en.wikipedia.org/wiki/IStock)
+* [99Designs](http://99designs.com)
+* [Instacart](https://www.instacart.com/faq)
+* [Uber](https://www.uber.com)
+* [TaskRabbit](https://www.taskrabbit.com)
+* [Book Country](http://www.bookcountry.com)
+* [CrowdMed](https://www.crowdmed.com)
+* [Innocentive](http://www.innocentive.com)
+* Ushahidi
 * Amazon reviews/product recommendations
 * Yelp
 * Rotten Tomatoes
 * Flattr
-* digg
 * eBay buyer/seller ratings
 * Netflix recommendations
-* CrowdMed
 * Pandora
 * OKCupid
 * Kickstarter
 * Kiva
 * Iowa Election Markets
-* Ushahidi
 * PatientsLikeMe
-* Innocentive
 * Freelancer
 * Stackoverflow / Stackexchange
 * Waze
-* turntable.fm
 * IndieGoGo
 * Wikipedia
 * Foursquare
