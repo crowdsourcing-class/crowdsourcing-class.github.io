@@ -43,7 +43,7 @@ My expectation is that your final project will represent a substantial amount of
 Create a human computation algorithm to convert prose into poetry.  Your algorithm should model two aspects of poetry rhyme and meter.  NLP researchers have been working on text-to-text generation algorithms that can rewrite sentences in many different ways.  This software can generate a huge number of alternatives, some of which may fit the constraints of a poem.  However, the software is currently poor at determining which of the generated sentences are grammatical versus ungrammatical, and which correctly retain the its original meaning.  Your job will be to incorporate humans into the process to make those decisions.  Meet with your professor to learn more about the NLP software (it takes quite a lot of effort to learn), and then design a set of MTurk HITs to filter generated sentences down to ones that are poetic, grammatical and mean the same thing as the original prose.
  
  
-### Crowd Workers of the world unite
+### Crowd Workers of the world, unite!
  
 The Mechanical Turk interface for workers sucks.  Although it lets workers search by value of HIT and maximum duration, it lacks one critical piece of inform: expected hourly rate.  Write a web plug in to help workers track their hourly rate.  Design a database that records these stats for multiple workers and reports the average hourly rate for different requesters and/or tasks.  Possible extensions could track the approval/rejection rate of each requester, the average time from doing a HIT to getting paid for it, and a log of all of the reasons for rejection.
  
