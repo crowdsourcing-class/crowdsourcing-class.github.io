@@ -12,12 +12,10 @@
       author: Malone, Laubacher, and Dellarocas
       title:  Harnessing Crowds&#58; Mapping the Genome of Collective Intelligence
       url: http://crowdsourcing-class.org/readings/downloads/intro/MaloneEtAl.pdf
-      optional: true
     -
       author: Sir Francis Galton
       title:  Vox Populi
       url: http://wisdomofcrowds.blogspot.com/2009/12/vox-populi-sir-francis-galton.html
-      optional: true
 -
   date: 2014-09-03
   slides: http://crowdsourcing-class.org/slides/amazon-mechanical-turk.pdf
@@ -51,7 +49,6 @@
     -
       title:  Mechanical Turk blog
       url: http://mechanicalturk.typepad.com/blog/requester/
-      optional: true
 -
   date: 2014-09-10
   profile: true
@@ -76,7 +73,6 @@
       author: Panos Ipeirotis
       title:  Worker Evaluation in Crowdsourcing&#58; Gold Data or Multiple Workers?
       url: http://www.behind-the-enemy-lines.com/2010/09/worker-evaluation-in-crowdsourcing-gold.html
-      optional: true
 -
   date: 2014-09-15
   slides: http://crowdsourcing-class.org/slides/programming-the-crowd.pdf
@@ -95,7 +91,6 @@
     -
       title:  Download the TurKit software from the MIT Computer Science and Artificial Intelligence Laboratory
       url: http://www.behind-the-enemy-lines.com/2010/09/worker-evaluation-in-crowdsourcing-gold.html
-      optional: true
 -
   date: 2014-09-22
   slides: http://crowdsourcing-class.org/slides/crowdsourcing-and-HCI.pdf
@@ -260,12 +255,10 @@
       author: Ben Van Durme and Ashwin Lall
       title:  Online Generation of Locality Sensitive Hash Signatures
       url: readings/downloads/twitter/online-generation-of-locality-sensitive-hash-signatures.pdf
-      optional: true
     -
       author: Sariel Har-Peled, Piotr Indyk and Rajeev Motwani 
       title:  Approximate Nearest Neighbors&#58; Towards Removing the Curse of Dimensionality
       url: readings/downloads/twitter/approximate-nearest-neighbors.pdf
-      optional: true
 -
   date: 2014-10-29
   slides: http://crowdsourcing-class.org/slides/twitter-for-public-health.pdf
@@ -290,12 +283,10 @@
       author: Alex Quinn and Ben Bederson
       title:  AskSheet&#58; Efficient Human Computation for Decision Making with Spreadsheets
       url: readings/downloads/hci/asksheet.pdf
-      optional: true
     -
       author: Michael Ekstrand
       title:  The Crowd is a Monad
       url: http://elehack.net/blog/2014/02/crowd-monad
-      optional: true
 -
   date: 2014-11-10
   title: A/B Testing
@@ -312,16 +303,13 @@
       author: Kyle Rush
       title:  Optimization at the Obama campaign&#58; A/B Testing
       url: http://o04151985.kylerush.net/blog/optimization-at-the-obama-campaign-ab-testing/
-      optional: true
     -
       author: Ben Tilly
       title:  Effective A/B Testing
       url: http://elem.com/~btilly/effective-ab-testing/
-      optional: true
     -
       title:  Optimizely
       url: https://www.optimizely.com
-      optional: true
 -
   date: 2014-11-12
   title: Prediction Markets
@@ -347,7 +335,6 @@
     -
       title:  Machine Translation of Arabic Dialects
       url: http://www.cis.upenn.edu/~ccb/publications/machine-translation-of-arabic-dialects.pdf
-      optional: true
 -
   date: 2014-11-19
   title: Crowdsourcing for Automatic Speech Recognition
@@ -365,7 +352,6 @@
     -
       title:  Crowdsourcing for Speech Processing&#58; Applications to Data Collection, Transcription and Assessment
       url: http://www.amazon.com/Crowdsourcing-Speech-Processing-Applications-Transcription/dp/1118358694/
-      optional: true
 -
   date: 2014-11-19
   title: What big data can tell us about sex and relationships
@@ -374,12 +360,10 @@
     -
       title:  OKCupid Blog
       url: http://blog.okcupid.com
-      optional: true
     -
       author: Rajesh Ranganath, Dan Jurafsky and Daniel McFarland
       title:  Detecting friendly, flirtatious, awkward, and assertive speech in speed-dates
       url: http://www.stanford.edu/~jurafsky/pubs/ranganath2013.pdf
-      optional: true
 -
   date: 2014-12-01
   title: Review of machine learning homework
@@ -394,7 +378,6 @@
     -
       title:  Personality, Gender, and Age in the Language of Social Media&#58; The Open-Vocabulary Approach
       url: http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0073791
-      optional: true
 -
   date: 2014-12-08
   title: Course wrap-up
