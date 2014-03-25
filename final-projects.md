@@ -12,7 +12,7 @@ Final Project Videos
 These are absolutely awesome! I've been bragging about you all to my mom...
 
 
-- Quanze and Ray [Mechanical Poet](http://vimeo.com/82210047)
+- Jim and Ray [Mechanical Poet](http://vimeo.com/82210047)
 - Taylor [Write me a love song](http://vimeo.com/82191227)
 - Corey and Alex [Wikitopics](https://vimeo.com/82247435)
 - Joel [Instamenu](https://vimeo.com/82219965) 
