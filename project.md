@@ -73,3 +73,6 @@ Wikipedia provides hour-by-hour page view statistics for every one of its pages.
 Prediction markets use collective intelligence to try to predict the outcome of future events.  Prediction markets answer questions that have definite, verifiable answers on a particular date (like "Will the government shutdown still be in effect on October 31, 2013?").  They let people buy and sell shares in the outcomes, and track the value of each outcome's shares over time.  You should implement a prediction market that sets that value of the shares.  You should hire workers on Mechanical Turk to make the predictions.  The major design challenge will be to formulate the system so that it incentivizes Turkers to make well-considered predictions instead of random predictions.  For instance, you may consider designing a HIT that pays nothing initially, but that gives people up to $10 if all of their predictions are accurate.  
  
 
+### Inspiration from others
+
+[Jeffery Bigham](http://www.cs.cmu.edu/~jbigham/) runs a class at CMU.  [You can check out his list of suggested final project topics.](http://www.programthecrowd.com/finalproject)
