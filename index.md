@@ -29,7 +29,7 @@ Time and place
 : Fall 2014, Mondays and Wednesdays 4:30-6pm, Moore 212
 
 Prerequisites
-: [CIS 120](http://www.seas.upenn.edu/~cis120/) or relevant programming experience
+: [CIS 120](http://www.seas.upenn.edu/~cis120/) or prior programming experience
 
 Course Readings
 : Selections from [The Wisdom of Crowds by James Surowiecki](http://www.amazon.com/Wisdom-Crowds-James-Surowiecki-ebook/dp/B000FCKC3I/)
