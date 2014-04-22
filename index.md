@@ -14,7 +14,7 @@ Check out these fantastic [final project videos](final-projects.html) from the F
 </div>
 
 Course number
-: [NETS](http://nets.upenn.edu/) 213
+: [NETS](http://nets.upenn.edu/) 213 - students from all majors are welcome!
 
 Instructor
 : [Chris Callison-Burch](http://www.cis.upenn.edu/~ccb/) - Office hours on Mondays from 10:30am-11:30am in Levine 506
