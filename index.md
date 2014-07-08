@@ -26,7 +26,7 @@ Discussion Forum
 : [Piazza](https://piazza.com/class/hlji2xpu1r6580)
 
 Time and place
-: Fall 2014, Mondays and Wednesdays 4:30-6pm, Moore 212
+: Fall 2014, Mondays and Wednesdays 4:30-6pm, Towne 313
 
 Prerequisites
 : [CIS 120](http://www.seas.upenn.edu/~cis120/) or prior programming experience
