@@ -132,20 +132,6 @@
       title:  EmailValet&#58; Managing Email Overload through Private, Accountable Crowdsourcing
       url: readings/downloads/hci/EmailValet.pdf
 -
-  date: 2014-09-22
-  slides: http://crowdsourcing-class.org/slides/crowdsourcing-and-HCI-privacy-and-latency.pdf
-  title: Crowdsourcing and human computer interaction (HCI) design
-  highlights:
-    - Next generation interfaces
-    - Soylent word processor ("it's made of people")
-  reading:
-    -
-      title: The Wisdom of Crowds&#58; Chapter 6 ("Society Does Exist&#58; Taxes, Tipping, Television and Trust")
-    -
-      author: Michael Bernstein, Greg Little, Rob Miller, Björn Hartmann, Mark Ackerman, David Karger, David Crowell, and Katrina Panovich
-      title:  Soylent&#58; A Word Processor with a Crowd Inside
-      url: readings/downloads/hci/Soylent.pdf
--
   date: 2014-09-29
   slides: http://crowdsourcing-class.org/slides/quality-control.pdf
   title: Quality Control part 1
@@ -282,19 +268,18 @@
       url: readings/downloads/twitter/analyzing-twitter-for-public-health.pdf
 -
   date: 2014-11-05
-  title: AskSheet&#58; Efficient Human Computation for Decision Making with Spreadsheets
-  speaker: Alex Quinn
-  slides: http://alexquinn.org/slides/cscw2014-asksheet-quinn-bederson.pdf
-  speaker_url: http://www.alexquinn.org
+  title: Detecting Emotional Contagion in Massive Social Networks
+  highlights:
+    - 
   reading:
     -
-      author: Alex Quinn and Ben Bederson
-      title:  AskSheet&#58; Efficient Human Computation for Decision Making with Spreadsheets
-      url: readings/downloads/hci/asksheet.pdf
+      author: Lorenzo Coviello, Yunkyu Sohn, Adam Kramer, Cameron Marlow, Massimo Franceschetti, Nicholas Christakis, and James Fowler
+      title:  Detecting Emotional Contagion in Massive Social Networks
+      url: http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0090315
     -
-      author: Michael Ekstrand
-      title:  The Crowd is a Monad
-      url: http://elehack.net/blog/2014/02/crowd-monad
+      author: TLDR podcast
+      title:  TLDR #32 - An Imperfect Match
+      url: http://www.onthemedia.org/story/tldr-32-imperfect-match/
 -
   date: 2014-11-10
   title: A/B Testing
