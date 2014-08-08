@@ -63,3 +63,4 @@ Your TA will give an example presentation for Intrade.  [Here are her slides.](h
 * [Stackoverflow](http://stackoverflow.com) / [Stackexchange](http://stackexchange.com/sites)
 * [Quora](http://www.quora.com)
 * [Wikipedia](http://en.wikipedia.org/wiki/Main_Page)
+* [Freebase](http://www.freebase.com)
