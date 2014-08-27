@@ -64,3 +64,4 @@ Your TA will give an example presentation for Intrade.  [Here are her slides.](h
 * [Quora](http://www.quora.com)
 * [Wikipedia](http://en.wikipedia.org/wiki/Main_Page)
 * [Freebase](http://www.freebase.com)
+* [Silk Road](http://arstechnica.com/tech-policy/2014/08/dark-net-drug-markets-kept-alive-by-great-customer-service/)
