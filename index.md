@@ -10,6 +10,10 @@ Crowdsourcing and human computation are emerging fields that sit squarely at the
 
 
 <div class="alert alert-info" markdown="span">
+The [first homework assignment](wa1.html) is due on Wednesday, September 3rd, before class.
+</div>
+
+<div class="alert alert-info" markdown="span">
 Check out these fantastic [final project videos](final-projects.html) from the Fall 2013 class!
 </div>
 
