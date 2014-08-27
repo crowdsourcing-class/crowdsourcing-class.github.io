@@ -19,6 +19,12 @@
 -
   date: 2014-09-01
   title: Labor Day (no classes)
+  reading:
+    -
+      author: Jeff Bigham
+      title:  My MTurk (half) Workday
+      url: http://www.cs.cmu.edu/~jbigham/posts/2014/half-workday-as-turker.html
+
 -
   date: 2014-09-03
   slides: http://crowdsourcing-class.org/slides/amazon-mechanical-turk.pdf
