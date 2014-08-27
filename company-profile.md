@@ -32,7 +32,7 @@ Your TA will give an example presentation for Intrade.  [Here are her slides.](h
 * [Book Country](http://www.bookcountry.com)
 * [CrowdMed](https://www.crowdmed.com)
 * [Innocentive](http://www.innocentive.com)
-* [Kaggle](http://www.kaggle.com_
+* [Kaggle](http://www.kaggle.com)
 * [XPRIZE](http://www.xprize.org)
 * [Kickstarter](http://www.kickstarter.com)
 * [IndieGoGo](https://www.indiegogo.com)
