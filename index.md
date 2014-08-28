@@ -27,7 +27,7 @@ Teaching Assistant
 : [Ellie Pavlick](http://www.seas.upenn.edu/~epavlick/)  - Office hours on Wednesdays from 3:30pm-4:30pm in the Levine 5th floor bump space
 
 Discussion Forum
-: [Piazza](https://piazza.com/class/hlji2xpu1r6580)
+: [Piazza](https://piazza.com/upenn/fall2014/nets213/home)
 
 Time and place
 : Fall 2014, Mondays and Wednesdays 4:30-6pm, Towne 313
