@@ -23,7 +23,7 @@ In this assignment you’ll choose at least 50 assignments to complete.  We’re
 
  
 
-1. Sign up for MTurk as a worker [here](https://www.mturk.com/mturk/welcome).
+1. Sign up for MTurk as a worker [here](https://www.mturk.com/mturk/welcome).  Please do this as early as possible, since it can take 48 hours or more to have your account approved.
 2. Sign up for MTurk as a requester [here](https://www.mturk.com/mturk/welcome). You won't use this for this assignment directly, but we want everyone signed up early so we can get you set up with Amazon credits.
 3. Install the [Crowd Workers](http://crowd-workers.com/landing) Google Chrome extension. This will track and help you to analyze the work that you’ve done. Please use the Google Chrome web browser with the Crowd Workers plugin installed for all of this homework assignment.
 4. Next, choose at least 50 assignments to complete.  You should pick a goal for yourself.  You can try to make as much money as you can, or you try to make the highest hourly rate that you can.
