@@ -159,7 +159,8 @@
       title:  Cheap and Fast — But is it Good? Evaluating Non-Expert Annotations for Natural Language Tasks
       url: readings/downloads/nlp/evaluating-non-expert-annotations-for-nlp.pdf
 -
-  date: 2014-10-01
+  date: 2014-10-01  
+  speaker: Ellie Pavlick (Instructor will be traveling)
   slides: http://crowdsourcing-class.org/slides/quality-control-2.pdf
   title: Quality Control part 2
   highlights:
@@ -200,9 +201,9 @@
   date: 2014-10-13
   title: In-class presentations&#58; Pitch your term project ideas
 -
-  date: 2014-10-14
+  date: 2014-10-15
+  title: Instructor will be traveling for a DARPA meeting.  Guest lecture or no class (TBD).
   slides: http://crowdsourcing-class.org/slides/machine-learning.pdf
-  title: Machine Learning part 1
   highlights:
     - Examples of machine learning applications
     - Naive Bayes
@@ -355,7 +356,7 @@
       title:  Crowdsourcing for Speech Processing&#58; Applications to Data Collection, Transcription and Assessment
       url: http://www.amazon.com/Crowdsourcing-Speech-Processing-Applications-Transcription/dp/1118358694/
 -
-  date: 2014-11-19
+  date: 2014-11-24
   title: What big data can tell us about sex and relationships
   slides: http://crowdsourcing-class.org/slides/speed-dating-okcupid.pdf
   reading:
@@ -366,6 +367,10 @@
       author: Rajesh Ranganath, Dan Jurafsky and Daniel McFarland
       title:  Detecting friendly, flirtatious, awkward, and assertive speech in speed-dates
       url: http://www.stanford.edu/~jurafsky/pubs/ranganath2013.pdf
+
+-
+  date: 2014-11-26
+  title: No class (Friday class schedule today)
 -
   date: 2014-12-01
   title: Review of machine learning homework
