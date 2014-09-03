@@ -65,3 +65,5 @@ Your TA will give an example presentation for Intrade.  [Here are her slides.](h
 * [Wikipedia](http://en.wikipedia.org/wiki/Main_Page)
 * [Freebase](http://www.freebase.com)
 * [Silk Road](http://arstechnica.com/tech-policy/2014/08/dark-net-drug-markets-kept-alive-by-great-customer-service/)
+* [Prosper](https://prosper.com/welcome/how_it_works.aspx)
+* [Lending Club](https://www.lendingclub.com/public/how-peer-lending-works.action)
