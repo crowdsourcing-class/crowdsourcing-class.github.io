@@ -22,7 +22,7 @@ This assignment has two deliverables.
 
 This assignment can be done individually or in pairs.
 
-First, please sign up for a [company or project](https://docs.google.com/spreadsheets/d/1kOcI7BJUQGeG3Pb3oZPRqfTt2JYwRnjnTqImex9qsSQ/edit#gid=209977841).  If there’s a company that you’d like to research that isn’t on the list, you are welcome to ask the instructor or the TA to ask if it is OK.  Second, please choose a [presentation date](https://docs.google.com/spreadsheets/d/1kOcI7BJUQGeG3Pb3oZPRqfTt2JYwRnjnTqImex9qsSQ/edit#gid=0).
+First, please sign up for a [company or project](https://docs.google.com/spreadsheets/d/1kOcI7BJUQGeG3Pb3oZPRqfTt2JYwRnjnTqImex9qsSQ/edit#gid=209977841).  If there’s a company that you’d like to research that isn’t on the list, you are welcome to ask the instructor or the TA to ask if it is OK.  Second, please choose a [presentation date](https://docs.google.com/spreadsheets/d/1kOcI7BJUQGeG3Pb3oZPRqfTt2JYwRnjnTqImex9qsSQ/edit#gid=0). Up to 3 presentations can go on the same day.
 
 You should independently research the company, and then [fill in your answers about it in this questionnaire](https://docs.google.com/forms/d/1cEkW2h2xwVyKaXriKR7PqroPDjQZE34AKPoRP-lUV5Y/viewform?usp=send_form).  Your short answers to these questions by <b>Wednesday, September 10</b>. 
 
