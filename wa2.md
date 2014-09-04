@@ -2,7 +2,7 @@
 layout: default
 img: launching-a-start-up
 caption: Crowdsource your startup!
-title: Homework 4 | Market Research
+title: Homework 2 | Market Research
 active_tab: homework
 ---
 
