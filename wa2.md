@@ -16,9 +16,9 @@ Market Research <span class="text-muted">: Assignment 2</span>
 =============================================================
 This week we will be looking at the wealth of companies that use crowdsourcing as part of their business. Here’s a [list of companies](company-profile.html) that you could research.
 
-This assignment has two deliverables:  
-1. Answering [a questionnaire](https://docs.google.com/forms/d/1cEkW2h2xwVyKaXriKR7PqroPDjQZE34AKPoRP-lUV5Y/viewform?usp=send_form) about the company or project that you are researching (due 9/10/14).
+This assignment has two deliverables:
 
+1. Answering [a questionnaire](https://docs.google.com/forms/d/1cEkW2h2xwVyKaXriKR7PqroPDjQZE34AKPoRP-lUV5Y/viewform?usp=send_form) about the company or project that you are researching (due 9/10/14).
 2. A slideshow and video that you will use for an in-class presentation (due 9/17/14).
 
 This assignment can be done individually or in pairs.
