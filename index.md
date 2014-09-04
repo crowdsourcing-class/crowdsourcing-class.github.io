@@ -10,7 +10,11 @@ Crowdsourcing and human computation are emerging fields that sit squarely at the
 
 
 <div class="alert alert-info" markdown="span">
-The [first homework assignment](wa1.html) is due on Wednesday, September 3rd, before class.
+The [second homework assignment](wa2.html) has been released.  The first part of the assignment is due Wednesday, September 10th, before class.
+</div>
+
+<div class="alert alert-info" markdown="span">
+The deadline for [first homework assignment](wa1.html) has been extended to Monday, September 8th, for anyone who had trouble getting an Amazon account.
 </div>
 
 <div class="alert alert-info" markdown="span">
