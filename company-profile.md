@@ -17,7 +17,7 @@ As part of your [market research assignment](wa2.md), you will give a short 5 to
 
 You will do research on the company, and [fill out a questionnaire about the company](https://docs.google.com/forms/d/1cEkW2h2xwVyKaXriKR7PqroPDjQZE34AKPoRP-lUV5Y/viewform?usp=send_form) by <b>Wednesday, September 10</b>. See the HW description for more details.
 
-Your TA will give an example presentation for Intrade.  [Here are her slides.](https://docs.google.com/presentation/d/1IJJ0MfVyxHLJDAh2eVFHCL3ba1IRtsR5rpQf8M6VkTg/edit#slide=id.ge736661f_022)
+Your TA will give an example presentation to illustrate what we’re looking for. 
 
 Here are some companies that you could profile:
 * [ODesk](https://www.odesk.com)
@@ -64,6 +64,7 @@ Here are some companies that you could profile:
 * [Flattr](https://flattr.com)
 * [Netflix recommendations](https://www.netflix.com/)
 * [Iowa Election Markets](http://tippie.uiowa.edu/iem/)
+* [Intrade](http://en.wikipedia.org/wiki/Intrade)
 * [538](http://fivethirtyeight.com)
 * [Freelancer](https://www.freelancer.com/)
 * [Stackoverflow](http://stackoverflow.com) 
@@ -77,5 +78,7 @@ Here are some companies that you could profile:
 * [coursera](https://www.coursera.org)
 * [Udacity](https://www.udacity.com)
 * [edX](https://www.edx.org)
+
+The Freakonomics podcast had an interesting [episode about the sharing economy](http://freakonomics.com/2014/09/04/regulate-this-a-new-freakonomics-radio-podcast/), which discussed some of these companies. 
 
 For full details about the assignment, [check out homework page](wa2.html).
