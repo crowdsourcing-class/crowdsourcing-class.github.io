@@ -14,7 +14,7 @@ active_tab: homework
 
 Market Research <span class="text-muted">: Assignment 2</span> 
 =============================================================
-This week we will be looking at the wealth of companies that use crowdsourcing as part of their business. ('wealth' [sense 2, not sense 1](http://wordnetweb.princeton.edu/perl/webwn?s=wealth&sub=Search+WordNet&o2=&o0=1&o8=1&o1=1&o7=&o5=&o9=&o6=&o3=&o4=&h=). [Word sense disambiguation](http://en.wikipedia.org/wiki/Word-sense_disambiguation) is still an open problem!)
+This week we will be looking at the wealth of companies that use crowdsourcing as part of their business. Here’s a [list of companies](company-profile.html) that you could research.
 
 This assignment has two deliverables.  
 1. Answering [a questionnaire](https://docs.google.com/forms/d/1cEkW2h2xwVyKaXriKR7PqroPDjQZE34AKPoRP-lUV5Y/viewform?usp=send_form) about the company or project that you are researching (due 9/10/14).
