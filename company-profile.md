@@ -20,6 +20,7 @@ You will do research on the company, and [fill out a questionnaire about the com
 Your TA will give an example presentation to illustrate what we’re looking for. 
 
 Here are some companies that you could profile:
+
 * [ODesk](https://www.odesk.com)
 * [CrowdFlower](http://www.crowdflower.com)
 * [Threadless](https://www.threadless.com/how-it-works/)
