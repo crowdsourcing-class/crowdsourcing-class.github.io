@@ -15,10 +15,11 @@ As part of your [market research assignment](wa2.md), you will give a short 5 to
 - What are the quality concerns, and how does the company do quality control?
 - How does the company benefit from user contributions?
 
-Turn in a short writeup (~ 1 page) answering these questions by <b>Wednesday, September 25</b>. Your presentation slides are due on the day you give your presentation.
+You will do research on the company, and [fill out a questionnaire about the company](https://docs.google.com/forms/d/1cEkW2h2xwVyKaXriKR7PqroPDjQZE34AKPoRP-lUV5Y/viewform?usp=send_form) by <b>Wednesday, September 10</b>. See the HW description for more details.
 
 Your TA will give an example presentation for Intrade.  [Here are her slides.](https://docs.google.com/presentation/d/1IJJ0MfVyxHLJDAh2eVFHCL3ba1IRtsR5rpQf8M6VkTg/edit#slide=id.ge736661f_022)
 
+Here are some companies that you could profile:
 * [ODesk](https://www.odesk.com)
 * [CrowdFlower](http://www.crowdflower.com)
 * [Threadless](https://www.threadless.com/how-it-works/)
@@ -27,6 +28,9 @@ Your TA will give an example presentation for Intrade.  [Here are her slides.](h
 * [Quirky](http://quirky.com)
 * [Instacart](https://www.instacart.com/faq)
 * [Uber](https://www.uber.com)
+* [Lyft](https://www.lyft.com)
+* [EatWith](http://www.eatwith.com)
+* [airbnb](https://www.airbnb.com)
 * [TaskRabbit](https://www.taskrabbit.com)
 * [Thumbtack](http://www.thumbtack.com/)
 * [Book Country](http://www.bookcountry.com)
@@ -70,3 +74,8 @@ Your TA will give an example presentation for Intrade.  [Here are her slides.](h
 * [Silk Road](http://arstechnica.com/tech-policy/2014/08/dark-net-drug-markets-kept-alive-by-great-customer-service/)
 * [Prosper](https://prosper.com/welcome/how_it_works.aspx)
 * [Lending Club](https://www.lendingclub.com/public/how-peer-lending-works.action)
+* [coursera](https://www.coursera.org)
+* [Udacity](https://www.udacity.com)
+* [edX](https://www.edx.org)
+
+For full details about the assignment, [check out homework page](wa2.html).
