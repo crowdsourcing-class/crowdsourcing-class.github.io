@@ -1,7 +1,7 @@
 ---
 layout: default
-img: launching-a-start-up
-caption: Crowdsource your startup!
+img: python
+caption: Hello world!
 title: Homework 3 | Python Bootcamp
 active_tab: homework
 ---
@@ -12,7 +12,7 @@ active_tab: homework
 </div>
 
 
-Market Research <span class="text-muted">: Assignment 2</span> 
+Python Bootcamp <span class="text-muted">: Assignment 3</span> 
 =============================================================
 Enough talk, this week we will start writing some code. This assignment is designed to be a crash-course to get you up to speed on the level of Python you will need to know in order to do the remainder of the assignments. For those of you that already know Python, great. For those that do not, its easiest to learn by doing, so please start early so we can help you get on board so that you can focus on the crowdsourcing and machine learning, not the indenting and semicoloning. 
 
