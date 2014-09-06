@@ -32,6 +32,10 @@ Open up the python interpreter and play with variable assignment and reassignmen
 Python 2.7.5 (default, Mar  9 2014, 22:15:05) 
 [GCC 4.2.1 Compatible Apple LLVM 5.0 (clang-500.0.68)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
+# You can comment with pound sign
+"""
+Or with triple quotes
+"""
 >>> x = 2
 >>> x
 2
@@ -116,7 +120,7 @@ odd
 even
 odd
 even
-# Here is a function definition. Again, no types are required for your parameters, so commenting is SOOO important. So important.
+# A function definition. No types are required for parameters, so commenting is SO important. So important.
 """
 Returns the idx element of a list
 
@@ -132,9 +136,27 @@ idx - the integer index of the element to return
 
 ###3. File IO
 
-###4. Text processing
+You can open, read, and write files using the aptly-named open(), read(), and write() commands. read() returns the entire contents of the file as a string. readlines() will split on the newline character and return the lines as a list, which is generally nicer for allowing you to iterate line-by-line. I won't go through an example here, but I highly recommend playing with the [csv module](), which is incredibly useful and we will likely use regularly throughout the semester. 
 
-###5. Machine learning in Python
+<pre><code>
+>>> file = open('test.txt', 'w')
+>>> for s in ['line1', 'line2', 'line3', 'line4'] : 
+...     file.write(s+'\n')
+... 
+>>> file.close()
+>>> contents = open('test.txt').read()
+>>> contents
+'line1\nline2\nline3\nline4\n'
+>>> contents = open('test.txt').readlines()
+>>> contents
+['line1\n', 'line2\n', 'line3\n', 'line4\n']
+</code></pre>
+
+###4. Machine learning in Python
+
+Okay! If you had any trouble with any of the material above, please please please talk to Chris or I. The rest of the assignment will assume you know the basics of data structures and syntax.
+
+
 
 
 Your code is due <b>Wednesday, September 17</b>. Please submit it via <code>turnin</code> from the eniac machines. 
