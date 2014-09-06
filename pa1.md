@@ -17,7 +17,7 @@ Python Bootcamp <span class="text-muted">: Assignment 3</span>
 Enough talk, this week we will start writing some code. This assignment is designed to be a crash-course to get you up to speed on the level of Python you will need to know in order to do the remainder of the assignments. For those of you that already know Python, great. For those that do not, its easiest to learn by doing, so please start early so we can help you get on board so that you can focus on the crowdsourcing and machine learning, not the indenting and semicoloning. 
 
 The majority of the assignment will focus on teaching you Python by walking you through building a simple machine learning classifier. The deliverables for this assignment will be :
-1. Your script, <pre><code>bootcamp.py</code></pre>, which should contain your code for training and running your classifier on the provided data. 
+1. Your script, bootcamp.py, which should contain your code for training and running your classifier on the provided data. 
 2. Your answers to the questions [here](). 
 
 You do not need to turn in anything for the first 3 sections, but you will need to read through them and do the exercises so that you can let us know ASAP if you are having trouble before we start on the real coding assignments.  
@@ -47,7 +47,7 @@ This also means that you can mix variable types within a data structure. There i
 
 Lists are declare with square brackets and indexed using square bracket notation. They can also be treated as stacks, if you are into that sort of thing. 
 
-Create a list of ints. Then, in order to drive those Scala people insane, start appending strings to it. Play with indexing and slicing. In Python, you can use the colon notation to pull out slices of a list. E.g. <pre><code>lst[i:j]</code></pre> will give you a new list which includes the ith through the (j-1)th elements of <pre><code>lst</code></pre>.
+Create a list of ints. Then, in order to drive those Scala people insane, start appending strings to it. Play with indexing and slicing. In Python, you can use the colon notation to pull out slices of a list. E.g. lst[i:j] will give you a new list which includes the ith through the (j-1)th elements of lst.
 
 <pre><code>>>> l = [1, 2, 3]
 >>> for elem in l: print elem
