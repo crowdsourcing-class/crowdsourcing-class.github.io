@@ -18,9 +18,8 @@ Good news! This week we will start writing some code! This assignment is designe
 
 The majority of the assignment will focus on teaching you Python by walking you through building a simple machine learning classifier. The deliverables for this assignment will be :
 
-	1. Your script, bootcamp.py, which should contain your code for training and running your classifier on the provided data. 
-
-	2. Your answers to the questions [here](). 
+1. Your script, bootcamp.py, which should contain your code for training and running your classifier on the provided data. 
+2. Your answers to the questions [here](). 
 
 You do not need to turn in anything for the first 3 sections, but you will need to read through them and do the exercises so that you can let us know ASAP if you are having trouble before we start on the real coding assignments.  
 
