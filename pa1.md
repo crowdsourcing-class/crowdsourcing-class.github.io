@@ -93,8 +93,7 @@ As you can imagine, the lack of type-checking makes it very easy to write bad Py
 
 Python makes it easy to write bad code. But it makes it _very_ hard to write ugly code. So chalk one up for superficiality. Python use whitespace to denote control structures, like loops and if/else blocks, which makes the logic very intutive to read and means you don't have to worry about curly braces. By convention, you should use four spaces for each level of indentation. (I use tabs because I am lazy and like to save the key strokes. I was told over the summer that this is the mark of a novice, and no one of any merit uses tabs. I just hung my head in shame. So use spaces.)
 
-<pre><code>
->>> print l
+<pre><code>>>> print l
 [1, 2, 3, 'here is more stuff', 6, [2, 3, 4]]
 # Here is a for loop. The loop ends when you leave the indented block
 >>> for elem in l:
@@ -138,8 +137,7 @@ idx - the integer index of the element to return
 
 You can open, read, and write files using the aptly-named open(), read(), and write() commands. read() returns the entire contents of the file as a string. readlines() will split on the newline character and return the lines as a list, which is generally nicer for allowing you to iterate line-by-line. I won't go through an example here, but I highly recommend playing with the [csv module](), which is incredibly useful and we will likely use regularly throughout the semester. 
 
-<pre><code>
->>> file = open('test.txt', 'w')
+<pre><code>>>> file = open('test.txt', 'w')
 >>> for s in ['line1', 'line2', 'line3', 'line4'] : 
 ...     file.write(s+'\n')
 ... 
@@ -159,6 +157,6 @@ Okay! If you had any trouble with any of the material above, please please pleas
 
 
 
-Your code is due <b>Wednesday, September 17</b>. Please submit it via <code>turnin</code> from the eniac machines. 
+Your code is due <b>Wednesday, September 17</b>. Please submit it via [turnin]() from the eniac machines. 
 
 
