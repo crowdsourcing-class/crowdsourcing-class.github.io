@@ -25,7 +25,7 @@ You do not need to turn in anything for the first 3 sections, but you will need 
 
 ###1. The basics: variables and data structures
 
-Python has your basic variable types: strings, ints, floats. Unlike Java and many other languages, variables are not typed. You simply declare a variable by assigning a value to it. Later, you can reassign a different type to that same variable and Python couldn't care less.
+Python has your basic variable types: strings, ints, floats. Unlike Java and many other languages, variables are not type-checked. You simply declare a variable by assigning a value to it. Later, you can reassign a different type to that same variable and Python couldn't care less.
 
 Open up the python interpreter and play with variable assignment and reassignment:
 
@@ -153,7 +153,7 @@ You can open, read, and write files using the aptly-named open(), read(), and wr
 
 ###4. Machine learning in Python
 
-Okay! If you had any trouble with any of the material above, please please please talk to Chris or I. The rest of the assignment will assume you know the basics of data structures and syntax.
+Okay! If you had any trouble with any of the material above, please come talk to Chris or I. The rest of the assignment will assume you know the basics of data structures and syntax.
 
 
 
