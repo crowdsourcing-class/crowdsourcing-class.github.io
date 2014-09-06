@@ -28,33 +28,21 @@ Python has your basic variable types: strings, ints, floats. Unlike Java and man
 
 Open up the python interpreter and play with variable assignment and reassignment:
 
-<code>
+<pre><code>
 $ python
-
 Python 2.7.5 (default, Mar  9 2014, 22:15:05) 
-
 [GCC 4.2.1 Compatible Apple LLVM 5.0 (clang-500.0.68)] on darwin
-
 Type "help", "copyright", "credits" or "license" for more information.
-
 >>> x = 2
-
 >>> x
-
 2
-
 >>> y = "hello world"
-
 >>> y
-
 'hello world'
-
 >>> x = y 
-
 >>> x
-
 'hello world'
-</code>
+</code></pre>
 
 This also means that you can mix variable types within a data structure. There is no need to specify that L is a list of ints or that M is a map from strings to floats; Python just has lists and maps.
 
