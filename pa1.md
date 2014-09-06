@@ -28,7 +28,7 @@ Python has your basic variable types: strings, ints, floats. Unlike Java and man
 
 Open up the python interpreter and play with variable assignment and reassignment:
 
-<pre><code> $ python
+<pre><code>$ python
 Python 2.7.5 (default, Mar  9 2014, 22:15:05) 
 [GCC 4.2.1 Compatible Apple LLVM 5.0 (clang-500.0.68)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
@@ -47,9 +47,9 @@ This also means that you can mix variable types within a data structure. There i
 
 Lists are declare with square brackets and indexed using square bracket notation. They can also be treated as stacks, if you are into that sort of thing. 
 
-Create a list of ints. Then, in order to drive those Scala people insane, start appending strings to it. Play with indexing and slicing. In Python, you can use the colon notation to pull out slices of a list. E.g. lst[i:j] will give you a new list which includes the ith through the (j-1)th elements of lst.
+Create a list of ints. Then, in order to drive those Scala people insane, start appending strings to it. Play with indexing and slicing. In Python, you can use the colon notation to pull out slices of a list. E.g. <pre><code>lst[i:j]</code></pre> will give you a new list which includes the ith through the (j-1)th elements of <pre><code>lst</code></pre>.
 
-<pre><code> >>> l = [1, 2, 3]
+<pre><code>>>> l = [1, 2, 3]
 >>> for elem in l: print elem
 ... 
 1
@@ -75,7 +75,7 @@ i am a string. mwahahaha.
 
 Dictionaries (or maps or associative arrays) are probably the favorite data structure of Python. They are a simple key/value store, again without any restrictions on which data types are the keys or values. You can declare dictionaries with curly braces and associate or retrieve keys and values using square bracket notation.
 
-<pre><code> >>> d = {"give me an A!" : "B", "give me a P!" : 7, "give me a Q!" : "no."}
+<pre><code>>>> d = {"give me an A!" : "B", "give me a P!" : 7, "give me a Q!" : "no."}
 >>> d["give me a P!"]
 7
 >>> d[14] = 12
