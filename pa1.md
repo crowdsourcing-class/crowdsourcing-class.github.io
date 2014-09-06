@@ -83,11 +83,58 @@ Dictionaries (or maps or associative arrays) are probably the favorite data stru
 {'give me a Q!': 'no.', 'give me an A!': 'B', 14: 12, 'give me a P!': 7}
 </code></pre>
 
-###2. File IO
+As you can imagine, the lack of type-checking makes it very easy to write bad Python code. I would advise against doing so. But it is your call, some people like the thrill of nondeterministic runtime errors and such. Don't let me cramp your style.
 
-###3. Text processing
+###2. Control structures and functions
 
-###4. Machine learning in Python
+Python makes it easy to write bad code. But it makes it _very_ hard to write ugly code. So chalk one up for superficiality. Python use whitespace to denote control structures, like loops and if/else blocks, which makes the logic very intutive to read and means you don't have to worry about curly braces. By convention, you should use four spaces for each level of indentation. (I use tabs because I am lazy and like to save the key strokes. I was told over the summer that this is the mark of a novice, and no one of any merit uses tabs. I just hung my head in shame. So use spaces.)
+
+<pre><code>
+>>> print l
+[1, 2, 3, 'here is more stuff', 6, [2, 3, 4]]
+# Here is a for loop. The loop ends when you leave the indented block
+>>> for elem in l:
+...     print elem
+... 
+1
+2
+3
+here is more stuff
+6
+[2, 3, 4]
+# Here is a while loop
+>>> i = 0
+>>> while i < 5 : 
+...     if i % 2 == 0 : 
+...             print "even"
+...     else : 
+...             print "odd"
+...     i += 1
+... 
+even
+odd
+even
+odd
+even
+# Here is a function definition. Again, no types are required for your parameters, so commenting is SOOO important. So important.
+"""
+Returns the idx element of a list
+
+lst - the list 
+idx - the integer index of the element to return
+"""
+>>> def get_list_element(lst, idx) : 
+...     return lst[idx]
+... 
+>>> get_list_element(l, 4)
+6
+</code></pre>
+
+###3. File IO
+
+###4. Text processing
+
+###5. Machine learning in Python
 
 
 Your code is due <b>Wednesday, September 17</b>. Please submit it via <code>turnin</code> from the eniac machines. 
