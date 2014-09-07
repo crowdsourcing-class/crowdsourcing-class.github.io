@@ -135,7 +135,7 @@ idx - the integer index of the element to return
 
 ###3. File IO
 
-You can open, read, and write files using the aptly-named open(), read(), and write() commands. read() returns the entire contents of the file as a string. readlines() will split on the newline character and return the lines as a list, which is generally nicer for allowing you to iterate line-by-line. I won't go through an example here, but I highly recommend playing with the [csv module](), which is incredibly useful and we will likely use regularly throughout the semester. 
+You can open, read, and write files using the aptly-named open(), read(), and write() commands. read() returns the entire contents of the file as a string. readlines() will split on the newline character and return the lines as a list, which is generally nicer for allowing you to iterate line-by-line. I won't go through an example here, but I highly recommend playing with the [csv module](https://docs.python.org/2/library/csv.html), which is incredibly useful and we will likely use regularly throughout the semester. 
 
 <pre><code>>>> file = open('test.txt', 'w')
 >>> for s in ['line1', 'line2', 'line3', 'line4'] : 
@@ -166,7 +166,7 @@ stopwords.txt	wine.txt
 
 wine.txt is in the format of one review per line, followed but a star rating between 1 and 5 (except for 3 reviews, where the review decided to go rogue and give 6 stars. Pft.) The text of the review and the star rating are separated by a single tab character. There is also a file called stopwords.txt. You will use this in question 6.
 
-Write a python script that answers each of the following questions and prints the answer to standard output. Since this is a tutorial, there are no secrets: your script should produce [this output](assignments/downloads/python-bootcamp/bootcamp-key.txt) when you are done. I will compare the output of your script directly to this answer key, so start early and come ask for help if you get stuck!
+Write a python script that answers each of the following questions and prints the answer to standard output. Since this is a tutorial, there are no secrets: your script should produce [this output](assignments/downloads/python-bootcamp/bootcamp-key.txt) when you are done. I will compare the output of your script directly to this answer key, so start early and come ask for help if you get stuck! I highly recommend looking into the functions available in the [python string module](https://docs.python.org/2/library/string.html).
 
 1. What is the distribution over star ratings?
 2. What are the 10 most common words used across all of the reviews, and how many times is each used?
