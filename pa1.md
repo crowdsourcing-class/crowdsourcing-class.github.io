@@ -14,7 +14,7 @@ active_tab: homework
 
 Python Bootcamp <span class="text-muted">: Assignment 3</span> 
 =============================================================
-Good news! This week we will start writing some code! This assignment is designed to be a crash-course to get you up to speed on the level of Python you will need to know in order to do the remainder of the assignments. For those of you that already know Python, great. For those that do not, its easiest to learn by doing, so please start early so we can help you get on board. You want to spend the semester focusing on the crowdsourcing and machine learning, not the indenting and semicoloning. 
+This week we will start writing some code! This assignment is designed to be a crash-course to get you up to speed on the level of Python you will need to know in order to do the remainder of the assignments. For those of you that already know Python, great. For those that do not, its easiest to learn by doing, so please start early so we can help you get on board. You want to spend the semester focusing on the crowdsourcing and machine learning, not the indenting and semicoloning. 
 
 The only deliverable for this assignment will be your script, bootcamp.py. Running your script should print the answers to each of the questions in part 4 the tutorial, separated by a single blank line. You will submit your code via turnin on the eniac machines. If you have not used turnin before, you can follow the instructions [here](https://alliance.seas.upenn.edu/~cis520/wiki/index.php?n=Resources.HomeworkSubmission). Our class will be nets213 and the assignment is python-bootcamp.
 
