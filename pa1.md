@@ -16,12 +16,9 @@ Python Bootcamp <span class="text-muted">: Assignment 3</span>
 =============================================================
 Good news! This week we will start writing some code! This assignment is designed to be a crash-course to get you up to speed on the level of Python you will need to know in order to do the remainder of the assignments. For those of you that already know Python, great. For those that do not, its easiest to learn by doing, so please start early so we can help you get on board. You want to spend the semester focusing on the crowdsourcing and machine learning, not the indenting and semicoloning. 
 
-The majority of the assignment will focus on teaching you Python by walking you through building a simple machine learning classifier. The deliverables for this assignment will be :
+The only deliverable for this assignment will be your script, bootcamp.py. Running your script should print the answers to each of the questions in part 4 the tutorial, separated by a single blank line. You will submit your code via turnin on the eniac machines. If you have not used turnin before, you can follow the instructions [here](https://alliance.seas.upenn.edu/~cis520/wiki/index.php?n=Resources.HomeworkSubmission). Our class will be nets213 and the assignment is python-bootcamp.
 
-1. Your script, bootcamp.py, which should contain your code for training and running your classifier on the provided data. 
-2. Your answers to the questions [here](). 
-
-You do not need to turn in anything for the first 3 sections, but you will need to read through them and do the exercises so that you can let us know ASAP if you are having trouble before we start on the real coding assignments.  
+You do not need to turn in anything for the first 3 sections, but you should read to read through them and walk through the exercises so that you can let us know if you are having trouble.
 
 ###1. The basics: variables and data structures
 
@@ -150,13 +147,35 @@ You can open, read, and write files using the aptly-named open(), read(), and wr
 ['line1\n', 'line2\n', 'line3\n', 'line4\n']
 </code></pre>
 
-###4. Machine learning in Python
+###4. Text processing in Python
 
-Okay! If you had any trouble with any of the material above, please come talk to Chris or I. The rest of the assignment will assume you know the basics of data structures and syntax.
+For this part, you will need to submit your code to answer the following questions. 
+ 
+We will be playing with a small but oh so wonderful data set of wine reviews! You can download the data [here](assignments/downloads/python-bootcamp/data.tgz). You can unpack it as follows, and should see two files:
 
+<pre><code>$ tar -xzvf data.tgz 
+x data/
+x data/stopwords.txt
+x data/wine.txt
+$ ls data
+stopwords.txt	wine.txt
+</code></pre>
 
+wine.txt is in the format of one review per line, followed but a star rating between 1 and 5 (except for 3 reviews, where the review decided to go rogue and give 6 stars. Pft.) The text of the review and the star rating are separated by a single tab character. There is also a file called stopwords.txt. You will use this in question 6.
 
+Write a python script that answers each of the following questions and prints the answer to standard output. Since this is a tutorial, there are no secrets: your script should produce [this output](assignments/downloads/python-bootcamp/bootcamp-key.txt) when you are done. I will compare the output of your script directly to this answer key, so start early and come ask for help if you get stuck!
 
-Your code is due <b>Wednesday, September 17</b>. Please submit it via [turnin]() from the eniac machines. 
+1. What is the distribution over star ratings?
+2. What are the 10 most common words used across all of the reviews, and how many times is each used?
+3. How many times does the word 'a' appear?
+4. How many times does the word 'fruit' appear?
+5. How many times does the word 'mineral' appear?
+6. Common words (like 'a') are not as interesting as uncommon words (like 'mineral'). In natural language processing, we call these common words "stop words" and often remove them before we process text. stopwords.txt gives you a list of some very common words. Remove these stopwords from your reviews. Also, try converting all the words to lower case (since we probably don't want to count 'fruit' and 'Fruit' as two different words). Now what are the 10 most common words across all of the reviews, and how many times is each used?
+7. You should continue to use the preprocessed reviews for the following questions (lower-cased, no stopwords).  What are the 10 most used words among the 5 star reviews, and how many times is each used? 
+8. What are the 10 most used words among the 1 star reviews, and how many times is each used? 
+9. Gather two sets of reviews: 1) Those that use the word "red" and 2) those that use the word "white". What are the 10 most frequent words in the "red" reviews which do NOT appear in the "white" reviews?
+10. What are the 10 most frequent words in the "white" reviews which do NOT appear in the "red" reviews?
 
+Thats it! Again, you can compare your answers against [our key](assignments/downloads/python-bootcamp/bootcamp-key.txt) to see if you have done things correctly. 
 
+Your code is due <b>Wednesday, September 17</b>. Please submit it via [turnin](https://alliance.seas.upenn.edu/~cis520/wiki/index.php?n=Resources.HomeworkSubmission) from the eniac machines. 
