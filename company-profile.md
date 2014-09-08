@@ -79,6 +79,7 @@ Here are some companies that you could profile:
 * [coursera](https://www.coursera.org)
 * [Udacity](https://www.udacity.com)
 * [edX](https://www.edx.org)
+* [Parchment](http://www.parchment.com)
 
 The Freakonomics podcast had an interesting [episode about the sharing economy](http://freakonomics.com/2014/09/04/regulate-this-a-new-freakonomics-radio-podcast/), which discussed some of these companies. 
 
