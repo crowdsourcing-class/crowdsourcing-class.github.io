@@ -51,4 +51,5 @@ Grading
 * Final project (45%)
 * In-class presentation: Company Profile (10%)
 
-
+Late day policy
+: Everyone can have 5 free late days without penalty.  After you have used your free late days, you will lose 1 point per day (or faction thereof) that your assignment is submitted late.  HW1 won’t count towards your free late days, since Amazon slowed everyone down.
