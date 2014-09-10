@@ -10,16 +10,17 @@ Crowdsourcing and human computation are emerging fields that sit squarely at the
 
 
 <div class="alert alert-info" markdown="span">
-The [second homework assignment](wa2.html) has been released.  The first part of the assignment is due Wednesday, September 10th, before class.
-</div>
+The [third homework assignment](pa2.html) has been released.  It is due Wednesday, September 17th, before class. [The second part of HW2](wa2.html) is due at the same time</div>
 
 <div class="alert alert-info" markdown="span">
-The deadline for [first homework assignment](wa1.html) has been extended to Monday, September 8th, for anyone who had trouble getting an Amazon account.
+Want free credits on CrowdFlower?  [Sign up for a CrowdFlower account](https://make.crowdflower.com/users/new?redirect_url=https%3A%2F%2Fcrowdflower.com%2Fjobs&app=make) and then let me know what email address you used by [filling out this form](https://docs.google.com/forms/d/1e1rpHK9OT3peJQe4Q1BJNkQJfB-TsVeF3boUPBuVIFw/viewform?usp=send_form).  Due this by the end of the day Thursday, Sept 11.
 </div>
 
-<div class="alert alert-info" markdown="span">
-Check out these fantastic [final project videos](final-projects.html) from the Fall 2013 class!
-</div>
+
+
+
+
+
 
 Course number
 : [NETS](http://nets.upenn.edu/) 213 - students from all majors are welcome!
@@ -47,7 +48,9 @@ Grading
 : This is a project-based course.  Instead of exams, you will do a series of hands-on assignments and a final project.  
 
 * 9 weekly assignments (5% each)
-* Final project (45%)
+* Final project (40%)
 * In-class presentation: Company Profile (10%)
+* Peer grading (5%)
 
-
+Late day policy
+: Everyone can have 5 free late days without penalty.  After you have used your free late days, you will lose 1 point per day (or faction thereof) that your assignment is submitted late.  HW1 won’t count towards your free late days, since Amazon slowed everyone down.
