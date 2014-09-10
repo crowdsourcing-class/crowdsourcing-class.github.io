@@ -6,6 +6,11 @@ title: Term project
 active_tab: project
 ---
 
+
+<div class="alert alert-info" markdown="span">
+Check out these fantastic [final project videos](final-projects.html) from the Fall 2013 class!
+</div>
+
 Final Project
 =============================================================
 
