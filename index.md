@@ -48,8 +48,9 @@ Grading
 : This is a project-based course.  Instead of exams, you will do a series of hands-on assignments and a final project.  
 
 * 9 weekly assignments (5% each)
-* Final project (45%)
+* Final project (40%)
 * In-class presentation: Company Profile (10%)
+* Peer grading (5%)
 
 Late day policy
 : Everyone can have 5 free late days without penalty.  After you have used your free late days, you will lose 1 point per day (or faction thereof) that your assignment is submitted late.  HW1 won’t count towards your free late days, since Amazon slowed everyone down.
