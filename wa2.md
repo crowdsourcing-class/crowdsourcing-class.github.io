@@ -37,4 +37,15 @@ You will record a short 5 to 7 minute video presentation about your company and 
 
 Your presentation video is due <b>Wednesday, September 17</b>.
 
+To turn in your video, please upload it to [Vimeo](https://vimeo.com/). Then give us the link to your video in [this form](https://docs.google.com/forms/d/1bP_sk4aTMknox9XoZXVQRlSR0V7RD3MzmfeZPMLWSLU/viewform?usp=send_form). That is all. If you have managed to make it this far in life without having to sign up for accounts for things on the internet, here are more detailed instructions:
+
+1. Go to [Vimeo]().
+2. Create an account by clicking the enormous blue "JOIN" button. 
+3. You will receive and email with a link to verify your account. You have to verify before you can upload videos.
+4. Once you are signed in, click "Upload" at the top of the page.
+5. Click the "Choose a Video to Upload" button and choose your video
+6. Once it is uploading, you can change the privacy settings. If you are soon to be on the job market, be careful. You probably don't want potential employers to know how intelligently and elegantly you are able to analyze and present on the potential market value of technology companies, so maybe don't use your real name.
+7. That's it! Fill in the title and tags and whathaveyou and use [this form](https://docs.google.com/forms/d/1bP_sk4aTMknox9XoZXVQRlSR0V7RD3MzmfeZPMLWSLU/viewform?usp=send_form) to tell us where to find it.
+
+
 
