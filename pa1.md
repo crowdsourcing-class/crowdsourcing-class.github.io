@@ -8,7 +8,9 @@ active_tab: homework
 
 
 <div class="alert alert-info">
-  This assignment is due before class on Wednesday, September 17.  No teams for this assignment, please do it on your own. If you need some getting-started tutorials for Python, check the links on the [resources page](resources.html).</div>
+  This assignment is due before class on Wednesday, September 17.  No teams for this assignment, please do it on your own.</div>
+<div class="alert alert-info" markdown="span">
+Links to tutorials and other Python resources are posted on the [resources page](resources.html).</div>
 
 
 Python Bootcamp <span class="text-muted">: Assignment 3</span> 
