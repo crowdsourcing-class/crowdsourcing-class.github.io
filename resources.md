@@ -1,6 +1,6 @@
 ---
 layout: default
-img: google-search.png
+img: google-search
 caption: Resources just for you! Easier than Googling!
 title: Resources
 active_tab: 
