@@ -8,7 +8,7 @@ active_tab: homework
 
 
 <div class="alert alert-info">
-  This assignment is due before class on Wednesday, September 17.  No teams for this assignment, please do it on your own.
+  This assignment is due before class on Wednesday, September 17.  No teams for this assignment, please do it on your own. If you need some getting-started tutorials for Python, check the links on the [resources page](resources.html).
 </div>
 
 

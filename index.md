@@ -8,6 +8,8 @@ active_tab: main_page
 ---
 Crowdsourcing and human computation are emerging fields that sit squarely at the intersection of economics and computer science. They examine how people can be used to solve complex tasks that are currently beyond the capabilities of artificial intelligence algorithms. Online marketplaces like [Mechanical Turk](https://www.mturk.com/) and [CrowdFlower](https://crowdflower.com) provide an infrastructure that allows micropayments to be given to people in return for completing human intelligence tasks. This opens up previously unthinkable possibilities like people being used as function calls in software. We will investigate how crowdsourcing can be used for computer science applications like machine learning, next-generation interfaces, and data mining. Beyond these computer science aspects, we will also delve into topics like prediction markets, how businesses can capitalize on collective intelligence, and the fundamental principles that underlie democracy and other group decision-making processes.
 
+<div class="alert alert-info" markdown="span">
+Links to tutorials and other Python resources are posted on the [resources page](resources.html). Let us know if you find something that should be added.</div>
 
 <div class="alert alert-info" markdown="span">
 The [third homework assignment](pa1.html) has been released.  It is due Wednesday, September 17th, before class. [The second part of HW2](wa2.html) is due at the same time</div>
