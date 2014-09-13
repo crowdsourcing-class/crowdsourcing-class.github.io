@@ -10,7 +10,7 @@ Crowdsourcing and human computation are emerging fields that sit squarely at the
 
 
 <div class="alert alert-info" markdown="span">
-The [third homework assignment](pa2.html) has been released.  It is due Wednesday, September 17th, before class. [The second part of HW2](wa2.html) is due at the same time</div>
+The [third homework assignment](pa1.html) has been released.  It is due Wednesday, September 17th, before class. [The second part of HW2](wa2.html) is due at the same time</div>
 
 <div class="alert alert-info" markdown="span">
 Want free credits on CrowdFlower?  [Sign up for a CrowdFlower account](https://make.crowdflower.com/users/new?redirect_url=https%3A%2F%2Fcrowdflower.com%2Fjobs&app=make) and then let me know what email address you used by [filling out this form](https://docs.google.com/forms/d/1e1rpHK9OT3peJQe4Q1BJNkQJfB-TsVeF3boUPBuVIFw/viewform?usp=send_form).  Due this by the end of the day Thursday, Sept 11.
