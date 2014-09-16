@@ -1,8 +1,8 @@
 ---
 layout: default
-img: python
-caption: Hello world!
-title: Homework 4 | Calling the shots
+img: ML
+caption: Crowdsourcing FTW!
+title: Homework 4 | Playing with classifier
 active_tab: homework
 ---
 
@@ -10,7 +10,7 @@ active_tab: homework
 <div class="alert alert-info">
   This assignment is due before class on Wednesday, September 24.</div>
 
-Calling the shots<span class="text-muted">: Assignment 4</span> 
+Playing with classifier<span class="text-muted">: Assignment 4</span> 
 =============================================================
 Over the remaining assignments, we will be working, as a class, to build a large scale database of gun violence across the country. As computer scientists, we often take for granted the large amounts of data that are available. Other fields, however, such as the social sciences, are often limited in their ability to carry out robust studies because of a lack of data. There is a lot of room for smart, creative people like yourselves to make big strides in computational social sciences, like economics, sociology, political science, and public health. There's even a [sexy name](http://en.wikipedia.org/wiki/Data_science) for the field, and a Venn Diagramm to boot. So you can make your mom proud.
 
@@ -39,8 +39,18 @@ Your task will be to build a classifier following our guidelines, and respond to
 
 4. Obviously we want to do better than choosing the same label for every article. Look at the function get_features() in line 18. This is where we are building up a list of features and their values for each article. One intuitive thing we can think of doing is adding some key words that we think might be very indicative of gun-violence articles. Try adding a boolean feature which is true if the article contains the word "shooting" and false otherwise. What is your performance now?
 
-5. Try adding another 4 or 5 keywords and checking the classifier performance. Once you have done this, answer the first XXX questions in the [questionaire](). 
+5. Try adding another few keywords and checking the classifier performance. Once you have done this, answer the first XXX questions in the [questionaire](). 
 
-6. 
+6. You can get surprisingly far with keywords. So why not just use ALL THE KEYWORDS!? Using your well-honed word-counting skills from bootcamp, try rewriting get_features() so that, for each article, the features are simply all of the words which are in that article. This is what is referred to in NLP as a "unigram model." Try it, run it, and answers the remaining questions in the [questionarie]().
+
+7. And now is the fun! The unigram model does pretty well. But can you do better? Here are some things to consider:
+
+- We talked after the bootcamp about how capitalization and punctuation can cause counter-intuitive results. Can you fix these and improve performance? 
+- We also talked about stopwords last week. How might these confuse Naive Bayes? Keep in mind that you can [look at which features have high conditional probabilities]() after you have trained the model.
+- Can you do better than a simple binary feature? What about frequencies of words in an article? Are all words created equal or are [some more important than others]()?
+- Naive Bayes is...naive. There are lots of other models you can try, which all have different strengths and weaknesses.
+- No one said you have to split the articles into single word phrases. If unigrams are good, then bigrams must be two times better! Be careful of overfitting, though...
+
+And with that- gGood luck! Start early and think big! If robots are going to run the world, the need to first know the difference between articles about gun violence and articles about the weather. So go! Make it happen!
 
 
