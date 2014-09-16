@@ -58,7 +58,7 @@ Your task will be to build a classifier following our guidelines, and respond to
 	- We talked after the bootcamp about how capitalization and punctuation can cause counter-intuitive results. Can you fix these and improve performance? 
 	- We also talked about stopwords last week. How might these confuse Naive Bayes? Keep in mind that you can [look at which features have high conditional probabilities](http://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.MultinomialNB.html) after you have trained the model.
 	- Can you do better than a simple binary feature? What about frequencies of words in an article? Are all words created equal or are [some more important than others](http://en.wikipedia.org/wiki/Tf%E2%80%93idf)?
-	- Naive Bayes is...naive. There are lots of other models you can try, which all have different strengths and weaknesses.
+	- Naive Bayes is...naive. There are [lots of other models](http://scikit-learn.org/stable/supervised_learning.html#supervised-learning) you can try, which all have different strengths and weaknesses.
 	- No one said you have to split the articles into single word phrases. If unigrams are good, then [bigrams](http://en.wikipedia.org/wiki/N-gram) must be two times better! Be careful of [overfitting](http://en.wikipedia.org/wiki/Overfitting), though...
 
 And with that- Good luck! Start early and think big! If robots are going to run the world, the need to first know the difference between articles about gun violence and articles about the weather. So go! Make it happen!
