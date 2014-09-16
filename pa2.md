@@ -22,9 +22,9 @@ As training data, Chris crawled a [NY Times blog about gun violence](http://noce
 
 Your task will be to build a classifier following our guidelines, and respond to some questions about the process [here](). After that, you are free to experiment. We have held out some secret data that we will use to test your classifiers, so the student/s with the best performing classifier will be given $1,000,000! Or extra credit. Probably extra credit.
 
-1. Download the data [here]() and unpack it. The data is in the format of one article per line. Each line has two values (tab separated): a label (0 for non-gun, 1 for gun), and the text of the article. 
+1. Download the data [here](assignments/downloads/articles.gz) and unpack it. The data is in the format of one article per line. Each line has two values (tab separated): a label (0 for non-gun, 1 for gun), and the text of the article. 
 
-2. Download the code template [here]() and look through the function stumps. These steps should seem reasonable if you think back to Wednesday's lecture.
+2. Download the code template [here](assignments/downloads/classifier_template.py) and look through the function stumps. These steps should seem reasonable if you think back to Wednesday's lecture.
 
 3. Your code will really just need to do one thing. That is, you need to build two side-by-side data structures: a *feature matrix* and a *label vector*. Your feature matrix will represent one article on each row, and each column will correspond to some "feature" you can observe about that article. The label vector will give the correct labels of each article, so that the first element of the vector is a 1 if the first row of the matrix corresponds to a gun-related article, and 0 otherwise. The template builds a stupid classifier whose feature matrix contains only one feature, which has the same value for every article. Try running it as follows and see that you get the below output. This is the result of the classifier chosing the label "0" or "non-gun-related" for every article.
 
@@ -51,6 +51,6 @@ Your task will be to build a classifier following our guidelines, and respond to
 - Naive Bayes is...naive. There are lots of other models you can try, which all have different strengths and weaknesses.
 - No one said you have to split the articles into single word phrases. If unigrams are good, then bigrams must be two times better! Be careful of overfitting, though...
 
-And with that- gGood luck! Start early and think big! If robots are going to run the world, the need to first know the difference between articles about gun violence and articles about the weather. So go! Make it happen!
+And with that- Good luck! Start early and think big! If robots are going to run the world, the need to first know the difference between articles about gun violence and articles about the weather. So go! Make it happen!
 
 
