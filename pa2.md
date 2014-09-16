@@ -61,6 +61,10 @@ Your task will be to build a classifier following our guidelines, and respond to
 	- Naive Bayes is...naive. There are [lots of other models](http://scikit-learn.org/stable/supervised_learning.html#supervised-learning) you can try, which all have different strengths and weaknesses.
 	- No one said you have to split the articles into single word phrases. If unigrams are good, then [bigrams](http://en.wikipedia.org/wiki/N-gram) must be two times better! Be careful of [overfitting](http://en.wikipedia.org/wiki/Overfitting), though...
 
-And with that- Good luck! Start early and think big! If robots are going to run the world, the need to first know the difference between articles about gun violence and articles about the weather. So go! Make it happen!
+And with that- Good luck! Start early and think big! If robots are going to run the world, the need to first know the difference between articles about gun violence and articles about the weather. So go! Make it happen! 
 
+Don't forget to answer the last few questions in the [questionaire](https://docs.google.com/forms/d/1whhkFQ0ndN9E_XOsuqoxpRIAJcnUZqKKx1eAioyU9wg/viewform?usp=send_form) when you are done, and to submit your final classifier code via turnin
 
+<pre><code>$ turnin -c nets213 -p classifier -v classifier.py</code></pre>
+
+Your code and questions are due <b>Wednesday, September 24</b>. 
