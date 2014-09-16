@@ -41,9 +41,15 @@ Your task will be to build a classifier following our guidelines, and respond to
 
 4. Obviously we want to do better than choosing the same label for every article. Look at the function get_features() in line 18. This is where we are building up a list of features and their values for each article. One intuitive thing we can think of doing is adding some key words that we think might be very indicative of gun-violence articles. Try adding a boolean feature which is true if the article contains the word "shooting" and false otherwise. What is your performance now?
 
-5. Try adding another few keywords and checking the classifier performance. Once you have done this, answer the Part 1 of the [questionaire](https://docs.google.com/forms/d/1whhkFQ0ndN9E_XOsuqoxpRIAJcnUZqKKx1eAioyU9wg/viewform?usp=send_form). 
+5. Try adding another few keywords and checking the classifier performance. Try adding all of the keyword features together, and then answer Part 1 of the [questionaire](https://docs.google.com/forms/d/1whhkFQ0ndN9E_XOsuqoxpRIAJcnUZqKKx1eAioyU9wg/viewform?usp=send_form). 
 
-6. You can get surprisingly far with keywords. So why not just use ALL THE KEYWORDS!? Using your well-honed word-counting skills from bootcamp, try rewriting get_features() so that, for each article, the features are simply all of the words which are in that article. This is what is referred to in NLP as a "unigram model." Try it, run it, and answers the remaining questions in the [questionarie](https://docs.google.com/forms/d/1whhkFQ0ndN9E_XOsuqoxpRIAJcnUZqKKx1eAioyU9wg/viewform?usp=send_form).
+6. You can get surprisingly far with keywords. So why not just use ALL THE KEYWORDS!? Using your well-honed word-counting skills from bootcamp, try rewriting get_features() so that, for each article, the features are simply all of the words which are in that article. E.g. for the sentence "That guy shot that other guy," you will want a feature dictionary that looks like
+
+	<pre><code> {'That' : 1, 'guy' : 1, 'shot' : 1, 'that' : 1, 'other' : 1, 'guy' : 1}</code></pre>
+	
+	This is what is referred to in NLP as a "unigram features." 
+
+	Try it, run it, and answer Part 2 in the [questionarie](https://docs.google.com/forms/d/1whhkFQ0ndN9E_XOsuqoxpRIAJcnUZqKKx1eAioyU9wg/viewform?usp=send_form).
 
 	To do your classifier analysis, you will probably need to write some more functions. E.g., you will need to look at some probabilities that have been learned, and will need to see the label the classifier chooses for individual articles. Look at the [functions available to you](http://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.MultinomialNB.html) through the MultinomialNaiveBayes classifier to get you started. 
 
