@@ -114,9 +114,8 @@
     -
       title: The Wisdom of Crowds&#58; Chapter 6 ("Society Does Exist&#58; Taxes, Tipping, Television and Trust")
     -
-      author: Hilary Mason
-      title:  Intro to Machine Learning in Python
-      url: http://shop.oreilly.com/product/0636920017493.do
+      title:  scikit-learn&#58; Machine Learning in Python
+      url: http://scikit-learn.org/stable/
 -
   date: 2014-09-22
   slides: http://crowdsourcing-class.org/slides/programming-the-crowd.pdf
@@ -244,7 +243,7 @@
   title: In-class presentations&#58; Pitch your term project ideas
 -
   date: 2014-10-15
-  title: No class today. Instructor will be traveling for a DARPA meeting.  
+  title: No class today. Instructor and TA will be traveling for a DARPA meeting.  
 -
   date: 2014-10-20
   slides: http://crowdsourcing-class.org/slides/machine-learning-2.pdf
