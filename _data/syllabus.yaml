@@ -92,6 +92,7 @@
 -
   date: 2014-09-15
   slides: http://crowdsourcing-class.org/slides/machine-learning.pdf
+  title: Machine Learning part 1
   highlights:
     - Examples of machine learning applications
     - Bayes Rule 
@@ -105,6 +106,7 @@
       url: http://shop.oreilly.com/product/0636920017493.do
 -
   date: 2014-09-17
+  title: Machine Learning part 2
   slides: http://crowdsourcing-class.org/slides/machine-learning-2.pdf
   highlights:
     - Walkthrough of building a classifier in Python
