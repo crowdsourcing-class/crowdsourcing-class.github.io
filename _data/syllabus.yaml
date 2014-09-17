@@ -91,6 +91,32 @@
       url : http://crowdsourcing-class.org/resources.html
 -
   date: 2014-09-15
+  slides: http://crowdsourcing-class.org/slides/machine-learning.pdf
+  highlights:
+    - Examples of machine learning applications
+    - Bayes Rule 
+    - Reasoning with Probabilities
+  reading:
+    -
+      title: The Wisdom of Crowds&#58; Chapter 5 ("Shall We Dance?&#58; Coordination in a Complex World")
+    -
+      author: Hilary Mason
+      title:  Intro to Machine Learning in Python
+      url: http://shop.oreilly.com/product/0636920017493.do
+-
+  date: 2014-09-17
+  slides: http://crowdsourcing-class.org/slides/machine-learning-2.pdf
+  highlights:
+    - Walkthrough of building a classifier in Python
+  reading:
+    -
+      title: The Wisdom of Crowds&#58; Chapter 6 ("Society Does Exist&#58; Taxes, Tipping, Television and Trust")
+    -
+      author: Hilary Mason
+      title:  Intro to Machine Learning in Python
+      url: http://shop.oreilly.com/product/0636920017493.do
+-
+  date: 2014-09-22
   slides: http://crowdsourcing-class.org/slides/programming-the-crowd.pdf
   title: Programming concepts for human computation
   highlights:
@@ -99,7 +125,7 @@
     - <a href="http://crowdsourcing-class.org/slides/quicksort-with-kittens.mov">Quicksort for kittens</a>
   reading:
     -
-      title: The Wisdom of Crowds&#58; Chapter 5 ("Shall We Dance?&#58; Coordination in a Complex World")
+      title: The Wisdom of Crowds&#58; Chapter 7 ("Traffic&#58; What We Have Here is a Failure to Communicate")
     -
       author: Greg Little, Lydia B. Chilton, Max Goldman, and Robert C. Miller
       title:  TurKit&#58; Human Computation Algorithms on Mechanical Turk
@@ -108,7 +134,7 @@
       title:  Download the TurKit software from the MIT Computer Science and Artificial Intelligence Laboratory
       url: http://groups.csail.mit.edu/uid/turkit/
 -
-  date: 2014-09-22
+  date: 2014-09-25
   slides: http://crowdsourcing-class.org/slides/crowdsourcing-and-HCI.pdf
   title: Crowdsourcing and human computer interaction (HCI) design
   highlights:
@@ -122,6 +148,21 @@
       title:  Soylent&#58; A Word Processor with a Crowd Inside
       url: readings/downloads/hci/Soylent.pdf
 -
+  date: 2014-09-29
+  slides: http://www.uphs.upenn.edu/ficap/research/docs/Branas%20-%20Gun%20violence%20research%20summary.pdf
+  title: Gun Violence Research and Prevention
+  speaker: Douglas Wiebe, Associate Professor of Epidemiology, University of Pennsylvania Perelman School of Medicine
+  speaker_url: http://www.cceb.upenn.edu/faculty/?id=185
+  highlights:
+    - Firearm injury as a public health issue
+    - Importance of data in epidemiology
+  reading:
+    -
+      author: FICAP
+      title:  Firearm Injury in the U.S. 2011 Resource Book
+      url: http://www.uphs.upenn.edu/ficap/resourcebook/pdf/monograph.pdf
+-
+
   date: 2014-09-24
   slides: http://crowdsourcing-class.org/slides/crowdsourcing-and-HCI.pdf
   title: Crowdsourcing and HCI part 2
@@ -201,19 +242,7 @@
   title: In-class presentations&#58; Pitch your term project ideas
 -
   date: 2014-10-15
-  title: Instructor will be traveling for a DARPA meeting.  Guest lecture or no class (TBD).
-  slides: http://crowdsourcing-class.org/slides/machine-learning.pdf
-  highlights:
-    - Examples of machine learning applications
-    - Naive Bayes
-    - Text classification
-  reading:
-    -
-      title: The Wisdom of Crowds&#58; Chapter 9 ("Committees, Juries and Teams&#58; The Columbia Disaster and how Small Groups can be Made to Work")
-    -
-      author: Hilary Mason
-      title:  Intro to Machine Learning in Python
-      url: http://shop.oreilly.com/product/0636920017493.do
+  title: No class today. Instructor will be traveling for a DARPA meeting.  
 -
   date: 2014-10-20
   slides: http://crowdsourcing-class.org/slides/machine-learning-2.pdf
