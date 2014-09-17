@@ -2,7 +2,7 @@
 layout: default
 img: ML
 caption: Crowdsourcing FTW!
-title: Homework 4 | Playing with classifier
+title: Homework 4 | Playing with Classifire
 active_tab: homework
 ---
 
