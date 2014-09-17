@@ -106,10 +106,13 @@
       url: http://shop.oreilly.com/product/0636920017493.do
 -
   date: 2014-09-17
-  title: Machine Learning part 2
+  title: Machine Learning - part 2
   slides: http://crowdsourcing-class.org/slides/machine-learning-2.pdf
   highlights:
+    - Labeled training data - what it is, where to get it, and how to put it in a format that a classifier will be able to use
     - Walkthrough of building a classifier in Python
+    - We do the homework in front of your eyes
+    - Experiment design - training / test splits, overfitting, baselines, evaluation
   reading:
     -
       title: The Wisdom of Crowds&#58; Chapter 6 ("Society Does Exist&#58; Taxes, Tipping, Television and Trust")
