@@ -7,7 +7,6 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.preprocessing import LabelEncoder
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.cross_validation import train_test_split
-import nltk
 
 #read in raw data from file and return a list of (label, article) tuples
 def get_data(filename): return [line.strip().split('\t') for line in open(filename).readlines()]
@@ -23,7 +22,7 @@ def get_features(X) :
 
 #vectorize feature dictionaries and return feature and label matricies
 def get_matricies(data) : 
-	dv = DictVectorizer(sparse=False)
+	dv = DictVectorizer(sparse=True) #You should switch this to sparse=True before you do part 
 	le = LabelEncoder()
 	y = [d[0] for d in data]
 	X = get_features([d[1] for d in data])
@@ -52,8 +51,7 @@ def cross_validate(X, y, numfolds=5):
 	test_average = float(sum(test_accs))/ numfolds
 	print 'Test Average : %.05f'%(test_average)
 	print
-	return train_average, test_average
-
+	return test_average
 
 if __name__ == '__main__' : 
 
