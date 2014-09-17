@@ -46,7 +46,7 @@ Your task will be to build a classifier following our guidelines, and [respond t
 
 	Using your well-honed word-counting skills from bootcamp, try rewriting get_features() so that, for each article, the features are simply all of the words which are in that article. E.g. for the sentence "That guy shot that other guy," you will want a feature dictionary that looks like
 
-	<pre><code> {'That' : 1, 'guy' : 1, 'shot' : 1, 'that' : 1, 'other' : 1, 'guy' : 1}</code></pre>
+	<pre><code> {'That' : 1, 'guy' : 2, 'shot' : 1, 'that' : 1, 'other' : 1}</code></pre>
 	
 	This is what is referred to in NLP as a "unigram features." 
 
