@@ -26,15 +26,15 @@ Your task will be to build a classifier following our guidelines, and [respond t
 
 2. [Download the code template](assignments/downloads/classifier_template.py) and look through the function stumps. These steps should seem reasonable if you think back to Wednesday's lecture.
 
-3. The simplest way to build a classification algorithm is to used a rule based system. Look at the function rule_base_classifier(). This function doesn't bother itself with mathy mumbo jumbo, it just looks for keywords it thinks are indicative of gun-related articles. If one of the keywords appears, it predicts "1" (or "gun-related") and otherwise it picks "0". Right now we use just one keyword, "shooting." Try running the code and see how well this very simple method works.
+3. The simplest way to build a classification algorithm is to used a rule based system. Look at the function rule_based_classifier(). This function doesn't bother itself with mathy mumbo jumbo, it just looks for keywords it thinks are indicative of gun-related articles. If one of the keywords appears, it predicts "1" (or "gun-related") and otherwise it picks "0". Right now we use just one keyword, "shooting." Try running the code and see how well this very simple method works.
 
 	Now experiment with adding a few more keywords. See how high you can make the accuracy using this method. You will answer a few questions about this in the questionaire. 
 
 4. You can get surprisingly far with a rule-based classifier in this setting. But why stop there? Why not use ALL THE KEYWORDS!? That is precisely what statistical models are for! 
 
-	For the statistical model, your code will really just need to do one thing. That is, you need to build two side-by-side data structures: a *feature matrix* and a *label vector*. Your feature matrix will represent one article on each row, and each column will correspond to some "feature" you can observe about that article. The label vector will give the correct labels of each article, Obviously we want to do better than choosing the same label for every article. Look at the function get_features() in line 18. 
-
-	The template builds a stupid classifier whose feature matrix contains only one feature, which has the same value for every article. Try running it as follows and see that you get the below output. Here, the classifier is trying to make predictions, but has absolutely no information to work with. As a result, it just guesses based on the [prior probability](http://en.wikipedia.org/wiki/Prior_probability). I.e. this accuracy is the result of the classifier chosing the label "0" (or "non-gun-related") for every article.
+	For the statistical model, your code will really just need to do one thing. That is, you need to build two side-by-side data structures: a *feature matrix* and a *label vector*. Your feature matrix will represent one article on each row, and each column will correspond to some "feature" you can observe about that article. The label vector will give the correct labels of each article, so that the nth element of the vector is 1 if the nth row of the matrix corresponse to a gun-related article.
+	
+	Look at the function get_features() in line 18. The template builds a stupid classifier whose feature matrix contains only one feature, which has the same value for every article. Try running it as follows and see that you get the below output. Here, the classifier is trying to make predictions, but has absolutely no information to work with. As a result, it just guesses based on the [prior probability](http://en.wikipedia.org/wiki/Prior_probability). I.e. this accuracy is the result of the classifier chosing the label "0" (or "non-gun-related") for every article.
 
 	<pre><code> $ python classifier.py articles.txt 
 	Fold 0 : 0.87449
