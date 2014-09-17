@@ -12,7 +12,7 @@ Crowdsourcing and human computation are emerging fields that sit squarely at the
 Links to tutorials and other Python resources are posted on the [resources page](resources.html). Let us know if you find something that should be added.</div>
 
 <div class="alert alert-info" markdown="span">
-The [4th homework assignment](pa1.html) has been released.  It is due Wednesday, September 24th, before class.</div>
+The [fourth homework assignment](pa1.html) has been released.  It is due Wednesday, September 24th, before class.</div>
 
 
 
