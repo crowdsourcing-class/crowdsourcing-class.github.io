@@ -22,7 +22,7 @@ We have already collected training data for you. Chris crawled a [NY Times blog 
 
 Your task will be to build a classifier following our guidelines, and [respond to some questions about the process](https://docs.google.com/forms/d/1whhkFQ0ndN9E_XOsuqoxpRIAJcnUZqKKx1eAioyU9wg/viewform?usp=send_form). After that, you are free to experiment. We have held out some secret data that we will use to test your classifiers. The student/s with the best performing classifier will be given $1,000,000! Or extra credit. Probably extra credit.
 
-1. [Download the data](assignments/downloads/articles.gz) and unzip it with the Unix <code>gun/code>zip command. The data is in the format of one article per line. Each line has two values (tab separated): a label (0 for non-gun, 1 for gun), and the text of the article. 
+1. [Download the data](assignments/downloads/articles.gz) and unzip it with the Unix <code>gun</code>zip command. The data is in the format of one article per line. Each line has two values (tab separated): a label (0 for non-gun, 1 for gun), and the text of the article. 
 
 2. [Download the code template](assignments/downloads/classifier_template.py) and look through the function stumps. These steps should seem reasonable if you think back to Wednesday's lecture.
 
