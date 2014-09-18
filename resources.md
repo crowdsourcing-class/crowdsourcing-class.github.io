@@ -18,6 +18,7 @@ Resources
 
 ###More advanced Python resources 
 
-- Boto (Python's library for MTurk) is available on [github](https://github.com/boto/boto). There is decent (although not perfect) documentation [here](http://boto.readthedocs.org/en/latest/ref/mturk.html) and a good tutorial available [here](http://www.toforge.com/2011/04/boto-mturk-tutorial-create-hits/).
-- Scikit-learn is an amazingly easy library for doing machine learning in Python. It is also wonderfully verbosely documented with tons of examples [here](http://scikit-learn.org/stable/).
+- [Boto, a Python library for MTurk’s API](https://github.com/boto/boto). There is decent (although not perfect) documentation [here](http://boto.readthedocs.org/en/latest/ref/mturk.html) and a good tutorial available [here](http://www.toforge.com/2011/04/boto-mturk-tutorial-create-hits/).
+- [Scikit-learn]http://scikit-learn.org/stable/) is an amazingly easy library for doing machine learning in Python. It is also wonderfully verbosely documented with tons of examples.
 - [NLTK](http://www.nltk.org/) is a great library for doing natural language processing in Python.  
+- [Python client for the CrowdFlower API](https://github.com/peoplepattern/crowdflower).  There’s a tutorial on the [People Pattern blog](http://www.peoplepattern.com/crowdflower-python-client-crowdflower-api/).
