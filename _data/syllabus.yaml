@@ -117,8 +117,12 @@
     -
       title: The Wisdom of Crowds&#58; Chapter 6 ("Society Does Exist&#58; Taxes, Tipping, Television and Trust")
     -
-      title:  scikit-learn&#58; Machine Learning in Python
+      title:  scikit-learn&#58; Machine Learning in Python (webpage with tutorials)
       url: http://scikit-learn.org/stable/
+    -
+      author: Fabian Pedregosa and 15 others
+      title:  Scikit-learn&#58; Machine Learning in Python (short article in the Journal of Machine Learning Research)
+      url: http://www.jmlr.org/papers/volume12/pedregosa11a/pedregosa11a.pdf
 -
   date: 2014-09-22
   slides: http://crowdsourcing-class.org/slides/programming-the-crowd.pdf
