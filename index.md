@@ -29,7 +29,7 @@ Instructor
 : [Chris Callison-Burch](http://www.cis.upenn.edu/~ccb/) - Office hours on Mondays from 10:30am-11:30am in Levine 506
 
 Teaching Assistant
-: [Ellie Pavlick](http://www.seas.upenn.edu/~epavlick/)  - Office hours on Wednesdays from 3:30pm-4:30pm in the Levine 5th floor bump space
+: [Ellie Pavlick](http://www.seas.upenn.edu/~epavlick/)  - Office hours on Tuesdays from 5pm-6pm in the Levine 5th floor bump space
 
 Discussion Forum
 : [Piazza](https://piazza.com/upenn/fall2014/nets213/home)
