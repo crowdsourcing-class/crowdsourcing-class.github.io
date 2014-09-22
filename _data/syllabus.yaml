@@ -142,19 +142,23 @@
       title:  Download the TurKit software from the MIT Computer Science and Artificial Intelligence Laboratory
       url: http://groups.csail.mit.edu/uid/turkit/
 -
-  date: 2014-09-25
-  slides: http://crowdsourcing-class.org/slides/crowdsourcing-and-HCI.pdf
-  title: Crowdsourcing and human computer interaction (HCI) design
+-
+  date: 2014-09-24
+  slides: http://crowdsourcing-class.org/slides/iterative-and-parallel-processing.pdf
+  title: Iterative and Parallel Processing
   highlights:
-    - Next generation interfaces
-    - Soylent word processor ("it's made of people")
+    - Experiments with TurKit
+    - Iterative versus parallel processing
   reading:
     -
-      title: The Wisdom of Crowds&#58; Chapter 6 ("Society Does Exist&#58; Taxes, Tipping, Television and Trust")
+      title: The Wisdom of Crowds&#58; Chapter 7 ("Traffic&#58; What We Have Here is a Failure to Communicate")
     -
-      author: Michael Bernstein, Greg Little, Rob Miller, Björn Hartmann, Mark Ackerman, David Karger, David Crowell, and Katrina Panovich
-      title:  Soylent&#58; A Word Processor with a Crowd Inside
-      url: readings/downloads/hci/Soylent.pdf
+      author: Greg Little, Lydia B. Chilton, Max Goldman, and Robert C. Miller
+      title:  Exploring Iterative and Parallel Human Computation Processes
+      url: readings/downloads/programming/iterative-and-parallel-processing-in-hcomp
+    -
+      title:  Download the TurKit software from the MIT Computer Science and Artificial Intelligence Laboratory
+      url: http://groups.csail.mit.edu/uid/turkit/
 -
   date: 2014-09-29
   slides: http://www.uphs.upenn.edu/ficap/research/docs/Branas%20-%20Gun%20violence%20research%20summary.pdf
@@ -170,8 +174,23 @@
       title:  Firearm Injury in the U.S. 2011 Resource Book
       url: http://www.uphs.upenn.edu/ficap/resourcebook/pdf/monograph.pdf
 -
+  date: 2014-10-01
+  speaker: Ellie Pavlick (Instructor will be traveling)
+  slides: http://crowdsourcing-class.org/slides/crowdsourcing-and-HCI.pdf
+  title: Crowdsourcing and human computer interaction (HCI) design
+  highlights:
+    - Next generation interfaces
+    - Soylent word processor ("it's made of people")
+  reading:
+    -
+      title: The Wisdom of Crowds&#58; Chapter 6 ("Society Does Exist&#58; Taxes, Tipping, Television and Trust")
+    -
+      author: Michael Bernstein, Greg Little, Rob Miller, Björn Hartmann, Mark Ackerman, David Karger, David Crowell, and Katrina Panovich
+      title:  Soylent&#58; A Word Processor with a Crowd Inside
+      url: readings/downloads/hci/Soylent.pdf
+-
 
-  date: 2014-09-24
+  date: 2014-10-06
   slides: http://crowdsourcing-class.org/slides/crowdsourcing-and-HCI.pdf
   title: Crowdsourcing and HCI part 2
   highlights:
@@ -208,7 +227,6 @@
       url: readings/downloads/nlp/evaluating-non-expert-annotations-for-nlp.pdf
 -
   date: 2014-10-01  
-  speaker: Ellie Pavlick (Instructor will be traveling)
   slides: http://crowdsourcing-class.org/slides/quality-control-2.pdf
   title: Quality Control part 2
   highlights:
