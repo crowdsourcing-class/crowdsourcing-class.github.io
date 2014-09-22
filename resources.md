@@ -13,7 +13,7 @@ Resources
 
 - Python itself has good documentation and a decent getting started page [here](https://docs.python.org/2/tutorial/introduction.html).
 - Python gives a list of good tutorials [here](https://wiki.python.org/moin/BeginnersGuide/Programmers). Many are focused on people with no programming background, but two that seem a bit less introductory are the [Python in 10 minutes](http://www.stavros.io/tutorials/python/) tutorial, and [Google's Python class](https://developers.google.com/edu/python/).
-- There is a [Coursera course](https://www.coursera.org/course/interactivepython) starting September 15th. Thanks to whoever mentioned that in class! Was it Morgan? I am still learning names. :-)
+- There is a [Coursera course on Python](https://www.coursera.org/course/interactivepython) starting September 15th. Thanks to whoever mentioned that in class! Was it Morgan? I am still learning names. :-)
 - I tend to find it easiest to learn languages with some application in mind, so I learned python using the [Intro to NLP in Python](http://www.nltk.org/book/). Highly recommend as a great way to learn two very useful skills at once!
 
 ###More advanced Python resources 
