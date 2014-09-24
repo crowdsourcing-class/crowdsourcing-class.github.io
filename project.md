@@ -47,13 +47,6 @@ My expectation is that your final project will represent a substantial amount of
  
 Create a human computation algorithm to convert prose into poetry. Your algorithm should model two aspects of poetry rhyme and meter. NLP researchers have been working on text-to-text generation algorithms that can rewrite sentences in many different ways. This software can generate a huge number of alternatives, some of which may fit the constraints of a poem. However, the software is currently poor at determining which of the generated sentences are grammatical versus ungrammatical, and which correctly retain the its original meaning. Your job will be to incorporate humans into the process to make those decisions. Meet with your professor to learn more about the NLP software (it takes quite a lot of effort to learn), and then design a set of MTurk HITs to filter generated sentences down to ones that are poetic, grammatical and mean the same thing as the original prose.
  
-### Gun Violence Statistics
-
-Gun violence in the United States is arguably a public health issue. In 1996, Congress effectively eliminated the Center for Disease Control’s (CDC) ability to gather data on instances of gun violence. Fortunately, the CDC’s power to track gun violence was recently reinstated, and the National Academies released [a report in 2013 outlining a public health agenda for reducing gun violence](http://www.iom.edu/Reports/2013/Priorities-for-Research-to-Reduce-the-Threat-of-Firearm-Related-Violence.aspx). Among the recommendations in the report is a call for more useable data, "including community-level data and data concerning the circumstances of firearm deaths, types of weapons used, victim-offender relationships, role of substance use, and geographic location of injury".
-
-The New York Times used to run a daily feature called the [Gun Report](http://nocera.blogs.nytimes.com/category/gun-report/) chronicling reports of gun violence. The Gun Report ended on June 10, 2014. On The Media had a radio interview with [Jennifer Mascia about how she wrote the Gun Report](http://www.onthemedia.org/story/end-gun-report/) and why it ended. 
-
-Can we use crowdsourcing techniques to compile useable public health data about gun violence by mining local newspapers published on the web?  Can we gather data about when, where, and what type of gun violence occurs throughout the United States?
 
 ### Crowd Workers of the world, unite!
  
@@ -97,3 +90,6 @@ Prediction markets use collective intelligence to try to predict the outcome of 
 ### Inspiration from others
 
 [Jeffery Bigham](http://www.cs.cmu.edu/~jbigham/) runs a class at CMU. [You can check out his list of suggested final project topics.](http://www.programthecrowd.com/finalproject)
+
+
+[Open Data Philly](http://opendataphilly.org) has cool data about things in Philly.
