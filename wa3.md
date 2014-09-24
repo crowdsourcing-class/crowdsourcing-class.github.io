@@ -112,12 +112,9 @@ Whew, okay, enough python and bash for now! Its time to design a HIT on Crowdflo
 
 
 The deliverables are: 
-
-	* The final, labeled data you get from Crowdflower
-
-	* A screenshot of your HIT 
-
-	* A screenshot of your dashboard once the HIT has been completed 
+* The final, labeled data you get from Crowdflower
+* A screenshot of your HIT 
+* A screenshot of your dashboard once the HIT has been completed 
 
 Please turn in your files using turnin:
 <pre><code>$ turnin -c nets213 -p crowdflower -v *</code></pre>
