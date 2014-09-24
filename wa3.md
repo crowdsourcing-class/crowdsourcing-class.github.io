@@ -42,8 +42,7 @@ For this part, you will use your classifier from last week to make predictions a
 	<pre><code>$ ssh epavlick@biglab.seas.upenn.edu
 	epavlick@biglab.seas.upenn.edu's password: 
 	SEAS SuSE Linux 13.1
-	epavlick@big05:~> wget seas.upenn.edu/~epavlick/nets213/data.tgz
-	</code></pre>
+	epavlick@big05:~> wget seas.upenn.edu/~epavlick/nets213/data.tgz</code></pre>
 
 	You can unpack the data using the following command. You should see two directories, one containing your training data (this is the same as last week) and one containing unlabelled data. The unlabelled data is in two parallel files: <code>articles.txt</code> contains the text of the articles that you will use for the classifier. <code>urls.txt</code> contains the urls from which this text came; you will use these in Part 2 of the assignment.
 
@@ -53,8 +52,7 @@ For this part, you will use your classifier from last week to make predictions a
 	articles.txt
 	
 	data/unlabelled-data:
-	articles.txt	urls.txt
-	</code></pre>
+	articles.txt	urls.txt</code></pre>
 
 2. You will the use the same classifier you built last week, but this time, instead of testing it with cross validation and priniting out the accuracy, you will train it on all your labeled data, and then use it to make predictions on your unlabelled data. To do this, download our [new code template](seas.upenn.edu/~epavlick/nets213/predict_unlabeled.py). This code should look very familiar to what you worked with last week, but has a few new functions added, which will handle the reading and vectorizing of the unlabelled data. The only change you will need to make is to <b>replace the <code>get_features()</code> function with the <code>get_features()</code> function that you wrote</b> last week. If you used any auxilary functions as part of your <code>get_features</code>, you will need to copy those over too.  
 
