@@ -37,24 +37,21 @@ This assignment has two parts:
 
 For this part, you will use your classifier from last week to make predictions about never-before-seen data. You will need to make some changes to the code you wrote last week. There are some engineering details that you need to get right in order for everything to run smoothly, so read the instructions carefully and follow them closely. 
 
-1. First, you need to download the [unlabeled data](). It is a healthy 1.4G, so maybe don't download it over the wifi you are broadcasting from your phone, or the crappy xfinity wifi connection that you are kind of picking up from the coffee shop next door. Better yet, since you will almost definitely need to run this on biglab unless you have a $!@#-ton of RAM, ssh to biglab and download it with wget. 
+1. First, ssh into your account on biglab. You will almost definitely crash your laptop if you try to work locally, unless you have a $!@#-ton of RAM, so now is as good a time as any to learn how to read, write, and run code from the command line! Bonus, we already have the data on biglab for you, so you don't need to download it. It is in the directory <code>/blah/blah/blah</code>. You can look at the files in a directory by typing <code>ls</code> (for "list"). E.g.
 
 	<pre><code>$ ssh epavlick@biglab.seas.upenn.edu
 	epavlick@biglab.seas.upenn.edu's password: 
 	SEAS SuSE Linux 13.1
-	epavlick@big05:~> wget seas.upenn.edu/~epavlick/nets213/data.tgz</code></pre>
-
-	You can unpack the data using the following command. You should see two directories, one containing your training data (this is the same as last week) and one containing unlabelled data. The unlabelled data is in two parallel files: <code>articles.txt</code> contains the text of the articles that you will use for the classifier. <code>urls.txt</code> contains the urls from which this text came; you will use these in Part 2 of the assignment.
-
-	<pre><code> $ tar -xzvf data.tgz
-	$ ls data/*
+	epavlick@big05:~> ls blah/blah/blah
 	data/training-data:
 	articles.txt
 	
 	data/unlabelled-data:
 	articles.txt	urls.txt</code></pre>
 
-2. You will the use the same classifier you built last week, but this time, instead of testing it with cross validation and priniting out the accuracy, you will train it on all your labeled data, and then use it to make predictions on your unlabelled data. To do this, download our [new code template](http://www.seas.upenn.edu/~epavlick/nets213/predict_unlabelled.py). This code should look very familiar to what you worked with last week, but has a few new functions added, which will handle the reading and vectorizing of the unlabelled data. The only change you will need to make is to <b>replace the <code>get_features()</code> function with the <code>get_features()</code> function that you wrote</b> last week. If you used any auxilary functions as part of your <code>get_features</code>, you will need to copy those over too.  
+	You should see two directories, one containing your training data (this is the same as last week) and one containing unlabelled data. The unlabelled data is in two parallel files: <code>articles.txt</code> contains the text of the articles that you will use for the classifier. <code>urls.txt</code> contains the urls from which this text came; you will use these in Part 2 of the assignment.
+
+2. You will the use the same classifier you built last week, but this time, instead of testing it with cross validation and priniting out the accuracy, you will train it on all your labeled data, and then use it to make predictions on your unlabelled data. To do this, download our [new code template](http://www.seas.upenn.edu/~epavlick/nets213/predict_unlabelled.py) (the easiest way would be to use <code>wget</code>](https://www.gnu.org/software/wget/manual/html_node/Simple-Usage.html#Simple-Usage)!). This code should look very familiar to what you worked with last week, but has a few new functions added, which will handle the reading and vectorizing of the unlabelled data. The only change you will need to make is to <b>replace the <code>get_features()</code> function with the <code>get_features()</code> function that you wrote</b> last week. If you used any auxilary functions as part of your <code>get_features</code>, you will need to copy those over too.  
 
 	You can copy over your function, and if you are careful, it should run without complaining. (Note: To give you an idea of the main changes that needed to be made in order to have the classifier work on new data, read through the comments in the main method. Specifically, look at the function <code>get_matricies_for_unlabelled()</code>. The main difference is that when we convert our feature dictionary into a feature matrix, we need to make sure we use the same <code>DictVectorizer</code> object that we used to create the training data. This makes sense- we need to make sure that the column 627 in our new matrix means the same thing as column 627 in the training matrix, otherwise, the classifier will be totally helpless! You can also look at the function <code>predict_unlabelled()</code>. This should look very similar to the function you wrote to pull out misclassified examples in the homeword last week.)
 
@@ -68,14 +65,24 @@ For this part, you will use your classifier from last week to make predictions a
 
 	This will still take a few minutes, since you still need to train on all 70K training articles! 
 
-	If it works, run on the full 1.5M articles. Once you start it, don't hold your breadth. Maybe go grab coffee...or a nice dinner downtown...go for a leisurly hike. It took me about XXX minutes to finish on biglab. When the code finishes, it will have created a file called classifier_predictions.txt, which contains the classifier predictions, one per line. E.g. the first line of classifier_predictions.txt is a '0' if the classifier thinks that the first article in data/unlabelled-data/articles.txt is not gun related. 
+	If it works, run on the full 1.5M articles. Once you start it, don't hold your breadth. Maybe go grab coffee...or a nice dinner downtown...go for a leisurly hike. It took me about XXX minutes to finish on biglab. When the code finishes, it will have created a file called <code>classifier_predictions.txt</code>, which contains the classifier predictions, one per line. E.g. the first line of <code>classifier_predictions.txt</code> is a '0' if the classifier thinks that the first article in data/unlabelled-data/articles.txt is not gun related. 
 
-4. You now have three parallel files, each with 1,471,811 lines in it: data/unlabelled-data/articles.txt, data/unlabelled-data/urls.txt, and classifier_predictions.txt. For the next step, you will want to pull out just the urls of the articles which the classifier predicted as "gun-related"- that is, the lines for which classifier_predictions.txt has a '1'. You can use your favorite programming language to do this, or do it manually if you are bored and have nothing better to do. If you are interested, here is a great bash command to do it for you: 
+4. You now have three parallel files, each with 1,471,811 lines in it: <code>unlabelled-data/articles.txt</code>, <code>data/unlabelled-data/urls.txt</code>, and <code>classifier_predictions.txt</code>. For the next step, you will want to pull out just the urls of the articles which the classifier predicted as "gun-related"- that is, the lines for which classifier_predictions.txt has a '1'. You can use your favorite programming language to do this, or do it manually if you are bored and have nothing better to do. If you are interested, here is a great bash command to do it for you: 
 
 	<pre><code>$ paste classifier_predictions.txt data/unlabelled-data/urls.txt | grep -e "^1" > positive_predicted_urls.txt</code></pre>
 
-	(This creates a new file, positive_predicted_urls.txt, with two columns, one with the label (which will always be '1'), and one with the url. It uses three bash commands: <code>paste</code> just takes the contents of both files and pastes them side-by-side; <code>grep</code> searches for lines which match the pattern <code>"^1"</code>, where the <code>"^"</code> just means "beginning of the line"; and the <code>">"</code> symbol (often read as "redirect") tells it to put the output into a new file, called <code>positive_predicted_urls.txt</code>.)
+	You should also pull out the negative predictions, and put them in a separate file:
 
+	<pre><code>$ paste classifier_predictions.txt data/unlabelled-data/urls.txt | grep -e "^0" > negative_predicted_urls.txt</code></pre>
+
+	This creates a new file, positive_predicted_urls.txt, with two columns, one with the label (which will always be '1'), and one with the url. It uses three bash commands: <code>paste</code> just takes the contents of both files and pastes them side-by-side; <code>grep</code> searches for lines which match the pattern <code>"^1"</code>, where the <code>"^"</code> just means "beginning of the line"; and the "<code>></code>" symbol (often read as "redirect") tells it to put the output into a new file, called <code>positive_predicted_urls.txt</code>.
+
+5. Finally, you will need to get a sample of these articles to label on Crowdflower. We will label 500 positive predictions, and throw in a few negative predictions (which we will use for quality control. Again, some bash to the rescue:
+
+	<pre><code>$ cat positive_predicted_urls.txt | shuf | head -500 > sample.txt
+	$ cat negative_predicted_urls.txt | shuf | head -50 >> sample.txt</code></pre>
+	
+	This creates a new file, <code>sample.txt</code> which contains a random 500 lines from <code>positive_predicted_urls.txt</code> and a random 50 lines from <code>negattive_predicted_urls.txt</code>. Again, it uses three bash commands: <code>cat</code> (for "concatenate") just dumps the entire contents of a file; <code>shuf</code> scrambles the order of the lines; <code>head -n</code> takes the top <code>n</code> lines of its input and ignores the rest. We use <code>>></code> in the second line in order to append to a file that already exists. If we used <code>></code>, we would overwrite the lines that we already put there in the first command!
 
 ###Part 2: ShootingsHIT
 
