@@ -91,3 +91,9 @@ Whew, okay, enough python and bash for now! Its time to design a HIT on Crowdflo
 6. If you want to, you can also use the HTML editor. This makes it easy to add links to your URL. E.g.
 	
 	<img src="assets/img/crowdflower-screenshots/html.png" style="width: 500px;"/>
+
+7. Once you are happy with your design, we will add in some test questions. These questions will be mixed into your data randomly, and used to evaluate how well the workers are doing. Crowdflower will walk through your data and ask you to label some of the articles yourself, and provide descriptions of why the answer is what it is. You should label about 50 articles to use as test questions.
+
+ 
+	<img src="assets/img/crowdflower-screenshots/create-test.png" style="width: 500px;"/>
+	<img src="assets/img/crowdflower-screenshots/label-test.png" style="width: 500px;"/>
