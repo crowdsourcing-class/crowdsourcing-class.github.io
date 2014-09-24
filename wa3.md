@@ -83,4 +83,11 @@ Whew, okay, enough python and bash for now! Its time to design a HIT on Crowdflo
 4. You will be abl to preview your data. It should look something like this.
 
 	<img src="assets/img/crowdflower-screenshots/data.png" style="width: 500px;"/>
+
+5. Next, design your interface. There is a nice WYSIWYG editor that will make it very easy to add questions. Just like on MTurk, you can flag variables using the {{VARIABLE_NAME}} syntax. When Crowdflower posts your HIT, it will replace your variable place holders with values from your CSV. E.g. everytime I write {{url}} in the HIT design, it will be replaced with an actual url from my data. Each row in my CSV corresponds to one HIT, so in each HIT, a different url will appear. Here is how my design looked, you are free to be more creative.
  
+	<img src="assets/img/crowdflower-screenshots/UI-design.png" style="width: 500px;"/>
+
+6. If you want to, you can also use the HTML editor. This makes it easy to add links to your URL. E.g.
+	
+	<img src="assets/img/crowdflower-screenshots/html.png" style="width: 500px;"/>
