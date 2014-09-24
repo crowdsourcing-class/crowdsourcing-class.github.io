@@ -39,11 +39,11 @@ For this part, you will use your classifier from last week to make predictions a
 
 1. First, you need to download the [unlabeled data](). It is a healthy 1.4G, so maybe don't download it over the wifi you are broadcasting from your phone, or the crappy xfinity wifi connection that you are kind of picking up from the coffee shop next door. Better yet, since you will almost definitely need to run this on biglab unless you have a $!@#-ton of RAM, ssh to biglab and download it with wget. 
 
-<pre><code>$ ssh epavlick@biglab.seas.upenn.edu
-epavlick@biglab.seas.upenn.edu's password: 
-SEAS SuSE Linux 13.1
-epavlick@big05:~> wget seas.upenn.edu/~epavlick/nets213/data.tgz
-</code></pre>
+	<pre><code>$ ssh epavlick@biglab.seas.upenn.edu
+	epavlick@biglab.seas.upenn.edu's password: 
+	SEAS SuSE Linux 13.1
+	epavlick@big05:~> wget seas.upenn.edu/~epavlick/nets213/data.tgz
+	</code></pre>
 
 	You can unpack the data using the following command. You should see two directories, one containing your training data (this is the same as last week) and one containing unlabelled data. The unlabelled data is in two parallel files: <code>articles.txt</code> contains the text of the articles that you will use for the classifier. <code>urls.txt</code> contains the urls from which this text came; you will use these in Part 2 of the assignment.
 
