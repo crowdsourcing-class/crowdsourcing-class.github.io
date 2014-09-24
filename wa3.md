@@ -53,7 +53,7 @@ For this part, we will need to make some changes to the code you wrote last week
 
 3. Once you have copied over your feature function, you can run the program as follows. 
 
-	<pre><code>$ python predict_unlabelled.py data/training-data/articles.txt data/unlabelled-data/articles.txt</pre></code>
+	<pre><code>$ python predict_unlabelled.py data/training-data/articles.txt data/unlabelled-data/articles.txt</code></pre>
 
 	If you want to test your code to make sure it works, try running with a smaller file instead of using the whole data/unlabelled-data/articles.txt. When the code finishes, it will have created a file called classifier_predictions.txt, which contains the classifier predictions, one per line. E.g. the first line of classifier_predictions.txt is a '0' if the classifier thinks that the first article in data/unlabelled-data/articles.txt is not gun related. 
 
@@ -61,7 +61,7 @@ For this part, we will need to make some changes to the code you wrote last week
 
 4. You now have three parallel files, each with 1471,811 lines in it: data/unlabelled-data/articles.txt, data/unlabelled-data/urls.txt, and classifier_predictions.txt. For the next step, you will want to pull out just the urls of the articles which the classifier predicted as "gun-related"- that is, the lines for which classifier_predictions.txt has a '1'. You can use your favorite programming language to do this, or do it manually if you are bored and have nothing better to do. If you are interested, here is a great bash command to do it for you: 
 
-	<pre><code>$ paste classifier_predictions.txt data/unlabelled-data/urls.txt | grep -e "^1" > positive_predicted_urls.txt</pre></code>
+	<pre><code>$ paste classifier_predictions.txt data/unlabelled-data/urls.txt | grep -e "^1" > positive_predicted_urls.txt</code></pre>
 
 	This creates a new file, positive_predicted_urls.txt, with two columns, one with the label and one with the url. It uses three bash commands: paste just takes the contents of both files and pastes them side-by-side; grep searches for lines which match the pattern "^1", where the "^" just means "beginning of the line"; and the ">" symbol tells it to put the output into a new file, called positive_predicted_urls.txt.
 
