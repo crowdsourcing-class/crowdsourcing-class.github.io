@@ -134,9 +134,9 @@ Whew, okay, enough python and bash for now! Its time to design a HIT on Crowdflo
 
 The deliverables are: 
 	
-	1. Your <code>classifier_predictions.txt</code>, which should be a 1,471,811 line file, containing precitions (0 or 1) for each unlabelled article.
-	2. The final, labeled data you get from Crowdflower, as a csv file.
-	3. A screenshot of your HIT, as it looked to workers.
+1. Your <code>classifier_predictions.txt</code>, which should be a 1,471,811 line file, containing precitions (0 or 1) for each unlabelled article.
+2. The final, labeled data you get from Crowdflower, as a csv file.
+3. A screenshot of your HIT, as it looked to workers.
 
 Like before, please turn in your files using turnin:
 <pre><code>$ turnin -c nets213 -p crowdflower -v *</code></pre>
