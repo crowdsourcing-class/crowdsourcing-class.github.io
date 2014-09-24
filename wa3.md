@@ -73,7 +73,8 @@ Whew, okay, enough python and bash for now! Its time to design a HIT on Crowdflo
 1. Prep your data. You will need the list of urls to be in CSV format. The easiest way to do this will probably be to open the urls in a spreadsheet program like Google Docs or Excel. Then, you can use File->Export to CSV, and save the file. Make sure you add a header to the column, something informative like "url". 
 
 2. Log onto [Crowdflower](). Click on "Your Jobs" -> "Create New Job." Then choose "Start from scratch."
-	![new-job](assets/img/crowdflower-screenshots/new-job)
+
+	![new-job](assets/img/crowdflower-screenshots/new-job.png)
 
 
 
