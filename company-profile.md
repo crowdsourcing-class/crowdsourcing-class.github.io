@@ -8,7 +8,7 @@ active_tab: company-profile
 
 Company Profile
 =============================================================
-As part of your [market research assignment](wa2.md), you will give a short 5 to 10 minute presentation on your company.  Your presentation should answer the following questions:
+As part of your [market research assignment](assignment2.html), you will give a short 5 to 10 minute presentation on your company.  Your presentation should answer the following questions:
 
 - What incentives does the company offer to get people to participate?
 - How does it aggregate the information provided by the crowd?
