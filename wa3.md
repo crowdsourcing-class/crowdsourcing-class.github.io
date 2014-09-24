@@ -33,9 +33,9 @@ This assignment has two parts:
 2. You will create a task on [Crowdflower]() in which workers will label a sample of the articles, and recalculate your classifier's accuracy.
 
 
-###Part 1: Classifying unseen data
+###Part 1: Taking shots in the dark
 
-For this part, we will need to make some changes to the code you wrote last week. There are some engineering details that you need to get right in order for everything to run smoothly, so read the instructions carefully and follow them closely.  
+For this part, you will use your classifier from last week to make predictions about never-before-seen data. You will need to make some changes to the code you wrote last week. There are some engineering details that you need to get right in order for everything to run smoothly, so read the instructions carefully and follow them closely.  
 
 1. First, you need to download the [unlabeled data](). It is a healthy 1.4G, so maybe don't download it over the wifi you are broadcasting from your phone, or the crappy xfinity wifi connection that you are kind of picking up from the coffee shop next door. You can unpack the data using the following command. You should see two directories, one containing your training data (this is the same as last week) and one containing unlabelled data. The unlabelled data is in two parallel files: articles.txt contains the text of the articles that you will use for the classifier. urls.txt contains the urls from which this text came; you will use these in Part 2 of the assignment.
 
@@ -66,7 +66,7 @@ For this part, we will need to make some changes to the code you wrote last week
 	This creates a new file, positive_predicted_urls.txt, with two columns, one with the label and one with the url. It uses three bash commands: paste just takes the contents of both files and pastes them side-by-side; grep searches for lines which match the pattern "^1", where the "^" just means "beginning of the line"; and the ">" symbol tells it to put the output into a new file, called positive_predicted_urls.txt.
 
 
-###Part 2: ShootingsHit
+###Part 2: ShootingsHIT
 
 Whew, okay, enough python and bash for now! Its time to design a HIT on Crowdflower! The goal is to have the workers look at each of the URLs you gathered in step 4 of Part 1, and have them judge whether they agree that it is gun-violence-related. This should be a very painless process, hopefully. And look! There are even pictures!
 
@@ -97,3 +97,26 @@ Whew, okay, enough python and bash for now! Its time to design a HIT on Crowdflo
  
 	<img src="assets/img/crowdflower-screenshots/create-test.png" style="width: 500px;"/>
 	<img src="assets/img/crowdflower-screenshots/label-test.png" style="width: 500px;"/>
+
+8. That's basically it! Choose settings that reflect your feelings about the time and effort of your HIT, your morals, your politics, and your deep philosophies about the value of a hard days work. I had 3 workers judge each URL and paid a penny per URL. 
+
+9. Now go! Post! And then obsessively watch the snazzy dashboard as your results come flooding in! 
+	
+	<img src="assets/img/crowdflower-screenshots/dashboard.png" style="width: 500px;"/>
+
+	You can see what your HIT looks like by following the link at the bottom of your dashboard.
+	
+	<img src="assets/img/crowdflower-screenshots/view-hit.png" style="width: 500px;"/>
+
+	Once the results are in, you can download them as a CSV file from the dashboard. We will do more work analyzing the results in the coming assignments.
+
+
+The deliverables are: 
+- The final, labeled data you get from Crowdflower
+- A screenshot of your HIT 
+- A screenshot of your dashboard once the HIT has been completed 
+
+Please turn in your files using turnin:
+<pre><code>$ turnin -c nets213 -p crowdflower -v *</code></pre>
+
+This assignment is due <b>Wednesday, October 1</b>. You can work in pairs, but you must declare the fact that you are working together when you turn your assignment.  
