@@ -39,15 +39,14 @@ For this part, we will need to make some changes to the code you wrote last week
 
 1. First, you need to download the [unlabeled data](). It is a healthy 1.4G, so maybe don't download it over the wifi you are broadcasting from your phone, or the crappy xfinity wifi connection that you are kind of picking up from the coffee shop next door. You can unpack the data using the following command. You should see two directories, one containing your training data (this is the same as last week) and one containing unlabelled data. The unlabelled data is in two parallel files: articles.txt contains the text of the articles that you will use for the classifier. urls.txt contains the urls from which this text came; you will use these in Part 2 of the assignment.
 
-<pre><code>
-$ tar -xzvf data.tgz
-$ ls data/*
-data/training-data:
-articles.txt
-
-data/unlabelled-data:
-articles.txt	urls.txt
-</code></pre>
+	<pre><code>$ tar -xzvf data.tgz
+	$ ls data/*
+	data/training-data:
+	articles.txt
+	
+	data/unlabelled-data:
+	articles.txt	urls.txt
+	</code></pre>
 
 2. You will the use the same classifier you built last week, but this time, instead of testing it with cross validation and priniting out the accuracy, you will train it on all your labeled data, and then use it to make predictions on your unlabelled data. To do this, download our [new code template](). This code should look very familiar to what you worked with last week, but has a few new functions added, which will handle the reading and vectorizing the unlabelled data. The only change you will need to make is to <b>replace the get_features() function with the get_features() function that you wrote</b> last week. If you used any auxilary functions as part of your get_features, you will need to copy those over too.  
 
@@ -55,9 +54,9 @@ You can copy and paste your code, and if you are careful, it should run without 
 
 3. Once you have copied over your feature function, you can run the program as follows. 
 
-<pre><code>
-$ python predict_unlabelled.py data/training-data/articles.txt data/unlabelled-data/articles.txt 
-</pre></code>
+	<pre><code>
+	$ python predict_unlabelled.py data/training-data/articles.txt data/unlabelled-data/articles.txt 
+	</pre></code>
 
 If you want to test your code to make sure it works, try running with a smaller file instead of using the whole data/unlabelled-data/articles.txt. When the code finishes, it will have created a file called classifier_predictions.txt, which contains the classifier predictions, one per line. E.g. the first line of classifier_predictions.txt is a '0' if the classifier thinks that the first article in data/unlabelled-data/articles.txt is not gun related. 
 
@@ -65,9 +64,9 @@ You will almost definitely need to run this on biglab, unless you have a $!@#-to
 
 4. You now have three parallel files, each with 1471,811 lines in it: data/unlabelled-data/articles.txt, data/unlabelled-data/urls.txt, and classifier_predictions.txt. For the next step, you will want to pull out just the urls of the articles which the classifier predicted as "gun-related"- that is, the lines for which classifier_predictions.txt has a '1'. You can use your favorite programming language to do this, or do it manually if you are bored and have nothing better to do. If you are interested, here is a great bash command to do it for you: 
 
-<pre><code>
-$ paste classifier_predictions.txt data/unlabelled-data/urls.txt | grep -e "^1" > positive_predicted_urls.txt
-</pre></code>
+	<pre><code>
+	$ paste classifier_predictions.txt data/unlabelled-data/urls.txt | grep -e "^1" > positive_predicted_urls.txt
+	</pre></code>
 
 This creates a new file, positive_predicted_urls.txt, with two columns, one with the label and one with the url. It uses three bash commands: paste just takes the contents of both files and pastes them side-by-side; grep searches for lines which match the pattern "^1", where the "^" just means "beginning of the line"; and the ">" symbol tells it to put the output into a new file, called positive_predicted_urls.txt.
 
