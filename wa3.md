@@ -39,7 +39,7 @@ For this part, we will need to make some changes to the code you wrote last week
 
 1. First, you need to download the [unlabeled data](). It is a healthy 1.4G, so maybe don't download it over the wifi you are broadcasting from your phone, or the crappy xfinity wifi connection that you are kind of picking up from the coffee shop next door. You can unpack the data using the following command. You should see two directories, one containing your training data (this is the same as last week) and one containing unlabelled data. The unlabelled data is in two parallel files: articles.txt contains the text of the articles that you will use for the classifier. urls.txt contains the urls from which this text came; you will use these in Part 2 of the assignment.
 
-	<pre><code>$ tar -xzvf data.tgz
+	<pre><code> $ tar -xzvf data.tgz
 	$ ls data/*
 	data/training-data:
 	articles.txt
@@ -59,12 +59,23 @@ For this part, we will need to make some changes to the code you wrote last week
 
 	You will almost definitely need to run this on biglab, unless you have a $!@#-ton of RAM. On biglab, it took XXX minutes to get predictions for all 1.5M articles. 
 
-4. You now have three parallel files, each with 1471,811 lines in it: data/unlabelled-data/articles.txt, data/unlabelled-data/urls.txt, and classifier_predictions.txt. For the next step, you will want to pull out just the urls of the articles which the classifier predicted as "gun-related"- that is, the lines for which classifier_predictions.txt has a '1'. You can use your favorite programming language to do this, or do it manually if you are bored and have nothing better to do. If you are interested, here is a great bash command to do it for you: 
+4. You now have three parallel files, each with 1,471,811 lines in it: data/unlabelled-data/articles.txt, data/unlabelled-data/urls.txt, and classifier_predictions.txt. For the next step, you will want to pull out just the urls of the articles which the classifier predicted as "gun-related"- that is, the lines for which classifier_predictions.txt has a '1'. You can use your favorite programming language to do this, or do it manually if you are bored and have nothing better to do. If you are interested, here is a great bash command to do it for you: 
 
 	<pre><code>$ paste classifier_predictions.txt data/unlabelled-data/urls.txt | grep -e "^1" > positive_predicted_urls.txt</code></pre>
 
 	This creates a new file, positive_predicted_urls.txt, with two columns, one with the label and one with the url. It uses three bash commands: paste just takes the contents of both files and pastes them side-by-side; grep searches for lines which match the pattern "^1", where the "^" just means "beginning of the line"; and the ">" symbol tells it to put the output into a new file, called positive_predicted_urls.txt.
 
 
+###Part 2: ShootingsHit
+
+Whew, okay, enough python and bash for now! Its time to design a HIT on Crowdflower! The goal is to have the workers look at each of the URLs you gathered in step 4 of Part 1, and have them judge whether they agree that it is gun-violence-related. This should be a very painless process, hopefully. And look! There are even pictures!
+
+1. Prep your data. You will need the list of urls to be in CSV format. The easiest way to do this will probably be to open the urls in a spreadsheet program like Google Docs or Excel. Then, you can use File->Export to CSV, and save the file. Make sure you add a header to the column, something informative like "url". 
+
+2. Log onto [Crowdflower](). Click on "Your Jobs" -> "Create New Job." Then choose "Start from scratch."
+
+	<img src="assets/img/crowdflower-screenshots/new-job"/>
 
 
+
+ 
