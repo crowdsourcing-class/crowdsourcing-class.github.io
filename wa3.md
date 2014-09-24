@@ -42,7 +42,8 @@ For this part, you will use your classifier from last week to make predictions a
 <pre><code>$ ssh epavlick@biglab.seas.upenn.edu
 epavlick@biglab.seas.upenn.edu's password: 
 SEAS SuSE Linux 13.1
-epavlick@big05:~> wget seas.upenn.edu/~epavlick/nets213/data.tgz</code></pre>
+epavlick@big05:~> wget seas.upenn.edu/~epavlick/nets213/data.tgz
+</code></pre>
 
 	You can unpack the data using the following command. You should see two directories, one containing your training data (this is the same as last week) and one containing unlabelled data. The unlabelled data is in two parallel files: <code>articles.txt</code> contains the text of the articles that you will use for the classifier. <code>urls.txt</code> contains the urls from which this text came; you will use these in Part 2 of the assignment.
 
