@@ -74,7 +74,11 @@ Whew, okay, enough python and bash for now! Its time to design a HIT on Crowdflo
 
 2. Log onto [Crowdflower](). Click on "Your Jobs" -> "Create New Job." Then choose "Start from scratch."
 
-	<img src="assets/img/crowdflower-screenshots/new-job.png" style="width: 200px;"/>
+	<img src="assets/img/crowdflower-screenshots/new-job.png" style="width: 500px;"/>
+
+3. Choose the "spreadsheet" option for your data.
+
+	<img src="assets/img/crowdflower-screenshots/upload-data.png" style="width: 500px;"/>
 
 
 
