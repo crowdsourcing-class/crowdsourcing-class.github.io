@@ -29,7 +29,7 @@ You can probably imagine that that 99% accuracy on cross validation may have bee
 
 This assignment has two parts:
 
-1. You will need to run your classifier from last week on [these 1.4 million unlabeled articles](), and pull out the articles that it thinks are gun-related.
+1. You will need to run your classifier from last week on 1.5 million unlabeled articles, and pull out the articles that it thinks are gun-related.
 2. You will create a task on [Crowdflower]() in which workers will label a sample of the articles, and recalculate your classifier's accuracy.
 
 
@@ -47,7 +47,7 @@ articles.txt
 
 data/unlabelled-data:
 articles.txt	urls.txt
-</pre></code>
+</code></pre>
 
 2. You will the use the same classifier you built last week, but this time, instead of testing it with cross validation and priniting out the accuracy, you will train it on all your labeled data, and then use it to make predictions on your unlabelled data. To do this, download our [new code template](). This code should look very familiar to what you worked with last week, but has a few new functions added, which will handle the reading and vectorizing the unlabelled data. The only change you will need to make is to <b>replace the get_features() function with the get_features() function that you wrote</b> last week. If you used any auxilary functions as part of your get_features, you will need to copy those over too.  
 
