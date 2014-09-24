@@ -80,6 +80,7 @@ Whew, okay, enough python and bash for now! Its time to design a HIT on Crowdflo
 
 	<img src="assets/img/crowdflower-screenshots/upload-data.png" style="width: 500px;"/>
 
+4. You will be abl to preview your data. It should look something like this.
 
-
+	<img src="assets/img/crowdflower-screenshots/data.png" style="width: 500px;"/>
  
