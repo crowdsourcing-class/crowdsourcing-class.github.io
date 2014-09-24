@@ -74,7 +74,7 @@ Whew, okay, enough python and bash for now! Its time to design a HIT on Crowdflo
 
 2. Log onto [Crowdflower](). Click on "Your Jobs" -> "Create New Job." Then choose "Start from scratch."
 
-	![new-job](assets/img/crowdflower-screenshots/new-job.png)
+	<img src="assets/img/crowdflower-screenshots/new-job.png" style="width: 200px;"/>
 
 
 
