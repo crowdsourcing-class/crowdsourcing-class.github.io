@@ -75,20 +75,22 @@ For this part, you will use your classifier from last week to make predictions a
 
 	<pre><code>$ paste classifier_predictions.txt data/unlabelled-data/urls.txt | grep -e "^0" > negative_predicted_urls.txt</code></pre>
 
-	This creates a new file, positive_predicted_urls.txt, with two columns, one with the label (which will always be '1'), and one with the url. It uses three bash commands: <code>paste</code> just takes the contents of both files and pastes them side-by-side; <code>grep</code> searches for lines which match the pattern <code>"^1"</code>, where the <code>"^"</code> just means "beginning of the line"; and the "<code>></code>" symbol (often read as "redirect") tells it to put the output into a new file, called <code>positive_predicted_urls.txt</code>.
+	This creates a new file, positive_predicted_urls.txt, with two columns, one with the label (which will always be '1'), and one with the url. It uses three bash commands: <code>paste</code> just takes the contents of both files and pastes them side-by-side; <code>grep</code> searches for lines which match the pattern <code>^1</code>, where the <code>^</code> just means "beginning of the line"; and the "<code>></code>" symbol (often read as "redirect") tells it to put the output into a new file, called <code>positive_predicted_urls.txt</code>.
 
 5. Finally, you will need to get a sample of these articles to label on Crowdflower. We will label 500 positive predictions, and throw in a few negative predictions (which we will use for quality control. Again, some bash to the rescue:
 
-	<pre><code>$ cat positive_predicted_urls.txt | shuf | head -500 > sample.txt
+	<pre><code> $ cat positive_predicted_urls.txt | shuf | head -500 > sample.txt
 	$ cat negative_predicted_urls.txt | shuf | head -50 >> sample.txt</code></pre>
 	
-	This creates a new file, <code>sample.txt</code> which contains a random 500 lines from <code>positive_predicted_urls.txt</code> and a random 50 lines from <code>negattive_predicted_urls.txt</code>. Again, it uses three bash commands: <code>cat</code> (for "concatenate") just dumps the entire contents of a file; <code>shuf</code> scrambles the order of the lines; <code>head -n</code> takes the top <code>n</code> lines of its input and ignores the rest. We use <code>>></code> in the second line in order to append to a file that already exists. If we used <code>></code>, we would overwrite the lines that we already put there in the first command!
+	This creates a new file, <code>sample.txt</code> which contains a random 500 lines from <code>positive_predicted_urls.txt</code> and a random 50 lines from <code>negattive_predicted_urls.txt</code>. Again, it uses three bash commands: <code>cat</code> (for "concatenate") just dumps the entire contents of a file; <code>shuf</code> scrambles the order of the lines; <code>head -n</code> takes the top <code>n</code> lines of its input and ignores the rest. We use <code>>></code> in the second line in order to append to a file that already exists. If we used <code>></code>, we would overwrite the lines that we just put there in the first command!
+
+	For good measure, you might want to shuffle <code>sample.txt</code>, so that the negative examples are all at the bottom. Try to figure out how to do it in bash! 
 
 ###Part 2: ShootingsHIT
 
 Whew, okay, enough python and bash for now! Its time to design a HIT on Crowdflower! The goal is to have the workers look at each of the URLs you gathered in step 4 of Part 1, and have them judge whether they agree that it is gun-violence-related. This should be a very painless process, hopefully. And look! There are even pictures!
 
-1. Prep your data. You will need the list of urls to be in CSV format. The easiest way to do this will probably be to open <code>positive_predicted_urls.txt</code>, or whatever you called your file, in a spreadsheet program like Google Docs. Then, you can use File->Dowload as->CSV, and save the file. Make sure you add a header to the columns, something informative like "url" or "stuff." 
+1. Prep your data. You will need the list of urls to be in CSV format. The easiest way to do this will probably be to open <code>sample.txt</code>, or whatever you called your file, in a spreadsheet program like Google Docs. Then, you can use File->Dowload as->CSV, and save the file. Make sure you add a header to the columns, something informative like "url" or "stuff." 
 
 2. Log onto [Crowdflower](). Click on "Your Jobs" -> "Create New Job." Then choose "Start from scratch."
 
