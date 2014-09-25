@@ -16,9 +16,6 @@ As part of your [market research assignment](assignment2.html), you will give a 
 - How does the company benefit from user contributions?
 
 You will do research on the company, and [fill out a questionnaire about the company](https://docs.google.com/forms/d/1cEkW2h2xwVyKaXriKR7PqroPDjQZE34AKPoRP-lUV5Y/viewform?usp=send_form) by <b>Wednesday, September 10</b>. See the HW description for more details.
-
-Your TA will give an example presentation to illustrate what we’re looking for. 
-
 Here are some companies that you could profile:
 [538](http://fivethirtyeight.com),
 [99Designs](http://99designs.com),
@@ -79,9 +76,6 @@ Here are some companies that you could profile:
 [XPRIZE](http://www.xprize.org),
 [Yelp](http://www.yelp.com/)
 
-The Freakonomics podcast had an interesting [episode about the sharing economy](http://freakonomics.com/2014/09/04/regulate-this-a-new-freakonomics-radio-podcast/), which discussed some of these companies. 
-
-For full details about the assignment, [check out homework page](wa2.html).
 
 Here is the schedule for the presentations this term:
 <table class="table table-striped"> 
