@@ -32,22 +32,17 @@ This assignment has two parts:
 1. You will need to run your classifier from last week on 1.5 million unlabeled articles, and pull out the articles that it thinks are gun-related.
 2. You will create a task on [Crowdflower](http://www.crowdflower.com/) to have workers assess your predictions. You will use this to recalculate your classifier's accuracy.
 
-
 ###Part 1: Taking shots in the dark
 
 For this part, you will use your classifier from last week to make predictions about never-before-seen data. You will need to make some changes to the code you wrote last week. There are some engineering details that you need to get right in order for everything to run smoothly, so read the instructions carefully and follow them closely. 
 
-1. First, ssh into your account on biglab. You will almost definitely crash your laptop if you try to work locally, unless you have a $!@#-ton of RAM, so now is as good a time as any to learn how to read, write, and run code from the command line! Bonus, we already have the data on biglab for you, so you don't need to download it. It is in the directory <code>/blah/blah/blah</code>. You can look at the files in a directory by typing <code>ls</code> (for "list"). E.g.
+1. First, ssh into your account on biglab. You will almost definitely crash your laptop if you try to work locally, unless you have a $!@#-ton of RAM, so now is as good a time as any to learn how to read, write, and run code from the command line! Bonus, we already have the data on biglab for you, so you don't need to download it. It is in the directory <code>/home1/n/nets213/data/</code>. You can look at the files in a directory by typing <code>ls</code> (for "list"). E.g.
 
 	<pre><code>$ ssh epavlick@biglab.seas.upenn.edu
 	epavlick@biglab.seas.upenn.edu's password: 
 	SEAS SuSE Linux 13.1
-	epavlick@big05:~> ls blah/blah/blah
-	data/training-data:
-	articles.txt
-	
-	data/unlabelled-data:
-	articles.txt	urls.txt</code></pre>
+	epavlick@big05:~> ls /home1/n/nets213/data
+	training-data unlabelled-data</code></pre>
 
 	You should see two directories, one containing your training data (this is the same as last week) and one containing unlabelled data. The unlabelled data is in two parallel files: <code>articles.txt</code> contains the text of the articles that you will use for the classifier. <code>urls.txt</code> contains the urls from which this text came; you will use these in Part 2 of the assignment.
 
@@ -57,11 +52,11 @@ For this part, you will use your classifier from last week to make predictions a
 
 3. Once you have copied over your feature function, you can run the program as follows. 
 
-	<pre><code>$ python predict_unlabelled.py data/training-data/articles.txt data/unlabelled-data/articles.txt</code></pre>
+	<pre><code>$ python predict_unlabelled.py /home1/n/nets213/data/training-data/articles.txt /home1/n/nets213/data/unlabelled-data/articles.txt</code></pre>
 
 	You might want to test your code to make sure it works before running on the full 1.5M articles, so try running with just a few lines of data/unlabelled-data/articles.txt. You can do this by giving the code a third argument, e.g. to predict for the first 10 articles, run
 
-	<pre><code>$ python predict_unlabelled.py data/training-data/articles.txt data/unlabelled-data/articles.txt 10</code></pre>
+	<pre><code>$ python predict_unlabelled.py /home1/n/nets213/data/training-data/articles.txt /home1/n/nets213/data/unlabelled-data/articles.txt 10</code></pre>
 
 	This will still take a few minutes, since you still need to train on all 70K training articles! 
 
@@ -71,22 +66,16 @@ For this part, you will use your classifier from last week to make predictions a
 
 4. You now have three parallel files, each with 1,471,811 lines in it: <code>unlabelled-data/articles.txt</code>, <code>data/unlabelled-data/urls.txt</code>, and <code>classifier_predictions.txt</code>. For the next step, you will want to pull out just the urls of the articles which the classifier predicted as "gun-related"- that is, the lines for which classifier_predictions.txt has a '1'. You can use your favorite programming language to do this, or do it manually if you are bored and have nothing better to do. If you are interested, here is a great bash command to do it for you: 
 
-	<pre><code>$ paste classifier_predictions.txt data/unlabelled-data/urls.txt | grep -e "^1" > positive_predicted_urls.txt</code></pre>
-
-	You should also pull out the negative predictions, and put them in a separate file:
-
-	<pre><code>$ paste classifier_predictions.txt data/unlabelled-data/urls.txt | grep -e "^0" > negative_predicted_urls.txt</code></pre>
+	<pre><code>$ paste classifier_predictions.txt /home1/n/nets213/data/unlabelled-data/urls.txt | grep -e "^1" > positive_predicted_urls.txt</code></pre>
 
 	This creates a new file, positive_predicted_urls.txt, with two columns, one with the label (which will always be '1'), and one with the url. It uses three bash commands: <code>paste</code> just takes the contents of both files and pastes them side-by-side; <code>grep</code> searches for lines which match the pattern <code>^1</code>, where the <code>^</code> just means "beginning of the line"; and the "<code>></code>" symbol (often read as "redirect") tells it to put the output into a new file, called <code>positive_predicted_urls.txt</code>.
 
-5. Finally, you will need to get a sample of these articles to label on Crowdflower. We will label 500 positive predictions, and throw in a few negative predictions (which we will use for quality control. Again, some bash to the rescue:
+5. Finally, you will need to get a sample of these articles to label on Crowdflower. We will label 500 positive predictions. Again, some bash to the rescue:
 
-	<pre><code> $ cat positive_predicted_urls.txt | shuf | head -500 > sample.txt
-	$ cat negative_predicted_urls.txt | shuf | head -50 >> sample.txt</code></pre>
+	<pre><code> $ cat positive_predicted_urls.txt | shuf | head -500 > sample.txt</code></pre>
 	
-	This creates a new file, <code>sample.txt</code> which contains a random 500 lines from <code>positive_predicted_urls.txt</code> and a random 50 lines from <code>negattive_predicted_urls.txt</code>. Again, it uses three bash commands: <code>cat</code> (for "concatenate") just dumps the entire contents of a file; <code>shuf</code> scrambles the order of the lines; <code>head -n</code> takes the top <code>n</code> lines of its input and ignores the rest. We use <code>>></code> in the second line in order to append to a file that already exists. If we used <code>></code>, we would overwrite the lines that we just put there in the first command!
+	This creates a new file, <code>sample.txt</code> which contains a random 500 lines from <code>positive_predicted_urls.txt</code>. Again, it uses three bash commands: <code>cat</code> (for "concatenate") just dumps the entire contents of a file; <code>shuf</code> scrambles the order of the lines; <code>head -n</code> takes the top <code>n</code> lines of its input and ignores the rest. 
 
-	For good measure, you might want to shuffle <code>sample.txt</code>, so that the negative examples are all at the bottom. Try to figure out how to do it in bash! 
 
 ###Part 2: ShootingsHIT
 
@@ -137,6 +126,7 @@ The deliverables are:
 1. Your <code>classifier_predictions.txt</code>, which should be a 1,471,811 line file, containing precitions (0 or 1) for each unlabelled article.
 2. The final, labeled data you get from Crowdflower, as a csv file.
 3. A screenshot of your HIT, as it looked to workers.
+4. Your responses to [these questions](https://docs.google.com/forms/d/10QW0B9xAZK2q9AISGJmYjs7QE3awx3f9h1meypUW5NU/viewform?usp=send_form). 
 
 Like before, please turn in your files using turnin:
 <pre><code>$ turnin -c nets213 -p crowdflower -v *</code></pre>
