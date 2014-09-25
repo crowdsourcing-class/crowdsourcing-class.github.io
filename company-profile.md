@@ -19,7 +19,8 @@ You will do research on the company, and [fill out a questionnaire about the com
 Here are some companies that you could profile:
 [538](http://fivethirtyeight.com),
 [99Designs](http://99designs.com),
-[airbnb](https://www.airbnb.com),[ALEC](http://www.alec.org/model-legislation/) ,
+[airbnb](https://www.airbnb.com),
+[ALEC](http://www.alec.org/model-legislation/),
 [ALICE](http://alicelaw.org),
 [Amazon reviews/product recommendations](https://www.amazon.com),
 [Book Country](http://www.bookcountry.com),
@@ -89,6 +90,7 @@ Here is the schedule for the presentations this term:
    <tr>
       <td>{{ company.date | date: "%b %d" }}</td>
       <td>
+	<img src="assets/img/company-logos/{{ company.title }}.png" width="200" /> 
         {% if company.slides %}<a href="{{ company.slides }}">{{ company.title }}</a>
         {% else %}{{ company.title }}{% endif %}
       </td>
