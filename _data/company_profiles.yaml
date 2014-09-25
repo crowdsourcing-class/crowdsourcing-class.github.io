@@ -873,3 +873,38 @@
   have_there_been_any_controversies_about_the_company_or_the_service_that_it_provides: Similar to LinkedIn, Quora has been criticized for pulling information for social networks (such as friend lists) to make it appear as though friends are registered users.
   what_kind_of_organization_is_it: Privately held company
   how_does_the_company_generate_revenue: The company generates zero revenue and is still in the funding stages. However, the Founder D'Angelo has stated that the site will likely introduce ads in 2015.
+-
+  what_date_did_you_choose_for_your_inclass_presentation: 11/10/2014
+  give_a_url_for_the_companys_logo: https://s3-eu-west-1.amazonaws.com/static.comuni-chiamo.com/sites/www/comuni-chiamo.com/img/socials/fb_preview.png?v=2.22.4
+  what_company_are_you_profiling: Comuni-Chiamo
+  what_online_resources_did_you_use_in_researching_it: https://comuni-chiamo.com<p>http://www.huffingtonpost.it/marco-credendino/comuni-chiamo-startup-innovativa-per-le-amministrazioni-locali_b_3375736.html<p>http://www.thisisitaly-panorama.com/investment-news/comuni-chiamo-wins-socialapp-italia/<p>http://www.repubblica.it/speciali/economia/microsoft/edizione2013/2013/06/04/news/il_cloud_a_servizio_delle_startup-60342319/<p>http://www.anci.lombardia.it/notizie/A-Cornate-d-Adda-per-conoscere-Comuni-Chiamo.asp<p>http://boblog.corrieredibologna.corriere.it/author/piero.ingrosso/<p>http://www.economyup.it/startup/28_comuni-chiamo-risolve-i-problemi-in-citta-e-unisce-comuni-e-cittadini.htm<p>http://www.emiliaromagnastartup.it/innovative-creative/imprese/comuni-chiamo<p>http://www.marketingarena.it/2012/10/04/comuni-chiamo-la-pubblica-amministrazione-a-portata-di-click/<p>http://www.key4biz.it/Analisi_e_Dati/RecenSiti/2013/05/Comunichiamocom_Comuni_Chiamo_Software_Innovazione_PA_Cittadini.html<p>http://italianbusiness.org/socialapp-italia-comuni-chiamo-wins-the-final-pitching-event/<p>http://www.incredibol.net/vincitori_2012_comuni-chiamo.asp<p>http://www.fieradellestartup.com/video/comuni-chiamo-548<p>http://www.ilsole24ore.com/art/tecnologie/2013-06-04/comunichiamo-risolve-problemi-cittadini-113844.shtml?uuid=AbFpO01H
+  did_you_use_any_other_resources: I emailed the founder and another employee, but they're yet to get back to me
+  give_a_one_sentence_description_of_the_company.: Comuni-Chiamo is a crowdsource problem management tool for municipalities
+  give_a_url_for_the_companys_website: https://comuni-chiamo.com
+  when_was_the_company_started: 2012
+  who_were_the_founders: Gilberto Cavallina
+  does_it_have_an_interesting_origin_story: The company was started because historically, municipalities in Italy have had a hard time dealing with problems such as fixing roads and picking up garbage. More than merely signalling the problems to the local government (of which they're often already aware), it gives the local representatives incentive to fix the problems and recorded accountability if they don't, as italian politicians often sweep issues like this under the rug
+  what_service_does_the_company_provide: It is essentially a waze for signalling problems in common areas within municipalities, such as roads, traffic lights, destruction in public parks, etc. The service aggregates all these citizen's signals and makes the list available to both the community and local government officials.
+  does_this_update_a_previous_service_or_business_model,_or_is_it_completely_new: Completely new
+  if_it_updates_something,_what_does_it_replace: 
+  what_other_new_companies_provide_services_that_are_similar_to_your_companys_: The most similar app I can think of is Waze because through citizen's altruism of going through the hassle of signalling traffic (or problems in Comuni-Chiamo's case), they help others avoid traffic (or fix the problems in our case)
+  what_is_an_example_of_how_someone_uses_this_service: I've never used it because it is still not available in my municipality in Italy. But this service is intended for any citizen with a smart phone! It works particularly well in Italy because there are a lot of evident problems that go unfixed for years...
+  compare_the_number_of_users_to_contributors.: More contributors than users
+  who_are_the_people_who_contribute_services: Normal citizens who are tired of having small and easily fixable problems in their municipality 
+  how_does_the_company_incentivize_them_to_contribute,_or_what_motivates_them_to_participate_: the fact that the problem will eventually be resolved. But even more than that, the fact that they can hold government officials accountable for not taking care of the problems. With this app people in the government can no longer claim they didn't know about the problem. Also, normally signalling problems to local gov't is a huge hassle because you have to go to a police station and file a lot of paperwork, which obviously not many are willing to do!
+  is_this_a_service_that_was_previously_provided_by_experts_/_professionals: No
+  are_the_contributors_experts_/_professionals: No
+  how_does_the_company_ensure_the_quality_of_the_services_it_provides: they ask for evidence of the problem one sees and they don't allow duplicate entires about the same problem
+  is_its_service_something_that_is_typically_regulated_by_the_government: Yes
+  if_so,_what_are_the_intents_of_the_regulations_and_does_your_company_meet_those_standards: it doesn't break any regulations because it is simply signalling. They are just taking the hassle and paper work out of filing a formal problem report with the local gov't
+  is_a_reputation_system_used_by_your_company: No
+  if_so,_how_does_it_work: 
+  if_the_service_is_provided_by_many_contributors,_how_are_are_their_contributions_aggregated_: they don't allow duplicate reports for the same problem, but people can comment on hot and more pertinent topics to ensure they will be looked at more promptly
+  what_is_the_scale_of_the_services_that_your_company_provides,_in_terms_of_users: ~300,000-500,000
+  what_is_the_scale_of_the_services_that_your_company_provides,_in_terms_of_dollars: N/A
+  if_your_company_were_to_scale_up_to_10_or_100_times_its_current_size,_how_well_do_you_think_its_business_model_would_work: it would work perfectly well because the incentives are extremely tangible even on a larger scale. People will have problems with the state of their municipality on a micro-level. The only problem I see is that if this is done in a place like NYC, then there's simply going to be too many reports for the gov't to possibly fix, but then again, the more people agree with one specific problem, the more attention it will get from the gov't
+  describe_the_workflow_for_how_the_service_is_advertised,_and_how_the_contributors_contribute,_and_what_the_users_get_in_the_end.: it's not really advertised in the mainstream, but only in the municipalities it currently operates in (~30). People contribute by signalling the problem and providing evidence of it on the platform. The user in the end will *hopefully* get this problem resolved by the municipality. The more people comment or make a specific problem 'hot', the more likely gov't officials will divert their attention to fixing it.
+  is_there_anything_else_youd_like_to_say_about_the_company: Let's go Italy!!
+  have_there_been_any_controversies_about_the_company_or_the_service_that_it_provides: The only main controversy has come from gov't officials who claim they already do this job perfectly well and they shouldn't have to deal with yet another source of hassle. Honestly, they're just being lazy and don't actually want to deal with the problems
+  what_kind_of_organization_is_it: Privately held company
+  how_does_the_company_generate_revenue: Through geo-targeted advertising
