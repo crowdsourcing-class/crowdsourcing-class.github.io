@@ -16,7 +16,7 @@ Subject to change as the term progresses.
       <th>Topic</th>
       <th>Readings</th>
     </tr>
-    {% for lecture in {{site.data.syllabus | sort: 'date' }} %}
+    {% for lecture in site.data.syllabus | sort: 'date' %}
     <tr>
       <td>{{ lecture.date | date: "%b %d" }}</td>
       <td>
