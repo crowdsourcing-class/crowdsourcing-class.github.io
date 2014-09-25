@@ -15,5 +15,3 @@ As part of your [market research assignment](assignment2.html), you will give a 
 - What are the quality concerns, and how does the company do quality control?
 - How does the company benefit from user contributions?
 
-Here is the schedule for the presentations this term:
-
