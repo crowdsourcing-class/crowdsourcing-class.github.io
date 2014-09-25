@@ -16,8 +16,8 @@ Subject to change as the term progresses.
       <th>Topic</th>
       <th>Readings</th>
     </tr>
-    {% assign lectures = (site.data.syllabus | sort: 'date') %}
-    {% for lecture in lectures %}
+    {% assign sorted_pages = (site.data.syllabus | sort: ’title’) %}
+    {% for lecture in sorted_pages %}
     <tr>
       <td>{{ lecture.date | date: "%b %d" }}</td>
       <td>
