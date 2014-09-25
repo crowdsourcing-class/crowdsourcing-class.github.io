@@ -20,66 +20,64 @@ You will do research on the company, and [fill out a questionnaire about the com
 Your TA will give an example presentation to illustrate what we’re looking for. 
 
 Here are some companies that you could profile:
-
-* [ODesk](https://www.odesk.com)
-* [CrowdFlower](http://www.crowdflower.com)
-* [Threadless](https://www.threadless.com/how-it-works/)
-* [iStockPhoto](http://en.wikipedia.org/wiki/IStock)
-* [99Designs](http://99designs.com)
-* [Quirky](http://quirky.com)
-* [Instacart](https://www.instacart.com/faq)
-* [Uber](https://www.uber.com)
-* [Lyft](https://www.lyft.com)
-* [EatWith](http://www.eatwith.com)
-* [airbnb](https://www.airbnb.com)
-* [TaskRabbit](https://www.taskrabbit.com)
-* [Thumbtack](http://www.thumbtack.com/)
-* [Book Country](http://www.bookcountry.com)
-* [CrowdMed](https://www.crowdmed.com)
-* [Innocentive](http://www.innocentive.com)
-* [Kaggle](http://www.kaggle.com)
-* [XPRIZE](http://www.xprize.org)
-* [Kickstarter](http://www.kickstarter.com)
-* [IndieGoGo](https://www.indiegogo.com)
-* [MTurk List](http://www.mturklist.com)
-* [TurkOpticon](http://turkopticon.ucsd.edu)
-* [Kiva](http://kiva.org)
-* [Samasource](http://samasource.org)
-* [Ushahidi](http://www.ushahidi.com)
-* [PatientsLikeMe](http://www.patientslikeme.com)
-* [topcoder](http://www.topcoder.com)
-* [Waze](https://www.waze.com)
-* [OpenStreetMap](http://www.openstreetmap.org/)
-* [Foursquare](https://foursquare.com)
-* [PublicStuff](https://www.publicstuff.com)
-* [ALEC](http://www.alec.org/model-legislation/) 
-* [ALICE](http://alicelaw.org)
-* [change.org](https://www.change.org) 
-* [We the People](https://petitions.whitehouse.gov)
-* [Iceland’s Crowdsourced Constitution](http://www.slate.com/articles/technology/future_tense/2014/07/five_lessons_from_iceland_s_failed_crowdsourced_constitution_experiment.html)
-* [Rotten Tomatoes](http://www.rottentomatoes.com)
-* [Yelp](http://www.yelp.com/)
-* [Amazon reviews/product recommendations](https://www.amazon.com)
-* [Buy Amazon Reviews](http://www.buyamazonreviews.com)
-* [eBay buyer/seller ratings](http://pages.ebay.com/help/feedback/scores-reputation.html)
-* [Flattr](https://flattr.com)
-* [Netflix recommendations](https://www.netflix.com/)
-* [Iowa Election Markets](http://tippie.uiowa.edu/iem/)
-* [Intrade](http://en.wikipedia.org/wiki/Intrade)
-* [538](http://fivethirtyeight.com)
-* [Freelancer](https://www.freelancer.com/)
-* [Stackoverflow](http://stackoverflow.com) 
-* [Stackexchange](http://stackexchange.com/sites)
-* [Quora](http://www.quora.com)
-* [Wikipedia](http://en.wikipedia.org/wiki/Main_Page)
-* [Freebase](http://www.freebase.com)
-* [Silk Road](http://arstechnica.com/tech-policy/2014/08/dark-net-drug-markets-kept-alive-by-great-customer-service/)
-* [Prosper](https://prosper.com/welcome/how_it_works.aspx)
-* [Lending Club](https://www.lendingclub.com/public/how-peer-lending-works.action)
-* [coursera](https://www.coursera.org)
-* [Udacity](https://www.udacity.com)
-* [edX](https://www.edx.org)
-* [Parchment](http://www.parchment.com)
+[538](http://fivethirtyeight.com),
+[99Designs](http://99designs.com),
+[airbnb](https://www.airbnb.com),[ALEC](http://www.alec.org/model-legislation/) ,
+[ALICE](http://alicelaw.org),
+[Amazon reviews/product recommendations](https://www.amazon.com),
+[Book Country](http://www.bookcountry.com),
+[Buy Amazon Reviews](http://www.buyamazonreviews.com),
+[change.org](https://www.change.org),
+[coursera](https://www.coursera.org),
+[CrowdFlower](http://www.crowdflower.com),
+[CrowdMed](https://www.crowdmed.com),
+[EatWith](http://www.eatwith.com),
+[eBay buyer/seller ratings](http://pages.ebay.com/help/feedback/scores-reputation.html),
+[edX](https://www.edx.org),
+[Flattr](https://flattr.com),
+[Foursquare](https://foursquare.com),
+[Freebase](http://www.freebase.com),
+[Freelancer](https://www.freelancer.com/),
+[Iceland’s Crowdsourced Constitution](http://www.slate.com/articles/technology/future_tense/2014/07/five_lessons_from_iceland_s_failed_crowdsourced_constitution_experiment.html),
+[IndieGoGo](https://www.indiegogo.com),
+[Innocentive](http://www.innocentive.com),
+[Instacart](https://www.instacart.com/faq),
+[iStockPhoto](http://en.wikipedia.org/wiki/IStock),
+[Intrade](http://en.wikipedia.org/wiki/Intrade),
+[Iowa Election Markets](http://tippie.uiowa.edu/iem/),
+[Kaggle](http://www.kaggle.com),
+[Kickstarter](http://www.kickstarter.com),
+[Kiva](http://kiva.org),
+[Lending Club](https://www.lendingclub.com/public/how-peer-lending-works.action),
+[Lyft](https://www.lyft.com),
+[MTurk List](http://www.mturklist.com),
+[Netflix recommendations](https://www.netflix.com/),
+[ODesk](https://www.odesk.com),
+[OpenStreetMap](http://www.openstreetmap.org/),
+[Parchment](http://www.parchment.com)
+[PatientsLikeMe](http://www.patientslikeme.com),
+[Prosper](https://prosper.com/welcome/how_it_works.aspx),
+[PublicStuff](https://www.publicstuff.com),
+[Quirky](http://quirky.com),
+[Quora](http://www.quora.com),
+[Rotten Tomatoes](http://www.rottentomatoes.com),
+[Samasource](http://samasource.org),
+[Silk Road](http://arstechnica.com/tech-policy/2014/08/dark-net-drug-markets-kept-alive-by-great-customer-service/),
+[Stackexchange](http://stackexchange.com/sites),
+[Stackoverflow](http://stackoverflow.com) ,
+[TaskRabbit](https://www.taskrabbit.com),
+[Threadless](https://www.threadless.com/how-it-works/),
+[Thumbtack](http://www.thumbtack.com/),
+[topcoder](http://www.topcoder.com),
+[TurkOpticon](http://turkopticon.ucsd.edu),
+[Uber](https://www.uber.com),
+[Udacity](https://www.udacity.com),
+[Ushahidi](http://www.ushahidi.com),
+[Waze](https://www.waze.com),
+[We the People](https://petitions.whitehouse.gov),
+[Wikipedia](http://en.wikipedia.org/wiki/Main_Page),
+[XPRIZE](http://www.xprize.org),
+[Yelp](http://www.yelp.com/)
 
 The Freakonomics podcast had an interesting [episode about the sharing economy](http://freakonomics.com/2014/09/04/regulate-this-a-new-freakonomics-radio-podcast/), which discussed some of these companies. 
 
