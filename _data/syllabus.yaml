@@ -105,6 +105,9 @@
       title:  Intro to Machine Learning in Python
       url: http://shop.oreilly.com/product/0636920017493.do
 -
+  date: 2014-09-15
+  title: Company Profile&#58; Netflix
+-
   date: 2014-09-17
   title: Machine Learning - part 2
   slides: http://crowdsourcing-class.org/slides/machine-learning-2.pdf
@@ -142,6 +145,11 @@
       title:  Download the TurKit software from the MIT Computer Science and Artificial Intelligence Laboratory
       url: http://groups.csail.mit.edu/uid/turkit/
 -
+  date: 2014-09-22
+  title: Company Profile&#58; Kaggle
+-
+  date: 2014-09-22
+  title: Company Profile&#58; Quirky
 -
   date: 2014-09-24
   slides: http://crowdsourcing-class.org/slides/iterative-and-parallel-processing.pdf
@@ -160,6 +168,10 @@
       title:  Download the TurKit software from the MIT Computer Science and Artificial Intelligence Laboratory
       url: http://groups.csail.mit.edu/uid/turkit/
 -
+  date: 2014-09-24
+  title: Company Profile&#58; Stack Overflow
+
+-
   date: 2014-09-29
   slides: http://www.uphs.upenn.edu/ficap/research/docs/Branas%20-%20Gun%20violence%20research%20summary.pdf
   title: Gun Violence Research and Prevention
@@ -173,6 +185,16 @@
       author: FICAP
       title:  Firearm Injury in the U.S. 2011 Resource Book
       url: http://www.uphs.upenn.edu/ficap/resourcebook/pdf/monograph.pdf
+-
+  date: 2014-09-29
+  title: Company Profile&#58; CrowdMed
+-
+  date: 2014-09-29
+  title: Company Profile&#58; FiveThirtyEight
+-
+  date: 2014-09-29
+  title: Company Profile&#58; shirt.woot
+
 -
   date: 2014-10-01
   speaker: Ellie Pavlick (Instructor will be traveling)
@@ -189,7 +211,15 @@
       title:  Soylent&#58; A Word Processor with a Crowd Inside
       url: readings/downloads/hci/Soylent.pdf
 -
-
+  date: 2014-10-01
+  title: Company Profile&#58; Waze
+-
+  date: 2014-10-01
+  title: Company Profile&#58; Thumbtack
+-
+  date: 2014-10-01
+  title: Company Profile&#58; OpenStreetMap
+-
   date: 2014-10-06
   slides: http://crowdsourcing-class.org/slides/crowdsourcing-and-HCI.pdf
   title: Crowdsourcing and HCI part 2
@@ -207,6 +237,37 @@
       author: Nicolas Kokkalis, Thomas Köhn, Carl Pfeiffer, Dima Chornyi, Michael Bernstein, and Scott Klemmer
       title:  EmailValet&#58; Managing Email Overload through Private, Accountable Crowdsourcing
       url: readings/downloads/hci/EmailValet.pdf
+-
+  date: 2014-10-06
+  title: Company Profile&#58; 99designs
+-
+  date: 2014-10-06
+  title: Company Profile&#58; Threadless
+-
+  date: 2014-10-06
+  title: Company Profile&#58; Kiva
+-
+  date: 2014-10-20
+  title: Company Profile&#58; Ushahidi
+-
+  date: 2014-10-20
+  title: Company Profile&#58; PostMates
+-
+  date: 2014-10-22
+  title: Company Profile&#58; Iceland Constitution
+-
+  date: 2014-10-22
+  title: Company Profile&#58; StackOverflow
+-
+  date: 2014-10-27
+  title: Company Profile&#58; Foldit
+-
+  date: 2014-10-27
+  title: Company Profile&#58; Rotten Tomatoes
+-
+  date: 2014-10-27
+  title: Company Profile&#58; Coursera
+
 -
   date: 2014-09-29
   slides: http://crowdsourcing-class.org/slides/quality-control.pdf
@@ -446,11 +507,3 @@
 -
   date: 2014-12-15
   title: Final Presentations (3pm-5pm)
--
-  date: 2014-11-05
-  slides: https://vimeo.com/106084279
-  title: Company Profile&#58; Quora
--
-  date: 2014-11-05
-  slides: https://vimeo.com/106084279
-  title: Company Profile&#58; Test
