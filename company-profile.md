@@ -90,7 +90,6 @@ Here is the schedule for the presentations this term:
    <tr>
       <td>{{ company.date | date: "%b %d" }}</td>
       <td>
-	<img src="assets/img/company-logos/{{ company.title }}.png" width="200" /> 
         {% if company.slides %}<a href="{{ company.slides }}">{{ company.title }}</a>
         {% else %}{{ company.title }}{% endif %}
       </td>
