@@ -84,3 +84,24 @@ Here are some companies that you could profile:
 The Freakonomics podcast had an interesting [episode about the sharing economy](http://freakonomics.com/2014/09/04/regulate-this-a-new-freakonomics-radio-podcast/), which discussed some of these companies. 
 
 For full details about the assignment, [check out homework page](wa2.html).
+
+
+<table class="table table-striped"> 
+  <tbody>
+    <tr>
+      <th>Date</th>
+      <th>Company Profile</th>
+    </tr>
+    {% for company in site.data.companies %}
+   <tr>
+      <td>{{ company.date | date: "%b %d" }}</td>
+      <td>
+	Company Profile:  
+        {% if company.slides %}<a href="{{ company.slides }}">{{ company.title }}</a>
+        {% else %}{{ company.title }}{% endif %}
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+ 
