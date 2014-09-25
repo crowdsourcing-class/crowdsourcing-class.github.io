@@ -83,7 +83,7 @@ The Freakonomics podcast had an interesting [episode about the sharing economy](
 
 For full details about the assignment, [check out homework page](wa2.html).
 
-
+Here is the schedule for the presentations this term:
 <table class="table table-striped"> 
   <tbody>
     <tr>
@@ -94,7 +94,6 @@ For full details about the assignment, [check out homework page](wa2.html).
    <tr>
       <td>{{ company.date | date: "%b %d" }}</td>
       <td>
-	Company Profile:  
         {% if company.slides %}<a href="{{ company.slides }}">{{ company.title }}</a>
         {% else %}{{ company.title }}{% endif %}
       </td>
