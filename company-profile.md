@@ -78,6 +78,7 @@ Here are some companies that you could profile:
 
 
 Here is the schedule for the presentations this term:
+
 <table class="table table-striped"> 
   <tbody>
     <tr>
