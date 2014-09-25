@@ -17,7 +17,7 @@ Company Profiles
     {% for company in site.data.company_profiles %}
    <tr>
       <td>
-	<a href={{ company.give_a_url_for_the_companys_website }}"><img src="{{ company.give_a_url_for_the_companys_logo }}" width="200" /></a>
+	<a href="{{ company.give_a_url_for_the_companys_website }}"><img src="{{ company.give_a_url_for_the_companys_logo }}" width="200" /></a>
       </td>
       <td>
 	{{ company.give_a_one_sentence_description_of_the_company }} 
