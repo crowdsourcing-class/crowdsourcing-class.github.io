@@ -8,7 +8,7 @@ active_tab: company-profile
 
 Company Profiles
 =============================================================
-table class="table table-striped"> 
+<table class="table table-striped"> 
   <tbody>
     <tr>
       <th>Logo</th>
