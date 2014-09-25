@@ -6,7 +6,7 @@ title: Company profile presentation
 active_tab: company-profile
 ---
 
-Company Profile
+Company Profiles
 =============================================================
 As part of your [market research assignment](assignment2.html), you will give a short 5 to 10 minute presentation on your company.  Your presentation should answer the following questions:
 
@@ -83,12 +83,13 @@ Here is the schedule for the presentations this term:
   <tbody>
     <tr>
       <th>Date</th>
-      <th>Company Profile</th>
+      <th>Company</th>
     </tr>
     {% for company in site.data.companies %}
    <tr>
       <td>{{ company.date | date: "%b %d" }}</td>
       <td>
+	<img src="assets/img/company-logos/{{company.title}}.png" width="200" /> 
         {% if company.slides %}<a href="{{ company.slides }}">{{ company.title }}</a>
         {% else %}{{ company.title }}{% endif %}
       </td>
