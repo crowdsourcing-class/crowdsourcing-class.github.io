@@ -44,7 +44,7 @@ Company Profiles
 <b>Are the contributors experts/professionals?</b> {{ questionnaire.are_the_contributors_experts_/_professionals: ]}} <br />
 <b>How does {{ questionnaire.what_company_are_you_profiling }} ensure the quality of the services it provides?</b> {{ questionnaire.how_does_the_company_ensure_the_quality_of_the_services_it_provides: ]}} <br />
 <b>Does {{ questionnaire.what_company_are_you_profiling }} use a reputation system?</b> {{ questionnaire.is_a_reputation_system_used_by_your_company: ]}} <br />
-{% if questionnaire.if_so_how_does_it_work == "Yes" %}
+{% if questionnaire.if_so_how_does_it_work == "Yes": %}
 <b>How does it work?</b> {{ questionnaire.if_so_how_does_it_work: ]}} <br />
 {% endif %}
       </div>
