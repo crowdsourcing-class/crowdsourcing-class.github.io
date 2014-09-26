@@ -38,12 +38,33 @@ Company Profiles
   <tbody>
 	<tr>
 	    <td>
-		<b>Started in:</b> {{ questionnaire.when_was_the_company_started }}
+		<b>When was it started?</b> {{ questionnaire.when_was_the_company_started }}
 	    </td>
 	</tr>
 	<tr>
 	    <td>
-		<b>Started by:</b> {{ questionnaire.who_were_the_founders ]}}
+		<b>Who were the founders</b> {{ questionnaire.who_were_the_founders ]}}
+	    </td>
+	</tr>
+	<tr>
+	    <td>
+		<b>What services does {{ questionnaire.what_company_are_you_profiling }} provide?</b> {{ questionnaire.what_service_does_the_company_provide ]}}
+	    </td>
+	</tr>
+	<tr>
+	    <td>
+		<b>Example usage:</b> {{ questionnaire.what_is_an_example_of_how_someone_uses_this_service ]}}
+	    </td>
+	</tr>
+	<tr>
+	    <td>
+		<b>Who are the people who contribute the services?</b> {{ questionnaire.who_are_the_people_who_contribute_services ]}}
+	    </td>
+	</tr>
+
+	<tr>
+	    <td>
+		<b>How does {{ questionnaire.what_company_are_you_profiling }} incentivize them to contribute, or what is their motivation?</b> {{ questionnaire.how_does_the_company_incentivize_them_to_contribute,_or_what_motivates_them_to_participate_: ]}}
 	    </td>
 	</tr>
   </tbody>
