@@ -61,7 +61,6 @@ Company Profiles
 		<b>Who are the people who contribute the services?</b> {{ questionnaire.who_are_the_people_who_contribute_services ]}}
 	    </td>
 	</tr>
-
 	<tr>
 	    <td>
 		<b>How does {{ questionnaire.what_company_are_you_profiling }} incentivize them to contribute, or what is their motivation?</b> {{ questionnaire.how_does_the_company_incentivize_them_to_contribute_or_what_motivates_them_to_participate_: ]}}
