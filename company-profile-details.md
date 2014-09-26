@@ -53,7 +53,7 @@ Company Profiles
 	</tr>
 	<tr>
 	    <td>
-		<b>Example usage:</b> {{ questionnaire.what_is_an_example_of_how_someone_uses_this_service ]}}
+		<b>Who uses the services?</b> {{ questionnaire.what_is_an_example_of_how_someone_uses_this_service ]}}
 	    </td>
 	</tr>
 	<tr>
@@ -64,7 +64,7 @@ Company Profiles
 
 	<tr>
 	    <td>
-		<b>How does {{ questionnaire.what_company_are_you_profiling }} incentivize them to contribute, or what is their motivation?</b> {{ questionnaire.how_does_the_company_incentivize_them_to_contribute,_or_what_motivates_them_to_participate_: ]}}
+		<b>How does {{ questionnaire.what_company_are_you_profiling }} incentivize them to contribute, or what is their motivation?</b> {{ questionnaire.how_does_the_company_incentivize_them_to_contribute_or_what_motivates_them_to_participate_: ]}}
 	    </td>
 	</tr>
   </tbody>
