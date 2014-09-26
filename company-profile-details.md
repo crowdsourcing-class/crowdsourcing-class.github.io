@@ -40,8 +40,8 @@ Company Profiles
 <b>Who uses the services?</b> {{ questionnaire.what_is_an_example_of_how_someone_uses_this_service }} <br />
 <b>Who are the people who contribute the services?</b> {{ questionnaire.who_are_the_people_who_contribute_services }} <br />
 <b>How does {{ questionnaire.what_company_are_you_profiling }} incentivize them to contribute, or what is their motivation?</b> {{ questionnaire.how_does_the_company_incentivize_them_to_contribute_or_what_motivates_them_to_participate_}} <br />
-<b>Is this a service that was previously provided by experts?</b> {{ questionnaire.is_this_a_service_that_was_previously_provided_by_experts_}} <br />
-<b>Are the contributors experts/professionals?</b> {{ questionnaire.are_the_contributors_experts_/_professionals}} <br />
+<b>Is this a service that was previously provided by experts?</b> {{ questionnaire.is_this_a_service_that_was_previously_provided_by_experts_ }} <br />
+<b>Are the contributors experts/professionals?</b> {{ questionnaire.are_the_contributors_experts_/_professionals }} <br />
 <b>How does {{ questionnaire.what_company_are_you_profiling }} ensure the quality of the services it provides?</b> {{ questionnaire.how_does_the_company_ensure_the_quality_of_the_services_it_provides}} <br />
 {% if questionnaire.is_a_reputation_system_used_by_your_company %}
 	<b>If {{ questionnaire.what_company_are_you_profiling }} uses a reputation system, how does it work?</b> {{ questionnaire.if_so_how_does_it_work}} <br />
