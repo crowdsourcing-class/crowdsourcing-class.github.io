@@ -23,12 +23,14 @@ Company Profiles
 	<a href="{{ questionnaire.give_a_url_for_the_companys_website }}"><img src="{{ questionnaire.give_a_url_for_the_companys_logo }}" width="200" /></a>
       </td>
       <td>
+	
+{{ questionnaire.give_a_one_sentence_description_of_the_company }} 
 <div class="panel-group" id="accordion">
   <div class="panel panel-default">
     <div class="panel-heading">
       <div class="panel-title">
         <a data-toggle="collapse" data-parent="#accordion" href="#{{ questionnaire.what_company_are_you_profiling }}">
-	{{ questionnaire.give_a_one_sentence_description_of_the_company }} 
+	More about {{ questionnaire.what_company_are_you_profiling }} 
         </a>
       </div>
     </div>
