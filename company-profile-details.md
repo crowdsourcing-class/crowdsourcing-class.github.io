@@ -34,8 +34,18 @@ Company Profiles
     </div>
     <div id="{{ questionnaire.what_company_are_you_profiling }}" class="panel-collapse collapse">
       <div class="panel-body">
-	<b>Started in:</b> {{ questionnaire.when_was_the_company_started }}
-	b>Started by:</b> {{ questionnaire.who_were_the_founders ]}}
+<table class="table table-striped"> 
+  <tbody>
+	<tr>
+	    <td>
+		<b>Started in:</b> {{ questionnaire.when_was_the_company_started }}
+	    </td>
+	</tr>
+	<tr>
+	    <td>
+		<b>Started by:</b> {{ questionnaire.who_were_the_founders ]}}
+	    </td>
+	</tr>
       </div>
     </div>
   </div>
