@@ -47,6 +47,7 @@ Company Profiles
 {% if questionnaire.if_so_how_does_it_work == "Yes": %}
 <b>How does it work?</b> {{ questionnaire.if_so_how_does_it_work: ]}} <br />
 {% endif %}
+<b>How does it work?</b> {{ questionnaire.if_so_how_does_it_work: ]}} <br />
       </div>
     </div>
   </div>
