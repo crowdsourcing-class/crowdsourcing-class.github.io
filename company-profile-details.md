@@ -23,18 +23,19 @@ Company Profiles
 	<a href="{{ questionnaire.give_a_url_for_the_companys_website }}"><img src="{{ questionnaire.give_a_url_for_the_companys_logo }}" width="200" /></a>
       </td>
       <td>
-	
-{{ questionnaire.give_a_one_sentence_description_of_the_company }} 
 <div class="panel-group" id="accordion">
   <div class="panel panel-default">
     <div class="panel-heading">
+      <div class="panel-title">
         <a data-toggle="collapse" data-parent="#accordion" href="#{{ questionnaire.what_company_are_you_profiling }}">
-	More about {{ questionnaire.what_company_are_you_profiling }} 
+	{{ questionnaire.give_a_one_sentence_description_of_the_company }} 
         </a>
+      </div>
     </div>
     <div id="{{ questionnaire.what_company_are_you_profiling }}" class="panel-collapse collapse">
       <div class="panel-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+	<b>Started in:</b> {{ questionnaire.when_was_the_company_started }}
+	b>Started by:</b> {{ questionnaire.who_were_the_founders ]}}
       </div>
     </div>
   </div>
