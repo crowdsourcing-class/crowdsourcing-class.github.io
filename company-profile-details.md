@@ -34,7 +34,7 @@ Company Profiles
     </div>
     <div id="{{ questionnaire.what_company_are_you_profiling }}" class="panel-collapse collapse">
       <div class="panel-body">
-<table class="table table-striped"> 
+<table class="table"> 
   <tbody>
 	<tr>
 	    <td>
@@ -46,6 +46,8 @@ Company Profiles
 		<b>Started by:</b> {{ questionnaire.who_were_the_founders ]}}
 	    </td>
 	</tr>
+  </tbody>
+</table>
       </div>
     </div>
   </div>
