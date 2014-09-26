@@ -28,11 +28,9 @@ Company Profiles
 <div class="panel-group" id="accordion">
   <div class="panel panel-default">
     <div class="panel-heading">
-      <div class="panel-title">
         <a data-toggle="collapse" data-parent="#accordion" href="#{{ questionnaire.what_company_are_you_profiling }}">
 	More about {{ questionnaire.what_company_are_you_profiling }} 
         </a>
-      </div>
     </div>
     <div id="{{ questionnaire.what_company_are_you_profiling }}" class="panel-collapse collapse">
       <div class="panel-body">
