@@ -14,13 +14,13 @@ Company Profiles
       <th>Logo</th>
       <th>Company</th>
     </tr>
-    {% for company in site.data.company_profiles %}
+    {% for questionnaire  in site.data.company_profiles %}
    <tr>
       <td>
-	<a href=""><img src="{{ company.give_a_url_for_the_companys_logo }}" width="200" /></a>
+	<a href="{{ questionnaire.give_a_url_for_the_companys_website }}"><img src="{{ questionnaire.give_a_url_for_the_companys_logo }}" width="200" /></a>
       </td>
       <td>
-	{{ company.what_company_are_you_profiling }} 
+	{{ questionnaire.what_company_are_you_profiling }} 
       </td>
     </tr>
     {% endfor %}
