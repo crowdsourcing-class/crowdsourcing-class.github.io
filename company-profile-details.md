@@ -89,6 +89,8 @@ Company Profiles
 {% if questionnaire.is_there_anything_else_youd_like_to_say_about_the_company | strip != "" %}
 <b>Anything else?</b> {{ questionnaire.is_there_anything_else_youd_like_to_say_about_the_company }} <br />
 {% endif %}
+
+<b>References</b> {{ questionnaire.what_online_resources_did_you_use_in_researching_it }} <br />
       </div>
     </div>
   </div>
