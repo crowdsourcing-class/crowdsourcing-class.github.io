@@ -90,7 +90,14 @@ Company Profiles
 <b>Anything else?</b> {{ questionnaire.is_there_anything_else_youd_like_to_say_about_the_company }} <br />
 {% endif %}
 
-<b>References</b> {{ questionnaire.what_online_resources_did_you_use_in_researching_it }} <br />
+<b>References</b> 
+{% assign urls = questionnaire.what_online_resources_did_you_use_in_researching_it | split:"<p>" %}
+<ul>
+{% for url in urls %}
+	<li> <a href="{{ url }}">{{ url }}</a> </li>
+{% endfor %} 
+</ul>
+<br />
       </div>
     </div>
   </div>
