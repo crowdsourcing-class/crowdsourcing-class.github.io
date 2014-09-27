@@ -86,7 +86,7 @@ Company Profiles
 
 <b>How does {{ questionnaire.what_company_are_you_profiling }} generate revenue?</b> {{ questionnaire.how_does_the_company_generate_revenue }} <br />
 
-{% if questionnaire.is_there_anything_else_youd_like_to_say_about_the_company | strip != "" %}
+{% if questionnaire.is_there_anything_else_youd_like_to_say_about_the_company | strip_newlines | replace:’ ',''  != "" %}
 <b>Anything else?</b> {{ questionnaire.is_there_anything_else_youd_like_to_say_about_the_company }} <br />
 {% endif %}
 
