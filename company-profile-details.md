@@ -16,10 +16,8 @@ Company Profiles
       <th>Logo</th>
       <th>Company</th>
     </tr>
-    {% assign companynum = 0 %}
     {% for questionnaire in site.data.company_profiles %}
-    {% assign anchor = questionnaire.what_company_are_you_profiling | replace:’ ','-' | append companynum %}
-    {% companynum = companynum | plus:1 %}
+    {% assign anchor = questionnaire.what_company_are_you_profiling | replace:’ ','-'  %}
    <tr>
       <td>
 	<a href="{{ questionnaire.give_a_url_for_the_companys_website }}"><img src="{{ questionnaire.give_a_url_for_the_companys_logo }}" width="200" /></a>
