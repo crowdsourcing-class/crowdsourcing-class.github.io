@@ -47,6 +47,10 @@ Here are the companies that you are profiling this term:
     <div id="{{ anchor }}" class="panel-collapse collapse">
       <div class="panel-body">
 
+{% if questionnaire.does_this_update_a_previous_service_or_business_model_or_is_it_completely_new == "Yes, post it! " %}
+{{ questionnaire.paste_in_the_url_of_your_presentation_on_vimeo }} <br />
+
+{% endif %}
 
 <b>Who were the founders?</b> {{ questionnaire.who_were_the_founders }} <br />
 
