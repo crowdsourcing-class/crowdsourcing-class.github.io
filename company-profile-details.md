@@ -37,6 +37,9 @@ Company Profiles
 <b>When was it started?</b> {{ questionnaire.when_was_the_company_started }} <br />
 <b>Who were the founders?</b> {{ questionnaire.who_were_the_founders }} <br />
 <b>What services does {{ questionnaire.what_company_are_you_profiling }} provide?</b> {{ questionnaire.what_service_does_the_company_provide }} <br />
+{% if questionnaire.does_this_update_a_previous_service_or_business_model_or_is_it_completely_new == "Updates a previous model" %}
+	<b>If this updates a previous service or business model, what does it replace?</b> {{ questionnaire.if_it_updates_something_what_does_it_replace}} <br />
+{% endif %}
 <b>Who uses the services?</b> {{ questionnaire.what_is_an_example_of_how_someone_uses_this_service }} <br />
 <b>Who are the people who contribute the services?</b> {{ questionnaire.who_are_the_people_who_contribute_services }} <br />
 <b>How does {{ questionnaire.what_company_are_you_profiling }} incentivize them to contribute, or what is their motivation?</b> {{ questionnaire.how_does_the_company_incentivize_them_to_contribute_or_what_motivates_them_to_participate_}} <br />
