@@ -35,11 +35,10 @@ Company Profiles
     <div id="{{ questionnaire.what_company_are_you_profiling }}" class="panel-collapse collapse">
       <div class="panel-body">
 
-<b>When was it started?</b> {{ questionnaire.when_was_the_company_started }} <br />
 
 <b>Who were the founders?</b> {{ questionnaire.who_were_the_founders }} <br />
 
-<b>What kind of organization is it?</b> {{ questionnaire.what_kind_of_organization_is_it }} <br />
+<b>When was it started?</b> {{ questionnaire.when_was_the_company_started }} <br />
 
 <b>Does it have any interesting origin story?</b> {{ questionnaire.does_it_have_an_interesting_origin_story }} <br />
 
@@ -82,6 +81,8 @@ Company Profiles
 <b>What is the scale of {{ questionnaire.what_company_are_you_profiling }} in terms of dollars?</b> {{ questionnaire.what_is_the_scale_of_the_services_that_your_company_provides_in_terms_of_dollars }} <br />
 
 <b>If {{ questionnaire.what_company_are_you_profiling }} were to scale up to 10-100 times its current size, how well do you think would its business model would work?</b> {{ questionnaire.if_your_company_were_to_scale_up_to_10_or_100_times_its_current_size_how_well_do_you_think_its_business_model_would_work }} <br />
+
+<b>What kind of organization is it?</b> {{ questionnaire.what_kind_of_organization_is_it }} <br />
 
 <b>How does {{ questionnaire.what_company_are_you_profiling }} generate revenue?</b> {{ questionnaire.how_does_the_company_generate_revenue }} <br />
 
