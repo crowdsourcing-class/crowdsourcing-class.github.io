@@ -47,7 +47,7 @@ Here are the companies that you are profiling this term:
     <div id="{{ anchor }}" class="panel-collapse collapse">
       <div class="panel-body">
 
-{% if questionnaire.does_this_update_a_previous_service_or_business_model_or_is_it_completely_new == "Yes, post it!" %}
+{% if questionnaire.do_you_mind_if_we_post_a_link_to_your_video_on_the_class_website == "Yes, post it! " %}
 {{ questionnaire.paste_in_the_url_of_your_presentation_on_vimeo }} <br />
 
 {% endif %}
