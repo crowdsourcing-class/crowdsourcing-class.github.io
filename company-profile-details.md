@@ -21,11 +21,8 @@ Company Profiles
 	<div class="hidden-sm hidden-xs">
 		<a href="{{ questionnaire.give_a_url_for_the_companys_website }}"><img src="{{ questionnaire.give_a_url_for_the_companys_logo }}" width="200" /></a>
 	</div>
-	<div class="visible-sm">
+	<div class="visible-sm visible-xs">
 		<a href="{{ questionnaire.give_a_url_for_the_companys_website }}"><img src="{{ questionnaire.give_a_url_for_the_companys_logo }}" width="50" /></a>
-	</div>
-	<div class="visible-xs">
-		<a href="{{ questionnaire.give_a_url_for_the_companys_website }}"><img src="{{ questionnaire.give_a_url_for_the_companys_logo }}" width="20" /></a>
 	</div>
       </td>
       <td>
