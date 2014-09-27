@@ -18,7 +18,7 @@ Company Profiles
     </tr>
     {% assign id = 0 %}
     {% for questionnaire in site.data.company_profiles %}
-    {% id = id | plus:1 %}
+    {% assign id = id | plus:1 %}
     {% assign anchor = questionnaire.what_company_are_you_profiling | replace:' ', '-'  | replace:'(', '' | replace:')', '' | append:id %}
    <tr>
       <td>
