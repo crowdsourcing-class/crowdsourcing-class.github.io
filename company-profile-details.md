@@ -17,23 +17,22 @@ Company Profiles
       <th>Company</th>
     </tr>
     {% for questionnaire in site.data.company_profiles %}
-    {% assign anchor = questionnaire.what_company_are_you_profiling | replace:' ',-'' %}
+    {% assign anchor = questionnaire.what_company_are_you_profiling | replace:' ', '-'  %}
    <tr>
       <td>
 	<a href="{{ questionnaire.give_a_url_for_the_companys_website }}"><img src="{{ questionnaire.give_a_url_for_the_companys_logo }}" width="200" /></a>
-{{ anchor }}
       </td>
       <td>
-<div class="panel-group" id="accordion{{ questionnaire.what_company_are_you_profiling }}">
+<div class="panel-group" id="accordion{{ anchor }}">
   <div class="panel panel-default">
     <div class="panel-heading">
       <div class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion{{ questionnaire.what_company_are_you_profiling }}" href="#{{ questionnaire.what_company_are_you_profiling }}">
+        <a data-toggle="collapse" data-parent="#accordion{{ anchor }}" href="#{{ anchor }}">
 	{{ questionnaire.give_a_one_sentence_description_of_the_company }} 
         </a>
       </div>
     </div>
-    <div id="{{ questionnaire.what_company_are_you_profiling }}" class="panel-collapse collapse">
+    <div id="{{ anchor }}" class="panel-collapse collapse">
       <div class="panel-body">
 
 
