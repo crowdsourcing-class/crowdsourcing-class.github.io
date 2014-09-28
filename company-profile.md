@@ -52,7 +52,7 @@ Here are the companies that you are profiling this term:
 {% for urlpart in vimeourl %}
 	{% capture videonum %}{{ urlpart }}{% endcapture %}
 {% endfor %}
-<div align=center>
+<div align="center">
 <iframe src="//player.vimeo.com/video/{{ videonum }}" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <br />
 </div>
 {% endif %}
