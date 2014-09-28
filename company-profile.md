@@ -52,7 +52,7 @@ Here are the companies that you are profiling this term:
 {% for urlpart in vimeourl %}
 	{% capture videonum %}{{ urlpart }}{% endcapture %}
 {% endfor %}
-<iframe src="//player.vimeo.com/video/{{ videonum }}" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="//player.vimeo.com/video/{{ videonum }}" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <br />
 {% endif %}
 
 <b>Who were the founders?</b> {{ questionnaire.who_were_the_founders }} <br />
