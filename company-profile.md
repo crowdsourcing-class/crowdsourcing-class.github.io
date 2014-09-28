@@ -52,8 +52,7 @@ Here are the companies that you are profiling this term:
 {% for urlpart in vimeourl %}
 	{% capture videonum %}{{ urlpart }}{% endcapture %}
 {% endfor %}
-{{ videonum }}
-{{ questionnaire.paste_in_the_url_of_your_presentation_on_vimeo }}
+<iframe src="//player.vimeo.com/video/{{ videonum }}" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 {% endif %}
 
 <b>Who were the founders?</b> {{ questionnaire.who_were_the_founders }} <br />
