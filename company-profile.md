@@ -111,6 +111,8 @@ Here are the companies that you are profiling this term:
 <b>Anything else?</b> {{ questionnaire.is_there_anything_else_youd_like_to_say_about_the_company }} <br />
 {% endif %}
 
+
+<div class="hidden-sm hidden-xs">
 <b>References</b> 
 {% assign urls = questionnaire.what_online_resources_did_you_use_in_researching_it | split:"<p>" %}
 <ul>
@@ -119,6 +121,7 @@ Here are the companies that you are profiling this term:
 {% endfor %} 
 </ul>
 <br />
+</div>
       </div>
     </div>
   </div>
