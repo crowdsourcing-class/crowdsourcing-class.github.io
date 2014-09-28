@@ -23,7 +23,7 @@ Here are the companies that you are profiling this term:
     {% assign id = 0 %}
     {% for questionnaire in site.data.company_profiles %}
     {% assign id = id | plus:1 %}
-    {% assign anchor = questionnaire.what_company_are_you_profiling | replace:' ', '-' | replace:'.', ''  | replace:'(', '' | replace:')', '' | append:"-" | append:id %}
+    {% assign anchor = questionnaire.what_company_are_you_profiling | replace:' ', '-' | replace:"'", '' | replace:'.', ''  | replace:'(', '' | replace:')', '' | append:"-" | append:id %}
    <tr>
       <td>
 	<div class="hidden-sm hidden-xs">
