@@ -53,11 +53,8 @@ Here are the companies that you are profiling this term:
 	{% capture videonum %}{{ urlpart }}{% endcapture %}
 {% endfor %} 
 
-<div align="center" class="hidden-sm hidden-xs">
+<div align="center">
 <iframe src="//player.vimeo.com/video/{{ videonum }}" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <br />
-</div>
-<div align="center" class="visible-sm visible-xs">
-<iframe src="//player.vimeo.com/video/{{ videonum }}" width="200" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <br />
 </div>
 {% endif %}
 
