@@ -11,7 +11,7 @@ active_tab: homework
   This assignment is due before class on Wednesday, October 1st.</div>
 
 
-Become a Requester<span class="text-muted">: Assignment 5</span> 
+Become a Requester<span class="text-muted"> : Assignment 5</span> 
 =============================================================
 
 Last week, you built a classifier to predict whether or not an article was about gun violence. You were able to estimate how well your classifier did by using [cross validation](http://en.wikipedia.org/wiki/Cross-validation_(statistics)), and you probably ended up with some accuracies that were pretty damn near perfect. But why train a model to label articles that already have labels?  The real point of machine learning is not to predict things that you already have answers to, but to try to predict new things. This week, we want to see if our classifier can look at new articles that no one has labeled, and predict whether or not they are about guns. 
