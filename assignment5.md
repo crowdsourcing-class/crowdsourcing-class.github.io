@@ -83,7 +83,7 @@ Whew, okay, enough python and bash for now! Its time to design a HIT on Crowdflo
 
 1. Prep your data. You will need the list of urls to be in CSV format. The easiest way to do this will probably be to open <code>sample.txt</code>, or whatever you called your file, in a spreadsheet program like Google Docs. Then, you can use File->Dowload as->CSV, and save the file. Make sure you add a header to the columns, something informative like "url" or "stuff." 
 
-2. Log onto [Crowdflower](). Click on "Your Jobs" -> "Create New Job." Then choose "Start from scratch."
+2. Log onto [Crowdflower](https://crowdflower.com/). Click on "Your Jobs" -> "Create New Job." Then choose "Start from scratch."
 
 	<img src="assets/img/crowdflower-screenshots/new-job.png" style="width: 500px;"/>
 
@@ -118,7 +118,7 @@ Whew, okay, enough python and bash for now! Its time to design a HIT on Crowdflo
 	
 	<img src="assets/img/crowdflower-screenshots/view-hit.png" style="width: 500px;"/>
 
-	Once the results are in, you can download them as a CSV file from the dashboard. Answer the few quick questions [here]() about your results. We will do more work analyzing the results (specifically, the worker's quality) in the coming assignments.
+	Once the results are in, you can download them as a CSV file from the dashboard. Answer the few quick questions [here](https://docs.google.com/forms/d/10QW0B9xAZK2q9AISGJmYjs7QE3awx3f9h1meypUW5NU/viewform) about your results. We will do more work analyzing the results (specifically, the worker's quality) in the coming assignments.
 
 
 The deliverables are: 
@@ -126,7 +126,7 @@ The deliverables are:
 1. Your <code>classifier_predictions.txt</code>, which should be a 1,471,811 line file, containing precitions (0 or 1) for each unlabelled article.
 2. The final, labeled data you get from Crowdflower, as a csv file.
 3. A screenshot of your HIT, as it looked to workers.
-4. Your responses to [these questions](https://docs.google.com/forms/d/10QW0B9xAZK2q9AISGJmYjs7QE3awx3f9h1meypUW5NU/viewform?usp=send_form). 
+4. Your responses to [these questions](https://docs.google.com/forms/d/10QW0B9xAZK2q9AISGJmYjs7QE3awx3f9h1meypUW5NU/viewform). 
 
 Like before, please turn in your files using turnin:
 <pre><code>$ turnin -c nets213 -p crowdflower -v *</code></pre>
