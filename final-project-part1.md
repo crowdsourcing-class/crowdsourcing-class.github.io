@@ -1,7 +1,7 @@
 ---
 layout: default
 img: brainstorm
-caption: Exploit the masses!
+caption: Brain designed by <a href="http://www.thenounproject.com/marcusmichaels">Marcus Michaels</a> from the <a href="http://www.thenounproject.com">Noun Project</a>
 title: Final Project | Brainstorm 3 Ideas
 active_tab: homework
 ---
