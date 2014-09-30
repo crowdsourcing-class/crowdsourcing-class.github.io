@@ -42,7 +42,15 @@ Your project should meet the following guidelines:
 Here are a few final project ideas. You are welcome to adapt one of these ideas into your final project, or to come up with your own idea. 
 My expectation is that your final project will represent a substantial amount of work, and that it will be something that you're proud of and that you would like to show off to potential employers or to graduate schools.
  
- 
+### Crowdsourced Matchmaking
+
+Come up with a human computation algorithm that helps people find a better match in online dating.  Some people have tried to use [machine learning](http://www.wired.com/2014/01/how-to-hack-okcupid/all/) or [crowdsourcing](http://www.youlookgoodtogether.com) to optimize their dating experience on OKCupid.  Can you come up with a better way of matching people up via crowdsourcing?  Maybe you can have the crowd act as Cyrano de Bergerac, feeding users better lines than they could think of themselves.  Maybe you could have people in a social network nominate people who they think would be good matches.
+
+### Translate Children's Books
+
+[The International Children's Digital Library](http://en.childrenslibrary.org) is a collection of children's books from around the the world.  Volunteer translators have translated a subset of their books into different languages.  We could try to translate many more of the books using crowdsourcing.  There could be different tasks for monolingual speakers and bilingual speakers.  Monolinguals could transcribe the text of the books (which is usually embedded in images).  Bilinguals could translate it.  Monolinguals could edit the translations.  
+
+
 ### Crowdsourcing and Creativity
  
 Create a human computation algorithm to convert prose into poetry. Your algorithm should model two aspects of poetry rhyme and meter. NLP researchers have been working on text-to-text generation algorithms that can rewrite sentences in many different ways. This software can generate a huge number of alternatives, some of which may fit the constraints of a poem. However, the software is currently poor at determining which of the generated sentences are grammatical versus ungrammatical, and which correctly retain the its original meaning. Your job will be to incorporate humans into the process to make those decisions. Meet with your professor to learn more about the NLP software (it takes quite a lot of effort to learn), and then design a set of MTurk HITs to filter generated sentences down to ones that are poetic, grammatical and mean the same thing as the original prose.
@@ -52,14 +60,16 @@ Create a human computation algorithm to convert prose into poetry. Your algorith
  
 The Mechanical Turk interface for workers sucks. Although it lets workers search by value of HIT and maximum duration, it lacks one critical piece of inform: expected hourly rate. Write a web plug in to help workers track their hourly rate. Design a database that records these stats for multiple workers and reports the average hourly rate for different requesters and/or tasks. Possible extensions could track the approval/rejection rate of each requester, the average time from doing a HIT to getting paid for it, and a log of all of the reasons for rejection.
  
- 
-### Design a system for confederated qualifications
- 
-Design an implement a method for Mechanical Turk Requesters to share qualification tests and the results of who passed the tests. Write a short paper describing the value of such a system, and comparing it to MTurk's master's qualification. Design a few qualifications of your own that you think would be broadly useful, possibly by reviewing the tasks currently posted on MTurk and generalizing the skill sets that are needed. 
- 
+  
 ### Fairness in rejection
 
 Design an adjudication system for work rejected by Mechanical Turk Requesters.  The system should allow Workers to appeal rejections, and should have a mechanism for deciding whether the rejection was fair (in which case it would stand), or unfair (in which case it should be overturned, and the Worker should be paid).  Possible ideas: design a second pass HIT that has other Turkers review the work, and decide whether it is acceptable or not.  As part of this project you should specify what constraints are on the original HIT design to allow easy second pass reviewing and highlighting / explanation of why an assignment was rejected.  You should also quantify the expected increase in costs to Requesters, based on variables like: rejection rate, original reward amount, reviewing cost estimate. 
+
+
+### Design a system for confederated qualifications
+ 
+Design an implement a method for Mechanical Turk Requesters to share qualification tests and the results of who passed the tests. Write a short paper describing the value of such a system, and comparing it to MTurk's master's qualification. Design a few qualifications of your own that you think would be broadly useful, possibly by reviewing the tasks currently posted on MTurk and generalizing the skill sets that are needed. 
+
 
 
 ### Cognitive science experiments 
@@ -73,9 +83,15 @@ Write a suite of HITs on Mechanical Turk to test behavioral economic theories by
  
 ### Speech Recognition Systems
 
+Apple uses speech recognition systems for Siri.  You can develop this technology for new languages.  You need an [open source speech recognition system](http://kaldi.sourceforge.net/about.html) and a bunch of training data.  What sort of data?  Audio files paired with their transcriptions.  Where do you get data?  Crowdsourcing!  You can come up with ways of collecting data.  You could gather data either through transcription of existing audio files, or `elicitation' where people read texts out loud and save recordings of it. You'll need to figure out how to do good quality control, to what extent the quality matters when you're training a speech recognition system for a new langauge.
 
 ### Food Truck Tracker
- 
+
+There are a lot of food trucks in Philly.  Some of them are so awesome that they move to different locations on different days.  They announce their whereabouts on Twitter or Facebook.  Do they really expect us to keep track of where they all are?  Why not have the crowd create a map of the current whereabouts of all the food trucks.  How about having the crowd keep track of their menus and prices while you're at it?
+
+### Track the spread of the flu using social media 
+
+Did you know that you can catch the flu from social media?  Well, you can't.  But you can use it as a tool to track the spread of certain diseases.  You could try re-creating one of the publications by [this cool researcher](http://www.cs.jhu.edu/~mdredze/publications.php).  What sorts of health problems do you think social media can give us information about?  
  
 ### Wikitopics
  
