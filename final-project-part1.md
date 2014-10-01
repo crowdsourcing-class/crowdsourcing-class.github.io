@@ -28,7 +28,7 @@ Here are some different kinds of projects that you could do:
 
 * Come up with a human computation algorithm that solves some cool problem
 * Conduct a social science experiment with the crowd or analyze data from social media
-* Create tools that improve crowdsourcing platform for requesters or for workers
+* Create tools that improve crowdsourcing platforms for requesters or for workers
 * Develop a business idea that uses the crowd like in the companies that we've been profiling
 
 
@@ -44,7 +44,7 @@ Here are some considerations that you should take into account when selecting yo
 * Contain a quality control component
 * Analyze costs and decide whether your idea is a viable business
 
-Your initial ideas don't have to do all of these things yet, but they should be things that you can extend in that way.
+Your initial ideas don't have to do all of these things yet, but they should be ideas that you can extend in that way.
 
 ###Step 4: Answer questions about the 3 ideas
 
@@ -70,7 +70,7 @@ You should submit your answers to the question on [the project pitch questionnai
 
 ###Step 5: Create video pitches for each of your 3 ideas
 
-You should produce a 90 second to 2 minute video for each of your ideas.  The video should include slides that describe your project.  
+You should produce a 90 second to 2 minute video for each of your ideas.  The video should include slides that describe your project, along with a narrative that explains the project in an exciting, cogent way.
 
 * The first slide should include the name of your project, and a logo that denotes what happens in your project.  You can create a logo using the awesome icons from [the NounProject](http://thenounproject.com).
 * The slides should clearly explain what your project idea is, and how it relates to the themes of the class.  What problem does it solve?  How does it use crowdsourcing?  Who is your crowd?  
@@ -79,12 +79,12 @@ You should produce a 90 second to 2 minute video for each of your ideas.  The vi
 
 ###Step 6: Present your ideas in-class
 
-We will play all of the videos in class on Wednesday October 8th and Monday October 15th. Battle Royale of ideas.  No live presentations this time, since we'll be constrained for time.  You must have your Vimeo videos uploaded and your questionnaires submitted before class starts.  We'll use the questionnaires to create a video play list.  
+We will play all of the videos in class on Wednesday October 8th and Monday October 15th. Battle Royale of ideas.  No live presentations this time, since we'll be constrained for time.  You must have your Vimeo videos uploaded and your questionnaires submitted before class starts.  We'll use the questionnaires to create a video playlist.  
 
 We will also provide time for in-class questions.  The amount of time will depend on the number of teams.
 
 ###Step 7: Peer grading
 
-You will each be assigned a set of projects to review, and you'll give feedback to your classmates on their ideas.  We will provide a set of criteria for you to use when evaluating the project ideas.  We will give you the questionnaires and videos for several projects for you to evaluate.
+You will each be assigned a set of projects to review, and you'll give feedback to your classmates on their ideas.  We will provide a set of criteria for you to use when evaluating the project ideas.  We will give you the questionnaires and videos for several projects for you to evaluate.  Peer grading will constitute 5% of your overall grade.  There will be several assignments that you will peer-review: this assignment, the company profiles, and the other parts of the final project.
 
-This assignment is due before class on <b>Wednesday, October 8th</b>.  You must work in groups on this project.  You must declare who is in your group when you turn your assignment.  
+This assignment is due before class on <b>Wednesday, October 8th</b>.  You must work in groups on this project.  You must declare who is in your group when you turn your assignment.  Everyone in your group will receive the same grade on the assignment. 
