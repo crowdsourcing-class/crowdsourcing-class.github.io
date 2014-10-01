@@ -49,6 +49,7 @@ Your initial ideas don't have to do all of these things yet, but they should be 
 ###Step 4: Answer questions about the 3 ideas
 
 You will be asked to answer to provide the following information:
+
 * Team members. (The team should be the same for all 3 projects).  
 * Name for the project.  
 * One sentence description of the project.
