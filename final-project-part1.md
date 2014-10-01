@@ -68,7 +68,7 @@ You will be asked to answer to provide the following information:
 
 You should submit your answers to the question on [the project pitch questionnaire](https://docs.google.com/forms/d/1MjPIdJVrGNCjzrvVspYIek7nW-mulxoVxiZnEKN3RJY/viewform?usp=send_form).  Please submit separate forms for each of your 3 ideas.
 
-###Step 5: Create a video pitch for your 3 ideas
+###Step 5: Create video pitches for each of your 3 ideas
 
 You should produce a 90 second to 2 minute video for each of your ideas.  The video should include slides that describe your project.  
 
