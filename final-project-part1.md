@@ -72,7 +72,7 @@ You should submit your answers to the question on [the project pitch questionnai
 
 You should produce a 90 second to 2 minute video for each of your ideas.  The video should include slides that describe your project.  
 
-* The first slide should include the name of your project, and a logo that denotes what happens in your project.  You can create a logo using the awesome icon from [the noun project](http://thenounproject.com).
+* The first slide should include the name of your project, and a logo that denotes what happens in your project.  You can create a logo using the awesome icons from [the NounProject](http://thenounproject.com).
 * The slides should clearly explain what your project idea is, and how it relates to the themes of the class.  What problem does it solve?  How does it use crowdsourcing?  Who is your crowd?  
 * Your goals are to excite people about the project, and to convince us that your idea is feasible and that you have thought it through.
 
