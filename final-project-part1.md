@@ -66,7 +66,7 @@ You will be asked to answer to provide the following information:
 * What potential problems do you foresee when implementing your project?
 * A link to your Vimeo video
 
-You should submit your answers to the question on [the project pitch questionnaire]().  Please submit separate forms for each of your 3 ideas.
+You should submit your answers to the question on [the project pitch questionnaire](https://docs.google.com/forms/d/1MjPIdJVrGNCjzrvVspYIek7nW-mulxoVxiZnEKN3RJY/viewform?usp=send_form).  Please submit separate forms for each of your 3 ideas.
 
 ###Step 5: Create a video pitch for your 3 ideas
 
