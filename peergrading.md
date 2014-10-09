@@ -22,6 +22,6 @@ The teams you've been assigned to review, as well as links to all the videos and
 
 After this assignment, each of you will receive the feedback on your own ideas from ~7 of your peers. You should take their feedback seriously as you move forward with your project. 
 
-The only deliverable is your responses in the questionnaire.  This assignment is due <b>Wednesday, October 15</b>. You cannot work in pairs on this assignment.
+The only deliverable is your responses in the questionnaire.  You should submit the questionaire three times- once for each team you are reviewing. This assignment is due <b>Wednesday, October 15</b>. You cannot work in pairs on this assignment.
 
 Happy fall break!
