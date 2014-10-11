@@ -74,7 +74,7 @@
   how_will_you_evaluate_if_your_project_is_successful: Feedback from users will help indicate how accurate the ratings are. Additionally, if the tool gathers enough support, companies being categorized will be incentivized to notify us of false negative categorizations. At a more general level, the goal is not only to aid users but to also incentivize companies to provide fair policies. Thus, one way to measure success would be to consistently check websites for updated policies that may be in response to categorizations presented by this tool.
   what_potential_problems_do_you_foresee_when_implementing_your_project: The primary problem in implementing this project will be to determine a standardized set of labels for crowdsourced contributors to flag as ‘present’ or ‘not present’. Generating this set of labels could be a crowdsourced task of its own.
 -
-  provide_a_link_to_your_vimeo_video: https://vimeo.com/108393795 (password&#58; nets213)
+  provide_a_link_to_your_vimeo_video: https://vimeo.com/108393795
   name_of_your_project: CrowdLove
   give_a_one_sentence_description_of_your_project: CrowdLove uses the crowd to match our users up with suitable partners.
   what_problem_does_it_solve: Online dating/matchmaking. Specifically, people are notoriously bad about answering questions about themselves and knowing what they want. This project takes that out of their handles and lets an objective 3rd party decide on matches.
@@ -87,7 +87,7 @@
   how_will_you_aggregate_the_results_from_the_crowd: The survey data will aggregated by what the majority of crowdworkers choose.<p>The potential matches will become matches when a predetermined number of matchmakers vote for a given potential match
   describe_each_of_the_steps_involved_in_your_process_what_parts_will_be_done_by_the_crowd_and_what_parts_will_be_done_automatically: First, users of the matchmaking service enter links to their social media profiles<p>Next, HIITs are created for crowdworkers to answer survey questions about the person based on the provided social media profiles.<p>These results are aggregated into 5-10 key characteristics about the person.<p>Based on other people with similar characteristics, potential matches are generated for each user.<p>These potential matches are then posted on a site online where matchmakers can vote “yes” or “no” for each potential match. (Tinder / Hot or Not style interface)<p>If a certain potential match reaches a given number of “no” votes, it is removed from the site. If it receives a certain number of “yes” votes before that happens, the two people are sent each other’s social media profiles to get to know each other.<p>For every match that occurs, the matchmakers who voted yes are notified.
   how_will_you_evaluate_if_your_project_is_successful: We could ask users to rate the matches they received and a consistently high rating would inform us of if our project was working.
-  what_potential_problems_do_you_foresee_when_implementing_your_project: Some people might be bad matchmakers, or trolls might vote up a bunch of really bad matches
+  what_potential_problems_do_you_foresee_when_implementing_your_project: Some people might be bad matchmakers, or trolls might vote up a bunch of really bad matches.  <p>Video password is nets213.
 -
   provide_a_link_to_your_vimeo_video: https://vimeo.com/108389187
   name_of_your_project: Crowdsourcing for Cash Flows
