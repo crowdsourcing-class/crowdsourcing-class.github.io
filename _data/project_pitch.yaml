@@ -255,8 +255,8 @@
   what_potential_problems_do_you_foresee_when_implementing_your_project: The clustering algorithm can be hard to implement. It’s also hard to envision how to best use crowds to provide useful training data for our algorithm. 
 -
   provide_a_link_to_your_vimeo_video: https://vimeo.com/108326857
-  name_of_your_project: #FowlCmdy
-  give_a_one_sentence_description_of_your_project: #FowlCmdy rates/filters funny pages on Twitter. 
+  name_of_your_project: FowlCmdy
+  give_a_one_sentence_description_of_your_project: FowlCmdy rates/filters funny pages on Twitter. 
   what_problem_does_it_solve: Twitter has a large amount of humorous content (comedy pages/parody accounts/etc). It can be difficult to filter all this content and find the true gems. 
   what_similar_projects_exist: There are no similar projects. However, the comedy pages that will be ranked typically aggregate material from many sources. 
   what_type_of_project_is_it: Human computation algorithm
