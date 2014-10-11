@@ -756,10 +756,10 @@
   what_similar_projects_exist:  Copy Cat Chic which gives you alternatives for cheap furniture<p>- Tao Bao
   what_type_of_project_is_it: A business idea that uses crowdsourcing
   who_will_be_the_members_of_your_crowd:  Most likely start with student body, but in general for all people care about what they wear and likes shopping.
-  how_will_you_incentivize_them_to_participate: 	- Money<p>	- Fun<p>	- Ranking System
-  what_will_they_provide_and_what_sort_of_skills_do_they_need: 	- Choosing pictures of best dressed celebrities<p>	- Tagging their clothings<p>	- Uploading urls to alternative clothings<p>	- Rating each alternative
-  how_will_you_ensure_the_quality_of_the_crowd_provides: 	- Part of the steps is to rate each alternative, so before we show the final options, users would be rating and filtering the alternative choices.
-  how_will_you_aggregate_the_results_from_the_crowd: 	- Through a game like interface 
-  describe_each_of_the_steps_involved_in_your_process_what_parts_will_be_done_by_the_crowd_and_what_parts_will_be_done_automatically: 	1. Query celebrity fashion images from social media sites like Lookbook, Tumblr, Pinterest,omen's Wear Daily, etc.<p>	2. Make users choose the best dressed ones in the pictures<p>	3. Make users tag their clothings<p>	4. Query Amazon and Macy's with crowd-sourced tags<p>	5. Let users rate each query result/option relative to the original look<p>	6. Display best options and link to the piece of clothing
-  how_will_you_evaluate_if_your_project_is_successful: 	- be able to create a platform in which the previously mentioned steps can be executed. <p>	- have at least 5 to 10 iterations of all the steps
-  what_potential_problems_do_you_foresee_when_implementing_your_project: 	- Multiple steps involved, not enough funding to be able to execute fully<p>	- Clothes running out of stock in the process and not being removed
+  how_will_you_incentivize_them_to_participate: Money<p>Fun<p>Ranking System
+  what_will_they_provide_and_what_sort_of_skills_do_they_need: Choosing pictures of best dressed celebrities<p>Tagging their clothings<p>Uploading urls to alternative clothings<p>Rating each alternative
+  how_will_you_ensure_the_quality_of_the_crowd_provides: Part of the steps is to rate each alternative, so before we show the final options, users would be rating and filtering the alternative choices.
+  how_will_you_aggregate_the_results_from_the_crowd: Through a game like interface 
+  describe_each_of_the_steps_involved_in_your_process_what_parts_will_be_done_by_the_crowd_and_what_parts_will_be_done_automatically: 1. Query celebrity fashion images from social media sites like Lookbook, Tumblr, Pinterest,omen's Wear Daily, etc.<p>2. Make users choose the best dressed ones in the pictures<p>3. Make users tag their clothings<p>4. Query Amazon and Macy's with crowd-sourced tags<p>5. Let users rate each query result/option relative to the original look<p>6. Display best options and link to the piece of clothing
+  how_will_you_evaluate_if_your_project_is_successful: be able to create a platform in which the previously mentioned steps can be executed. <p>have at least 5 to 10 iterations of all the steps
+  what_potential_problems_do_you_foresee_when_implementing_your_project: Multiple steps involved, not enough funding to be able to execute fully<p>Clothes running out of stock in the process and not being removed
