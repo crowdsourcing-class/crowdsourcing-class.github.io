@@ -10,7 +10,7 @@ active_tab: homework
 Project Pitches
 =============================================================
 Here are the pitches that you came up with for your term projects:
-name_of_your_project
+
 <table class="table table-striped"> 
   <tbody>
     {% assign id = 0 %}
@@ -19,14 +19,12 @@ name_of_your_project
     {% assign anchor = questionnaire.name_of_your_project | replace:' ', '-' | replace:"'", '' | replace:'.', ''  | replace:'(', '' | replace:')', '' | append:"-" | append:id %}
    <tr>
       <td>
-	{{ questionnaire.name_of_your_project }}
-      </td>
-      <td>
 <div class="panel-group" id="accordion{{ anchor }}">
   <div class="panel panel-default">
     <div class="panel-heading">
       <div class="panel-title">
         <a data-toggle="collapse" data-parent="#accordion{{ anchor }}" href="#{{ anchor }}">
+	{{ questionnaire.name_of_your_project }} : 
 	{{ questionnaire.give_a_one_sentence_description_of_your_project }} 
         </a>
       </div>
