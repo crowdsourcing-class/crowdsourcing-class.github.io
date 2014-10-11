@@ -13,10 +13,8 @@ Here are the pitches that you came up with for your term projects:
 
 <table class="table"> 
   <tbody>
-    {% assign id = 0 %}
     {% for questionnaire in site.data.project_pitch %}
-    {% assign id = id | plus:1 %}
-    {% assign anchor = questionnaire.name_of_your_project | replace:' ', '-' | replace:"'", '' | replace:'.', ''  | replace:'!', '' | replace:',', '' | replace:'?', ''  | replace:'(', '' | replace:')', '' |  replace:'#', '' | append:"-" | append:id %}
+    {% assign anchor = questionnaire.name_of_your_project | replace:' ', '-' | replace:"'", '' | replace:'.', ''  | replace:'!', '' | replace:',', '' | replace:'?', ''  | replace:'(', '' | replace:')', '' |  replace:'#', '' %}
    <tr>
       <td>
 <div class="panel-group" id="accordion{{ anchor }}">
