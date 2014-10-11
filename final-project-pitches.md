@@ -1,6 +1,6 @@
 ---
 layout: default
-img: peer-evaluation.png
+img: peer-evaluation
 caption: Peer Evaluation
 title: Project Pitches
 active_tab: project
