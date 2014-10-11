@@ -11,7 +11,7 @@ Project Pitches
 =============================================================
 Here are the pitches that you came up with for your term projects:
 
-<table class="table table-striped"> 
+<table class="table"> 
   <tbody>
     {% assign id = 0 %}
     {% for questionnaire in site.data.project_pitch %}
