@@ -493,3 +493,18 @@
   describe_each_of_the_steps_involved_in_your_process_what_parts_will_be_done_by_the_crowd_and_what_parts_will_be_done_automatically: The profile information will be supplied by users. We will block the pictures and names as to make it a blind assessment. The pairs given to the turkers to evaluate will be done automatically and then the workers will supply a compatibility rating. We will collect all of the responses, average the responses for a couple, and alert them as to what their matches were above a certain threshold. 
   how_will_you_evaluate_if_your_project_is_successful: If we were to actually implement this, we would ask the couples for feedback. The more positive the feedback the more successful our endeavor will have been. It would be nice if we had access to a matching algorithm to compare with, but we are not sure how we would go about finding or implementing one. 
   what_potential_problems_do_you_foresee_when_implementing_your_project: Poor quality data is always a concern. Also poor quality input from the users and possibly motivating users to try our service. 
+-
+  provide_a_link_to_your_vimeo_video: https://vimeo.com/108390839
+  name_of_your_project: Shoptimum
+  give_a_one_sentence_description_of_your_project: Providing affordable alternatives to high fashion looks
+  what_problem_does_it_solve: - People's desire to look good but not having enough money<p>- There maybe stores that provide hip cheap clothes, but fashion is not just about finding these pieces. This can help people find matching pieces and copy good taste/style. <p>
+  what_similar_projects_exist: - Copy Cat Chic which gives you alternatives for cheap furniture<p>- Tao Bao
+  what_type_of_project_is_it: A business idea that uses crowdsourcing
+  who_will_be_the_members_of_your_crowd: - Most likely start with student body, but in general for all people care about what they wear and likes shopping.
+  how_will_you_incentivize_them_to_participate: 	- Money<p>	- Fun<p>	- Ranking System
+  what_will_they_provide_and_what_sort_of_skills_do_they_need: 	- Choosing pictures of best dressed celebrities<p>	- Tagging their clothings<p>	- Uploading urls to alternative clothings<p>	- Rating each alternative
+  how_will_you_ensure_the_quality_of_the_crowd_provides: 	- Part of the steps is to rate each alternative, so before we show the final options, users would be rating and filtering the alternative choices.
+  how_will_you_aggregate_the_results_from_the_crowd: 	- Through a game like interface 
+  describe_each_of_the_steps_involved_in_your_process_what_parts_will_be_done_by_the_crowd_and_what_parts_will_be_done_automatically: 	1. Query celebrity fashion images from social media sites like Lookbook, Tumblr, Pinterest,omen's Wear Daily, etc.<p>	2. Make users choose the best dressed ones in the pictures<p>	3. Make users tag their clothings<p>	4. Query Amazon and Macy's with crowd-sourced tags<p>	5. Let users rate each query result/option relative to the original look<p>	6. Display best options and link to the piece of clothing
+  how_will_you_evaluate_if_your_project_is_successful: 	- be able to create a platform in which the previously mentioned steps can be executed. <p>	- have at least 5 to 10 iterations of all the steps
+  what_potential_problems_do_you_foresee_when_implementing_your_project: 	- Multiple steps involved, not enough funding to be able to execute fully<p>	- Clothes running out of stock in the process and not being removed from the <p>
