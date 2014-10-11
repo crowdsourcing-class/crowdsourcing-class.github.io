@@ -16,7 +16,7 @@ Here are the pitches that you came up with for your term projects:
     {% assign id = 0 %}
     {% for questionnaire in site.data.project_pitch %}
     {% assign id = id | plus:1 %}
-    {% assign anchor = questionnaire.name_of_your_project | replace:' ', '-' | replace:"'", '' | replace:'.', ''  | replace:'(', '' | replace:')', '' | append:"-" | append:id %}
+    {% assign anchor = questionnaire.name_of_your_project | replace:' ', '-' | replace:"'", '' | replace:'.', ''  | replace:'!', ''  | replace:'(', '' | replace:')', '' | append:"-" | append:id %}
    <tr>
       <td>
 <div class="panel-group" id="accordion{{ anchor }}">
@@ -24,7 +24,7 @@ Here are the pitches that you came up with for your term projects:
     <div class="panel-heading">
       <div class="panel-title">
         <a data-toggle="collapse" data-parent="#accordion{{ anchor }}" href="#{{ anchor }}">
-	{{ questionnaire.name_of_your_project }} : 
+	<b>{{ questionnaire.name_of_your_project }}</b> : 
 	{{ questionnaire.give_a_one_sentence_description_of_your_project }} 
         </a>
       </div>
