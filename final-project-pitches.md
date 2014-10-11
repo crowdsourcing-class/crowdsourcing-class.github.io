@@ -40,7 +40,7 @@ Here are the pitches that you came up with for your term projects:
 <b>What will they provide and sort of skills do they need?</b> {{ questionnaire.what_will_they_provide_and_what_sort_of_skills_do_they_need }} <br />
 <b>How will you ensure the quality of what the crowd provides?</b> {{ questionnaire.how_will_you_ensure_the_quality_of_the_crowd_provides }} <br />
 <b>How will you aggregate results across the crowd?</b> {{ questionnaire.how_will_you_aggregate_the_results_from_the_crowd }} <br />
-<b>Describe each of the steps involved in your process, and say what parts will be done will be done by the crowd and what parts will be done automatically.</b> {{ questionnaire.describe_each_of_the_steps_involved_in_your_process_what_parts_will_be_done_by_the_crowd_and_what_parts_will_be_done_automatically }} <br />
+<b>Describe each of the steps involved in your process, and say what parts will be done will be done by the crowd and what parts will be done automatically:</b> {{ questionnaire.describe_each_of_the_steps_involved_in_your_process_what_parts_will_be_done_by_the_crowd_and_what_parts_will_be_done_automatically }} <br />
 <b>How will you evaluate whether or not your project is successful?</b> {{ questionnaire.how_will_you_evaluate_if_your_project_is_successful }} <br />
 <b>What potential problems do you foresee when implementing your project?</b> {{ questionnaire.what_potential_problems_do_you_foresee_when_implementing_your_project }} <br />
 
