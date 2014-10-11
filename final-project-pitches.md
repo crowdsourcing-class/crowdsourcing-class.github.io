@@ -2,8 +2,8 @@
 layout: default
 img: brainstorm
 caption: Brain designed by <a href="http://www.thenounproject.com/marcusmichaels">Marcus Michaels</a> from the <a href="http://www.thenounproject.com">Noun Project</a>
-title: Final Project | Brainstorm 3 Ideas
-active_tab: homework
+title: Project Pitches
+active_tab: project
 ---
 
 
