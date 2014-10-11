@@ -32,6 +32,10 @@ Here are the pitches that you came up with for your term projects:
     <div id="{{ anchor }}" class="panel-collapse collapse">
       <div class="panel-body">
 
+<b>What problem does it solve?</b> {{ questionnaire.what_problem_does_it_solve }} <br />
+<b>What problem does it solve?</b> {{ questionnaire.what_problem_does_it_solve }} <br />
+
+
 {% assign vimeourl = questionnaire.provide_a_link_to_your_vimeo_video | split:"/" %}
 {% for urlpart in vimeourl %}
 	{% capture videonum %}{{ urlpart }}{% endcapture %}
@@ -42,8 +46,6 @@ Here are the pitches that you came up with for your term projects:
 <div align="center" class="visible-sm visible-xs">
 <b>Video profile:</b> <a href="http://player.vimeo.com/video/{{ videonum }}">http://player.vimeo.com/video/{{ videonum }}"</a> <br />
 </div>
-
-<b>What problem does it solve?</b> {{ questionnaire.what_problem_does_it_solve }} <br />
 
       </div>
     </div>
