@@ -33,7 +33,13 @@ Here are the pitches that you came up with for your term projects:
       <div class="panel-body">
 
 <b>What problem does it solve?</b> {{ questionnaire.what_problem_does_it_solve }} <br />
-<b>What problem does it solve?</b> {{ questionnaire.what_problem_does_it_solve }} <br />
+<b>What similar projects exist?</b> {{ questionnaire.what_similar_projects_exist }} <br />
+<b>What type of project is it?</b> {{ questionnaire.what_type_of_project_is_it }} <br />
+<b>What type of project is it?</b> {{ questionnaire.what_type_of_project_is_it }} <br />
+<b>Who will be the members of your crowd?</b> {{ questionnaire.who_will_be_the_members_of_your_crowd }} <br />
+<b>How will you incentivize them to participate?</b> {{ questionnaire.how_will_you_incentivize_them_to_participate }} <br />
+<b>What will they provide and sort of skills do they need?</b> {{ questionnaire.what_will_they_provide_and_what_sort_of_skills_do_they_need }} <br />
+<b>How will you ensure the quality of what the crowd provides?</b> {{ questionnaire.how_will_you_ensure_the_quality_of_the_crowd_provides }} <br />
 
 
 {% assign vimeourl = questionnaire.provide_a_link_to_your_vimeo_video | split:"/" %}
