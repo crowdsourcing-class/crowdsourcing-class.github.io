@@ -1,7 +1,7 @@
 ---
 layout: default
-img: brainstorm
-caption: Brain designed by <a href="http://www.thenounproject.com/marcusmichaels">Marcus Michaels</a> from the <a href="http://www.thenounproject.com">Noun Project</a>
+img: peer-evaluation
+caption: Peer Evaluation
 title: Project Pitches
 active_tab: project
 ---
