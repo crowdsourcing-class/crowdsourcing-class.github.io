@@ -39,7 +39,7 @@ You will might want to work in teams for this project. These HITs will require m
 
 3. In order to do the text processing, we will be using the [Alchemy API](http://www.alchemyapi.com/api/calling-the-api/). This is a super awesome professional API which does a lot of very complicated NLP for you and makes it seem easy. You should play around with their [online demo](http://www.alchemyapi.com/products/demo/alchemylanguage/). Specifically, look at the text extraction and entity extraction features, since these are the main features we will use. 
 
-	In order to use Alchemy, you will need to [sign up for an account](http://www.alchemyapi.com/api/register.html) and get an API key. The default account will give you 1,000 API calls a day. This is probably enough for this assignment- you will need two calls per url, so if you only mess up one and a half times, you should still be within your daily limit. However, if you want to explor it more (which you really should! its awesome!) you can sign up for an academic account, which will give you 30,000 calls a day. If you want to do this, let me know. It just requires sending an email to the sales team, and you can copy the email I used to request my academic license.
+	In order to use Alchemy, you will need to [sign up for an account](http://www.alchemyapi.com/api/register.html) and get an API key. The default account will give you 1,000 API calls a day. This is probably enough for this assignment- you will need two calls per url, so if you only mess up one and a half times, you should still be within your daily limit. However, if you want to explore it more (which you really should! its awesome!) you can sign up for an academic account, which will give you 30,000 calls a day. If you want to do this, let me know. It just requires sending an email to the sales team, and you can copy the email I used to request my academic license.
 
 ###HIT Design
 
@@ -90,7 +90,7 @@ You will design two HITs on Crowdflower to extract this information from the art
 
 2. From assignment 5, you should all be familiar with how to use the crowdflower interface. You should use <code>gun-violence-urls.txt</code> as your input data (remember you will need to add a header row!); in the next design, you will have to use an input with some more columns, but for now, you only need the urls.
 
-3. Just because this is the "simple HIT design" doesn't mean it should be a UI monstrosity. Crowdflower has a pretty cool [custom markup language]() which gives you some nice control over how your questions are displayed. You might want to consider using something like the "only-if" field, so that workers don't have to view questions about victims number 2,3,4, and 5 if there is only one victim in the article. For example, I used this code so that the "Name of victim #2" question only appears if the worker answered that there are 2 or more victims. 
+3. Just because this is the "simple HIT design" doesn't mean it should be a UI monstrosity. Crowdflower has a pretty cool [custom markup language](http://success.crowdflower.com/customer/portal/articles/1290342-cml-crowdflower-markup-language-) which gives you some nice control over how your questions are displayed. You might want to consider using something like the "only-if" field, so that workers don't have to view questions about victims number 2,3,4, and 5 if there is only one victim in the article. For example, I used this code so that the "Name of victim #2" question only appears if the worker answered that there are 2 or more victims. 
 	
     <pre><code> &lt;cml:select label="Number of shooters" validates="required"&gt;
     &lt;cml:option label="1" id=""/&gt;
@@ -106,17 +106,17 @@ You will design two HITs on Crowdflower to extract this information from the art
 
 4. Now, we will use Alchemy to design a nicer HIT interface, which will hopefully allow your workers to move through the articles more quickly and accurately. You can see my design [here](https://tasks.crowdflower.com/assignments/7062734c-e446-41c6-b491-90ba89165fb2). Again, you are encoraged to improve over my template! I am a god-awful web designer, so please! Make it better so we can recycle your designs for next year's students! :-P 
 
-5. To do this, we will use Alchemy's [text extraction]() to display the cleaned-up text to the workers. We will also use Alchemy's [entity extraction](http://www.alchemyapi.com/api/entity-extraction/), [date extraction](http://www.alchemyapi.com/api/publication-date/), and [keyword extraction](http://www.alchemyapi.com/api/keyword-extraction/). Open `clean_and_process_data.py`. This script will make the API calls using python. You can see how the API calls are constructed by looking at the request strings at the top of the file. 
+5. To do this, we will use Alchemy's [text extraction](http://www.alchemyapi.com/api/text-extraction/) to display the cleaned-up text to the workers. We will also use Alchemy's [entity extraction](http://www.alchemyapi.com/api/entity-extraction/), [date extraction](http://www.alchemyapi.com/api/publication-date/), and [keyword extraction](http://www.alchemyapi.com/api/keyword-extraction/). Open `clean_and_process_data.py`. This script will make the API calls using python. You can see how the API calls are constructed by looking at the request strings at the top of the file. 
 
 	<pre><code>http://access.alchemyapi.com/calls/url/URLGetText?apikey=[KEY]&url=[URL]&outputMode=json</code></pre>
 
-	We will make two calls, one to extract the text, and one [combined call]() which will extract the remaining information. The file reads from "standard input", which you can run the program by doing the following:
+	We will make two calls, one to extract the text, and one [combined call](http://www.alchemyapi.com/api/combined-call/) which will extract the remaining information. The file reads from [standard input](http://en.wikipedia.org/wiki/Standard_streams#Standard_input_.28stdin.29), which means you can run the program by doing the following:
 
 	<pre><code>python clean_and_process_data.py &lt; gun-violence-urls.txt</code></pre>
 
 	This will write the results to a file called `gun-violence-urls-and-entitites.csv`.
 
-6. You will need to put the extracted data into a csv format, so that Crowdflower can understand it. The `convert_to_csv.py` script will do this for you. If you open it up, you will see that it reads through the extracted list of entities for each article and wraps them in an html `&lt;span&gt;` tag, so that you can handle them specially when you are designing your interface. Running the following will create a file called `gun-article-info.csv` that Crowdflower should understand. 
+6. You will need to put the extracted data into a csv format, so that Crowdflower can understand it. The `convert_to_csv.py` script will do this for you. If you open it up, you will see that it reads through the extracted list of entities for each article and wraps them in an html `<span>` tag, so that you can handle them specially when you are designing your interface. Running the following will create a file called `gun-article-info.csv` that Crowdflower should understand. 
 	
 	<pre><code> python convert_to_csv.py gun-violence-urls-and-entitites.csv </code></pre>
 
@@ -125,9 +125,13 @@ You will design two HITs on Crowdflower to extract this information from the art
 ####Extra credit
 
 If you like web design, awesome! We are completely willing to give extra credit for faster, simpler, and sexier UIs. A few ideas:
+
 - Pre-populate answers to the form so users can simply confirm or edit the answers.
+
 - Allow users to click on entities in the text and flag them as specific fields (e.g. "victim") withough having to type into the text boxes.
+
 - Anything with drag and drop. People love to drag and drop.
+
 - Alchemy does a good job, but misses some important things like dates and times. Try some other tools to detect this, or write your own!
 
 This assignment is due <b>Wednesday, October 22</b>. You can work in pairs, but you must declare the fact that you are working together when you turn your assignment. Remember to turn submit your questionnaire before the deadline. You can turn in your data and screenshots using turnin:
@@ -140,26 +144,5 @@ This assignment is due <b>Wednesday, October 22</b>. You can work in pairs, but 
 
 2. Don't use javascript! Use [jQuery](http://jquery.com/). Javascript is an ugly nightmare, jQuery is small and sleek and beautiful. If you don't know javascript, don't bother learning. Just use jQuery. 
 
-3. If you want to include jQuery in your HIT, you can do this in Crowdflower's javascript editor. You can see it by clicking the "Show Custom CSS/JS" link at the buttom of the "Build Job" page. However, if you want to access the data fields in your csv from your javascript, you will need to include the javascript within the CML editor. Here is the javascript I included to show/hide groups of questions in my HIT. You can add this to the top of your CML editor and use it as a template for your own HIT.
-
-	<pre><code>
-	&lt;script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">&lt;/script&gt;
-	&lt;script type="text/javascript" charset="utf-8"&gt;
-	document.addEvent('domready', function(){
-	try {
-    	require(['jquery-noconflict','bootstrap-modal','bootstrap-tooltip','bootstrap-popover','jquery-cookie'], function($) {
-	Window.implement('$', function(el, nc){return document.id(el, nc, this.document);});
-	var $ = window.jQuery;
-			
-	/*My code. Everything else is stuff that makes Crowdflower happy.*/
-	$('#timeandplace').hide();
-	$('#timeandplacebar').click(function(e){
-		$('#timeandplace').toggle();
-	});
-	});
-	} catch(e) {
-	console.log('ERR: '+e)
-	}
-	});
-	&lt;/script&gt;
+3. If you want to include jQuery in your HIT, you can do this in Crowdflower's javascript editor. You can see it by clicking the "Show Custom CSS/JS" link at the buttom of the "Build Job" page. However, if you want to access the data fields in your csv from your javascript, you will need to include the javascript within the CML editor. [Here](http://crowdsourcing-class.org/assignments/downloads/assignment6-js-example.txt) is the javascript I included to show/hide groups of questions in my HIT. You can add this to the top of your CML editor and use it as a template for your own HIT.
 

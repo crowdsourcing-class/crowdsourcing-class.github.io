@@ -1,0 +1,19 @@
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" charset="utf-8">
+	document.addEvent('domready', function(){
+ 	try {
+ 		require(['jquery-noconflict','bootstrap-modal','bootstrap-tooltip','bootstrap-popover','jquery-cookie'], function($) {
+ 		Window.implement('$', function(el, nc){return document.id(el, nc, this.document);});
+ 		var $ = window.jQuery;
+			
+ 		/*My code. Everything else is stuff that makes Crowdflower happy.*/
+ 		$('#timeandplace').hide();
+ 		$('#timeandplacebar').click(function(e){
+     			$('#timeandplace').toggle();
+ 		});
+ 		});
+ 	} catch(e) {
+ 		console.log('ERR: '+e)
+ 	}
+ });
+</script>
