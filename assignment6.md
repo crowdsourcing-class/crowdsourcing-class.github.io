@@ -1,8 +1,8 @@
 ---
 layout: default
-img: capitalist-greed
-caption: Exploit the masses!
-title: Homework 6 | Building the database 
+img: information_overload1
+caption: Love the information age...
+title: Homework 6 | Crowdsourcing IE
 active_tab: homework
 ---
 
@@ -11,7 +11,7 @@ active_tab: homework
   This assignment is due before class on Wednesday, October 22nd.</div>
 
 
-Building a database<span class="text-muted"> : Assignment 6</span> 
+Crowsourcing Information Extraction<span class="text-muted"> : Assignment 6</span> 
 =============================================================
 
 Okay, so we've been talking all semester about this gun violence database. And we've been making all sorts of big promises to Doug and the other epidemiologists. But, what have we gotten so far: "Here are some articles that we are about 10% confident are about guns. Also, the word "shooting" is a good feature." Not exactly anything to write home about. So time to deliver. Let's take these articles and turn it into something useful. 
@@ -21,7 +21,7 @@ We will do this using (surprise!) crowdsourcing. This week, you are going to ask
 Your deliverables will be:
 1. Two csv files from Crowdflower containing the information the workers extract
 2. Screen shots of your two HIT designs
-3. Reponses about your findings in [this questionnaire]().
+3. Reponses about your findings in [this questionnaire](https://docs.google.com/forms/d/1_qW91g5FDIS5qa_2TdKtlfkMQDggT8b7QbuhFJ-0f08/viewform?usp=send_form).
 
 You will might want to work in teams for this porject. These HITs will require more time for the crowd workers, and so should pay a bit more than the previous ones. Don't be a jerk and pay them pennies just because your account is low! Buddie up with someone, or feel free to add some funds to your account. (We didn't have a text book for this class, remember? So we've been easy on your budget so far.)
 
@@ -42,7 +42,7 @@ You will might want to work in teams for this porject. These HITs will require m
 
 ###HIT Design
 
-As you may remember from [Doug's lecture](), there are a lot of details about gun crimes that epidemiologists are interested in. For this assignment, you are going to ask workers to try to extract the following information: 
+As you may remember from [Doug's lecture](http://crowdsourcing-class.org/slides/gun-violence-as-a-public-health-issue.pdf), there are a lot of details about gun crimes that epidemiologists are interested in. For this assignment, you are going to ask workers to try to extract the following information: 
 
 - Time and place
 	- City
@@ -105,7 +105,7 @@ You will design two HITs on Crowdflower to extract this information from the art
 
 4. Now, we will use Alchemy to design a nicer HIT interface, which will hopefully allow your workers to move through the articles more quickly and accurately. You can see my design [here](https://tasks.crowdflower.com/assignments/7062734c-e446-41c6-b491-90ba89165fb2). Again, you are encoraged to improve over my template! I am a god-awful web designer, so please! Make it better so we can recycle your designs for next year's students! :-P 
 
-5. To do this, we will use Alchemy's [text extraction]() to display the cleaned-up text to the workers. We will also use Alchemy's [entity extraction](), [title extraction](), [date extraction](), and [keyword extraction](). Open `clean_and_process_data.py`. This script will make the API calls using python. You can see how the API calls are constructed by looking at the request strings at the top of the file. 
+5. To do this, we will use Alchemy's [text extraction]() to display the cleaned-up text to the workers. We will also use Alchemy's [entity extraction](http://www.alchemyapi.com/api/entity-extraction/), [date extraction](http://www.alchemyapi.com/api/publication-date/), and [keyword extraction](http://www.alchemyapi.com/api/keyword-extraction/). Open `clean_and_process_data.py`. This script will make the API calls using python. You can see how the API calls are constructed by looking at the request strings at the top of the file. 
 
 	<pre><code>http://access.alchemyapi.com/calls/url/URLGetText?apikey=[KEY]&url=[URL]&outputMode=json</code></pre>
 
@@ -119,10 +119,17 @@ You will design two HITs on Crowdflower to extract this information from the art
 	
 	<pre><code> python convert_to_csv.py gun-violence-urls-and-entitites.csv </code></pre>
 
-7. Take another shot at your interface design, now taking advantage of the fact that you have a fairly good (but not perfect) list of the people and places in the article. You are welcome to reimpliment my design, although there is lots of room for improvement. E.g. Can you allow workers to click on the entities in the text to fill out the form, rather than having to type? Can you pre-populate any of the fields in the form, and have workers simply verify or edit them? Check the extra credit opportunities for more ideas! 
+7. Take another shot at your interface design, now taking advantage of the fact that you have a fairly good (but not perfect) list of the people and places in the article. You are welcome to reimpliment my design, although there is lots of room for improvement. Check the extra credit opportunities for more ideas! 
 
 This assignment is due <b>Wednesday, October 22</b>. You can work in pairs, but you must declare the fact that you are working together when you turn your assignment. 
 
+####Extra credit
+
+If you like web design, awesome! We are completely willing to give extra credit for faster, simpler, and sexier UIs. A few ideas:
+- Pre-populate answers to the form so users can simply confirm or edit the answers.
+- Allow users to click on entities in the text and flag them as specific fields (e.g. "victim") withough having to type into the text boxes.
+- Anything with drag and drop. People love to drag and drop.
+- Alchemy does a good job, but misses some important things like dates and times. Try some other tools to detect this, or write your own!
 
 ####Very useful hints
 
@@ -136,21 +143,20 @@ This assignment is due <b>Wednesday, October 22</b>. You can work in pairs, but 
 	&lt;script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">&lt;/script&gt;
 	&lt;script type="text/javascript" charset="utf-8"&gt;
 	document.addEvent('domready', function(){
-   		try {
-    			require(['jquery-noconflict','bootstrap-modal','bootstrap-tooltip','bootstrap-popover','jquery-cookie'], function($) {
-				Window.implement('$', function(el, nc){return document.id(el, nc, this.document);});
-				var $ = window.jQuery;
+	try {
+    		require(['jquery-noconflict','bootstrap-modal','bootstrap-tooltip','bootstrap-popover','jquery-cookie'], function($) {
+		Window.implement('$', function(el, nc){return document.id(el, nc, this.document);});
+		var $ = window.jQuery;
 				
-				/*My code. Everything else is stuff that makes Crowdflower happy.*/
-				$('#timeandplace').hide();
-				$('#timeandplacebar').click(function(e){
-					$('#timeandplace').toggle();
-				});
+		/*My code. Everything else is stuff that makes Crowdflower happy.*/
+		$('#timeandplace').hide();
+		$('#timeandplacebar').click(function(e){
+			$('#timeandplace').toggle();
 		});
-
-		} catch(e) {
-			console.log('ERR: '+e)
-		}
+		});
+	} catch(e) {
+		console.log('ERR: '+e)
+	}
 	});
 	&lt;/script&gt;
 
