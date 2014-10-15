@@ -89,15 +89,15 @@ You will design two HITs on Crowdflower to extract this information from the art
 
 3. Just because this is the "simple HIT design" doesn't mean it should be a UI monstrosity. Crowdflower has a pretty cool [custom markup language]() which gives you some nice control over how your questions are displayed. You might want to consider using something like the "only-if" field, so that workers don't have to view questions about victims number 2,3,4, and 5 if there is only one victim in the article. For example, I used this code so that the "Name of victim #2" question only appears if the worker answered that there are 2 or more victims. 
 	
-    <cml:select label="Number of shooters" validates="required">
-    <cml:option label="1" id=""/>
-    <cml:option label="2" id=""/>
-    <cml:option label="3" id=""/>
-    <cml:option label="4" id=""/> 
-    <cml:option label="5 or more" id=""/>           
-    </cml:select>
+    &lt;cml:select label="Number of shooters" validates="required"&gt;
+    &lt;cml:option label="1" id=""/&gt;
+    &lt;cml:option label="2" id=""/&gt;
+    &lt;cml:option label="3" id=""/&gt;
+    &lt;cml:option label="4" id=""/&gt;
+    &lt;cml:option label="5 or more" id=""/&gt;
+    &lt;/cml:select&gt;
     ...
-    <cml:text label="Shooter #2 name" only-if="number_of_shooters:[2]||number_of_shooters:[3]||number_of_shooters:[4]||number_of_shooters:[5]" validates="required"/>
+    &lt;cml:text label="Shooter #2 name" only-if="number_of_shooters:[2]||number_of_shooters:[3]||number_of_shooters:[4]||number_of_shooters:[5]" validates="required"/&gt;
 
 ####Less bad design
 
