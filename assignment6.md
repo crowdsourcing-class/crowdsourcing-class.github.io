@@ -14,25 +14,26 @@ active_tab: homework
 Crowsourcing Information Extraction<span class="text-muted"> : Assignment 6</span> 
 =============================================================
 
-Okay, so we've been talking all semester about this gun violence database. And we've been making all sorts of big promises to Doug and the other epidemiologists. But, what have we gotten so far: "Here are some articles that we are about 10% confident are about guns. Also, the word "shooting" is a good feature." Not exactly anything to write home about. So time to deliver. Let's take these articles and turn it into something useful. 
+Okay, so we've been talking all semester about this gun violence database. And we've been making all sorts of big promises to Doug and the other epidemiologists. But, what have we gotten so far?: "Here are some articles that we are about 10% confident are about guns. Also, the word "shooting" is a good feature." Not exactly anything to write home about. So time to deliver. Let's take these articles and turn it into something useful. 
 
 We will do this using (surprise!) crowdsourcing. This week, you are going to ask Crowdflower workers to read through the articles that you all identified as gun related back in homework 5, and pull out the key facts in a principled way. Your primary goal is to design an interface that helps them do this quickly and accurately. We will walk you through some initial steps to get you started on the design, but you are welcome to go in your own direction.  
 
 Your deliverables will be:
+
 1. Two csv files from Crowdflower containing the information the workers extract
+
 2. Screen shots of your two HIT designs
+
 3. Reponses about your findings in [this questionnaire](https://docs.google.com/forms/d/1_qW91g5FDIS5qa_2TdKtlfkMQDggT8b7QbuhFJ-0f08/viewform?usp=send_form).
 
-You will might want to work in teams for this porject. These HITs will require more time for the crowd workers, and so should pay a bit more than the previous ones. Don't be a jerk and pay them pennies just because your account is low! Buddie up with someone, or feel free to add some funds to your account. (We didn't have a text book for this class, remember? So we've been easy on your budget so far.)
+You will might want to work in teams for this project. These HITs will require more time for the crowd workers, and so should pay a bit more than the previous ones. Don't be a jerk and pay them pennies just because your account is low! Buddy up with someone, or feel free to add some funds to your account. (We didn't have a text book for this class. And we gave you each $100. So we've been easy on your budget so far.)
 
 ###Code, data, and signing up for more emails
 
-1. In assignment 5, you guys had workers label your classifier's results. To give you data to work with, we've pulled together 200 of the urls your workers called "gun related." We've also written some code to do some text processing for you, which we will talk about in a few steps. You can download all the code and data [here](). 
+1. In assignment 5, you guys had workers label your classifier's results. We've pulled together 200 of the urls your workers called "gun related." We've also written some code to do some text processing for you, which we will talk about in a few steps. You can download all the code and data [here](http://crowdsourcing-class.org/assignments/downloads/assignment6.tgz). 
 
-	<pre><code> $ wget assignment6.tgz
-	$ tar -xvzf assignment6.tgz
-	$ ls assignment6/
-	clean_and_process_data.py	convert_to_csv.py		gun-violence-urls.txt</code></pre>
+	<pre><code> $ wget http://crowdsourcing-class.org/assignments/downloads/assignment6.tgz
+	$ tar -xvzf assignment6.tgz</code></pre>
 
 2. You should see three files. `gun-violence-urls.txt` contains 198 urls that your workers labeled as gun-related in the previous assignment. `clean_and_process_data.py` is a script which will perform basic text processing to clean up your articles and help pull out some potentially useful information (like names and locations). <code>convert_to_csv.py</code> will put your data into a csv that can be uploaded to Crowdflower. 
 
@@ -121,8 +122,6 @@ You will design two HITs on Crowdflower to extract this information from the art
 
 7. Take another shot at your interface design, now taking advantage of the fact that you have a fairly good (but not perfect) list of the people and places in the article. You are welcome to reimpliment my design, although there is lots of room for improvement. Check the extra credit opportunities for more ideas! 
 
-This assignment is due <b>Wednesday, October 22</b>. You can work in pairs, but you must declare the fact that you are working together when you turn your assignment. 
-
 ####Extra credit
 
 If you like web design, awesome! We are completely willing to give extra credit for faster, simpler, and sexier UIs. A few ideas:
@@ -130,6 +129,10 @@ If you like web design, awesome! We are completely willing to give extra credit 
 - Allow users to click on entities in the text and flag them as specific fields (e.g. "victim") withough having to type into the text boxes.
 - Anything with drag and drop. People love to drag and drop.
 - Alchemy does a good job, but misses some important things like dates and times. Try some other tools to detect this, or write your own!
+
+This assignment is due <b>Wednesday, October 22</b>. You can work in pairs, but you must declare the fact that you are working together when you turn your assignment. Remember to turn submit your questionnaire before the deadline. You can turn in your data and screenshots using turnin:
+
+	<pre><code>$ turnin -c nets213 -p crowdie -v *</code></pre>
 
 ####Very useful hints
 
@@ -144,18 +147,18 @@ If you like web design, awesome! We are completely willing to give extra credit 
 	&lt;script type="text/javascript" charset="utf-8"&gt;
 	document.addEvent('domready', function(){
 	try {
-    		require(['jquery-noconflict','bootstrap-modal','bootstrap-tooltip','bootstrap-popover','jquery-cookie'], function($) {
-		Window.implement('$', function(el, nc){return document.id(el, nc, this.document);});
-		var $ = window.jQuery;
-				
-		/*My code. Everything else is stuff that makes Crowdflower happy.*/
-		$('#timeandplace').hide();
-		$('#timeandplacebar').click(function(e){
-			$('#timeandplace').toggle();
-		});
-		});
+    	require(['jquery-noconflict','bootstrap-modal','bootstrap-tooltip','bootstrap-popover','jquery-cookie'], function($) {
+	Window.implement('$', function(el, nc){return document.id(el, nc, this.document);});
+	var $ = window.jQuery;
+			
+	/*My code. Everything else is stuff that makes Crowdflower happy.*/
+	$('#timeandplace').hide();
+	$('#timeandplacebar').click(function(e){
+		$('#timeandplace').toggle();
+	});
+	});
 	} catch(e) {
-		console.log('ERR: '+e)
+	console.log('ERR: '+e)
 	}
 	});
 	&lt;/script&gt;
