@@ -30,12 +30,12 @@ You will might want to work in teams for this project. These HITs will require m
 
 ###Code, data, and signing up for more emails
 
-1. In assignment 5, you guys had workers label your classifier's results. We've pulled together 200 of the urls your workers called "gun related." We've also written some code to do some text processing for you, which we will talk about in a few steps. You can download all the code and data [here](http://crowdsourcing-class.org/assignments/downloads/assignment6.tgz). 
+1. In assignment 5, you guys had workers label your classifier's results. We've pulled together 400 of the urls your workers called "gun related." We've also written some code to do some text processing for you, which we will talk about in a few steps. You can download all the code and data [here](http://crowdsourcing-class.org/assignments/downloads/assignment6.tgz). 
 
 	<pre><code> $ wget http://crowdsourcing-class.org/assignments/downloads/assignment6.tgz
 	$ tar -xvzf assignment6.tgz</code></pre>
 
-2. You should see three files. `gun-violence-urls.txt` contains 198 urls that your workers labeled as gun-related in the previous assignment. `clean_and_process_data.py` is a script which will perform basic text processing to clean up your articles and help pull out some potentially useful information (like names and locations). <code>convert_to_csv.py</code> will put your data into a csv that can be uploaded to Crowdflower. 
+2. You should see three files. `gun-violence-urls.txt` contains 400 urls that your workers labeled as gun-related in the previous assignment. `clean_and_process_data.py` is a script which will perform basic text processing to clean up your articles and help pull out some potentially useful information (like names and locations). <code>convert_to_csv.py</code> will put your data into a csv that can be uploaded to Crowdflower. 
 
 3. In order to do the text processing, we will be using the [Alchemy API](http://www.alchemyapi.com/api/calling-the-api/). This is a super awesome professional API which does a lot of very complicated NLP for you and makes it seem easy. You should play around with their [online demo](http://www.alchemyapi.com/products/demo/alchemylanguage/). Specifically, look at the text extraction and entity extraction features, since these are the main features we will use. 
 
@@ -86,7 +86,7 @@ You will design two HITs on Crowdflower to extract this information from the art
 
 ####Not very good design
 
-1. First, we will design a simple HIT. You can see my simple version [here]( https://tasks.crowdflower.com/channels/cf_internal/jobs/628080/work?secret=HsuWoK3FcnApyscySyHcyUCgD7i9ixucAo2IllnnX4Dn) (you might need to click the "start a new assignment" link). You do not have to follow my designs exactly, but your design should extract the same information.
+1. First, we will design a simple HIT. You can see my simple version [here](https://tasks.crowdflower.com/channels/cf_internal/jobs/628080/work?secret=HsuWoK3FcnApyscySyHcyUCgD7i9ixucAo2IllnnX4Dn) (you might need to click the "start a new assignment" link). You do not have to follow my designs exactly, but your design should extract the same information.
 
 2. From assignment 5, you should all be familiar with how to use the crowdflower interface. You should use <code>gun-violence-urls.txt</code> as your input data (remember you will need to add a header row!); in the next design, you will have to use an input with some more columns, but for now, you only need the urls.
 
@@ -104,7 +104,7 @@ You will design two HITs on Crowdflower to extract this information from the art
 
 ####Less bad design
 
-4. Now, we will use Alchemy to design a nicer HIT interface, which will hopefully allow your workers to move through the articles more quickly and accurately. You can see my design [here](https://tasks.crowdflower.com/channels/cf_internal/jobs/628081/work?secret=HsuWoK3FcnApyscySyHcyUCgD7i9ixucAo2IllnnX4Dn). Again, you are encoraged to improve over my template! I am a god-awful web designer, so please! Make it better so we can recycle your designs for next year's students! :-P 
+4. Now, we will use Alchemy to design a nicer HIT interface, which will hopefully allow your workers to move through the articles more quickly and accurately. You can see my design [here](https://tasks.crowdflower.com/channels/cf_internal/jobs/628109/work?secret=HsuWoK3FcnApyscySyHcyUCgD7i9ixucAo2IllnnX4Dn). Again, you are encoraged to improve over my template! I am a god-awful web designer, so please! Make it better so we can recycle your designs for next year's students! :-P 
 
 5. To do this, we will use Alchemy's [text extraction](http://www.alchemyapi.com/api/text-extraction/) to display the cleaned-up text to the workers. We will also use Alchemy's [entity extraction](http://www.alchemyapi.com/api/entity-extraction/), [date extraction](http://www.alchemyapi.com/api/publication-date/), and [keyword extraction](http://www.alchemyapi.com/api/keyword-extraction/). Open `clean_and_process_data.py`. This script will make the API calls using python. You can see how the API calls are constructed by looking at the request strings at the top of the file. 
 
