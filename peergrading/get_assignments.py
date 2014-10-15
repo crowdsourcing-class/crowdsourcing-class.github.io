@@ -16,8 +16,8 @@ remaining = projects.keys()
 
 for s in students : 
 	teams = 0
-	if len(remaining) < 3 : remaining = projects.keys()
 	options = [k for k in remaining if not s in k.split(',')]
+	if len(remaining) < 3 : remaining = projects.keys()
 	while teams < 3 : 
 		team = random.choice(list(set(options).intersection(remaining)))
 		remaining.remove(team)
