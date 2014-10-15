@@ -36,7 +36,9 @@ You will might want to work in teams for this porject. These HITs will require m
 
 2. You should see three files. `gun-violence-urls.txt` contains 198 urls that your workers labeled as gun-related in the previous assignment. `clean_and_process_data.py` is a script which will perform basic text processing to clean up your articles and help pull out some potentially useful information (like names and locations). <code>convert_to_csv.py</code> will put your data into a csv that can be uploaded to Crowdflower. 
 
-3. In order to do the text processing, we will be using the [Alchemy API](http://www.alchemyapi.com/api/calling-the-api/). This is a super awesome professional API which does a lot of very complicated NLP for you and makes it seem easy. In order to use it, you will need to [sign up for an account](http://www.alchemyapi.com/api/register.html) and get an API key. The default account will give you 1,000 API calls a day. This is probably enough for this assignment- you will need two calls per url, so if you only mess up one and a half times, you should still be within your daily limit. However, if you want to explor it more (which you really should! its awesome!) you can sign up for an academic account, which will give you 30,000 calls a day. If you want to do this, let me know. It just requires sending an email to the sales team, and you can copy the email I used to request my academic license.
+3. In order to do the text processing, we will be using the [Alchemy API](http://www.alchemyapi.com/api/calling-the-api/). This is a super awesome professional API which does a lot of very complicated NLP for you and makes it seem easy. You should play around with their [online demo](http://www.alchemyapi.com/products/demo/alchemylanguage/). Specifically, look at the text extraction and entity extraction features, since these are the main features we will use. 
+
+	In order to use Alchemy, you will need to [sign up for an account](http://www.alchemyapi.com/api/register.html) and get an API key. The default account will give you 1,000 API calls a day. This is probably enough for this assignment- you will need two calls per url, so if you only mess up one and a half times, you should still be within your daily limit. However, if you want to explor it more (which you really should! its awesome!) you can sign up for an academic account, which will give you 30,000 calls a day. If you want to do this, let me know. It just requires sending an email to the sales team, and you can copy the email I used to request my academic license.
 
 ###HIT Design
 
@@ -105,12 +107,50 @@ You will design two HITs on Crowdflower to extract this information from the art
 
 5. To do this, we will use Alchemy's [text extraction]() to display the cleaned-up text to the workers. We will also use Alchemy's [entity extraction](), [title extraction](), [date extraction](), and [keyword extraction](). Open `clean_and_process_data.py`. This script will make the API calls using python. You can see how the API calls are constructed by looking at the request strings at the top of the file. 
 
-	<pre><code>http://access.alchemyapi.com/calls/url/URLGetText?apikey=[YOUR_API_KEY]&url=[URL]&outputMode=json</code></pre>
+	<pre><code>http://access.alchemyapi.com/calls/url/URLGetText?apikey=[KEY]&url=[URL]&outputMode=json</code></pre>
 
-We will make two calls, one to extract the text, and one [combined call]() which will extract the remaining information. The file reads from "standard input", which you can run the program by doing the following:
+	We will make two calls, one to extract the text, and one [combined call]() which will extract the remaining information. The file reads from "standard input", which you can run the program by doing the following:
 
 	<pre><code>python clean_and_process_data.py &lt; gun-violence-urls.txt</code></pre>
 
-This will write the results to a file called `gun-violence-urls-and-entitites.csv`.
+	This will write the results to a file called `gun-violence-urls-and-entitites.csv`.
 
-This assignment is due <b>Wednesday, October 22</b>. You can work in pairs, but you must declare the fact that you are working together when you turn your assignment.  
+6. You will need to put the extracted data into a csv format, so that Crowdflower can understand it. The `convert_to_csv.py` script will do this for you. If you open it up, you will see that it reads through the extracted list of entities for each article and wraps them in an html `&lt;span&gt;` tag, so that you can handle them specially when you are designing your interface. Running the following will create a file called `gun-article-info.csv` that Crowdflower should understand. 
+	
+	<pre><code> python convert_to_csv.py gun-violence-urls-and-entitites.csv </code></pre>
+
+7. Take another shot at your interface design, now taking advantage of the fact that you have a fairly good (but not perfect) list of the people and places in the article. You are welcome to reimpliment my design, although there is lots of room for improvement. E.g. Can you allow workers to click on the entities in the text to fill out the form, rather than having to type? Can you pre-populate any of the fields in the form, and have workers simply verify or edit them? Check the extra credit opportunities for more ideas! 
+
+This assignment is due <b>Wednesday, October 22</b>. You can work in pairs, but you must declare the fact that you are working together when you turn your assignment. 
+
+
+####Very useful hints
+
+1. If you want to launch your HIT so that only you can do it (to test it without paying workers), go to "Contributors" and then to the "Channels" tab, and turn off "On-Demand Workforce." Then you can follow the link at the bottom of the dashboard to test your own HIT. 
+
+2. Don't use javascript! Use [jQuery](http://jquery.com/). Javascript is an ugly nightmare, jQuery is small and sleek and beautiful. If you don't know javascript, don't bother learning. Just use jQuery. 
+
+3. If you want to include jQuery in your HIT, you can do this in Crowdflower's javascript editor. You can see it by clicking the "Show Custom CSS/JS" link at the buttom of the "Build Job" page. However, if you want to access the data fields in your csv from your javascript, you will need to include the javascript within the CML editor. Here is the javascript I included to show/hide groups of questions in my HIT. You can add this to the top of your CML editor and use it as a template for your own HIT.
+
+	<pre><code>
+	&lt;script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">&lt;/script&gt;
+	&lt;script type="text/javascript" charset="utf-8"&gt;
+	document.addEvent('domready', function(){
+   		try {
+    			require(['jquery-noconflict','bootstrap-modal','bootstrap-tooltip','bootstrap-popover','jquery-cookie'], function($) {
+				Window.implement('$', function(el, nc){return document.id(el, nc, this.document);});
+				var $ = window.jQuery;
+				
+				/*My code. Everything else is stuff that makes Crowdflower happy.*/
+				$('#timeandplace').hide();
+				$('#timeandplacebar').click(function(e){
+					$('#timeandplace').toggle();
+				});
+		});
+
+		} catch(e) {
+			console.log('ERR: '+e)
+		}
+	});
+	&lt;/script&gt;
+
