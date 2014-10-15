@@ -81,11 +81,28 @@ As you may remember from [Doug's lecture](), there are a lot of details about gu
 
 You will design two HITs on Crowdflower to extract this information from the articles. In the first, you will simply provide the article and ask workers to fill in the information. In the second, you will do some preprocessing to try to make the workers' job easier. 
 
-1. First, we will design a simple HIT. You can see my simple version [here](). You do not have to follow my designs exactly, but your design should extract the same information.
+####Not very good design
 
-2. Upload data
+1. First, we will design a simple HIT. You can see my simple version [here](https://tasks.crowdflower.com/assignments/10fc01e8-201e-41d5-b315-b55cf136e6ed). You do not have to follow my designs exactly, but your design should extract the same information.
 
-3. Using CML markup
+2. From assignment 5, you should all be familiar with how to use the crowdflower interface. You should use <code>gun-violence-urls.txt</code> as your input data (remember you will need to add a header row!); in the next design, you will have to use an input with some more columns, but for now, you only need the urls.
+
+3. Just because this is the "simple HIT design" doesn't mean it should be a UI monstrosity. Crowdflower has a pretty cool [custom markup language]() which gives you some nice control over how your questions are displayed. You might want to consider using something like the "only-if" field, so that workers don't have to view questions about victims number 2,3,4, and 5 if there is only one victim in the article. For example, I used this code so that the "Name of victim #2" question only appears if the worker answered that there are 2 or more victims. 
+	
+	<pre><code>
+ 	<cml:select label="Number of shooters" validates="required">
+    	<cml:option label="1" id=""/>
+    	<cml:option label="2" id=""/>
+    	<cml:option label="3" id=""/>
+    	<cml:option label="4" id=""/> 
+    	<cml:option label="5 or more" id=""/>           
+	</cml:select>
+
+	...
+
+	<cml:text label="Shooter #2 name" only-if="number_of_shooters:[2]||number_of_shooters:[3]||number_of_shooters:[4]||number_of_shooters:[5]" validates="required"/></code></pre>
+
+####Less bad design
 
 4. Now, we will use Alchemy to design a nicer HIT interface, which will hopefully allow your workers to move through the articles more quickly and accurately. You can see my design [here](https://tasks.crowdflower.com/assignments/7062734c-e446-41c6-b491-90ba89165fb2). Again, you are encoraged to improve over my template! I am a god-awful web designer, so please! Make it better so we can recycle your designs for next year's students! :-P 
 
