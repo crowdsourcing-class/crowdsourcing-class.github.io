@@ -34,7 +34,7 @@ You will might want to work in teams for this porject. These HITs will require m
 	$ ls assignment6/
 	clean_and_process_data.py	convert_to_csv.py		gun-violence-urls.txt</code></pre>
 
-2. You should see three files. <code>gun-violence-urls.txt</code> contains 198 urls that your workers labeled as gun-related in the previous assignment. <code>clean_and_process_data.py</code> is a script which will perform basic text processing to clean up your articles and help pull out some potentially useful information (like names and locations). <code>convert_to_csv.py</code> will put your data into a csv that can be uploaded to Crowdflower. 
+2. You should see three files. `gun-violence-urls.txt` contains 198 urls that your workers labeled as gun-related in the previous assignment. `clean_and_process_data.py` is a script which will perform basic text processing to clean up your articles and help pull out some potentially useful information (like names and locations). <code>convert_to_csv.py</code> will put your data into a csv that can be uploaded to Crowdflower. 
 
 3. In order to do the text processing, we will be using the [Alchemy API](http://www.alchemyapi.com/api/calling-the-api/). This is a super awesome professional API which does a lot of very complicated NLP for you and makes it seem easy. In order to use it, you will need to [sign up for an account](http://www.alchemyapi.com/api/register.html) and get an API key. The default account will give you 1,000 API calls a day. This is probably enough for this assignment- you will need two calls per url, so if you only mess up one and a half times, you should still be within your daily limit. However, if you want to explor it more (which you really should! its awesome!) you can sign up for an academic account, which will give you 30,000 calls a day. If you want to do this, let me know. It just requires sending an email to the sales team, and you can copy the email I used to request my academic license.
 
@@ -89,18 +89,15 @@ You will design two HITs on Crowdflower to extract this information from the art
 
 3. Just because this is the "simple HIT design" doesn't mean it should be a UI monstrosity. Crowdflower has a pretty cool [custom markup language]() which gives you some nice control over how your questions are displayed. You might want to consider using something like the "only-if" field, so that workers don't have to view questions about victims number 2,3,4, and 5 if there is only one victim in the article. For example, I used this code so that the "Name of victim #2" question only appears if the worker answered that there are 2 or more victims. 
 	
-	<pre><code>
- 	<cml:select label="Number of shooters" validates="required">
-    	<cml:option label="1" id=""/>
-    	<cml:option label="2" id=""/>
-    	<cml:option label="3" id=""/>
-    	<cml:option label="4" id=""/> 
-    	<cml:option label="5 or more" id=""/>           
-	</cml:select>
-
-	...
-
-	<cml:text label="Shooter #2 name" only-if="number_of_shooters:[2]||number_of_shooters:[3]||number_of_shooters:[4]||number_of_shooters:[5]" validates="required"/></code></pre>
+    <cml:select label="Number of shooters" validates="required">
+    <cml:option label="1" id=""/>
+    <cml:option label="2" id=""/>
+    <cml:option label="3" id=""/>
+    <cml:option label="4" id=""/> 
+    <cml:option label="5 or more" id=""/>           
+    </cml:select>
+    ...
+    <cml:text label="Shooter #2 name" only-if="number_of_shooters:[2]||number_of_shooters:[3]||number_of_shooters:[4]||number_of_shooters:[5]" validates="required"/>
 
 ####Less bad design
 
