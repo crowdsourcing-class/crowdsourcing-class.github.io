@@ -122,7 +122,7 @@ You will design two HITs on Crowdflower to extract this information from the art
 
 7. Take another shot at your interface design, now taking advantage of the fact that you have a fairly good (but not perfect) list of the people and places in the article. You are welcome to reimpliment my design, although there is lots of room for improvement. Check the extra credit opportunities for more ideas! 
 
-####Extra credit
+###Extra credit
 
 If you like web design, awesome! We are completely willing to give extra credit for faster, simpler, and sexier UIs. A few ideas:
 
@@ -138,7 +138,7 @@ This assignment is due <b>Wednesday, October 22</b>. You can work in pairs, but 
 
 	<pre><code>$ turnin -c nets213 -p crowdie -v *</code></pre>
 
-####Very useful hints
+###Very useful hints
 
 1. If you want to launch your HIT so that only you can do it (to test it without paying workers), go to "Contributors" and then to the "Channels" tab, and turn off "On-Demand Workforce." Then you can follow the link at the bottom of the dashboard to test your own HIT. 
 
