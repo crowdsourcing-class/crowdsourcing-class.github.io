@@ -86,7 +86,7 @@ You will design two HITs on Crowdflower to extract this information from the art
 
 ####Not very good design
 
-1. First, we will design a simple HIT. You can see my simple version [here](https://tasks.crowdflower.com/assignments/10fc01e8-201e-41d5-b315-b55cf136e6ed). You do not have to follow my designs exactly, but your design should extract the same information.
+1. First, we will design a simple HIT. You can see my simple version [here](https://tasks.crowdflower.com/assignments/10fc01e8-201e-41d5-b315-b55cf136e6ed) (you might need to click the "start a new assignment" link). You do not have to follow my designs exactly, but your design should extract the same information.
 
 2. From assignment 5, you should all be familiar with how to use the crowdflower interface. You should use <code>gun-violence-urls.txt</code> as your input data (remember you will need to add a header row!); in the next design, you will have to use an input with some more columns, but for now, you only need the urls.
 
@@ -136,7 +136,7 @@ If you like web design, awesome! We are completely willing to give extra credit 
 
 This assignment is due <b>Wednesday, October 22</b>. You can work in pairs, but you must declare the fact that you are working together when you turn your assignment. Remember to turn submit your questionnaire before the deadline. You can turn in your data and screenshots using turnin:
 
-	<pre><code>$ turnin -c nets213 -p crowdie -v *</code></pre>
+<pre><code>$ turnin -c nets213 -p crowdie -v *</code></pre>
 
 ###Very useful hints
 
