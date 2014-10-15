@@ -29,7 +29,7 @@ You will might want to work in teams for this porject. These HITs will require m
 
 1. In assignment 5, you guys had workers label your classifier's results. To give you data to work with, we've pulled together 200 of the urls your workers called "gun related." We've also written some code to do some text processing for you, which we will talk about in a few steps. You can download all the code and data [here](). 
 
-	<pre><code>$ wget assignment6.tgz
+	<pre><code> $ wget assignment6.tgz
 	$ tar -xvzf assignment6.tgz
 	$ ls assignment6/
 	clean_and_process_data.py	convert_to_csv.py		gun-violence-urls.txt</code></pre>
@@ -42,42 +42,42 @@ You will might want to work in teams for this porject. These HITs will require m
 
 As you may remember from [Doug's lecture](), there are a lot of details about gun crimes that epidemiologists are interested in. For this assignment, you are going to ask workers to try to extract the following information: 
 
-	- Time and place
-		- City
-		- State
-		- Additional fine-grained location information 
-		- Date
-		- Time of day
-	- Detials about shooter(s) (may have to answer questions multiple times if multiple victims)
-		- Number of shooters
-		- Name
-		- Gender
-		- Age
-		- Race
-	- Detials about victim(s) (may have to answer questions multiple times if multiple victims)
-		- Number of victims
-		- Name
-		- Gender
-		- Age
-		- Race
-		- Killed? 
-		- Injured?
-		- Hospitalized? 
-	- Circumstances of shooting
-		- Type of gun
-		- Number of shots fired
-		- Was it a case of domestic violence?
-		- Did the ictim and shooter know each other?
-		- Was the shooting during another crime (robbery, home invasion by the shooter, etc)?
-		- Was the shooter attempting to deter a home invasion?
-		- Was alcohol involved?
-		- Were drugs involved?
-		- Suicide or suicide attempt?
-		- Inadvertent discharge of a firearm? 
-		- Shooting by the police?
-		- Shooting of a police officer?
-		- Was the gun stolen?
-		- Was the gun owned by the vitim or thier family?
+- Time and place
+	- City
+	- State
+	- Additional fine-grained location information 
+	- Date
+	- Time of day
+- Detials about shooter(s) (may have to answer questions multiple times if multiple victims)
+	- Number of shooters
+	- Name
+	- Gender
+	- Age
+	- Race
+- Detials about victim(s) (may have to answer questions multiple times if multiple victims)
+	- Number of victims
+	- Name
+	- Gender
+	- Age
+	- Race
+	- Killed? 
+	- Injured?
+	- Hospitalized? 
+- Circumstances of shooting
+	- Type of gun
+	- Number of shots fired
+	- Was it a case of domestic violence?
+	- Did the ictim and shooter know each other?
+	- Was the shooting during another crime (robbery, home invasion by the shooter, etc)?
+	- Was the shooter attempting to deter a home invasion?
+	- Was alcohol involved?
+	- Were drugs involved?
+	- Suicide or suicide attempt?
+	- Inadvertent discharge of a firearm? 
+	- Shooting by the police?
+	- Shooting of a police officer?
+	- Was the gun stolen?
+	- Was the gun owned by the vitim or thier family?
 
 You will design two HITs on Crowdflower to extract this information from the articles. In the first, you will simply provide the article and ask workers to fill in the information. In the second, you will do some preprocessing to try to make the workers' job easier. 
 
@@ -89,7 +89,7 @@ You will design two HITs on Crowdflower to extract this information from the art
 
 3. Just because this is the "simple HIT design" doesn't mean it should be a UI monstrosity. Crowdflower has a pretty cool [custom markup language]() which gives you some nice control over how your questions are displayed. You might want to consider using something like the "only-if" field, so that workers don't have to view questions about victims number 2,3,4, and 5 if there is only one victim in the article. For example, I used this code so that the "Name of victim #2" question only appears if the worker answered that there are 2 or more victims. 
 	
-    <code><pre>&lt;cml:select label="Number of shooters" validates="required"&gt;
+    <pre><code> &lt;cml:select label="Number of shooters" validates="required"&gt;
     &lt;cml:option label="1" id=""/&gt;
     &lt;cml:option label="2" id=""/&gt;
     &lt;cml:option label="3" id=""/&gt;
