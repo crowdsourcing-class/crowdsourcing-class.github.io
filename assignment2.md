@@ -21,6 +21,7 @@ This week we will be looking at the wealth of companies that use crowdsourcing a
 [ALEC](http://www.alec.org/model-legislation/),
 [ALICE](http://alicelaw.org),
 [Amazon reviews/product recommendations](https://www.amazon.com),
+[benefunder](http://www.benefunder.org),
 [Book Country](http://www.bookcountry.com),
 [Buy Amazon Reviews](http://www.buyamazonreviews.com),
 [change.org](https://www.change.org),
