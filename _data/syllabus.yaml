@@ -209,9 +209,19 @@
       author: Nicolas Kokkalis, Thomas Köhn, Carl Pfeiffer, Dima Chornyi, Michael Bernstein, and Scott Klemmer
       title:  EmailValet&#58; Managing Email Overload through Private, Accountable Crowdsourcing
       url: readings/downloads/hci/EmailValet.pdf
-
 -
-  date: 2014-09-29
+  date: 2014-10-08
+  title: In-class presentations&#58; Pitch your term project ideas
+  slides: http://crowdsourcing-class.org/final-project-pitches.html
+-
+  date: 2014-10-13
+  title: In-class presentations&#58; Pitch your term project ideas
+  slides: http://crowdsourcing-class.org/final-project-pitches.html
+-
+  date: 2014-10-15
+  title: No class today. Instructor and TA will be traveling for a DARPA meeting.  
+-
+  date: 2014-10-20
   slides: http://crowdsourcing-class.org/slides/quality-control.pdf
   title: Quality Control part 1
   highlights:
@@ -229,12 +239,12 @@
       title:  Cheap and Fast — But is it Good? Evaluating Non-Expert Annotations for Natural Language Tasks
       url: readings/downloads/nlp/evaluating-non-expert-annotations-for-nlp.pdf
 -
-  date: 2014-10-01  
+  date: 2014-10-22  
   slides: http://crowdsourcing-class.org/slides/quality-control-2.pdf
   title: Quality Control part 2
   highlights:
-    - Reputation systems
     - Economic incentives
+    - Reputation systems
   reading:
     -
       title: The Wisdom of Crowds&#58; Chapter 8 ("Science&#58; Collaboration, Competition and Reputation")
@@ -247,10 +257,11 @@
       title:  Financial Incentives and the Performance of Crowds
       url: readings/downloads/econ/financial-incentives-and-the-performance-of-crowds.pdf
 -
-  date: 2014-10-06
+  date: 2014-10-27
   slides: http://crowdsourcing-class.org/slides/quality-control-32.pdf
   title: Quality Control part 3
   highlights:
+    - More on reputation systems
     - The EM algorithm
   reading:
     -
@@ -264,42 +275,7 @@
       title:  Get Another Label? Improving Data Quality and Data Mining Using Multiple, Noisy Labelers
       url: readings/downloads/econ/get-another-label.pdf
 -
-  date: 2014-10-08
-  title: In-class presentations&#58; Pitch your term project ideas
--
-  date: 2014-10-13
-  title: In-class presentations&#58; Pitch your term project ideas
--
-  date: 2014-10-15
-  title: No class today. Instructor and TA will be traveling for a DARPA meeting.  
--
-  date: 2014-10-20
-  slides: http://crowdsourcing-class.org/slides/machine-learning-2.pdf
-  title: Machine Learning part 2
-  highlights:
-    - A high level perspective on how machine learning works and why it can fail
-  reading:
-    -
-      title: The Wisdom of Crowds&#58; Chapter 10 ("The Company&#58; Meet the New Boss, Same as the Old Boss?")
-    -
-      author: Pedro Domingos
-      title:  A Few Useful Things to Know about Machine Learning
-      url: readings/downloads/ml/useful-things-to-know-about-machine-learning.pdf
--
-  date: 2014-10-22
-  slides: http://crowdsourcing-class.org/slides/machine-learning-3.pdf
-  title: Machine Learning part 3
-  highlights:
-    - Integrating machine learning and crowdsourcing
-  reading:
-    -
-      title: The Wisdom of Crowds&#58; Chapter 11 ("Markets&#58; Beauty Contests, Bowling Alleys, and Stock Prices")
-    -
-      author: Pedro Domingos
-      title:  A Few Useful Things to Know about Machine Learning
-      url: readings/downloads/ml/useful-things-to-know-about-machine-learning.pdf
--
-  date: 2014-10-27
+  date: 2014-10-29
   slides: http://crowdsourcing-class.org/slides/twitter-first-story-detection.pdf
   title: Distilling Collective Intelligence from Twitter part 1
   highlights:
