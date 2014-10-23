@@ -276,55 +276,6 @@
       url: readings/downloads/econ/get-another-label.pdf
 -
   date: 2014-10-29
-  slides: http://crowdsourcing-class.org/slides/twitter-first-story-detection.pdf
-  title: Distilling Collective Intelligence from Twitter part 1
-  highlights:
-    - Topic Detection and Tracking
-    - Approximate algorithms for scaling to large data sets
-  reading:
-    -
-      title: The Wisdom of Crowds&#58; Chapter 12 ("Democracy&#58; Dreams of the Common Good")
-    -
-      author: Sasa Petrovic, Miles Osborne, and Victor Lavrenko
-      title:  Streaming First Story Detection with application to Twitter
-      url: readings/downloads/twitter/streaming-first-story-detection-with-application-to-twitter.pdf
-    -
-      author: Ben Van Durme and Ashwin Lall
-      title:  Online Generation of Locality Sensitive Hash Signatures
-      url: readings/downloads/twitter/online-generation-of-locality-sensitive-hash-signatures.pdf
-    -
-      author: Sariel Har-Peled, Piotr Indyk and Rajeev Motwani 
-      title:  Approximate Nearest Neighbors&#58; Towards Removing the Curse of Dimensionality
-      url: readings/downloads/twitter/approximate-nearest-neighbors.pdf
--
-  date: 2014-10-29
-  slides: http://crowdsourcing-class.org/slides/twitter-for-public-health.pdf
-  title: Distilling Collective Intelligence from Twitter part 2
-  speaker: Michael Paul
-  speaker_url: http://cs.jhu.edu/~mpaul/
-  highlights:
-    - Public health and Twitter
-  reading:
-    -
-      author: Michael Paul and Mark Dredze
-      title:  You are what you Tweet&#58; Analyzing Twitter for Public Health
-      url: readings/downloads/twitter/analyzing-twitter-for-public-health.pdf
--
-  date: 2014-11-05
-  title: Detecting Emotional Contagion in Massive Social Networks
-  highlights:
-    - 
-  reading:
-    -
-      author: Lorenzo Coviello, Yunkyu Sohn, Adam Kramer, Cameron Marlow, Massimo Franceschetti, Nicholas Christakis, and James Fowler
-      title:  Detecting Emotional Contagion in Massive Social Networks
-      url: http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0090315
-    -
-      author: TLDR podcast
-      title:  TLDR #32 - An Imperfect Match
-      url: http://www.onthemedia.org/story/tldr-32-imperfect-match/
--
-  date: 2014-11-10
   title: A/B Testing
   slides: http://crowdsourcing-class.org/slides/ab-testing.pdf
   highlights:
@@ -347,11 +298,64 @@
       title:  Optimizely
       url: https://www.optimizely.com
 -
-  date: 2014-11-12
+  date: 2014-11-03
   title: Prediction Markets
   slides: http://crowdsourcing-class.org/slides/prediction-markets.pdf
   speaker: Ellie Pavlick
   speaker_url: http://www.seas.upenn.edu/~epavlick/
+-
+  date: 2014-11-05
+  slides: http://crowdsourcing-class.org/slides/twitter-first-story-detection.pdf
+  title: Distilling Collective Intelligence from Twitter part 1
+  highlights:
+    - Topic Detection and Tracking
+    - Approximate algorithms for scaling to large data sets
+  reading:
+    -
+      title: The Wisdom of Crowds&#58; Chapter 12 ("Democracy&#58; Dreams of the Common Good")
+    -
+      author: Sasa Petrovic, Miles Osborne, and Victor Lavrenko
+      title:  Streaming First Story Detection with application to Twitter
+      url: readings/downloads/twitter/streaming-first-story-detection-with-application-to-twitter.pdf
+    -
+      author: Ben Van Durme and Ashwin Lall
+      title:  Online Generation of Locality Sensitive Hash Signatures
+      url: readings/downloads/twitter/online-generation-of-locality-sensitive-hash-signatures.pdf
+    -
+      author: Sariel Har-Peled, Piotr Indyk and Rajeev Motwani 
+      title:  Approximate Nearest Neighbors&#58; Towards Removing the Curse of Dimensionality
+      url: readings/downloads/twitter/approximate-nearest-neighbors.pdf
+-
+  date: 2014-11-10
+  slides: http://crowdsourcing-class.org/slides/twitter-for-public-health.pdf
+  title: Distilling Collective Intelligence from Twitter part 2
+  highlights:
+    - Public health and Twitter
+  reading:
+    -
+      author: Michael Paul and Mark Dredze
+      title:  You are what you Tweet&#58; Analyzing Twitter for Public Health
+      url: readings/downloads/twitter/analyzing-twitter-for-public-health.pdf
+-
+  date: 2014-11-12
+  title: Detecting Emotional Contagion in Massive Social Networks
+  highlights:
+    - Human subjects research
+    - Privacy
+    - Are you part of a social experiment?
+  reading:
+    -
+      author: Lorenzo Coviello, Yunkyu Sohn, Adam Kramer, Cameron Marlow, Massimo Franceschetti, Nicholas Christakis, and James Fowler
+      title:  Detecting Emotional Contagion in Massive Social Networks
+      url: http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0090315
+    -
+      author: TLDR podcast
+      title:  TLDR #32 - An Imperfect Match
+      url: http://www.onthemedia.org/story/tldr-32-imperfect-match/
+    -
+      author: neustar Research
+      title:  Riding with the Stars&#58; Passenger Privacy in the NYC Taxicab Dataset
+      url: http://research.neustar.biz/2014/09/15/riding-with-the-stars-passenger-privacy-in-the-nyc-taxicab-dataset/
 -
   date: 2014-11-17
   title: Crowdsourcing Translation
@@ -375,8 +379,6 @@
   date: 2014-11-19
   title: Crowdsourcing for Automatic Speech Recognition
   slides: http://crowdsourcing-class.org/slides/crowdsourcing-speech-recognition.pdf
-  speaker: Scott Novotney
-  speaker_url: http://www.clsp.jhu.edu/people/scott-novotney/
   highlights:
     - A high level overview of automatic speech recognition
     - Using crowdsourcing to train ASR systems
@@ -406,9 +408,7 @@
   title: No class (Friday class schedule today)
 -
   date: 2014-12-01
-  title: Review of machine learning homework
-  speaker: Ellie Pavlick
-  speaker_url: http://www.seas.upenn.edu/~epavlick/
+  title: TBD
 -
   date: 2014-12-03
   title: Personality, Gender and Age in the Language of Social Media
