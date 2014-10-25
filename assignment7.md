@@ -8,7 +8,7 @@ active_tab: homework
 
 
 <div class="alert alert-info">
-  This assignment is due before midnight on Saturday, November 1st.
+  This assignment is due before 11:59 pm on Friday, October 31st.
 </div>
 
 Literature Review<span class="text-muted"> : Assignment 7</span> 
