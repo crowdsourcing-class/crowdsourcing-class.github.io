@@ -1,6 +1,6 @@
 ---
 layout: default
-img: ML
+img: bookreport
 caption: Crowdsourcing FTW!
 title: Homework 7 | Literature Review
 active_tab: homework
@@ -8,7 +8,7 @@ active_tab: homework
 
 
 <div class="alert alert-info">
-  This assignment is due before class on Wednesday, October 29.
+  This assignment is due before midnight on Saturday, November 1st.
 </div>
 
 Literature Review<span class="text-muted"> : Assignment 7</span> 
