@@ -22,7 +22,7 @@ Here are the peer reviews of your term project ideas:
     <div class="panel-heading">
       <div class="panel-title">
         <a data-toggle="collapse" data-parent="#accordion{{ anchor }}" href="#{{ anchor }}">
-	<b>{{ review.project }}</b> - {{ review.rank }} 
+	{{ review.group }} - <b>{{ review.project }}</b> - {{ review.rank }} 
         </a>
       </div>
     </div>
