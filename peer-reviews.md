@@ -22,13 +22,12 @@ Here are the peer reviews of your term project ideas:
     <div class="panel-heading">
       <div class="panel-title">
         <a data-toggle="collapse" data-parent="#accordion{{ anchor }}" href="#{{ anchor }}">
-	<b>{{ review.project }}</b> 
+	<b>{{ review.project }}</b> {{ review.rank }} 
         </a>
       </div>
     </div>
     <div id="{{ anchor }}" class="panel-collapse collapse">
       <div class="panel-body">
-	<b>Rank: </b> {{ review.rank }} <br />
 	<b>How relevant is this project to the course?</b> {{ review.relevance }} <br />
 	<b>How feasible is it to execute this project by the end of the semester?</b> {{ review.feasibility }} <br />
 	<b>How well fleshed out is the plan to incentivize/recruit a crowd for this project?</b> {{ review.incentives }} <br />
