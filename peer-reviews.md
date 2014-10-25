@@ -28,7 +28,6 @@ Here are the peer reviews of your term project ideas:
     </div>
     <div id="{{ anchor }}" class="panel-collapse collapse">
       <div class="panel-body">
-	<b>Rank:</b> {{ review.rank_full }} <br />
 	<b>How relevant is this project to the course?</b> {{ review.relevance }} <br />
 	<b>How feasible is it to execute this project by the end of the semester?</b> {{ review.feasibility }} <br />
 	<b>How well fleshed out is the plan to incentivize/recruit a crowd for this project?</b> {{ review.incentives }} <br />
@@ -38,6 +37,7 @@ Here are the peer reviews of your term project ideas:
 	<b>How exciting is this project?</b> {{ review.excitement }} <br />
 	<b>Suggestions:</b> {{ review.suggestions }} <br />
 	<b>Potential Problems:</b> {{ review.problems }} <br />
+	<b>Full Rank:</b> {{ review.rank_full }} <br />
       </div>
     </div>
   </div>
