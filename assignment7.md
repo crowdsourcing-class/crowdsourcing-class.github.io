@@ -1,7 +1,7 @@
 ---
 layout: default
 img: bookreport
-caption: Crowdsourcing FTW!
+caption:
 title: Homework 7 | Literature Review
 active_tab: homework
 ---
