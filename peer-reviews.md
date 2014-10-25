@@ -28,8 +28,8 @@ Here are the peer reviews of your term project ideas:
     </div>
     <div id="{{ anchor }}" class="panel-collapse collapse">
       <div class="panel-body">
-	<b>Suggestions</b> {{ review.suggestions }} <br />
-	<b>Potential Problems</b> {{ review.problems }} <br />
+	<b>Suggestions:</b> {{ review.suggestions }} <br /><br />
+	<b>Potential Problems:</b> {{ review.problems }} <br /><br />
       </div>
     </div>
   </div>
