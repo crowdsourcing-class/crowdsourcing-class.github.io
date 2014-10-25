@@ -28,9 +28,15 @@ Here are the peer reviews of your term project ideas:
     </div>
     <div id="{{ anchor }}" class="panel-collapse collapse">
       <div class="panel-body">
-	<b>Relevance:</b> {{ review.relevance }} <br /><br />
-	<b>Suggestions:</b> {{ review.suggestions }} <br /><br />
-	<b>Potential Problems:</b> {{ review.problems }} <br /><br />
+	<b>How relevant is this project to the course?</b> {{ review.relevance }} <br />
+	<b>How feasible is it to execute this project by the end of the semester?</b> {{ review.feasibility }} <br />
+	<b>How well fleshed out is the plan to incentivize/recruit a crowd for this project?</b> {{ review.incentives }} <br />
+	<b>How well fleshed out is the plan to ensure the quality of the crowd's results?</b> {{ review.quality }} <br />
+	<b>How well fleshed out is the plan to aggregate the crowd's contribution for this project?</b> {{ review.aggregation }} <br />
+	<b>Is it likely that the team will be able to recruit the crowd it needs to execute this project?</b> {{ review.recruitment }} <br />
+	<b>How exciting is this project?</b> {{ review.excitement }} <br />
+	<b>Suggestions:</b> {{ review.suggestions }} <br />
+	<b>Potential Problems:</b> {{ review.problems }} <br />
       </div>
     </div>
   </div>
