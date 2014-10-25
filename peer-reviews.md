@@ -35,8 +35,8 @@ Here are the peer reviews of your term project ideas:
 	<b>How well fleshed out is the plan to aggregate the crowd's contribution for this project?</b> {{ review.aggregation }} <br />
 	<b>Is it likely that the team will be able to recruit the crowd it needs to execute this project?</b> {{ review.recruitment }} <br />
 	<b>How exciting is this project?</b> {{ review.excitement }} <br />
-	<b>Suggestions:</b> {{ review.suggestions }} <br />
 	<b>Potential Problems:</b> {{ review.problems }} <br />
+	<b>Suggestions:</b> {{ review.suggestions }} <br />
 	<b>Full Rank:</b> {{ review.rank_full }} <br />
       </div>
     </div>
