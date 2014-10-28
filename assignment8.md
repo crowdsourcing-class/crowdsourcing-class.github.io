@@ -1,3 +1,8 @@
+<!-- MathJax -->
+<script type="text/javascript"
+src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
 ---
 layout: default
 img: quality-never-goes-out-of-style
@@ -5,6 +10,7 @@ caption: Quality never goes out of style.
 title: Homework 8 | Quality control
 active_tab: homework
 ---
+
 
 
 <div class="alert alert-info">
@@ -39,7 +45,7 @@ You will be using your own data from [Assignment 5](http://crowdsourcing-class.o
 
 ##Part 1: Majority vote
     
-	$$q_i = \frac{\sum_{t \in \text{tweets}[i]} \delta(l_{ti} == \text{majority}[t])}{|\text{tweets}[i]|}$$
+q_i = \frac{\sum_{t \in \text{tweets}[i]} \delta(l_{ti} == \text{majority}[t])}{|\text{tweets}[i]|}
 
 ##Part 2: Weighted majority vote
 
