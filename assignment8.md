@@ -16,43 +16,38 @@ Quality Control<span class="text-muted">: Assignment 8</span>
 =============================================================
 As you all may have noticed, it is easy to get a lot of junk answers from Crowdflower. According to your workers, there are currently shooters on the loose with names like "3", "hi", "https://tasks.crowdflower.com/assignments/823118d2-af64-4c5e-b6f1-0510e2a2e659", and my personal favorite: ["felony"](http://freakonomics.com/2013/04/08/how-much-does-your-name-matter-a-new-freakonomics-radio-podcast/).
 
-That being said, a lot of you actually go very good results. Before getting hung up on the various frustrating expereinces so many of you had, keep in mind the big picture. You are hiring anonymous workers from across the country (or world, if you forgot to set up your filters!), which Crowdflower recruits from ultra-sketchy sites like [this gem](http://www.clixsense.com/), and you are paying them a few cents for their time. I don't know about you, but based on all of my cynical models of human behavior, I would absolutely expect that you get 100% crap results back. But the truth is, you don't. You get a lot of really legitimate work from a lot of very sincere workers, you just need to make some effort on your end to tease apart the good from that bad, which isn't always trivial. This is why we can dedicate a whole course to studying crowdsourcing, and its not a total waste of your Ivy League eduation. 
+That being said, a lot of you actually go very good results. Before getting hung up on the various frustrating expereinces so many of you had, keep in mind the big picture. You are hiring anonymous workers from across the country (or world, if you forgot to set up your filters!), which Crowdflower recruits from ultra-sketchy sites like [this gem](http://www.clixsense.com/), and you are paying them a few cents for their time. I don't know about you, but based on all of my cynical models of human behavior, I would absolutely expect that you get 100% crap results back. But the truth is, you don't. You get a lot of really legitimate work from a lot of very sincere workers, you just need to make some effortto tease apart the good from that bad, which isn't always trivial. This is why we can dedicate a whole course to studying crowdsourcing, and its not a total waste of your Ivy League eduation. 
 
 So, this week, we will attempt to answer two big questions:
 
-1. How good are the labels I received? How do I combine the (likely conflicting) labels from multiple Turkers in order to accurately label my data?
-2. How good are my workers? Which workers are reliable and which ones appear to be incompetent, lazy, and/or inebriated?
+1. How good are my workers? Which workers are reliable and which ones appear to be incompetent, lazy, and/or inebriated?
+2. How do I combine the (likely conflicting) labels from multiple Turkers in order to accurately label my data?
 
 In class, we have discussed three different quality estimation methods to answer these questions:
 
-1. Majority vote : A label is considered 'correct' if it agrees with the majority, i.e. matches whatever is most popular. 
-2. Confidence-weighted vote : A label is considered 'correct' if it agrees with the majority, but all workers are not equal. A workers weight is proportional to their accuracy on your embedded gold-standard questions.
-3. [Expectation maximization](http://en.wikipedia.org/wiki/Expectation%E2%80%93maximization_algorithm) : A label's 'correctness' is determined using an iterative algorithm, which uses the estimated quality of the worker in order to infer the labels, and then the estimated labels in order to infer the quality of the worker. This algorithmic framework is one of the favorites of machine learning and NLP, and we will cover it in more detail in the lecture. For this assignment, we will use Panos Ipeirotis' implementation, [Project Troia](http://project-troia.com/).
+1. Majority vote: A label is considered 'correct' if it agrees with the majority, and all votes are equal. (Pure democracy!)
+2. Confidence-weighted vote: A label is considered 'correct' if it agrees with the majority, but all workers are not equal. A worker's weight is proportional to their accuracy on your embedded gold-standard questions. (Elitist republic!)
+3. [Expectation maximization](http://en.wikipedia.org/wiki/Expectation%E2%80%93maximization_algorithm) : A label's 'correctness' is determined using an iterative algorithm, which uses the estimated quality of the worker in order to infer the labels, and then the estimated labels in order to infer the quality of the worker. (Some new-fangled solution to politics...?)
 
-For this assignment, you will run all three algorithms and provide a brief analysis comparing them to eachother and to Crowdflower's super-secret quality estimation algorithm. For this assignment, we will work with the results of your first crowdflower task (the binary gun/not gun judgement HIT), since the algorithms are not designed for open-ended answers. You should think about ways to map these concepts onto the open-ended IE HIT you worked with last week.
+For this assignment, you will run the first two algorithms and provide a brief analysis comparing them to eachother and to Crowdflower's super-secret quality estimation algorithm. We will work with the results of your first crowdflower task (the binary gun/not gun judgement HIT), since the algorithms are not designed for open-ended answers. You should think about ways to map these concepts onto the open-ended IE HIT you worked with last week.
 
-<!--
-##TO DO
+Since EM is a more advanced algorithm, we will only require you to walk through a toy example. If you are interested in machine learning, and want to understand this concept better, you are welcome and encouraged to run it on your actual Crowdflower data. We will give you all the extra credit you could ever desire. Your name will be know all across Levine Hall.
 
-1. As in previous assignments, we will provide you with code and ask you to fill in a few lines of the logic in order to run the algorithms. Download our code <a href="downloads/assignment_4.tar.gz">here</a>, and unzip the tarball. 
-	$ tar -xvzf assignment_4.tar.gz
-    You will see six files. The ones denoted 'template' are the ones that you will have to edit. As a brief overview of the files:
-    <code>label&#95;map.py</code> : Should look familiar from last assignment - a mapping of the labels that you used in your HIT to standard labels.
+##To Do
 
-    <code>majority&#95;vote&#95;template.py</code> : Majority vote quality estimation
+You will be using your own data from [Assignment 5](http://crowdsourcing-class.org/assignment5.html). You should download three reports: we will use the "Full" report for our own computations; we will use the "Aggregated" one and the "Contributors" one so that you can compare your own aggregation techniques against the ones used by Crowdflower.
+
+##Part 1: Majority vote
     
-    <code>embedded&#95;control&#95;template.py</code> : Embedded control quality estimation. You will not need to edit this file since you did this last week.
-    <code>troia&#95;em&#95;template.py</code> : EM quality estimation using Troia server .
-    
-    <code>quality&#95;estimation.py</code> : Combines the estimates from the above three algorithms, and outputs aggregated CSV files for analyzing.
+	$$q_i = \frac{\sum_{t \in \text{tweets}[i]} \delta(l_{ti} == \text{majority}[t])}{|\text{tweets}[i]|}$$
 
-    <code>analysis&#95;template.py</code> : Runs some basic analysis to compare differences in the algorithms
+##Part 2: Weighted majority vote
+
+##Part 3: The EM algorithm
+
 	
-Each of the three algorithm files (<code>majority&#95;vote&#95;template.py</code>, <code>embedded&#95;control.py</code> , and <code>troia&#95;em&#95;template.py</code>) implements two methods, <code>estimate&#95;data&#95;labels()</code> and <code>estimate&#95;worker&#95;qualitites()</code>, which do exactly what they sound like they should do (I debated naming them <code>method&#95;1()</code> and <code>method&#95;2()</code> but my proper programming training got the best of me), but differ slightly based on the algorithm. You will be responsible for completing this methods in <code>majority&#95;vote&#95;template.py</code> and completing a small piece in <code>troia&#95;em&#95;template.py</code>. 
 
-2. Open <code>label&#95;map.py</code> and fill in your labels, the same way you did in the previous assignment.
-
-3. Open <code>majority&#95;vote&#95;template.py</code>. You will need to provide a few lines of code to complete the logic in the two methods metioned above. The comments in the code should help you but, in the spirit of EM, I will reiterate:
+<!--3. Open <code>majority&#95;vote&#95;template.py</code>. You will need to provide a few lines of code to complete the logic in the two methods metioned above. The comments in the code should help you but, in the spirit of EM, I will reiterate:
 
     <code>estimate&#95;data&#95;labels()</code> : Here, you simply need to return a dictionary mapping each tweet to its most popular label.
 
