@@ -1,8 +1,3 @@
-<!-- MathJax -->
-<script type="text/javascript"
-src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
-
 ---
 layout: default
 img: quality-never-goes-out-of-style
@@ -16,6 +11,11 @@ active_tab: homework
 <div class="alert alert-info">
   This assignment is due before class on Wednesday, November 5th.
 </div>
+
+<!-- MathJax -->
+<script type="text/javascript"
+src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
 
 
 Quality Control<span class="text-muted">: Assignment 8</span> 
