@@ -12,12 +12,6 @@ active_tab: homework
   This assignment is due before class on Wednesday, November 5th.
 </div>
 
-<!-- MathJax -->
-<script type="text/javascript"
-src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
-
-
 Quality Control<span class="text-muted">: Assignment 8</span> 
 =============================================================
 As you all may have noticed, it is easy to get a lot of junk answers from Crowdflower. According to your workers, there are currently shooters on the loose with names like "3", "hi", "https://tasks.crowdflower.com/assignments/823118d2-af64-4c5e-b6f1-0510e2a2e659", and my personal favorite: ["felony"](http://freakonomics.com/2013/04/08/how-much-does-your-name-matter-a-new-freakonomics-radio-podcast/).
@@ -45,8 +39,6 @@ You will be using your own data from [Assignment 5](http://crowdsourcing-class.o
 
 ##Part 1: Majority vote
     
-q_i = \frac{\sum_{t \in \text{tweets}[i]} \delta(l_{ti} == \text{majority}[t])}{|\text{tweets}[i]|}
-
 ##Part 2: Weighted majority vote
 
 ##Part 3: The EM algorithm
