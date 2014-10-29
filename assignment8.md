@@ -43,7 +43,7 @@ Majority vote is probably the easiest and most common way to aggregate your work
 
 	Lets call <i>u</i> a url and <i>labels</i> will be the dictionary that we build so <i>labels[u]</i> is the label we assign to <i>u</i>. Right now, we just have 
 
-	<p align="center" style="font-size:16px font-family:monospace">
+	<p align="center" style="font-size:16px font-family:courier">
 	<i>labels[u]</i> = majority label for <i>u</i>.
 	</p>
 
@@ -53,9 +53,9 @@ Majority vote is probably the easiest and most common way to aggregate your work
 
 	Lets call <i>qualities</i> the dictionary that we build to hold the quality of each worker. We'll call the <i>i</i>th worker <i>w<sub>i</sub></i> and we'll use  <i>urls[w<sub>i</sub>]</i> to represent all the urls for which <i>w<sub>i</sub></i> provided a label. We'll let <i>l<sub>ui</sub></i> to represent the label (e.g. "Gun-related", "Not gun-related", or "Don't know") that <i>w<sub>i</sub></i> assigns to url <i>u</i>. Then we calculate the quality of a worker as:
 
-<p align="center" style="font-size:18px">
-<i>qualities[w<sub>i</sub>]</i> = (1 / |<i>urls[w<sub>i</sub>]</i>|) * &Sigma;<sub><i>u</i> &isin; <i>urls[w<sub>i</sub>]</i></sub> &delta;(<i>l<sub>ui</sub> == labels[u]</i>)
-</p>
+	<p align="center" style="font-size:16px font-family:courier">
+	<i>qualities[w<sub>i</sub>]</i> = (1 / |<i>urls[w<sub>i</sub>]</i>|) * &Sigma;<sub><i>u</i> &isin; <i>urls[w<sub>i</sub>]</i></sub> &delta;(<i>l<sub>ui</sub> == labels[u]</i>)
+	</p>
 
 	Here, <i>&delta;(x)<i> is a special function which equals 1 if <i>x</i> is true, and 0 if <i>x</i> is false. 
 
@@ -67,23 +67,23 @@ Majority vote is great: easy, straightforward, fair. But should everyone really 
 
 3. For this, we will use the embedded test questions that you created. We will calculate each worker's quality to be their accuracy on the test questions. E.g.  
 
-<p align="center" style="font-size:18px">
-<i>qualities[w<sub>i</sub>]</i> = (1 / |<i>gold_urls[w<sub>i</sub>]</i>|) * &Sigma;<sub><i>u</i> &isin; <i>gold_urls[w<sub>i</sub>]</i></sub> &delta;(<i>l<sub>ui</sub> == gold_label[u]</i>)
-</p>
+	<p align="center" style="font-size:16px font-family:courier">
+	<i>qualities[w<sub>i</sub>]</i> = (1 / |<i>gold_urls[w<sub>i</sub>]</i>|) * &Sigma;<sub><i>u</i> &isin; <i>gold_urls[w<sub>i</sub>]</i></sub> &delta;(<i>l<sub>ui</sub> == gold_label[u]</i>)
+	</p>
 
 	Once again, output a two-column, tab-separated file in the format "workerId \t quality". (Hint: you can see whether or not a row in your csv file corresponds to a gold test question by checking the "_golden" column.)
 
 4. You can use these worker qualities to estimate new labels for each of the urls in your data. Now, instead of a every worker getting a vote of 1, each worker's vote will be equal to their quality score. So we can tally the votes as 
 
-<p align="center" style="font-size:18px">
-<i>votes[u][l]</i> = &Sigma;<sub><i>w</i> &isin; <i>workers[u]</i></sub> &delta;(<i>l<sub>ui</sub> == l</i>) * <i>qualities[w<sub>i</sub>]</i>
-</p>
+	<p align="center" style="font-size:16px font-family:courier">
+	<i>votes[u][l]</i> = &Sigma;<sub><i>w</i> &isin; <i>workers[u]</i></sub> &delta;(<i>l<sub>ui</sub> == l</i>) * <i>qualities[w<sub>i</sub>]</i>
+	</p>
 
 	where <i>votes[url][l]</i> is the weighted votes for assigning label <i>l</i> to url <i>u</i> and <i>workers[u]</i> just lists all of the workers who labeled <i>u</i>. Then 
 
-<p align="center" style="font-size:18px">
-<i>labels[u]</i> = <i>l</i> with max <i>votes[u][l]</i>
-</p>
+	<p align="center" style="font-size:16px font-family:courier">
+	<i>labels[u]</i> = <i>l</i> with max <i>votes[u][l]</i>
+	</p>
 
 	Output another file in the format "url \t label". 
 
