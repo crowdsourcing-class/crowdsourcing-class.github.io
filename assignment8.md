@@ -47,7 +47,7 @@ First, use majority vote to assign labels to each of the urls in your data. You 
 
 Lets call <i>u</i> a url and <i>labels</i> will be the dictionary that we build so <i>labels[u]</i> is the label we assign to <i>u</i>. Right now, we just have 
 
-<p align="center" style="font-size:14px">
+<p align="center" style="font-size:18px">
 <i>labels[u]</i> = majority label for <i>u</i>.
 </p>
 
@@ -57,7 +57,7 @@ Let's pull out some more notation, shall we? This is, after all, a CS class. We 
 
 Lets call <i>qualities</i> the dictionary that we build to hold the quality of each worker. We'll call the <i>i</i>th worker <i>w<sub>i</sub></i> and we'll use  <i>urls[w<sub>i</sub>]</i> to represent all the urls for which <i>w<sub>i</sub></i> provided a label. We'll let <i>l<sub>ui</sub></i> to represent the label (e.g. "Gun-related", "Not gun-related", or "Don't know") that <i>w<sub>i</sub></i> assigns to url <i>u</i>. Then we calculate the quality of a worker as:
 
-<p align="center" style="font-size:14px">
+<p align="center" style="font-size:18px">
 <i>qualities[w<sub>i</sub>]</i> = (1 / |<i>urls[w<sub>i</sub>]</i>|) * &Sigma;<sub><i>u</i> &isin; <i>urls[w<sub>i</sub>]</i></sub> &delta;(<i>l<sub>ui</sub> == labels[u]</i>)
 </p>
 
@@ -69,11 +69,44 @@ Again, you should output a <b>two-column, tab-separated file</b> in the format "
 
 Majority vote is great: easy, straightforward, fair. But should everyone really pull the same weight? As every insecure college student knows, whatever the smartest kid says is always right. So maybe we should recalibrate our voting, so that we listen more to the better workers. For this, we will use the embedded test questions that you created. We will calculate each worker's quality to be their accuracy on the test questions. E.g.  
 
-<p align="center" style="font-size:14px">
+<p align="center" style="font-size:18px">
 <i>qualities[w<sub>i</sub>]</i> = (1 / |<i>gold_urls[w<sub>i</sub>]</i>|) * &Sigma;<sub><i>u</i> &isin; <i>gold_urls[w<sub>i</sub>]</i></sub> &delta;(<i>l<sub>ui</sub> == gold_label[u]</i>)
 </p>
 
 Once again, output a two-column, tab-separated file in the format "workerId \t quality". (Hint: you can see whether or not a row in your csv file corresponds to a gold test question by checking the "_golden" column.)
+
+You can use these worker qualities to estimate new labels for each of the urls in your data. Now, instead of a every worker getting a vote of 1, each worker's vote will be equal to their quality score. So we can tally the votes as 
+
+<p align="center" style="font-size:18px">
+<i>votes[u][l]</i> = &Sigma;<sub><i>w</i> &isin; <i>workers[u]</i></sub> &delta;(<i>l<sub>ui</sub> == l</i>) * <i>qualities[w<sub>i</sub>]</i>
+</p>
+
+where <i>votes[url][l]</i> is the weighted votes for assigning label <i>l</i> to url <i>u</i> and <i>workers[u]</i> just lists all of the workers who labeled <i>u</i>. Then 
+
+<p align="center" style="font-size:18px">
+<i>labels[u]</i> = <i>l</i> with max <i>votes[u][l]</i>
+</p>
+
+Output another file in the format "url \t label". 
+
+###Comparing against Crowdflower
+
+Crowdflower has its own way of aggregating worker votes and determining confidence it workers. They keep their exact algorithms locked up and secret, but you can see the results in the csvs you downloaded. The results of their <i>labels[u]</i> is just the labels assigned in the "Aggregated" report. You can see their confidence in each worker in the "Contributors" report. You can download <a href="assignments/downloads/cf_aggregation.py">my script</a> to format their data for you. Run it as follows (passing it your aggregaed and contributor reports, respectively): 
+
+	$ python cf_aggregation.py -d a621213.csv -m data > crowdflower_data.txt
+	$ python cf_aggregation.py -d workset621213.csv -m worker > crowdflower_workers.txt
+
+You should now have 6 files, 3 "url \t label" files and 3 "workerId \t quality" files. You will do some comparisons and report your findings in [this questionnaire](). 
+
+First, we'll compare how well the three methods agree on what the "correct" label for each url should be. For this, we will use a metric called [Cohen's kappa](), which attempts to measure the level of agreement between two sets of categorical labels. You can download [my script]() for computing it, which you can run like this:
+
+	$ python kappa.py crowdflower_data.txt majority_data.txt 
+	kappa = 0.969854
+
+To compare how well the three methods agree on the worker qualities, we will use [Kendall tau]() correlation, which we talked about in class. Python has a [built-in implimentation]() that you can use, or you can [impliment it yourself](). Note that Python use's a slightly different definition than we discussed in class, so you might get different numbers depending on which method you decide to use. 
+
+Your deliverables for this section are the 6 files you generated (3 "url \t label" files and 3 "workerId \t quality" files) and any code you used to generate them. Your code should be clearly named and reasonably commented. We will not need to run it, but we should be able to read it and see clearly what you did to generate your results. Remember to fill in the [questionnaire]().
+
 
 ##Part 2: The EM algorithm
 
