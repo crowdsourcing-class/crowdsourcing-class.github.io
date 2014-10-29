@@ -276,27 +276,15 @@
       url: readings/downloads/econ/get-another-label.pdf
 -
   date: 2014-10-29
-  title: A/B Testing
-  slides: http://crowdsourcing-class.org/slides/ab-testing.pdf
-  highlights:
-    - Active versus passive crowdsourcing
-    - Optimizing web sites using A/B testing
+  title: Crowdsourcing Control&#58; Moving Beyond Multiple Choice
+  slides: to be posted
+  speaker: Mausam
+  speaker_url: http://homes.cs.washington.edu/~mausam/
   reading:
     -
-      author: Wired Magazine
-      title:  The A/B Test&#58; Inside the Technology That’s Changing the Rules of Business
-      url: http://www.wired.com/business/2012/04/ff_abtesting
-    -
-      author: Kyle Rush
-      title:  Optimization at the Obama campaign&#58; A/B Testing
-      url: http://o04151985.kylerush.net/blog/optimization-at-the-obama-campaign-ab-testing/
-    -
-      author: Ben Tilly
-      title:  Effective A/B Testing
-      url: http://elem.com/~btilly/effective-ab-testing/
-    -
-      title:  Optimizely
-      url: https://www.optimizely.com
+      author: Christopher Lin, Mausam, and Dan Weld
+      title:  Crowdsourcing Control&#58; Moving Beyond Multiple Choice
+      url: http://homes.cs.washington.edu/~mausam/papers/uai12a.pdf
 -
   date: 2014-11-03
   title: Prediction Markets
@@ -408,7 +396,27 @@
   title: No class (Friday class schedule today)
 -
   date: 2014-12-01
-  title: TBD
+  title: A/B Testing
+  slides: http://crowdsourcing-class.org/slides/ab-testing.pdf
+  highlights:
+    - Active versus passive crowdsourcing
+    - Optimizing web sites using A/B testing
+  reading:
+    -
+      author: Wired Magazine
+      title:  The A/B Test&#58; Inside the Technology That’s Changing the Rules of Business
+      url: http://www.wired.com/business/2012/04/ff_abtesting
+    -
+      author: Kyle Rush
+      title:  Optimization at the Obama campaign&#58; A/B Testing
+      url: http://o04151985.kylerush.net/blog/optimization-at-the-obama-campaign-ab-testing/
+    -
+      author: Ben Tilly
+      title:  Effective A/B Testing
+      url: http://elem.com/~btilly/effective-ab-testing/
+    -
+      title:  Optimizely
+      url: https://www.optimizely.com
 -
   date: 2014-12-03
   title: Personality, Gender and Age in the Language of Social Media
