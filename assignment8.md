@@ -117,7 +117,7 @@ You can refer to the [lecture slides](http://crowdsourcing-class.org/slides/qual
 
 ##Deliverables
 
-This assignment is due <b>Wednesday, November 5</b>. You can work in pairs, but you must declare the fact that you are working together when you turn your assignment. Remember to turn submit your questionnaire before the deadline.  Your deliverables are stated at the ends of parts 1 and 2, but in the spirit of EM, I will reiterate:
+This assignment is due <b>Wednesday, November 5</b>. You can work in pairs, but you must declare the fact that you are working together when you turn your assignment. Remember to submit your questionnaire before the deadline.  Your deliverables are stated at the ends of parts 1 and 2, but in the spirit of EM, I will reiterate:
 
 1. 3 files containing labels for each url, one file for each algorithm (majority, weighted, and crowdflower)
 2. 3 files containing qualities for each worker, one file for each algorithm (majority, weighted, and crowdflower)
