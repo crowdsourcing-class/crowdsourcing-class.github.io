@@ -47,7 +47,7 @@ First, use majority vote to assign labels to each of the urls in your data. You 
 
 Lets call <i>u</i> a url and <i>labels</i> will be the dictionary that we build so <i>labels[u]</i> is the label we assign to <i>u</i>. Right now, we just have 
 
-<p align="center" style="font-size:24px">
+<p align="center" style="font-size:14px">
 <i>labels[u]</i> = majority label for <i>u</i>.
 </p>
 
@@ -57,7 +57,7 @@ Let's pull out some more notation, shall we? This is, after all, a CS class. We 
 
 Lets call <i>qualities</i> the dictionary that we build to hold the quality of each worker. We'll call the <i>i</i>th worker <i>w<sub>i</sub></i> and we'll use  <i>urls[w<sub>i</sub>]</i> to represent all the urls for which <i>w<sub>i</sub></i> provided a label. We'll let <i>l<sub>ui</sub></i> to represent the label (e.g. "Gun-related", "Not gun-related", or "Don't know") that <i>w<sub>i</sub></i> assigns to url <i>u</i>. Then we calculate the quality of a worker as:
 
-<p align="center" style="font-size:24px">
+<p align="center" style="font-size:14px">
 <i>qualities[w<sub>i</sub>]</i> = (1 / |<i>urls[w<sub>i</sub>]</i>|) * &Sigma;<sub><i>u</i> &isin; <i>urls[w<sub>i</sub>]</i></sub> &delta;(<i>l<sub>ui</sub> == labels[u]</i>)
 </p>
 
@@ -69,7 +69,7 @@ Again, you should output a <b>two-column, tab-separated file</b> in the format "
 
 Majority vote is great: easy, straightforward, fair. But should everyone really pull the same weight? As every insecure college student knows, whatever the smartest kid says is always right. So maybe we should recalibrate our voting, so that we listen more to the better workers. For this, we will use the embedded test questions that you created. We will calculate each worker's quality to be their accuracy on the test questions. E.g.  
 
-<p align="center" style="font-size:24px">
+<p align="center" style="font-size:14px">
 <i>qualities[w<sub>i</sub>]</i> = (1 / |<i>gold_urls[w<sub>i</sub>]</i>|) * &Sigma;<sub><i>u</i> &isin; <i>gold_urls[w<sub>i</sub>]</i></sub> &delta;(<i>l<sub>ui</sub> == gold_label[u]</i>)
 </p>
 
