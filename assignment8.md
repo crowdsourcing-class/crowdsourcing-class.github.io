@@ -91,17 +91,16 @@ Majority vote is great: easy, straightforward, fair. But should everyone really 
 
 Crowdflower has its own way of aggregating worker votes and determining confidence it workers. They keep their exact algorithms locked up and secret, but you can see the results in the csvs you downloaded. The results of their <i>labels[u]</i> is just the labels assigned in the "Aggregated" report. You can see their confidence in each worker in the "Contributors" report. 
 
-5. You can download [our script](assignments/downloads/cf_aggregation.py) to format their data for you. Run it as follows (passing it your aggregaed and contributor reports, respectively): 
+5. You can download [this script](assignments/downloads/cf_aggregation.py) as an example of how I formatted the crowdflower data to match the two-column format of our other files. Since your column names are different than mine, you will have to edit this script. Assuming you have edited it to match your column names, you can run it as follows (passing it your aggregaed and contributor reports, respectively): 
 
-	$ python cf_aggregation.py -d a621213.csv -m data > crowdflower_data.txt
-	$ python cf_aggregation.py -d workset621213.csv -m worker > crowdflower_workers.txt
+	<pre><code> $ python cf_aggregation.py -d a621213.csv -m data > crowdflower_data.txt
+	$ python cf_aggregation.py -d workset621213.csv -m worker > crowdflower_workers.txt</code></pre>
 
 	You should now have 6 files, 3 "url \t label" files and 3 "workerId \t quality" files. You will do some comparisons and report your findings in [this questionnaire](). 
-
 6. First, we'll compare how well the three methods agree on what the "correct" label for each url should be. For this, we will use a metric called [Cohen's kappa](http://en.wikipedia.org/wiki/Cohen's_kappa), which attempts to measure the level of agreement between two sets of categorical labels. You can download [our script](assignments/downloads/kappa.py) for computing it, which you can run like this:
 
-	$ python kappa.py crowdflower_data.txt majority_data.txt 
-	kappa = 0.969854
+	<pre><code> $ python kappa.py crowdflower_data.txt majority_data.txt 
+	kappa = 0.969854</code></pre>
 
 	To compare how well the three methods agree on the worker qualities, we will use [Kendall tau](http://en.wikipedia.org/wiki/Kendall_tau_rank_correlation_coefficient) correlation, which we talked about in class. Python has a [built-in implimentation](http://docs.scipy.org/doc/scipy-0.14.0/reference/generated/scipy.stats.kendalltau.html) that you can use, or you can [impliment it yourself](http://en.wikipedia.org/wiki/Kendall_tau_rank_correlation_coefficient#Algorithms). Note that Python use's a slightly different definition than we discussed in class, so you might get different numbers depending on which method you decide to use. 
 
