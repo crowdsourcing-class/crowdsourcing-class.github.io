@@ -38,6 +38,24 @@ Since EM is a more advanced algorithm, we will only require you to walk through 
 You will be using your own data from [Assignment 5](http://crowdsourcing-class.org/assignment5.html). You should download three reports: we will use the "Full" report for our own computations; we will use the "Aggregated" one and the "Contributors" one so that you can compare your own aggregation techniques against the ones used by Crowdflower.
 
 ##Part 1: Majority vote
+
+Majority vote is probably the easiest and most common way to aggregate your workers labels. It is simple and gets to the heart of what "the wisdom of crowds" is supposed to give us- as long as the workers make uncorrelated errors, we should be able to walk away with decent results. Plus, as every insecure middle schooler knows, what is popular is always right. 
+
+First, use majority vote to assign labels to each of the urls in your data. You can impliment it however you want, but will want to output <b>two-column, tab-separated file</b> in the format "url\tlabel". 
+
+Lets call <i>u</i> a url and <i>labels</i> will be the dictionary that we build so <i>labels[u]</i> is the label we assign to <i>u</i>. Right now, we just have 
+
+<i>labels[u]</i> = majority label for <i>u</i>.
+
+Now, you will use the url labels to estimate a confidence in (or quality for) each worker. We will say that a worker's quality is simple the proportion of times that that worker agrees with the majority. 
+
+Let's pull out some more notation, shall we? This is, after all, a CS class. We have a quota to meet for overly-mathifying very simple concepts, to give the illusion of principle and rigor. 
+
+Lets call <i>qualities</i> the dictionary that we build to hold the quality of each worker. We'll call the <i>i</i>th worker <i>w<sub>i</sub></i> and we'll use  <i>urls[[w<sub>i</sub>]</i> to represent all the urls for which <i>w<sub>i</sub></i> provided a label. We'll let <i>l<sub>ui</sub></i> to represent the label (e.g. "Gun-related", "Not gun-related", or "Don't know") that <i>w_i</i> assigns to url <i>u</i>. Then we calculate the quality of a worker as:
+
+<i>qualities[w<sub>i</sub>]</i> = (1 / |<i>urls[[w<sub>i</sub>]</i>|) * &Sigma;<sub><i>u</i> &isin; <i>urls[[w<sub>i</sub>]</i></sub> &delta;(<i>l<sub>ui</sub> == labels[u]</i>)
+
+Here, &delta;(x) is a special function which equals 1 if x is true, and 0 if x is false. 
     
 ##Part 2: Weighted majority vote
 
