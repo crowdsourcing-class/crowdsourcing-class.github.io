@@ -1,7 +1,8 @@
 ---
 layout: default
-img: rube-goldberg
-caption: Rube Goldberg
+img: prototype
+caption: Simple prototype
+url: http://www.qmed.com/mpmn/medtechpulse/power-20-minute-prototype
 title: Final Project | Simple Working Prototype
 active_tab: homework
 ---
@@ -16,32 +17,33 @@ Final Project<span class="text-muted"> : Part 2</span>
 
 This week's assignment counts as a deliverable toward your final project.  This assignment will be worth 10% of your final grade.  The goal of this assignment is to create a simple working prototype of your final project.  This will help to ensure that you are on top of all of the pieces of your project, and that you have a clear picture of how they interact.  This will hopefully allow you to divide the project into pieces that each member of your group can work on independently. 
 
-###Step 1: Create a github repository 
+###Step 1: Create a version control repository for your team
 
 You will use github to as a version share code across your group.
 While you're at it, why don't you pick up a "CrowdFlower backpack."
 
 ###Step 2: Work out the different pieces of your project
 
-* Flow diagram.
-* Screen shots / mockups of all interfaces that the crowd will see or that the end-users will see.
+* Flow diagram
+* Components must include an aggregation module and a quality control module
+* Screen shots / mockups of all interfaces that the crowd will see or that the end-users will see
 
 
-###Step 3: Gather any inputs
+###Step 3: Gather any materials that you need to start
 
 If your project needs inputs like Tweets about HPV, pictures of celebrities wearing stylings threads, or psycholinguistic stimuli, then spend time gathering a set of these inputs.  
 
 Show us examples. 
 
-###Step 4: Create data to simulates the crowd's input.
+###Step 4: Create data to simulates the crowd's input
 
 Eventually you'll be gathering real data from the crowd.  Before that happens you should create fake data that you can use as input for the initial implementation of your modules.   Create a data specification README file that describes the format.  Ideally the format will be reusable when you get real data from your workers.  That way you only have to change your input files, and your algorithms can operate as they did before.
 
-###Step 5: Quality control module
+###Step 5: Implement a quality control module
 
 Create a simple, working version of your quality control module.  This can be a simple majority vote, a 2nd pass HIT, or whatever.  You should also describe what you'll need to do to improve it for the final version of your project.
 
-###Step 6: Aggregation module
+###Step 6: Implement an aggregation module
 
 Create a simple, working version of your aggregation module.  This version can operate on your simulated data.  Say what additional work is needed for the final version of your project. 
 
@@ -67,6 +69,9 @@ You will be asked to answer to provide the following information:
 You should submit your answers to the question on [the simple prototype questionnaire](XXX). 
 
 Step 8: Turnin your deliverables
+
+The directory that you submit via turnin should have this structure:
+XXX
 
 
 Step 9 (optional): Sign up for a meeting with Chris and Ellie
