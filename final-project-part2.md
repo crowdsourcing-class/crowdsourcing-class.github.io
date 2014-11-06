@@ -27,9 +27,9 @@ Your repository should contain a docs/ directory. It must contain the following:
 
 * <b>README file</b> explaining the directory structure of your repository and what each script does. Don't worry about insulting our intelligence; even if your names are blaringly obvious, tell us anyway. "The run-quality-control.py script runs our quality control algorithm." Talk to use like we are illiterate babies.
 
-* <b>Flow diagram</b>: You should outline the major components/stage of your project, and how they depend on eachother. Somewhere you must have a <b>aggregation module</b> and a <b>quality control module</b>. This should be more conceptual than technical. We are less concerned with your choice of Java classes and interfaces, but more with the big picutre. When does the crowd touch the data? What has to happen before that? What will happen after that? What is your criteria for determining that the crowd's answers are "good enough" to move on?
+* <b>Flow diagram</b>: You should outline the major components/stage of your project, and how they depend on eachother. Somewhere you must have a <b>aggregation module</b> and a <b>quality control module</b>. This should be more conceptual than technical. We are less concerned with your choice of Java classes and interfaces, but more with the big picutre. When does the crowd touch the data? What has to happen before that? What will happen after that? What is your criteria for determining that the crowd's answers are "good enough" to move on? There are [online tools](http://www.gliffy.com/) for making flow diagrams that might be worth checking out.
 
-* <b>Screen shots / mockups</b> of all interfaces that the crowd will see or that the end-users will see. This includes any HITs you plan to use in your project.
+* <b>Screen shots / mockups</b> of all interfaces that the crowd will see or that the end-users will see. This includes any HITs you plan to use in your project. There are lots of online [mockup tools](http://www.invisionapp.com/) that you can consider using, although [MS Paint](assets/img/mspaint_vista.jpg) is always a solid option as well.
 
 ###Step 3: Gather any materials that you need to start
 Your repository should contain a data/ directory. For now, this should contain the following: 
