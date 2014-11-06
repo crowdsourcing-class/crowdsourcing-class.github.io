@@ -36,7 +36,7 @@ Your repository <b>must contain a data/ directory</b>. For now, this should cont
 
 * <b>Raw data input</b> that your project requires. If your project needs inputs like Tweets about HPV, pictures of celebrities wearing stylings threads, or psycholinguistic stimuli, then spend time gathering a set of these inputs. 
 
-Eventually you'll be gathering real data from the crowd.  Before that happens you should create fake data that you can use as input for the initial implementation of your modules. Create a data specification README file that describes the format. Ideally the format will be reusable when you get real data from your workers.  That way you only have to change your input files, and your algorithms can operate as they did before.
+Eventually you'll be gathering real data from the crowd.  Before that happens you should create fake data that you can use as input for the initial implementation of your modules. Create a data subsection of your README file that describes the format. Ideally the format will be reusable when you get real data from your workers.  That way you only have to change your input files, and your algorithms can operate as they did before.
 
 * <b>Sample input/output from your QC module</b>. You don't need to have collected all your actual data yet, but you should decide on what the input will look like and what the output will be. You should be able to make a small example file to illustrate how your module works. E.g. if workers are labeling tweets, you can grab 10 tweets and make up labels for three imaginary workers.
 
@@ -55,17 +55,17 @@ Your repository <b>must contain a src/ directory</b>. It can be organized howeve
 
 What the hell is up with all of these questionnaires?  [Blame Francis Galton](http://en.wikipedia.org/wiki/Francis_Galton#The_questionnaire).  He also invented Vimeo.
 
-You will be asked to provide the similar information to in the brainstorming session, but the focus will be on concreteness. No vague statements like "we will choose the best answer" or "users will answer questions about X". Say exactly <i>how</i> you will determine the best answer and <i>which</i> questions they will answer. You can and should provide links to files in your github repository as necessary. 
+You will be asked to provide similar information to in the brainstorming session, but the focus will be on concreteness. No vague statements like "we will choose the best answer" or "users will answer questions about X". Say exactly <i>how</i> you will determine the best answer and <i>which</i> questions they will answer. You can and should provide links to files in your github repository as necessary. 
 
-You should <b>submit your answers to the question on [the simple prototype questionnaire](https://docs.google.com/forms/d/1ac9KHIZjyvngeOqa-hQegaV2NXYojEuPKFvAHFr76c8/viewform?usp=send_form).</b>
+You should <b>submit your answers to the questions on [the simple prototype questionnaire](https://docs.google.com/forms/d/1ac9KHIZjyvngeOqa-hQegaV2NXYojEuPKFvAHFr76c8/viewform?usp=send_form).</b>
 
 ###Step 6 (optional): Sign up for a meeting with Chris and Ellie. 
 
-There is so much varienty in the kids of projects you have come up with, which is *awesome*. Inevitably, this means you will read through this assignment and the deliverables and start complaining amoung your group in utter frustration about how terribly these deliverables fit with the project you are planning on building. So don't rant amongst yourselves! Come meet with us! Your project probably fits the structure better than you think it does. You can sign up for a individual meeting with use [here]().
+There is so much varienty in the kids of projects you have come up with, which is *awesome*. Inevitably, this means you will read through this assignment and the deliverables and start complaining among your group in utter frustration about how terribly these deliverables fit with the project you are planning on building. So don't rant amongst yourselves! Come meet with us! Your project probably fits the structure better than you think it does. You can sign up for a individual meeting with use [here]().
 
 ###Deliverables
 
-That is a lot of text. Your take-away check list is: 
+This was a lot of text. Your take-away check list is: 
 
 * Flow diagram of major system components
 
