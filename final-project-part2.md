@@ -19,22 +19,23 @@ This week's assignment counts as a deliverable toward your final project.  This 
 
 ###Step 1: Create a version control repository for your team
 
-You will use [github](https://github.com/) to as a version share code across your group. If you have never used github, there is a good getting started guide [here](https://guides.github.com/activities/hello-world/).  While you're at it, why don't you pick up a [CrowdFlower backpack](https://education.github.com/pack).
+You will use [github](https://github.com/) to as a version share code across your group. If you have never used github, there is a good getting started guide [here](https://guides.github.com/activities/hello-world/).  While you're at it, why don't you pick up a [CrowdFlower backpack](https://education.github.com/pack)?
 
 ###Step 2: Big picture documentation
 
-Your repository should contain a docs/ directory. It must contain the following: 
+Your repository <b>must contain a docs/ directory</b>. It must contain the following: 
 
 * <b>README file</b> explaining the directory structure of your repository and what each script does. Don't worry about insulting our intelligence; even if your names are blaringly obvious, tell us anyway. "The run-quality-control.py script runs our quality control algorithm." Talk to use like we are illiterate babies.
 
-* <b>Flow diagram</b>: You should outline the major components/stage of your project, and how they depend on eachother. Somewhere you must have a <b>aggregation module</b> and a <b>quality control module</b>. This should be more conceptual than technical. We are less concerned with your choice of Java classes and interfaces, but more with the big picutre. When does the crowd touch the data? What has to happen before that? What will happen after that? What is your criteria for determining that the crowd's answers are "good enough" to move on? There are [online tools](http://www.gliffy.com/) for making flow diagrams that might be worth checking out.
+* <b>Flow diagram</b>: You should outline the major components/stages of your project, and how they depend on eachother. Somewhere you must have a <b>aggregation module</b> and a <b>quality control module</b>. This should be more conceptual than technical. We are less concerned with your choice of Java classes and interfaces, but more with the big picutre. When does the crowd touch the data? What has to happen before that? What will happen after that? What is your criteria for determining that the crowd's answers are "good enough" to move on? There are [online tools](http://www.gliffy.com/) for making flow diagrams that might be worth checking out.
 
 * <b>Screen shots / mockups</b> of all interfaces that the crowd will see or that the end-users will see. This includes any HITs you plan to use in your project. There are lots of online [mockup tools](http://www.invisionapp.com/) that you can consider using, although [MS Paint](assets/img/mspaint_vista.jpg) is always a solid option as well.
 
 ###Step 3: Gather any materials that you need to start
-Your repository should contain a data/ directory. For now, this should contain the following: 
+Your repository <b>must contain a data/ directory</b>. For now, this should contain the following: 
 
 * <b>Raw data input</b> that your project requires. If your project needs inputs like Tweets about HPV, pictures of celebrities wearing stylings threads, or psycholinguistic stimuli, then spend time gathering a set of these inputs. 
+
 Eventually you'll be gathering real data from the crowd.  Before that happens you should create fake data that you can use as input for the initial implementation of your modules. Create a data specification README file that describes the format. Ideally the format will be reusable when you get real data from your workers.  That way you only have to change your input files, and your algorithms can operate as they did before.
 
 * <b>Sample input/output from your QC module</b>. You don't need to have collected all your actual data yet, but you should decide on what the input will look like and what the output will be. You should be able to make a small example file to illustrate how your module works. E.g. if workers are labeling tweets, you can grab 10 tweets and make up labels for three imaginary workers.
@@ -43,7 +44,7 @@ Eventually you'll be gathering real data from the crowd.  Before that happens yo
 
 ###Step 4: Implement a quality control module and an aggregation module
 
-Your repository should contain a src/ directory. It can be organized however best fits your system's architecture, but it should contain the following implementations. Make sure you state clearly in your README where to find each piece. 
+Your repository <b>must contain a src/ directory</b>. It can be organized however best fits your system's architecture, but it should contain the following implementations. Make sure you state clearly in your README where to find each piece. 
 
 * A simple, working version of <b>your quality control module</b>.  This can be a simple majority vote, a 2nd pass HIT, or whatever.  You should also describe what you'll need to do to improve it for the final version of your project.
 
