@@ -9,7 +9,7 @@ active_tab: homework
 
 
 <div class="alert alert-info">
-  This assignment is due before class on Wednesday, November 12th.  You must work in groups on this project.  </div>
+  This assignment is due before 11:59pm on Thursday, November 13th.  You must work in groups on this project.  </div>
 
 
 Final Project<span class="text-muted"> : Part 2</span> 
