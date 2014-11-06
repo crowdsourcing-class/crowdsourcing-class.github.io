@@ -24,8 +24,11 @@ You will use [github](https://github.com/) to as a version share code across you
 ###Step 2: Big picture documentation
 
 Your repository should contain a docs/ directory. It must contain the following: 
+
 * <b>README file</b> explaining the directory structure of your repository and what each script does. Don't worry about insulting our intelligence; even if your names are blaringly obvious, tell us anyway. "The run-quality-control.py script runs our quality control algorithm." Talk to use like we are illiterate babies.
+
 * <b>Flow diagram</b>: You should outline the major components/stage of your project, and how they depend on eachother. Somewhere you must have a <b>aggregation module</b> and a <b>quality control module</b>. This should be more conceptual than technical. We are less concerned with your choice of Java classes and interfaces, but more with the big picutre. When does the crowd touch the data? What has to happen before that? What will happen after that? What is your criteria for determining that the crowd's answers are "good enough" to move on?
+
 * <b>Screen shots / mockups</b> of all interfaces that the crowd will see or that the end-users will see. This includes any HITs you plan to use in your project.
 
 ###Step 3: Gather any materials that you need to start
@@ -44,7 +47,7 @@ Your repository should contain a src/ directory. It can be organized however bes
 
 * A simple, working version of <b>your quality control module</b>.  This can be a simple majority vote, a 2nd pass HIT, or whatever.  You should also describe what you'll need to do to improve it for the final version of your project.
 
-* A simple, working version of your <b>aggregation module</b>.  This version can operate on your simulated data.  Say what additional work is needed for the final version of your project. 
+* A simple, working version of <b>your aggregation module</b>.  This version can operate on your simulated data.  Say what additional work is needed for the final version of your project. 
 
 
 ###Step 5: Answer another questionnaire 
@@ -58,5 +61,27 @@ You should <b>submit your answers to the question on [the simple prototype quest
 ###Step 6 (optional): Sign up for a meeting with Chris and Ellie. 
 
 There is so much varienty in the kids of projects you have come up with, which is *awesome*. Inevitably, this means you will read through this assignment and the deliverables and start complaining amoung your group in utter frustration about how terribly these deliverables fit with the project you are planning on building. So don't rant amongst yourselves! Come meet with us! Your project probably fits the structure better than you think it does. You can sign up for a individual meeting with use [here]().
+
+###Deliverables
+
+That is a lot of text. Your take-away check list is: 
+
+* Flow diagram of major system components
+
+* Mockups of any user-facing interfaces (crowdworkers and end-users)
+
+* Raw data
+
+* Sample input/output for QC
+
+* Sample input/output for aggregation
+
+* Code for QC
+
+* Code for aggregation 
+
+* A disgustingly clear README telling us where we can find each of the above things
+
+* Questionnaire
 
 This assignment is due by 11:59pm on <b>Thursday, November 13th</b>.  You must work in groups on this project.  You must declare who is in your group when you turn your assignment.  Everyone in your group will receive the same grade on the assignment. 
