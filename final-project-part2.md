@@ -19,61 +19,37 @@ This week's assignment counts as a deliverable toward your final project.  This 
 
 ###Step 1: Create a version control repository for your team
 
-You will use github to as a version share code across your group.
-While you're at it, why don't you pick up a "CrowdFlower backpack."
+You will use [github](https://github.com/) to as a version share code across your group. If you have never used github, there is a good getting started guide [here](https://guides.github.com/activities/hello-world/).  While you're at it, why don't you pick up a [CrowdFlower backpack](https://education.github.com/pack).
 
-###Step 2: Work out the different pieces of your project
+###Step 2: Big picture documentation
 
-* Flow diagram
-* Components must include an aggregation module and a quality control module
-* Screen shots / mockups of all interfaces that the crowd will see or that the end-users will see
-
+Your repository should contain a docs/ directory. It must contain the following: 
+* <b>README file</b> explaining the directory structure of your repository and what each script does. Don't worry about insulting our intelligence; even if your names are blaringly obvious, tell us anyway. "The run-quality-control.py script runs our quality control algorithm." Talk to use like we are illiterate babies.
+* <b>Flow diagram</b>: You should outline the major components/stage of your project, and how they depend on eachother. Somewhere you must have a <b>aggregation module</b> and a <b>quality control module</b>. This should be more conceptual than technical. We are less concerned with your choice of Java classes and interfaces, but more with the big picutre. When does the crowd touch the data? What has to happen before that? What will happen after that? What is your criteria for determining that the crowd's answers are "good enough" to move on?
+* <b>Screen shots / mockups</b> of all interfaces that the crowd will see or that the end-users will see. This includes any HITs you plan to use in your project.
 
 ###Step 3: Gather any materials that you need to start
+Your repository should contain a data/ directory. For now, this should contain the following: 
+* <b>Raw data input</b> that your project requires. If your project needs inputs like Tweets about HPV, pictures of celebrities wearing stylings threads, or psycholinguistic stimuli, then spend time gathering a set of these inputs. 
+Eventually you'll be gathering real data from the crowd.  Before that happens you should create fake data that you can use as input for the initial implementation of your modules. Create a data specification README file that describes the format. Ideally the format will be reusable when you get real data from your workers.  That way you only have to change your input files, and your algorithms can operate as they did before.
+* <b>Sample input/output from your QC module</b>. You don't need to have collected all your actual data yet, but you should decide on what the input will look like and what the output will be. You should be able to make a small example file to illustrate how your module works. E.g. if workers are labeling tweets, you can grab 10 tweets and make up labels for three imaginary workers.
+* <b>Sample input/output from your aggregation module</b>. Again, you don't need your actual data, but should decide on the input and output format. It is okay if there is some overlap or dependence between these files and the files you give above for the QC module. Just verbosely document in your README and your flow diagram how these modules/data interact. 
 
-If your project needs inputs like Tweets about HPV, pictures of celebrities wearing stylings threads, or psycholinguistic stimuli, then spend time gathering a set of these inputs.  
+###Step 4: Implement a quality control module and an aggregation module
 
-Show us examples. 
-
-###Step 4: Create data to simulates the crowd's input
-
-Eventually you'll be gathering real data from the crowd.  Before that happens you should create fake data that you can use as input for the initial implementation of your modules.   Create a data specification README file that describes the format.  Ideally the format will be reusable when you get real data from your workers.  That way you only have to change your input files, and your algorithms can operate as they did before.
-
-###Step 5: Implement a quality control module
-
-Create a simple, working version of your quality control module.  This can be a simple majority vote, a 2nd pass HIT, or whatever.  You should also describe what you'll need to do to improve it for the final version of your project.
-
-###Step 6: Implement an aggregation module
-
-Create a simple, working version of your aggregation module.  This version can operate on your simulated data.  Say what additional work is needed for the final version of your project. 
+Your repository should contain a src/ directory. It can be organized however best fits your system's architecture, but it should contain the following implementations. Make sure you state clearly in your README where to find each piece. 
+* A simple, working version of <b>your quality control module</b>.  This can be a simple majority vote, a 2nd pass HIT, or whatever.  You should also describe what you'll need to do to improve it for the final version of your project.
+* A simple, working version of your <b>aggregation module</b>.  This version can operate on your simulated data.  Say what additional work is needed for the final version of your project. 
 
 
-###Step 7: Answer another questionnaire 
+###Step 5: Answer another questionnaire 
 
-What the hell is up with all of these questionnaire?  [Blame Francis Galton](http://en.wikipedia.org/wiki/Francis_Galton#The_questionnaire).  He also invented Vimeo.
+What the hell is up with all of these questionnaires?  [Blame Francis Galton](http://en.wikipedia.org/wiki/Francis_Galton#The_questionnaire).  He also invented Vimeo.
 
-You will be asked to answer to provide the following information:
+You will be asked to provide the similar information to in the brainstorming session, but the focus will be on concreteness. No vague statements like "we will choose the best answer" or "users will answer questions about X". Say exactly <i>how</i> you will determine the best answer and <i>which</i> questions they will answer. You can and should provide links to files in your github repository as necessary. 
 
-* Team members.
-* Name for the project.  
-* One sentence description of the project.
-* What type of project is it? (Human computation algorithm, social science experiment with the crowd, a tool for crowdsourcing, a business idea that uses crowdsourcing)
-* Who will be the members of your crowd? 
-* How will you incentivize them to participate?
-* What will they provide, and what sort of skills do they need?
-* How will you ensure the quality of the crowd provides? 
-* How will you aggregate the results from the crowd?
-* Describe each of the steps involved in your process.  What parts will be done by the crowd, and what parts will be done automatically. 
-* How will you evaluate if your project is successful? 
+You should <b>submit your answers to the question on [the simple prototype questionnaire](https://docs.google.com/forms/d/1ac9KHIZjyvngeOqa-hQegaV2NXYojEuPKFvAHFr76c8/viewform?usp=send_form).</b>
 
-You should submit your answers to the question on [the simple prototype questionnaire](XXX). 
+###Step 6 (optional): Sign up for a meeting with Chris and Ellie. There is so much varienty in the kids of projects you have come up with, which is *awesome*. Inevitably, this means you will read through this assignment and the deliverables and start complaining amoung your group in utter frustration about how terribly these deliverables fit with the project you are planning on building. So don't rant amongst yourselves! Come meet with us! Your project probably fits the structure better than you think it does. You can sign up for a individual meeting with use [here]().
 
-Step 8: Turnin your deliverables
-
-The directory that you submit via turnin should have this structure:
-XXX
-
-
-Step 9 (optional): Sign up for a meeting with Chris and Ellie
-
-This assignment is due before class on <b>Wednesday, November 12th</b>.  You must work in groups on this project.  You must declare who is in your group when you turn your assignment.  Everyone in your group will receive the same grade on the assignment. 
+This assignment is due by 11:59pm on <b>Thursday, November 13th</b>.  You must work in groups on this project.  You must declare who is in your group when you turn your assignment.  Everyone in your group will receive the same grade on the assignment. 
