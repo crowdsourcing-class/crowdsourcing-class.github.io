@@ -30,15 +30,20 @@ Your repository should contain a docs/ directory. It must contain the following:
 
 ###Step 3: Gather any materials that you need to start
 Your repository should contain a data/ directory. For now, this should contain the following: 
+
 * <b>Raw data input</b> that your project requires. If your project needs inputs like Tweets about HPV, pictures of celebrities wearing stylings threads, or psycholinguistic stimuli, then spend time gathering a set of these inputs. 
 Eventually you'll be gathering real data from the crowd.  Before that happens you should create fake data that you can use as input for the initial implementation of your modules. Create a data specification README file that describes the format. Ideally the format will be reusable when you get real data from your workers.  That way you only have to change your input files, and your algorithms can operate as they did before.
+
 * <b>Sample input/output from your QC module</b>. You don't need to have collected all your actual data yet, but you should decide on what the input will look like and what the output will be. You should be able to make a small example file to illustrate how your module works. E.g. if workers are labeling tweets, you can grab 10 tweets and make up labels for three imaginary workers.
+
 * <b>Sample input/output from your aggregation module</b>. Again, you don't need your actual data, but should decide on the input and output format. It is okay if there is some overlap or dependence between these files and the files you give above for the QC module. Just verbosely document in your README and your flow diagram how these modules/data interact. 
 
 ###Step 4: Implement a quality control module and an aggregation module
 
 Your repository should contain a src/ directory. It can be organized however best fits your system's architecture, but it should contain the following implementations. Make sure you state clearly in your README where to find each piece. 
+
 * A simple, working version of <b>your quality control module</b>.  This can be a simple majority vote, a 2nd pass HIT, or whatever.  You should also describe what you'll need to do to improve it for the final version of your project.
+
 * A simple, working version of your <b>aggregation module</b>.  This version can operate on your simulated data.  Say what additional work is needed for the final version of your project. 
 
 
@@ -50,6 +55,8 @@ You will be asked to provide the similar information to in the brainstorming ses
 
 You should <b>submit your answers to the question on [the simple prototype questionnaire](https://docs.google.com/forms/d/1ac9KHIZjyvngeOqa-hQegaV2NXYojEuPKFvAHFr76c8/viewform?usp=send_form).</b>
 
-###Step 6 (optional): Sign up for a meeting with Chris and Ellie. There is so much varienty in the kids of projects you have come up with, which is *awesome*. Inevitably, this means you will read through this assignment and the deliverables and start complaining amoung your group in utter frustration about how terribly these deliverables fit with the project you are planning on building. So don't rant amongst yourselves! Come meet with us! Your project probably fits the structure better than you think it does. You can sign up for a individual meeting with use [here]().
+###Step 6 (optional): Sign up for a meeting with Chris and Ellie. 
+
+There is so much varienty in the kids of projects you have come up with, which is *awesome*. Inevitably, this means you will read through this assignment and the deliverables and start complaining amoung your group in utter frustration about how terribly these deliverables fit with the project you are planning on building. So don't rant amongst yourselves! Come meet with us! Your project probably fits the structure better than you think it does. You can sign up for a individual meeting with use [here]().
 
 This assignment is due by 11:59pm on <b>Thursday, November 13th</b>.  You must work in groups on this project.  You must declare who is in your group when you turn your assignment.  Everyone in your group will receive the same grade on the assignment. 
