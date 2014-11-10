@@ -61,7 +61,7 @@ You should <b>submit your answers to the questions on [the simple prototype ques
 
 ###Step 6 (optional): Sign up for a meeting with Chris and Ellie. 
 
-There is so much varienty in the kids of projects you have come up with, which is *awesome*. Inevitably, this means you will read through this assignment and the deliverables and start complaining among your group in utter frustration about how terribly these deliverables fit with the project you are planning on building. So don't rant amongst yourselves! Come meet with us! Your project probably fits the structure better than you think it does. You can sign up for a individual meeting with use [here]().
+There is so much varienty in the kids of projects you have come up with, which is *awesome*. Inevitably, this means you will read through this assignment and the deliverables and start complaining among your group in utter frustration about how terribly these deliverables fit with the project you are planning on building. So don't rant amongst yourselves! Come meet with us! Your project probably fits the structure better than you think it does. You can sign up for a individual meeting with use [here](https://docs.google.com/spreadsheets/d/1w0fl8caGH46590cx7qnaLHS1GHh1toBJXh8tuh5y-fQ/edit?usp=sharing).
 
 ###Deliverables
 
