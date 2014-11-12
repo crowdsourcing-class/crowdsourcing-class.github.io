@@ -338,26 +338,6 @@
       url: readings/downloads/twitter/analyzing-twitter-for-public-health.pdf
 -
   date: 2014-11-12
-  title: Detecting Emotional Contagion in Massive Social Networks
-  highlights:
-    - Human subjects research
-    - Privacy
-    - Are you part of a social experiment?
-  reading:
-    -
-      author: Lorenzo Coviello, Yunkyu Sohn, Adam Kramer, Cameron Marlow, Massimo Franceschetti, Nicholas Christakis, and James Fowler
-      title:  Detecting Emotional Contagion in Massive Social Networks
-      url: http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0090315
-    -
-      author: TLDR podcast
-      title:  TLDR #32 - An Imperfect Match
-      url: http://www.onthemedia.org/story/tldr-32-imperfect-match/
-    -
-      author: neustar Research
-      title:  Riding with the Stars&#58; Passenger Privacy in the NYC Taxicab Dataset
-      url: http://research.neustar.biz/2014/09/15/riding-with-the-stars-passenger-privacy-in-the-nyc-taxicab-dataset/
--
-  date: 2014-11-17
   title: Crowdsourcing Translation
   slides: http://crowdsourcing-class.org/slides/ab-testing.pdf
   highlights:
@@ -376,7 +356,7 @@
       title:  Machine Translation of Arabic Dialects
       url: http://www.cis.upenn.edu/~ccb/publications/machine-translation-of-arabic-dialects.pdf
 -
-  date: 2014-11-19
+  date: 2014-11-17
   title: Crowdsourcing for Automatic Speech Recognition
   slides: http://crowdsourcing-class.org/slides/crowdsourcing-speech-recognition.pdf
   highlights:
@@ -390,6 +370,26 @@
     -
       title:  Crowdsourcing for Speech Processing&#58; Applications to Data Collection, Transcription and Assessment
       url: http://www.amazon.com/Crowdsourcing-Speech-Processing-Applications-Transcription/dp/1118358694/
+-
+  date: 2014-11-19
+  title: Detecting Emotional Contagion in Massive Social Networks
+  highlights:
+    - Human subjects research
+    - Privacy
+    - Are you part of a social experiment?
+  reading:
+    -
+      author: Lorenzo Coviello, Yunkyu Sohn, Adam Kramer, Cameron Marlow, Massimo Franceschetti, Nicholas Christakis, and James Fowler
+      title:  Detecting Emotional Contagion in Massive Social Networks
+      url: http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0090315
+    -
+      author: TLDR podcast
+      title:  TLDR #32 - An Imperfect Match
+      url: http://www.onthemedia.org/story/tldr-32-imperfect-match/
+    -
+      author: neustar Research
+      title:  Riding with the Stars&#58; Passenger Privacy in the NYC Taxicab Dataset
+      url: http://research.neustar.biz/2014/09/15/riding-with-the-stars-passenger-privacy-in-the-nyc-taxicab-dataset/
 -
   date: 2014-11-24
   title: What big data can tell us about sex and relationships
