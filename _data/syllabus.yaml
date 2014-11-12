@@ -286,17 +286,9 @@
       title:  Human Intelligence Needs Artificial Intelligence
       url: http://homes.cs.washington.edu/~mausam/papers/hcomp11a.pdf
     -
-      author: Peng Dai, Mausam, and Dan Weld
-      title:  Decision-Theoretic Control of Crowd-Sourced Workflows
-      url: http://homes.cs.washington.edu/~mausam/papers/aaai10b.pdf
-    -
       author: Peng Dai, Chris Lin, Mausam, and Dan Weld
       title:  POMDP-based Control of Workflows for Crowdsourcing
       url: http://homes.cs.washington.edu/~mausam/papers/aij13.pdf
-    -
-      author: Chris Lin, Mausam, and Dan Weld
-      title:  Crowdsourcing Control&#58; Moving Beyond Multiple Choice
-      url: http://homes.cs.washington.edu/~mausam/papers/uai12a.pdf
 -
   date: 2014-11-03
   title: Prediction Markets
