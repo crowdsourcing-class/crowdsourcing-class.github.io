@@ -1382,9 +1382,35 @@ I'll just say it- this is the best assignment. Yes, that lit review was probably
 
 You can download the almost-clean data [here](). It contains 8,800 reports and the strucuted data that our Turkers extracted. The data is in [JSON]() format, which is easy to load in python like so:
 
-<pre><code>import json
-data = json.load(open('aggregated-data.json'))
+<pre><code>>> import json
+>> data = json.load(open('aggregated-data.json'))
 </code></pre>
+
+Now, <code>data</code> is a python list of all the records in our data. Each record is a dictionary. A single record, for example, might look like this:
+
+<pre><code>>> data[17]
+{'article': {'url': 'http://www.wkyt.com/home/headlines/Man-on-the-loose-after-shooting-in-Corbin-241548201.html', 'text': [TEXT OF ORIGINAL ARTICLE], 'title': 'Police search for person of interest after Corbin shooting'}, 'victim-details': [{'injured': 'yes', 'name': 'William Taylor', 'hospitalized': 'yes', 'gender': 'male', 'age': 'none', 'race': 'none', 'killed': 'no'}], 'shooter-details': [{'gender': 'male', 'age': '25', 'race': 'none', 'name': 'Eric Taylor'}], 'shooting-details': {'number_of_shots': '1', 'time': {'specific': '3:30pm', 'date': '1/23/2014', 'coarse': 'afternoon'}, 'type_of_gun': 'unknown', 'details': ['None of the above.'], 'location': {'city': 'Corbin', 'state': 'KY', 'details': 'gulf trailer park'}}}
+</code></pre>
+
+Here, the keys correspond to the informationwe asked the workers to extract in our HIT, and the values correspond the their responses. Since not all articles contain the same information, each record is slightly different (e.g. the name of the list in of shooters in <code>shooter-details</code> might be empty or might contain 10 shooters). In eneral, each record has four top-level keys: meta information about the article, information about the shooter(s) (names, ages, etc.), information about the victim(s), and information about the shooting (time, place, etc.). E.g. each record should be structured like this: 
+
+<pre><code>>> record = data[17]
+>> record.keys()
+['article', 'victim-details', 'shooter-details', 'shooting-details']
+>> record['article']
+{'url': [URL], 'title' : [TITLE] 'text': [TEXT]}
+>> record['shooting-details']
+{'time': {'specific': [CLOCK_TIME], 'date': [DATE], 'coarse': [TIME_OF_DAY]}, 
+'location': {'city': [CITY], 'state': [STATE], 'details': [OTHER INFO]},
+'type_of_gun': [GUN], 
+'number_of_shots': [NUM_SHOTS], 
+'details': [LIST OF BOXES CHECKED], #(e.g. "unintentional", "domestic violence") }
+>> record['shooter-details'] # list of shooter records (may be empty)
+[{'gender': [GENDER], 'age': [AGE], 'race': [RACE], 'name': [NAME]}]
+>> record['victim-details'] # list of VICTIM records (may be empty)
+[{'gender': [GENDER], 'age': [AGE], 'race': [RACE], 'name': [NAME], 'killed' : [YES/NO], 'injured' : [YES/NO], 'hospitalized' : [YES/NO]}]
+</code></pre>
+
 
 ##The Gun ReReport
 
