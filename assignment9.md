@@ -7,6 +7,33 @@ active_tab: homework
 ---
 <script type="text/javascript" src="https://www.google.com/jsapi"></script>
 
+<script type="text/javascript">
+google.load("visualization", "1.1", {packages:["corechart"]});
+google.setOnLoadCallback(drawGuns);
+function drawGuns() {
+var oldData = google.visualization.arrayToDataTable([
+["Gun", "Count"],
+["Other handgun", 532],
+["Pistol", 167],
+["Shotgun", 161],
+["Rifle", 159],
+["Revolver", 76],
+]);
+var newData = google.visualization.arrayToDataTable([
+["Gun", "Count"],
+["Other handgun", 212],
+["Shotgun", 118],
+["Rifle", 90],
+["Pistol", 84],
+["Revolver", 32],
+]);
+var options = {};
+var chartDiff = new google.visualization.PieChart(document.getElementById('guns_div'));
+var diffData = chartDiff.computeDiff(oldData, newData);
+chartDiff.draw(diffData, options);
+}
+</script>
+
 <script type='text/javascript'>
 google.load('visualization', '1', {'packages': ['geochart']});
 google.setOnLoadCallback(drawMarkersMap0);
@@ -1397,6 +1424,8 @@ Now you have a hopefully fairly clean set of data to work with. Lets answer ask 
 <div id="race_div" style="width: 500px; height: 175;"></div>
 
 ###How
+
+<div id="guns_div" style="width: 500px; height: 175;"></div>
 
 ##Deliverables
 
