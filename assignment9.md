@@ -8,9 +8,9 @@ active_tab: homework
 <script type="text/javascript" src="https://www.google.com/jsapi"></script>
 
 <script type="text/javascript">
-google.load("visualization", "1.1", {packages:["corechart"]});
-google.setOnLoadCallback(drawGuns);
-function drawGuns() {
+google.load("visualization", "1.1", {packages:["corechart", "geochart", "calendar"]});
+google.setOnLoadCallback(drawCharts);
+function drawCharts() {
 var oldData = google.visualization.arrayToDataTable([
 ["Gun", "Count"],
 ["Other handgun", 532],
@@ -31,13 +31,7 @@ var options = {};
 var chartDiff = new google.visualization.PieChart(document.getElementById('guns_div'));
 var diffData = chartDiff.computeDiff(oldData, newData);
 chartDiff.draw(diffData, options);
-}
-</script>
 
-<script type='text/javascript'>
-google.load('visualization', '1', {'packages': ['geochart']});
-google.setOnLoadCallback(drawMarkersMap0);
-function drawMarkersMap0() {
 var data = google.visualization.arrayToDataTable([
 ['State', 'Number of incidents'],
 ['Ak', 26],
@@ -100,14 +94,7 @@ colorAxis : {colors : ['#FF1919', '#800000']}
 };
 var chart = new google.visualization.GeoChart(document.getElementById('intentional_div'));
 chart.draw(data, options);
-};
-</script>
 
-
-<script type='text/javascript'>
-google.load('visualization', '1', {'packages': ['geochart']});
-google.setOnLoadCallback(drawMarkersMap);
-function drawMarkersMap() {
 var data = google.visualization.arrayToDataTable([
 ['State', 'Number of incidents'],
 ['Ak', 18],
@@ -169,15 +156,7 @@ colorAxis : {colors : ['#3333FF', '#000066']}
 };
 var chart = new google.visualization.GeoChart(document.getElementById('unintentional_div'));
 chart.draw(data, options);
-};
-</script>
 
-
-<script type="text/javascript">
-google.load("visualization", "1.1", {packages:["calendar"]});
-google.setOnLoadCallback(drawCal);
-
-function drawCal() {
 var dataTable = new google.visualization.DataTable();
 dataTable.addColumn({ type: 'date', id: 'Date' });
 dataTable.addColumn({ type: 'number', id: 'Count' });
@@ -1365,13 +1344,7 @@ width : 500,
 height : 175,
 };
 chart.draw(dataTable, options);
-}
-</script>
 
-<script type="text/javascript">
-google.load("visualization", "1", {packages:["corechart"]});
-google.setOnLoadCallback(drawRace);
-function drawRace() {
 var data = google.visualization.arrayToDataTable([
 ['Race', 'White', 'African Am.', 'Asian Am.', 'Hispanic', 'Other', { role: 'annotation' } ],
 ['White', 27.0 , 10.0, 5.0, 6.0, 1.0, ''],
@@ -1392,7 +1365,8 @@ isStacked: true,
 };
 var chart = new google.visualization.ColumnChart(document.getElementById("race_div"));
 chart.draw(view, options);
-}
+};
+
 </script>
 
 <div class="alert alert-info">
