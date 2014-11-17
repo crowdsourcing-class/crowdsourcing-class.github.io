@@ -1397,17 +1397,25 @@ Here, the keys correspond to the informationwe asked the workers to extract in o
 <pre><code>>> record = data[17]
 >> record.keys()
 ['article', 'victim-details', 'shooter-details', 'shooting-details']
+
 >> record['article']
+
 {'url': [URL], 'title' : [TITLE] 'text': [TEXT]}
+
 >> record['shooting-details']
+
 {'time': {'specific': [CLOCK_TIME], 'date': [DATE], 'coarse': [TIME_OF_DAY]}, 
 'location': {'city': [CITY], 'state': [STATE], 'details': [OTHER INFO]},
 'type_of_gun': [GUN], 
 'number_of_shots': [NUM_SHOTS], 
 'details': [LIST OF BOXES CHECKED], #(e.g. "unintentional", "domestic violence") }
+
 >> record['shooter-details'] # list of shooter records (may be empty)
+
 [{'gender': [GENDER], 'age': [AGE], 'race': [RACE], 'name': [NAME]}]
+
 >> record['victim-details'] # list of VICTIM records (may be empty)
+
 [{'gender': [GENDER], 'age': [AGE], 'race': [RACE], 'name': [NAME], 'killed' : [YES/NO], 'injured' : [YES/NO], 'hospitalized' : [YES/NO]}]
 </code></pre>
 
