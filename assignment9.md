@@ -1376,11 +1376,11 @@ This assignment is due before class on Monday, November 24th.
 Putting it all together<span class="text-muted">: Assignment 9</span> 
 =============================================================
 
-I'll just say it- this is the best assignment. Yes, that lit review was probably pretty awesome. And yes, I don't doubt that working through those iterations of EM probably made you feel warm and glowy, but it will all pale in comparison to this assignment. Because now, all the work is done, and we just get to poke through the 8,800 gun articles we found and try to say interesting things. And we'll use the [Google Charts API]() which makes even boring statistics look sexy as all hell.
+I'll just say it- this is the best assignment. Yes, that lit review was probably pretty awesome. And yes, I don't doubt that working through those iterations of EM probably made you feel warm and glowy, but it will all pale in comparison to this assignment. Because now, all the work is done, and we just get to poke through the 8,800 gun articles we found and try to say interesting things. And we'll use the [Google Charts API](https://developers.google.com/chart/) which makes even boring statistics look sexy as all hell.
 
 ##Data
 
-You can download the almost-clean data [here](). It contains 8,800 reports and the strucuted data that our Turkers extracted. The data is in [JSON]() format, which is easy to load in python like so:
+You can download the almost-clean data [here](assignments/downloads/aggregated_data.json). It contains 8,800 reports and the strucuted data that our Turkers extracted. The data is in [JSON](http://en.wikipedia.org/wiki/JSON) format, which is easy to load in python like so:
 
 <pre><code>>> import json
 >> data = json.load(open('aggregated-data.json'))
@@ -1389,7 +1389,7 @@ You can download the almost-clean data [here](). It contains 8,800 reports and t
 Now, <code>data</code> is a python list of all the records in our data. Each record is a dictionary. A single record, for example, might look like this:
 
 <pre><code>>> data[17]
-{'article': {'url': 'http://www.wkyt.com/home/headlines/Man-on-the-loose-after-shooting-in-Corbin-241548201.html', 'text': [TEXT OF ORIGINAL ARTICLE], 'title': 'Police search for person of interest after Corbin shooting'}, 'victim-details': [{'injured': 'yes', 'name': 'William Taylor', 'hospitalized': 'yes', 'gender': 'male', 'age': 'none', 'race': 'none', 'killed': 'no'}], 'shooter-details': [{'gender': 'male', 'age': '25', 'race': 'none', 'name': 'Eric Taylor'}], 'shooting-details': {'number_of_shots': '1', 'time': {'specific': '3:30pm', 'date': '1/23/2014', 'coarse': 'afternoon'}, 'type_of_gun': 'unknown', 'details': ['None of the above.'], 'location': {'city': 'Corbin', 'state': 'KY', 'details': 'gulf trailer park'}}}
+{'article': {'url': 'http://www.wkyt.com/home/headlines/Man-on-the-loose-after-shooting-in-Corbin-241548201.html', 'text': [TEXT], 'title': 'Police search for person of interest after Corbin shooting'}, 'victim-details': [{'injured': 'yes', 'name': 'William Taylor', 'hospitalized': 'yes', 'gender': 'male', 'age': 'none', 'race': 'none', 'killed': 'no'}], 'shooter-details': [{'gender': 'male', 'age': '25', 'race': 'none', 'name': 'Eric Taylor'}], 'shooting-details': {'number_of_shots': '1', 'time': {'specific': '3:30pm', 'date': '1/23/2014', 'coarse': 'afternoon'}, 'type_of_gun': 'unknown', 'details': ['None of the above.'], 'location': {'city': 'Corbin', 'state': 'KY', 'details': 'gulf trailer park'}}}
 </code></pre>
 
 Here, the keys correspond to the informationwe asked the workers to extract in our HIT, and the values correspond the their responses. Since not all articles contain the same information, each record is slightly different (e.g. the name of the list in of shooters in <code>shooter-details</code> might be empty or might contain 10 shooters). In eneral, each record has four top-level keys: meta information about the article, information about the shooter(s) (names, ages, etc.), information about the victim(s), and information about the shooting (time, place, etc.). E.g. each record should be structured like this: 
@@ -1421,7 +1421,7 @@ Here, the keys correspond to the informationwe asked the workers to extract in o
 
 ###Deduping the data
 
-As we've discussed several times, our methods for collecting articles (scrapping the [Gun Report blog]() and training classifiers for arbitrary news articles) isn't perfect. It is highly likly that we have duplicated articles in our dataset, or multiple different articles reporting on the same incident (e.g. count the number of records for the shooter/victim pair Zimmerman/Martin). So, its probably a good idea to [dedoop](https://www.youtube.com/watch?v=AH-AHEsGJWw) the data. 
+As we've discussed several times, our methods for collecting articles (scrapping the [Gun Report blog](http://nocera.blogs.nytimes.com/category/gun-report/?_r=0) and training classifiers for arbitrary news articles) isn't perfect. It is highly likly that we have duplicated articles in our dataset, or multiple different articles reporting on the same incident (e.g. count the number of records for the shooter/victim pair Zimmerman/Martin). So, its probably a good idea to [dedoop](https://www.youtube.com/watch?v=AH-AHEsGJWw) the data. 
 
 There is no fool-proof way of doing this, so we will just use some intuitive rules for merging two records into one. 
 
@@ -1435,6 +1435,7 @@ There is no fool-proof way of doing this, so we will just use some intuitive rul
 	def can_merge(this, that) : return True if this/that share two of shooter/victim/date
 
 	add records[0] to deduped
+
 	for this_record in records : 
 	   for that_record in deduped : 
 	      if can_merge(this_record, that_record) : 
@@ -1445,13 +1446,13 @@ There is no fool-proof way of doing this, so we will just use some intuitive rul
 
 4. Save your dedupped records to a new file. You can save an object in json format like this:
 
-<pre><code>json.dump(deduped, open('deduped-data.json', 'w'))</code></pre>
+	<pre><code>json.dump(deduped, open('deduped-data.json', 'w'))</code></pre>
 
 ##The Gun ReReport
 
 Now you have a hopefully fairly clean, dedeuped set of data to work with. Lets ask some questions, and answer them with some figures. Below are instructions for producing four graphs looking at different aspects of the data. Choose two which you find especially interesting and reproduce them using the Google charts API. Each of the API documentation pages gives you an html template you can use, and its usually just as easy as pasting in your own data into the template. You can open the html templates in any browser to look at your results. 
 
-After you have reproduced two of our figures, produce two more plots, charts, or graphs showing any dimension of the data you want to explore. You will answer [a few questions] () afterward. 
+After you have reproduced two of our figures, produce two more plots, charts, or graphs showing any dimension of the data you want to explore. You will answer [a few questions](https://docs.google.com/forms/d/1m6LFLPzvjRxZTRmaCIayy9oJmQrnppa3riYUgtH0wz0/viewform) afterward. 
 
 ###When
 
@@ -1495,7 +1496,7 @@ This assignment is due <b>Monday, November 24</b>. You can work in pairs, but yo
 1. Your deduped data, in json format.
 2. Two figures from our analysis, which you reproduced, as html files.
 3. Your own two figures, as html, png, or pdf files.
-4. Your answers to the [questionnaire](). 
+4. Your answers to the [questionnaire](https://docs.google.com/forms/d/1m6LFLPzvjRxZTRmaCIayy9oJmQrnppa3riYUgtH0wz0/viewform). 
 
 You can turn in your figures using 
 
