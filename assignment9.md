@@ -1340,7 +1340,7 @@ dataTable.addRows([
 ]);
 var chart = new google.visualization.Calendar(document.getElementById('calendar_basic'));
 var options = {
-width : 500,
+width : 750,
 calendar: { cellSize: 10 },
 };
 chart.draw(dataTable, options);
@@ -1380,6 +1380,11 @@ I'll just say it- this is the best assignment. Yes, that lit review was probably
 
 ##Data
 
+You can download the almost-clean data [here](). It contains 8,800 reports and the strucuted data that our Turkers extracted. The data is in [JSON]() format, which is easy to load in python like so:
+
+<pre><code>import json
+data = json.load(open('aggregated-data.json'))
+</code></pre>
 
 ##The Gun ReReport
 
