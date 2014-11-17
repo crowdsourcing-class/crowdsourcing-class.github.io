@@ -1336,8 +1336,37 @@ dataTable.addRows([
 ]);
 var chart = new google.visualization.Calendar(document.getElementById('calendar_basic'));
 var options = {
+width : "500px",
+height : "175px",
+
 };
 chart.draw(dataTable, options);
+}
+</script>
+<script type="text/javascript">
+google.load("visualization", "1", {packages:["corechart"]});
+google.setOnLoadCallback(drawRace);
+function drawRace() {
+var data = google.visualization.arrayToDataTable([
+['Race', 'White', 'African Am.', 'Asian Am.', 'Hispanic', 'Other', { role: 'annotation' } ],
+['White', 27.0 , 10.0, 5.0, 6.0, 1.0, ''],
+['African Am.', 3.0 , 32.0, 0.0, 4.0, 0.0, ''],
+['Hispanic', 2.0 , 2.0, 0.0, 30.0, 0.0, ''],
+['Other', 0.0 , 0.0, 2.0, 0.0, 9.0, ''],
+['Asian Am.', 0.0 , 0.0, 2.0, 0.0, 0.0, ''],
+]);
+var view = new google.visualization.DataView(data);
+var options = {
+width: 600,
+height: 400,
+legend: { position: 'top', maxLines: 3 },
+bar: { groupWidth: '75%' },
+hAxis : {title : 'Race of shooter'},
+vAxis : {title : 'Number of reports by race of victim'},
+isStacked: true,
+};
+var chart = new google.visualization.ColumnChart(document.getElementById("race_div"));
+chart.draw(view, options);
 }
 </script>
 
@@ -1367,6 +1396,8 @@ Now you have a hopefully fairly clean set of data to work with. Lets answer ask 
 </tr></table>
 
 ###Who
+
+<div id="race_div" style="width: 500px; height: 175;"></div>
 
 ###How
 
