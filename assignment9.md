@@ -4578,12 +4578,12 @@ I'll just say it- this is the best assignment. Yes, that lit review was probably
 Now you have a hopefully fairly clean set of data to work with. Lets answer ask some questions, and answer them with some figures. We'll walk you three a few of questions and figures first, then you will get a chance to look into whatever aspect of the data interests you the most.
 
 ###When
-<div id="calendar_basic" style="width: 1000px; height: 350px;"></div>
+<div id="calendar_basic" style="width: 500px; height: 175;"></div>
 
 ###Where
 <table><tr>
-<td><div id="intentional_div" style="width: 900px; height: 500px;"></div></td>
-<td><div id="unintentional_div" style="width: 900px; height: 500px;"></div></td>
+<td><div id="intentional_div" style="width: 400; height: 150px;"></div></td>
+<td><div id="unintentional_div" style="width: 400px; height: 150px;"></div></td>
 </tr></table>
 
 ###Who
