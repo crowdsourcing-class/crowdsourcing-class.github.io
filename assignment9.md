@@ -175,9 +175,9 @@ chart.draw(data, options);
 
 <script type="text/javascript">
 google.load("visualization", "1.1", {packages:["calendar"]});
-google.setOnLoadCallback(drawChart);
+google.setOnLoadCallback(drawCal);
 
-function drawChart() {
+function drawCal() {
 var dataTable = new google.visualization.DataTable();
 dataTable.addColumn({ type: 'date', id: 'Date' });
 dataTable.addColumn({ type: 'number', id: 'Count' });
@@ -1367,6 +1367,7 @@ height : 175,
 chart.draw(dataTable, options);
 }
 </script>
+
 <script type="text/javascript">
 google.load("visualization", "1", {packages:["corechart"]});
 google.setOnLoadCallback(drawRace);
