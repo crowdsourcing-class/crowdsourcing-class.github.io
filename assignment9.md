@@ -51,7 +51,6 @@ var data = google.visualization.arrayToDataTable([
 ['Oh', 316],
 ['Ok', 87],
 ['Or', 68],
-['Outside', 15],
 ['Pa', 280],
 ['Ri', 22],
 ['Sc', 115],
@@ -122,7 +121,6 @@ var data = google.visualization.arrayToDataTable([
 ['Oh', 110],
 ['Ok', 35],
 ['Or', 32],
-['Outside', 8],
 ['Pa', 75],
 ['Sc', 46],
 ['Sd', 7],
@@ -1336,9 +1334,8 @@ dataTable.addRows([
 ]);
 var chart = new google.visualization.Calendar(document.getElementById('calendar_basic'));
 var options = {
-width : "500px",
-height : "175px",
-
+width : 500,
+height : 175,
 };
 chart.draw(dataTable, options);
 }
@@ -1387,7 +1384,7 @@ I'll just say it- this is the best assignment. Yes, that lit review was probably
 Now you have a hopefully fairly clean set of data to work with. Lets answer ask some questions, and answer them with some figures. We'll walk you three a few of questions and figures first, then you will get a chance to look into whatever aspect of the data interests you the most.
 
 ###When
-<div id="calendar_basic" style="width: 500px; height: 175;"></div>
+<div id="calendar_basic" style="width: 700px; height: 250;"></div>
 
 ###Where
 <table><tr>
