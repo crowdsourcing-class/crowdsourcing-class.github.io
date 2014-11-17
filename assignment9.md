@@ -1429,33 +1429,40 @@ There is no fool-proof way of doing this, so we will just use some intuitive rul
 2. Of records which share a victim, consider them "potential duplicates" if they either share a shooter name or if one of the records' shooters is "unknown". Look at 10-15 of these "potential duplicates" manually. How many of these are follow-on articles which actually add information (e.g. the shooter name was not previously released, but is now known) and how many are actually just redundant (e.g. multiple reports about high-profile shootings like the Zimmerman/Martin case). 
 3. Write a script which iterates through the records and attempts to merge records when possible. You can merge records which match on at least two of shooter_name/victim_name/date. A good pseudocode for your deduping algorithm might be: 
 
-<pre><code>records = json.load(open('aggregated-data.json'))
-deduped = empty set of records
-def can_merge(this, that) : return True if this/that share two of shooter/victim/date
-add records[0] to deduped
-for this_record in records : 
-   for that_record in deduped : 
-      if can_merge(this_record, that_record) : 
-         #update fields in deduped with new information added by this_record
-      else : 
-         add this_record to deduped
-</code></pre>
+	<pre><code>records = json.load(open('aggregated-data.json'))
+	deduped = empty set of records
 
-4. Look save your dedupped records to a new file. You can save an object in json format like this:
+	def can_merge(this, that) : return True if this/that share two of shooter/victim/date
+
+	add records[0] to deduped
+	for this_record in records : 
+	   for that_record in deduped : 
+	      if can_merge(this_record, that_record) : 
+	         update fields in deduped with new information added by this_record
+	      else : 
+	         add this_record to deduped
+	</code></pre>
+
+4. Save your dedupped records to a new file. You can save an object in json format like this:
 
 <pre><code>json.dump(deduped, open('deduped-data.json', 'w'))</code></pre>
 
 ##The Gun ReReport
 
-Now you have a hopefully fairly clean, dedeuped set of data to work with. Lets ask some questions, and answer them with some figures. We'll walk you three a few of questions and figures first, then you will get a chance to look into whatever aspect of the data interests you the most.
+Now you have a hopefully fairly clean, dedeuped set of data to work with. Lets ask some questions, and answer them with some figures. Below are instructions for producing four graphs looking at different aspects of the data. Choose two which you find especially interesting and reproduce them using the Google charts API. Each of the API documentation pages gives you an html template you can use, and its usually just as easy as pasting in your own data into the template. You can open the html templates in any browser to look at your results. 
+
+After you have reproduced two of our figures, produce two more plots, charts, or graphs showing any dimension of the data you want to explore. You will answer [a few questions] () afterward. 
 
 ###When
 
-First, it might be nice to see what kind of a time period our data covers. 
+First, it might be nice to see what kind of a time period our data covers. Keep in mind that this doesn't tell us too much about when shootings actually occur, since most of these come from a blog that likely did not exhaustively collect all articles every day. However, it does tell us about what is in our data, and help us understand what kind of conclusions we can and can't draw from it. (And, in truth, I just loved the Google [Calendar Chart](https://developers.google.com/chart/interactive/docs/gallery/calendar) and wanted an excuse to use it). Walk through your deduped data and pull out the dates of each incident. Count the number of articles that you have for each date and plug your data into the template given the the API documentation.
 
 <div id="calendar_basic"></div>
 
 ###Where
+
+Back when Doug talked to us, he mentioned that intentional shootings might be more common in urban areas, but accidental shootings are very common in rural areas. Does our data reflect this? We can plot our incidents by location using the [Google Geo Chart](https://developers.google.com/chart/interactive/docs/gallery/geochart). Here you can see it plotted by state (since the page loads faster that way...), but its more interesting when plotted by city. Try plotting the number of intentional shootings (left) and unintentional shootings (right) by city. 
+
 <table><tr>
 <td><div id="intentional_div" style="width: 400; height: 150px;"></div></td>
 <td><div id="unintentional_div" style="width: 400px; height: 150px;"></div></td>
@@ -1463,21 +1470,33 @@ First, it might be nice to see what kind of a time period our data covers.
 
 ###Who
 
+Most of the records do not contain data about race. But for those that do, we can see some interesting results. Try using the [stacked bar graph](https://developers.google.com/chart/interactive/docs/gallery/columnchart#StackedColumns) to produce a graph like this one. You are welcome to try looking at this slighly differently- e.g. including information about age or gender instead of or in addition to information about race.
+
 <div id="race_div" style="width: 500px; height: 175;"></div>
 
 ###How
 
+The information we collected about "type of gun" is not very structured, but we can still pull out some high-level information. By looking through the records and counting the "type of gun" strings with contain the words "rifle", "shotgun", "pistol", "revolver", and "handgun", we can get a sense of how often each type of gun was used. Using the [Diff Charts API](https://developers.google.com/chart/interactive/docs/gallery/diffchart) we can make it more interesting by comparing how the gun types are different between fatal shootings (inner circle) and non-fatal shootings (outer circle).
+
 <div id="guns_div" style="width: 500px; height: 175;"></div>
+
+###Tell us something cool
+
+Create any two plots you want to display something interesting from the data. One trick for making your graphs instantly more interesting (and for forcing yourself to ask deeper questions) is to always display multiple dimensions at a time. Shootings over time of day? Boring. Fatal vs. non-fatal shootings by time of day and age of shooter? So much more cool!! Keep in mind all of the types of data we collected and try to think of meaningful questions you can ask. E.g. 
+
+- Look at how is the type of gun used varies based on location. Age? Gender?
+- Look at a subset of the data- just domestic violence shootings, or self-defense shootings.
+- Extra credit if you link up with an external resource. E.g. can you say anything about shootings in a city as a function of [the average income](http://www.census.gov/compendia/statab/cats/income_expenditures_poverty_wealth/income_and_poverty--state_and_local_data.html) or the city's [spending on law enforcement](http://www.census.gov/compendia/statab/cats/law_enforcement_courts_prisons/criminal_justice_expenditures.html)?
 
 ##Deliverables
 
-This assignment is due <b>Wednesday, November 5</b>. You can work in pairs, but you must declare the fact that you are working together when you turn your assignment. Remember to submit your questionnaire before the deadline.  Your deliverables are stated at the ends of parts 1 and 2, but in the spirit of EM, I will reiterate:
+This assignment is due <b>Monday, November 24</b>. You can work in pairs, but you must declare the fact that you are working together when you turn your assignment. Remember to submit your questionnaire before the deadline.  
 
-1. 3 files containing labels for each url, one file for each algorithm (majority, weighted, and CrowdFlower)
-2. 3 files containing qualities for each worker, one file for each algorithm (majority, weighted, and CrowdFlower)
-3. Your completed questionnaire 
-4. Any code you used to run your algorithms and/or perform your analyses. Your code should be readable enough that we can tell what you did, but does not need to conform to any particular interface.
+1. Your deduped data, in json format.
+2. Two figures from our analysis, which you reproduced, as html files.
+3. Your own two figures, as html, png, or pdf files.
+4. Your answers to the [questionnaire](). 
 
-You can turn in your assignment using 
+You can turn in your figures using 
 
-	$ turnin -c nets213 -p quality -v *
+	$ turnin -c nets213 -p the-end -v *
