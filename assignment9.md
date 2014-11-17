@@ -1404,11 +1404,11 @@ Here, the keys correspond to the informationwe asked the workers to extract in o
 
 >> record['shooting-details']
 
-{'time': {'specific': [CLOCK_TIME], 'date': [DATE], 'coarse': [TIME_OF_DAY]}, 
+{'time': {'specific': [CLOCK TIME], 'date': [DATE], 'coarse': [TIME OF DAY]}, 
 'location': {'city': [CITY], 'state': [STATE], 'details': [OTHER INFO]},
 'type_of_gun': [GUN], 
-'number_of_shots': [NUM_SHOTS], 
-'details': [LIST OF BOXES CHECKED], #(e.g. "unintentional", "domestic violence") }
+'number_of_shots': [NUM SHOTS], 
+'details': [LIST OF BOXES CHECKED]} #(e.g. "unintentional", "domestic violence") 
 
 >> record['shooter-details'] # list of shooter records (may be empty)
 
@@ -1419,12 +1419,40 @@ Here, the keys correspond to the informationwe asked the workers to extract in o
 [{'gender': [GENDER], 'age': [AGE], 'race': [RACE], 'name': [NAME], 'killed' : [YES/NO], 'injured' : [YES/NO], 'hospitalized' : [YES/NO]}]
 </code></pre>
 
+###Deduping the data
+
+As we've discussed several times, our methods for collecting articles (scrapping the [Gun Report blog]() and training classifiers for arbitrary news articles) isn't perfect. It is highly likly that we have duplicated articles in our dataset, or multiple different articles reporting on the same incident (e.g. count the number of records for the shooter/victim pair Zimmerman/Martin). So, its probably a good idea to [dedoop](https://www.youtube.com/watch?v=AH-AHEsGJWw) the data. 
+
+There is no fool-proof way of doing this, so we will just use some intuitive rules for merging two records into one. 
+
+1. Write a script to identify records which share the same victim name. 
+2. Of records which share a victim, consider them "potential duplicates" if they either share a shooter name or if one of the records' shooters is "unknown". Look at 10-15 of these "potential duplicates" manually. How many of these are follow-on articles which actually add information (e.g. the shooter name was not previously released, but is now known) and how many are actually just redundant (e.g. multiple reports about high-profile shootings like the Zimmerman/Martin case). 
+3. Write a script which iterates through the records and attempts to merge records when possible. You can merge records which match on at least two of shooter_name/victim_name/date. A good pseudocode for your deduping algorithm might be: 
+
+<pre><code>records = json.load(open('aggregated-data.json'))
+deduped = empty set of records
+def can_merge(this, that) : return True if this/that share two of shooter/victim/date
+add records[0] to deduped
+for this_record in records : 
+   for that_record in deduped : 
+      if can_merge(this_record, that_record) : 
+         #update fields in deduped with new information added by this_record
+      else : 
+         add this_record to deduped
+</code></pre>
+
+4. Look save your dedupped records to a new file. You can save an object in json format like this:
+
+<pre><code>json.dump(deduped, open('deduped-data.json', 'w'))</code></pre>
 
 ##The Gun ReReport
 
-Now you have a hopefully fairly clean set of data to work with. Lets answer ask some questions, and answer them with some figures. We'll walk you three a few of questions and figures first, then you will get a chance to look into whatever aspect of the data interests you the most.
+Now you have a hopefully fairly clean, dedeuped set of data to work with. Lets ask some questions, and answer them with some figures. We'll walk you three a few of questions and figures first, then you will get a chance to look into whatever aspect of the data interests you the most.
 
 ###When
+
+First, it might be nice to see what kind of a time period our data covers. 
+
 <div id="calendar_basic"></div>
 
 ###Where
