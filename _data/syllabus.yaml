@@ -331,7 +331,7 @@
 -
   date: 2014-11-12
   title: Crowdsourcing Translation
-  slides: http://crowdsourcing-class.org/slides/ab-testing.pdf
+  slides: http://crowdsourcing-class.org/slides/crowdsourcing-translation.pdf
   highlights:
     - The language demographics of Mechanical Turk
     - Using crowdsourcing to collect data to train SMT systems
