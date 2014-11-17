@@ -1,7 +1,7 @@
 ---
 layout: default
-img: quality-never-goes-out-of-style
-caption: Quality never goes out of style.
+img: wrapping
+caption: Wrapping it up like a pro.
 title: Homework 9 | Putting it all together 
 active_tab: homework
 ---
