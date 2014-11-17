@@ -1340,7 +1340,7 @@ dataTable.addRows([
 ]);
 var chart = new google.visualization.Calendar(document.getElementById('calendar_basic'));
 var options = {
-//width : 500,
+width : 500,
 //height : 175,
 };
 chart.draw(dataTable, options);
