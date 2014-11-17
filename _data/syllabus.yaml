@@ -346,6 +346,7 @@
       url: http://www.cis.upenn.edu/~ccb/publications/language-demographics-of-mechanical-turk.pdf
     -
       title:  Machine Translation of Arabic Dialects
+      author: Rabih Zbib, Erika Malchiodi, Jacob Devlin, David Stallard, Spyros Matsoukas, Richard Schwartz, John Makhoul, Omar F. Zaidan, and Chris Callison-Burch
       url: http://www.cis.upenn.edu/~ccb/publications/machine-translation-of-arabic-dialects.pdf
 -
   date: 2014-11-17
