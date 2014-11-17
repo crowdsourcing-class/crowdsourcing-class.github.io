@@ -1340,8 +1340,8 @@ dataTable.addRows([
 ]);
 var chart = new google.visualization.Calendar(document.getElementById('calendar_basic'));
 var options = {
-width : 500,
-height : 175,
+//width : 500,
+//height : 175,
 };
 chart.draw(dataTable, options);
 
@@ -1386,7 +1386,7 @@ I'll just say it- this is the best assignment. Yes, that lit review was probably
 Now you have a hopefully fairly clean set of data to work with. Lets answer ask some questions, and answer them with some figures. We'll walk you three a few of questions and figures first, then you will get a chance to look into whatever aspect of the data interests you the most.
 
 ###When
-<div id="calendar_basic" style="width: 700px; height: 250;"></div>
+<div id="calendar_basic"></div>
 
 ###Where
 <table><tr>
