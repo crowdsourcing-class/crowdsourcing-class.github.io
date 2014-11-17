@@ -2,7 +2,7 @@
 layout: default
 img: quality-never-goes-out-of-style
 caption: Quality never goes out of style.
-title: Homework 8 | Quality control
+title: Homework 9 | Putting it all together 
 active_tab: homework
 ---
 <script type="text/javascript" src="https://www.google.com/jsapi"></script>
