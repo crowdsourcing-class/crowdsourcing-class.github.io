@@ -1487,6 +1487,7 @@ Create any two plots you want to display something interesting from the data. On
 
 - Look at how is the type of gun used varies based on location. Age? Gender?
 - Look at a subset of the data- just domestic violence shootings, or self-defense shootings.
+- Try looking at the articles' text for a more qualitative analysis; there are great [tools available for building word clouds](https://github.com/Coppersmith/vennclouds). Eg. how is the text of different for intentional vs. unintentional shootings? 
 - Extra credit if you link up with an external resource. E.g. can you say anything about shootings in a city as a function of [the average income](http://www.census.gov/compendia/statab/cats/income_expenditures_poverty_wealth/income_and_poverty--state_and_local_data.html) or the city's [spending on law enforcement](http://www.census.gov/compendia/statab/cats/law_enforcement_courts_prisons/criminal_justice_expenditures.html)?
 
 ##Deliverables
