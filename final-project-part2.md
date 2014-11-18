@@ -1,7 +1,7 @@
 ---
 layout: default
 img: prototype
-caption: Simple prototype
+caption: Simple prototype (vitruvian man by Brad Ashburn from The Noun Project)
 url: http://www.qmed.com/mpmn/medtechpulse/power-20-minute-prototype
 title: Final Project | Simple Working Prototype
 active_tab: homework
