@@ -1,7 +1,7 @@
 ---
 layout: default
-img: wrapping
-caption: Wrapping it up like a pro.
+img: the-visual-display-of-quantitative-information
+caption: Read this book. It will change your life.
 title: Homework 9 | Putting it all together 
 active_tab: homework
 ---
@@ -1370,13 +1370,13 @@ chart.draw(view, options);
 </script>
 
 <div class="alert alert-info">
-This assignment is due before class on Monday, November 24th.
+This assignment is due before class on Monday, November 24th.  You may do this assignment individually or with a partner. 
 </div>
 
 Putting it all together<span class="text-muted">: Assignment 9</span> 
 =============================================================
 
-I'll just say it- this is the best assignment. Yes, that lit review was probably pretty awesome. And yes, I don't doubt that working through those iterations of EM probably made you feel warm and glowy, but it will all pale in comparison to this assignment. Because now, all the work is done, and we just get to poke through the 8,800 gun articles we found and try to say interesting things. And we'll use the [Google Charts API](https://developers.google.com/chart/) which makes even boring statistics look sexy as all hell.
+In the final weekly homework assignment we will analyze the information that workers extracted from 8,800 gun articles, and try to see if it better helps us answer who/where/when/how questions about gun violence in the USA. We'll use the [Google Charts API](https://developers.google.com/chart/) which makes even boring statistics look sexy as all hell.
 
 ##Data
 
@@ -1392,7 +1392,7 @@ Now, <code>data</code> is a python list of all the records in our data. Each rec
 {'article': {'url': 'http://www.wkyt.com/home/headlines/Man-on-the-loose-after-shooting-in-Corbin-241548201.html', 'text': [TEXT], 'title': 'Police search for person of interest after Corbin shooting'}, 'victim-details': [{'injured': 'yes', 'name': 'William Taylor', 'hospitalized': 'yes', 'gender': 'male', 'age': 'none', 'race': 'none', 'killed': 'no'}], 'shooter-details': [{'gender': 'male', 'age': '25', 'race': 'none', 'name': 'Eric Taylor'}], 'shooting-details': {'number_of_shots': '1', 'time': {'specific': '3:30pm', 'date': '1/23/2014', 'coarse': 'afternoon'}, 'type_of_gun': 'unknown', 'details': ['None of the above.'], 'location': {'city': 'Corbin', 'state': 'KY', 'details': 'gulf trailer park'}}}
 </code></pre>
 
-Here, the keys correspond to the informationwe asked the workers to extract in our HIT, and the values correspond the their responses. Since not all articles contain the same information, each record is slightly different (e.g. the name of the list in of shooters in <code>shooter-details</code> might be empty or might contain 10 shooters). In eneral, each record has four top-level keys: meta information about the article, information about the shooter(s) (names, ages, etc.), information about the victim(s), and information about the shooting (time, place, etc.). E.g. each record should be structured like this: 
+Here, the keys correspond to the information we asked the workers to extract in our HIT, and the values correspond the their responses. Since not all articles contain the same information, each record is slightly different (e.g. the name of the list in of shooters in <code>shooter-details</code> might be empty or might contain 10 shooters). In general, each record has four top-level keys: meta information about the article, information about the shooter(s) (names, ages, etc.), information about the victim(s), and information about the shooting (time, place, etc.). E.g. each record should be structured like this: 
 
 <pre><code>>> record = data[17]
 >> record.keys()
@@ -1421,13 +1421,13 @@ Here, the keys correspond to the informationwe asked the workers to extract in o
 
 ###Deduping the data
 
-As we've discussed several times, our methods for collecting articles (scrapping the [Gun Report blog](http://nocera.blogs.nytimes.com/category/gun-report/?_r=0) and training classifiers for arbitrary news articles) isn't perfect. It is highly likly that we have duplicated articles in our dataset, or multiple different articles reporting on the same incident (e.g. count the number of records for the shooter/victim pair Zimmerman/Martin). So, its probably a good idea to [dedoop](https://www.youtube.com/watch?v=AH-AHEsGJWw) the data. 
+As we've discussed before, our method for collecting articles (scrapping the [Gun Report blog](http://nocera.blogs.nytimes.com/category/gun-report/?_r=0) and training classifiers for arbitrary news articles) isn't perfect. It is highly likely that we have duplicated articles in our dataset, or multiple different articles reporting on the same incident (e.g. count the number of records for the shooter/victim pair Zimmerman/Martin). So, its probably a good idea to [dedoop](https://www.youtube.com/watch?v=AH-AHEsGJWw) the data. 
 
 There is no fool-proof way of doing this, so we will just use some intuitive rules for merging two records into one. 
 
 1. Write a script to identify records which share the same victim name. 
 2. Of records which share a victim, consider them "potential duplicates" if they either share a shooter name or if one of the records' shooters is "unknown". Look at 10-15 of these "potential duplicates" manually. How many of these are follow-on articles which actually add information (e.g. the shooter name was not previously released, but is now known) and how many are actually just redundant (e.g. multiple reports about high-profile shootings like the Zimmerman/Martin case). 
-3. Write a script which iterates through the records and attempts to merge records when possible. You can merge records which match on at least two of shooter_name/victim_name/date. A good pseudocode for your deduping algorithm might be: 
+3. Write a script which iterates through the records and attempts to merge records when possible. You can merge records which match on at least two of shooter_name/victim_name/date. A good pseudocode for your de-duplication algorithm might be: 
 
 	<pre><code>records = json.load(open('aggregated-data.json'))
 	deduped = empty set of records
@@ -1450,7 +1450,7 @@ There is no fool-proof way of doing this, so we will just use some intuitive rul
 
 ##The Gun ReReport
 
-Now you have a hopefully fairly clean, dedeuped set of data to work with. Lets ask some questions, and answer them with some figures. Below are instructions for producing four graphs looking at different aspects of the data. Choose two which you find especially interesting and reproduce them using the Google charts API. Each of the API documentation pages gives you an html template you can use, and its usually just as easy as pasting in your own data into the template. You can open the html templates in any browser to look at your results. 
+Now you have a hopefully fairly clean, de-duplicated set of data to work with. Lets ask some questions, and answer them with some figures. Below are instructions for producing four graphs looking at different aspects of the data. Choose two which you find especially interesting and reproduce them using the Google charts API. Each of the API documentation pages gives you an html template you can use, and its usually just as easy as pasting in your own data into the template. You can open the html templates in any browser to look at your results. 
 
 After you have reproduced two of our figures, produce two more plots, charts, or graphs showing any dimension of the data you want to explore. You will answer [a few questions](https://docs.google.com/forms/d/1m6LFLPzvjRxZTRmaCIayy9oJmQrnppa3riYUgtH0wz0/viewform) afterward. 
 
@@ -1493,7 +1493,7 @@ Create any two plots you want to display something interesting from the data. On
 
 This assignment is due <b>Monday, November 24</b>. You can work in pairs, but you must declare the fact that you are working together when you turn your assignment. Remember to submit your questionnaire before the deadline.  
 
-1. Your deduped data, in json format.
+1. Your de-duplicated data, in json format.
 2. Two figures from our analysis, which you reproduced, as html files.
 3. Your own two figures, as html, png, or pdf files.
 4. Your answers to the [questionnaire](https://docs.google.com/forms/d/1m6LFLPzvjRxZTRmaCIayy9oJmQrnppa3riYUgtH0wz0/viewform). 
