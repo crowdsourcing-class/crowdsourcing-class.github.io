@@ -1376,7 +1376,7 @@ This assignment is due before class on Monday, November 24th.  You may do this a
 Putting it all together<span class="text-muted">: Assignment 9</span> 
 =============================================================
 
-In the final homework assignment we will analyze the information that workers extracted from 8,800 gun articles, and try to see if it better helps us answer who/where/when/how questions about gun violence in the USA. We'll use the [Google Charts API](https://developers.google.com/chart/) which makes even boring statistics look sexy as all hell.
+In the final weekly homework assignment we will analyze the information that workers extracted from 8,800 gun articles, and try to see if it better helps us answer who/where/when/how questions about gun violence in the USA. We'll use the [Google Charts API](https://developers.google.com/chart/) which makes even boring statistics look sexy as all hell.
 
 ##Data
 
