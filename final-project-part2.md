@@ -25,7 +25,7 @@ You will use [github](https://github.com/) to as a version share code across you
 
 Your repository <b>must contain a docs/ directory</b>. It must contain the following: 
 
-* <b>README file</b> explaining the directory structure of your repository and what each script does. Don't worry about insulting our intelligence; even if your names are blaringly obvious, tell us anyway. "The run-quality-control.py script runs our quality control algorithm." Talk to use like we are illiterate babies.
+* <b>README file</b> explaining the directory structure of your repository and what each script does. Don't worry about insulting our intelligence; even if your names are blaringly obvious, tell us anyway. "The run-quality-control.py script runs our quality control algorithm." Talk to us like we are illiterate babies.
 
 * <b>Flow diagram</b>: You should outline the major components/stages of your project, and how they depend on eachother. Somewhere you must have a <b>aggregation module</b> and a <b>quality control module</b>. This should be more conceptual than technical. We are less concerned with your choice of Java classes and interfaces, but more with the big picutre. When does the crowd touch the data? What has to happen before that? What will happen after that? What is your criteria for determining that the crowd's answers are "good enough" to move on? There are [online tools](http://www.gliffy.com/) for making flow diagrams that might be worth checking out.
 

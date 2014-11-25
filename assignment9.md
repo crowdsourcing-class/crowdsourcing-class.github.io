@@ -1421,7 +1421,7 @@ Here, the keys correspond to the information we asked the workers to extract in 
 
 ###Deduping the data
 
-As we've discussed before, our method for collecting articles (scrapping the [Gun Report blog](http://nocera.blogs.nytimes.com/category/gun-report/?_r=0) and training classifiers for arbitrary news articles) isn't perfect. It is highly likely that we have duplicated articles in our dataset, or multiple different articles reporting on the same incident (e.g. count the number of records for the shooter/victim pair Zimmerman/Martin). So, its probably a good idea to [dedoop](https://www.youtube.com/watch?v=AH-AHEsGJWw) the data. 
+As we've discussed before, our method for collecting articles (scraping the [Gun Report blog](http://nocera.blogs.nytimes.com/category/gun-report/?_r=0) and training classifiers for arbitrary news articles) isn't perfect. It is highly likely that we have duplicated articles in our dataset, or multiple different articles reporting on the same incident (e.g. count the number of records for the shooter/victim pair Zimmerman/Martin). So, its probably a good idea to [dedoop](https://www.youtube.com/watch?v=AH-AHEsGJWw) the data. 
 
 There is no fool-proof way of doing this, so we will just use some intuitive rules for merging two records into one. 
 
