@@ -365,37 +365,22 @@
       url: http://www.amazon.com/Crowdsourcing-Speech-Processing-Applications-Transcription/dp/1118358694/
 -
   date: 2014-11-19
-  title: Detecting Emotional Contagion in Massive Social Networks
+  title: Crowdsourcing and Human Subjects Research
   highlights:
     - Human subjects research
-    - Privacy
-    - Are you part of a social experiment?
+    - Social Science experiments
   reading:
     -
-      author: Lorenzo Coviello, Yunkyu Sohn, Adam Kramer, Cameron Marlow, Massimo Franceschetti, Nicholas Christakis, and James Fowler
-      title:  Detecting Emotional Contagion in Massive Social Networks
-      url: http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0090315
+      author: Michael Buhrmester, Tracy Kwang and Samuel Gosling
+      title:  Amazon's Mechanical Turk - A New Source of Inexpensive, Yet High-Quality, Data?
+      url: http://personal.stevens.edu/~ysakamot/creativity/turk%20perspectives.pdf
     -
-      author: TLDR podcast
-      title:  TLDR #32 - An Imperfect Match
-      url: http://www.onthemedia.org/story/tldr-32-imperfect-match/
+      author: Danielle N. Shapiro, Jesse Chandler, Pam A. Mueller
+      title:  Using Mechanical Turk to Study Clinical Populations
+      url: http://cpx.sagepub.com/content/1/2/213.full
     -
-      author: neustar Research
-      title:  Riding with the Stars&#58; Passenger Privacy in the NYC Taxicab Dataset
-      url: http://research.neustar.biz/2014/09/15/riding-with-the-stars-passenger-privacy-in-the-nyc-taxicab-dataset/
--
-  date: 2014-11-24
-  title: What big data can tell us about sex and relationships
-  slides: http://crowdsourcing-class.org/slides/speed-dating-okcupid.pdf
-  reading:
-    -
-      title:  OKCupid Blog
-      url: http://blog.okcupid.com
-    -
-      author: Rajesh Ranganath, Dan Jurafsky and Daniel McFarland
-      title:  Detecting friendly, flirtatious, awkward, and assertive speech in speed-dates
-      url: http://www.stanford.edu/~jurafsky/pubs/ranganath2013.pdf
-
+      title:  Penn's Institutional Review Board
+      url: http://www.upenn.edu/IRB/mission-institutional-review-board-irb/guidance
 -
   date: 2014-11-26
   title: No class (Friday class schedule today)
