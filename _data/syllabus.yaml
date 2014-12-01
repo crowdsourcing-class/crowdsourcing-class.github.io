@@ -365,7 +365,8 @@
       url: http://www.amazon.com/Crowdsourcing-Speech-Processing-Applications-Transcription/dp/1118358694/
 -
   date: 2014-11-19
-  title: Crowdsourcing and Human Subjects Research
+  title: Social Sciences and Human Subjects Research
+  slides: http://crowdsourcing-class.org/slides/crowdsourcing-and-the-social-sciences.pdf
   highlights:
     - Human subjects research
     - Social Science experiments
@@ -390,7 +391,9 @@
   slides: http://crowdsourcing-class.org/slides/ab-testing.pdf
   highlights:
     - Active versus passive crowdsourcing
+    - Making money with statistics 
     - Optimizing web sites using A/B testing
+    - Are you part of a social experiment?
   reading:
     -
       author: Wired Magazine
@@ -406,16 +409,22 @@
       url: http://elem.com/~btilly/effective-ab-testing/
     -
       title:  Optimizely
-      url: https://www.optimizely.com
+      url: https://www.optimizely.com 
+    -
+      author: Adam Kramer, Jamie Guillory, and Jeffrey Hancock
+      title:  Experimental evidence of massive-scale emotional contagion through social networks
+      url: https://cornell.app.box.com/fbcontagion
+    -
+      author: TLDR podcast
+      title:  TLDR #32 - An Imperfect Match
+      url: http://www.onthemedia.org/story/tldr-32-imperfect-match/
+    -
+      author: Christian Rudder - OKCupid
+      title:  We Experiment On Human Beings!
+      url: http://blog.okcupid.com/index.php/we-experiment-on-human-beings/
 -
   date: 2014-12-03
-  title: Personality, Gender and Age in the Language of Social Media
-  speaker: Andy Schwartz
-  slides: http://crowdsourcing-class.org/slides/personality-gender-age-in-social-media.pdf
-  reading:
-    -
-      title:  Personality, Gender, and Age in the Language of Social Media&#58; The Open-Vocabulary Approach
-      url: http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0073791
+  title: TBD
 -
   date: 2014-12-08
   title: Course wrap-up
