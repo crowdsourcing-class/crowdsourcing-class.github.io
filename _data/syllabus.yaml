@@ -424,7 +424,20 @@
       url: http://blog.okcupid.com/index.php/we-experiment-on-human-beings/
 -
   date: 2014-12-03
-  title: TBD
+  title: Expert Crowds
+  slides: http://crowdsourcing-class.org/slides/expert-crowds.pdf
+  highlights:
+    - Finding people with obscure knowledge via ads
+    - Creating and evaluating test questions
+  reading:
+    -
+      author: Panos Ipeirotis and Evgeniy Gabrilovich
+      title:  Quizz&#58; Targeted Crowdsourcing with a Billion (Potential) Users
+      url: http://www.ipeirotis.com/wp-content/uploads/2014/01/fp267-ipeirotis.pdf
+    -
+      author: Maria Christoforaki and Panos Ipeirotis
+      title:  STEP&#58; A Scalable Testing and Evaluation Platform
+      url: http://www.ipeirotis.com/wp-content/uploads/2014/11/STEP_A_Scalable_Testing_and_Evaluation_Platform.pdf
 -
   date: 2014-12-08
   title: Course wrap-up
