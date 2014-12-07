@@ -22,10 +22,9 @@ The final project is due on Monday December 15th.  By that time, your system wil
 What you should do to prepare:
 
 * Get a working prototype ready
-* Think about what sort of analysis you want to do.  
 * Be sure that it is capable of collecting data from the crowd.
 * Write a step-by-step README that shows your classmates how to use your system.
-- Do you want to compare your system against an existing non-crowdsourcing method?  
-- Do you want to analyze how accurate the crowd is at making predictions?
-- Do you want to test how well your method could scale in terms of time/money?
-* Make sure that your capturing the appropriate information so that you can do your analysis.
+* Think about what sort of analysis you want to do.  
+	- Do you want to compare your system against an existing non-crowdsourcing method?  
+	- Do you want to analyze how accurate the crowd is at making predictions?
+	- Do you want to test how well your method could scale in terms of time/money?* Make sure that your capturing the appropriate information so that you can do your analysis.
