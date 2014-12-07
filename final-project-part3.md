@@ -25,7 +25,7 @@ What you should do to prepare:
 * Think about what sort of analysis you want to do.  
 * Be sure that it is capable of collecting data from the crowd.
 * Write a step-by-step README that shows your classmates how to use your system.
-** Do you want to compare your system against an existing non-crowdsourcing method?  
-** Do you want to analyze how accurate the crowd is at making predictions?
-** Do you want to test how well your method could scale in terms of time/money?
+- Do you want to compare your system against an existing non-crowdsourcing method?  
+- Do you want to analyze how accurate the crowd is at making predictions?
+- Do you want to test how well your method could scale in terms of time/money?
 * Make sure that your capturing the appropriate information so that you can do your analysis.
