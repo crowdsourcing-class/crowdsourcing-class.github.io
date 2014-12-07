@@ -27,4 +27,5 @@ What you should do to prepare:
 * Think about what sort of analysis you want to do.  
 	- Do you want to compare your system against an existing non-crowdsourcing method?  
 	- Do you want to analyze how accurate the crowd is at making predictions?
-	- Do you want to test how well your method could scale in terms of time/money?* Make sure that your capturing the appropriate information so that you can do your analysis.
+	- Do you want to test how well your method could scale in terms of time/money?
+* Make sure that your capturing the appropriate information so that you can do your analysis.
