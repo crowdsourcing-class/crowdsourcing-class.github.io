@@ -20,6 +20,7 @@ This week's assignment is optional.  It doesn't count toward your final grade, b
 The final project is due on Monday December 15th.  By that time, your system will need to be fully operational, and you'll have to have collected enough data to do an interesting analysis.  You can either collect data by employing a real crowd, or by having your classmates simulate the crowd.  On Monday December 8th, we'll have a catered dinner / hackathon after the final NETS 213 lecture.  During the hackathon, you will try out each other's projects, with the goal of creating some data that you can use to analyze for your final project.
 
 What you should do to prepare:
+
 * Get a working prototype ready
 * Think about what sort of analysis you want to do.  
 * Be sure that it is capable of collecting data from the crowd.
