@@ -1,8 +1,7 @@
 ---
 layout: default
-img: prototype
+img: prototype-3
 caption: Demo time
-url: http://en.wikipedia.org/wiki/The_Mother_of_All_Demos
 title: Final Project | That's all there is, there isn't any more. 
 active_tab: homework
 ---
