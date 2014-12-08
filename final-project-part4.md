@@ -45,9 +45,26 @@ Some other tips for making your video awesome:
 
 * Show, don't just tell. Demos of working apps or figures of analyzed results are gold. Don't just use your voice-over to read words off of a slide. 
 
-###Final Questionnaire
+###Final Writeup/Questionnaire (???)
 
 Five minutes is short, and we want you do use your video to showcase what is great about what you did. So to make sure you still get credit for all the obligatory parts, and because it is only fitting, we will have you fill out one final questionnaire. The questions will look familiar- its okay to reiterate points you made on past checkpoints, but highlight what about your original plan changed in your final product. 
+
+Alternatively: A short writeup covering the following topics: 
+
+* What problem you are solving/question you are answering
+
+* How you attempted to solve/answer it
+
+* How did you address each of the following: incentivization, aggregation, QC
+
+* Did you project work? How do you know so? Analyze some results, discuss some positive outcomes of your project.
+
+* What are the biggest challenges you had to deal with? What changed between your original plan and your final product?
+
+* What are some limitations of your product. If your's is an engineering-heavy project, what would you need to overcome in order to scale (cost/incentives/QC...)? If your's was a scientific study, what are some sources of error that may have been introduced by your method. If you results deviate from previous work, why might that be?
+
+(Should roughly 3-5 pages including figures, but no one is counting. Just say what needs to be said, however many words that takes you. If you go longer than 5 ror 6, though, we might stop reading...)
+
 
 ###Your code
 
