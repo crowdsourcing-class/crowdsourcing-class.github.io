@@ -1,7 +1,7 @@
 ---
 layout: default
 img: prototype-3
-caption: Demo time
+caption: Final working system
 title: Final Project | That's all there is, there isn't any more. 
 active_tab: homework
 ---
