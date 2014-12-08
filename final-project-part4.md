@@ -47,16 +47,16 @@ Some other tips for making your video awesome:
 
 ###Final Questionnaire
 
-Five minutes is short, and we want you do use your video to showcase what is great about what you did. So to make sure you still get credit for all the obligatory parts,and because it is only fitting, we will have you fill out one final questionnaire. The questions will look familiar- its okay to reiterate points you made on past checkpoints, but highlight what about your original plan changed in your final product. 
+Five minutes is short, and we want you do use your video to showcase what is great about what you did. So to make sure you still get credit for all the obligatory parts, and because it is only fitting, we will have you fill out one final questionnaire. The questions will look familiar- its okay to reiterate points you made on past checkpoints, but highlight what about your original plan changed in your final product. 
 
 ###Your code
 
 Make sure all of your code is in your github repository. You will need to provide a link to your repository, as well as to specific files, in the questionnaire. Your repository <b>must contain a docs/ directory</b> with the following:
 
-* <b>README file</b> explaining the directory structure of your repository and what each script does. Be obscenely verbose and clear about where everything is and what it does. If we can't find the code you are talking about, we cannot grade it accurately (or at all). 
+1. <b>README file</b> explaining the directory structure of your repository and what each script does. Be obscenely verbose and clear about where everything is and what it does. If we can't find the code you are talking about, we cannot grade it accurately (or at all). 
 
-* <b>Flow diagram</b>: You should update the flow diagram from your previous submission to outline the major components/stages of your final product, and how they depend on eachother. This should contain somewhere an <b>aggregation module</b> and a <b>quality control module</b>. 
+2. <b>Flow diagram</b>: You should update the flow diagram from your previous submission to outline the major components/stages of your final product, and how they depend on eachother. This should contain somewhere an aggregation module and a quality control module. 
 
-* <b>Short write-up</b> You should include a short written "demo" of your project in PDF format. For the engineering-heavy projects, this can be simply a walk-through of all of the use-cases of your app. If your's is a more scientific study, your writeup should include your figures and analyses of your results. Most of your discussion will be in the questionnaire, but your PDF writeup is meant to keep all of your visual aides (screenshots, tables, charts, etc.) in one place. Your figures should be clearly labeled and captioned. You can mention/point to these figures in your responses in the questionnaire. 
+3. <b>Screenshots/figures</b> You should include a short written "demo" of your project in PDF format. For the engineering-heavy projects, this can be simply a walk-through of all of the use-cases of your app. If your's is a more scientific study, your PDB should include your figures and analyses of your results. Your full written discussion will be in the questionnaire, but your PDF writeup is meant to keep all of your visual aides (screenshots, tables, charts, etc.) in one place. Your figures should be clearly labeled and captioned. You can and should point to these figures in your responses in the questionnaire.
 
 The final project is due on Monday December 15th.  The presentations will be from 3pm-5pm in Berger Auditorium room 101 in Skirkanich Hall. You must work in groups on this project.  You must declare who is in your group when you turn your assignment.  Everyone in your group will receive the same grade on the assignment. 
