@@ -1,8 +1,8 @@
 ---
 layout: default
 img: prototype
-caption: Simple prototype (vitruvian man by Brad Ashburn from The Noun Project)
-url: http://www.qmed.com/mpmn/medtechpulse/power-20-minute-prototype
+caption: Demo time
+url: http://en.wikipedia.org/wiki/The_Mother_of_All_Demos
 title: Final Project | That's all there is, there isn't any more. 
 active_tab: homework
 ---
@@ -15,7 +15,7 @@ The final project is due on Monday December 15th.  The presentations will be fro
 Final Project<span class="text-muted"> : Part 4</span> 
 =============================================================
 
-The end is in sight.  This will be the final deliverable for NETS 213.  This assignment will be worth 25% of your final grade.  The goals of the final deliverables are the following:
+The end is in sight.  This will be the final deliverable for NETS 213.  This assignment will be worth 20% of your final grade.  The goals of the final deliverables are the following:
 
 * Show off what you did and why it is cool
 
