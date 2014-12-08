@@ -24,7 +24,7 @@ The end is in sight.  This will be the final deliverable for NETS 213.  This ass
 
 ###Final Video
 
-On the day of the final exam, you will each have 5 minutes to wow everyone with your finished product. And, being the theme of the course, we will ask you to do so in a 5 minute video. You all have a lot of work to showcase in those 5 minutes, so you keep it crisp and on-point. Your video should:
+On the day of the final exam, you will each have 5 minutes to wow everyone with your finished product. And, being a recurring theme of the course, we will ask you to do so in a 5 minute video. You all have a lot of work to showcase in those 5 minutes, so you keep it crisp and on-point. Your video should:
 
 1. Motivate the problem you are trying to solve or question you are trying to answer, and why crowdsourcing is an especially good fit for solving/answering it.
 
@@ -46,7 +46,7 @@ Some other tips for making your video awesome:
 
 ###Final Questionnaire
 
-Five minutes is short, and we want you do use your video to showcase what is great about what you did. So to make sure you still get credit for all the obligatory parts, and because it is only fitting, we will have you fill out [one final questionnaire](https://docs.google.com/forms/d/1SndUhVcdVr1DI10tEML6gKxMrh4tBz5LZ7hVbOaBeqQ/viewform?usp=send_form). The questions will look familiar- its okay to reiterate points you made on past checkpoints, but highlight what about your original plan changed in your final product. 
+Five minutes is short, and we want you do use your video to showcase what is great about what you did. So to make sure you still get credit for all the obligatory parts, and because it is only fitting, we will have you fill out [a detailed final questionnaire](https://docs.google.com/forms/d/1SndUhVcdVr1DI10tEML6gKxMrh4tBz5LZ7hVbOaBeqQ/viewform?usp=send_form). The questions will look familiar - its okay to reiterate points you made on past checkpoints, but highlight what about your original plan changed in your final product. 
 
 The questions we will ask, includes questions about these topics:
 
