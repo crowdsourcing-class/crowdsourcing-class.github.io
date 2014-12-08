@@ -62,6 +62,8 @@ The questions we will ask, includes questions about these topics:
 
 * What are some limitations of your product. If yours is an engineering-heavy project, what would you need to overcome in order to scale (cost/incentives/QC...)? If yours was a scientific study, what are some sources of error that may have been introduced by your method. If you results deviate from previous work, why might that be?
 
+The questionnaire has questions asking you to do a deeper analysis of the individual components of your project. You should pick some number of these, and do an analysis. For each of the analysis questions, we ask you to create a Google graph using your skills from [the last homework assignment](http://crowdsourcing-class.org/assignment9.html). The number of questions you should pick depends on where the balance of your team's effort went.  Some people are building really complex system that require a lot of engineering.  Other people's focus is on analyzing data.  If your focus is on analysis, then you should generate more graphs. 
+
 
 ###Your code
 
@@ -69,7 +71,7 @@ Make sure all of your code is in your github repository. You will need to provid
 
 1. <b>README file</b> explaining the directory structure of your repository and what each script does. Be obscenely verbose and clear about where everything is and what it does. If we can't find the code you are talking about, we cannot grade it accurately (or at all). 
 
-2. <b>Flow diagram</b>: You should update the flow diagram from your previous submission to outline the major components/stages of your final product, and how they depend on eachother. This should contain somewhere an aggregation module and a quality control module. 
+2. <b>Flow diagram</b>: You should update the flow diagram from your previous submission to outline the major components/stages of your final product, and how they depend on each other. This should contain somewhere an aggregation module and a quality control module. 
 
 3. <b>Screenshots/figures</b> You should include a short written "demo" of your project in PDF format. For the engineering-heavy projects, this can be simply a walk-through of all of the use-cases of your app. If yours is a more scientific study, your PDB should include your figures and analyses of your results. Your full written discussion will be in the questionnaire, but your PDF writeup is meant to keep all of your visual aides (screenshots, tables, charts, etc.) in one place. Your figures should be clearly labeled and captioned. You can and should point to these figures in your responses in the questionnaire.
 
