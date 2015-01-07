@@ -81,7 +81,8 @@ This week we will be looking at the wealth of companies that use crowdsourcing a
 [We the People](https://petitions.whitehouse.gov),
 [Wikipedia](http://en.wikipedia.org/wiki/Main_Page),
 [XPRIZE](http://www.xprize.org),
-[Yelp](http://www.yelp.com/)
+[Yelp](http://www.yelp.com/).
+You are also welcome to profile a relevant company that is not on this list (but please verify your choice beforehand with the instructor).
 
 
 
