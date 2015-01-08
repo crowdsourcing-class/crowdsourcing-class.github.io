@@ -9,19 +9,6 @@ active_tab: main_page
 Crowdsourcing and human computation are emerging fields that sit squarely at the intersection of economics and computer science. They examine how people can be used to solve complex tasks that are currently beyond the capabilities of artificial intelligence algorithms. Online marketplaces like [Mechanical Turk](https://www.mturk.com/) and [CrowdFlower](https://crowdflower.com) provide an infrastructure that allows micropayments to be given to people in return for completing human intelligence tasks. This opens up previously unthinkable possibilities like people being used as function calls in software. We will investigate how crowdsourcing can be used for computer science applications like machine learning, next-generation interfaces, and data mining. Beyond these computer science aspects, we will also delve into topics like prediction markets, how businesses can capitalize on collective intelligence, and the fundamental principles that underlie democracy and other group decision-making processes.
 
 
-<div class="alert alert-info" markdown="span">
-On Monday December 8th after class, we'll be holding a dinner/hackathon.  [Here are some ideas on how to prepare.](final-project-part3.html)
-</div>
-
-
-<div class="alert alert-info" markdown="span">
-The [final project](final-project-part4.html) is due on Monday December 15th.  The presentations will be from 3pm-5pm in Berger Auditorium room 101 in Skirkanich Hall.
-</div>
-
-
-
-
-
 
 Course number
 : [NETS](http://nets.upenn.edu/) 213 - students from all majors are welcome!
