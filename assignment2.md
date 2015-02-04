@@ -43,6 +43,7 @@ This week we will be looking at the wealth of companies that use crowdsourcing a
 [IndieGoGo](https://www.indiegogo.com),
 [Innocentive](http://www.innocentive.com),
 [Instacart](https://www.instacart.com/faq),
+[Invisible Boyfriend](https://invisibleboyfriend.com),
 [iStockPhoto](http://en.wikipedia.org/wiki/IStock),
 [Intrade](http://en.wikipedia.org/wiki/Intrade),
 [Iowa Election Markets](http://tippie.uiowa.edu/iem/),
