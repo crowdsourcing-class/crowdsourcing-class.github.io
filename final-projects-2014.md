@@ -12,10 +12,10 @@ Final projects from the students enrolled in NETS 213 in Fall 2014
 
 <table class="table table-striped"> 
   <tbody>
-    {% for questionnaire in site.data.final_projects_2014 %}
+    {% for questionnaire in site.data.company_profiles %}
    <tr>
       <td>
-{{ questionnaire.give_a_one_sentence_description_of_your_project }} 
+{{ questionnaire.give_a_one_sentence_description_of_the_company }} 
        </td>
     </tr>
     {% endfor %}
