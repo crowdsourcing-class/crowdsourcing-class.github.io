@@ -12,11 +12,9 @@ Final projects from the students enrolled in NETS 213 in Fall 2014
 
 <table class="table table-striped"> 
   <tbody>
-    {% assign id = 0 %}
     {% for questionnaire in site.data.final_projects_2014 %}
    <tr>
       <td>
-	<img src="{{ questionnaire.url_to_the_logo_for_your_project }}" width="100" />
 {{ questionnaire.give_a_one_sentence_description_of_your_project }} 
        </td>
     </tr>
