@@ -23,7 +23,7 @@ Discussion Forum
 : [Piazza](https://piazza.com/upenn/fall2014/nets213/home)
 
 Time and place
-: Fall 2014, Mondays and Wednesdays 4:30-6pm, Towne 313
+: The class will next be offered in Spring 2016
 
 Prerequisites
 : [CIS 120](http://www.seas.upenn.edu/~cis120/) or prior programming experience

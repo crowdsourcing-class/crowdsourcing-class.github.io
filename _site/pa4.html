@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 6 | EM Algorithm</title>
+
+    <!-- CSS -->
+    <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/class.css" rel="stylesheet">   
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <!-- MathJax -->
+    <script type="text/javascript"
+      src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+  <body>
+    <a class="sr-only" href="#content">Skip to main content</a>
+
+    <!-- Docs master nav -->
+    <header class="navbar navbar-fixed-top navbar-default" role="banner">
+      <div class="container">
+        <div class="row">
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <ul class="nav navbar-nav">
+            <div class="hidden-sm hidden-xs"><li id="main_page"><a href="index.html" class="navbar-brand">Crowdsourcing & Human Computation</a></li></div>
+            <div class="visible-sm visible-xs"><li id="main_page"><a href="index.html" class="navbar-brand">Crowdsourcing & HComp</a></li></div>
+          </ul>
+        </div>
+        <nav class="collapse navbar-collapse" role="navigation">
+          <ul class="nav navbar-nav">
+            <li id="syllabus"><a href="syllabus.html">Syllabus</a></li>
+            <li id="homework">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Homework Assignments <span class="caret"></span></a>
+              <ol class="dropdown-menu">
+                <li><a href="assignment1.html">Become a Crowd Worker</a></li>
+		<li><a href="assignment2.html">Market Research</a></li>                
+		<li><a href="assignment3.html">Python Bootcamp</a></li>
+		<li><a href="assignment4.html">Training a Classifier</a></li>
+		<li><a href="assignment5.html">Become a Requester</a></li>
+		<li><a href="final-project-part1.html">Final project - part 1</a></li>
+		<li><a href="peergrading.html">Peer Grading</a></li>
+		<li><a href="assignment6.html">Crowdsourcing IE</a></li>
+		<li><a href="assignment7.html">Lit Review</a></li>
+		<li><a href="assignment8.html">Quality Control</a></li>
+		<li><a href="final-project-part2.html">Final project - part 2</a></li>
+		<li><a href="assignment9.html">Analyzing Data</a></li>
+		<li><a href="final-project-part3.html">Final project - part 3</a></li>
+		<li><a href="final-project-part4.html">Final project - final</a></li>
+              </ol>
+            </li>
+            <li id="project"><a href="project.html">Term Project</a></li>
+            <li id="company-profile"><a href="company-profile.html">Company Profiles</a></li>
+            <li id="resources"><a href="resources.html">Resources</a></li>
+          </ul>
+        </nav>
+      </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-2 hidden-sm hidden-xs">
+           
+          <img src="assets/img/quality-never-goes-out-of-style.jpg" class="img-responsive img-rounded" alt=""/>
+           
+          <span class="text-muted"><i>Quality never goes out of style.</i></span>
+        </div>
+        <div class="col-sm-10">
+          <div class="alert alert-info">
+  This assignment is due before class on Wednesday, October 23rd.
+</div>
+
+<h1 id="em-algorithmspan-classtext-muted-assignment-6span">EM Algorithm<span class="text-muted">: Assignment 6</span></h1>
+<p>Last week, we used the embedded quality controls in order to determine how to approve and reject workers. This week, we will continue with the quality-control theme, but with a slightly different perspective. Now, we want to try to figure out how ‘good’ that data is. Is it good enough to train a sentiment classifier in the next assignment? Or did you waste all of your hard-earned-free-Amazon-money on utter crap? </p>
+
+<p>We will attempt to answer two questions:</p>
+
+<ol>
+  <li>How good are the labels I received? How do I combine the (likely conflicting) labels from multiple Turkers in order to accurately label my data?</li>
+  <li>How good are my workers? Which workers are reliable and which ones appear to be lazy and/or inebriated?</li>
+</ol>
+
+<p>In class, we have discussed three different quality estimation methods to answer these questions:</p>
+
+<ol>
+  <li>Embedded controls (What you did last week) : A label is considered ‘correct’ if the Turker who provided it correctly answered the embedded gold standard question. Note that, using this method, we can get more than one ‘correct’ label for the same tweet. Based on the data and the application, this may or may not be a property that you want.</li>
+  <li>Majority vote : A label is considered ‘correct’ if it agrees with the majority, i.e. matches whatever is most popular. This is an intuitive algorithm, widely used among insecure adolescents.* </li>
+  <li><a href="http://en.wikipedia.org/wiki/Expectation%E2%80%93maximization_algorithm">Expectation maximization</a> : A label’s ‘correctness’ is determined using an iterative algorithm, which uses the estimated quality of the worker in order to infer the labels, and then the estimated labels in order to infer the quality of the worker. This algorithmic framework is one of the favorites of machine learning and NLP, and we will cover it in more detail in the lecture. For this assignment, we will use Panos Ipeirotis’ implementation, <a href="http://project-troia.com/">Project Troia</a>.</li>
+</ol>
+
+<p>*<font size="1px">(Alternatively, although we will not be implimenting it, one could conceive of an algorithm which always chooses the least popular answer, just to be different. See [Hipster](http://www.urbandictionary.com/define.php?term=hipster) and [Too Cool for School](http://www.urbandictionary.com/define.php?term=Too%20Cool%20for%20School&amp;defid=4468945).)</font></p>
+
+<p>For this assignment, you will run all three algorithms and provide a brief analysis comparing their differences.</p>
+
+<h2 id="to-do">TO DO</h2>
+
+<ol>
+  <li>
+    <p>As in previous assignments, we will provide you with code and ask you to fill in a few lines of the logic in order to run the algorithms. Download our code <a href="downloads/assignment_4.tar.gz">here</a>, and unzip the tarball. 
+ $ tar -xvzf assignment_4.tar.gz
+ You will see six files. The ones denoted ‘template’ are the ones that you will have to edit. As a brief overview of the files:
+ <code>label&#95;map.py</code> : Should look familiar from last assignment - a mapping of the labels that you used in your HIT to standard labels.</p>
+
+    <p><code>majority&#95;vote&#95;template.py</code> : Majority vote quality estimation</p>
+
+    <p><code>embedded&#95;control&#95;template.py</code> : Embedded control quality estimation. You will not need to edit this file since you did this last week.
+ <code>troia&#95;em&#95;template.py</code> : EM quality estimation using Troia server .</p>
+
+    <p><code>quality&#95;estimation.py</code> : Combines the estimates from the above three algorithms, and outputs aggregated CSV files for analyzing.</p>
+
+    <p><code>analysis&#95;template.py</code> : Runs some basic analysis to compare differences in the algorithms</p>
+  </li>
+</ol>
+
+<p>Each of the three algorithm files (<code>majority&#95;vote&#95;template.py</code>, <code>embedded&#95;control.py</code> , and <code>troia&#95;em&#95;template.py</code>) implements two methods, <code>estimate&#95;data&#95;labels()</code> and <code>estimate&#95;worker&#95;qualitites()</code>, which do exactly what they sound like they should do (I debated naming them <code>method&#95;1()</code> and <code>method&#95;2()</code> but my proper programming training got the best of me), but differ slightly based on the algorithm. You will be responsible for completing this methods in <code>majority&#95;vote&#95;template.py</code> and completing a small piece in <code>troia&#95;em&#95;template.py</code>. </p>
+
+<ol>
+  <li>
+    <p>Open <code>label&#95;map.py</code> and fill in your labels, the same way you did in the previous assignment.</p>
+  </li>
+  <li>
+    <p>Open <code>majority&#95;vote&#95;template.py</code>. You will need to provide a few lines of code to complete the logic in the two methods metioned above. The comments in the code should help you but, in the spirit of EM, I will reiterate:</p>
+
+    <p><code>estimate&#95;data&#95;labels()</code> : Here, you simply need to return a dictionary mapping each tweet to its most popular label.</p>
+
+    <p><code>estimate&#95;worker&#95;qualities()</code> : Here, you need to return a dictionary mapping each worker to their accuracy against the most popular label. I.e. in math, the quality of worker i, $q_i$, is </p>
+
+    <script type="math/tex; mode=display">q_i = \frac{\sum_{t \in \text{tweets}[i]} \delta(l_{ti} == \text{majority}[t])}{|\text{tweets}[i]|}</script>
+
+    <p>where tweets$[i]$ is the set of all the tweets labeled by worker $i$, $l_{ti}$ is worker $i$’s label for tweet $t$, majority$[t]$ is the most popular label for tweet $t$, and $\delta(x)$ evaluates to 1 if $x$ is true. </p>
+
+    <p>Okay, there that is. We’ve met our quota for overly-mathifying very simple concepts. CS classes must do this at minimum once per semester in order to reassure the engineering school that we are sufficiently rigorous.</p>
+  </li>
+  <li>
+    <p>Open <code>embedded_control.py</code>. Verify that this looks similar to what you did in the last assignment. The functions will be slightly different:</p>
+
+    <p><code>estimate&#95;data&#95;labels()</code> : In this case, we are accepting <i>all</i> labels from a HIT if the control tweet in that HIT was labeled correctly. This means that, unlike before, we may accept multiple labels for the same tweet. Therefore, we return a dictionary mapping each tweet to a set of accepted labels.</p>
+
+    <p><code>estimate&#95;worker&#95;qualities()</code> : Again we return a dictionary mapping each worker to their accuracy against the controls. I’m going to mathify again, because I just spent 30 minutes downloading <a href="http://www.mathjax.org/">MathJax</a> over a very slow Starbucks network, so I want to use it for more than one equation. </p>
+
+    <script type="math/tex; mode=display">q_i = \frac{\sum_{h \in \text{hits}[i]} \delta(c_{hi} == \text{gold}[c_{h}])}{|\text{hits}[i]|}</script>
+
+    <p>where hits$[i]$ is the set of all the hits in which worker $i$ participated, $c_{hi}$ is worker $i$’s label for the control tweet in hit $h$, gold$[c_h]$ is the gold standard label for the control tweet in hit $h$, and $\delta(x)$ evaluates to 1 if $x$ is true. </p>
+
+    <p>That equation was <i>totally</i> unnecessary, but look how pretty it looks with that $\sum$ and that $\delta$. So worth it.</p>
+  </li>
+  <li>
+    <p>Open <code>troia&#95;em&#95;template.py</code>. You will need to fill in a few lines to estimate the worker accuracies, marked in the file. I also suggest that you look through the code and make sense of what’s going on. From an engineering standpoint, if you are not familiar with python’s <a href="http://docs.python.org/2/library/urllib2.html">urllib2</a> or <a href="http://docs.python.org/2/library/json.html">json</a> modules, it is worth your time familiarizing yourself with them. From an theoretical standpoint, EM is a very important algorithmic framework. If you are interested in machine learning and want to get deeper into the mathematics of EM, check our <a href="../resources.html">resources</a> page for pointers to some good online introductions. Or you can just plunge straight into the mathy mathness of the <a href="../readings/downloads/ml/EM.pdf">original paper</a> on which Troia is based.</p>
+  </li>
+  <li>
+    <p>Once you’ve finished filling in the necessary functions from the above steps, you can run <code>quality&#95;estimation.py</code>, passing it the path to your HITs CSV:</p>
+
+    <p><code>$ python quality&#95;estimation.py hits.csv</code></p>
+
+    <p>This will run all three algorithms, and produce two CSV files, <code>data&#95;quality&#95;estimates.csv</code>, which contains the predicted data labels from each algorithm for each tweet, and  <code>worker&#95;quality&#95;estimates.csv</code>, which contains the predicted worker qualities from each algorithm for each worker. Sometimes, if your network is shotty, the EM code might give an error like <code>KeyError : 'result'</code>. This just means your Troia server didn’t respond normally, and should work if you just try it again. (Computers, amiright? Think how much easier this class would be without them…)</p>
+  </li>
+  <li>
+    <p>Open <code>analysis&amp;#95template.py</code>. This will read in the output from <code>quality&#95;estimation.py</code> and output some summarization analysis. You need to fill in a few lines (marked in the file) in order to compute the overall accuracy of the data, according to the label predictions made by each algorithm. The program will make use of <a href="http://matplotlib.org/">matplotlib</a>. Directions for installing it are <a href="http://matplotlib.org/users/installing.html">here</a>. You can also run it on eniac. (I tried and it works for me. Make sure you use <code>$ ssh -X you@eniac.seas.upenn.edu</code>. If you forget the <code>-X</code>, you will not be able to use the graphics environment necessary to produce the figures.)</p>
+  </li>
+  <li>
+    <p>Run 
+ <code>$ python analysis&#95;template.py</code></p>
+  </li>
+</ol>
+
+<p>This will give you 1) a graph comparing the estimated overall data accuracy, according to each algorithm and 2) a graph of each worker’s estimated quality according to each algorithm. Use these to answer the following questions:</p>
+
+<ul>
+  <li>What was your accuracy a) against the majority vote? b) against the controls? c) against the EM estimated labels? Why do the estimates differ? What are some of the weakness of each approach?</li>
+  <li>How does each algorithm rank your workers? Do they agree on which workers are most/least trustworthy? </li>
+</ul>
+
+<ol>
+  <li>Finally, open <code>troia&#95;em.py</code> again, and uncomment the code block around line 40. This will seed the EM algorithm with your gold data. Reproduce the graphs (you might want to go into the code and change the names that they are saved as, so you don’t overwrite your first graphs). Answer the following question:</li>
+</ol>
+
+<ul>
+  <li>How is EM different when you seed it with gold data? Does it agree more or less with the other algorithms?</li>
+</ul>
+
+<ol>
+  <li>Turn in your code, your two pairs of graphs and a few paragraphs. (!!)</li>
+</ol>
+
+        </div>
+      </div>
+
+      <footer class="text-center text-muted">
+        <hr/>
+        Last updated February 12, 2015. <br/>
+        Feel free to reuse any of the contents of this course or this web page.   <br/>
+	The source code is on <a href="https://github.com/crowdsourcing-class/">github <i class="fa fa-github-alt"></i></a>.
+        <br/>
+      </footer>
+    </div>
+
+    <!-- Page content of course! -->
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./dist/js/bootstrap.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $("#homework").addClass("active");
+      });
+    </script>
+  </body>
+</html>

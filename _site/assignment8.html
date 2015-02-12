@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 8 | Quality control</title>
+
+    <!-- CSS -->
+    <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/class.css" rel="stylesheet">   
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <!-- MathJax -->
+    <script type="text/javascript"
+      src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+  <body>
+    <a class="sr-only" href="#content">Skip to main content</a>
+
+    <!-- Docs master nav -->
+    <header class="navbar navbar-fixed-top navbar-default" role="banner">
+      <div class="container">
+        <div class="row">
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <ul class="nav navbar-nav">
+            <div class="hidden-sm hidden-xs"><li id="main_page"><a href="index.html" class="navbar-brand">Crowdsourcing & Human Computation</a></li></div>
+            <div class="visible-sm visible-xs"><li id="main_page"><a href="index.html" class="navbar-brand">Crowdsourcing & HComp</a></li></div>
+          </ul>
+        </div>
+        <nav class="collapse navbar-collapse" role="navigation">
+          <ul class="nav navbar-nav">
+            <li id="syllabus"><a href="syllabus.html">Syllabus</a></li>
+            <li id="homework">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Homework Assignments <span class="caret"></span></a>
+              <ol class="dropdown-menu">
+                <li><a href="assignment1.html">Become a Crowd Worker</a></li>
+		<li><a href="assignment2.html">Market Research</a></li>                
+		<li><a href="assignment3.html">Python Bootcamp</a></li>
+		<li><a href="assignment4.html">Training a Classifier</a></li>
+		<li><a href="assignment5.html">Become a Requester</a></li>
+		<li><a href="final-project-part1.html">Final project - part 1</a></li>
+		<li><a href="peergrading.html">Peer Grading</a></li>
+		<li><a href="assignment6.html">Crowdsourcing IE</a></li>
+		<li><a href="assignment7.html">Lit Review</a></li>
+		<li><a href="assignment8.html">Quality Control</a></li>
+		<li><a href="final-project-part2.html">Final project - part 2</a></li>
+		<li><a href="assignment9.html">Analyzing Data</a></li>
+		<li><a href="final-project-part3.html">Final project - part 3</a></li>
+		<li><a href="final-project-part4.html">Final project - final</a></li>
+              </ol>
+            </li>
+            <li id="project"><a href="project.html">Term Project</a></li>
+            <li id="company-profile"><a href="company-profile.html">Company Profiles</a></li>
+            <li id="resources"><a href="resources.html">Resources</a></li>
+          </ul>
+        </nav>
+      </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-2 hidden-sm hidden-xs">
+           
+          <img src="assets/img/quality-never-goes-out-of-style.jpg" class="img-responsive img-rounded" alt=""/>
+           
+          <span class="text-muted"><i>Quality never goes out of style.</i></span>
+        </div>
+        <div class="col-sm-10">
+          <div class="alert alert-info">
+  This assignment is due before class on Wednesday, November 5th.
+</div>
+
+<h1 id="quality-controlspan-classtext-muted-assignment-8span">Quality Control<span class="text-muted">: Assignment 8</span></h1>
+<p>As you all may have noticed, it is easy to get a lot of junk answers from CrowdFlower. According to your workers, there are currently shooters on the loose with names like “3”, “hi”, “https://tasks.CrowdFlower.com/assignments/823118d2-af64-4c5e-b6f1-0510e2a2e659”, and my personal favorite: <a href="http://freakonomics.com/2013/04/08/how-much-does-your-name-matter-a-new-freakonomics-radio-podcast/">“felony”</a>.</p>
+
+<p>That being said, a lot of you actually go very good results. Before getting hung up on the various frustrating expereinces so many of you had, keep in mind the big picture. You are hiring anonymous workers from across the country (or world, if you forgot to set up your filters!), which CrowdFlower recruits from ultra-sketchy sites like <a href="http://www.clixsense.com/">this gem</a>, and you are paying them a few cents for their time. I don’t know about you, but based on all of my cynical models of human behavior, I would absolutely expect that you get 100% crap results back. But the truth is, you don’t. You get a lot of really legitimate work from a lot of very sincere workers, you just need to make some effort to tease apart the good from that bad, which isn’t always trivial. This is why we can dedicate a whole course to studying crowdsourcing.</p>
+
+<p>So, this week, we will attempt to answer two big questions:</p>
+
+<ol>
+  <li>How good are my workers? Which workers are reliable and which ones appear to be incompetent, lazy, and/or inebriated?</li>
+  <li>How do I combine the (likely conflicting) labels from multiple Turkers in order to accurately label my data?</li>
+</ol>
+
+<p>In class, we have discussed three different quality estimation methods to answer these questions:</p>
+
+<ol>
+  <li>Majority vote: A label is considered ‘correct’ if it agrees with the majority, and all votes are equal. (Pure democracy!)</li>
+  <li>Confidence-weighted vote: A label is considered ‘correct’ if it agrees with the majority, but all workers are not equal. A worker’s weight is proportional to their accuracy on your embedded gold-standard questions. (Elitist republic!)</li>
+  <li><a href="http://en.wikipedia.org/wiki/Expectation%E2%80%93maximization_algorithm">Expectation maximization</a> : A label’s ‘correctness’ is determined using an iterative algorithm, which uses the estimated quality of the worker in order to infer the labels, and then the estimated labels in order to infer the quality of the worker. (Some new-fangled solution to politics…?)</li>
+</ol>
+
+<p>For this assignment, you will run the first two algorithms and provide a brief analysis comparing them to each other and to CrowdFlower’s super-secret quality estimation algorithm. We will work with the results of your first CrowdFlower task (the binary gun/not gun judgement HIT), since the algorithms are not designed for open-ended answers. You should think about ways to map these concepts onto the open-ended IE HIT you worked with last week.</p>
+
+<p>Since EM is a more advanced algorithm, we will only require you to walk through a toy example. If you are interested in machine learning, and want to understand this concept better, you are welcome and encouraged to run it on your actual CrowdFlower data. We will give you all the extra credit you could ever desire. Your name will be know all across Levine Hall.</p>
+
+<p>You will be using your own data from <a href="http://crowdsourcing-class.org/assignment5.html">Assignment 5</a>. You should download three reports: we will use the “Full” report for our own computations; we will use the “Aggregated” one and the “Contributors” one so that you can compare your own aggregation techniques against the ones used by CrowdFlower.</p>
+
+<h2 id="part-1-comparing-aggregation-methods">Part 1: Comparing aggregation methods</h2>
+
+<h3 id="majority-vote">Majority vote</h3>
+
+<p>Majority vote is probably the easiest and most common way to aggregate your workers’ labels. It is simple and gets to the heart of what “the wisdom of crowds” is supposed to give us- as long as the workers make uncorrelated errors, we should be able to walk away with decent results. Plus, as every insecure middle schooler knows, what is popular is always right. </p>
+
+<ol>
+  <li>
+    <p>First, use majority vote to assign labels to each of the urls in your data. You can impliment it however you want, but will want to output <b>two-column, tab-separated file</b> in the format “url \t label”. </p>
+
+    <p>Lets let <i>u</i> be a url and we’ll use <i>labels</i> to refer to the data structure we are building, so that <i>labels[u]</i> is the label we assign to <i>u</i>. So we have </p>
+
+    <p align="center" style="font-size:16px font-family:courier">
+ <i>labels[u]</i> = majority label for <i>u</i>.
+ </p>
+  </li>
+  <li>
+    <p>Now, you can use the url labels you just computed to estimate a confidence in (or quality for) each worker. We will say that a worker’s quality is simply the proportion of times that that worker agrees with the majority. </p>
+
+    <p>Let’s define some more notation. This is, after all, a CS class. We have a quota to meet for overly-mathifying very simple concepts, to give the appearance of principle and rigor. </p>
+
+    <p>Lets call <i>qualities</i> the dictionary that we build to hold the quality of each worker. We’ll call the <i>i</i>th worker <i>w<sub>i</sub></i> and we’ll use  <i>urls[w<sub>i</sub>]</i> to represent all the urls for which <i>w<sub>i</sub></i> provided a label. We’ll let <i>l<sub>ui</sub></i> represent the label (e.g. “Gun-related”, “Not gun-related”, or “Don’t know”) that <i>w<sub>i</sub></i> assigns to url <i>u</i>. Then we calculate the quality of a worker as:</p>
+
+    <p align="center" style="font-size:16px font-family:courier">
+ <i>qualities[w<sub>i</sub>]</i> = (1 / |<i>urls[w<sub>i</sub>]</i>|) * &Sigma;<sub><i>u</i> &isin; <i>urls[w<sub>i</sub>]</i></sub> &delta;(<i>l<sub>ui</sub> == labels[u]</i>)
+ </p>
+
+    <p>Here, <i>δ(x)<i> is a special function which equals 1 if <i>x</i> is true, and 0 if <i>x</i> is false. </i></i></p>
+
+    <p>Again, you should output a <b>two-column, tab-separated file</b> in the format “workerId \t quality”.</p>
+  </li>
+</ol>
+
+<h3 id="weighted-majority-vote">Weighted majority vote</h3>
+
+<p>Majority vote is great: easy, straightforward, fair. But should everyone really pull the same weight? As every insecure student knows, whatever the smartest kid says is always right. So maybe we should recalibrate our voting, so that we listen more to the better workers. </p>
+
+<ol>
+  <li>
+    <p>For this, we will use the embedded test questions that you created. We will calculate each worker’s quality to be their accuracy on the test questions. E.g.  </p>
+
+    <p align="center" style="font-size:16px font-family:courier">
+ <i>qualities[w<sub>i</sub>]</i> = (1 / |<i>gold_urls[w<sub>i</sub>]</i>|) * &Sigma;<sub><i>u</i> &isin; <i>gold_urls[w<sub>i</sub>]</i></sub> &delta;(<i>l<sub>ui</sub> == gold_label[u]</i>)
+ </p>
+
+    <p>Once again, output a two-column, tab-separated file in the format “workerId \t quality”. (Hint: you can see whether or not a row in your csv file corresponds to a gold test question by checking the “_golden” column.)</p>
+  </li>
+  <li>
+    <p>You can use these worker qualities to estimate new labels for each of the urls in your data. Now, instead of a every worker getting a vote of 1, each worker’s vote will be equal to their quality score. So we can tally the votes as </p>
+
+    <p align="center" style="font-size:16px font-family:courier">
+ <i>votes[u][l]</i> = &Sigma;<sub><i>w</i> &isin; <i>workers[u]</i></sub> &delta;(<i>l<sub>ui</sub> == l</i>) * <i>qualities[w<sub>i</sub>]</i>
+ </p>
+
+    <p>where <i>votes[url][l]</i> is the weighted votes for assigning label <i>l</i> to url <i>u</i> and <i>workers[u]</i> just lists all of the workers who labeled <i>u</i>. Then </p>
+
+    <p align="center" style="font-size:16px font-family:courier">
+ <i>labels[u]</i> = <i>l</i> with max <i>votes[u][l]</i>
+ </p>
+
+    <p>Output another file in the format “url \t label”. </p>
+  </li>
+</ol>
+
+<h3 id="comparing-against-crowdflower">Comparing against CrowdFlower</h3>
+
+<p>CrowdFlower has its own way of aggregating worker votes and determining confidence it workers. They keep their exact algorithms locked up and secret, but you can see the results in the csvs you downloaded. The results of their <i>labels[u]</i> is just the labels assigned in the “Aggregated” report. You can see their confidence in each worker in the “Contributors” report. </p>
+
+<ol>
+  <li>
+    <p>You can download <a href="assignments/downloads/cf_aggregation.py">this script</a> as an example of how I formatted the CrowdFlower data to match the two-column format of our other files. Since your column names are different than mine, you will have to edit this script. Assuming you have edited it to match your column names, you can run it as follows (passing it your aggregaed and contributor reports, respectively): </p>
+
+    <pre><code> $ python cf_aggregation.py -d a621213.csv -m data &gt; CrowdFlower_data.txt
+ $ python cf_aggregation.py -d workset621213.csv -m worker &gt; CrowdFlower_workers.txt</code></pre>
+
+    <p>You should now have 6 files, 3 “url \t label” files and 3 “workerId \t quality” files. You will do some comparisons and report your findings in <a href="https://docs.google.com/forms/d/16G-O0K9NHQCMOOuaJFgUSK-kjZ1A5WY45iIpIAa5HeQ/viewform?usp=send_form">this questionnaire</a>. </p>
+  </li>
+  <li>
+    <p>First, we’ll compare how well the three methods agree on what the “correct” label for each url should be. For this, we will use a metric called <a href="http://en.wikipedia.org/wiki/Cohen's_kappa">Cohen’s kappa</a>, which attempts to measure the level of agreement between two sets of categorical labels. You can download <a href="assignments/downloads/kappa.py">our script</a> for computing it, which you can run like this:</p>
+
+    <pre><code> $ python kappa.py CrowdFlower_data.txt majority_data.txt 
+ kappa = 0.969854</code></pre>
+
+    <p>To compare how well the three methods agree on the worker qualities, we will use <a href="http://en.wikipedia.org/wiki/Kendall_tau_rank_correlation_coefficient">Kendall tau</a> correlation, which we talked about in class. Python has a <a href="http://docs.scipy.org/doc/scipy-0.14.0/reference/generated/scipy.stats.kendalltau.html">built-in implimentation</a> that you can use, or you can <a href="http://en.wikipedia.org/wiki/Kendall_tau_rank_correlation_coefficient#Algorithms">impliment it yourself</a>. Note that Python use’s a slightly different definition than we discussed in class, so you might get different numbers depending on which method you decide to use. </p>
+
+    <p>Your deliverables for this section are the 6 files you generated (3 “url \t label” files and 3 “workerId \t quality” files) and any code you used to generate them. Your code should be clearly named and reasonably commented. We will not need to run it, but we should be able to read it and see clearly what you did to generate your results. Remember to fill in the <a href="https://docs.google.com/forms/d/16G-O0K9NHQCMOOuaJFgUSK-kjZ1A5WY45iIpIAa5HeQ/viewform?usp=send_form">questionnaire</a>.</p>
+  </li>
+</ol>
+
+<h2 id="part-2-the-em-algorithm">Part 2: The EM algorithm</h2>
+
+<p>The data aggregation algorithms you used above were straightforward and work reasonably well. But they are of course not perfect, and with all the CS researchers out there, all the Ph.Ds that need to be awarded and all the tenure that needs to be got, its only natural that many fancier, mathier algorithms have arisen. </p>
+
+<p>We discussed the expectation maximization (EM) algorithm in class as a way to jointly find the data labels <i>and</i> the worker qualities. The intution is “<i>If</i> I knew how good my workers were, I could easily compute the data labels (just like you did in step 2 of weigthed vote) and <i>if</i> I knew the data labels, I could easily compute how good my workers are (just like you did in step 1 of weighted vote). The problem is, I don’t know either.” So the EM solution is to guess the worker qualities, use that to compute the labels, then use the labels we just computed to reassign the worker qualities, then use the new worker qualities to recompute the labels, and so on until we converge (or get bored). This is one of the best-loved algorithms in machine learning, and often appears to be somewhat magic when you first see it. The best way to get an intuition about what is happening is to walk through it by hand. So for this step, we will ask you do walk through 3 iterations of EM on a <a href="assignments/downloads/em_toy_data.txt">toy data set</a> and report your results in the <a href="https://docs.google.com/forms/d/16G-O0K9NHQCMOOuaJFgUSK-kjZ1A5WY45iIpIAa5HeQ/viewform?usp=send_form">questionnaire</a>. </p>
+
+<p>You can refer to the <a href="http://crowdsourcing-class.org/slides/quality-control-3.pdf">lecture slides</a> as a guide. The numbers are slightly different, but the process is idenitcal. If you are super ambitious, you are welcome to delve into the depths of the <a href="http://crowdsourcing-class.org/readings/downloads/ml/EM.pdf">original 1979 paper</a> describing the use of EM for diagnosing patients. If you are super ambitious and/or super in want of extra credit, you can code it up and run EM on your own CrowdFlower data!</p>
+
+<h2 id="deliverables">Deliverables</h2>
+
+<p>This assignment is due <b>Wednesday, November 5</b>. You can work in pairs, but you must declare the fact that you are working together when you turn your assignment. Remember to submit your questionnaire before the deadline.  Your deliverables are stated at the ends of parts 1 and 2, but in the spirit of EM, I will reiterate:</p>
+
+<ol>
+  <li>3 files containing labels for each url, one file for each algorithm (majority, weighted, and CrowdFlower)</li>
+  <li>3 files containing qualities for each worker, one file for each algorithm (majority, weighted, and CrowdFlower)</li>
+  <li>Your completed questionnaire </li>
+  <li>Any code you used to run your algorithms and/or perform your analyses. Your code should be readable enough that we can tell what you did, but does not need to conform to any particular interface.</li>
+</ol>
+
+<p>You can turn in your assignment using </p>
+
+<pre><code>$ turnin -c nets213 -p quality -v *
+</code></pre>
+
+        </div>
+      </div>
+
+      <footer class="text-center text-muted">
+        <hr/>
+        Last updated February 12, 2015. <br/>
+        Feel free to reuse any of the contents of this course or this web page.   <br/>
+	The source code is on <a href="https://github.com/crowdsourcing-class/">github <i class="fa fa-github-alt"></i></a>.
+        <br/>
+      </footer>
+    </div>
+
+    <!-- Page content of course! -->
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./dist/js/bootstrap.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $("#homework").addClass("active");
+      });
+    </script>
+  </body>
+</html>
