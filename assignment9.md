@@ -1,6 +1,7 @@
 ---
 layout: default
 img: the-visual-display-of-quantitative-information
+img_link: http://www.amazon.com/Visual-Display-Quantitative-Information/dp/0961392142/
 caption: Read this book. It will change your life.
 title: Homework 9 | Putting it all together 
 active_tab: homework

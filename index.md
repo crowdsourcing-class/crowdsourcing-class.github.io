@@ -14,10 +14,10 @@ Course number
 : [NETS](http://nets.upenn.edu/) 213 - students from all majors are welcome!
 
 Instructor
-: [Chris Callison-Burch](http://www.cis.upenn.edu/~ccb/) - Office hours on Mondays from 10:30am-11:30am in Levine 506
+: [Chris Callison-Burch](http://www.cis.upenn.edu/~ccb/)
 
 Teaching Assistant
-: [Ellie Pavlick](http://www.seas.upenn.edu/~epavlick/)  - Office hours on Tuesdays from 5pm-6pm in the Levine 5th floor bump space
+: [Ellie Pavlick](http://www.seas.upenn.edu/~epavlick/) 
 
 Discussion Forum
 : [Piazza](https://piazza.com/upenn/fall2014/nets213/home)
@@ -30,7 +30,7 @@ Prerequisites
 
 Course Readings
 : Selections from [The Wisdom of Crowds by James Surowiecki](http://www.amazon.com/Wisdom-Crowds-James-Surowiecki-ebook/dp/B000FCKC3I/)
-: Various academic papers
+: [Various academic papers](syllabus.html)
 
 Grading
 : This is a project-based course.  Instead of exams, you will do a series of hands-on assignments and a final project.  
