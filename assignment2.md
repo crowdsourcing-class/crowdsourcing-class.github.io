@@ -12,6 +12,9 @@ active_tab: homework
 </div>
 
 
+
+
+
 Market Research <span class="text-muted">: Assignment 2</span> 
 =============================================================
 This week we will be looking at the wealth of companies that use crowdsourcing as part of their business. Here’s a list of companies that you could research:
@@ -69,7 +72,8 @@ This week we will be looking at the wealth of companies that use crowdsourcing a
 [Samasource](http://samasource.org),
 [Silk Road](http://arstechnica.com/tech-policy/2014/08/dark-net-drug-markets-kept-alive-by-great-customer-service/),
 [Stackexchange](http://stackexchange.com/sites),
-[Stackoverflow](http://stackoverflow.com) ,
+[Stackoverflow](http://stackoverflow.com),
+[Sunshine](http://www.slate.com/blogs/future_tense/2015/03/27/apple_watch_could_make_you_a_walking_weather_station.html),
 [TaskRabbit](https://www.taskrabbit.com),
 [Threadless](https://www.threadless.com/how-it-works/),
 [Thumbtack](http://www.thumbtack.com/),
@@ -82,8 +86,11 @@ This week we will be looking at the wealth of companies that use crowdsourcing a
 [We the People](https://petitions.whitehouse.gov),
 [Wikipedia](http://en.wikipedia.org/wiki/Main_Page),
 [XPRIZE](http://www.xprize.org),
-[Yelp](http://www.yelp.com/).
-You are also welcome to profile a relevant company that is not on this list (but please verify your choice beforehand with the instructor).
+[Yelp](http://www.yelp.com/),
+[Zensors](http://zensors.com/).
+You are also welcome to profile a relevant company that is not on this list (but please verify your choice beforehand with the instructor). 
+
+<img src="http://www.crowdsourcing.org/uploads/CrowdSourcing-Industry-Landscape-v09.jpg" width="100%">
 
 
 
