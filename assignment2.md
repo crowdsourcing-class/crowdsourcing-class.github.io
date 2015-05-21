@@ -88,9 +88,7 @@ This week we will be looking at the wealth of companies that use crowdsourcing a
 [XPRIZE](http://www.xprize.org),
 [Yelp](http://www.yelp.com/),
 [Zensors](http://zensors.com/).
-You are also welcome to profile a relevant company that is not on this list (but please verify your choice beforehand with the instructor). 
-
-<img src="http://www.crowdsourcing.org/uploads/CrowdSourcing-Industry-Landscape-v09.jpg" width="100%">
+You are also welcome to profile a [relevant company](http://www.crowdsourcing.org/uploads/CrowdSourcing-Industry-Landscape-v09.jpg) that is not on this list (but please verify your choice beforehand with the instructor). 
 
 
 
