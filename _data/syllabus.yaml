@@ -278,6 +278,11 @@
       author: Victor Sheng, Foster Provost, and Panos Ipeirotis
       title:  Get Another Label? Improving Data Quality and Data Mining Using Multiple, Noisy Labelers
       url: readings/downloads/econ/get-another-label.pdf
+    -
+      author: Dirk Hovy
+      title:  An Evening with EM (a tutorial on EM)
+      url: readings/downloads/ml/EM-tutorial.pdf
+
 -
   date: 2014-10-29
   title: Decision-Theoretic Crowdsourcing
