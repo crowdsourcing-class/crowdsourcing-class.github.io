@@ -1,0 +1,68 @@
+-
+  date: 2015-05-31
+  slides: http://crowdsourcing-class.org/tutorial/slides/intro.pdf
+  title: Introduction
+  highlights:
+    - Overview of uses of crowdsourcing 
+    - Non-language uses of crowdsourcing
+    - types of problems (labels, text, speech, people...)
+-
+  date: 2015-05-31
+  slides: http://crowdsourcing-class.org/tutorial/slides/intro.pdf
+  title: Taxonomy of crowdsourcing and human computation
+  highlights:
+    - Categorization system: motivation, quality control, aggregation, human skill, process flow. 
+  reading:
+    -
+      author: Alex Quinn and Benjamin B. Bederson1,2,3
+      title:  Human Computation&colon; A Survey and Taxonomy of a Growing Field
+      url: http://crowdsourcing-class.org/readings/downloads/intro/QuinnAndBederson.pdf
+-
+  date: 2015-05-31
+  slides: http://crowdsourcing-class.org/tutorial/slides/intro.pdf
+  title: The Mechanical Turk crowdsourcing platform
+  highlights:
+    - Terminology and mechanics: Turkers, Requesters, HITs, micropayments
+    - Demographics and motivation of Mechanical Turk workers
+  reading:
+    -
+      author: Gabriele Paolacci, Jesse Chandler and Panos Ipeirotis
+      title:  Running experiments on Amazon Mechanical Turk
+      url: http://crowdsourcing-class.org/readings/downloads/platform/running-experiments-on-mturk.pdf
+    -
+      author: Panos Ipeirotis
+      title: The Demographics of MTurk
+      url: http://crowdsourcing-class.org/readings/downloads/platform/demographics-of-mturk.pdf
+-
+  date: 2015-05-31
+  slides: http://crowdsourcing-class.org/tutorial/slides/intro.pdf
+  title: How to set up and run experiment 
+  highlights:
+    - Designing and running experiments (step-by-step overview)
+    - Example of quickly using MTurk via the web interface
+    - Accessing MTurk via the boto API and the CrowdFlower API that People Pattern created
+  reading:
+    -
+      author: Alex Quinn and Benjamin B. Bederson
+      title:  Human Computation&colon; A Survey and Taxonomy of a Growing Field
+      url: http://crowdsourcing-class.org/readings/downloads/intro/QuinnAndBederson.pdf
+-
+  date: 2015-05-31
+  slides: http://crowdsourcing-class.org/tutorial/slides/intro.pdf
+  title: Ethics of Crowdsourcing  
+  highlights:
+    - Fair wages?
+    - Privacy/IRB considerations
+  reading:
+    -
+      author: David Martin, Benjamin Hanrahan, Jacki O’Neill and Neha Gupta
+      title: Being A Turker
+      url: http://crowdsourcing-class.org/readings/downloads/ethics/being-a-turker.pdf
+    -
+      author: Lilly Irani and Six Silberman
+      title: Turkopticon&#58; Interrupting Worker Invisibility in Amazon Mechanical Turk
+      url: http://crowdsourcing-class.org/readings/downloads/ethics/turkopticon.pdf
+    -
+      author: Karen Fort, Gilles Adda and Bretonnel Cohen 
+      title: Amazon Mechanical Turk&#58; Gold Mine or Coal Mine?
+      url: http://crowdsourcing-class.org/readings/downloads/ethics/gold-mine-or-coal-mine.pdf
