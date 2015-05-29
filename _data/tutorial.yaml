@@ -12,9 +12,9 @@
       title:  Cheap and Fast&colon; But is it Good? Evaluating Non-Expert Annotations for Natural Language Tasks
       url: readings/downloads/nlp/evaluating-non-expert-annotations-for-nlp.pdf
     -
-      author: 
-      title:  
-      url: readings/downloads/nlp/evaluating-non-expert-annotations-for-nlp.pdf
+      author: Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li and Fei-Fei Li
+      title: ImageNet&colon; A large-scale hierarchical image database
+      url: http://www.image-net.org/papers/imagenet_cvpr09.pdf
 
 -
   date: 2015-05-31
@@ -32,7 +32,7 @@
   slides: http://crowdsourcing-class.org/tutorial/slides/intro.pdf
   title: The Mechanical Turk crowdsourcing platform
   highlights:
-    - Terminology and mechanics: Turkers, Requesters, HITs, micropayments
+    - Terminology and mechanics&colon; Turkers, Requesters, HITs, micropayments
     - Demographics and motivation of Mechanical Turk workers
   reading:
     -
