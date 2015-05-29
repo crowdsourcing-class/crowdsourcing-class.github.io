@@ -15,6 +15,11 @@
       author: Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li and Fei-Fei Li
       title: ImageNet&colon; A large-scale hierarchical image database
       url: http://www.image-net.org/papers/imagenet_cvpr09.pdf
+    -
+      author: Cyrus Rashtchian, Peter Young, Micah Hodosh, Julia Hockenmaier
+      title: Collecting image annotations using Amazon's Mechanical Turk
+      url: http://nlp.cs.illinois.edu/HockenmaierGroup/Papers/AMT2010/W10-0721.pdf
+
 
 -
   date: 2015-05-31
