@@ -65,6 +65,3 @@ CrowdFlower has generously offered a $100 credit to all of the tutorial's partic
     {% endfor %}
   </tbody>
 </table>
-
-Thanks to CrowdFlower for generously supporting this tutorial! 
-<img src="assets/img/company-logos/CrowdFlower.png" />
