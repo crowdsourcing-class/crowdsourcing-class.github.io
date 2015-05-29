@@ -7,7 +7,12 @@ caption: An engraving of the Mechanical Turk, the 18th century chess-playing aut
 active_tab: main_page 
 ---
 
-Welcome to the NAACL 2015 Tutorial on Crowdsourcing for NLP!
+Welcome to the NAACL 2015 Tutorial on Crowdsourcing for NLP!  
+
+
+<img src="assets/img/company-logos/CrowdFlower.png" />
+CrowdFlower has generously offered a $100 credit to all of the tutorial's participants.  
+
 
 <table class="table table-striped"> 
   <tbody>
