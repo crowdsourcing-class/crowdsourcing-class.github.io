@@ -9,9 +9,6 @@ active_tab: main_page
 
 Welcome to the NAACL 2015 Tutorial on Crowdsourcing for NLP!  
 
-
-<img src="assets/img/company-logos/CrowdFlower.png" />
-
 CrowdFlower has generously offered a $100 credit to all of the tutorial's participants.  Sign up for the credits [on this Google form](https://docs.google.com/forms/d/1aT9eypWdCEeqMIhjgl6oF6W9AICMyoQb42yEI-gjnmQ/viewform?usp=send_form), and then [register for CrowdFlower](https://make.crowdflower.com/users/new) using the same email address.
 
 
@@ -69,3 +66,5 @@ CrowdFlower has generously offered a $100 credit to all of the tutorial's partic
   </tbody>
 </table>
 
+Thanks to CrowdFlower for generously supporting this tutorial! 
+<img src="assets/img/company-logos/CrowdFlower.png" />
