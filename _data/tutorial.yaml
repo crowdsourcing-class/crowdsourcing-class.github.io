@@ -6,15 +6,25 @@
     - Overview of uses of crowdsourcing 
     - Non-language uses of crowdsourcing
     - types of problems (labels, text, speech, people...)
+  reading:
+    -
+      author: Rion Snow, Brendan O’Connor, Daniel Jurafsky and Andrew Ng
+      title:  Cheap and Fast&colon; But is it Good? Evaluating Non-Expert Annotations for Natural Language Tasks
+      url: readings/downloads/nlp/evaluating-non-expert-annotations-for-nlp.pdf
+    -
+      author: 
+      title:  
+      url: readings/downloads/nlp/evaluating-non-expert-annotations-for-nlp.pdf
+
 -
   date: 2015-05-31
   slides: http://crowdsourcing-class.org/tutorial/slides/intro.pdf
   title: Taxonomy of crowdsourcing and human computation
   highlights:
-    - Categorization system: motivation, quality control, aggregation, human skill, process flow. 
+    - Categorization system&colon; motivation, quality control, aggregation, human skill, process flow. 
   reading:
     -
-      author: Alex Quinn and Benjamin B. Bederson1,2,3
+      author: Alex Quinn and Benjamin B. Bederson
       title:  Human Computation&colon; A Survey and Taxonomy of a Growing Field
       url: http://crowdsourcing-class.org/readings/downloads/intro/QuinnAndBederson.pdf
 -
