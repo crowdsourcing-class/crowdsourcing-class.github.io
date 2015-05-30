@@ -70,6 +70,10 @@
     - Privacy/IRB considerations
   reading:
     -
+      author: Karen Fort, Gilles Adda and Bretonnel Cohen 
+      title: Amazon Mechanical Turk&#58; Gold Mine or Coal Mine?
+      url: http://crowdsourcing-class.org/readings/downloads/ethics/gold-mine-or-coal-mine.pdf
+    -
       author: David Martin, Benjamin Hanrahan, Jacki O’Neill and Neha Gupta
       title: Being A Turker
       url: http://crowdsourcing-class.org/readings/downloads/ethics/being-a-turker.pdf
@@ -77,10 +81,6 @@
       author: Lilly Irani and Six Silberman
       title: Turkopticon&#58; Interrupting Worker Invisibility in Amazon Mechanical Turk
       url: http://crowdsourcing-class.org/readings/downloads/ethics/turkopticon.pdf
-    -
-      author: Karen Fort, Gilles Adda and Bretonnel Cohen 
-      title: Amazon Mechanical Turk&#58; Gold Mine or Coal Mine?
-      url: http://crowdsourcing-class.org/readings/downloads/ethics/gold-mine-or-coal-mine.pdf
 -
   date: 2015-05-31
   slides: http://crowdsourcing-class.org/tutorial_slides/06-quality_control.pdf
@@ -103,6 +103,10 @@
       author: Victor Sheng, Foster Provost, and Panos Ipeirotis
       title:  Get Another Label? Improving Data Quality and Data Mining Using Multiple, Noisy Labelers
       url: readings/downloads/econ/get-another-label.pdf
+    -
+      author: Becky Passonneau and Bob Carpenter
+      title: The Benefits of a Model of Annotation
+      url: http://www.aclweb.org/anthology/Q/Q14/Q14-1025.pdf
     -
       author: Chris Lin, Mausam, and Dan Weld
       title: To Re(label), or Not To Re(label)
