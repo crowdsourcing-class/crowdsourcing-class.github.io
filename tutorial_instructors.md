@@ -7,8 +7,6 @@ caption: An engraving of the Mechanical Turk, the 18th century chess-playing aut
 active_tab: instructors 
 ---
 
-'''Instructors'''
-
 Dr. Chris Callison-Burch
 is the Aravind K Joshi term assistant professor in the Computer and Information Science Department at the University of Pennsylvania. Before joining Penn, he was a research faculty member at the Center for Language and Speech Processing at Johns Hopkins University for 6 years. He was the Chair of the Executive Board of the North American chapter of the Association for Computational Linguistics (NAACL) from 2011-2013, and he has served on the editorial boards of the journals Transactions of the ACL (TACL) and Computational Linguistics. He is a Sloan Research Fellow, and he has received faculty research awards from Google, Microsoft and Facebook in addition to funding from DARPA and the NSF. Chris teaches a semester-long course on [Crowdsourcing at Penn](http://crowdsourcing-class.org/).
 
