@@ -35,7 +35,7 @@
 -
   date: 2015-05-31
   slides: http://crowdsourcing-class.org/tutorial_slides/03-crowdsourcing_platforms.pdf
-  title: Crowdsourcing platforms: Mechanical Turk and CrowdFlower 
+  title: Crowdsourcing platforms&colon; Mechanical Turk and CrowdFlower 
   highlights:
     - Terminology and mechanics&colon; Turkers, Requesters, HITs, micropayments
     - Demographics and motivation of Mechanical Turk workers
@@ -81,7 +81,7 @@
       url: http://crowdsourcing-class.org/readings/downloads/ethics/being-a-turker.pdf
     -
       author: Lilly Irani and Six Silberman
-      title: Turkopticon&#58; Interrupting Worker Invisibility in Amazon Mechanical Turk
+      title: Turkopticon&colon; Interrupting Worker Invisibility in Amazon Mechanical Turk
       url: http://crowdsourcing-class.org/readings/downloads/ethics/turkopticon.pdf
 -
   date: 2015-05-31
@@ -117,7 +117,6 @@
   slides: http://crowdsourcing-class.org/tutorial_slides/08-crowdsourcing-translation.pdf
   title: Case studies in NLP&colon; Crowdsourcing Translation  
   highlights:
-    - The language demographics of Mechanical Turk
     - Using crowdsourcing to collect data to train SMT systems
   reading:
     -
