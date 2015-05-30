@@ -7,8 +7,8 @@ caption: An engraving of the Mechanical Turk, the 18th century chess-playing aut
 active_tab: main_page 
 ---
 
-Tutorial: Crowdsourcing for NLP
-
+Tutorial
+: Crowdsourcing for NLP
 
 Date and Time
 : Sunday, May 31 at 9am
