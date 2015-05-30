@@ -58,11 +58,9 @@
     - Accessing MTurk via the boto API and the CrowdFlower API that People Pattern created
   reading:
     -
-      author: 
       title:  boto Python API to Amazon Web Services
       url: https://github.com/boto/boto
     -
-      author: 
       title:  Python API to CrowdFlower  
       url: https://github.com/peoplepattern/crowdflower
 -
