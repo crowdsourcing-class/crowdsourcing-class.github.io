@@ -114,9 +114,26 @@
       url: http://homes.cs.washington.edu/~chrislin/papers/hcomp14.pdf
 -
   date: 2015-05-31
-  slides: http://crowdsourcing-class.org/tutorial_slides/08-crowdsourcing-translation.pdf
-  title: Case studies in NLP&colon; Crowdsourcing Translation  
+  slides: http://crowdsourcing-class.org/tutorial_slides/07-statistics.pdf
+  title: Statistical analysis of MTurk data  
   highlights:
+    - Quality versus quantity 
+    - Active data collection
+    - Accounting for worker variation
+  reading:
+    -
+      author: Victor Sheng, Foster Provost, and Panos Ipeirotis
+      title: Get Another Label? Improving Data Quality and Data Mining Using Multiple, Noisy Labelers
+      url: http://www.ipeirotis.com/wp-content/uploads/2012/01/kdd2008.pdf
+    -
+      author: Abhimanu Kumar and Matthew Lease
+      title: Modeling Annotator Accuracies for Supervised Learning
+-
+  date: 2015-05-31
+  slides: http://crowdsourcing-class.org/tutorial_slides/08-crowdsourcing-translation.pdf
+  title: Case studies in NLP&colon; Chris Callison-Burch 
+  highlights:
+    - Crowdsourcing Translation
     - Using crowdsourcing to collect data to train SMT systems
   reading:
     -
@@ -131,3 +148,35 @@
       title:  Machine Translation of Arabic Dialects
       author: Rabih Zbib, Erika Malchiodi, Jacob Devlin, David Stallard, Spyros Matsoukas, Richard Schwartz, John Makhoul, Omar F. Zaidan, and Chris Callison-Burch
       url: http://www.cis.upenn.edu/~ccb/publications/machine-translation-of-arabic-dialects.pdf
+-
+  date: 2015-05-31
+  slides: http://crowdsourcing-class.org/tutorial_slides/08-crowdsourcing-translation.pdf
+  title: Case studies in NLP&colon; Lyle Ungar
+  highlights:
+    - Word Sense Disambiguation   
+    - Computational Social Science at the World Well-Being Project (WWBP)
+-
+  date: 2015-05-31
+  slides: http://crowdsourcing-class.org/tutorial_slides/08-crowdsourcing-translation.pdf08B-case_studies.pdf
+  title: Case studies in NLP&colon; Ellie Pavlick
+  highlights:
+    - Gun Violence Database   
+    - Crowdsourced Information Extraction
+-
+  date: 2015-05-31
+  slides: http://crowdsourcing-class.org/tutorial_slides/08-crowd_ie.pdf
+  title: Case studies in NLP&colon; Ellie Pavlick
+  highlights:
+    - Gun Violence Database   
+    - Crowdsourced Information Extraction
+-
+  date: 2015-05-31
+  slides: http://crowdsourcing-class.org/tutorial_slides/08-crowd_ie.pdf
+  title: Case studies in NLP&colon; Ellie Pavlick
+  highlights:
+    - Gun Violence Database   
+    - Crowdsourced Information Extraction
+-
+  date: 2015-05-31
+  slides: http://crowdsourcing-class.org/tutorial_slides/09-wrap-up.pdf
+  title: Wrap up
