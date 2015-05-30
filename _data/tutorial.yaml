@@ -58,9 +58,9 @@
     - Accessing MTurk via the boto API and the CrowdFlower API that People Pattern created
   reading:
     -
-      author: Alex Quinn and Benjamin B. Bederson
-      title:  Human Computation&colon; A Survey and Taxonomy of a Growing Field
-      url: http://crowdsourcing-class.org/readings/downloads/intro/QuinnAndBederson.pdf
+      author: 
+      title:  boto Python API to Amazon Web Services
+      url: https://github.com/boto/boto
 -
   date: 2015-05-31
   slides: http://crowdsourcing-class.org/tutorial_slides/05-ethics-of-crowdsourcing.pdf
@@ -86,8 +86,7 @@
   slides: http://crowdsourcing-class.org/tutorial_slides/06-quality_control.pdf
   title: Quality Control  
   highlights:
-    - Reputation systems
-    - Qualifications
+    - MTUrk's Reputation system and qualifications
     - Aggregation and redundancy
     - Embedded gold standard data 
     - Second-pass reviewing
@@ -111,3 +110,23 @@
       author: Chris Lin, Mausam, and Dan Weld
       title: To Re(label), or Not To Re(label)
       url: http://homes.cs.washington.edu/~chrislin/papers/hcomp14.pdf
+-
+  date: 2015-05-31
+  slides: http://crowdsourcing-class.org/tutorial_slides/08-crowdsourcing-translation.pdf
+  title: Case studies in NLP&colon; Crowdsourcing Translation  
+  highlights:
+    - The language demographics of Mechanical Turk
+    - Using crowdsourcing to collect data to train SMT systems
+  reading:
+    -
+      author: Omar Zaidan and Chris Callison-Burch
+      title:  Crowdsourcing Translation&#58; Professional Quality from Non-Professionals
+      url: http://www.cis.upenn.edu/~ccb/publications/crowdsourcing-translation.pdf
+    -
+      author: Ellie Pavlick, Matt Post, Ann Irvine, Dmitry Kachaev, and Chris Callison-Burch
+      title:  The Language Demographics of Amazon Mechanical Turk
+      url: http://www.cis.upenn.edu/~ccb/publications/language-demographics-of-mechanical-turk.pdf
+    -
+      title:  Machine Translation of Arabic Dialects
+      author: Rabih Zbib, Erika Malchiodi, Jacob Devlin, David Stallard, Spyros Matsoukas, Richard Schwartz, John Makhoul, Omar F. Zaidan, and Chris Callison-Burch
+      url: http://www.cis.upenn.edu/~ccb/publications/machine-translation-of-arabic-dialects.pdf
