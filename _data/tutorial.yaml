@@ -86,9 +86,24 @@
   slides: http://crowdsourcing-class.org/tutorial_slides/06-quality_control.pdf
   title: Quality Control  
   highlights:
-    - XX
+    - Reputation systems
+    - Qualifications
+    - Aggregation and redundancy
+    - Embedded gold standard data 
+    - Second-pass reviewing
+    - Economic incentives
+    - Statistical models
+    - Should we do quality control if we are training a statistical model?
   reading:
     -
-      author: Dawid
-      title: Being A Turker
-      url: http://crowdsourcing-class.org/readings/downloads/ethics/being-a-turker.pdf
+      author: A. P. Dawid and A. M. Skene
+      title:  Maximum Likelihood Estimation of Observer Error-Rates Using the EM Algorithm
+      url: readings/downloads/ml/EM.pdf
+    -
+      author: Victor Sheng, Foster Provost, and Panos Ipeirotis
+      title:  Get Another Label? Improving Data Quality and Data Mining Using Multiple, Noisy Labelers
+      url: readings/downloads/econ/get-another-label.pdf
+    -
+      author: Chris Lin, Mausam, and Dan Weld
+      title: To Re(label), or Not To Re(label)
+      url: http://homes.cs.washington.edu/~chrislin/papers/hcomp14.pdf
