@@ -35,7 +35,7 @@
 -
   date: 2015-05-31
   slides: http://crowdsourcing-class.org/tutorial_slides/03-crowdsourcing_platforms.pdf
-  title: The Mechanical Turk crowdsourcing platform
+  title: Crowdsourcing platforms: Mechanical Turk and CrowdFlower 
   highlights:
     - Terminology and mechanics&colon; Turkers, Requesters, HITs, micropayments
     - Demographics and motivation of Mechanical Turk workers
@@ -61,6 +61,10 @@
       author: 
       title:  boto Python API to Amazon Web Services
       url: https://github.com/boto/boto
+    -
+      author: 
+      title:  Python API to CrowdFlower  
+      url: https://github.com/peoplepattern/crowdflower
 -
   date: 2015-05-31
   slides: http://crowdsourcing-class.org/tutorial_slides/05-ethics-of-crowdsourcing.pdf
