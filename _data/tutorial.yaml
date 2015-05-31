@@ -48,6 +48,12 @@
       author: Panos Ipeirotis
       title: The Demographics of MTurk
       url: http://crowdsourcing-class.org/readings/downloads/platform/demographics-of-mturk.pdf
+    -
+      title: MTurk Tracker
+      url: http://demographics.mturk-tracker.com/
+    - 
+      title: CrowdFlower blog about demographics
+      url: http://www.crowdflower.com/blog/2014/01/demographics-of-the-largest-on-demand-workforce
 -
   date: 2015-05-31
   slides: http://crowdsourcing-class.org/tutorial_slides/04-experiment_design_and_demos.pdf
