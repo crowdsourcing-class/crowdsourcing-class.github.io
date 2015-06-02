@@ -168,8 +168,11 @@
   title: Case studies in NLP&colon; Lyle Ungar
   highlights:
     - Word Sense Disambiguation   
-    - Computational Social Science at the [World Well-Being Project (WWBP)](http://wwbp.org/)
+    - Computational Social Science at the World Well-Being Project (WWBP)
   reading:
+    -
+      title: World Well-Being Project (WWBP)
+      url: http://wwbp.org/
     -
       author: Adam Kapelner, Krishna Kaliannan, H. Andrew Schwartz, Lyle Ungar and Dean Foster
       title:  New Insights from Coarse Word Sense Disambiguation in the Crowd
