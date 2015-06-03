@@ -172,13 +172,22 @@
   highlights:
     - Word Sense Disambiguation   
     - Computational Social Science at the World Well-Being Project (WWBP)
--
-  date: 2015-05-31
-  slides: http://crowdsourcing-class.org/tutorial_slides/08-crowd_ie.pdf
-  title: Case studies in NLP&colon; Ellie Pavlick
-  highlights:
-    - Gun Violence Database   
-    - Crowdsourced Information Extraction
+  reading:
+    -
+      title: World Well-Being Project (WWBP)
+      url: http://wwbp.org/
+    -
+      author: Adam Kapelner, Krishna Kaliannan, H. Andrew Schwartz, Lyle Ungar and Dean Foster
+      title:  New Insights from Coarse Word Sense Disambiguation in the Crowd
+      url: http://anthology.aclweb.org//C/C12/C12-2053.pdf
+    -
+      author: Schwartz, H. A., Eichstaedt, J. C., Kern, M. L., Dziurzynski, L., Ramones, S. M., Agrawal, M., Shah, A., Kosinski, M., Stillwell, D., Seligman, M. E., & Ungar, L. H
+      title:  Personality, Gender, and Age in the Language of Social Media&colon; The Open-Vocabulary Approach
+      url: http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0073791
+    -
+      author: Eichstaedt, J. C., Schwartz, H. A., Kern, M. L., Park, G., Labarthe, D. R., Merchant, R. M., Jha, S., Agrawal, M., Dziurzynski, L. A., Sap, M., Weeg, C., Larson, E. E., Ungar, L. H., & Seligman, M. E.
+      title:  Psychological Language on Twitter Predicts County-Level Heart Disease Mortality
+      url: http://wwbp.org/papers/PsychSci2015_HeartDisease.pdf
 -
   date: 2015-05-31
   slides: http://crowdsourcing-class.org/tutorial_slides/09-wrap-up.pdf
