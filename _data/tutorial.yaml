@@ -77,6 +77,9 @@
       author: Ellie Pavlick 
       title: Example code/templates for posting HITs via web interfaces and Python APIs
       url: http://crowdsourcing-class.org/tutorial_slides/demo-code-and-templates.tgz
+    -
+      title: Check out the results from our live demo! During the tutorial, we collected 1,040 paraphrase judgements from 44 turkers.
+      url: http://crowdsourcing-class.org/tutorial_slides/demo-results.txt
 -
   date: 2015-05-31
   slides: http://crowdsourcing-class.org/tutorial_slides/05-ethics-of-crowdsourcing.pdf
