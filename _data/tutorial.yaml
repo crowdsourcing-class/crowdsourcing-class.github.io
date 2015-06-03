@@ -78,7 +78,6 @@
       title: Example code/templates for posting HITs via web interfaces and Python APIs
       url: http://crowdsourcing-class.org/tutorial_slides/demo-code-and-templates.tgz
     -
-      author: During the tutorial, we collected 1,040 paraphrase judgements from 44 turkers.
       title: Check out the results from our live demo! 
       url: http://crowdsourcing-class.org/readings/downloads/platform/demo-results.txt
 -

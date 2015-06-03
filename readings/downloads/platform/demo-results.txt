@@ -1,3 +1,6 @@
+Below are the results collected during our live demo. During the 2 hours during that the HIT was posted, We collected 1,040 paraphrase judgements from 44 turkers.
+The results are shown below. Each sentence is followed by the list of candidate paraphrases and the number of turkers who selected each paraphrase to be appropriate given the context. Note that we canceled the HIT early, so in many cases, we only have one turker's judgement for the context.
+
 the characters first appeared in '' justice league task [[force]] '' # 10 -lrb- march 1994 -rrb- .
 (out of 1)
 NONE	1
