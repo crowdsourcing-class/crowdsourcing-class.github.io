@@ -20,7 +20,9 @@ The only deliverable for this assignment will be your script, bootcamp.py. Runni
 
 Your turnin command will look like this
 
-<pre><code>$ turnin -c nets213 -p python-bootcamp -v bootcamp.py</code></pre>
+
+{% highlight tcsh %}
+$ turnin -c nets213 -p python-bootcamp -v bootcamp.py{% endhighlight %}
 
 You do not need to turn in anything for the first 3 sections, but you should read to read through them and walk through the exercises so that you can let us know if you are having trouble.
 
@@ -30,7 +32,12 @@ Python has the basic variable types you are used to: strings, ints, floats. Unli
 
 Open up the python interpreter and play with variable assignment and reassignment:
 
-<pre><code>$ python
+
+{% highlight tcsh %} 
+$ python
+{% endhighlight %}
+
+{% highlight python %} 
 # You can comment with pound sign
 """
 Or with triple quotes
@@ -44,7 +51,7 @@ Or with triple quotes
 >>> x = y # Notice the lack of whining about "incompatible types"...
 >>> x
 'hello world'
-</code></pre>
+{% endhighlight %} 
 
 This also means that you can mix variable types within a data structure. There is no need to specify that L is a list of ints or that M is a map from strings to floats.
 
@@ -52,7 +59,8 @@ Lists are declared with square brackets and indexed using square bracket notatio
 
 Create a list of ints. Then, in order to drive those Scala people insane, start appending strings to it. Play with indexing and slicing. In Python, you can use the colon notation to pull out slices of a list. E.g. lst[i:j] will give you a new list which includes the ith through the (j-1)th elements of lst.
 
-<pre><code>>>> l = [1, 2, 3]
+{% highlight python %}
+>>> l = [1, 2, 3]
 >>> for elem in l: #We'll talk about loops more in a bit
 ...	print elem 
 ... 
@@ -76,17 +84,19 @@ i am a string. mwahahaha.
 [1, 2, 3, 'i am a string. mwahahaha.', 'here is more stuff', 6, [2, 3, 4], 6835]
 >>> l.pop() 
 6835
-</code></pre>
+{% endhighlight %}
 
 Dictionaries (or maps or associative arrays) are probably the favorite data structure of Python. They are a simple key/value store, again without any restrictions on which data types are the keys or values. You can declare dictionaries with curly braces and associate or retrieve keys and values using square bracket notation.
 
-<pre><code>>>> d = {"give me an A!" : "B", "give me a P!" : 7, "give me a Q!" : "no."}
+
+{% highlight python %}
+>>> d = {"give me an A!" : "B", "give me a P!" : 7, "give me a Q!" : "no."}
 >>> d["give me a P!"]
 7
 >>> d[14] = 12
 >>> d
 {'give me a Q!': 'no.', 'give me an A!': 'B', 14: 12, 'give me a P!': 7} # the new k/v pair was added to d
-</code></pre>
+{% endhighlight %}
 
 As you can imagine, the lack of type-checking makes it very easy to write bad Python code. I would advise against doing so. But it is your call, some people like the thrill of nondeterministic runtime errors and such. Don't let me cramp your style.
 
@@ -94,7 +104,9 @@ As you can imagine, the lack of type-checking makes it very easy to write bad Py
 
 Python makes it easy to write bad code. But it makes it _very_ hard to write ugly code. So chalk one up for superficiality. Python uses whitespace to denote control structures, like loops and if/else blocks. By convention, you should use four spaces for each level of indentation. (I use tabs because I am lazy and like to save the key strokes. I was told over the summer that this is the mark of a novice, and no one of any merit uses tabs. I just hung my head in shame. So use spaces.)
 
-<pre><code>>>> print l
+
+{% highlight python %}
+>>> print l
 [1, 2, 3, 'here is more stuff', 6, [2, 3, 4]]
 # Here is a for loop. 
 >>> for elem in l:
@@ -132,13 +144,15 @@ idx - the integer index of the element to return
 ... 
 >>> get_list_element(l, 4)
 6
-</code></pre>
+{% endhighlight %}
 
 ###3. File IO
 
 You can open, read, and write files using the aptly-named open(), read(), and write() commands. read() returns the entire contents of the file as a string. readlines() will split on the newline character and return the lines as a list, which is generally nicer for allowing you to iterate line-by-line. I won't go through an example here, but I highly recommend playing with the [csv module](https://docs.python.org/2/library/csv.html), which is incredibly useful and we will likely use regularly throughout the semester. 
 
-<pre><code>>>> file = open('test.txt', 'w')
+
+{% highlight python %}
+>>> file = open('test.txt', 'w')
 >>> for s in ['line1', 'line2', 'line3', 'line4'] : 
 ...     file.write(s+'\n')
 ... 
@@ -149,7 +163,7 @@ You can open, read, and write files using the aptly-named open(), read(), and wr
 >>> contents = open('test.txt').readlines()
 >>> contents
 ['line1\n', 'line2\n', 'line3\n', 'line4\n']
-</code></pre>
+{% endhighlight %}
 
 ###4. Text processing in Python
 
@@ -157,13 +171,15 @@ For this part, you will need to submit your code to answer the following questio
  
 We will be playing with a small but oh so wonderful data set of wine reviews! You can download the data [here](assignments/downloads/python-bootcamp/data.tgz). You can unpack it as follows, and should see two files:
 
-<pre><code>$ tar -xzvf data.tgz 
+
+{% highlight tcsh %}
+$ tar -xzvf data.tgz 
 x data/
 x data/stopwords.txt
 x data/wine.txt
 $ ls data
 stopwords.txt	wine.txt
-</code></pre>
+{% endhighlight %}
 
 wine.txt is in the format of one review per line, followed but a star rating between 1 and 5 (except for 3 reviews, where the review decided to go rogue and give 6 stars. Pft.) The text of the review and the star rating are separated by a single tab character. There is also a file called stopwords.txt. You will use this in question 6.
 

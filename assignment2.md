@@ -33,6 +33,7 @@ This week we will be looking at the wealth of companies that use crowdsourcing a
 [Crowdee (in German)](https://www.crowdee.de),
 [CrowdFlower](http://www.crowdflower.com),
 [CrowdMed](https://www.crowdmed.com),
+[Crowds On Demand](http://crowdsondemand.com),
 [EatWith](http://www.eatwith.com),
 [eBay buyer/seller ratings](http://pages.ebay.com/help/feedback/scores-reputation.html),
 [edX](https://www.edx.org),
