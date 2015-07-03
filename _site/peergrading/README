@@ -1,8 +1,0 @@
-If "videos.csv" is the csv containing the responses from the questionaire and "pennids" is a list of all the students pennkeys, run:
-
-$ python get_projects.py videos.csv > projects 
-$ python get_assignments.py pennids projects 
-
-
-
-
