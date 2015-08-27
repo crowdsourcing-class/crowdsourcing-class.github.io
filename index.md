@@ -7,8 +7,6 @@ caption: An engraving of the Mechanical Turk, the 18th century chess-playing aut
 active_tab: main_page 
 ---
 
-Link to Tutorial Materials
-: [NAACL 2015 Tutorial on Crowdsourcing for NLP](tutorial.html)
 
 Crowdsourcing and human computation are emerging fields that sit squarely at the intersection of economics and computer science. They examine how people can be used to solve complex tasks that are currently beyond the capabilities of artificial intelligence algorithms. Online marketplaces like [Mechanical Turk](https://www.mturk.com/) and [CrowdFlower](https://crowdflower.com) provide an infrastructure that allows micropayments to be given to people in return for completing human intelligence tasks. This opens up previously unthinkable possibilities like people being used as function calls in software. We will investigate how crowdsourcing can be used for computer science applications like machine learning, next-generation interfaces, and data mining. Beyond these computer science aspects, we will also delve into topics like prediction markets, how businesses can capitalize on collective intelligence, and the fundamental principles that underlie democracy and other group decision-making processes.
 
@@ -27,7 +25,7 @@ Discussion Forum
 : [Piazza](https://piazza.com/upenn/fall2014/nets213/home)
 
 Time and place
-: The class will next be offered in Spring 2016
+: The class will next be offered in Spring 2016, MWF 11am-noon.
 
 Prerequisites
 : [CIS 120](http://www.seas.upenn.edu/~cis120/) or prior programming experience
