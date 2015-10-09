@@ -1503,3 +1503,10 @@ This assignment is due <b>Monday, November 24</b>. You can work in pairs, but yo
 You can turn in your figures using 
 
 	$ turnin -c nets213 -p the-end -v *
+
+
+Related Projects
+================
+* [Vox - 11 facts about gun violence in the United States](http://www.vox.com/cards/gun-violence-facts/guns-international-comparison-us-homicide)
+* [Vox - Mass shootings since Sandy Hook, in one map](http://www.vox.com/a/mass-shootings-sandy-hook)
+* [The Guardian - 994 mass shootings in 1,004 days](http://www.theguardian.com/us-news/ng-interactive/2015/oct/02/mass-shootings-america-gun-violence)
