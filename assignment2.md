@@ -62,7 +62,7 @@ This week we will be looking at the wealth of companies that use crowdsourcing a
 [Lending Club](https://www.lendingclub.com/public/how-peer-lending-works.action),
 [Lyft](https://www.lyft.com),
 [Microworkers](https://microworkers.com),
-[Microsoft Prediction Lab](https://www.prediction.microsoft.com/#!/home),
+[Microsoft Prediction Lab](https://www.prediction.microsoft.com/#!/),
 [MTurk List](http://www.mturklist.com),
 [Netflix recommendations](https://www.netflix.com/),
 [ODesk](https://www.odesk.com),
@@ -93,6 +93,7 @@ This week we will be looking at the wealth of companies that use crowdsourcing a
 [Waze](https://www.waze.com),
 [We the People](https://petitions.whitehouse.gov),
 [Wikipedia](http://en.wikipedia.org/wiki/Main_Page),
+[WorkFusion](http://www.workfusion.com),
 [XPRIZE](http://www.xprize.org),
 [Yelp](http://www.yelp.com/),
 [Zensors](http://zensors.com/).
