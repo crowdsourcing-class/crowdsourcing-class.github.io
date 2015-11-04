@@ -25,7 +25,8 @@ Discussion Forum
 : [Piazza](https://piazza.com/upenn/fall2014/nets213/home)
 
 Time and place
-: The class will next be offered in Spring 2016, MWF 11am-noon.
+: Spring 2016, MWF 2-3PM, LRSM Auditorium
+
 
 Prerequisites
 : [CIS 120](http://www.seas.upenn.edu/~cis120/) or prior programming experience
