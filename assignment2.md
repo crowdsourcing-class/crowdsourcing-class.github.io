@@ -39,6 +39,7 @@ This week we will be looking at the wealth of companies that use crowdsourcing a
 [EatWith](http://www.eatwith.com),
 [eBay buyer/seller ratings](http://pages.ebay.com/help/feedback/scores-reputation.html),
 [edX](https://www.edx.org),
+[EyeWire](https://eyewire.org/signup),
 [Field Agent](http://www.fieldagent.net),
 [Flattr](https://flattr.com),
 [Foursquare](https://foursquare.com),
