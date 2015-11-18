@@ -11,7 +11,7 @@ Crowdsourcing and human computation are emerging fields that sit squarely at the
 
 
 <div class="alert alert-info">
-The class reached its enrollment cap during the pre-registration period, but we plan on opening more slots. If you would like to take the class but didn't manage to enroll already, then please [add yourself to the waitlist](https://docs.google.com/forms/d/1nEXV3LrZXckeOWiklEAKRYiCEJa-o67BbCEjAuOHuFw/viewform?usp=send_form).
+The class reached its enrollment cap during the pre-registration period, but we plan on opening more slots. If you would like to take the class but didn't manage to enroll already, then please <a href="https://docs.google.com/forms/d/1nEXV3LrZXckeOWiklEAKRYiCEJa-o67BbCEjAuOHuFw/viewform?usp=send_form">add yourself to the waitlist</a>.
 </div>
 
 
