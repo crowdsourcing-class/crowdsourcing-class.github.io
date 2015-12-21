@@ -22,8 +22,8 @@ Course number
 Instructor
 : [Chris Callison-Burch](http://www.cis.upenn.edu/~ccb/)
 
-Teaching Assistant
-: [Ellie Pavlick](http://www.seas.upenn.edu/~epavlick/) 
+Teaching Assistants
+: [Course Staff](staff.html) 
 
 Discussion Forum
 : [Piazza](https://piazza.com/upenn/fall2014/nets213/home)
