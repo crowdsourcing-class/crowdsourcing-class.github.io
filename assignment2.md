@@ -40,6 +40,7 @@ This week we will be looking at the wealth of companies that use crowdsourcing a
 [eBay buyer/seller ratings](http://pages.ebay.com/help/feedback/scores-reputation.html),
 [edX](https://www.edx.org),
 [EyeWire](https://eyewire.org/signup),
+[Facewatch](http://arstechnica.com/tech-policy/2015/12/pre-crime-arrives-in-the-uk-better-make-sure-your-face-stays-off-the-crowdsourced-watch-list/),
 [Field Agent](http://www.fieldagent.net),
 [Flattr](https://flattr.com),
 [Foursquare](https://foursquare.com),
@@ -67,7 +68,6 @@ This week we will be looking at the wealth of companies that use crowdsourcing a
 [Microsoft Prediction Lab](https://www.prediction.microsoft.com/#!/),
 [MTurk List](http://www.mturklist.com),
 [Netflix recommendations](https://www.netflix.com/),
-[ODesk](https://www.odesk.com),
 [OpenStreetMap](http://www.openstreetmap.org/),
 [Orchestra](http://orchestra.unlimitedlabs.com),
 [Parchment](http://www.parchment.com)
@@ -92,6 +92,7 @@ This week we will be looking at the wealth of companies that use crowdsourcing a
 [TurkOpticon](http://turkopticon.ucsd.edu),
 [Uber](https://www.uber.com),
 [Udacity](https://www.udacity.com),
+[Upwork (formerly oDesk)](https://www.upwork.com),
 [Ushahidi](http://www.ushahidi.com),
 [Waze](https://www.waze.com),
 [We the People](https://petitions.whitehouse.gov),
