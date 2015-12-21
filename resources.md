@@ -9,6 +9,8 @@ active_tab:
 Resources 
 =============================================================
 
+
+
 ###General Python resources
 
 - Python itself has good documentation and a decent getting started page [here](https://docs.python.org/2/tutorial/introduction.html).
@@ -23,3 +25,16 @@ Resources
 - [Kaggle has some tutorials on sklearn](https://www.kaggle.com/c/data-science-london-scikit-learn/visualization)
 - [NLTK](http://www.nltk.org/) is a great library for doing natural language processing in Python.  
 - [Python client for the CrowdFlower API](https://github.com/peoplepattern/crowdflower).  There’s a tutorial on the [People Pattern blog](http://www.peoplepattern.com/crowdflower-python-client-crowdflower-api/).
+- [Seaborn: statistical data visualization in Python](http://stanford.edu/~mwaskom/software/seaborn/index.html)
+
+### Artificial Intelligence tutorials and APIs
+- [Microsoft's Project Oxford APIs](https://www.projectoxford.ai).  These APIs include functions for computer vision, face recognition, speech recognition and generation. 
+- [Probability Tutorial from Peter Norvig](http://nbviewer.ipython.org/url/norvig.com/ipython/Probability.ipynb)
+- [EM Tutorial from Dirk Hovy](https://github.com/dirkhovy/emtutorial)
+
+
+###Other courses about Crowdsourcing 
+- [UMich - Human Computation and Crowdsourcing Systems](https://docs.google.com/document/d/1aJki8Kq-uXIjUnLMK4SdQHqlYo1xULTH93gOcjYL6vw/pub?embedded=true)
+- [Purdue University - Crowd-Powered Systems](https://engineering.purdue.edu/~aq/695/15sp/)
+- [CMU - Crowd Programming](http://www.programthecrowd.com)
+- [UT Austin - Crowdsourcing: Theory, Methods, and Applications  ](https://docs.google.com/document/d/1oiweK0Vvio193DSze9gANzj81XqwjaV3W6uF5pQ9s4M/preview)
