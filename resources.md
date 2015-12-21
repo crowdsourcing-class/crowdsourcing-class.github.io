@@ -3,7 +3,7 @@ layout: default
 img: google-search
 caption: Resources just for you! Easier than Googling!
 title: Resources
-active_tab: 
+active_tab: resources
 ---
 
 Resources 
