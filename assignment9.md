@@ -1511,3 +1511,4 @@ Related Projects
 * [Vox - Mass shootings since Sandy Hook, in one map](http://www.vox.com/a/mass-shootings-sandy-hook)
 * [The Guardian - 994 mass shootings in 1,004 days](http://www.theguardian.com/us-news/ng-interactive/2015/oct/02/mass-shootings-america-gun-violence)
 * [Mass killings in the United States](http://www.gannett-cdn.com/GDContent/mass-killings/)
+* [Mass killings in the USA by Muslims and non-Muslims](assets/img/2015-mass-shootings-visualization.jpg)
