@@ -29,11 +29,14 @@ Resources
 
 ### Artificial Intelligence tutorials and APIs
 - [Microsoft's Project Oxford APIs](https://www.projectoxford.ai).  These APIs include functions for computer vision, face recognition, speech recognition and generation. 
+- [Google Knowledge Graph Search APIs](https://developers.google.com/knowledge-graph/)
+- [Google Maps Geocoding API](https://developers.google.com/maps/documentation/geocoding/intro)
 - [Probability Tutorial from Peter Norvig](http://nbviewer.ipython.org/url/norvig.com/ipython/Probability.ipynb)
 - [EM Tutorial from Dirk Hovy](https://github.com/dirkhovy/emtutorial)
 
 
-###Other courses about Crowdsourcing 
+
+###Other Courses about Crowdsourcing 
 - [UMich - Human Computation and Crowdsourcing Systems](https://docs.google.com/document/d/1aJki8Kq-uXIjUnLMK4SdQHqlYo1xULTH93gOcjYL6vw/pub?embedded=true)
 - [Purdue University - Crowd-Powered Systems](https://engineering.purdue.edu/~aq/695/15sp/)
 - [CMU - Crowd Programming](http://www.programthecrowd.com)
