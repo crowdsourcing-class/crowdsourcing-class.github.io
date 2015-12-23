@@ -7,8 +7,6 @@
     - Examples of crowdsourcing and human computation
   reading:
     -
-      title: The Wisdom of Crowds&#58; Introduction and Chapter 1
-    -
       author: Malone, Laubacher, and Dellarocas
       title:  Harnessing Crowds&#58; Mapping the Genome of Collective Intelligence
       url: http://crowdsourcing-class.org/readings/downloads/intro/MaloneEtAl.pdf
@@ -48,8 +46,6 @@
     - Terminology and mechanics&#58; Turkers, Requesters, HITs, micropayments
   reading:
     -
-      title: The Wisdom of Crowds&#58; Chapter 2 ("The Difference Difference Makes")
-    -
       author: Panos Ipeirotis
       title: The Demographics of MTurk
       url: http://crowdsourcing-class.org/readings/downloads/platform/demographics-of-mturk.pdf
@@ -76,8 +72,6 @@
     - Amazon Mechanical Turk from the Requester's perspective&#58; Designing HITs, qualifications, pricing HITs, approving/rejecting
   reading:
     -
-      title: The Wisdom of Crowds&#58; Chapter 3 ("Monkey See, Monkey Do")
-    -
       title:  Requester Tour of Mechanical Turk
       url: https://requester.mturk.com/tour
     -
@@ -90,8 +84,6 @@
   highlights:
     - Categorization system&#58; motivation, quality control, aggregation, human skill, process flow
   reading:
-    -
-      title: The Wisdom of Crowds&#58; Chapter 4 ("Putting the Pieces Together")
     -
       author: Alex Quinn and Ben Bederson
       title:  Human Computation&#58; A Survey and Taxonomy of a Growing Field
@@ -116,8 +108,6 @@
     - Reasoning with Probabilities
   reading:
     -
-      title: The Wisdom of Crowds&#58; Chapter 5 ("Shall We Dance?&#58; Coordination in a Complex World")
-    -
       author: Hilary Mason
       title:  Intro to Machine Learning in Python
       url: http://shop.oreilly.com/product/0636920017493.do
@@ -131,8 +121,6 @@
     - We do the homework in front of your eyes
     - Experiment design - training / test splits, overfitting, baselines, evaluation
   reading:
-    -
-      title: The Wisdom of Crowds&#58; Chapter 6 ("Society Does Exist&#58; Taxes, Tipping, Television and Trust")
     -
       title:  scikit-learn&#58; Machine Learning in Python (webpage with tutorials)
       url: http://scikit-learn.org/stable/
@@ -153,8 +141,6 @@
     - <a href="http://crowdsourcing-class.org/slides/quicksort-with-kittens.mov">Quicksort for kittens</a>
   reading:
     -
-      title: The Wisdom of Crowds&#58; Chapter 7 ("Traffic&#58; What We Have Here is a Failure to Communicate")
-    -
       author: Greg Little, Lydia B. Chilton, Max Goldman, and Robert C. Miller
       title:  TurKit&#58; Human Computation Algorithms on Mechanical Turk
       url: readings/downloads/programming/LittleEtAl.pdf
@@ -169,8 +155,6 @@
     - Experiments with TurKit
     - Iterative versus parallel processing
   reading:
-    -
-      title: The Wisdom of Crowds&#58; Chapter 7 ("Traffic&#58; What We Have Here is a Failure to Communicate")
     -
       author: Greg Little, Lydia B. Chilton, Max Goldman, and Robert C. Miller
       title:  Exploring Iterative and Parallel Human Computation Processes
@@ -190,8 +174,6 @@
     - Soylent word processor ("it's made of people")
   reading:
     -
-      title: The Wisdom of Crowds&#58; Chapter 6 ("Society Does Exist&#58; Taxes, Tipping, Television and Trust")
-    -
       author: Michael Bernstein, Greg Little, Rob Miller, Björn Hartmann, Mark Ackerman, David Karger, David Crowell, and Katrina Panovich
       title:  Soylent&#58; A Word Processor with a Crowd Inside
       url: readings/downloads/hci/Soylent.pdf
@@ -203,8 +185,6 @@
     - E-mail Valet
     - Adrenaline
   reading:
-    -
-      title: The Wisdom of Crowds&#58; Chapter 7 ("Traffic&#58; What We Have Here is a Failure to Communicate")
     -
       author: Michael Bernstein, Joel Brandt, Rob Miller, and David Karger
       title:  Crowds in Two Seconds&#58; Enabling Realtime Crowd-Powered Interfaces
@@ -242,8 +222,6 @@
     - Embedded gold standard
   reading:
     -
-      title: The Wisdom of Crowds&#58; Chapter 7 ("Traffic&#58; What We Have Here is a Failure to Communicate")
-    -
       author: Luis von Ahn and Laura Dabbish
       title:  Labeling Images with a Computer Game
       url: readings/downloads/gwap/ESP.pdf
@@ -259,8 +237,6 @@
     - Economic incentives
     - Reputation systems
   reading:
-    -
-      title: The Wisdom of Crowds&#58; Chapter 8 ("Science&#58; Collaboration, Competition and Reputation")
     -
       author: Anindya Ghose, Panos Ipeirotis, and Arun Sundararajan
       title:  Opinion Mining Using Econometrics&#58; A Case Study on Reputation Systems
@@ -290,8 +266,6 @@
     - The EM algorithm
   reading:
     -
-      title: The Wisdom of Crowds&#58; Chapter 8 ("Science&#58; Collaboration, Competition and Reputation")
-    -
       author: A. P. Dawid and A. M. Skene
       title:  Maximum Likelihood Estimation of Observer Error-Rates Using the EM Algorithm
       url: readings/downloads/ml/EM.pdf
@@ -317,8 +291,6 @@
     - Topic Detection and Tracking
     - Approximate algorithms for scaling to large data sets
   reading:
-    -
-      title: The Wisdom of Crowds&#58; Chapter 12 ("Democracy&#58; Dreams of the Common Good")
     -
       author: Sasa Petrovic, Miles Osborne, and Victor Lavrenko
       title:  Streaming First Story Detection with application to Twitter
