@@ -4,13 +4,14 @@ img: launching-a-start-up
 caption: Crowdsource your startup!
 title: Homework 2 | Market Research
 active_tab: homework
+release_date: 2016-01-22
+due_date: 2016-01-29
 ---
 
 
 <div class="alert alert-info">
-  This assignment has two parts.  The first part is due before class on Wednesday, September 10.  The second part is due before class on Wednesday, September 17.
+This assignment is due before class on {{ page.due_date | date: "%A, %B %-d, %Y" }}.
 </div>
-
 
 
 
