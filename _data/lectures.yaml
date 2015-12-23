@@ -1,5 +1,5 @@
 -
-  date: 2014-08-27
+  date: 2016-01-13
   slides: http://crowdsourcing-class.org/slides/class-intro.pdf
   title: Intro Lecture
   highlights:
@@ -21,8 +21,8 @@
       title: Why did people lose their minds over Beanie Babies?
       url: http://www.slate.com/articles/health_and_science/science/2015/02/beanie_babies_bubble_economics_and_psychology_of_a_plush_toy_investment.html
 -
-  date: 2014-09-01
-  title: Labor Day (no classes)
+  date: 2016-01-15
+  title: Friday hands-on exercise (become a Crowd Worker)
   reading:
     -
       author: Jeff Bigham
@@ -37,7 +37,10 @@
       title:  Employees Who Are Misclassified as Independent Contractors
       url: http://crowdsourcing-class.org/readings/downloads/ethics/misclassification-of-employees-as-contractors.pdf
 -
-  date: 2014-09-03
+  date: 2016-01-18
+  title: No classes - Martin Luther King Day
+-
+  date: 2016-01-20
   slides: http://crowdsourcing-class.org/slides/amazon-mechanical-turk.pdf
   title: The Mechanical Turk crowdsourcing platform - part 1
   highlights:
@@ -63,7 +66,10 @@
       title: Amazon Mechanical Turk&#58; Gold Mine or Coal Mine?
       url: http://crowdsourcing-class.org/readings/downloads/ethics/gold-mine-or-coal-mine.pdf
 -
-  date: 2014-09-08
+  date: 2016-01-22
+  title: Friday hands on activity
+-
+  date: 2016-01-25
   slides: http://crowdsourcing-class.org/slides/being-an-mturk-requester.pdf
   title: The Mechanical Turk crowdsourcing platform - part 2
   highlights:
@@ -78,7 +84,7 @@
       title:  Mechanical Turk blog
       url: http://mechanicalturk.typepad.com/blog/requester/
 -
-  date: 2014-09-10
+  date: 2016-01-27
   slides: http://crowdsourcing-class.org/slides/taxonomy-of-human-computation.pdf
   title: Taxonomy of crowdsourcing and human computation
   highlights:
@@ -98,7 +104,10 @@
       title: Python tutorials and references
       url : http://crowdsourcing-class.org/resources.html
 -
-  date: 2014-09-15
+  date: 2016-01-29
+  title: Friday hands on activity
+-
+  date: 2016-02-01
   slides: http://crowdsourcing-class.org/slides/machine-learning.pdf
   title: Machine Learning part 1
   highlights:
@@ -113,7 +122,7 @@
       title:  Intro to Machine Learning in Python
       url: http://shop.oreilly.com/product/0636920017493.do
 -
-  date: 2014-09-17
+  date: 2016-02-03
   title: Machine Learning - part 2
   slides: http://crowdsourcing-class.org/slides/machine-learning-part-2.pdf
   highlights:
@@ -132,7 +141,10 @@
       title:  Scikit-learn&#58; Machine Learning in Python (short article in the Journal of Machine Learning Research)
       url: http://www.jmlr.org/papers/volume12/pedregosa11a/pedregosa11a.pdf
 -
-  date: 2014-09-22
+  date: 2016-02-05
+  title: Friday hands on activity
+-
+  date: 2016-02-08
   slides: http://crowdsourcing-class.org/slides/programming-the-crowd.pdf
   title: Programming concepts for human computation
   highlights:
@@ -150,7 +162,7 @@
       title:  Download the TurKit software from the MIT Computer Science and Artificial Intelligence Laboratory
       url: http://groups.csail.mit.edu/uid/turkit/
 -
-  date: 2014-09-24
+  date: 2016-02-10
   slides: http://crowdsourcing-class.org/slides/iterative-and-parallel-processing.pdf
   title: Iterative and Parallel Processing
   highlights:
@@ -167,26 +179,10 @@
       title:  Download the TurKit software from the MIT Computer Science and Artificial Intelligence Laboratory
       url: http://groups.csail.mit.edu/uid/turkit/
 -
-  date: 2014-09-29
-  slides: http://crowdsourcing-class.org/slides/gun-violence-as-a-public-health-issue.pdf
-  title: Firearm Violence&#58; A Public Health Issue
-  speaker: Douglas Wiebe, Associate Professor of Epidemiology, University of Pennsylvania Perelman School of Medicine
-  speaker_url: http://www.cceb.upenn.edu/faculty/?id=185
-  highlights:
-    - Firearm injury as a public health issue
-    - Importance of data in epidemiology
-  reading:
-    -
-      author: FICAP
-      title:  Firearm Injury in the U.S. 2011 Resource Book
-      url: http://www.uphs.upenn.edu/ficap/resourcebook/pdf/monograph.pdf
-    - 
-      author: Charles Branas and Douglas Wiebe
-      title: Gun Violence Research and Prevention
-      url: http://www.uphs.upenn.edu/ficap/research/docs/Branas%20-%20Gun%20violence%20research%20summary.pdf 
+  date: 2016-02-12
+  title: Friday hands on activity
 -
-  date: 2014-10-01
-  speaker: Ellie Pavlick (Instructor will be traveling)
+  date: 2016-02-15
   slides: http://crowdsourcing-class.org/slides/crowdsourcing-and-HCI.pdf
   title: Crowdsourcing and human computer interaction (HCI) design
   highlights:
@@ -200,7 +196,7 @@
       title:  Soylent&#58; A Word Processor with a Crowd Inside
       url: readings/downloads/hci/Soylent.pdf
 -
-  date: 2014-10-06
+  date: 2016-02-17
   slides: http://crowdsourcing-class.org/slides/crowdsourcing-and-HCI.pdf
   title: Crowdsourcing and HCI part 2
   highlights:
@@ -218,18 +214,27 @@
       title:  EmailValet&#58; Managing Email Overload through Private, Accountable Crowdsourcing
       url: readings/downloads/hci/EmailValet.pdf
 -
-  date: 2014-10-08
-  title: In-class presentations&#58; Pitch your term project ideas
+  date: 2016-02-19
+  title: Drop deadline
+-
+  date: 2016-02-19
+  title: Friday hands on activity
+-
+  date: 2016-02-22
+  title: In-class presentations&#58; Pitch your term project ideas 
+  speaker: your TAs. Instructor will be traveling for a DARPA meeting.
   slides: http://crowdsourcing-class.org/final-project-pitches.html
 -
-  date: 2014-10-13
-  title: In-class presentations&#58; Pitch your term project ideas
+  date: 2016-02-24
+  title: In-class presentations&#58; Pitch your term project ideas 
+  speaker: your TAs. Instructor will be traveling for a DARPA meeting.
   slides: http://crowdsourcing-class.org/final-project-pitches.html
 -
-  date: 2014-10-15
-  title: No class today. Instructor and TA will be traveling for a DARPA meeting.  
+  date: 2016-02-26
+  title: Friday in-class activity
+  speaker: your TAs. Instructor will be traveling for a DARPA meeting.
 -
-  date: 2014-10-20
+  date: 2016-02-29
   slides: http://crowdsourcing-class.org/slides/quality-control.pdf
   title: Quality Control part 1
   highlights:
@@ -247,7 +252,7 @@
       title:  Cheap and Fast — But is it Good? Evaluating Non-Expert Annotations for Natural Language Tasks
       url: readings/downloads/nlp/evaluating-non-expert-annotations-for-nlp.pdf
 -
-  date: 2014-10-22  
+  date: 2016-03-02
   slides: http://crowdsourcing-class.org/slides/quality-control-2.pdf
   title: Quality Control part 2
   highlights:
@@ -265,7 +270,19 @@
       title:  Financial Incentives and the Performance of Crowds
       url: readings/downloads/econ/financial-incentives-and-the-performance-of-crowds.pdf
 -
-  date: 2014-10-27
+  date: 2016-03-04
+  title: Friday hands on activity
+-
+  date: 2016-03-07
+  title: No classes - Spring Break
+-
+  date: 2016-03-09
+  title: No classes - Spring Break
+-
+  date: 2016-03-11
+  title: No classes - Spring Break
+-
+  date: 2016-03-14
   slides: http://crowdsourcing-class.org/slides/quality-control-3.pdf
   title: Quality Control part 3
   highlights:
@@ -286,30 +303,14 @@
       author: Dirk Hovy
       title:  An Evening with EM (a tutorial on EM)
       url: readings/downloads/ml/EM-tutorial.pdf
-
 -
-  date: 2014-10-29
-  title: Decision-Theoretic Crowdsourcing
-  slides: http://crowdsourcing-class.org/slides/decision-theoretic-crowdsourcing.pdf
-  speaker: Mausam
-  speaker_url: http://homes.cs.washington.edu/~mausam/
-  reading:
-    -
-      author: Dan Weld, Mausam, and Peng Dai
-      title:  Human Intelligence Needs Artificial Intelligence
-      url: http://homes.cs.washington.edu/~mausam/papers/hcomp11a.pdf
-    -
-      author: Peng Dai, Chris Lin, Mausam, and Dan Weld
-      title:  POMDP-based Control of Workflows for Crowdsourcing
-      url: http://homes.cs.washington.edu/~mausam/papers/aij13.pdf
--
-  date: 2014-11-03
+  date: 2016-03-14
   title: Prediction Markets
   slides: http://crowdsourcing-class.org/slides/prediction-markets.pdf
   speaker: Ellie Pavlick
   speaker_url: http://www.seas.upenn.edu/~epavlick/
 -
-  date: 2014-11-05
+  date: 2016-03-16
   slides: http://crowdsourcing-class.org/slides/twitter-first-story-detection.pdf
   title: Distilling Collective Intelligence from Twitter part 1
   highlights:
@@ -331,7 +332,10 @@
       title:  Approximate Nearest Neighbors&#58; Towards Removing the Curse of Dimensionality
       url: readings/downloads/twitter/approximate-nearest-neighbors.pdf
 -
-  date: 2014-11-10
+  date: 2016-03-18
+  title: Friday hands on activity
+-
+  date: 2016-03-21
   slides: http://crowdsourcing-class.org/slides/twitter-for-public-health.pdf
   title: Distilling Collective Intelligence from Twitter part 2
   highlights:
@@ -342,7 +346,7 @@
       title:  You are what you Tweet&#58; Analyzing Twitter for Public Health
       url: readings/downloads/twitter/analyzing-twitter-for-public-health.pdf
 -
-  date: 2014-11-12
+  date: 2016-03-23
   title: Crowdsourcing Translation
   slides: http://crowdsourcing-class.org/slides/crowdsourcing-translation.pdf
   highlights:
@@ -362,7 +366,13 @@
       author: Rabih Zbib, Erika Malchiodi, Jacob Devlin, David Stallard, Spyros Matsoukas, Richard Schwartz, John Makhoul, Omar F. Zaidan, and Chris Callison-Burch
       url: http://www.cis.upenn.edu/~ccb/publications/machine-translation-of-arabic-dialects.pdf
 -
-  date: 2014-11-17
+  date: 2016-03-25
+  title: Withdraw deadline
+-
+  date: 2016-03-25
+  title: Friday hands on activity
+-
+  date: 2016-03-28
   title: Crowdsourcing for Automatic Speech Recognition
   slides: http://crowdsourcing-class.org/slides/crowdsourcing-speech-recognition.pdf
   highlights:
@@ -377,7 +387,7 @@
       title:  Crowdsourcing for Speech Processing&#58; Applications to Data Collection, Transcription and Assessment
       url: http://www.amazon.com/Crowdsourcing-Speech-Processing-Applications-Transcription/dp/1118358694/
 -
-  date: 2014-11-19
+  date: 2016-03-30
   title: Social Sciences and Human Subjects Research
   slides: http://crowdsourcing-class.org/slides/crowdsourcing-and-the-social-sciences.pdf
   highlights:
@@ -396,10 +406,10 @@
       title:  Penn's Institutional Review Board
       url: http://www.upenn.edu/IRB/mission-institutional-review-board-irb/guidance
 -
-  date: 2014-11-26
-  title: No class (Friday class schedule today)
+  date: 2016-04-01
+  title: Friday hands on activity
 -
-  date: 2014-12-01
+  date: 2016-04-04
   title: A/B Testing
   slides: http://crowdsourcing-class.org/slides/ab-testing.pdf
   highlights:
@@ -436,7 +446,7 @@
       title:  We Experiment On Human Beings!
       url: http://blog.okcupid.com/index.php/we-experiment-on-human-beings/
 -
-  date: 2014-12-03
+  date: 2016-04-06
   title: Expert Crowds
   slides: http://crowdsourcing-class.org/slides/expert-crowds.pdf
   highlights:
@@ -451,10 +461,35 @@
       author: Maria Christoforaki and Panos Ipeirotis
       title:  STEP&#58; A Scalable Testing and Evaluation Platform
       url: http://www.ipeirotis.com/wp-content/uploads/2014/11/STEP_A_Scalable_Testing_and_Evaluation_Platform.pdf
+
 -
-  date: 2014-12-08
+  date: 2016-04-08
+  title: Friday hands on activity
+-
+  date: 2016-04-11
+  title: TBD
+-
+  date: 2016-04-13
+  title: TBD
+-
+  date: 2016-04-15
+  title: Friday hands on activity
+-
+  date: 2016-04-18
+  title: TBD
+-
+  date: 2016-04-20
+  title: TBD
+-
+  date: 2016-04-22
+  title: Friday hands on activity
+-
+  date: 2016-04-25
+  title: TBD
+-
+  date: 2016-04-27
   title: Course wrap-up
   slides: http://crowdsourcing-class.org/slides/wrap-up.pdf
 -
-  date: 2014-12-15
-  title: Final Presentations from 3pm-5pm in Berger Auditorium - room 101 in Skirkanich Hall
+  date: 2016-05-02
+  title: Final Presentations (date, time and location TBD)

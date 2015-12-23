@@ -18,7 +18,7 @@ Subject to change as the term progresses.
     </tr>
     {% for lecture in site.data.lectures %}
     <tr>
-      <td>{{ lecture.date | date: "%b %d" }}</td>
+      <td>{{ lecture.date | date: "%A, %B %-d, %Y" }}</td>
       <td>
 	{% if lecture.profile %}
 	Company Profile:  
