@@ -4,11 +4,13 @@ img: raised-fist
 caption: Workers of the world, unite!
 title: Homework 1 | Become a Crowd Worker
 active_tab: homework
+release_date: 2016-01-15
+due_date: 2016-01-22
 ---
 
 
 <div class="alert alert-info">
-  This assignment is due before class on Wednesday, September 3.
+This assignment is due before class on {{ page.due_date | date: "%A, %B %-d, %Y" }}.
 </div>
 
 

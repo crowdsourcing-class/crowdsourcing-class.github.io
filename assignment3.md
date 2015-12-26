@@ -4,11 +4,17 @@ img: python
 caption: Hello world!
 title: Homework 3 | Python Bootcamp
 active_tab: homework
+release_date: 2016-01-29
+due_date: 2016-02-05
 ---
 
 
 <div class="alert alert-info">
-  This assignment is due before class on Wednesday, September 17.  No teams for this assignment, please do it on your own.</div>
+This assignment is due before class on {{ page.due_date | date: "%A, %B %-d, %Y" }}. No teams for this assignment, please do it on your own.
+</div>
+
+
+
 <div class="alert alert-info" markdown="span">
 Links to tutorials and other Python resources are posted on the [resources page](resources.html).</div>
 

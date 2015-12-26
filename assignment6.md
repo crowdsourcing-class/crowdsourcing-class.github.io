@@ -11,7 +11,7 @@ active_tab: homework
   This assignment is due before class on Wednesday, October 22nd.</div>
 
 
-Crowsourcing Information Extraction<span class="text-muted"> : Assignment 6</span> 
+Crowdsourcing Information Extraction<span class="text-muted"> : Assignment 6</span> 
 =============================================================
 
 Okay, so we've been talking all semester about this gun violence database. And we've been making all sorts of big promises to Doug and the other epidemiologists. But, what have we gotten so far?: "Here are some articles that we are about 10% confident are about guns. Also, the word "shooting" is a good feature." Not exactly anything to write home about. So time to deliver. Let's take these articles and turn it into something useful. 

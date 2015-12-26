@@ -11,7 +11,7 @@ Crowdsourcing and human computation are emerging fields that sit squarely at the
 
 
 <div class="alert alert-info">
-The class has reached its enrollment cap.  115 students have registered, but the lecture theater accommodates 120, so there are still lots available for 5 more students to enroll.  If you would like to take the class but didn't manage to enroll already, then please <a href="https://docs.google.com/forms/d/1nEXV3LrZXckeOWiklEAKRYiCEJa-o67BbCEjAuOHuFw/viewform?usp=send_form">add yourself to the waitlist</a>.  
+The class has reached its enrollment cap.  115 students have registered, but the lecture theater accommodates 120, so there are still slots available for 5 more students to enroll.  If you would like to take the class but didn't manage to enroll already, then please <a href="https://docs.google.com/forms/d/1nEXV3LrZXckeOWiklEAKRYiCEJa-o67BbCEjAuOHuFw/viewform?usp=send_form">add yourself to the waitlist</a>.  
 </div>
  
 
@@ -48,4 +48,4 @@ Grading
 * Peer grading (5%)
 
 Late day policy
-: Everyone can have 5 free late days without penalty.  After you have used your free late days, you will lose 1 point per day (or faction thereof) that your assignment is submitted late.  HW1 won’t count towards your free late days, since Amazon slowed everyone down.
+: Everyone can have 5 free late days without penalty.  After you have used your free late days, you will lose 1 point per day (or faction thereof) that your assignment is submitted late.  
