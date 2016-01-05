@@ -10,10 +10,12 @@ There are a variety of ways of making videos. Two of the easiest and most effect
 
 #####Option 2: Screen recording
 If you're on a Mac:
+
 1. Open up QuickTime
 2. Go to File->New Screen Recording
 3. It'll give you the option to record the whole screen or just a part of the screen, and then start recording
 4. You can record your screen and audio at the same time, and voila, you have a presentation on video!
+
 If you're on Windows:
 Check out this [screen recording software](http://icecreamapps.com/Screen-Recorder/).
 
