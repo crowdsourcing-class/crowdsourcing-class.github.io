@@ -1,8 +1,8 @@
 ##Creating Videos
 ###The Technical Bit
 There are a variety of ways of making videos. Two of the easiest and most effective are:
-*Using a handheld camera to film a live presentation (think iPhone camera)
-*Using a screen recording software to record your screen and audio
+* Using a handheld camera to film a live presentation (think iPhone camera)
+* Using a screen recording software to record your screen and audio
 
 #####Option 1: Handheld camera
 1. Take your favorite camera or more likely, favorite smartphone and record your presentation. 
