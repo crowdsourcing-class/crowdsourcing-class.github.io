@@ -39,8 +39,16 @@ The exciting news is that the package manager we'll use to start, called pip, co
 
 You're in the home stretch of IPython Notebook set-up! Now you can return to your command line and run `$ pip install ipython[notebook]`.
 
+#####Debugging Tips: 
+
 You may need to give pip extra permissions to get IPython installed, so if you see any error messages or exceptions mentioning permissions or installation failing, run `$ sudo pip install ipython[notebook]`. When you are successful, you'll see some packages download and the command line wait for your next input. 
 
-Type `$ ipython notebook` to launch a new browser tab that acts as a server for your notebooks. Here, on the dashboard, you can create new notebooks and modify existing notebooks and Python scripts. 
+At this point, some users have seen an error: "IPython 4.0.1 does not provide the extra 'notebook.'" If you see this, you can resolve it by running:
+
+`$ pip install -Iv ipython[notebook]==3.2.0` instead of `$ pip install ipython[notebook]`
+
+#####Finally:
+
+Type `ipython notebook` to launch a new browser tab that acts as a server for your notebooks. Here, on the dashboard, you can create new notebooks and modify existing notebooks and Python scripts. 
 
 You're all set! 
