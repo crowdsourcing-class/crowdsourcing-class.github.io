@@ -15,7 +15,7 @@ If you're on a Mac:
 3. It'll give you the option to record the whole screen or just a part of the screen, and then start recording
 4. You can record your screen and audio at the same time, and voila, you have a presentation on video!
 If you're on Windows:
-Take a look at some of these [screen recording softwares](http://www.hongkiat.com/blog/win-screen-recording-softwares/).
+Check out this [screen recording software](http://icecreamapps.com/Screen-Recorder/).
 
 Sidenote: There are so many interesting and engaging ways to present ideas through videos. Explosions, interpretive dance and funky tunes are only a few of the things you can do with video that you can't with a boring old powerpoint(not that powerpoints aren't effective). You should strive to create something that's informative, but also memorable and entertaining. It'll make peer grading that much more enjoyable for everyone, and you'll have a lot more fun making it!  
 
