@@ -1,3 +1,8 @@
+---
+title: Creating and Uploading Videos
+layout: default
+---
+
 ##Creating Videos
 ###The Technical Bit
 There are a variety of ways of making videos. Two of the easiest and most effective are:
