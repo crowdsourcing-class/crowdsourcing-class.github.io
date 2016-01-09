@@ -41,11 +41,15 @@ You're in the home stretch of IPython Notebook set-up! Now you can return to you
 
 #####Debugging Tips: 
 
-You may need to give pip extra permissions to get IPython installed, so if you see any error messages or exceptions mentioning permissions or installation failing, run `$ sudo pip install ipython[notebook]`. When you are successful, you'll see some packages download and the command line wait for your next input. 
+* You may need to give pip extra permissions to get IPython installed, so if you see any error messages or exceptions mentioning permissions or installation failing, run `$ sudo pip install ipython[notebook]`. When you are successful, you'll see some packages download and the command line wait for your next input. 
 
-At this point, some users have seen an error: "IPython 4.0.1 does not provide the extra 'notebook.'" If you see this, you can resolve it by running:
+* At this point, some users have seen an error: "IPython 4.0.1 does not provide the extra 'notebook.'" If you see this, you can resolve it by running:
 
 `$ pip install -Iv ipython[notebook]==3.2.0` instead of `$ pip install ipython[notebook]`
+
+* If you're using Anaconda, some included libraries have conflicts that prevent the kernel from running after you attempt to start a notebook. If you're using Anaconda, be sure to run: 
+
+`conda install ipython-notebook`
 
 #####Finally:
 
