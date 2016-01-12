@@ -13,7 +13,7 @@ active_tab: staff
 	{% if staff.webpage %}<b><a href="{{ staff.webpage }}">{{ staff.name }}</a></b><br />
 	{% else %}<b>{{ staff.name }}</b><br />{% endif %}
         {% if staff.extra_title %}<b>{{ staff.extra_title }}</b><br />{% endif %}
-        {{ staff.email }}<br>
+        <a href="mailto:{{ staff.email }}">{{ staff.email }}</a><br>
        	{% if staff.office_hours %}<span markdown="1">Office Hours: {{ staff.office_hours }}</span>{% endif %}
       </div>
   {% endfor %}
