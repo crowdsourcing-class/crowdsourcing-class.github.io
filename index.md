@@ -26,26 +26,30 @@ Teaching Assistants
 : [Course Staff](staff.html) 
 
 Discussion Forum
-: [Piazza](https://piazza.com/upenn/fall2014/nets213/home)
+: [Piazza](https://piazza.com/upenn/spring2016/nets213)
 
 Time and place
 : Spring 2016, MWF 2-3PM, LRSM Auditorium
 
+Office Hours
+: [See staff page](staff.html) 
 
 Prerequisites
 : [CIS 120](http://www.seas.upenn.edu/~cis120/) or prior programming experience
 
 Course Readings
 : Selections from [The Wisdom of Crowds by James Surowiecki](http://www.amazon.com/Wisdom-Crowds-James-Surowiecki-ebook/dp/B000FCKC3I/)
-: [Various academic papers](syllabus.html)
+: [Various academic papers](lectures.html)
 
 Grading
 : This is a project-based course.  Instead of exams, you will do a series of hands-on assignments and a final project.  
 
-* 9 weekly assignments (5% each)
+* Weekly assignments (55%)
 * Final project (40%)
-* In-class presentation: Company Profile (10%)
 * Peer grading (5%)
 
 Late day policy
 : Everyone can have 5 free late days without penalty.  After you have used your free late days, you will lose 1 point per day (or faction thereof) that your assignment is submitted late.  
+
+Course materials
+: 
