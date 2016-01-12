@@ -22,8 +22,6 @@ If you're on a Mac:
 If you're on Windows:
 Check out this [screen recording software](http://icecreamapps.com/Screen-Recorder/).
 
-Sidenote: There are so many interesting and engaging ways to present ideas through videos. Explosions, interpretive dance and cool tunes are only a few of the things you can do with video that you can't with a boring old powerpoint (not that powerpoints aren't effective). You should strive to create something that's informative, but also memorable and entertaining. It'll make peer grading that much more enjoyable for everyone, and you'll have a lot more fun making it!  
-
 ##Uploading to Vimeo
 1. Sign up for a Vimeo account following the instructions on their [website](https://vimeo.com/).
 2. You will receive and email with a link to verify your account, after which you can upload a video.
