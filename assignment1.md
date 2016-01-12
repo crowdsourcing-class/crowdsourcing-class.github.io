@@ -23,9 +23,7 @@ You should be excited about this assignment! You will actually get *paid* to do 
 
 In this assignment you’ll choose at least 50 assignments to complete.  We’re going to do an experiment to compare how much money you make under two conditions.  The first condition is using the MTurk interface, and the second condition is using a productivity tool that your instructor has built, called [Crowd Workers](http://crowd-workers.com/landing). 
 
- 
-
-1. Sign up for MTurk as a worker [here](https://www.mturk.com/mturk/welcome).  Please do this as early as possible, since it can take 48 hours or more to have your account approved.
+1. Sign up for MTurk as a worker [here](https://www.mturk.com/mturk/welcome).  Please do this as early as possible, since it can take 48 hours or more to have your account approved. <a href = "#special_note"> *If you were not able to create an account* </a>
 2. Sign up for MTurk as a requester [here](https://www.mturk.com/mturk/welcome). You won't use this for this assignment directly, but we want everyone signed up early so we can get you set up with Amazon credits.
 3. Install the [Crowd Workers](http://crowd-workers.com/landing) Google Chrome extension. This will track and help you to analyze the work that you’ve done. Please use the Google Chrome web browser with the Crowd Workers plugin installed for all of this homework assignment.
 4. Next, choose at least 50 assignments to complete.  You should pick a goal for yourself.  You can try to make as much money as you can, or you try to make the highest hourly rate that you can.
@@ -40,7 +38,13 @@ In this assignment you’ll choose at least 50 assignments to complete.  We’re
 8. After you have finished working, [please fill out this survey about your experience](https://docs.google.com/forms/d/1gaqrPa-GsPhLNm06RCog7WbzMyZK3qo1l82fAg8W4pA/viewform?usp=send_form).
 
 
-
-
-
-
+<div id = "special_note">
+<h4>Two options if you were not able to create a Mechanical Turk account:</h4>
+<p>
+1. Borrow a classmate's Mechanical Turk account<br>
+2. Sign up to be a contributor for CrowdFlower <a href = "https://elite.crowdflower.com/?view=register"> here. </a>CrowdFlower, like Mechanical Turk, is a crowdsourcing platform where you can sign up as a contributor (to do tasks) or a customer (to create tasks).
+</p>
+<p>
+We recommend the first option because there are more tasks and tools available for Mechanical Turk. However, you also have the option to make a CrowdFlower account in case you want to do more tasks in the future. 
+</p>
+</div>
