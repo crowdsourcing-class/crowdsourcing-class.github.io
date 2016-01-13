@@ -4,6 +4,8 @@ title: NETS 213 Staff
 active_tab: staff
 ---
 
+You may contact all members of the course staff by emailing <a href="mailto:nets213-staff@googlegroups.com">nets213-staff@googlegroups.com</a>.
+
 <div class="container-fluid">
   <div class="row">
   {% for staff in site.data.staff %}
