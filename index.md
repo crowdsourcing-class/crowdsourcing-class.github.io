@@ -11,7 +11,7 @@ Crowdsourcing and human computation are emerging fields that sit squarely at the
 
 
 <div class="alert alert-info">
-The class has reached its enrollment cap.  115 students have registered, but the lecture theater accommodates 120, so there are still slots available for 5 more students to enroll.  If you would like to take the class but didn't manage to enroll already, then please <a href="https://docs.google.com/forms/d/1nEXV3LrZXckeOWiklEAKRYiCEJa-o67BbCEjAuOHuFw/viewform?usp=send_form">add yourself to the waitlist</a>.  
+The class has reached its enrollment cap.  If you would like to <a href="https://docs.google.com/forms/d/1nEXV3LrZXckeOWiklEAKRYiCEJa-o67BbCEjAuOHuFw/viewform?usp=send_form">join the waitlist</a>, we will notify you if space becomes available. You are welcome to sit in on the lectures and start the homework assignments so that you don't fall behind.
 </div>
  
 
