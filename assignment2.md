@@ -203,3 +203,24 @@ Below are the questions that you will be asked to answer about the company or pr
 
 </div>
 </div>
+
+
+
+<div class="panel panel-danger">
+<div class="panel-heading" markdown="1">
+#### Grading Rubric
+</div>
+<div class="panel-body" markdown="1">
+
+This assignment is worth 5 points of your overall grade in the course.  The rubric for the assignment is given below.
+
+* 2 points - answering the survey questions thoughtfully.
+* 3 points total for the video
+  - 1 point for relevance to the themes of the class
+  - 1 point for the audio/narration component
+  - 1 point for a compelling visual accompaniment  
+* Extra credit (1 point) - if your video is selected for presentation in class, you will receive 1 point extra credit.
+</div>
+</div>
+ 
+
