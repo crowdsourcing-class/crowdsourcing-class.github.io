@@ -39,49 +39,64 @@ In this assignment you’ll choose at least 50 assignments to complete.  We’re
 
 **Extra Credit** The Crowd Workers extension you tried is mostly likely the next big thing in crowdsourcing. Right now, it is still a startup in its humble beginnings, being run out of the coffee-cup strewn office of a mere tenure-track professor at an Ivy League university. Help it gain some credibility by leaving a review in the [Google Chrome store](https://chrome.google.com/webstore/detail/crowdworkers/aamdbafophajiecmhbnbakndfgjkfpce/reviews) (we can debate [ethics](http://www.nytimes.com/2013/09/23/technology/give-yourself-4-stars-online-it-might-cost-you.html?_r=0) later). You will get extra credit if you leave any review, it doesn't have to be a good one, and provide your critiques about how to improve the plugin on the survey. 
 
-#### Questions (5 points total) 
-Please turn in your answers using [this form](https://docs.google.com/forms/d/16qS3R6Tc9T807NxHCf_fbS8znBOAjJQVG6NFhyCM_oQ/viewform?usp=send_form).
 
-1. (0.1 points) Did you successfully sign up as a Worker? If you were unable to sign up as a worker, please give an explanation.
-2. (0.1 points) Did you successfully sign up for a requester account? If you were unable to sign up as a requester, please give an explanation.
-3. (0.1 points) If you signed up for Mechanical Turk, what is your Worker ID? You can find it [here](https://www.mturk.com/mturk/dashboard) or [here](http://crowd-workers.com/track).
-4. (0.25 points) How many assignments did you complete? You can look up this information on your [Dashboard](https://www.mturk.com/mturk/dashboard) or on [Crowd Workers](http://crowd-workers.com/yourstats).
-5. (0.1 points) What was your goal when you were working? 
+
+<div class="alert alert-success" role="alert">
+Below are the questions that you will be asked to answer about your experience as a Crowd Worker.  Please turn in your answers using <a href="https://docs.google.com/forms/d/16qS3R6Tc9T807NxHCf_fbS8znBOAjJQVG6NFhyCM_oQ/viewform?usp=send_form">this form</a>.
+</div>
+
+#### Survey Questions 
+1. Did you successfully sign up as a Worker? If you were unable to sign up as a worker, please give an explanation.
+2. Did you successfully sign up for a requester account? If you were unable to sign up as a requester, please give an explanation.
+3. If you signed up for Mechanical Turk, what is your Worker ID? You can find it [here](https://www.mturk.com/mturk/dashboard) or [here](http://crowd-workers.com/track).
+4. How many assignments did you complete? You can look up this information on your [Dashboard](https://www.mturk.com/mturk/dashboard) or on [Crowd Workers](http://crowd-workers.com/yourstats).
+5. What was your goal when you were working? 
 * Make as much money as possible 
 * Get a high hourly wage 
 * Get through the 50 assignments as quickly as possible 
 * Other
-6. (0.25 points) How much money did you make?
-7. (0.25 points) How much time did you spend working?
-8. (0.1 points) Do you think you could make a reasonable wage if Mechanical Turk was your sole source of income? 
+6. How much money did you make?
+7. How much time did you spend working?
+8. Do you think you could make a reasonable wage if Mechanical Turk was your sole source of income? 
 * Yes 
 * No
-9. (0.1 points) Did any of your HITs get rejected? You can find out [here](https://www.mturk.com/mturk/dashboard).
+9. Did any of your HITs get rejected? You can find out [here](https://www.mturk.com/mturk/dashboard).
 * Yes 
 * No
-10. (0.25) If you did have a HIT rejected, what reason did the Requester give?
-11. (0.5 points) What types of tasks did you do, and how did you pick them?
-12. (0.25 points) What was the highest paying HIT that you completed?  Find it [here](http://crowd-workers.com/track?ordering=-reward) and then click on the HIT title, and copy-and-paste a link to the HIT group (like http://crowd-workers.com/hitgroup/3MGKBFT73MDAA4Y9Z9X7CPRXYV8SJC).
-13. (0.25 points) What HIT paid you the highest hourly rate?  Sort by "My hourly rate" [here](http://crowd-workers.com/track) and then click on the HIT title, and copy-and-paste a link to the HITgroup (like http://crowd-workers.com/hitgroup/3YE2HAAZKV6SYE0V5LA0H7CLMS9UZ3)
-14. (0.5 points) Describe the most interesting or weirdest or most fun HIT that you found.  Write a couple of sentences describing it.
-15. (0.1) Which do you think provides a better way of discovering work? 
+10. If you did have a HIT rejected, what reason did the Requester give?
+11. What types of tasks did you do, and how did you pick them?
+12. What was the highest paying HIT that you completed?  Find it [here](http://crowd-workers.com/track?ordering=-reward) and then click on the HIT title, and copy-and-paste a link to the HIT group (like http://crowd-workers.com/hitgroup/3MGKBFT73MDAA4Y9Z9X7CPRXYV8SJC).
+13. What HIT paid you the highest hourly rate?  Sort by "My hourly rate" [here](http://crowd-workers.com/track) and then click on the HIT title, and copy-and-paste a link to the HITgroup (like http://crowd-workers.com/hitgroup/3YE2HAAZKV6SYE0V5LA0H7CLMS9UZ3)
+14. Describe the most interesting or weirdest or most fun HIT that you found.  Write a couple of sentences describing it.
+15. Which do you think provides a better way of discovering work? 
 * Crowd Workers 
 * Mechanical Turk 
 * Other
-16. (0.5 points) Why?
-17. (0.1 points) Would you recommend Crowd Workers to other Turkers? 
+16. Why?
+17. Would you recommend Crowd Workers to other Turkers? 
 * Yes 
 * No
-18. (0.5 points) What would you do to improve the site to make it easier for users to find higher paying work?
-19. (0.2 points) Did you check out any of the other Turker productivity sites or try any productivity plugins? 
+18. What would you do to improve the site to make it easier for users to find higher paying work?
+19. Did you check out any of the other Turker productivity sites or try any productivity plugins? 
 * TurkOpticon 
 * Turker Nation 
 * mTurk List 
 * HITS worth Turking for 
-20. (0.5) What did you think of the other productivity tools?
-21. Extra Credit (up to 1 point): Did you Leave a review for Crowd Workers on Google Chrome store? What changes would help improve the Crowd Workers plugin? Were there any bugs you noticed? What was difficult or unintuitive to use? What features would you like to see added?
+20. What did you think of the other productivity tools?
+21. Extra Credit: Did you Leave a review for Crowd Workers on Google Chrome store? What changes would help improve the Crowd Workers plugin? Were there any bugs you noticed? What was difficult or unintuitive to use? What features would you like to see added?
 
  
+
+
+<div class="alert alert-danger" role="alert">
+This assignment is worth 5 points of your overall grade in the course.  The rubric for the assignment is given below.
+</div>
+
+#### Grading Rubric
+* 1 point - successfully completing 50 assignments on Mechanical Turk or CrowdFlower. 
+* 1 point - investigating a productivity tool like Crowd Workers or TurkOpticon.
+* 3 points - answering the survey questions.
+* Extra credit (1 point) - leaving a review of the Crowd Workers extension on Google Chrome store
 
 
 
