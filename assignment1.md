@@ -94,7 +94,7 @@ This assignment is worth 5 points of your overall grade in the course.  The rubr
 #### Grading Rubric
 * 1 point - successfully completing 50 assignments on Mechanical Turk or CrowdFlower. 
 * 1 point - investigating a productivity tool like Crowd Workers or TurkOpticon.
-* 3 points - answering the survey questions.
+* 3 points - answering the survey questions thoughtfully.
 * Extra credit (1 point) - leaving a review of the Crowd Workers extension on Google Chrome store
 
 
