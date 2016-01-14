@@ -23,7 +23,7 @@ You should be excited about this assignment! You will actually get *paid* to do 
 
 In this assignment you’ll choose at least 50 assignments to complete.  We’re going to do an experiment to compare how much money you make under two conditions.  The first condition is using the MTurk interface, and the second condition is using a productivity tool that your instructor has built, called [Crowd Workers](http://crowd-workers.com/landing). 
 
-1. Sign up for MTurk as a worker [here](https://www.mturk.com/mturk/welcome).  Please do this as early as possible, since it can take 48 hours or more to have your account approved. <a href = "#special_note"> *If you were not able to create an account* </a>
+1. Sign up for MTurk as a worker [here](https://www.mturk.com/mturk/welcome).  Please do this as early as possible, since it can take 48 hours or more to have your account approved. <a href = "#special_note"> *If you were not able to create an account, follow these instructions.* </a>
 2. Sign up for MTurk as a requester [here](https://www.mturk.com/mturk/welcome). You won't use this for this assignment directly, but we want everyone signed up early so we can get you set up with Amazon credits.
 3. Install the [Crowd Workers](http://crowd-workers.com/landing) Google Chrome extension. This will track and help you to analyze the work that you’ve done. Please use the Google Chrome web browser with the Crowd Workers plugin installed for all of this homework assignment.
 4. Next, choose at least 50 assignments to complete.  You should pick a goal for yourself.  You can try to make as much money as you can, or you try to make the highest hourly rate that you can.
@@ -35,7 +35,8 @@ In this assignment you’ll choose at least 50 assignments to complete.  We’re
 * [TurkerNation](http://turkernation.com/)
 * [mTurk List](http://mturklist.com) 
 * [HITs worth Turking for](http://www.reddit.com/r/HITsWorthTurkingFor/new/?sort=new) 
-8. After you have finished working, [please fill out this survey about your experience](https://docs.google.com/forms/d/16qS3R6Tc9T807NxHCf_fbS8znBOAjJQVG6NFhyCM_oQ/viewform?usp=send_form).
+8. After you have finished working, please answer the following questions about your experience and turn in your answers using [this survey](https://docs.google.com/forms/d/16qS3R6Tc9T807NxHCf_fbS8znBOAjJQVG6NFhyCM_oQ/viewform?usp=send_form).
+**Extra Credit** The Crowd Workers extension you tried is mostly likely the next big thing in crowdsourcing. Right now, it is still a startup in its humble beginnings, being run out of the coffee-cup strewn office of a mere tenure-track professor at an Ivy League university. Help it gain some credibility by leaving a review in the [Google Chrome store](https://chrome.google.com/webstore/detail/crowdworkers/aamdbafophajiecmhbnbakndfgjkfpce/reviews) (we can debate [ethics](http://www.nytimes.com/2013/09/23/technology/give-yourself-4-stars-online-it-might-cost-you.html?_r=0) later). You will get extra credit if you leave any review, it doesn't have to be a good one, and provide your critiques about how to improve the plugin on the survey. 
 
 
 <div id = "special_note">

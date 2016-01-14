@@ -16,23 +16,24 @@ Become a Requester<span class="text-muted"> : Assignment 5</span>
 
 Last week, you built a classifier to predict whether or not an article was about gun violence. You were able to estimate how well your classifier did by using [cross validation](http://en.wikipedia.org/wiki/Cross-validation_(statistics)), and you probably ended up with some accuracies that were pretty damn near perfect. But why train a model to label articles that already have labels?  The real point of machine learning is not to predict things that you already have answers to, but to try to predict new things. This week, we want to see if our classifier can look at new articles that no one has labeled, and predict whether or not they are about guns. 
 
-Predicting on data "in the wild" is much harder than predicting on the training data. Before, we cleaned your training data using the [Alchemy API](http://www.alchemyapi.com/)'s state-of-the-art processing, which gave us clean articles like this:
+Predicting on data "in the wild" is much harder than predicting on the training data. There are a million reasons for this. To name a few:
 
-<i>"After a 14-year-old was gunned down Thursday night it appears Chicago went 42 hours without a shooting, but that streak came to an end Saturday afternoon when two people were shot near Ogden Park. Rarely is there a 42-hour period in Chicago without a shooting..."</i>
-
-Now, your data has been scraped from the web and cleaned with cheaper, faster, handwritten-er processing, so you might get articles like this beauty:
-
-<i>"Boy, 3, among 13 injured in Chicago park shooting .zone Boy, 3, among 13 injured in Chicago park shooting #adgSocialTools #adgSocialTools div.social_header #adgSocialTools div.social_main #adgSocialTools div.social_main img, #adgSocialTools div.social_footer img #adgSocialTools div.social_footer #adgSocialTools div.social_footer..."</i>
+-- Your training data contained 10% gun-related articles. If you download all the articles posted on a given day, it is probably not the case (let's hope to God!) that 10% of them describe gun violence. So you are now looking for a tiny needle in a huge haystack, whereas your classifier is expecting something very different().  
+-- Your training data was nicely cleaned and contained sentences like: <i>"After a 14-year-old was gunned down Thursday night it appears Chicago went 42 hours without a shooting."</i> Scraping articles from the web can yield senences like this beauty: <i>"Boy, 3, among 13 injured in Chicago park shooting .zone Boy, 3, among 13 injured in Chicago park shooting #adgSocialTools #adgSocialTools div.social_header #adgSocialTools div.social_main #adgSocialTools div.social_main img, #adgSocialTools div.social_footer img #adgSocialTools div.social_footer #adgSocialTools div.social_footer..."</i>
 
 You can probably imagine that that 99% accuracy on cross validation may have been misleading. So this week we will get a real estimate of how well your classifier can do by taking the articles that your classifier thinks are gun-related, and asking workers on Crowdflower whether they agree or disagree with these predictions.
 
+This assignment has three parts:
 
-This assignment has two parts:
+1. You will need to build a crawler to collect news articles from the web. Some of these will hopefully be about gun violence, but many will not. 
+1. You will need to run your classifier from last week on your crawled articles, and pull out the articles that the classifier thinks are related to guns.
+2. You will create a task on [Crowdflower](http://www.crowdflower.com/) to have workers assess your predictions. You will use their labels to recalculate your classifier's accuracy.
 
-1. You will need to run your classifier from last week on 1.5 million unlabeled articles, and pull out the articles that it thinks are gun-related.
-2. You will create a task on [Crowdflower](http://www.crowdflower.com/) to have workers assess your predictions. You will use this to recalculate your classifier's accuracy.
+###Part 1: Pub(lication) Crawl
 
-###Part 1: Taking shots in the dark
+Part 1 of your assignment is to build a web crawler! This is up there as one of the most important life skills you will ever learn, alongside balancing a budget and feeding yourself. And like balancing a budget, you don't need to know how to build a great web crawler, just something quick-and-dirty that gets the job done. This section of the assignment will introduce a few tools for crawling webpages, and then let you loose. You can pick your favorite tool, or you apply several of them. The ultimate goal is to collect as many gunviolence articles as you can. 
+
+###Part 2: Taking shots in the dark
 
 For this part, you will use your classifier from last week to make predictions about never-before-seen data. You will need to make some changes to the code you wrote last week. There are some engineering details that you need to get right in order for everything to run smoothly, so read the instructions carefully and follow them closely. 
 
@@ -77,7 +78,7 @@ For this part, you will use your classifier from last week to make predictions a
 	This creates a new file, <code>sample.txt</code> which contains a random 500 lines from <code>positive_predicted_urls.txt</code>. Again, it uses three bash commands: <code>cat</code> (for "concatenate") just dumps the entire contents of a file; <code>shuf</code> scrambles the order of the lines; <code>head -n</code> takes the top <code>n</code> lines of its input and ignores the rest. 
 
 
-###Part 2: ShootingsHIT
+###Part 3: ShootingsHIT
 
 Whew, okay, enough python and bash for now! Its time to design a HIT on Crowdflower! The goal is to have the workers look at each of the URLs you gathered in step 4 of Part 1, and have them judge whether they agree that it is gun-violence-related. This should be a very painless process, hopefully. And look! There are even pictures!
 
