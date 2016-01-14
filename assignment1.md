@@ -56,31 +56,31 @@ Please turn in your answers using [this form](https://docs.google.com/forms/d/16
 8. (0.1 points) Do you think you could make a reasonable wage if Mechanical Turk was your sole source of income? 
 * Yes 
 * No
-9a. (0.25 points) Did any of your HITs get rejected? You can find out [here](https://www.mturk.com/mturk/dashboard).
+9. (0.1 points) Did any of your HITs get rejected? You can find out [here](https://www.mturk.com/mturk/dashboard).
 * Yes 
 * No
-9b. If you did have a HIT rejected, what reason did the Requester give?
-10. (0.25 points) What types of tasks did you do, and how did you pick them?
-11. (0.25 points) What was the highest paying HIT that you completed?  Find it [here](http://crowd-workers.com/track?ordering=-reward) and then click on the HIT title, and copy-and-paste a link to the HIT group (like http://crowd-workers.com/hitgroup/3MGKBFT73MDAA4Y9Z9X7CPRXYV8SJC).
-12. (0.25 points) What HIT paid you the highest hourly rate?  Sort by "My hourly rate" [here](http://crowd-workers.com/track) and then click on the HIT title, and copy-and-paste a link to the HITgroup (like http://crowd-workers.com/hitgroup/3YE2HAAZKV6SYE0V5LA0H7CLMS9UZ3)
-13. (0.25 points) Describe the most interesting or weirdest or most fun HIT that you found.  Write a couple of sentences describing it.
-14a. (0.5) Which do you think provides a better way of discovering work? 
+10. (0.25) If you did have a HIT rejected, what reason did the Requester give?
+11. (0.5 points) What types of tasks did you do, and how did you pick them?
+12. (0.25 points) What was the highest paying HIT that you completed?  Find it [here](http://crowd-workers.com/track?ordering=-reward) and then click on the HIT title, and copy-and-paste a link to the HIT group (like http://crowd-workers.com/hitgroup/3MGKBFT73MDAA4Y9Z9X7CPRXYV8SJC).
+13. (0.25 points) What HIT paid you the highest hourly rate?  Sort by "My hourly rate" [here](http://crowd-workers.com/track) and then click on the HIT title, and copy-and-paste a link to the HITgroup (like http://crowd-workers.com/hitgroup/3YE2HAAZKV6SYE0V5LA0H7CLMS9UZ3)
+14. (0.5 points) Describe the most interesting or weirdest or most fun HIT that you found.  Write a couple of sentences describing it.
+15. (0.1) Which do you think provides a better way of discovering work? 
 * Crowd Workers 
 * Mechanical Turk 
 * Other
-14b. Why?
-15. (0.1 points) Would you recommend Crowd Workers to other Turkers? 
+16. (0.5 points) Why?
+17. (0.1 points) Would you recommend Crowd Workers to other Turkers? 
 * Yes 
 * No
-16. (0.25 points) What would you do to improve the site to make it easier for users to find higher paying work?
-17a. (0.5 points) Did you check out any of the other Turker productivity sites or try any productivity plugins? 
+18. (0.5 points) What would you do to improve the site to make it easier for users to find higher paying work?
+19. (0.2 points) Did you check out any of the other Turker productivity sites or try any productivity plugins? 
 * TurkOpticon 
 * Turker Nation 
 * mTurk List 
 * HITS worth Turking for 
-17b. What did you think of the other productivity tools?
-18a. Extra Credit (up to 1 point): Did you Leave a review for Crowd Workers on Google Chrome store?
-18b. What changes would help improve the Crowd Workers plugin? Were there any bugs you noticed? What was difficult or unintuitive to use? What features would you like to see added?
+20. (0.5) What did you think of the other productivity tools?
+21. Extra Credit (up to 1 point): Did you Leave a review for Crowd Workers on Google Chrome store?
+22. What changes would help improve the Crowd Workers plugin? Were there any bugs you noticed? What was difficult or unintuitive to use? What features would you like to see added?
 
  
 
