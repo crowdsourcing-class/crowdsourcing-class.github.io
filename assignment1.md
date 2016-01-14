@@ -39,6 +39,53 @@ In this assignment you’ll choose at least 50 assignments to complete.  We’re
 
 **Extra Credit** The Crowd Workers extension you tried is mostly likely the next big thing in crowdsourcing. Right now, it is still a startup in its humble beginnings, being run out of the coffee-cup strewn office of a mere tenure-track professor at an Ivy League university. Help it gain some credibility by leaving a review in the [Google Chrome store](https://chrome.google.com/webstore/detail/crowdworkers/aamdbafophajiecmhbnbakndfgjkfpce/reviews) (we can debate [ethics](http://www.nytimes.com/2013/09/23/technology/give-yourself-4-stars-online-it-might-cost-you.html?_r=0) later). You will get extra credit if you leave any review, it doesn't have to be a good one, and provide your critiques about how to improve the plugin on the survey. 
 
+<div id = "special_note">
+<h4>Questions (5 points total) </h4>
+Please turn in your answers using [this form](https://docs.google.com/forms/d/16qS3R6Tc9T807NxHCf_fbS8znBOAjJQVG6NFhyCM_oQ/viewform?usp=send_form).
+1. (0.1 points) Did you successfully sign up as a Worker? If you were unable to sign up as a worker, please give an explanation.
+2. (0.1 points) Did you successfully sign up for a requester account? If you were unable to sign up as a requester, please give an explanation.
+3. (0.1 points) If you signed up for Mechanical Turk, what is your Worker ID? You can find it [here](https://www.mturk.com/mturk/dashboard) or [here](http://crowd-workers.com/track).
+4. (0.25 points) How many assignments did you complete? You can look up this information on your [Dashboard](https://www.mturk.com/mturk/dashboard) or on [Crowd Workers](http://crowd-workers.com/yourstats).
+5. (0.1 points) What was your goal when you were working? 
+* Make as much money as possible 
+* Get a high hourly wage 
+* Get through the 50 assignments as quickly as possible 
+* Other
+6. (0.25 points) How much money did you make?
+7. (0.25 points) How much time did you spend working?
+8. (0.1 points) Do you think you could make a reasonable wage if Mechanical Turk was your sole source of income? 
+* Yes 
+* No
+9a. (0.25 points) Did any of your HITs get rejected? You can find out [here](https://www.mturk.com/mturk/dashboard).
+* Yes 
+* No
+9b. If you did have a HIT rejected, what reason did the Requester give?
+10. (0.25 points) What types of tasks did you do, and how did you pick them?
+11. (0.25 points) What was the highest paying HIT that you completed?  Find it [here](http://crowd-workers.com/track?ordering=-reward) and then click on the HIT title, and copy-and-paste a link to the HIT group (like http://crowd-workers.com/hitgroup/3MGKBFT73MDAA4Y9Z9X7CPRXYV8SJC).
+12. (0.25 points) What HIT paid you the highest hourly rate?  Sort by "My hourly rate" [here](http://crowd-workers.com/track) and then click on the HIT title, and copy-and-paste a link to the HITgroup (like http://crowd-workers.com/hitgroup/3YE2HAAZKV6SYE0V5LA0H7CLMS9UZ3)
+13. (0.25 points) Describe the most interesting or weirdest or most fun HIT that you found.  Write a couple of sentences describing it.
+14a. (0.5) Which do you think provides a better way of discovering work? 
+* Crowd Workers 
+* Mechanical Turk 
+* Other
+14b. Why?
+15. (0.1 points) Would you recommend Crowd Workers to other Turkers? 
+* Yes 
+* No
+16. (0.25 points) What would you do to improve the site to make it easier for users to find higher paying work?
+17a. (0.5 points) Did you check out any of the other Turker productivity sites or try any productivity plugins? 
+* TurkOpticon 
+* Turker Nation 
+* mTurk List 
+* HITS worth Turking for 
+17b. What did you think of the other productivity tools?
+18a. Extra Credit (up to 1 point): Did you Leave a review for Crowd Workers on Google Chrome store?
+18b. What changes would help improve the Crowd Workers plugin? Were there any bugs you noticed? What was difficult or unintuitive to use? What features would you like to see added?
+
+ 
+
+
+
 
 <div id = "special_note">
 <h4>Two options if you were not able to create a Mechanical Turk account:</h4>
