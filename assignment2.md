@@ -2,7 +2,7 @@
 layout: default
 img: launching-a-start-up
 caption: Crowdsource your startup!
-title: Homework 2 | Market Research
+title: Homework 2 "Market Research"
 active_tab: homework
 release_date: 2016-01-22
 due_date: 2016-01-29
@@ -14,16 +14,12 @@ This assignment is due before class on {{ page.due_date | date: "%A, %B %-d, %Y"
 </div>
 
 
-
-
 Market Research <span class="text-muted">: Assignment 2</span> 
 =============================================================
 This week we will be looking at the wealth of companies that use crowdsourcing as part of their business. Here’s a list of companies that you could research:
 [538](http://fivethirtyeight.com),
 [99Designs](http://99designs.com),
 [airbnb](https://www.airbnb.com),
-[ALEC](http://www.alec.org/model-legislation/),
-[ALICE](http://alicelaw.org),
 [Amazon reviews/product recommendations](https://www.amazon.com),
 [Apple HealthKit/ResearchKit](http://www.apple.com/researchkit/),
 [benefunder](http://www.benefunder.org),
@@ -31,12 +27,14 @@ This week we will be looking at the wealth of companies that use crowdsourcing a
 [Buy Amazon Reviews](http://www.buyamazonreviews.com),
 [change.org](https://www.change.org),
 [CloudFactory](http://www.cloudfactory.com/home),
+[Couchsurfing](https://www.couchsurfing.org/),
 [coursera](https://www.coursera.org),
-[Crowdee (in German)](https://www.crowdee.de),
+[Crowdee](https://www.crowdee.de),
 [CrowdFlower](http://www.crowdflower.com),
 [CrowdMed](https://www.crowdmed.com),
 [Crowds On Demand](http://crowdsondemand.com),
 [The Doe Network](http://www.onthemedia.org/story/online-supersleuth/),
+[Duolingo](https://www.duolingo.com/),
 [EatWith](http://www.eatwith.com),
 [eBay buyer/seller ratings](http://pages.ebay.com/help/feedback/scores-reputation.html),
 [edX](https://www.edx.org),
@@ -68,14 +66,14 @@ This week we will be looking at the wealth of companies that use crowdsourcing a
 [Microworkers](https://microworkers.com),
 [Microsoft Prediction Lab](https://www.prediction.microsoft.com/#!/),
 [MTurk List](http://www.mturklist.com),
-[Netflix recommendations](https://www.netflix.com/),
+[Netflix prize](https://en.wikipedia.org/wiki/Netflix_Prize),
 [OpenStreetMap](http://www.openstreetmap.org/),
 [Orchestra](http://orchestra.unlimitedlabs.com),
-[Parchment](http://www.parchment.com)
+[Parchment](http://www.parchment.com),
 [PatientsLikeMe](http://www.patientslikeme.com),
+[Postmates](https://postmates.com),
 [PredictWise](http://www.predictwise.com/),
 [Premise](http://www.premise.com/),
-[Prosper](https://prosper.com/welcome/how_it_works.aspx),
 [PublicStuff](https://www.publicstuff.com),
 [Quirky](http://quirky.com),
 [Quora](http://www.quora.com),
@@ -109,16 +107,16 @@ You are also welcome to profile a [relevant company](http://www.crowdsourcing.or
 
 This assignment has two deliverables:
 
-1. Answering [a questionnaire](https://docs.google.com/forms/d/1cEkW2h2xwVyKaXriKR7PqroPDjQZE34AKPoRP-lUV5Y/viewform?usp=send_form) about the company or project that you are researching (due 9/10/14).
-2. A slideshow and video that you will use for an in-class presentation (due 9/17/14).
+1. Answering [a questionnaire](https://docs.google.com/forms/d/1fxe5cwKqM5M2J6NGAsqC30hvNQ0JX4woJV0zOZhRNsU/viewform?usp=send_form) about the company or project that you are researching.
+2. A video presentation about the company.  Several of the best videos will be selected for in-class presentations on Fridays.  Teams whose videos are selected will receive extra credit.
 
 This assignment can be done individually or in pairs.
 
-First, please sign up for a [company or project](https://docs.google.com/spreadsheets/d/1kOcI7BJUQGeG3Pb3oZPRqfTt2JYwRnjnTqImex9qsSQ/edit#gid=209977841).  If there’s a company that you’d like to research that isn’t on the list, you are welcome to ask the instructor or the TA to ask if it is OK.  Second, please choose a [presentation date](https://docs.google.com/spreadsheets/d/1kOcI7BJUQGeG3Pb3oZPRqfTt2JYwRnjnTqImex9qsSQ/edit#gid=0). Up to 3 presentations can go on the same day.
+First, please sign up for a [company or project](https://docs.google.com/spreadsheets/d/1dmTheLr1zzSzF4ci9hWIPNkO7sTHcXV3quwocPKr95o/edit?usp=sharing).  Please do not pick a company that another team has already signed up for.  If there’s a company that you’d like to research that isn’t on the list, you are welcome to ask the instructor or the TA to ask if it is OK.  
 
-You should independently research the company, and then [fill in your answers about it in this questionnaire](https://docs.google.com/forms/d/1cEkW2h2xwVyKaXriKR7PqroPDjQZE34AKPoRP-lUV5Y/viewform?usp=send_form).  Your short answers to these questions by <b>Wednesday, September 10</b>. 
+You should independently research the company, and then [fill in your answers about it in this questionnaire](https://docs.google.com/forms/d/1fxe5cwKqM5M2J6NGAsqC30hvNQ0JX4woJV0zOZhRNsU/viewform?usp=send_form).  Your short answers to these questions on  {{ page.due_date | date: "%A, %B %-d, %Y" }}.
 
-You will record a short 5 to 7 minute video presentation about your company and present it in class on the date that you choose.  You must record the video.  For the in-class presentation, you can either play the recording and answer questions afterwards, or you can give a live presentation.  Your presentation should address the following questions:
+You will record a short 5 to 7 minute video presentation about your company. Your presentation should address the following questions:
 
 - What incentives does it offer to get people to participate?
 - How does it aggregate the information provided by the crowd?
@@ -126,19 +124,17 @@ You will record a short 5 to 7 minute video presentation about your company and 
 - How does the company benefit from user contributions?
 - Are there any controversies about the company?
 
-Your presentation video is due <b>Wednesday, September 17</b>.
-
-To turn in your video, please upload it to [Vimeo](https://vimeo.com/). Then give us the link to your video in [this form](https://docs.google.com/forms/d/1bP_sk4aTMknox9XoZXVQRlSR0V7RD3MzmfeZPMLWSLU/viewform?usp=send_form). That is all. 
+Your presentation video is due on {{ page.due_date | date: "%A, %B %-d, %Y" }}. To turn in your video, please upload it to [Vimeo](https://vimeo.com/). Then give us the link to your video on the survey. Make sure that your video is publicly viewable or that you give us a password to view it on the web form.
 
 If you have managed to make it this far in life without having to sign up for accounts for things on the internet, here are more detailed instructions:
 
-1. Go to [Vimeo]().
+1. Go to [Vimeo](https://vimeo.com).
 2. Create an account by clicking the enormous blue "JOIN" button. 
 3. You will receive and email with a link to verify your account. You have to verify before you can upload videos.
 4. Once you are signed in, click "Upload" at the top of the page.
 5. Click the "Choose a Video to Upload" button and choose your video
 6. Once it is uploading, you can change the privacy settings. If you are soon to be on the job market, be careful. You probably don't want potential employers to know how intelligently and elegantly you are able to analyze and present on the potential market value of technology companies, so maybe don't use your real name.
-7. That's it! Fill in the title and tags and whathaveyou and use [this form](https://docs.google.com/forms/d/1bP_sk4aTMknox9XoZXVQRlSR0V7RD3MzmfeZPMLWSLU/viewform?usp=send_form) to tell us where to find it.
+7. That's it! Fill in the title and tags and what-have-you and use [this form](https://docs.google.com/forms/d/1bP_sk4aTMknox9XoZXVQRlSR0V7RD3MzmfeZPMLWSLU/viewform?usp=send_form) to tell us where to find it.
 
 
 
