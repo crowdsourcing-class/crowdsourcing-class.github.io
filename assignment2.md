@@ -11,7 +11,7 @@ due_date_video: 2016-02-12
 
 
 <div class="alert alert-info">
-This assignment has two deliverables. The first part of this assignment is due before class on {{ page.due_date | date: "%A, %B %-d, %Y" }}.  The second part is due before class on {{ page.due_date_video | date: "%A, %B %-d, %Y" }}.
+This assignment has two deliverables. The first part of this assignment is due before class on {{ page.due_date | date: "%A, %B %-d, %Y" }}.  The second part is due before class on {{ page.due_date_video | date: "%A, %B %-d, %Y" }}.  Note that other assignments will also be due on the same date as the second part, so we recommend that you finish it early.
 </div>
 
 
