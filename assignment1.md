@@ -42,11 +42,10 @@ In this assignment you’ll choose at least 50 assignments to complete.  We’re
 
 
 <div class="panel panel-primary">
-  <div class="panel-heading" markdown="1">
+<div class="panel-heading" markdown="1">
 #### Survey Questions
-  </div>
-  <div class="panel-body" markdown="1">
-
+</div>
+<div class="panel-body" markdown="1">
 Below are the questions that you will be asked to answer about your experience as a Crowd Worker.  Please turn in your answers using <a href="https://docs.google.com/forms/d/16qS3R6Tc9T807NxHCf_fbS8znBOAjJQVG6NFhyCM_oQ/viewform?usp=send_form">this form</a>.
 
 1. Did you successfully sign up as a Worker? If you were unable to sign up as a worker, please give an explanation.
@@ -93,10 +92,10 @@ Below are the questions that you will be asked to answer about your experience a
  
 
 <div class="panel panel-danger">
-  <div class="panel-heading" markdown="1">
+<div class="panel-heading" markdown="1">
 #### Grading Rubric
-  </div>
-  <div class="panel-body" markdown="1">
+</div>
+<div class="panel-body" markdown="1">
 
 This assignment is worth 5 points of your overall grade in the course.  The rubric for the assignment is given below.
 
@@ -111,13 +110,16 @@ This assignment is worth 5 points of your overall grade in the course.  The rubr
 
 
 
-<div id = "special_note">
-<h4>Two options if you were not able to create a Mechanical Turk account:</h4>
-<p>
+<div class="panel panel-info" id = "special_note">
+<div class="panel-heading" markdown="1">
+#### What to do if Amazon rejects your application to be a Mechanical Turk worker
+</div>
+<div class="panel-body" markdown="1">
+There are wo options if you were not able to create a Mechanical Turk account:
+
 1. Borrow a classmate's Mechanical Turk account<br>
 2. Sign up to be a contributor for CrowdFlower <a href = "https://elite.crowdflower.com/?view=register"> here. </a>CrowdFlower, like Mechanical Turk, is a crowdsourcing platform where you can sign up as a contributor (to do tasks) or a customer (to create tasks).
-</p>
-<p>
+
 We recommend the first option because there are more tasks and tools available for Mechanical Turk. However, you also have the option to make a CrowdFlower account in case you want to do more tasks in the future. 
-</p>
+</div>
 </div>
