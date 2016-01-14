@@ -133,8 +133,10 @@ If you have managed to make it this far in life without having to sign up for ac
 
 
 <div class="panel panel-info">
-  <div class="panel-heading">Upload your video to Vimeo</div>
-  <div class="panel-body" markdown="1">
+<div class="panel-heading" markdown="1">
+#### Instructions for uploading your video to Vimeo
+</div>
+<div class="panel-body" markdown="1">
 1. Go to [Vimeo](https://vimeo.com).
 2. Create an account by clicking the enormous blue "JOIN" button. 
 3. You will receive and email with a link to verify your account. You have to verify before you can upload videos.
@@ -142,5 +144,62 @@ If you have managed to make it this far in life without having to sign up for ac
 5. Click the "Choose a Video to Upload" button and choose your video
 6. Once it is uploading, you can change the privacy settings. If you are soon to be on the job market, be careful. You probably don't want potential employers to know how intelligently and elegantly you are able to analyze and present on the potential market value of technology companies, so maybe don't use your real name.
 7. That's it! Fill in the title and tags and what-have-you in the survey to tell us where to find it.
-  </div>
+</div>
+</div>
+
+
+<div class="panel panel-primary">
+<div class="panel-heading" markdown="1">
+#### Survey Questions
+</div>
+<div class="panel-body" markdown="1">
+Below are the questions that you will be asked to answer about the company or project that you are profiling. Please submit your answers via [the questionnaire](https://docs.google.com/forms/d/1fxe5cwKqM5M2J6NGAsqC30hvNQ0JX4woJV0zOZhRNsU/viewform?usp=send_form) 
+
+* What company are you profiling?
+* What online resources did you use in researching it?
+* Did you use any other resources?
+* Did you conduct any interviews, did you try the company’s service?
+* Give a one sentence description of the company.
+* Give a URL for the company’s website
+* Give a URL for the company’s logo
+* When was the company started?
+* Who were the founders?
+* Does it have an interesting origin story?
+* What kind of organization is it? 
+  -  Publicly traded company
+  -  Privately held company
+  -  Non-profit organization
+  -  Other
+* What service does the company provide?
+* Does this update a previous service or business model, or is it completely new?
+* If it updates something, what does it replace?
+* What other new companies provide services that are similar to your company’s?
+* What is an example of how someone uses this service?
+* What sort of people use the service? 
+* If this is a service that you have used, then describe your experience.
+* Compare the number of users to contributors.
+  -  More users than contributors
+  -  More contributors than users
+  -  Roughly equal numbers
+* Who are the people who contribute services?
+* How does the company incentivize them to contribute, or what motivates them to participate?
+* Is this a service that was previously provided by experts / professionals?
+* Are the contributors experts / professionals?
+* How does the company generate revenue?
+* How does the company ensure the quality of the services it provides?
+* Is its service something that is typically regulated by the government?
+* If so, what are the intents of the regulations and does your company meet those standards?
+* Is a reputation system used by your company?
+* If so, how does it work?
+* If the service is provided by many contributors, how are are their contributions aggregated?
+* Describe the workflow for how the service is advertised, and how the contributors contribute, and what the users get in the end.
+* What is the scale of the services that your company provides, in terms of users?
+* What is the scale of the services that your company provides, in terms of dollars?
+* If your company were to scale up to 10 or 100 times its current size, how well do you think its business model would work?
+* How well would the incentive scheme scale? How about the quality/aggregation model?
+* Have there been any controversies about the company or the service that it provides?
+* Is there anything else you'd like to say about the company?
+* Paste in the URL of your presentation on Vimeo 
+
+</div>
 </div>
