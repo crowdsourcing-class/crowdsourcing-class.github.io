@@ -51,8 +51,8 @@ Below are the questions that you will be asked to answer about your experience a
 
 1. Did you successfully sign up as a Worker? If you were unable to sign up as a worker, please give an explanation.
 2. Did you successfully sign up for a requester account? If you were unable to sign up as a requester, please give an explanation.
-3. If you signed up for Mechanical Turk, what is your Worker ID? You can find it [here](https://www.mturk.com/mturk/dashboard) or [here](http://crowd-workers.com/track).
-4. How many assignments did you complete? You can look up this information on your [Dashboard](https://www.mturk.com/mturk/dashboard) or on [Crowd Workers](http://crowd-workers.com/yourstats).
+3. If you signed up for Mechanical Turk, what is your Worker ID? You can find it [here](https://www.mturk.com/mturk/dashboard) or [here](http://crowd-workers.com/analytics).
+4. How many assignments did you complete? You can look up this information on your [Dashboard](https://www.mturk.com/mturk/dashboard) or on [Crowd Workers](http://crowd-workers.com/analytics).
 5. What was your goal when you were working? 
 * Make as much money as possible 
 * Get a high hourly wage 
@@ -69,7 +69,7 @@ Below are the questions that you will be asked to answer about your experience a
 10. If you did have a HIT rejected, what reason did the Requester give?
 11. What types of tasks did you do, and how did you pick them?
 12. What was the highest paying HIT that you completed?  Find it [here](http://crowd-workers.com/track?ordering=-reward) and then click on the HIT title, and copy-and-paste a link to the HIT group (like http://crowd-workers.com/hitgroup/3MGKBFT73MDAA4Y9Z9X7CPRXYV8SJC).
-13. What HIT paid you the highest hourly rate?  Sort by "My hourly rate" [here](http://crowd-workers.com/track) and then click on the HIT title, and copy-and-paste a link to the HITgroup (like http://crowd-workers.com/hitgroup/3YE2HAAZKV6SYE0V5LA0H7CLMS9UZ3)
+13. What HIT paid you the highest hourly rate?  Sort by "My hourly rate" [here](http://crowd-workers.com/analytics) and then click on the HIT title, and copy-and-paste a link to the HITgroup (like http://crowd-workers.com/hitgroup/3YE2HAAZKV6SYE0V5LA0H7CLMS9UZ3)
 14. Describe the most interesting or weirdest or most fun HIT that you found.  Write a couple of sentences describing it.
 15. Which do you think provides a better way of discovering work? 
 * Crowd Workers 
