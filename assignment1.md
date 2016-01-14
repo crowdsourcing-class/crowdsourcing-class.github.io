@@ -29,7 +29,7 @@ In this assignment you’ll choose at least 50 assignments to complete.  We’re
 4. Next, choose at least 50 assignments to complete.  You should pick a goal for yourself.  You can try to make as much money as you can, or you try to make the highest hourly rate that you can.
 5. For the first 25 HITs that you do, use the [search tools provided by Mechanical Turk](https://www.mturk.com/mturk/findhits?match=false).
  Try to get a sense of the variety of tasks that are available, and the kinds of projects for which Mturk is being used. Once you sign up, you will see that you *can* complete this assignment by transcribing 50 receipts, but is it really worth it? 
-6. For your second 25 HITs, use the search tools provided on the [Crowd Workers web service](http://crowd-workers.com/discover). 
+6. For your second 25 HITs, use the search tools provided on the [Crowd Workers web service](http://crowd-workers.com/new_work?ordering=-last_submitted,-available&only_favourites=false&min_available=1). 
 7. There are several tools for better Turking. Please explore a few of these and give us your thoughts.
 * [Turkopticon](http://turkopticon.differenceengines.com/) 
 * [TurkerNation](http://turkernation.com/)
