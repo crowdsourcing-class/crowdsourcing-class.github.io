@@ -40,11 +40,15 @@ In this assignment you’ll choose at least 50 assignments to complete.  We’re
 **Extra Credit** The Crowd Workers extension you tried is mostly likely the next big thing in crowdsourcing. Right now, it is still a startup in its humble beginnings, being run out of the coffee-cup strewn office of a mere tenure-track professor at an Ivy League university. Help it gain some credibility by leaving a review in the [Google Chrome store](https://chrome.google.com/webstore/detail/crowdworkers/aamdbafophajiecmhbnbakndfgjkfpce/reviews) (we can debate [ethics](http://www.nytimes.com/2013/09/23/technology/give-yourself-4-stars-online-it-might-cost-you.html?_r=0) later). You will get extra credit if you leave a review on the Google Chrome store, or if you the survey to provide us with a thoughtful critique about how to improve the plugin. 
 
 
-<div class="alert alert-success" role="alert">
-Below are the questions that you will be asked to answer about your experience as a Crowd Worker.  Please turn in your answers using <a href="https://docs.google.com/forms/d/16qS3R6Tc9T807NxHCf_fbS8znBOAjJQVG6NFhyCM_oQ/viewform?usp=send_form">this form</a>.
-</div>
 
-#### Survey Questions 
+<div class="panel panel-primary">
+  <div class="panel-heading" markdown="1">
+#### Survey Questions
+  </div>
+  <div class="panel-body" markdown="1">
+
+Below are the questions that you will be asked to answer about your experience as a Crowd Worker.  Please turn in your answers using <a href="https://docs.google.com/forms/d/16qS3R6Tc9T807NxHCf_fbS8znBOAjJQVG6NFhyCM_oQ/viewform?usp=send_form">this form</a>.
+
 1. Did you successfully sign up as a Worker? If you were unable to sign up as a worker, please give an explanation.
 2. Did you successfully sign up for a requester account? If you were unable to sign up as a requester, please give an explanation.
 3. If you signed up for Mechanical Turk, what is your Worker ID? You can find it [here](https://www.mturk.com/mturk/dashboard) or [here](http://crowd-workers.com/track).
@@ -84,19 +88,26 @@ Below are the questions that you will be asked to answer about your experience a
 20. What did you think of the other productivity tools?
 21. Extra Credit: Did you Leave a review for Crowd Workers on Google Chrome store? What changes would help improve the Crowd Workers plugin? Were there any bugs you noticed? What was difficult or unintuitive to use? What features would you like to see added?
 
+</div>
+</div>
  
 
-
-<div class="alert alert-danger" role="alert">
-This assignment is worth 5 points of your overall grade in the course.  The rubric for the assignment is given below.
-</div>
-
+<div class="panel panel-danger">
+  <div class="panel-heading" markdown="1">
 #### Grading Rubric
+  </div>
+  <div class="panel-body" markdown="1">
+
+This assignment is worth 5 points of your overall grade in the course.  The rubric for the assignment is given below.
+
 * 1 point - successfully completing 50 assignments on Mechanical Turk or CrowdFlower. 
 * 1 point - investigating a productivity tool like Crowd Workers or TurkOpticon.
 * 3 points - answering the survey questions thoughtfully.
 * Extra credit (1 point) - leaving a review of the Crowd Workers extension on Google Chrome store
 
+</div>
+</div>
+ 
 
 
 
