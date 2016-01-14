@@ -27,14 +27,15 @@ In this assignment you’ll choose at least 50 assignments to complete.  We’re
 2. Sign up for CrowdFlower as a requester [here](https://make.crowdflower.com/users/new). You won't use this for this assignment directly, but we want everyone signed up early so we can get you set up with CrowdFlower credits.
 3. Install the [Crowd Workers](http://crowd-workers.com/landing) Google Chrome extension. This will track and help you to analyze the work that you’ve done. Please use the Google Chrome web browser with the Crowd Workers plugin installed for all of this homework assignment.
 4. Next, choose at least 50 assignments to complete.  You should pick a goal for yourself.  You can try to make as much money as you can, or you try to make the highest hourly rate that you can.
-5. For the first 25 HITs that you do, use the [search tools provided by Mechanical Turk](https://www.mturk.com/mturk/findhits?match=false).
+	* For the first 25 HITs that you do, use the [search tools provided by Mechanical Turk](https://www.mturk.com/mturk/findhits?match=false).
  Try to get a sense of the variety of tasks that are available, and the kinds of projects for which Mturk is being used. Once you sign up, you will see that you *can* complete this assignment by transcribing 50 receipts, but is it really worth it? 
-6. For your second 25 HITs, use the search tools provided on the [Crowd Workers web service](http://crowd-workers.com/new_work?ordering=-last_submitted,-available&only_favourites=false&min_available=1). 
+ * If you are using CrowdFlower in lieu of Mechanical Turk, [discovering new work](https://tasks.crowdflower.com/channels/elite/task) is still straightforward, but note that until you've completed a sizable number of tasks, you are "Level 0" and don't have access to some work (and some of the work available to you might have bugs and be incompletable). But it's still possible to complete the assignment - checking back periodically will help you to discover new working jobs. If you encounter serious difficulties finding work, contact the course staff. 
+	* For your second 25 HITs, use the search tools provided on the [Crowd Workers web service](http://crowd-workers.com/new_work?ordering=-last_submitted,-available&only_favourites=false&min_available=1).
 7. There are several tools for better Turking. Please explore a few of these and give us your thoughts.
-* [Turkopticon](http://turkopticon.differenceengines.com/) 
-* [TurkerNation](http://turkernation.com/)
-* [mTurk List](http://mturklist.com) 
-* [HITs worth Turking for](http://www.reddit.com/r/HITsWorthTurkingFor/new/?sort=new) 
+	* [Turkopticon](http://turkopticon.differenceengines.com/) 
+	* [TurkerNation](http://turkernation.com/)
+	* [mTurk List](http://mturklist.com) 
+	* [HITs worth Turking for](http://www.reddit.com/r/HITsWorthTurkingFor/new/?sort=new) 
 8. After you have finished working, please answer the following questions about your experience and turn in your answers using [this survey](https://docs.google.com/forms/d/16qS3R6Tc9T807NxHCf_fbS8znBOAjJQVG6NFhyCM_oQ/viewform?usp=send_form).
 
 **Extra Credit** The Crowd Workers extension you tried is mostly likely the next big thing in crowdsourcing. Right now, it is still a startup in its humble beginnings, being run out of the coffee-cup strewn office of a mere tenure-track professor at an Ivy League university. Help it gain some credibility by leaving a review in the [Google Chrome store](https://chrome.google.com/webstore/detail/crowdworkers/aamdbafophajiecmhbnbakndfgjkfpce/reviews) (we can debate [ethics](http://www.nytimes.com/2013/09/23/technology/give-yourself-4-stars-online-it-might-cost-you.html?_r=0) later). You will get extra credit if you leave a review on the Google Chrome store, or if you the survey to provide us with a thoughtful critique about how to improve the plugin. 
