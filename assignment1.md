@@ -79,8 +79,7 @@ Please turn in your answers using [this form](https://docs.google.com/forms/d/16
 * mTurk List 
 * HITS worth Turking for 
 20. (0.5) What did you think of the other productivity tools?
-21. Extra Credit (up to 1 point): Did you Leave a review for Crowd Workers on Google Chrome store?
-22. What changes would help improve the Crowd Workers plugin? Were there any bugs you noticed? What was difficult or unintuitive to use? What features would you like to see added?
+21. Extra Credit (up to 1 point): Did you Leave a review for Crowd Workers on Google Chrome store? What changes would help improve the Crowd Workers plugin? Were there any bugs you noticed? What was difficult or unintuitive to use? What features would you like to see added?
 
  
 
