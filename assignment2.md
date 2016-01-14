@@ -6,11 +6,12 @@ title: Homework 2 "Market Research"
 active_tab: homework
 release_date: 2016-01-22
 due_date: 2016-01-29
+due_date_video: 2016-02-12
 ---
 
 
 <div class="alert alert-info">
-This assignment is due before class on {{ page.due_date | date: "%A, %B %-d, %Y" }}.
+This assignment has two deliverables. The first part of this assignment is due before class on {{ page.due_date | date: "%A, %B %-d, %Y" }}.  The second part is due before class on {{ page.due_date_video | date: "%A, %B %-d, %Y" }}.
 </div>
 
 
@@ -107,8 +108,8 @@ You are also welcome to profile a [relevant company](http://www.crowdsourcing.or
 
 This assignment has two deliverables:
 
-1. Answering [a questionnaire](https://docs.google.com/forms/d/1fxe5cwKqM5M2J6NGAsqC30hvNQ0JX4woJV0zOZhRNsU/viewform?usp=send_form) about the company or project that you are researching.
-2. A video presentation about the company.  Several of the best videos will be selected for in-class presentations on Fridays.  Teams whose videos are selected will receive extra credit.
+1. Answering [a questionnaire](https://docs.google.com/forms/d/1fxe5cwKqM5M2J6NGAsqC30hvNQ0JX4woJV0zOZhRNsU/viewform?usp=send_form) about the company or project that you are researching. This is due before class on {{ page.due_date | date: "%A, %B %-d, %Y" }}.
+2. A video presentation about the company.  Several of the best videos will be selected for in-class presentations on Fridays.  Teams whose videos are selected will receive extra credit. his is due before class on {{ page.due_date_video | date: "%A, %B %-d, %Y" }}.
 
 This assignment can be done individually or in pairs.
 
@@ -124,7 +125,7 @@ You will record a short 5 to 7 minute video presentation about your company. You
 - How does the company benefit from user contributions?
 - Are there any controversies about the company?
 
-Your presentation video is due on {{ page.due_date | date: "%A, %B %-d, %Y" }}. To turn in your video, please upload it to [Vimeo](https://vimeo.com/). Then give us the link to your video on the survey. Make sure that your video is publicly viewable or that you give us a password to view it on the web form.
+Your presentation video is due on {{ page.due_date_video | date: "%A, %B %-d, %Y" }}. To turn in your video, please upload it to [Vimeo](https://vimeo.com/). Then give us the link to your video on the survey. Make sure that your video is publicly viewable or that you give us a password to view it on the web form.
 
 If you have managed to make it this far in life without having to sign up for accounts for things on the internet, here are more detailed instructions:
 
@@ -199,8 +200,6 @@ Below are the questions that you will be asked to answer about the company or pr
 * How well would the incentive scheme scale? How about the quality/aggregation model?
 * Have there been any controversies about the company or the service that it provides?
 * Is there anything else you'd like to say about the company?
-* Paste in the URL of your presentation on Vimeo 
-
 </div>
 </div>
 
@@ -212,14 +211,15 @@ Below are the questions that you will be asked to answer about the company or pr
 </div>
 <div class="panel-body" markdown="1">
 
-This assignment is worth 5 points of your overall grade in the course.  The rubric for the assignment is given below.
+This assignment is worth 10 points of your overall grade in the course.  The rubric for the assignment is given below.
 
-* 2 points - answering the survey questions thoughtfully.
-* 3 points total for the video
-  - 1 point for relevance to the themes of the class
-  - 1 point for the audio/narration component
+* 5 points - answering the survey questions thoughtfully.
+* 5 points total for the video
+  - 2 point for relevance to the themes of the class
+  - 1 point for the narration
+  - 1 point for the quality of the audio 
   - 1 point for a compelling visual accompaniment  
-* Extra credit (1 point) - if your video is selected for presentation in class, you will receive 1 point extra credit.
+* Extra credit (up to 2 points) - if your video is selected for presentation in class, you will receive extra credit.
 </div>
 </div>
  
