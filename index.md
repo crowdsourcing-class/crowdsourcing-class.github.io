@@ -44,9 +44,10 @@ Course Readings
 Grading
 : This is a project-based course.  Instead of exams, you will do a series of hands-on assignments and a final project.  
 
-* Weekly assignments (55%)
+* Weekly assignments (50%)
 * Final project (40%)
 * Peer grading (5%)
+* Participation (5%)
 
 Late day policy
 : Everyone can have 5 free late days without penalty.  After you have used your free late days, you will lose 10% per day (or faction thereof) that your assignment is submitted late.   The final project will have its own late day policy.
