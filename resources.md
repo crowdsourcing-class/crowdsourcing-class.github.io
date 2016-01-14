@@ -35,8 +35,11 @@ Resources
 - [EM Tutorial from Dirk Hovy](https://github.com/dirkhovy/emtutorial)
 
 
+### Data sets
+- [Data from Yahoo! Labs](https://webscope.sandbox.yahoo.com/catalog.php?datatype=l)
+- [Pete Skomoroch's delicious data sets](https://delicious.com/pskomoroch/dataset)
 
-###Other Courses about Crowdsourcing 
+### Other Courses about Crowdsourcing 
 - [UMich - Human Computation and Crowdsourcing Systems](https://docs.google.com/document/d/1aJki8Kq-uXIjUnLMK4SdQHqlYo1xULTH93gOcjYL6vw/pub?embedded=true)
 - [Purdue University - Crowd-Powered Systems](https://engineering.purdue.edu/~aq/695/15sp/)
 - [CMU - Crowd Programming](http://www.programthecrowd.com)
