@@ -79,6 +79,7 @@ This week we will be looking at the wealth of companies that use crowdsourcing a
 [PublicStuff](https://www.publicstuff.com),
 [Quirky](http://quirky.com),
 [Quora](http://www.quora.com),
+[Qualtrics](http://www.qualtrics.com/),
 [Rotten Tomatoes](http://www.rottentomatoes.com),
 [Samasource](http://samasource.org),
 [Silk Road](http://arstechnica.com/tech-policy/2014/08/dark-net-drug-markets-kept-alive-by-great-customer-service/),
