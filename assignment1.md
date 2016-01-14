@@ -41,6 +41,7 @@ In this assignment you’ll choose at least 50 assignments to complete.  We’re
 
 #### Questions (5 points total) 
 Please turn in your answers using [this form](https://docs.google.com/forms/d/16qS3R6Tc9T807NxHCf_fbS8znBOAjJQVG6NFhyCM_oQ/viewform?usp=send_form).
+
 1. (0.1 points) Did you successfully sign up as a Worker? If you were unable to sign up as a worker, please give an explanation.
 2. (0.1 points) Did you successfully sign up for a requester account? If you were unable to sign up as a requester, please give an explanation.
 3. (0.1 points) If you signed up for Mechanical Turk, what is your Worker ID? You can find it [here](https://www.mturk.com/mturk/dashboard) or [here](http://crowd-workers.com/track).
