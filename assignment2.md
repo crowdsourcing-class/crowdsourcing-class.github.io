@@ -109,7 +109,7 @@ You are also welcome to profile a [relevant company](http://www.crowdsourcing.or
 This assignment has two deliverables:
 
 1. Answering [a questionnaire](https://docs.google.com/forms/d/1fxe5cwKqM5M2J6NGAsqC30hvNQ0JX4woJV0zOZhRNsU/viewform?usp=send_form) about the company or project that you are researching. This is due before class on {{ page.due_date | date: "%A, %B %-d, %Y" }}.
-2. A video presentation about the company.  Several of the best videos will be selected for in-class presentations on Fridays.  Teams whose videos are selected will receive extra credit. This is due before class on {{ page.due_date_video | date: "%A, %B %-d, %Y" }}.
+2. A video presentation about the company.  Several of the best videos will be selected for in-class presentations on Fridays.  Teams whose videos are selected will receive extra credit. his is due before class on {{ page.due_date_video | date: "%A, %B %-d, %Y" }}.
 
 This assignment can be done individually or in pairs.
 
@@ -217,7 +217,7 @@ This assignment is worth 10 points of your overall grade in the course.  The rub
 * 5 points total for the video
   - 2 point for relevance to the themes of the class
   - 1 point for the narration
-  - 1 point for the quality of the audio 
+  - 1 point for the quality of the audio (we recommend using an external microphone)
   - 1 point for a compelling visual accompaniment  
 * Extra credit (up to 2 points) - if your video is selected for presentation in class, you will receive extra credit.
 </div>
