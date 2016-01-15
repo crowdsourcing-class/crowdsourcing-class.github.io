@@ -12,7 +12,7 @@ deliverables:
       due_date: 2016-01-29
     -
       description: video 
-      due_date: 2016-01-29
+      due_date: 2016-02-12
 ---
 
 <!-- Check whether the assignment is up to date -->
