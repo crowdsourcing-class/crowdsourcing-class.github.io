@@ -9,6 +9,15 @@ due_date: 2016-01-29
 due_date_video: 2016-02-12
 ---
 
+<!-- Check whether the assignment is up to date -->
+{% capture this_year %}{{'now' | date: '%Y'}}{% endcapture %}
+{% capture due_year %}{{page.due_date | date: '%Y'}}{% endcapture %}
+{% if this_year != due_year %} 
+<div class="alert alert-danger">
+Warning: this assignment is out of date.  It may still need to be updated for this year's class.  Check with your instructor before you start working on this assignment.
+</div>
+{% endif %}
+<!-- End of check whether the assignment is up to date -->
 
 <div class="alert alert-info">
 This assignment has two deliverables. The first part is a written component that is due before class on {{ page.due_date | date: "%A, %B %-d, %Y" }}.  The second part is a video that is before class on {{ page.due_date_video | date: "%A, %B %-d, %Y" }}.  Note that although you have extra time for the video, other assignments will be due while you're working on it, so we recommend that you finish the video early.

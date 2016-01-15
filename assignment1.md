@@ -8,7 +8,6 @@ release_date: 2016-01-13
 due_date: 2016-01-22
 ---
 
-
 <!-- Check whether the assignment is up to date -->
 {% capture this_year %}{{'now' | date: '%Y'}}{% endcapture %}
 {% capture due_year %}{{page.due_date | date: '%Y'}}{% endcapture %}

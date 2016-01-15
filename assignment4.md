@@ -6,7 +6,6 @@ title: Homework 4 | Playing with Classifire
 active_tab: homework
 ---
 
-
 <!-- Check whether the assignment is up to date -->
 {% capture this_year %}{{'now' | date: '%Y'}}{% endcapture %}
 {% capture due_year %}{{page.due_date | date: '%Y'}}{% endcapture %}
