@@ -22,7 +22,15 @@ The class has reached its enrollment cap.  If you would like to <a href="https:/
 {% capture due_date %}{{page.due_date | date: '%s'}}{% endcapture %}
 {% if release_date < nowunix and due_date >= nowunix %}
 <div class="alert alert-info">
-<a href="{{page.url}}">{{ page.title }}</a> has been released.  It is due before class on {{ page.due_date | date: "%A, %B %-d, %Y" }}.
+<a href="{{page.url}}">{{ page.title }}</a> has been released.  
+{% if page.deliverables %}
+The assignment has multiple deliverables.
+{% for deliverable in page.deliverables %}
+The {{deliverable.description}} is due before class on {{ deliverable.due_date | date: "%A, %B %-d, %Y" }}.  
+{% endfor %}
+{% else %}
+It is due before class on {{ page.due_date | date: "%A, %B %-d, %Y" }}.
+{% endif %}
 </div>
 {% endif %}
 {% endif %}

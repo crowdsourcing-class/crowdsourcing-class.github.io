@@ -6,7 +6,13 @@ title: Homework 2 "Market Research"
 active_tab: homework
 release_date: 2016-01-22
 due_date: 2016-01-29
-due_date_video: 2016-02-12
+deliverables:
+    -
+      description: written survey
+      due_date: 2016-01-29
+    -
+      description: video 
+      due_date: 2016-01-29
 ---
 
 <!-- Check whether the assignment is up to date -->
@@ -20,7 +26,12 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 <!-- End of check whether the assignment is up to date -->
 
 <div class="alert alert-info">
-This assignment has two deliverables. The first part is a written component that is due before class on {{ page.due_date | date: "%A, %B %-d, %Y" }}.  The second part is a video that is before class on {{ page.due_date_video | date: "%A, %B %-d, %Y" }}.  Note that although you have extra time for the video, other assignments will be due while you're working on it, so we recommend that you finish the video early.
+{% if page.deliverables %}
+This assignment has multiple deliverables.
+{% for deliverable in page.deliverables %}
+The {{deliverable.description}} is due before class on {{ deliverable.due_date | date: "%A, %B %-d, %Y" }}.  
+{% endfor %}
+{% endif %}
 </div>
 
 
@@ -117,14 +128,14 @@ You are also welcome to profile a [relevant company](http://www.crowdsourcing.or
 
 This assignment has two deliverables:
 
-1. Answering [a questionnaire](https://docs.google.com/forms/d/1fxe5cwKqM5M2J6NGAsqC30hvNQ0JX4woJV0zOZhRNsU/viewform?usp=send_form) about the company or project that you are researching. This is due before class on {{ page.due_date | date: "%A, %B %-d, %Y" }}.
-2. A video presentation about the company.  Several of the best videos will be selected for in-class presentations on Fridays.  Teams whose videos are selected will receive extra credit. his is due before class on {{ page.due_date_video | date: "%A, %B %-d, %Y" }}.
+1. Answering [a questionnaire](https://docs.google.com/forms/d/1fxe5cwKqM5M2J6NGAsqC30hvNQ0JX4woJV0zOZhRNsU/viewform?usp=send_form) about the company or project that you are researching. This is due before class on {{ page.deliverables[0].due_date | date: "%A, %B %-d, %Y" }}.
+2. A video presentation about the company.  Several of the best videos will be selected for in-class presentations on Fridays.  Teams whose videos are selected will receive extra credit. his is due before class on {{ page.deliverables[1].due_date | date: "%A, %B %-d, %Y" }}.
 
 This assignment can be done individually or in pairs.
 
 First, please sign up for a [company or project](https://docs.google.com/spreadsheets/d/1dmTheLr1zzSzF4ci9hWIPNkO7sTHcXV3quwocPKr95o/edit?usp=sharing).  Please do not pick a company that another team has already signed up for.  If there’s a company that you’d like to research that isn’t on the list, you are welcome to ask the instructor or the TA to ask if it is OK.  
 
-You should independently research the company, and then [fill in your answers about it in this questionnaire](https://docs.google.com/forms/d/1fxe5cwKqM5M2J6NGAsqC30hvNQ0JX4woJV0zOZhRNsU/viewform?usp=send_form).  Your short answers to these questions on  {{ page.due_date | date: "%A, %B %-d, %Y" }}.
+You should independently research the company, and then [fill in your answers about it in this questionnaire](https://docs.google.com/forms/d/1fxe5cwKqM5M2J6NGAsqC30hvNQ0JX4woJV0zOZhRNsU/viewform?usp=send_form).  Your short answers to these questions on  {{ page.deliverables[0].due_date | date: "%A, %B %-d, %Y" }}.
 
 You will record a short 5 to 7 minute video presentation about your company. Your presentation should address the following questions:
 
@@ -134,7 +145,7 @@ You will record a short 5 to 7 minute video presentation about your company. You
 - How does the company benefit from user contributions?
 - Are there any controversies about the company?
 
-Your presentation video is due on {{ page.due_date_video | date: "%A, %B %-d, %Y" }}. To turn in your video, please upload it to [Vimeo](https://vimeo.com/). Then give us the link to your video on the survey. Make sure that your video is publicly viewable or that you give us a password to view it on the web form.
+Your presentation video is due on {{ page.deliverables[1].due_date | date: "%A, %B %-d, %Y" }}. To turn in your video, please upload it to [Vimeo](https://vimeo.com/). Then give us the link to your video on the survey. Make sure that your video is publicly viewable or that you give us a password to view it on the web form.
 
 If you have managed to make it this far in life without having to sign up for accounts for things on the internet, here are more detailed instructions:
 
