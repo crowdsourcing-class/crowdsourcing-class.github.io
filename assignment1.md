@@ -40,7 +40,13 @@ In this assignment you’ll choose at least 50 assignments to complete.  We’re
 
 **Extra Credit** The Crowd Workers extension you tried is mostly likely the next big thing in crowdsourcing. Right now, it is still a startup in its humble beginnings, being run out of the coffee-cup strewn office of a mere tenure-track professor at an Ivy League university. Help it gain some credibility by leaving a review in the [Google Chrome store](https://chrome.google.com/webstore/detail/crowdworkers/aamdbafophajiecmhbnbakndfgjkfpce/reviews) (we can debate [ethics](http://www.nytimes.com/2013/09/23/technology/give-yourself-4-stars-online-it-might-cost-you.html?_r=0) later). You will get extra credit if you leave a review on the Google Chrome store, or if you the survey to provide us with a thoughtful critique about how to improve the plugin. 
 
+### Suggested Readings
 
+* [My MTurk (half) Workday](http://www.cs.cmu.edu/~jbigham/posts/2014/half-workday-as-turker.html) by Jeff Bigham
+* [Being A Turker](readings/downloads/ethics/being-a-turker.pdf) by David Martin, Benjamin Hanrahan, Jacki O’Neill and Neha Gupta
+* [Turkopticon: Interrupting Worker Invisibility in Amazon Mechanical Turk](readings/downloads/ethics/turkopticon.pdf) by Lilly Irani and Six Silberman
+* [Crowd-Workers: Aggregating Information Across Turkers To Help Them Find Higher Paying Work](readings/downloads/ethics/crowd-workers.pdf) by Chris Callison-Burch
+* [Web Workers, Unite! Addressing Challenges of Online Laborers](readings/downloads/ethics/web-workers-unite.pdf) by Ben Bederson and Alex Quinn
 
 <div class="panel panel-primary">
 <div class="panel-heading" markdown="1">
