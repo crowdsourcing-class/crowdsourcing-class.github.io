@@ -116,9 +116,9 @@ This assignment is worth 5 points of your overall grade in the course.  The rubr
 #### What to do if Amazon rejects your application to be a Mechanical Turk worker
 </div>
 <div class="panel-body" markdown="1">
-There are wo options if you were not able to create a Mechanical Turk account:
+There are two options if you were not able to create a Mechanical Turk account:
 
-1. Borrow a classmate's Mechanical Turk account<br>
+1. Borrow a classmate's Mechanical Turk account (recommended).<br>
 2. Sign up to be a contributor for CrowdFlower <a href = "https://elite.crowdflower.com/?view=register"> here. </a>CrowdFlower, like Mechanical Turk, is a crowdsourcing platform where you can sign up as a contributor (to do tasks) or a customer (to create tasks).
 
 We recommend the first option because there are more tasks and tools available for Mechanical Turk. However, you also have the option to make a CrowdFlower account in case you want to do more tasks in the future. 
