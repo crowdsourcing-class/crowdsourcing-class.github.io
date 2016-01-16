@@ -1,3 +1,9 @@
+---
+layout: default
+title: IPython Notebook Install Guide
+active_tab: resources
+---
+
 #Getting Started with IPython Notebooks
 
 ## Overview
@@ -50,6 +56,8 @@ You're in the home stretch of IPython Notebook set-up! Now you can return to you
 * If you're using Anaconda, some included libraries have conflicts that prevent the kernel from running after you attempt to start a notebook. If you're using Anaconda, be sure to run: 
 
 `conda install ipython-notebook`
+
+* Post to Piazza if you encounter any problems not listed here - it's likely that others in the class will run into the same thing. 
 
 #####Finally:
 
