@@ -28,6 +28,9 @@ Resources
 - [Python client for the CrowdFlower API](https://github.com/peoplepattern/crowdflower).  There’s a tutorial on the [People Pattern blog](http://www.peoplepattern.com/crowdflower-python-client-crowdflower-api/).
 - [Seaborn: statistical data visualization in Python](http://stanford.edu/~mwaskom/software/seaborn/index.html)
 
+### Other Resources
+- [Tutorial](http://crowdsourcing-class.org/video_vimeo_tutorial.html) on making videos and uploading them to vimeo
+
 ### Artificial Intelligence tutorials and APIs
 - [Microsoft's Project Oxford APIs](https://www.projectoxford.ai).  These APIs include functions for computer vision, face recognition, speech recognition and generation. 
 - [Google Knowledge Graph Search APIs](https://developers.google.com/knowledge-graph/)
