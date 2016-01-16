@@ -28,19 +28,31 @@
 -
   date: 2016-01-15
   title: Friday hands-on exercise (become a Crowd Worker)
+  highlights:
+    - Homework 1 walkthrough 
+    - The <a href="https://www.mturk.com/mturk/welcome">Mechanical Turk website</a>
+    - The <a href="http://crowd-workers.com/">Crowd Workers website</a> and <a href="https://chrome.google.com/webstore/detail/crowdworkers/aamdbafophajiecmhbnbakndfgjkfpce">Chrome extension</a>
   reading:
     -
       author: Jeff Bigham
       title:  My MTurk (half) Workday
       url: http://www.cs.cmu.edu/~jbigham/posts/2014/half-workday-as-turker.html
     -
-      author: Amy Glasmeier 
-      title:  The MIT Living Wage Calculator
-      url: http://livingwage.mit.edu/
+      author: David Martin, Benjamin Hanrahan, Jacki O’Neill and Neha Gupta
+      title: Being A Turker
+      url: http://crowdsourcing-class.org/readings/downloads/ethics/being-a-turker.pdf
     -
-      author: U.S. Department of Labor  
-      title:  Employees Who Are Misclassified as Independent Contractors
-      url: http://crowdsourcing-class.org/readings/downloads/ethics/misclassification-of-employees-as-contractors.pdf
+      author: Lilly Irani and Six Silberman
+      title: Turkopticon&colon; Interrupting Worker Invisibility in Amazon Mechanical Turk
+      url: http://crowdsourcing-class.org/readings/downloads/ethics/turkopticon.pdf
+    -
+      author: Chris Callison-Burch
+      title: Crowd-Workers&colon; Aggregating Information Across Turkers To Help Them Find Higher Paying Work
+      url: http://crowdsourcing-class.org/readings/downloads/ethics/crowd-workers.pdf
+    -
+      author: Ben Bederson and Alex Quinn
+      title: Web Workers, Unite! Addressing Challenges of Online Laborers
+      url: http://crowdsourcing-class.org/readings/downloads/ethics/web-workers-unite.pdf 
 -
   date: 2016-01-18
   title: No classes - Martin Luther King Day
@@ -53,17 +65,17 @@
     - Terminology and mechanics&#58; Turkers, Requesters, HITs, micropayments
   reading:
     -
+      author: Amy Glasmeier 
+      title:  The MIT Living Wage Calculator
+      url: http://livingwage.mit.edu/
+    -
+      author: U.S. Department of Labor  
+      title:  Employees Who Are Misclassified as Independent Contractors
+      url: http://crowdsourcing-class.org/readings/downloads/ethics/misclassification-of-employees-as-contractors.pdf
+    -
       author: Panos Ipeirotis
       title: The Demographics of MTurk
       url: http://crowdsourcing-class.org/readings/downloads/platform/demographics-of-mturk.pdf
-    -
-      author: David Martin, Benjamin Hanrahan, Jacki O’Neill and Neha Gupta
-      title: Being A Turker
-      url: http://crowdsourcing-class.org/readings/downloads/ethics/being-a-turker.pdf
-    -
-      author: Lilly Irani and Six Silberman
-      title: Turkopticon&#58; Interrupting Worker Invisibility in Amazon Mechanical Turk
-      url: http://crowdsourcing-class.org/readings/downloads/ethics/turkopticon.pdf
     -
       author: Karen Fort, Gilles Adda and Bretonnel Cohen 
       title: Amazon Mechanical Turk&#58; Gold Mine or Coal Mine?
