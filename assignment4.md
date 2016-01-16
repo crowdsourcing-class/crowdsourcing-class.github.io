@@ -22,15 +22,51 @@ We have already collected training data for you. Chris crawled a [NY Times blog 
 
 Your task will be to build a classifier following our guidelines, and [respond to some questions about the process](https://docs.google.com/forms/d/1whhkFQ0ndN9E_XOsuqoxpRIAJcnUZqKKx1eAioyU9wg/viewform?usp=send_form). After that, you are free to experiment. We have held out some secret data that we will use to test your classifiers. The student/s with the best performing classifier will be given $1,000,000! Or extra credit. Probably extra credit.
 
-1. [Download the data](assignments/downloads/articles.gz) and unzip it with the Unix <code>gun</code>zip command. The data is in the format of one article per line. Each line has two values (tab separated): a label (0 for non-gun, 1 for gun), and the text of the article. 
+1. [Download the data](assignments/downloads/articles.gz) and unzip it with the Unix <code>gunzip</code> command. The data is in the format of one article per line. Each line has two values (tab separated): a label (0 for non-gun, 1 for gun), and the text of the article. 
 
 2. [Download the code template](assignments/downloads/classifier_template.py) and look through the function stumps. These steps should seem familiar if you think back to Wednesday's lecture. Look especially closely at the functions flagged with "TODO." These are the ones you will edit.
 
+	<h3>Rule Based Classifiers</h3>
+
 3. The simplest way to build a classification algorithm is to used a rule based system. Look at the function rule_based_classifier(). This function doesn't bother itself with mathy mumbo jumbo, it just looks for keywords it thinks are indicative of gun-related articles. If one of the keywords appears, it predicts "1" (or "gun-related") and otherwise it picks "0". Right now we use just one keyword, "shooting." Try running the code and see how well this very simple method works.
 
-	Now experiment with adding a few more keywords. See how high you can make the accuracy using this method. You will answer a few questions about this in the questionaire. 
+	Now experiment with adding a few more keywords. See how high you can make the accuracy using this method. Experiment with combinations of keywords as well. Feel free to get creative with your conditional statements! You will answer a few questions about this in the questionaire. 
 
-4. You can get surprisingly far with a rule-based classifier in this setting. But why stop there? Why not use ALL THE KEYWORDS!? That is precisely what statistical models are for! 
+	<h3>Decision Trees</h3>
+4. A more algorithmic approach to creating a rule-based classifier can be done using Decision Trees. Decision Trees are a class of Machine Learning algorithms that use a tree-like structure to model certain decisions and map them to their corresponding outcomes. The image below is a very simple example of a decision tree classifier.
+
+	A Decision Tree takes an unmapped feature from the list of features and creates a node. From that node, each branch corresponds to one of the possible values of that feature (i.e. the feature Outcome has the possible values Sunny, Overcast and Rain). The tree is recursively built using this process till the corresponding classification at each of the leaf nodes is perfect / we run out of features / the maximum height has been reached. There are different Decision Tree algorithms and they all fundamentally differ in the mathematics of which features they pick at each step. If you are interested in learning more about Decision Trees, read [this chapter](http://www.cs.princeton.edu/courses/archive/spr07/cos424/papers/mitchell-dectrees.pdf) and look into the courses [CIS 419/519](http://www.cis.upenn.edu/~cis519/fall2015/) and [CIS 520](https://alliance.seas.upenn.edu/~cis520/wiki/).
+
+	While we won’t obsess over the math that goes into how Decision Trees work, it’s useful to know that they’re surprising good at classification tasks (much like this one!). The rule based classifier you created using conditional statements in the function <code> rule_based_classifier()</code> was essentially a Decision Tree. Draw the Rule Based Decision Tree you came up with in part 3 using your favourite diagram-making tool. (I like [draw.io](https://www.draw.io/))
+
+
+	<img src="assets/img/decision-tree.gif" style="width: 500px;"/>
+
+5. Let's now create an actual decision tree. Uncomment the 3 lines in the Decision Tree section and run the script. You will need the [Graphviz](http://www.graphviz.org/) installed for this to work. The code takes a couple seconds to run. The Decision Tree diagram generated is shown below.
+
+	<img src="assets/img/decision-tree.png" style="width: 350px;"/>
+
+	This dummy tree classifies every article based on only the word "gun". Now look at <code>get_dtree_features()</code> and add the features you used in your Rule Based Classifier from part 2. Re-run the script and look at the generated Decision Tree. Compare it to the Decision Tree you drew. What are the similarities and differences? Did your accuracy improve? You will later note these observations in the questionnaire.
+
+	<div class="panel panel-danger">
+	<div class="panel-heading" markdown="1">
+	<i>Extra Credit</i>
+	</div>
+	<div class="panel-body">
+
+		Take your optimized Decision Tree and reserve engineer it to create a Rule Based Classifier. Complete the function <code>extra_credit_classifier()</code> to do this. How does the accuracy of this classifier relate with that of your optimized Decision Tree? 
+
+	</div>
+	</div>
+
+6. Decision Trees are a very powerful classification tool but are prone to over fitting. Play around with the code and add more keywords. You'll find your accuracy begins to decline after a certain point. One easy way to avoid this is limiting the height of the tree. This can be done using the <code>max_depth</code> attribute. Replace the <code>None</code> with an integer value (try a couple different values). 
+
+	<pre><code>  clf = DecisionTreeClassifier(max_depth=None)</code></pre>
+
+	Change both the keywords and the tree height and see how accurate you can make your classifier. You will submit the tree diagram output of your most accurate Decision Tree.
+
+	<h3>Statistical Models</h3>
+7. You can get surprisingly far using just a few keywords. But why stop there? Why not use ALL THE KEYWORDS!? That is precisely what statistical models are for! 
 
 	For the statistical model, your code will really just need to do one thing. That is, you need to build two side-by-side data structures: a *feature matrix* and a *label vector*. Your feature matrix will represent one article on each row, and each column will correspond to some "feature" you can observe about that article. The label vector will give the correct labels of each article, so that the nth element of the vector is 1 if the nth row of the matrix corresponse to a gun-related article.
 	
@@ -54,11 +90,29 @@ Your task will be to build a classifier following our guidelines, and [respond t
 
 And with that- Good luck! Start early and have fun! If robots are going to run the world, the need to first know the difference between articles about gun violence and articles about the weather. So go! Make it happen! 
 
-Don't forget to answer all of the questions in the [questionaire](https://docs.google.com/forms/d/1whhkFQ0ndN9E_XOsuqoxpRIAJcnUZqKKx1eAioyU9wg/viewform?usp=send_form) when you are done, and to submit your final classifier code via turnin. 
+Don't forget to answer all of the questions in the [questionaire](https://docs.google.com/forms/d/1whhkFQ0ndN9E_XOsuqoxpRIAJcnUZqKKx1eAioyU9wg/viewform?usp=send_form) when you are done, and to submit your final classifier code, a picture of the tree you drew and the generated diagram of your optimal Decision Tree via turnin. 
 
-<pre><code>$ turnin -c nets213 -p classifier -v classifier.py</code></pre>
+<pre><code>$ turnin -c nets213 -p classifier -v classifier.py rule-based-tree.png decision-tree.png</code></pre>
 
 Your code and questions are due <b>Wednesday, September 24</b>. You can work in pairs on this assignment.  You must declare the fact that you are working together when you turn in the questionaire.  If you are working with a partner, only one of you needs to turn in the code, but you must specify who will be turning it in on the questionaire. You cannot add or change partners after the code and questionaire are submitted.
+
+<div class="panel panel-danger">
+<div class="panel-heading" markdown="1">
+#### Grading Rubric
+</div>
+<div class="panel-body" markdown="1">
+
+This assignment is worth 100 points of your overall grade in the course.  The rubric for the assignment is given below.
+
+* 10 points - Rule Based Classifier.
+* 15 points - Decision Tree Drawing.
+* 30 points - Optimizing your Decision Tree and the Decision Tree diagram.
+* 20 points - Statistical Unigram Model.
+* 25 points - Survey Questions.
+* Extra credit (5 points) - Reverse engineering the optimal Decision Tree as a rule based classifier.
+
+</div>
+</div>
 
 Related Projects
 ================
