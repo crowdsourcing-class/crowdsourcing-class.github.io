@@ -53,7 +53,7 @@ Time and place
 : Spring 2016, MWF 2-3PM, LRSM Auditorium
 
 Office Hours
-: [See staff page](staff.html) 
+: [See calendar page](calendar.html) 
 
 Prerequisites
 : [CIS 120](http://www.seas.upenn.edu/~cis120/) or prior programming experience
@@ -76,4 +76,3 @@ Late day policy
 Course materials
 : CrowdFlower has generously provided each student with $100 credit on their platform.  Students should expect to fund their accounts with an additional $50-$100 of their own money.  If this will cause you undue financial hardship, please let the instructor know.
 
-<iframe style="border: 0" width="800" height="600" src="https://calendar.google.com/calendar/embed?src=pnjt43h10rq3hbq1n0plg2b53s%40group.calendar.google.com&ctz=America/New_York" frameborder="0"></iframe>
