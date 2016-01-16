@@ -22,7 +22,15 @@ The class has reached its enrollment cap.  If you would like to <a href="https:/
 {% capture due_date %}{{page.due_date | date: '%s'}}{% endcapture %}
 {% if release_date < nowunix and due_date >= nowunix %}
 <div class="alert alert-info">
-<a href="{{page.url}}">{{ page.title }}</a> has been released.  It is due before class on {{ page.due_date | date: "%A, %B %-d, %Y" }}.
+<a href="{{page.url}}">{{ page.title }}</a> has been released.  
+{% if page.deliverables %}
+The assignment has multiple deliverables.
+{% for deliverable in page.deliverables %}
+The {{deliverable.description}} is due before class on {{ deliverable.due_date | date: "%A, %B %-d, %Y" }}.  
+{% endfor %}
+{% else %}
+It is due before class on {{ page.due_date | date: "%A, %B %-d, %Y" }}.
+{% endif %}
 </div>
 {% endif %}
 {% endif %}
@@ -45,7 +53,7 @@ Time and place
 : Spring 2016, MWF 2-3PM, LRSM Auditorium
 
 Office Hours
-: [See staff page](staff.html) 
+: [See calendar page](calendar.html) 
 
 Prerequisites
 : [CIS 120](http://www.seas.upenn.edu/~cis120/) or prior programming experience
@@ -63,7 +71,8 @@ Grading
 * Participation (5%)
 
 Late day policy
-: Everyone can have 5 free late days without penalty.  After you have used your free late days, you will lose 10% per day (or fraction thereof) that your assignment is submitted late. The final project will have its own late day policy.
+: Everyone can have 5 free late days without penalty.  After you have used your free late days, you will lose 20% per day (or fraction thereof) that your assignment is submitted late. The final project will have its own late day policy.
 
 Course materials
 : CrowdFlower has generously provided each student with $100 credit on their platform.  Students should expect to fund their accounts with an additional $50-$100 of their own money.  If this will cause you undue financial hardship, please let the instructor know.
+

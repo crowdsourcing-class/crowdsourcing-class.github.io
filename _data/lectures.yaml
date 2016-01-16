@@ -70,7 +70,16 @@
       url: http://crowdsourcing-class.org/readings/downloads/ethics/gold-mine-or-coal-mine.pdf
 -
   date: 2016-01-22
-  title: Friday hands on activity
+  title: Friday hands on activity - Vimeo Tutorial and IPython Installation Walkthrough
+  reading:
+    -
+      author: Sierra Yit
+      title: Vimeo Tutorial
+      url: http://crowdsourcing-class.org/video_vimeo_tutorial.html
+    -
+      author: Kate Miller
+      title: IPython Installation Guide 
+      url: http://crowdsourcing-class.org/IPython_install_guide.html
 -
   date: 2016-01-25
   slides: http://crowdsourcing-class.org/slides/being-an-mturk-requester.pdf

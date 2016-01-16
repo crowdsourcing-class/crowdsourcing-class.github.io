@@ -8,6 +8,15 @@ release_date: 2016-01-13
 due_date: 2016-01-22
 ---
 
+<!-- Check whether the assignment is up to date -->
+{% capture this_year %}{{'now' | date: '%Y'}}{% endcapture %}
+{% capture due_year %}{{page.due_date | date: '%Y'}}{% endcapture %}
+{% if this_year != due_year %} 
+<div class="alert alert-danger">
+Warning: this assignment is out of date.  It may still need to be updated for this year's class.  Check with your instructor before you start working on this assignment.
+</div>
+{% endif %}
+<!-- End of check whether the assignment is up to date -->
 
 <div class="alert alert-info">
 This assignment is due before class on {{ page.due_date | date: "%A, %B %-d, %Y" }}.
@@ -23,7 +32,7 @@ You should be excited about this assignment! You will actually get *paid* to do 
 
 In this assignment you’ll choose at least 50 assignments to complete.  We’re going to do an experiment to compare how much money you make under two conditions.  The first condition is using the MTurk interface, and the second condition is using a productivity tool that your instructor has built, called [Crowd Workers](http://crowd-workers.com/landing). 
 
-1. Sign up for MTurk as a worker [here](https://www.mturk.com/mturk/welcome).  Please do this as early as possible, since it can take 48 hours or more to have your account approved. <a href = "#special_note"> *If you were not able to create an account, follow these instructions.* </a>
+1. Sign up for MTurk as a worker [here](https://www.mturk.com/mturk/welcome).  Please do this as early as possible, since it can take 48 hours or more to have your account approved.  Foreign students may have problems signing up since Amazon now requires a Social Security Number. <a href = "#special_note"> *If you are not able to create an account, follow these instructions.* </a>
 2. Sign up for CrowdFlower as a requester [here](https://make.crowdflower.com/users/new). You won't use this for this assignment directly, but we want everyone signed up early so we can get you set up with CrowdFlower credits.
 3. Install the [Crowd Workers](http://crowd-workers.com/landing) Google Chrome extension. This will track and help you to analyze the work that you’ve done. Please use the Google Chrome web browser with the Crowd Workers plugin installed for all of this homework assignment.
 4. Next, choose at least 50 assignments to complete.  You should pick a goal for yourself.  You can try to make as much money as you can, or you try to make the highest hourly rate that you can.
@@ -40,7 +49,15 @@ In this assignment you’ll choose at least 50 assignments to complete.  We’re
 
 **Extra Credit** The Crowd Workers extension you tried is mostly likely the next big thing in crowdsourcing. Right now, it is still a startup in its humble beginnings, being run out of the coffee-cup strewn office of a mere tenure-track professor at an Ivy League university. Help it gain some credibility by leaving a review in the [Google Chrome store](https://chrome.google.com/webstore/detail/crowdworkers/aamdbafophajiecmhbnbakndfgjkfpce/reviews) (we can debate [ethics](http://www.nytimes.com/2013/09/23/technology/give-yourself-4-stars-online-it-might-cost-you.html?_r=0) later). You will get extra credit if you leave a review on the Google Chrome store, or if you the survey to provide us with a thoughtful critique about how to improve the plugin. 
 
+**Extra Credit** We will give extra credit to the student or students who make the most money as a worker.
 
+### Suggested Readings
+
+* [My MTurk (half) Workday](http://www.cs.cmu.edu/~jbigham/posts/2014/half-workday-as-turker.html) by Jeff Bigham
+* [Being A Turker](readings/downloads/ethics/being-a-turker.pdf) by David Martin, Benjamin Hanrahan, Jacki O’Neill and Neha Gupta
+* [Turkopticon: Interrupting Worker Invisibility in Amazon Mechanical Turk](readings/downloads/ethics/turkopticon.pdf) by Lilly Irani and Six Silberman
+* [Crowd-Workers: Aggregating Information Across Turkers To Help Them Find Higher Paying Work](readings/downloads/ethics/crowd-workers.pdf) by Chris Callison-Burch
+* [Web Workers, Unite! Addressing Challenges of Online Laborers](readings/downloads/ethics/web-workers-unite.pdf) by Ben Bederson and Alex Quinn
 
 <div class="panel panel-primary">
 <div class="panel-heading" markdown="1">
@@ -68,8 +85,8 @@ Below are the questions that you will be asked to answer about your experience a
 * No
 10. If you did have a HIT rejected, what reason did the Requester give?
 11. What types of tasks did you do, and how did you pick them?
-12. What was the highest paying HIT that you completed?  Find it [here](http://crowd-workers.com/track?ordering=-reward) and then click on the HIT title, and copy-and-paste a link to the HIT group (like http://crowd-workers.com/hitgroup/3MGKBFT73MDAA4Y9Z9X7CPRXYV8SJC).
-13. What HIT paid you the highest hourly rate?  Sort by "My hourly rate" [here](http://crowd-workers.com/analytics) and then click on the HIT title, and copy-and-paste a link to the HITgroup (like http://crowd-workers.com/hitgroup/3YE2HAAZKV6SYE0V5LA0H7CLMS9UZ3)
+12. What was the highest paying HIT that you completed?  Find it [here](http://crowd-workers.com/track?ordering=-reward) and then click on the HIT title, and copy-and-paste a link to the HIT group.
+13. What HIT paid you the highest hourly rate?  Sort by "My hourly rate" [here](http://crowd-workers.com/analytics) and then click on the HIT title, and copy-and-paste a link to the HITgroup.
 14. Describe the most interesting or weirdest or most fun HIT that you found.  Write a couple of sentences describing it.
 15. Which do you think provides a better way of discovering work? 
 * Crowd Workers 
@@ -104,6 +121,7 @@ This assignment is worth 5 points of your overall grade in the course.  The rubr
 * 1 point - investigating a productivity tool like Crowd Workers or TurkOpticon.
 * 3 points - answering the survey questions thoughtfully.
 * Extra credit (1 point) - leaving a review of the Crowd Workers extension on Google Chrome store
+* Extra credit (1 point) - for the student(s) who make the most money as a worker.  Screenshot or other verification may be requested.
 
 </div>
 </div>

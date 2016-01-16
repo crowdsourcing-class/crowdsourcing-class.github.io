@@ -6,12 +6,32 @@ title: Homework 2 "Market Research"
 active_tab: homework
 release_date: 2016-01-22
 due_date: 2016-01-29
-due_date_video: 2016-02-12
+deliverables:
+    -
+      description: written survey
+      due_date: 2016-01-29
+    -
+      description: video 
+      due_date: 2016-02-12
 ---
 
+<!-- Check whether the assignment is up to date -->
+{% capture this_year %}{{'now' | date: '%Y'}}{% endcapture %}
+{% capture due_year %}{{page.due_date | date: '%Y'}}{% endcapture %}
+{% if this_year != due_year %} 
+<div class="alert alert-danger">
+Warning: this assignment is out of date.  It may still need to be updated for this year's class.  Check with your instructor before you start working on this assignment.
+</div>
+{% endif %}
+<!-- End of check whether the assignment is up to date -->
 
 <div class="alert alert-info">
-This assignment has two deliverables. The first part is a written component that is due before class on {{ page.due_date | date: "%A, %B %-d, %Y" }}.  The second part is a video that is before class on {{ page.due_date_video | date: "%A, %B %-d, %Y" }}.  Note that although you have extra time for the video, other assignments will be due while you're working on it, so we recommend that you finish the video early.
+{% if page.deliverables %}
+This assignment has multiple deliverables.
+{% for deliverable in page.deliverables %}
+The {{deliverable.description}} is due before class on {{ deliverable.due_date | date: "%A, %B %-d, %Y" }}.  
+{% endfor %}
+{% endif %}
 </div>
 
 
@@ -108,14 +128,14 @@ You are also welcome to profile a [relevant company](http://www.crowdsourcing.or
 
 This assignment has two deliverables:
 
-1. Answering [a questionnaire](https://docs.google.com/forms/d/1fxe5cwKqM5M2J6NGAsqC30hvNQ0JX4woJV0zOZhRNsU/viewform?usp=send_form) about the company or project that you are researching. This is due before class on {{ page.due_date | date: "%A, %B %-d, %Y" }}.
-2. A video presentation about the company.  Several of the best videos will be selected for in-class presentations on Fridays.  Teams whose videos are selected will receive extra credit. his is due before class on {{ page.due_date_video | date: "%A, %B %-d, %Y" }}.
+1. Answering [a questionnaire](https://docs.google.com/forms/d/1fxe5cwKqM5M2J6NGAsqC30hvNQ0JX4woJV0zOZhRNsU/viewform?usp=send_form) about the company or project that you are researching. This is due before class on {{ page.deliverables[0].due_date | date: "%A, %B %-d, %Y" }}.
+2. A video presentation about the company.  Several of the best videos will be selected for in-class presentations on Fridays.  Teams whose videos are selected will receive extra credit. his is due before class on {{ page.deliverables[1].due_date | date: "%A, %B %-d, %Y" }}.
 
 This assignment can be done individually or in pairs.
 
 First, please sign up for a [company or project](https://docs.google.com/spreadsheets/d/1dmTheLr1zzSzF4ci9hWIPNkO7sTHcXV3quwocPKr95o/edit?usp=sharing).  Please do not pick a company that another team has already signed up for.  If there’s a company that you’d like to research that isn’t on the list, you are welcome to ask the instructor or the TA to ask if it is OK.  
 
-You should independently research the company, and then [fill in your answers about it in this questionnaire](https://docs.google.com/forms/d/1fxe5cwKqM5M2J6NGAsqC30hvNQ0JX4woJV0zOZhRNsU/viewform?usp=send_form).  Your short answers to these questions on  {{ page.due_date | date: "%A, %B %-d, %Y" }}.
+You should independently research the company, and then [fill in your answers about it in this questionnaire](https://docs.google.com/forms/d/1fxe5cwKqM5M2J6NGAsqC30hvNQ0JX4woJV0zOZhRNsU/viewform?usp=send_form).  Your short answers to these questions on  {{ page.deliverables[0].due_date | date: "%A, %B %-d, %Y" }}.
 
 You will record a short 5 to 7 minute video presentation about your company. Your presentation should address the following questions:
 
@@ -125,11 +145,9 @@ You will record a short 5 to 7 minute video presentation about your company. You
 - How does the company benefit from user contributions?
 - Are there any controversies about the company?
 
-Your presentation video is due on {{ page.due_date_video | date: "%A, %B %-d, %Y" }}. To turn in your video, please upload it to [Vimeo](https://vimeo.com/). Then give us the link to your video on the survey. Make sure that your video is publicly viewable or that you give us a password to view it on the web form.
+Your presentation video is due on {{ page.deliverables[1].due_date | date: "%A, %B %-d, %Y" }}. To turn in your video, please upload it to [Vimeo](https://vimeo.com/). Then give us the link to your video on the survey. Make sure that your video is publicly viewable or that you give us a password to view it on the web form.
 
 If you have managed to make it this far in life without having to sign up for accounts for things on the internet, here are more detailed instructions:
-
-
 
 
 
@@ -224,3 +242,125 @@ This assignment is worth 10 points of your overall grade in the course.  The rub
 </div>
  
 
+
+
+#### Examples profiles from last year
+
+<table class="table table-striped"> 
+  <tbody>
+    {% assign id = 0 %}
+    {% for questionnaire in site.data.example_company_profiles %}
+    {% assign id = id | plus:1 %}
+    {% assign anchor = questionnaire.what_company_are_you_profiling | replace:' ', '-' | replace:"'", '' | replace:'.', ''  | replace:'(', '' | replace:')', '' | append:"-" | append:id %}
+   <tr>
+      <td>
+	<div class="hidden-sm hidden-xs">
+		<a href="{{ questionnaire.give_a_url_for_the_companys_website }}"><img src="{{ questionnaire.give_a_url_for_the_companys_logo }}" width="200" /></a>
+	</div>
+      </td>
+      <td>
+
+<div class="visible-sm visible-xs">
+	<a href="{{ questionnaire.give_a_url_for_the_companys_website }}"><img src="{{ questionnaire.give_a_url_for_the_companys_logo }}" width="100" /></a>
+</div>
+<div class="panel-group" id="accordion{{ anchor }}">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <div class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion{{ anchor }}" href="#{{ anchor }}">
+	{{ questionnaire.give_a_one_sentence_description_of_the_company }} 
+        </a>
+      </div>
+    </div>
+    <div id="{{ anchor }}" class="panel-collapse collapse">
+      <div class="panel-body">
+
+{% if questionnaire.do_you_mind_if_we_post_a_link_to_your_video_on_the_class_website == "Yes, post it! " %}
+{% assign vimeourl = questionnaire.paste_in_the_url_of_your_presentation_on_vimeo | split:"/" %}
+{% for urlpart in vimeourl %}
+	{% capture videonum %}{{ urlpart }}{% endcapture %}
+{% endfor %} 
+
+<div align="center" class="hidden-sm hidden-xs">
+<iframe src="http://player.vimeo.com/video/{{ videonum }}" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <br />
+</div>
+<div align="center" class="visible-sm visible-xs">
+<b>Video profile:</b> <a href="http://player.vimeo.com/video/{{ videonum }}">http://player.vimeo.com/video/{{ videonum }}"</a> <br />
+</div>
+{% endif %}
+
+<b>Who were the founders?</b> {{ questionnaire.who_were_the_founders }} <br />
+
+<b>When was it started?</b> {{ questionnaire.when_was_the_company_started }} <br />
+
+<b>Does it have any interesting origin story?</b> {{ questionnaire.does_it_have_an_interesting_origin_story }} <br />
+
+<b>What services does {{ questionnaire.what_company_are_you_profiling }} provide?</b> {{ questionnaire.what_service_does_the_company_provide }} <br />
+
+{% if questionnaire.does_this_update_a_previous_service_or_business_model_or_is_it_completely_new == "Updates a previous model" %}
+	<b>If this updates a previous service or business model, what does it replace?</b> {{ questionnaire.if_it_updates_something_what_does_it_replace}} <br />
+
+{% endif %}
+<b>Who uses the services?</b> {{ questionnaire.what_is_an_example_of_how_someone_uses_this_service }} <br />
+
+<b>Who are the people who contribute the services?</b> {{ questionnaire.who_are_the_people_who_contribute_services }} <br />
+
+<b>How does {{ questionnaire.what_company_are_you_profiling }} incentivize them to contribute, or what is their motivation?</b> {{ questionnaire.how_does_the_company_incentivize_them_to_contribute_or_what_motivates_them_to_participate_ }} <br />
+
+<b>Is this a service that was previously provided by experts?</b> {% if questionnaire.is_this_a_service_that_was_previously_provided_by_experts__professionals %} Yes. {% else %} No. {% endif %}
+<br />
+
+<b>Are the contributors experts/professionals?</b> {% if questionnaire.are_the_contributors_experts__professionals %} Yes. {% else %} No. {% endif %}
+<br />
+
+<b>How does {{ questionnaire.what_company_are_you_profiling }} ensure the quality of the services it provides?</b> {{ questionnaire.how_does_the_company_ensure_the_quality_of_the_services_it_provides}} <br />
+
+{% if questionnaire.is_a_reputation_system_used_by_your_company %}
+	<b>If {{ questionnaire.what_company_are_you_profiling }} uses a reputation system, how does it work?</b> {{ questionnaire.if_so_how_does_it_work}} <br />
+
+{% endif %}
+{% if questionnaire.is_its_service_something_that_is_typically_regulated_by_the_government %}
+	<b>If its service is typically regulated by the government, what are the intents of the regulations and does the company meet those standards?</b> {{ questionnaire.if_so_what_are_the_intents_of_the_regulations_and_does_your_company_meet_those_standards }} <br />
+
+{% endif %}
+<b>Compare the number of users to contributors:</b> {{ questionnaire.compare_the_number_of_users_to_contributors }} <br />
+
+<b>If its service is provided by many contributors, how are their contributions aggregated?</b> {{ questionnaire.if_the_service_is_provided_by_many_contributors_how_are_are_their_contributions_aggregated_ }} <br />
+
+<b>Describe the workflow for how the service is advertised, how the contributors contribute, and what the users get in the end:</b> {{ questionnaire.describe_the_workflow_for_how_the_service_is_advertised_and_how_the_contributors_contribute_and_what_the_users_get_in_the_end }} <br />
+
+<b>What is the scale of {{ questionnaire.what_company_are_you_profiling }} in terms of users?</b> {{ questionnaire.what_is_the_scale_of_the_services_that_your_company_provides_in_terms_of_users }} <br />
+
+<b>What is the scale of {{ questionnaire.what_company_are_you_profiling }} in terms of dollars?</b> {{ questionnaire.what_is_the_scale_of_the_services_that_your_company_provides_in_terms_of_dollars }} <br />
+
+<b>If {{ questionnaire.what_company_are_you_profiling }} were to scale up to 10-100 times its current size, how well do you think would its business model would work?</b> {{ questionnaire.if_your_company_were_to_scale_up_to_10_or_100_times_its_current_size_how_well_do_you_think_its_business_model_would_work }} <br />
+
+<b>What kind of organization is it?</b> {{ questionnaire.what_kind_of_organization_is_it }} <br />
+
+<b>How does {{ questionnaire.what_company_are_you_profiling }} generate revenue?</b> {{ questionnaire.how_does_the_company_generate_revenue }} <br />
+
+{% if questionnaire.is_there_anything_else_youd_like_to_say_about_the_company | strip_newlines | replace:’ ',''  != "" %}
+<b>Anything else?</b> {{ questionnaire.is_there_anything_else_youd_like_to_say_about_the_company }} <br />
+{% endif %}
+
+
+<div class="hidden-sm hidden-xs">
+<b>References</b> 
+{% assign urls = questionnaire.what_online_resources_did_you_use_in_researching_it | split:"<p>" %}
+<ul>
+{% for url in urls %}
+	<li> <a href="{{ url }}">{{ url }}</a> </li>
+{% endfor %} 
+</ul>
+<br />
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
