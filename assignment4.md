@@ -63,7 +63,7 @@ Your task will be to build a classifier following our guidelines, and [respond t
 	</div>
 	<div class="panel-body">
 
-		Take your optimized Decision Tree and reserve engineer it to create a Rule Based Classifier. Complete the function <code>extra_credit_classifier()</code> to do this. How does the accuracy of this classifier relate with that of your optimized Decision Tree? 
+		Take your optimized Decision Tree and reverse engineer it to create a Rule Based Classifier. Complete the function <code>extra_credit_classifier()</code> to do this. How does the accuracy of this classifier relate with that of your optimized Decision Tree? 
 
 	</div>
 	</div>
