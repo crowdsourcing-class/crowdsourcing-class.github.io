@@ -39,7 +39,7 @@ Your task will be to build a classifier following our guidelines, and [respond t
 
 3. The simplest way to build a classification algorithm is to used a rule based system. Look at the function rule_based_classifier(). This function doesn't bother itself with mathy mumbo jumbo, it just looks for keywords it thinks are indicative of gun-related articles. If one of the keywords appears, it predicts "1" (or "gun-related") and otherwise it picks "0". Right now we use just one keyword, "shooting." Try running the code and see how well this very simple method works.
 
-	Now experiment with adding a few more keywords. See how high you can make the accuracy using this method. Experiment with combinations of keywords as well. Feel free to get creative with your conditional statements! You will answer a few questions about this in the questionaire. 
+	Now experiment with adding a few more keywords. See how high you can make the accuracy using this method. Experiment with combinations of keywords as well. Feel free to get creative with your conditional statements! You will answer a few questions about this in the questionnaire. 
 
 	<h3>Decision Trees</h3>
 4. A more algorithmic approach to creating a rule-based classifier can be done using Decision Trees. Decision Trees are a class of Machine Learning algorithms that use a tree-like structure to model certain decisions and map them to their corresponding outcomes. The image below is a very simple example of a decision tree classifier.
@@ -95,15 +95,15 @@ Your task will be to build a classifier following our guidelines, and [respond t
 	
 	This is what is referred to in NLP as a "unigram features." 
 
-	Try it and then record your experience in the [questionarie](https://docs.google.com/forms/d/1whhkFQ0ndN9E_XOsuqoxpRIAJcnUZqKKx1eAioyU9wg/viewform?usp=send_form). For your classifier analysis, you need to look at feature weights that have been learned, and will need to see the predictions the classifier makes for individual articles. Look at the [functions available to you](http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html) through the LogisiticRegression classifier to get you started. 
+	Try it and then record your experience in the [questionnarie](https://docs.google.com/forms/d/1whhkFQ0ndN9E_XOsuqoxpRIAJcnUZqKKx1eAioyU9wg/viewform?usp=send_form). For your classifier analysis, you need to look at feature weights that have been learned, and will need to see the predictions the classifier makes for individual articles. Look at the [functions available to you](http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html) through the LogisiticRegression classifier to get you started. 
 
 And with that- Good luck! Start early and have fun! If robots are going to run the world, they need to first know the difference between articles about gun violence and articles about the weather. So go! Make it happen! 
 
-Don't forget to answer all of the questions in the [questionaire](https://docs.google.com/forms/d/1whhkFQ0ndN9E_XOsuqoxpRIAJcnUZqKKx1eAioyU9wg/viewform?usp=send_form) when you are done, and to submit your final classifier code, a picture of the tree you drew and the generated diagram of your optimal Decision Tree via turnin. 
+Don't forget to answer all of the questions in the [questionnaire](https://docs.google.com/forms/d/1whhkFQ0ndN9E_XOsuqoxpRIAJcnUZqKKx1eAioyU9wg/viewform?usp=send_form) when you are done, and to submit your final classifier code, a picture of the tree you drew and the generated diagram of your optimal Decision Tree via turnin. 
 
 <pre><code>$ turnin -c nets213 -p classifier -v classifier.py rule-based-tree.png decision-tree.png</code></pre>
 
-Your code and questions are due <b>Wednesday, September 24</b>. You can work in pairs on this assignment.  You must declare the fact that you are working together when you turn in the questionaire.  If you are working with a partner, only one of you needs to turn in the code, but you must specify who will be turning it in on the questionaire. You cannot add or change partners after the code and questionaire are submitted.
+Your code and questions are due <b>Wednesday, September 24</b>. You can work in pairs on this assignment.  You must declare the fact that you are working together when you turn in the questionnaire.  If you are working with a partner, only one of you needs to turn in the code, but you must specify who will be turning it in on the questionnaire. You cannot add or change partners after the code and questionnaire are submitted.
 
 <div class="panel panel-danger">
 <div class="panel-heading" markdown="1">
