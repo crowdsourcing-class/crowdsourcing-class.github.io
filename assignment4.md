@@ -37,7 +37,7 @@ Your task will be to build a classifier following our guidelines, and [respond t
 
 	<h3>Rule Based Classifiers</h3>
 
-3. The simplest way to build a classification algorithm is to used a rule based system. Look at the function rule_based_classifier(). This function doesn't bother itself with mathy mumbo jumbo, it just looks for keywords it thinks are indicative of gun-related articles. If one of the keywords appears, it predicts "1" (or "gun-related") and otherwise it picks "0". Right now we use just one keyword, "shooting." Try running the code with this command and see how well this very simple method works.
+3. The simplest way to build a classification algorithm is to use a rule based system. Look at the function rule_based_classifier(). This function doesn't bother itself with mathy mumbo jumbo, it just looks for keywords it thinks are indicative of gun-related articles. If one of the keywords appears, it predicts "1" (or "gun-related") and otherwise it picks "0". Right now we use just one keyword, "shooting." Try running the code with this command and see how well this very simple method works.
 
 	Now experiment with adding a few more keywords. See how high you can make the accuracy using this method. Experiment with combinations of keywords as well. Feel free to get creative with your conditional statements! You will answer a few questions about this in the questionnaire. 
 
@@ -53,7 +53,7 @@ Your task will be to build a classifier following our guidelines, and [respond t
 
 	<img src="assets/img/decision-tree.gif" style="width: 500px;"/>
 
-5. Let's now create an actual decision tree. Uncomment the 3 lines in the Decision Tree section and run the script. You will need the [Graphviz](http://www.graphviz.org/) installed for this to work. The code takes a couple seconds to run. The Decision Tree diagram generated is shown below.
+5. Let's now create an actual decision tree. Uncomment the 3 lines in the Decision Tree section and run the script. You will need the [Graphviz](http://www.graphviz.org/) library installed for this to work. The code takes a couple seconds to run. The Decision Tree diagram generated is shown below.
 
 	<img src="assets/img/decision-tree.png" style="width: 350px;"/>
 
