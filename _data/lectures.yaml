@@ -38,10 +38,6 @@
       title:  My MTurk (half) Workday
       url: http://www.cs.cmu.edu/~jbigham/posts/2014/half-workday-as-turker.html
     -
-      author: David Martin, Benjamin Hanrahan, Jacki O’Neill and Neha Gupta
-      title: Being A Turker
-      url: http://crowdsourcing-class.org/readings/downloads/ethics/being-a-turker.pdf
-    -
       author: Lilly Irani and Six Silberman
       title: Turkopticon&colon; Interrupting Worker Invisibility in Amazon Mechanical Turk
       url: http://crowdsourcing-class.org/readings/downloads/ethics/turkopticon.pdf
@@ -49,37 +45,54 @@
       author: Chris Callison-Burch
       title: Crowd-Workers&colon; Aggregating Information Across Turkers To Help Them Find Higher Paying Work
       url: http://crowdsourcing-class.org/readings/downloads/ethics/crowd-workers.pdf
-    -
-      author: Ben Bederson and Alex Quinn
-      title: Web Workers, Unite! Addressing Challenges of Online Laborers
-      url: http://crowdsourcing-class.org/readings/downloads/ethics/web-workers-unite.pdf 
 -
   date: 2016-01-18
   title: No classes - Martin Luther King Day
 -
   date: 2016-01-20
-  slides: http://crowdsourcing-class.org/slides/amazon-mechanical-turk.pdf
-  title: The Mechanical Turk crowdsourcing platform - part 1
+  slides: http://crowdsourcing-class.org/slides/crowd-workers.pdf
+  title: Crowd Workers
   highlights:
-    - Working on Mechanical Turk, demographics of Mechanical Turk workers, estimating the size of the Mechanical Turk Marketplace
-    - Terminology and mechanics&#58; Turkers, Requesters, HITs, micropayments
+    - Ethics of Crowd Sourcing
+    - Why the Mechanical Turk user interface sucks
+    - External tools designed by workers
+    - Design principles for a fairer workplace
   reading:
+    -
+      author: Karen Fort, Gilles Adda and Bretonnel Cohen 
+      title: Amazon Mechanical Turk&#58; Gold Mine or Coal Mine?
+      url: http://crowdsourcing-class.org/readings/downloads/ethics/gold-mine-or-coal-mine.pdf
+    -
+      author: Ben Bederson and Alex Quinn
+      title: Web Workers, Unite! Addressing Challenges of Online Laborers
+      url: http://crowdsourcing-class.org/readings/downloads/ethics/web-workers-unite.pdf 
+    -
+      author: David Martin, Benjamin Hanrahan, Jacki O’Neill and Neha Gupta
+      title: Being A Turker
+      url: http://crowdsourcing-class.org/readings/downloads/ethics/being-a-turker.pdf
     -
       author: Amy Glasmeier 
       title:  The MIT Living Wage Calculator
       url: http://livingwage.mit.edu/
     -
-      author: U.S. Department of Labor  
-      title:  Employees Who Are Misclassified as Independent Contractors
-      url: http://crowdsourcing-class.org/readings/downloads/ethics/misclassification-of-employees-as-contractors.pdf
-    -
       author: Panos Ipeirotis
       title: The Demographics of MTurk
       url: http://crowdsourcing-class.org/readings/downloads/platform/demographics-of-mturk.pdf
     -
-      author: Karen Fort, Gilles Adda and Bretonnel Cohen 
-      title: Amazon Mechanical Turk&#58; Gold Mine or Coal Mine?
-      url: http://crowdsourcing-class.org/readings/downloads/ethics/gold-mine-or-coal-mine.pdf
+      author: The Late Show with Stephen Colbert
+      title: Interview with Uber CEO Travis Kalanick (video)
+      url: https://youtu.be/wGdjLv8neBs?t=80 
+    -
+      author: Alison Griswold
+      title: In Search of Uber’s Unicorn (Slate Article)
+      url: http://www.slate.com/articles/business/moneybox/2014/10/uber_driver_salary_the_ride_sharing_company_says_its_drivers_make_great.html 
+    -
+      title: Class action lawsuit against Uber (website)
+      url: http://uberlawsuit.com
+    -
+      author: U.S. Department of Labor  
+      title:  Employees Who Are Misclassified as Independent Contractors
+      url: http://crowdsourcing-class.org/readings/downloads/ethics/misclassification-of-employees-as-contractors.pdf
 -
   date: 2016-01-22
   title: Friday hands on activity - Vimeo Tutorial and IPython Installation Walkthrough
