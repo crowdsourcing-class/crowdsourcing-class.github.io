@@ -54,6 +54,7 @@ This week we will be looking at the wealth of companies that use crowdsourcing a
 [CrowdFlower](http://www.crowdflower.com),
 [CrowdMed](https://www.crowdmed.com),
 [Crowds On Demand](http://crowdsondemand.com),
+[Daemo](http://hci.stanford.edu/publications/2015/crowdresearch/daemo-uist.pdf),
 [The Doe Network](http://www.onthemedia.org/story/online-supersleuth/),
 [Duolingo](https://www.duolingo.com/),
 [EatWith](http://www.eatwith.com),
