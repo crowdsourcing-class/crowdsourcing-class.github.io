@@ -8,7 +8,13 @@
   reading:
     -
       author: James Surowiecki
-      title:  The Wisdom of Crowds&colon; Introduction and Chapter 1
+      title:  The Wisdom of Crowds&colon; Introduction
+      url: http://wisdomofcrowds.blogspot.com/2009/12/introduction-part-i.html
+
+    -
+      author: James Surowiecki
+      title:  The Wisdom of Crowds&colon; Chapter 1
+      url: http://wisdomofcrowds.blogspot.com/2009/12/chapter-one-part-i.html
     -
       author: Malone, Laubacher, and Dellarocas
       title:  Harnessing Crowds&#58; Mapping the Genome of Collective Intelligence
