@@ -22,9 +22,7 @@ If you're on a Mac you can use Quicktime or Keynote to create a screen recording
 1. Open up QuickTime.
 2. Go to File->New Screen Recording.
 3. It'll give you the option to record the whole screen or just a part of the screen, and then start recording.
-4. You can record your screen and audio at the same time, and voila, you have a presentation on video!
-###Keynote
-1. 
+4. You can record your screen and audio at the same time, and voila, you have a presentation on video! 
 
 If you're on Windows:
 Check out this [screen recording software](http://icecreamapps.com/Screen-Recorder/).
