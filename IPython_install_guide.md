@@ -41,22 +41,36 @@ The exciting news is that the package manager we'll use to start, called pip, co
 [python download instructions]:https://www.python.org/downloads/
 [pip download link]:https://pip.pypa.io/en/stable/installing/
 
+###3. Virtual Environments
+
+You can use pip to install a very useful Python tool called [virtualenv](http://docs.python-guide.org/en/latest/dev/virtualenvs/).  It is a tool to keep the dependencies required by different projects in separate places, by creating virtual Python environments for them.  (It also solves a problem created by the latest version of Mac OS X "El Capitan", which doesn't let users install anything in the Python directory, even using the `sudo` command).  To install virtual environments run this command once:
+
+`sudo pip install virtualenv`
+
+To create a new virtual environment, give the environment a name like `nets213` and run the command (you only need to do this once):
+
+`cd ~/`
+`virtualenv nets213`
+
+Note that it will install it in a specific directory, so whenever you want to activate it, be sure to go back to that directory.  To activate your virtual environment run this command:
+
+`cd ~/`
+`source nets213/bin/activate`
+
+You will then see that the prompt on your Terminal window is prefixed with *(nets213)*.  That shows you that you're in the nets213 virtual environment. 
+
 ###3. Installing IPython Notebooks
 
-You're in the home stretch of IPython Notebook set-up! Now you can return to your command line and run `$ pip install ipython[notebook]`.
+You're in the home stretch of IPython Notebook set-up! Now you can return to your command line and run `(nets213) $ pip install ipython[notebook]`.  That will install ipython notebook and its dependencies in your nets213 virtual environment. 
+
+#####4. Finally:
+
+Type `ipython notebook` to launch a new browser tab that acts as a server for your notebooks. Here, on the dashboard, you can create new notebooks and modify existing notebooks and Python scripts. 
+
+You're all set! 
 
 #####Debugging Tips: 
 
-* If you are running OS X verion 10.11 "El Capitan" then the operating system may be blocking you from installing anything into `/System/Library/Frameworks/Python.framework/Versions/2.7/shar` even with the sudo command.  Instead try running these steps:
-1. sudo pip install virtualenv
-2. cd ~/
-3. virtualenv nets213
-4. source nets213/bin/activate
-5. pip install ipython[notebook]
-6. ipython notebook
-This creates a virtual environment that has IPython Notebook. To return to the virtual environment in the future, just type
-1. cd ~/
-2. source nets213/bin/activate
 
 * You may need to give pip extra permissions to get IPython installed, so if you see any error messages or exceptions mentioning permissions or installation failing, run `$ sudo pip install ipython[notebook]`. When you are successful, you'll see some packages download and the command line wait for your next input. 
 
@@ -69,9 +83,3 @@ This creates a virtual environment that has IPython Notebook. To return to the v
 `conda install ipython-notebook`
 
 * [Post to Piazza if you encounter any problems](https://piazza.com/class/ijblb017ius5zp?cid=39) not listed here - it's likely that others in the class will run into the same thing. 
-
-#####Finally:
-
-Type `ipython notebook` to launch a new browser tab that acts as a server for your notebooks. Here, on the dashboard, you can create new notebooks and modify existing notebooks and Python scripts. 
-
-You're all set! 
