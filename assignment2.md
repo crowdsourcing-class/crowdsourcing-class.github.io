@@ -9,10 +9,10 @@ due_date: 2016-01-29
 deliverables:
     -
       description: written survey
-      due_date: 2016-01-29
+      due_date: 2016-01-29T14:00:00+05:00
     -
       description: video 
-      due_date: 2016-02-12
+      due_date: 2016-02-12T14:00:00+05:00
 ---
 
 <!-- Check whether the assignment is up to date -->
