@@ -47,7 +47,16 @@ You're in the home stretch of IPython Notebook set-up! Now you can return to you
 
 #####Debugging Tips: 
 
-* If you are running OS X verion 10.11 "El Capitan" then the operating system may be blocking you from installing anything into `/System/Library/Frameworks/Python.framework/Versions/2.7/shar` even with the sudo command.  Instead try running `pip install --user ipython[notebook]`
+* If you are running OS X verion 10.11 "El Capitan" then the operating system may be blocking you from installing anything into `/System/Library/Frameworks/Python.framework/Versions/2.7/shar` even with the sudo command.  Instead try running these steps:
+1. sudo pip install virtualenv
+2. cd ~/
+3. virtualenv nets213
+4. source nets213/bin/activate
+5. pip install ipython[notebook]
+6. ipython notebook
+This creates a virtual environment that has IPython Notebook. To return to the virtual environment in the future, just type
+1. cd ~/
+2. source nets213/bin/activate
 
 * You may need to give pip extra permissions to get IPython installed, so if you see any error messages or exceptions mentioning permissions or installation failing, run `$ sudo pip install ipython[notebook]`. When you are successful, you'll see some packages download and the command line wait for your next input. 
 
