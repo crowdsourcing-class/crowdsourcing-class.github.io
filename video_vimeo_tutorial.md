@@ -39,7 +39,7 @@ Check out this [screen recording software](http://icecreamapps.com/Screen-Record
 
 <div class="panel panel-info">
 <div class="panel-heading" markdown="1">
-###Tips for Making a Good Video
+####Tips for Making a Good Video
 </div>
 <div class="panel-body" markdown="1">
 1. Write out a script for what you're going to say.  Practice saying it aloud several times to smooth out any places that you might stumble.
