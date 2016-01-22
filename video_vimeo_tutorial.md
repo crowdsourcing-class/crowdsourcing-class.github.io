@@ -10,7 +10,8 @@ active_tab: resources
 There are a variety of ways of making videos. The easiest and most effective for this project is to create a screen recording.
 
 ##Screen recording
-If you're on a Mac you can use Quicktime or Keynote to create a screen recording. 
+If you're on a Mac you can use Quicktime or Keynote to create a screen recording.
+
 ###Quicktime 
 
 1. Open up QuickTime.
