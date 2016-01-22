@@ -247,7 +247,7 @@ This assignment is worth 10 points of your overall grade in the course.  The rub
 
 #### Examples profiles from last year
 
-<table class="table table-striped"> 
+<table class="table table-striped" id="examples"> 
   <tbody>
     {% assign id = 0 %}
     {% for questionnaire in site.data.example_company_profiles %}

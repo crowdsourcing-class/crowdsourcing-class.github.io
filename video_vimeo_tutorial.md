@@ -54,6 +54,6 @@ Check out this [screen recording software](http://icecreamapps.com/Screen-Record
      - Did it explain how quality control is done?
 5. After you get feedback, make modifications to your video and re-record it.
 
-We have provided some examples of good videos from last year's company profiles.  The examples are located at the bottom of the web page for [Assignment 2](assignment2.html).  Click on the 1 sentence description of the company or project to see its full profile and the video. 
+We have provided some [examples of good videos from last year's company profiles](assignment2.html#examples).  Click on the 1 sentence description of the company or project to see its full profile and the video. 
 </div>
 </div>
