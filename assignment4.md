@@ -147,12 +147,11 @@ Your code and questions are due <b>Wednesday, September 24</b>. You can work in 
 
 This assignment is worth 5 points of your overall grade in the course.  The rubric for the assignment is given below.
 
-* 1 points - Rule Based Classifier.
-* 1 points - Decision Tree Drawing.
-* 1 points - Optimizing your Decision Tree and the Decision Tree diagram.
-* 1 points - Statistical Unigram Model.
-* 1 points - Survey Questions.
-* Extra credit (1 point) - Reverse engineering the optimal Decision Tree as a rule based classifier.
+* 1 points - Create a rule based classifier
+* 1 points - Create a decision tree and a decision tree diagram
+* 1 points - Implement a statistical unigram model
+* 2 points - Answer the survey questions
+* Extra credit (1 point) - Reverse engineer the optimal decision tree as a rule based classifier.
 
 </div>
 </div>
