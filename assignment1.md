@@ -5,7 +5,7 @@ caption: Workers of the world, unite!
 title: Homework 1 "Become a Crowd Worker"
 active_tab: homework
 release_date: 2016-01-13
-due_date: 2016-01-22
+due_date: 2016-01-22T14:00:00+05:00
 ---
 
 <!-- Check whether the assignment is up to date -->
