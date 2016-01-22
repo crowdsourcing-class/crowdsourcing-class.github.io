@@ -47,6 +47,8 @@ You're in the home stretch of IPython Notebook set-up! Now you can return to you
 
 #####Debugging Tips: 
 
+* If you are running OS X verion 10.11 "El Capitan" then the operating system may be blocking you from installing anything into `/System/Library/Frameworks/Python.framework/Versions/2.7/shar` even with the sudo command.  Instead try running `pip install --user ipython[notebook]`
+
 * You may need to give pip extra permissions to get IPython installed, so if you see any error messages or exceptions mentioning permissions or installation failing, run `$ sudo pip install ipython[notebook]`. When you are successful, you'll see some packages download and the command line wait for your next input. 
 
 * At this point, some users have seen an error: "IPython 4.0.1 does not provide the extra 'notebook.'" If you see this, you can resolve it by running:
