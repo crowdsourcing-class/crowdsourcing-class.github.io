@@ -44,6 +44,7 @@ Check out this [screen recording software](http://icecreamapps.com/Screen-Record
   * Was the video relevant to the important themes of the class?  
      - Did it make it clear how crowdsourcing is used by the company?  
      - Did it identify who make up the crowd, and how large it is? 
+     - Did it explain what incentives the company provides for people to participate, or what motivates the crowd to contribute? 
      - Did it talk about how the contributions from the crowd are aggregated?  
      - Did it make clear whether the crowd is comprised of experts or non-experts? 
      - Did it explain how quality control is done?
