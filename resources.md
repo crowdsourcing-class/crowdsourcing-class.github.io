@@ -17,7 +17,7 @@ Resources
 - Python gives a list of good tutorials [here](https://wiki.python.org/moin/BeginnersGuide/Programmers). Many are focused on people with no programming background, but two that seem a bit less introductory are the [Python in 10 minutes](http://www.stavros.io/tutorials/python/) tutorial, and [Google's Python class](https://developers.google.com/edu/python/).
 - There is a [Coursera course on Python](https://www.coursera.org/course/interactivepython) running from Jan 9, 2016 through Feb 20, 2016.
 - I tend to find it easiest to learn languages with some application in mind, so I learned python using the [Intro to NLP in Python](http://www.nltk.org/book/). Highly recommend as a great way to learn two very useful skills at once!
-- Here's a [guide](http://crowdsourcing-class.org/IPython_install_guide.html) on installing IPython. 
+- Here's a [guide](IPython_install_guide.html) on installing IPython. 
 
 ###More advanced Python resources 
 
@@ -29,7 +29,7 @@ Resources
 - [Seaborn: statistical data visualization in Python](http://stanford.edu/~mwaskom/software/seaborn/index.html)
 
 ### Other Resources
-- [Tutorial](http://crowdsourcing-class.org/video_vimeo_tutorial.html) on making videos and uploading them to vimeo
+- [Tutorial](video_vimeo_tutorial.html) on making videos and uploading them to vimeo
 
 ### Artificial Intelligence tutorials and APIs
 - [Microsoft's Project Oxford APIs](https://www.projectoxford.ai).  These APIs include functions for computer vision, face recognition, speech recognition and generation. 

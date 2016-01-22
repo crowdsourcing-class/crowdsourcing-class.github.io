@@ -1,6 +1,8 @@
 ---
-title: Creating and Uploading Videos
 layout: default
+img: video-camera
+caption: Film icon by Edward Boatman from the Noun Project
+title: Creating and Uploading Videos
 active_tab: resources
 ---
 
