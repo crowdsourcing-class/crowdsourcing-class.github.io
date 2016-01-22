@@ -57,7 +57,7 @@ You're in the home stretch of IPython Notebook set-up! Now you can return to you
 
 `conda install ipython-notebook`
 
-* Post to Piazza if you encounter any problems not listed here - it's likely that others in the class will run into the same thing. 
+* [Post to Piazza if you encounter any problems](https://piazza.com/class/ijblb017ius5zp?cid=39) not listed here - it's likely that others in the class will run into the same thing. 
 
 #####Finally:
 
