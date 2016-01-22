@@ -12,6 +12,7 @@ There are a variety of ways of making videos. The easiest and most effective for
 ##Screen recording
 If you're on a Mac you can use Quicktime or Keynote to create a screen recording. 
 ###Quicktime 
+
 1. Open up QuickTime.
 2. Go to File->New Screen Recording.
 3. It'll give you the option to record the whole screen or just a part of the screen, and then start recording.
