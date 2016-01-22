@@ -7,18 +7,9 @@ active_tab: resources
 ---
 
 #Creating Videos
-There are a variety of ways of making videos. Two of the easiest and most effective are 
+There are a variety of ways of making videos. The easiest and most effective for this project is to create a screen recording.
 
-1. Using a handheld camera to film a live presentation (think iPhone camera)
-2. Using a screen recording software to record your screen and audio
-
-
-##Option 1: Handheld camera
-1. Take your favorite camera or more likely, favorite smartphone and record your presentation. 
-2. Upload it to your laptop and you're all set
-
-
-##Option 2: Screen recording
+##Screen recording
 If you're on a Mac you can use Quicktime or Keynote to create a screen recording. 
 ###Quicktime
 1. Open up QuickTime.
