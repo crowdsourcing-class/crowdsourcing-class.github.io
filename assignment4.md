@@ -85,7 +85,7 @@ Your task will be to build a classifier following our guidelines, and [respond t
 6. Let's now create an actual decision tree. You will need the [Graphviz](http://www.graphviz.org/) library installed for this to work as well as the most up to date version of the [Scikit-Learn Machine Learning package](http://scikit-learn.org/stable/). To make sure they're installed and upto date, run the following two commands:
 
 	<pre><code> >> pip install graphviz </code></pre>
-	<pre><code>	>> pip install -U scikit-learn </code></pre>
+	<pre><code> >> pip install -U scikit-learn </code></pre>
 
 	Uncomment the 3 lines in the Decision Tree section and run the script. The code takes a couple seconds to run. The Decision Tree diagram generated is shown below.
 
