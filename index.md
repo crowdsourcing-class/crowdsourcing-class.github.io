@@ -15,12 +15,12 @@ The class has reached its enrollment cap of 120 students.  You may <a href="http
 </div>
  
 <!-- Display an alert about upcoming homework assignments -->
-{% capture now %}{{'now' | date: '%s'}}{% endcapture %}
+{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
 {% for page in site.pages %}
 {% if page.release_date and page.due_date %}
 {% capture release_date %}{{page.release_date | date: '%s'}}{% endcapture %}
 {% capture due_date %}{{page.due_date | date: '%s'}}{% endcapture %}
-{% if release_date < now and due_date >= now %}
+{% if release_date < nowunix and due_date >= nowunix %}
 <div class="alert alert-info">
 <a href="{{page.url}}">{{ page.title }}</a> has been released.  
 {% if page.deliverables %}
