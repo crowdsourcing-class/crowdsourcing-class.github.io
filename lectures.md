@@ -2,12 +2,17 @@
 layout: default
 img: Francis-Galton
 img_link: http://en.wikipedia.org/wiki/Francis_Galton
-caption: Fracis Galton wrote about the wisdom of crowds in his Nature article Vox Populi 
+caption: Francis Galton wrote about the wisdom of crowds in his Nature article Vox Populi 
 title: Lectures
 active_tab: lectures
 ---
 
-Subject to change as the term progresses.
+<div class="alert alert-info">
+You can [watch recordings of the lectures](https://ex.cts.isc.upenn.edu/Mediasite/Catalog/Full/f03b307a2f104b5e826eb9620d1db36a21) if you have a PennKey.
+</div>
+
+
+The lecture schedule is subject to change as the term progresses.
 
 <table class="table table-striped"> 
   <tbody>
