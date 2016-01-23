@@ -39,15 +39,15 @@ Check out this [screen recording software](http://icecreamapps.com/Screen-Record
 2. Ensure that the visuals are a good accompaniment to your narration, and that they help reinforce it.  A basic (if somewhat boring) way of doing this is to have slides with bullet points that highlight the main ideas of what you're saying.  If you're more creative, you might select images that pair well with your narration.
 3. When you record your video, consider using an external mic instead of the one built in to your computer.  Most computer microphones are cheap and do not record good sound.  A USB microphone, or even an iPhone headset may provide better recording quality.
 4. Consider recording an initial version of your video, and asking a friend to provide feedback on how to improve it. You might ask them to consider the following questions:
-  * Was the audio audible? 
-  * Did the visual component complement the narration, or was it distracting? 
-  * Was the video relevant to the important themes of the class?  
-     - Did it make it clear how crowdsourcing is used by the company?  
-     - Did it identify who make up the crowd, and how large it is? 
-     - Did it explain what incentives the company provides for people to participate, or what motivates the crowd to contribute? 
-     - Did it talk about how the contributions from the crowd are aggregated?  
-     - Did it make clear whether the crowd is comprised of experts or non-experts? 
-     - Did it explain how quality control is done?
+* Was the audio audible? 
+* Did the visual component complement the narration, or was it distracting? 
+* Was the video relevant to the important themes of the class?  
+  * Did it make it clear how crowdsourcing is used by the company?  
+  * Did it identify who make up the crowd, and how large it is? 
+  * Did it explain what incentives the company provides for people to participate, or what motivates the crowd to contribute? 
+  * Did it talk about how the contributions from the crowd are aggregated?  
+  * Did it make clear whether the crowd is comprised of experts or non-experts? 
+  * Did it explain how quality control is done?
 5. After you get feedback, make modifications to your video and re-record it.
 
 We have provided some [examples of good videos from last year's company profiles](assignment2.html#examples).  Click on the 1 sentence description of the company or project to see its full profile and the video. 
