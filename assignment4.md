@@ -82,7 +82,12 @@ Your task will be to build a classifier following our guidelines, and [respond t
 	While we won’t obsess over the math that goes into how Decision Trees work, it’s useful to know that they’re surprising good at classification tasks (much like this one!). The rule based classifier you created using conditional statements in the function <code> rule_based_classifier()</code> was essentially a Decision Tree. Draw the Rule Based Decision Tree you came up with in part 3 using your favourite diagram-making tool. (I like [draw.io](https://www.draw.io/))
 
 
-6. Let's now create an actual decision tree. Uncomment the 3 lines in the Decision Tree section and run the script. You will need the [Graphviz](http://www.graphviz.org/) library installed for this to work. The code takes a couple seconds to run. The Decision Tree diagram generated is shown below.
+6. Let's now create an actual decision tree. You will need the [Graphviz](http://www.graphviz.org/) library installed for this to work as well as the most up to date version of the [Scikit-Learn Machine Learning package](http://scikit-learn.org/stable/). To make sure they're installed and upto date, run the following two commands:
+
+	<pre><code> >> pip install graphviz </code></pre>
+	<pre><code>	>> pip install -U scikit-learn </code></pre>
+
+	Uncomment the 3 lines in the Decision Tree section and run the script. The code takes a couple seconds to run. The Decision Tree diagram generated is shown below.
 
 	<img src="assets/img/decision-tree.png" style="width: 350px;"/>
 
