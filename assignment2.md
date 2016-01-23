@@ -106,7 +106,7 @@ This week we will be looking at the wealth of companies that use crowdsourcing a
 [Stackexchange](http://stackexchange.com/sites),
 [Stackoverflow](http://stackoverflow.com),
 [Sunshine](http://www.slate.com/blogs/future_tense/2015/03/27/apple_watch_could_make_you_a_walking_weather_station.html),
-[SquadRun](https://squadrun.co),
+[SquadRun](https://squadrun.com),
 [TaskRabbit](https://www.taskrabbit.com),
 [Threadless](https://www.threadless.com/how-it-works/),
 [Thumbtack](http://www.thumbtack.com/),
