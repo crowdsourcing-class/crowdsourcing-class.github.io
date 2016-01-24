@@ -21,11 +21,31 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 
 Training a classifier<span class="text-muted"> : Assignment 4</span> 
 =============================================================
-In the remaining weekly homework assignments, the class will be working to build a large database of gun violence incidents across the country. As computer scientists, we often take for granted the large amounts of data that are available. Other fields, however, such as the social sciences, are often limited in their ability to carry out robust studies because of a lack of data. There is a lot of room for smart, creative people like yourselves to make big strides in computational approaches to social science disciplines like economics, sociology, political science, and public health. And even if it is just [dressed-up statistics](http://en.wikipedia.org/wiki/Data_science#Criticism), getting to use sexy names like "data science" and "machine learning" will make your mother proud.
 
-We will be collecting data for our database from articles which are published in local newspapers across the country. We will use crowdsourcing to extract the structured information from these articles, but as a first step, we need to collect articles that describe incidences of gun violence. This is easier said than done. We can easily grab a handful of articles manually, but in order to build a meaningful database, we want to be able to gather data from a lot of articles, too many to do by hand. This is a picture perfect use of machine learning. If we can find a small number of examples of gun-related articles and of non-gun-related articles, we can train a model to predict for a million or more articles, with hopefully reasonable accuracy, which articles describe gun violence and which do not. 
+If you watch the news, you have probably noticed that gun-related killings have become a standard part of the newscast, alongside weather and sports.  A lot of reserachers and concerned people (see [here](http://www.gunviolencearchive.org/), [here](http://www.theguardian.com/news/datablog/2012/jul/22/gun-homicides-ownership-world-list), and [here](http://www.fatalencounters.org/)) are interested in collecting data on the details of these shootings, following the zeitgeist that big data begets solutions.  This problem of finding and curating gun violence data is a great fit for crowdsourcing. It is too much work for one person to do alone, and too hard for computers to do automatically. This semester, our weekly homework assignments will work to build a large database of gun violence incidents across the country. 
 
-We have already collected training data for you. Chris crawled a [NY Times blog about gun violence](http://nocera.blogs.nytimes.com/category/gun-report/) and gathered about 9,000 articles describing gun-related crimes. We are pulling examples of non-gun-related articles from a [local news corpus](ihttp://www.cs.jhu.edu/~anni/papers/alnc_lrec14.pdf) from Johns Hopkins.  In total you will have about 70K articles (~7 non-gun articles for every 1 gun article) to train your classifier. 
+As a preview of what is to come, your next assignments will cover the following steps in order to build a database:
+
+* Train a machine learning classifier to recognize whether or not an article describes gun violence
+* Crawl the web and download articles from local newspapers, and use your classifier to pull on the gun-related ones
+* Recruit crowdworkers to read the articles and pull out structured information (e.g. location, age of shooter)
+* Determine workers' trustworthiness, and filter out data from unreliable workers
+* Analyze the data in your database to understand and visualize trends in gun violence in the US
+* Analyze the articles in your database to understand and visualize trends in how gun violence is reported
+
+To start, we will be training a machine learning classifier. This is because, before anythign else, our database will need articles about gun violence. Getting these articles is easier said than done. We *could* grab a handful of articles manually, but in order to build a meaningful database, we want to be able to gather data from a lot of articles, too many to do by hand. This is a picture perfect use of machine learning. If we can start with a small number of examples of gun-related articles and of non-gun-related articles, we can train a model to predict for a million or more articles, with hopefully reasonable accuracy, which articles describe gun violence and which do not. Plus, even if it is just [dressed-up statistics](http://en.wikipedia.org/wiki/Data_science#Criticism), getting to use sexy names like "data science" and "machine learning" will make your mother proud.
+
+We have already collected training data for you. Chris crawled a [NY Times blog about gun violence](http://nocera.blogs.nytimes.com/category/gun-report/) and gathered about 9,000 articles describing gun-related crimes. (Next week, you will get to build a crawler yourself!) We are pulling examples of non-gun-related articles from a [local news corpus](ihttp://www.cs.jhu.edu/~anni/papers/alnc_lrec14.pdf) from Johns Hopkins.  In total you will have about 70K articles (~7 non-gun articles for every 1 gun article) to train your classifier. 
+	
+<h3>A bit about machine learning</h3>
+
+Ahhhh, machine learning. Is there any way to make your grandparents more afraid of you then to tell them you work in machine learning? Working on anything related to "artificial intelligence" has the positive side effect that people will assume your work might any moment break down the door of your office and level the entire city of Philadelphia, enslaving all the humans in its path. But, honestly, in its current state, the robot apocalyse is looking like it will be lead by sentient beings that are [slow-driving](http://www.theguardian.com/technology/2015/nov/13/google-self-driving-car-pulled-over-driving-too-slowly), [upsettingly racist](http://blogs.wsj.com/digits/2015/07/01/google-mistakenly-tags-black-people-as-gorillas-showing-limits-of-algorithms/), and with a [fairly uptight sense of humor](http://www.emnlp2015.org/proceedings/EMNLP/pdf/EMNLP284.pdf). (So maybe the grandparents need not be too worried...)
+
+This assignment should be a gentle introduction to machine learning, so don't worry if you've never been exposed to ML before. At its core, machine learning is the field of computer science concerned with algorithms that adapt by analyzing data.  A very simple case of machine learning is linear regression (the well-known *y = mx + b* you learned in middle school), where the you try to choose your parameters (*m* and *b*) in order to fit your data (*y* and *x*).  
+
+When you hear people talking about machine learning classification (what we will be doing in this assignment), you will probably here them talking in terms of **features** and **labels**. "Labels" are simply the thing you want to train the model to predict. So, in our case, we want to know whether or not an article is about gun violence, so we will have two possible labels: "Gun violece" and "Not gun violence". 
+
+"Features" refer generally to all of the things about the data that the computer will be able to use to make its prediction. Computers cannot simply read an article to decide if it is about guns. We, the engineers, need to break down the article into numerical values (or "features") that it can understand. We can imagine a lot of features about an article, some of which might be good for determining if the article is about guns, and others which will not be very good. E.g. the *length of the article* might be one feature, but probably not very related to gun-violence-ness. Another feature might be *whether or not the article contains the word 'gun'*, which is more likely to be useful to the classifier. In this assignment, you will look more closely at some types of features that can be used to represent an article in a useful way for the computer, and some different algorithms for using these features to make predictions.
 
 ##To Do
 
@@ -37,64 +57,46 @@ Your task will be to build a classifier following our guidelines, and [respond t
 
 	<h3>Rule Based Classifiers</h3>
 
-3. The simplest way to build a classification algorithm is to use a rule based system. Look at the function rule_based_classifier(). This function doesn't bother itself with mathy mumbo jumbo, it just looks for keywords it thinks are indicative of gun-related articles. If one of the keywords appears, it predicts "1" (or "gun-related") and otherwise it picks "0". Right now we use just one keyword, "shooting." Try running the code with this command and see how well this very simple method works.
+3. The simplest way to build a classification algorithm is to use a rule based system. Look at the function rule_based_classifier(). This function doesn't bother itself with mathy mumbo jumbo, it just looks for keywords it thinks are indicative of gun-related articles. (Here, our features are single words.) If one of the keywords appears, it predicts "1" (or "gun-related") and otherwise it picks "0". Right now we use just one keyword, "shooting." Try running the code with this command and see how well this very simple method works.
+	
+	<pre><code> python classifier_template.py articles </code></pre>
 
-	Now experiment with adding a few more keywords. See how high you can make the accuracy using this method. Experiment with combinations of keywords as well. Feel free to get creative with your conditional statements! You will answer a few questions about this in the questionnaire. 
-
-	<pre><code> python classifier_template.py articles.txt </code></pre>
-
-	<h3>Crash Course in Machine Learning</h3>
-
-4. To understand and complete the next part of the assignment, you’re going to first go through a quick crash course in Machine Learning. This isn't intended to give you a deep insight behind the dressed up statistics but instead will introduce you to the fundamental concepts and some ML vocabulary necessary for this assignment. 
-
-	So what is Machine Learning? 
-
-	<i>Definition by Tom Mitchell (1998): </i>
-
-	Machine Learning is the study of algorithms that
-	<ul> 
-	<li>Improve their performance P </li> 
-	<li>At some task T </li>
-	<li>With experience E. </li>
-	</ul>
-	A well-defined learning task is given by <b><P,T,E></b>.
-
-	More simply, Machine Learning is the field of computer science where algorithms are not explicitly programmed and adapt by analyzing data. A very simple case of Machine Learning is Linear Regression where the parameters of the line are adjusted to fit the data.  Machine Learning algorithms are broadly classified into two kinds – Supervised Learning and Unsupervised Learning algorithms. Supervised Learning algorithms can be further classified into Regression Algorithms and Classifiers. For this assignment we will only concern ourselves with Supervised Learning Algorithms, specifically Classifiers. 
-
-	A Classifier, much as the name suggests, takes in data about a certain entity and then makes a prediction as to which class that entity belongs to. For example, our classifier will take data in the form of whether certain words show up in an article and then predict if the article is a Gun violence related article or not. 
-
-	For any Supervised Machine Learning algorithm to learn, it requires labeled training data. The data usually looks something like this: 
-
-	<img src="assets/img/matrix.png" style="width: 300px;"/>
-
-	The data is structured as an <b><i>N x (M+1)</i></b> Matrix. Each row of the matrix corresponds to one entity (an individual data point). Thus we say this dataset has <b><i>N</i></b> instances. Each column corresponds to a "Feature". A feature is nothing but a particular attribute or quality about our entity. For example, the existence of the word "Gun" in an article is a feature. We can model this feature as a Boolean, where 0 corresponds to the word "Gun" missing from the article and 1 means that it exists. The matrix has <b><i>M+1</i></b> columns. The first <b><i>M</i></b> columns correspond to the <b><i>M</i></b> features observed about our data entities. The last column is our label for our data – i.e. the class that instance belongs to. In our Gun Article database, <b><i>N</i></b> corresponds to the 57,333 entries. The existence of a particular word (e.g. "Gun") in an article is a feature and 0 or 1 is the label corresponding to whether the article is about gun violence or not. So <b>x<sub>i</sub><sup>j</sup> </b>corresponds to the value of the <b>j<sup>th</sup></b> feature of the <b>i<sup>th</sup></b> instance. And <b>y<sub>i</sub></b> is the label of the <b>i<sup>th</sup></b> instance. 
-
-	So once we have data that is structured in this fashion, a ML classifier takes each of the instances and constructs a model, making associations between the feature values and the labels. Once this model is generated, the algorithm can take in instances without any labels and use the model to predict what label that instance might have. And viola! You are now Machine Learning literate!
-
+4. Now, experiment with adding a few more keywords. See how high you can make the accuracy using this method. Experiment with combinations of keywords as well. Feel free to get creative with your conditional statements! (E.g. maybe it makes sense only to predict "gun-related" if the article contains "shooting" but not "basketball"?) You will answer a few questions about this in the questionnaire. 
 
 	<h3>Decision Trees</h3>
-5. A more algorithmic approach to creating a rule-based classifier can be done using Decision Trees. Decision Trees are a class of Machine Learning algorithms that use a tree-like structure to model certain decisions and map them to their corresponding outcomes. The image below is a very simple example of a decision tree classifier.
+
+5. Playing guess-and-check with "if 'shooting' but not 'basketball' or `guns' but not 'roses' then predict 1...", it could take the rest of your life to build an efficient and accurate classifier. This isn't because the "if/else" method using keywords is inherently bad, it is actually quite good, but there are so many words to check, and every time you branch, the number of cases grows exponentially! Luckily, computers. Next, let's look at a more algorithmic approach to creating a classifier: Decision Trees. Decision Trees are a class of Machine Learning algorithms that use a tree-like structure to model certain decisions and map them to their corresponding outcomes. The image below is a very simple example of a decision tree classifier for predicting the weather. In short, a Decision Tree systematically looks at all the features you provide it, and determines whether or not to create a branching node based on this feature's value. E.g. in the DT below, the feature "Outlook" was chosen as the first node, and it has the possible values Sunny, Overcast and Rain. The tree is recursively built using this process until either 1) the classification at each of the leaf nodes is perfect, 2) we run out of features, 3) the tree is getting enormous and we decide to stop. If you are interested in learning more about Decision Trees, read [this chapter](http://www.cs.princeton.edu/courses/archive/spr07/cos424/papers/mitchell-dectrees.pdf) and look into the courses [CIS 419/519](http://www.cis.upenn.edu/~cis519/fall2015/) and [CIS 520](https://alliance.seas.upenn.edu/~cis520/wiki/).  We won't obsess over the math in this class, but suffice it to say, DTs are surprisingly good at classification tasks (much like this one!). 
 
 	<img src="assets/img/decision-tree.gif" style="width: 500px;"/>
 
-	A Decision Tree takes an unmapped feature from the list of features and creates a node. From that node, each branch corresponds to one of the possible values of that feature (i.e. the feature Outlook has the possible values Sunny, Overcast and Rain). The tree is recursively built using this process till the corresponding classification at each of the leaf nodes is perfect / we run out of features / the maximum height has been reached. There are different Decision Tree algorithms and they all fundamentally differ in the mathematics of which features they pick at each step. If you are interested in learning more about Decision Trees, read [this chapter](http://www.cs.princeton.edu/courses/archive/spr07/cos424/papers/mitchell-dectrees.pdf) and look into the courses [CIS 419/519](http://www.cis.upenn.edu/~cis519/fall2015/) and [CIS 520](https://alliance.seas.upenn.edu/~cis520/wiki/).
 
-	While we won’t obsess over the math that goes into how Decision Trees work, it’s useful to know that they’re surprising good at classification tasks (much like this one!). The rule based classifier you created using conditional statements in the function <code> rule_based_classifier()</code> was essentially a Decision Tree. Draw the Rule Based Decision Tree you came up with in part 3 using your favourite diagram-making tool. (I like [draw.io](https://www.draw.io/))
-
+6. The rule based classifier you created using conditional statements in the function <code> rule_based_classifier()</code> was essentially a Decision Tree. Draw the Rule Based Decision Tree you came up with in part 3 using your favourite diagram-making tool. (I like [draw.io](https://www.draw.io/))
 
 6. Let's now create an actual decision tree. You will need the [Graphviz](http://www.graphviz.org/) library installed for this to work as well as the most up to date version of the [Scikit-Learn Machine Learning package](http://scikit-learn.org/stable/). To make sure they're installed and upto date, run the following two commands:
 
-	<pre><code> pip install graphviz </code></pre>
-	<pre><code> pip install -U scikit-learn </code></pre>
+	<pre><code> pip install graphviz
+	pip install -U scikit-learn </code></pre>
 
-	Uncomment the 3 lines in the Decision Tree section and run the script. The code takes a couple seconds to run. The Decision Tree diagram generated is shown below.
+7. Uncomment the 3 lines in the Decision Tree section and run the script. The code takes a couple seconds to run. The Decision Tree diagram generated is shown below.
 
 	<img src="assets/img/decision-tree.png" style="width: 350px;"/>
 
-	This dummy tree classifies every article based on only the word "gun". Each box contains a couple values. For the root box, "gun <= 0.5" refers to the feature "gun" and the two branches - one each corresponding to the value of "gun" being less than 0.5 and more than 0.5. Because our data is binary, this is exactly the same as "gun" being 0 or 1. Gini corresponds to the [Gini Coefficient](https://en.wikipedia.org/wiki/Gini_coefficient) which is a statistical measure of uniformity. A lower Gini index corresponds to a more uniform dataset. "Samples" corresponds to the total number of instances falling under this classification of the tree. As we're looking at the root node, "Samples" equals the entire dataset of 57,333 entities. Value shows the classification split i.e. at the root node we have 50,129 non Gun Violence related articles and 7204 Gun violence related articles. Class is the dominant classification at this stage. It's also the label the Decision Tree would assign to our instance if the decision process terminated at the given node. This detail is unimportant for internal nodes but crucial for leaf nodes, which assign the final classification.
+	This dummy tree (sometimes called a "decision stump") classifies every article using only one feature: the word "gun". Each box contains a couple values: 
 
+	* **gun <= 0.5** -- This tells us the feature ("gun"). The left brach corresponse to the value of "gun" being less than 0.5 and the right corresponse to the value being more than 0.5. Because our data is binary, this is exactly the same as "gun" being 0 or 1. 
+	* **gini** -- This is the [Gini Coefficient](https://en.wikipedia.org/wiki/Gini_coefficient), a statistical measure of uncertainty. A lower Gini index corresponds to a more uniform dataset, and the more certain we are that our prediction at this point will be correct.
+	* **samples** -- This is the total number of instances falling under this classification of the tree. As we're looking at the root node, "Samples" equals the entire dataset of 57,333 entities. 
+	* **value** -- This shows us the classification split i.e. at the root node we have 50,129 non Gun Violence related articles and 7204 Gun violence related articles. 
+	* **class** -- this is the dominant classification at this stage. In other words, this is the label the Decision Tree would assign to our instance if the decision process terminated at the given node. This detail is unimportant for internal nodes but crucial for leaf nodes, which assign the final classification.
+	
 
-	Now look at <code>get_dtree_features()</code> and add the features you used in your Rule Based Classifier from part 2. Re-run the script and look at the generated Decision Tree. Compare it to the Decision Tree you drew. What are the similarities and differences? Did your accuracy improve? You will later note these observations in the questionnaire.
+8. Now look at <code>get_dtree_features()</code> and add the features you used in your Rule Based Classifier from part 2. Re-run the script and look at the generated Decision Tree. Compare it to the Decision Tree you drew. What are the similarities and differences? Did your accuracy improve? You will later note these observations in the questionnaire.
+
+9. Decision Trees are a very powerful classification tool but are prone to [overfitting](https://en.wikipedia.org/wiki/Overfitting). Play around with the code and add more keywords. You'll find your accuracy begins to decline after a certain point. One way to avoid this is limiting the height of the tree. This can be done using the <code>max_depth</code> attribute. Replace the <code>None</code> with an integer value (try a couple different values). 
+
+	<pre><code>  clf = DecisionTreeClassifier(max_depth=None)</code></pre>
+
+	Change both the keywords and the tree height and see how accurate you can make your classifier. You will submit the tree diagram output of your most accurate Decision Tree.
 
 	<div class="panel panel-danger">
 	<div class="panel-heading" markdown="1">
@@ -106,13 +108,6 @@ Your task will be to build a classifier following our guidelines, and [respond t
 
 	</div>
 	</div>
-
-7. Decision Trees are a very powerful classification tool but are prone to over fitting. Play around with the code and add more keywords. You'll find your accuracy begins to decline after a certain point. One easy way to avoid this is limiting the height of the tree. This can be done using the <code>max_depth</code> attribute. Replace the <code>None</code> with an integer value (try a couple different values). 
-
-	<pre><code>  clf = DecisionTreeClassifier(max_depth=None)</code></pre>
-
-	Change both the keywords and the tree height and see how accurate you can make your classifier. You will submit the tree diagram output of your most accurate Decision Tree.
-
 	<h3>Statistical Models</h3>
 8. You can get surprisingly far using just a few keywords. But why stop there? Why not use ALL THE KEYWORDS!? That is precisely what statistical models are for! 
 
