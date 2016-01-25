@@ -132,15 +132,28 @@
   date: 2016-01-27
   title: Python bootcamp 
   highlights:
+    - A rare Wednesday hands-on, for credit in-class exercise 
     - Bring your laptop 
     - Be sure to install IPython Notebook before the class
 -
   date: 2016-01-29
   title: Friday hands on activity
+  highlights:
+    - Walkthrough of building a classifier in Python
+    - We do the homework in front of your eyes
+    - Experiment design - training / test splits, overfitting, baselines, evaluation
+  reading:
+    -
+      title:  scikit-learn&#58; Machine Learning in Python (webpage with tutorials)
+      url: http://scikit-learn.org/stable/
+    -
+      author: Fabian Pedregosa and 15 others
+      title:  Scikit-learn&#58; Machine Learning in Python (short article in the Journal of Machine Learning Research)
+      url: http://www.jmlr.org/papers/volume12/pedregosa11a/pedregosa11a.pdf
 -
   date: 2016-02-01
   slides: http://crowdsourcing-class.org/slides/being-an-mturk-requester.pdf
-  title: The Mechanical Turk crowdsourcing platform - part 2
+  title: The Mechanical Turk crowdsourcing platform 
   highlights:
     - Amazon Mechanical Turk from the Requester's perspective&#58; Designing HITs, qualifications, pricing HITs, approving/rejecting
   reading:
@@ -151,7 +164,7 @@
       title:  Mechanical Turk blog
       url: http://mechanicalturk.typepad.com/blog/requester/
 -
-  date: 2016-01-27
+  date: 2016-02-03
   slides: http://crowdsourcing-class.org/slides/taxonomy-of-human-computation.pdf
   title: Taxonomy of crowdsourcing and human computation
   highlights:
