@@ -41,6 +41,7 @@ Resources
 ### Data sets
 - [Kaggle Datasets](https://www.kaggle.com/datasets)
 - [Data from Yahoo! Labs](https://webscope.sandbox.yahoo.com/catalog.php?datatype=l)
+- [Yelp Dataset Challenge](http://www.yelp.com/dataset_challenge/)
 - [Pete Skomoroch's delicious data sets](https://delicious.com/pskomoroch/dataset)
 
 ### Other Courses about Crowdsourcing 
