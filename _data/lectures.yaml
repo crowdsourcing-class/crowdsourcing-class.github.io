@@ -101,7 +101,11 @@
       url: http://crowdsourcing-class.org/readings/downloads/ethics/misclassification-of-employees-as-contractors.pdf
 -
   date: 2016-01-22
-  title: Friday hands on activity - Vimeo Tutorial and IPython Installation Walkthrough
+  title: Friday hands on activity
+  highlights:
+    -  HW2 Walkthrough
+    -  Vimeo Tutorial 
+    -  IPython Installation 
   reading:
     -
       author: Sierra Yit
@@ -129,7 +133,7 @@
   title: Python bootcamp 
   highlights:
     - Bring your laptop 
-    - Be sure to [install IPython Notebook](IPython_install_guide.html) before the class
+    - Be sure to install IPython Notebook before the class
 -
   date: 2016-01-29
   title: Friday hands on activity
