@@ -18,6 +18,7 @@ Resources
 - There is a [Coursera course on Python](https://www.coursera.org/course/interactivepython) running from Jan 9, 2016 through Feb 20, 2016.
 - I tend to find it easiest to learn languages with some application in mind, so I learned python using the [Intro to NLP in Python](http://www.nltk.org/book/). Highly recommend as a great way to learn two very useful skills at once!
 - Here's a [guide on installing IPython](IPython_install_guide.html).
+
 ###More advanced Python resources 
 
 - [Boto, a Python library for MTurk’s API](https://github.com/boto/boto). There is decent (although not perfect) documentation [here](http://boto.readthedocs.org/en/latest/ref/mturk.html) and a good tutorial available [here](http://www.toforge.com/2011/04/boto-mturk-tutorial-create-hits/).
