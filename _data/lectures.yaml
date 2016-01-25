@@ -113,6 +113,28 @@
       url: http://crowdsourcing-class.org/IPython_install_guide.html
 -
   date: 2016-01-25
+  slides: http://crowdsourcing-class.org/slides/machine-learning.pdf
+  title: Machine Learning part 1
+  highlights:
+    - Examples of machine learning applications
+    - Bayes Rule 
+    - Reasoning with Probabilities
+  reading:
+    -
+      author: Hilary Mason
+      title:  Intro to Machine Learning in Python
+      url: http://shop.oreilly.com/product/0636920017493.do
+-
+  date: 2016-01-27
+  title: Python bootcamp 
+  highlights:
+    - Bring your laptop 
+    - Be sure to [install IPython Notebook](IPython_install_guide.html) before the class
+-
+  date: 2016-01-29
+  title: Friday hands on activity
+-
+  date: 2016-02-01
   slides: http://crowdsourcing-class.org/slides/being-an-mturk-requester.pdf
   title: The Mechanical Turk crowdsourcing platform - part 2
   highlights:
@@ -145,19 +167,6 @@
 -
   date: 2016-01-29
   title: Friday hands on activity
--
-  date: 2016-02-01
-  slides: http://crowdsourcing-class.org/slides/machine-learning.pdf
-  title: Machine Learning part 1
-  highlights:
-    - Examples of machine learning applications
-    - Bayes Rule 
-    - Reasoning with Probabilities
-  reading:
-    -
-      author: Hilary Mason
-      title:  Intro to Machine Learning in Python
-      url: http://shop.oreilly.com/product/0636920017493.do
 -
   date: 2016-02-03
   title: Machine Learning - part 2
