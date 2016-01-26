@@ -421,19 +421,9 @@
       url: http://www.cis.upenn.edu/~ccb/publications/machine-translation-of-arabic-dialects.pdf
 -
   date: 2016-03-30
-  title: Crowdsourcing for Automatic Speech Recognition
-  slides: http://crowdsourcing-class.org/slides/crowdsourcing-speech-recognition.pdf
-  highlights:
-    - A high level overview of automatic speech recognition
-    - Using crowdsourcing to train ASR systems
-  reading:
-    -
-      author: Scott Novotney and Chris Callison-Burch
-      title:  Cheap, Fast and Good Enough&#58; Automatic Speech Recognition with Non-Expert Transcription
-      url: http://www.cis.upenn.edu/~ccb/publications/automatic-speech-recognition-with-non-expert-transcription.pdf
-    -
-      title:  Crowdsourcing for Speech Processing&#58; Applications to Data Collection, Transcription and Assessment
-      url: http://www.amazon.com/Crowdsourcing-Speech-Processing-Applications-Transcription/dp/1118358694/
+  title: The Wisdom of the Crowd Comes to Poetry
+  speaker: Al Filreis
+  speaker_url: http://writing.upenn.edu/~afilreis
 -
   date: 2016-04-01
   title: Friday hands on activity
@@ -514,7 +504,19 @@
       url: http://www.ipeirotis.com/wp-content/uploads/2014/11/STEP_A_Scalable_Testing_and_Evaluation_Platform.pdf
 -
   date: 2016-04-13
-  title: TBD
+  title: Crowdsourcing for Automatic Speech Recognition
+  slides: http://crowdsourcing-class.org/slides/crowdsourcing-speech-recognition.pdf
+  highlights:
+    - A high level overview of automatic speech recognition
+    - Using crowdsourcing to train ASR systems
+  reading:
+    -
+      author: Scott Novotney and Chris Callison-Burch
+      title:  Cheap, Fast and Good Enough&#58; Automatic Speech Recognition with Non-Expert Transcription
+      url: http://www.cis.upenn.edu/~ccb/publications/automatic-speech-recognition-with-non-expert-transcription.pdf
+    -
+      title:  Crowdsourcing for Speech Processing&#58; Applications to Data Collection, Transcription and Assessment
+      url: http://www.amazon.com/Crowdsourcing-Speech-Processing-Applications-Transcription/dp/1118358694/
 -
   date: 2016-04-15
   title: Friday hands on activity
