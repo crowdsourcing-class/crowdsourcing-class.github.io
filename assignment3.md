@@ -5,8 +5,8 @@ img_link: http://xkcd.com/353/
 caption: Hello world!
 title: Homework 3 | Python Bootcamp
 active_tab: homework
-release_date: 2016-01-29
-due_date: 2016-02-05
+release_date: 2016-01-26
+due_date: 2016-01-26
 ---
 
 <!-- Check whether the assignment is up to date -->
@@ -21,7 +21,7 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 
 
 <div class="alert alert-info">
-This assignment is due before class on {{ page.due_date | date: "%A, %B %-d, %Y" }}. No teams for this assignment, please do it on your own.
+This assignment will be completed in-class on {{ page.due_date | date: "%A, %B %-d, %Y" }}. 
 </div>
 
 
@@ -215,4 +215,18 @@ Write a python script that answers each of the following questions and prints th
 
 Thats it! Again, you can compare your answers against [our key](assignments/downloads/python-bootcamp/bootcamp-key.txt) to see if you have done things correctly. 
 
-Your code is due <b>Wednesday, September 17</b>. Please submit it via [turnin](https://alliance.seas.upenn.edu/~cis520/wiki/index.php?n=Resources.HomeworkSubmission) from the eniac machines. 
+Your code is due <b>{{ page.due_date | date: "%A, %B %-d, %Y" }}</b>. Please submit it via [turnin](https://alliance.seas.upenn.edu/~cis520/wiki/index.php?n=Resources.HomeworkSubmission) from the eniac machines. 
+
+
+
+<div class="panel panel-danger">
+<div class="panel-heading" markdown="1">
+#### Grading Rubric
+</div>
+<div class="panel-body" markdown="1">
+
+This assignment is worth 1 point toward your overall grade in the course.  It counts toward the participation component of your grade. The rubric for the assignment is given below.
+
+* 1 point - if you completed the assignment in class and submitted it by the end of the day.
+</div>
+</div>
