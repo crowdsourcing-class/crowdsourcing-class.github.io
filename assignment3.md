@@ -1,6 +1,7 @@
 ---
 layout: default
 img: python
+img_link: http://xkcd.com/353/
 caption: Hello world!
 title: Homework 3 | Python Bootcamp
 active_tab: homework
