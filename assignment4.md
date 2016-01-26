@@ -6,7 +6,6 @@ title: Homework 4 "Training a classifier"
 active_tab: homework
 release_date: 2016-01-29
 due_date: 2016-02-05
-
 ---
 
 <!-- Check whether the assignment is up to date -->
@@ -23,9 +22,9 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 <div class="alert alert-info">
 This assignment is due before class on {{ page.due_date | date: "%A, %B %-d, %Y" }}.
 </div>
-Training a classifier<span class="text-muted"> : Assignment 4</span> 
-=============================================================
 
+Training a classifier<span class="text-muted">: Assignment 4</span> 
+=============================================================
 If you watch the news, you have probably noticed that gun-related killings have become a standard part of the newscast, alongside weather and sports.  A lot of reserachers and concerned people (see [here](http://www.gunviolencearchive.org/), [here](http://www.theguardian.com/news/datablog/2012/jul/22/gun-homicides-ownership-world-list), and [here](http://www.fatalencounters.org/)) are interested in collecting data on the details of these shootings, following the zeitgeist that big data begets solutions.  This problem of finding and curating gun violence data is a great fit for crowdsourcing. It is too much work for one person to do alone, and too hard for computers to do automatically. This semester, our weekly homework assignments will work to build a large database of gun violence incidents across the country. 
 
 As a preview of what is to come, your next assignments will cover the following steps in order to build a database:
