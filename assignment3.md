@@ -3,7 +3,7 @@ layout: default
 img: python
 img_link: http://xkcd.com/353/
 caption: Hello world!
-title: Homework 3 | Python Bootcamp
+title: Homework 3 "Python Bootcamp"
 active_tab: homework
 release_date: 2016-01-27
 due_date: 2016-01-27
