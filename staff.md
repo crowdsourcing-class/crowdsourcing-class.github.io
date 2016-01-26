@@ -6,6 +6,9 @@ active_tab: staff
 
 You may contact all members of the course staff by emailing <a href="mailto:nets213-staff@googlegroups.com">nets213-staff@googlegroups.com</a>.
 
+Office hours are given on the [calendar page](calendar.html).
+
+
 <div class="container-fluid">
   <div class="row">
   {% for staff in site.data.staff %}
@@ -16,8 +19,6 @@ You may contact all members of the course staff by emailing <a href="mailto:nets
 	{% else %}<b>{{ staff.name }}</b><br />{% endif %}
         {% if staff.extra_title %}<b>{{ staff.extra_title }}</b><br />{% endif %}
         <a href="mailto:{{ staff.email }}">{{ staff.email }}</a><br />
-       	{% if staff.office_hours %}Office Hours: {{ staff.office_hours }} <br />{% endif %}
-       	{% if staff.office_hours_location %} Location: {{ staff.office_hours_location }} <br />{% endif %}
       </div>
   {% endfor %}
   </div>
