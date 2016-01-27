@@ -47,8 +47,8 @@ $ cat file.txt #print the entire contents of file.txt
 $ sort file.txt # sort the lines in file.txt (by default, alphabetically and ascending)
 $ sort -r file.txt # sort the lines in file.txt in reverse order
 $ sort -nr file.txt # sort the lines in file.txt numerically and in reverse order
-$ uniq file.txt # remove duplicate lines (only words if you use "sort" first)
-$ uniq -c file.txt # print out uniq lines and the number of times each one occurs
+$ uniq file.txt # remove duplicate lines (only works if you use "sort" first)
+$ uniq -c file.txt # print out unique lines and the number of times each one occurs
 $ cut -f 1 file.txt # print the first column of the file.txt (assumes columns are tab-separated)
 $ cut -f 1 -d ',' file.csv # print the first column of file.csv, split on comma instead of tab
 $ grep "phrase" file.txt # print out lines in file.txt that contain the string "phrase"
