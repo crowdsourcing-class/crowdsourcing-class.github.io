@@ -233,6 +233,7 @@ Below are the questions that you will be asked to answer about the company or pr
 This assignment is worth 10 points of your overall grade in the course.  The rubric for the assignment is given below.
 
 * 5 points - answering the survey questions thoughtfully.
+  - Extra credit (up to 1 point) - if you conduct an interview with someone who provides the services, or if you make a substantial contribution to the service yourself. 
 * 5 points total for the video
   - 2 point for relevance to the themes of the class
   - 1 point for the narration
