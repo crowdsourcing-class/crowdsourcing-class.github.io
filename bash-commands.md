@@ -1,8 +1,7 @@
 ---
 layout: default
-img: python
-img_link: http://xkcd.com/353/
-caption: Hello world!
+img: tar
+caption: Life skills
 title: Bash Cheat Sheet
 active_tab: 
 release_date: 
@@ -40,6 +39,8 @@ $ head file.txt #print the first 10 lines of file.txt
 $ head -NUM file.txt #print the first NUM lines of file.txt (e.g. head -3 prints first 3 lines)
 $ tail -NUM file.txt #print the last NUM lines of file.txt (e.g. tail -3 prints last 3 lines)
 $ cat file.txt #print the entire contents of file.txt
+$ tar -xzvf file.tar.gz #unzip a tar archived file
+$ tar -czvf files.tar.gz files/ #create a tar archived file containing the contents of the directory files/
 {% endhighlight %}
 
 ####Exploring and reorganizing file contents
