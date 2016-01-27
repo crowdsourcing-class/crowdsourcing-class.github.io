@@ -67,4 +67,10 @@ $ cat file.txt | sort | uniq -c | sort -nr # print out the unique lines in file.
 $ cat file.txt | grep "phrase" | wc -l # how many lines in this file contain the phrase "phrase" 
 $ cat file.txt | sort | uniq -c | sort -nr | head -100 | shuf | head -10 # take a random sample of 10 of the top 100 most frequent lines
 {% endhighlight %}
+Another cool trick you can do with Bash is write to files! This makes a life a lot easier then dragging your cursor copying large chunks of text from the terminal window. File Output redirection can be done using the '>' or '>>' operators. '>' let's you write the output of a command (or set of commands) to an output file, overwritting any existing content in that file. If that file doesn't exist, it creates a new one. '>>' is a little more gentle, and appends to the end of an existing file (creating a new one in case the file doesn't exist).
+{% highlight tcsh %}
+$ grep "Hello" file.txt > output.txt # Stores every line containing "Hello" in file.txt in a new file output.txt
+$ cat file.txt | sort | uniq -c | sort -nr > output.txt # stores the unique lines of file.txt, with the most frequent line and its count at the top, in output.txt
+$ cat output.txt | wc -l >> output.txt # Adds the line count of output.txt to the end of output.txt
+{% endhighlight %}
 
