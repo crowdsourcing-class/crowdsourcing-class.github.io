@@ -218,7 +218,6 @@ Thats it! Again, you can compare your answers against [our key](assignments/down
 Your code is due <b>{{ page.due_date | date: "%A, %B %-d, %Y" }}</b>. Please submit it via [turnin](https://alliance.seas.upenn.edu/~cis520/wiki/index.php?n=Resources.HomeworkSubmission) from the eniac machines. 
 
 
-
 <div class="panel panel-danger">
 <div class="panel-heading" markdown="1">
 #### Grading Rubric
@@ -230,3 +229,18 @@ This assignment is worth 1 point toward your overall grade in the course.  It co
 * 1 point - if you completed the assignment in class and submitted it by the end of the day.
 </div>
 </div>
+
+###Bonus! Bash bootcamp.
+
+Knowing more than one scripting language increases your productivity 1 zillion fold (proven fact). If you breezed through the python bootcamp and are sitting and twiddling your thumbs, try brushing up your bash programming skills by doing the following questions using the same wine.txt file. Many of them are the same or similar to what you just did in python. Think about how these operations are conceptually different when you write in bash compared to python. Check out this [cheat sheet](http://crowdsourcing-class.org/bash-commands.html) of bash commands to get you started.
+
+1. How many lines are there in the file?
+2. What is the distribution over star ratings?
+3. How many reviews contain the word 'a'?
+4. How many reviews contain the word 'fruit'?
+5. How many reviews contain the word 'mineral'?
+6. Make a new file containing the full text of all the reviews, with one word per line. (You don't have to do this in python, but I think that is the easiest way. If you want to try a new command-line tool, check out [sed](http://stackoverflow.com/questions/1853009/replace-all-whitespace-with-a-line-break-paragraph-mark-to-make-a-word-list)). 
+7. How many total words appear in your list?
+8. How many unique words appear in your list?
+9. What are the 10 most common words used across all of the reviews, and how many times is each used?
+10. How many times does the word "red" appear? (Be careful of capitalization!)
