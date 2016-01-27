@@ -155,6 +155,7 @@ This assignment is worth 5 points of your overall grade in the course.  The rubr
 * 1 points - Implement a statistical unigram model
 * 2 points - Answer the survey questions
 * Extra credit (1 point) - Reverse engineer the optimal decision tree as a rule based classifier.
+* Extra credit (1 point) - To the student(s) who produce the classifier with the higest average test accuracy.
 
 </div>
 </div>
