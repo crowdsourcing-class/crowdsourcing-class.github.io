@@ -25,6 +25,7 @@ $ ls # list all the files in this directory
 $ ls some/directory # list all the files in some/directory
 $ pwd # print the directory where you are currently working ("print working directory")
 $ cd some/directory # go to some/directory ("change directory")
+$ cd ~/ # take me home ("change directories to the user's home directory")
 $ mkdir new_directory # create a new diretory called new_directory ("make directory")
 $ rm file.txt # remove file.txt (be careful, it will be gone for good).
 $ rm -r directory # remove directory and all the files within it (again, gone for good).
