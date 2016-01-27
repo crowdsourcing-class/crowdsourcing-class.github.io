@@ -38,7 +38,7 @@ $ wc -l file.txt #print the number of lines in file.txt
 $ file file.txt #print the type of the file (e.g. is it a text file? compressed archive?)
 $ head file.txt #print the first 10 lines of file.txt
 $ head -NUM file.txt #print the first NUM lines of file.txt (e.g. head -3 prints first 3 lines)
-$ tail -NUM file.txt #print the last NUM lines of file.txt (e.g. head -3 prints first 3 lines)
+$ tail -NUM file.txt #print the last NUM lines of file.txt (e.g. tail -3 prints last 3 lines)
 $ cat file.txt #print the entire contents of file.txt
 {% endhighlight %}
 
