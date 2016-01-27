@@ -184,7 +184,7 @@ You can open, read, and write files using the aptly-named open(), read(), and wr
 
 ###4. Text processing in Python
 
-For this part, you will need to submit your code to answer the following questions. 
+For this part, you will need to submit your code to answer the following questions. You should download the [iPython notebook](assignments/downloads/python-bootcamp/IPythonBootcamp.ipynb) file, and do all of your work there. You can submit your entire notebook at the end of the assignment.
  
 We will be playing with a small but oh so wonderful data set of wine reviews! You can download the data [here](assignments/downloads/python-bootcamp/data.tgz). You can unpack it as follows, and should see two files:
 
@@ -215,7 +215,7 @@ Write a python script that answers each of the following questions and prints th
 
 Thats it! Again, you can compare your answers against [our key](assignments/downloads/python-bootcamp/bootcamp-key.txt) to see if you have done things correctly. 
 
-Your code is due <b>{{ page.due_date | date: "%A, %B %-d, %Y" }}</b>. Please submit it via [turnin](https://alliance.seas.upenn.edu/~cis520/wiki/index.php?n=Resources.HomeworkSubmission) from the eniac machines. 
+Your code is due <b>{{ page.due_date | date: "%A, %B %-d, %Y" }}</b>. Please submit your entire iPython notebook via [turnin](https://alliance.seas.upenn.edu/~cis520/wiki/index.php?n=Resources.HomeworkSubmission) from the eniac machines. 
 
 
 <div class="panel panel-danger">
