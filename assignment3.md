@@ -39,7 +39,7 @@ Your turnin command will look like this
 
 
 {% highlight tcsh %}
-$ turnin -c nets213 -p python-bootcamp -v bootcamp.py{% endhighlight %}
+$ turnin -c nets213 -p python-bootcamp -v IPython_Bootcamp.ipynb{% endhighlight %}
 
 You do not need to turn in anything for the first 3 sections, but you should read to read through them and walk through the exercises so that you can let us know if you are having trouble.
 
