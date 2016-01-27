@@ -6,7 +6,7 @@ caption: Hello world!
 title: Homework 3 "Python Bootcamp"
 active_tab: homework
 release_date: 2016-01-27
-due_date: 2016-01-27T16:00:00EST
+due_date: 2016-01-26T14:00:00EST
 ---
 
 <!-- Check whether the assignment is up to date -->
