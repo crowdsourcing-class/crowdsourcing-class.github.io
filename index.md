@@ -29,7 +29,7 @@ The assignment has multiple deliverables.
 The {{deliverable.description}} is due before class on {{ deliverable.due_date | date: "%A, %B %-d, %Y" }}.  
 {% endfor %}
 {% else %}
-It is due on {{ page.due_date | date: "%A, %B %-d, %Y" }}.
+It is due on {{ page.due_date | date: "%A, %B %-d, %Y before %H:%M" }}.
 {% endif %}
 </div>
 {% endif %}
