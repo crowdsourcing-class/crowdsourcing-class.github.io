@@ -21,7 +21,7 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 
 
 <div class="alert alert-info">
-This assignment will be completed in-class on {{ page.due_date | date: "%A, %B %-d, %Y" }}. 
+This assignment is due on {{ page.due_date | date: "%A, %B %-d, %Y" }}. 
 </div>
 
 
