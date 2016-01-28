@@ -74,3 +74,12 @@ $ cat file.txt | sort | uniq -c | sort -nr > output.txt # stores the unique line
 $ cat output.txt | wc -l >> output.txt # Appends the line count of output.txt to the end of output.txt
 {% endhighlight %}
 
+####Downloading Files
+To download the contents of any URL (whether it be a file, HTML page or even a picture), there's a very useful command on Mac and Linux.
+{% highlight tcsh %}
+$ wget http://www.crowdsourcing-class.org/assignment1.html # Downloads the contents of the URL as th file 'assignment1.html' to the current directory (used in Linux)
+{% endhighlight %}
+{% highlight tcsh %}
+$ curl -O http://www.crowdsourcing-class.org/assignment1.html # Downloads the contents of the URL as th file 'assignment1.html' to the current directory (used in Mac)
+{% endhighlight %}
+

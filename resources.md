@@ -18,6 +18,7 @@ Resources
 - There is a [Coursera course on Python](https://www.coursera.org/course/interactivepython) running from Jan 9, 2016 through Feb 20, 2016.
 - I tend to find it easiest to learn languages with some application in mind, so I learned python using the [Intro to NLP in Python](http://www.nltk.org/book/). Highly recommend as a great way to learn two very useful skills at once!
 - Here's a [guide on installing IPython](IPython_install_guide.html).
+- You can also use the [Installation Guide for the standard Linux (Ubuntu) VM](vm-instructions.html).
 
 ###More advanced Python resources 
 
