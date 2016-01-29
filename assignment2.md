@@ -5,7 +5,7 @@ caption: Crowdsource your startup!
 title: Homework 2 "Market Research"
 active_tab: homework
 release_date: 2016-01-22
-due_date: 2016-01-29
+due_date: 2016-02-12T14:00:00EST
 deliverables:
     -
       description: written survey
