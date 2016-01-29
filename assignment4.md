@@ -138,8 +138,7 @@ And with that- Good luck! Start early and have fun! If robots are going to run t
 
 Don't forget to answer all of the questions in the [questionnaire](https://docs.google.com/forms/d/1YOCm-XTw3-BFGD2tr6YwCcyxQpzd0uGcYAdxTu4iQ54/viewform?usp=send_form) when you are done, and to submit your final classifier code, a picture of the tree you drew and the generated diagram of your optimal Decision Tree via turnin. You will need to put all of the files in one directory and submit the entire directory at once, like below:
 
-<pre><code>
- $ mkdir assignment4 # make a directory
+<pre><code>$ mkdir assignment4 # make a directory
  $ mv classifier.py rule-based-tree.png decision-tree.png assignment4 # move all of your files into that directory
  $ turnin -c nets213 -p classifier -v assignment4/* # submit the whole directory
 </code></pre>
