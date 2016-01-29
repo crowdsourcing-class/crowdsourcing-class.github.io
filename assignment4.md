@@ -138,7 +138,7 @@ If you are interested in learning more about Decision Trees, read [this chapter]
 	
 	This is what is referred to in NLP as a "unigram features." 
 
-	Try it and then record your experience in the [questionnarie](https://docs.google.com/forms/d/1YOCm-XTw3-BFGD2tr6YwCcyxQpzd0uGcYAdxTu4iQ54/viewform?usp=send_form). For your classifier analysis, you need to look at feature weights that have been learned, and will need to see the predictions the classifier makes for individual articles. Look at the [functions available to you](http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html) through the LogisiticRegression classifier to get you started. 
+	Try it and then record your experience in the [questionnaire](https://docs.google.com/forms/d/1YOCm-XTw3-BFGD2tr6YwCcyxQpzd0uGcYAdxTu4iQ54/viewform?usp=send_form). For your classifier analysis, you need to look at feature weights that have been learned, and will need to see the predictions the classifier makes for individual articles. Look at the [functions available to you](http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html) through the LogisiticRegression classifier to get you started. 
 
 And with that- Good luck! Start early and have fun! If robots are going to run the world, they need to first know the difference between articles about gun violence and articles about the weather. So go! Make it happen! 
 
