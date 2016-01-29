@@ -245,7 +245,7 @@ This assignment is worth 10 points of your overall grade in the course.  The rub
   - 1 point for the narration
   - 1 point for the quality of the audio (we recommend using an external microphone)
   - 1 point for a compelling visual accompaniment  
-* Extra credit (up to 2 points) - if your video is selected for presentation in class, you will receive extra credit.
+  - Extra credit (up to 2 points) - if your video is selected for presentation in class, you will receive extra credit.
 </div>
 </div>
  
