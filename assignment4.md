@@ -60,7 +60,7 @@ Your task will be to build a classifier following our guidelines, and [respond t
 
 	<h3>Rule Based Classifiers</h3>
 
-3. The simplest way to build a classification algorithm is to use a rule based system. Look at the function rule_based_classifier(). This function doesn't bother itself with mathy mumbo jumbo, it just looks for keywords it thinks are indicative of gun-related articles. (Here, our features are single words.) If one of the keywords appears, it predicts "1" (or "gun-related") and otherwise it picks "0". Right now we use just one keyword, "shooting." Try running the code with this command and see how well this very simple method works.
+3. The simplest way to build a classification algorithm is to use a rule based system. Look at the function rule_based_classifier(). This function doesn't bother itself with mathy mumbo jumbo, it just looks for keywords it thinks are indicative of gun-related articles. (Here, our features are single words.) If one of the keywords appears, it predicts "1" (or "gun-related") and otherwise it picks "0". Right now we use just one keyword, "guns". Try running the code with this command and see how well this very simple method works.
 	
 	<pre><code> python classifier_template.py articles </code></pre>
 
