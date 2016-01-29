@@ -102,7 +102,7 @@ def rule_based_classifier(data):
 	for label, text in data : 
 		prediction = '0'
 		#TODO add more keywords, see how well they do alone and in combination
-		if "guns" in text : prediction = '1'
+		if "gun" in text : prediction = '1'
 		if prediction == label : correct += 1
 		total += 1
 	print 'Rule-based classifier accuracy: %.05f'%(correct / total)
