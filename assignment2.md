@@ -237,7 +237,8 @@ This assignment is worth 10 points of your overall grade in the course.  The rub
   - 1 point for explaining who makes up the crowd, whether they are experts or non-experts, what incentives the company provides to get them to participate
   - 1 point for explaining any quality issues that arise from the use of crowdsourcing and how the company addresses it
   - 1 point for discussing scalability, or controversial issues
-  - 1 point for an entertaining, exciting or otherwise engaging writeup 
+  - 1 point for answering all of survey questions
+  - Extra credit (up to 1 point) - for an especially entertaining, exciting or otherwise engaging writeup 
   - Extra credit (up to 1 point) - if you conduct an interview with someone who provides the services, or if you make a substantial contribution to the service yourself. 
 * 5 points total for the video
   - 2 point for relevance to the themes of the class
