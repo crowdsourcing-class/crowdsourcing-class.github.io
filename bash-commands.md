@@ -67,4 +67,19 @@ $ cat file.txt | sort | uniq -c | sort -nr # print out the unique lines in file.
 $ cat file.txt | grep "phrase" | wc -l # how many lines in this file contain the phrase "phrase" 
 $ cat file.txt | sort | uniq -c | sort -nr | head -100 | shuf | head -10 # take a random sample of 10 of the top 100 most frequent lines
 {% endhighlight %}
+Bash can also write to files! This makes a life a lot easier than dragging your cursor, copying large chunks of text from the terminal window. File Output Redirection can be done using the <code> > </code> or <code> >> </code> operators. 
+{% highlight tcsh %}
+$ grep "Hello" file.txt > output.txt # Stores every line containing "Hello" in file.txt in a new file output.txt
+$ cat file.txt | sort | uniq -c | sort -nr > output.txt # stores the unique lines of file.txt, with the most frequent line and its count at the top, in output.txt. Overwrites the old contents of output.txt (Careful!)
+$ cat output.txt | wc -l >> output.txt # Appends the line count of output.txt to the end of output.txt
+{% endhighlight %}
+
+####Downloading Files
+To download the contents of any URL (whether it be a file, HTML page or even a picture), there's a very useful command on Mac and Linux.
+{% highlight tcsh %}
+$ wget http://www.crowdsourcing-class.org/assignment1.html # Downloads the contents of the URL as th file 'assignment1.html' to the current directory (used in Linux)
+{% endhighlight %}
+{% highlight tcsh %}
+$ curl -O http://www.crowdsourcing-class.org/assignment1.html # Downloads the contents of the URL as th file 'assignment1.html' to the current directory (used in Mac)
+{% endhighlight %}
 

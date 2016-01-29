@@ -36,7 +36,7 @@ As a preview of what is to come, your next assignments will cover the following 
 * Analyze the data in your database to understand and visualize trends in gun violence in the US
 * Analyze the articles in your database to understand and visualize trends in how gun violence is reported
 
-To start, we will be training a machine learning classifier. This is because, before anythign else, our database will need articles about gun violence. Getting these articles is easier said than done. We *could* grab a handful of articles manually, but in order to build a meaningful database, we want to be able to gather data from a lot of articles, too many to do by hand. This is a picture perfect use of machine learning. If we can start with a small number of examples of gun-related articles and of non-gun-related articles, we can train a model to predict for a million or more articles, with hopefully reasonable accuracy, which articles describe gun violence and which do not. Plus, even if it is just [dressed-up statistics](http://en.wikipedia.org/wiki/Data_science#Criticism), getting to use sexy names like "data science" and "machine learning" will make your mother proud.
+To start, we will be training a machine learning classifier. This is because, before anything else, our database will need articles about gun violence. Getting these articles is easier said than done. We *could* grab a handful of articles manually, but in order to build a meaningful database, we want to be able to gather data from a lot of articles, too many to do by hand. This is a picture perfect use of machine learning. If we can start with a small number of examples of gun-related articles and of non-gun-related articles, we can train a model to predict for a million or more articles, with hopefully reasonable accuracy, which articles describe gun violence and which do not. Plus, even if it is just [dressed-up statistics](http://en.wikipedia.org/wiki/Data_science#Criticism), getting to use sexy names like "data science" and "machine learning" will make your mother proud.
 
 We have already collected training data for you. Chris crawled a [NY Times blog about gun violence](http://nocera.blogs.nytimes.com/category/gun-report/) and gathered about 9,000 articles describing gun-related crimes. (Next week, you will get to build a crawler yourself!) We are pulling examples of non-gun-related articles from a [local news corpus](ihttp://www.cs.jhu.edu/~anni/papers/alnc_lrec14.pdf) from Johns Hopkins.  In total you will have about 70K articles (~7 non-gun articles for every 1 gun article) to train your classifier. 
 	
@@ -60,7 +60,7 @@ Your task will be to build a classifier following our guidelines, and [respond t
 
 	<h3>Rule Based Classifiers</h3>
 
-3. The simplest way to build a classification algorithm is to use a rule based system. Look at the function rule_based_classifier(). This function doesn't bother itself with mathy mumbo jumbo, it just looks for keywords it thinks are indicative of gun-related articles. (Here, our features are single words.) If one of the keywords appears, it predicts "1" (or "gun-related") and otherwise it picks "0". Right now we use just one keyword, "shooting." Try running the code with this command and see how well this very simple method works.
+3. The simplest way to build a classification algorithm is to use a rule based system. Look at the function rule_based_classifier(). This function doesn't bother itself with mathy mumbo jumbo, it just looks for keywords it thinks are indicative of gun-related articles. (Here, our features are single words.) If one of the keywords appears, it predicts "1" (or "gun-related") and otherwise it picks "0". Right now we use just one keyword, "gun". Try running the code with this command and see how well this very simple method works.
 	
 	<pre><code> python classifier_template.py articles </code></pre>
 
@@ -159,7 +159,6 @@ This assignment is worth 5 points of your overall grade in the course.  The rubr
 * 1 points - Implement a statistical unigram model
 * 2 points - Answer the survey questions
 * Extra credit (1 point) - Reverse engineer the optimal decision tree as a rule based classifier.
-* Extra credit (1 point) - To the student(s) who produce the classifier with the higest average test accuracy.
 
 </div>
 </div>

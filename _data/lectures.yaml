@@ -101,7 +101,8 @@
       url: http://crowdsourcing-class.org/readings/downloads/ethics/misclassification-of-employees-as-contractors.pdf
 -
   date: 2016-01-22
-  title: Friday hands on activity
+  title: Friday hands-on activity
+  speaker: Sierra Yit
   highlights:
     -  HW2 Walkthrough
     -  Vimeo Tutorial 
@@ -131,13 +132,14 @@
 -
   date: 2016-01-27
   title: Python bootcamp 
+  speaker: Ellie Pavlick
   highlights:
     - A rare Wednesday hands-on, for credit in-class exercise 
     - Bring your laptop 
     - Be sure to install IPython Notebook before the class
 -
   date: 2016-01-29
-  title: Friday hands on activity
+  title: Friday hands-on activity
   highlights:
     - Walkthrough of building a classifier in Python
     - We do the homework in front of your eyes
@@ -183,7 +185,7 @@
       url : http://crowdsourcing-class.org/resources.html
 -
   date: 2016-01-29
-  title: Friday hands on activity
+  title: Friday hands-on activity
 -
   date: 2016-02-03
   title: Machine Learning - part 2
@@ -203,7 +205,7 @@
       url: http://www.jmlr.org/papers/volume12/pedregosa11a/pedregosa11a.pdf
 -
   date: 2016-02-05
-  title: Friday hands on activity
+  title: Friday hands-on activity
 -
   date: 2016-02-08
   slides: http://crowdsourcing-class.org/slides/programming-the-crowd.pdf
@@ -237,7 +239,7 @@
       url: http://groups.csail.mit.edu/uid/turkit/
 -
   date: 2016-02-12
-  title: Friday hands on activity
+  title: Friday hands-on activity
 -
   date: 2016-02-15
   slides: http://crowdsourcing-class.org/slides/crowdsourcing-and-HCI.pdf
@@ -275,7 +277,7 @@
   title: Drop deadline
 -
   date: 2016-02-19
-  title: Friday hands on activity
+  title: Friday hands-on activity
 -
   date: 2016-02-22
   title: In-class presentations&#58; Pitch your term project ideas 
@@ -324,7 +326,7 @@
       url: readings/downloads/econ/financial-incentives-and-the-performance-of-crowds.pdf
 -
   date: 2016-03-04
-  title: Friday hands on activity
+  title: Friday hands-on activity
 -
   date: 2016-03-07
   title: No classes - Spring Break
@@ -361,7 +363,7 @@
   speaker_url: http://www.seas.upenn.edu/~epavlick/
 -
   date: 2016-03-18
-  title: Friday hands on activity
+  title: Friday hands-on activity
 -
   date: 2016-03-16
   slides: http://crowdsourcing-class.org/slides/twitter-first-story-detection.pdf
@@ -398,7 +400,7 @@
   title: Withdraw deadline
 -
   date: 2016-03-25
-  title: Friday hands on activity
+  title: Friday hands-on activity
 -
   date: 2016-03-28
   title: Crowdsourcing Translation
@@ -426,7 +428,7 @@
   speaker_url: http://writing.upenn.edu/~afilreis
 -
   date: 2016-04-01
-  title: Friday hands on activity
+  title: Friday hands-on activity
 -
   date: 2016-04-04
   title: Social Sciences and Human Subjects Research
@@ -485,7 +487,7 @@
       url: http://blog.okcupid.com/index.php/we-experiment-on-human-beings/
 -
   date: 2016-04-08
-  title: Friday hands on activity
+  title: Friday hands-on activity
 -
   date: 2016-04-11
   title: Expert Crowds
@@ -519,7 +521,7 @@
       url: http://www.amazon.com/Crowdsourcing-Speech-Processing-Applications-Transcription/dp/1118358694/
 -
   date: 2016-04-15
-  title: Friday hands on activity
+  title: Friday hands-on activity
 -
   date: 2016-04-18
   title: TBD
@@ -528,7 +530,7 @@
   title: TBD
 -
   date: 2016-04-22
-  title: Friday hands on activity
+  title: Friday hands-on activity
 -
   date: 2016-04-25
   title: TBD

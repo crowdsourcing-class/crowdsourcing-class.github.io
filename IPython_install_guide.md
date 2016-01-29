@@ -50,11 +50,13 @@ You can use pip to install a very useful Python tool called [virtualenv](http://
 To create a new virtual environment, give the environment a name like `nets213` and run the command (you only need to do this once):
 
 `cd ~/`
+
 `virtualenv nets213`
 
 Note that it will install it in a specific directory, so whenever you want to activate it, be sure to go back to that directory.  To activate your virtual environment run this command:
 
 `cd ~/`
+
 `source nets213/bin/activate`
 
 You will then see that the prompt on your Terminal window is prefixed with *(nets213)*.  That shows you that you're in the nets213 virtual environment. 

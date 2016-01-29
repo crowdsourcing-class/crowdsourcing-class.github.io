@@ -5,7 +5,7 @@ caption: Crowdsource your startup!
 title: Homework 2 "Market Research"
 active_tab: homework
 release_date: 2016-01-22
-due_date: 2016-01-29
+due_date: 2016-02-12T14:00:00EST
 deliverables:
     -
       description: written survey
@@ -129,7 +129,7 @@ You are also welcome to profile a [relevant company](http://www.crowdsourcing.or
 
 This assignment has two deliverables:
 
-1. Answering [a questionnaire](https://docs.google.com/forms/d/1fxe5cwKqM5M2J6NGAsqC30hvNQ0JX4woJV0zOZhRNsU/viewform?usp=send_form) about the company or project that you are researching. This is due before class on {{ page.deliverables[0].due_date | date: "%A, %B %-d, %Y" }}.
+1. Answering [a questionnaire](https://docs.google.com/forms/d/1fxe5cwKqM5M2J6NGAsqC30hvNQ0JX4woJV0zOZhRNsU/viewform?usp=send_form) about the company or project that you are researching. This is due before class on {{ page.deliverables[0].due_date | date: "%A, %B %-d, %Y" }}.  If you are working with a partner, only one of you needs to submit the questionnaire. 
 2. A video presentation about the company.  Several of the best videos will be selected for in-class presentations on Fridays.  Teams whose videos are selected will receive extra credit. his is due before class on {{ page.deliverables[1].due_date | date: "%A, %B %-d, %Y" }}.
 
 This assignment can be done individually or in pairs.

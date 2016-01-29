@@ -6,7 +6,7 @@ caption: Hello world!
 title: Homework 3 "Python Bootcamp"
 active_tab: homework
 release_date: 2016-01-27
-due_date: 2016-01-27
+due_date: 2016-01-29T12:00:00EST
 ---
 
 <!-- Check whether the assignment is up to date -->
@@ -21,7 +21,7 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 
 
 <div class="alert alert-info">
-This assignment will be completed in-class on {{ page.due_date | date: "%A, %B %-d, %Y" }}. 
+This assignment is due on {{ page.due_date | date: "%A, %B %-d, %Y" }}. 
 </div>
 
 
@@ -33,13 +33,13 @@ Links to tutorials and other Python resources are posted on the [resources page]
 Python Bootcamp <span class="text-muted">: Assignment 3</span> 
 =============================================================
 This week we will start writing some code! This assignment is designed to be a crash-course to get you up to speed on the level of Python you will need to know in order to do the remainder of the assignments. For those of you that already know Python, great. You can skip to section 4. For those that do not, its easiest to learn by doing, so please start early so we can help you get on board. You want to spend the semester focusing on the crowdsourcing and machine learning, not the indenting and semicoloning. 
-The only deliverable for this assignment will be your script, bootcamp.py. Running your script should print the answers to each of the questions in part 4 of the tutorial, separated by a single blank line. You will submit your code via turnin on the eniac machines. If you have not used turnin before, you can follow the instructions [here](https://alliance.seas.upenn.edu/~cis520/wiki/index.php?n=Resources.HomeworkSubmission). 
+The only deliverable for this assignment will be your iPython Notebook file. Running your script should print the answers to each of the questions in part 4 of the tutorial, separated by a single blank line. You will submit your code via turnin on the eniac machines. If you have not used turnin before, you can follow the instructions [here](https://alliance.seas.upenn.edu/~cis520/wiki/index.php?n=Resources.HomeworkSubmission). 
 
 Your turnin command will look like this
 
 
 {% highlight tcsh %}
-$ turnin -c nets213 -p python-bootcamp -v bootcamp.py{% endhighlight %}
+$ turnin -c nets213 -p python-bootcamp -v IPython_Bootcamp.ipynb{% endhighlight %}
 
 You do not need to turn in anything for the first 3 sections, but you should read to read through them and walk through the exercises so that you can let us know if you are having trouble.
 
