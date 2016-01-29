@@ -124,7 +124,16 @@ def get_top_features(X, y, dv):
 	#the DictVectorizer object remembers which column number corresponds to which feature, and return the feature names in the correct order
 	feature_names = dv.get_feature_names() 
 
-	#TODO: You will have to write code here to get the weights from the classifier, and print out the weights of the features you are interested in
+	#The below code will get the weights from the classifier, and print out the weights of the features you are interested in
+	features = [] #this will be a list of (feature_idx, weight) tuples
+	for i,w in enumerate(clf.coef_[0]): 
+		features.append((i,w))
+	#Sort the list by values, with the largest ones first
+	features = sorted(features, key=lambda e: e[1], reverse=True)
+
+        #Print out the feature names and thier weights
+	for i,w in features:
+	  print '%s\t%s'%(feature_names[i], w)
 
 def get_misclassified_examples(y, X, texts) :
 	x_train, x_test, y_train, y_test, train_texts, test_texts = train_test_split(X, y, texts)
