@@ -185,10 +185,7 @@
       url : http://crowdsourcing-class.org/resources.html
 -
   date: 2016-01-29
-  title: Friday hands-on activity
--
-  date: 2016-02-03
-  title: Machine Learning - part 2
+  title: Friday hands-on activity&colon; Machine Learning - part 2
   slides: http://crowdsourcing-class.org/slides/machine-learning-part-2.pdf
   highlights:
     - Labeled training data - what it is, where to get it, and how to put it in a format that a classifier will be able to use
