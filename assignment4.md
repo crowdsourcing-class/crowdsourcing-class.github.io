@@ -159,7 +159,7 @@ Your code and questions are due <b>{{ page.due_date | date: "%A, %B %-d, %Y" }}<
 <div class="panel-body" markdown="1">
 
 * Why do I get an error message saying *sh: dot: command not found*? 
-* You need to install graphviz. 
+* You need to install [graphviz](http://graphviz.org/Download.php). 
 
 * Why is my decision tree taking forever to train? 
 * You may need to set a limit to its depth. Try changing *clf = DecisionTreeClassifier(max_depth=None)* to *clf = DecisionTreeClassifier(max_depth=3)*
