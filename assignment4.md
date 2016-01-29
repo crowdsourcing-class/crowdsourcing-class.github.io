@@ -68,9 +68,15 @@ Your task will be to build a classifier following our guidelines, and [respond t
 
 	<h3>Decision Trees</h3>
 
-5. Playing guess-and-check with "if 'shot' but not 'basketball' or `guns' but not 'roses' then predict 1...", it could take the rest of your life to build an efficient and accurate classifier. This isn't because the "if/else" method using keywords is inherently bad, it is actually quite good, but there are so many words to check, and every time you branch, the number of cases grows exponentially! Luckily, computers. Next, let's look at a more algorithmic approach to creating a classifier: Decision Trees. Decision Trees are a class of Machine Learning algorithms that use a tree-like structure to model certain decisions and map them to their corresponding outcomes. The image below is a very simple example of a decision tree classifier for predicting the weather. In short, a Decision Tree systematically looks at all the features you provide it, and determines whether or not to create a branching node based on this feature's value. E.g. in the DT below, the feature "Outlook" was chosen as the first node, and it has the possible values Sunny, Overcast and Rain. The tree is recursively built using this process until either 1) the classification at each of the leaf nodes is perfect, 2) we run out of features, 3) the tree is getting enormous and we decide to stop. If you are interested in learning more about Decision Trees, read [this chapter](http://www.cs.princeton.edu/courses/archive/spr07/cos424/papers/mitchell-dectrees.pdf) and look into the courses [CIS 419/519](http://www.cis.upenn.edu/~cis519/fall2015/) and [CIS 520](https://alliance.seas.upenn.edu/~cis520/wiki/).  We won't obsess over the math in this class, but suffice it to say, DTs are surprisingly good at classification tasks (much like this one!). 
+5. Playing guess-and-check with "if 'shot' but not 'basketball' or `guns' but not 'roses' then predict 1...", it could take the rest of your life to build an efficient and accurate classifier. This isn't because the "if/else" method using keywords is inherently bad, it is actually quite good, but there are so many words to check, and every time you branch, the number of cases grows exponentially! Luckily, computers. Next, let's look at a more algorithmic approach to creating a classifier: Decision Trees. Decision Trees are a class of Machine Learning algorithms that use a tree-like structure to model certain decisions and map them to their corresponding outcomes. The image below is a very simple example of a decision tree classifier for predicting the weather. In short, a Decision Tree systematically looks at all the features you provide it, and determines whether or not to create a branching node based on this feature's value. E.g. in the DT below, the feature "Outlook" was chosen as the first node, and it has the possible values Sunny, Overcast and Rain. The tree is recursively built using this process until either 
 
-	<img src="assets/img/decision-tree.gif" style="width: 500px;"/>
+* the classification at each of the leaf nodes is perfect, 
+* we run out of features,
+* the tree is getting enormous and we decide to stop. 
+
+If you are interested in learning more about Decision Trees, read [this chapter](http://www.cs.princeton.edu/courses/archive/spr07/cos424/papers/mitchell-dectrees.pdf) and look into the courses [CIS 419/519](http://www.cis.upenn.edu/~cis519/fall2015/) and [CIS 520](https://alliance.seas.upenn.edu/~cis520/wiki/).  We won't obsess over the math in this class, but suffice it to say, DTs are surprisingly good at classification tasks (much like this one!). 
+
+<img src="assets/img/decision-tree.gif" style="width: 500px;"/>
 
 
 6. The rule based classifier you created using conditional statements in the function <code> rule_based_classifier()</code> was essentially a Decision Tree. Draw the Rule Based Decision Tree you came up with in part 3 using your favourite diagram-making tool. (I like [draw.io](https://www.draw.io/))
@@ -144,6 +150,24 @@ Don't forget to answer all of the questions in the [questionnaire](https://docs.
 </code></pre>
 
 Your code and questions are due <b>{{ page.due_date | date: "%A, %B %-d, %Y" }}</b>. You can work in pairs on this assignment.  You must declare the fact that you are working together when you turn in the questionnaire.  If you are working with a partner, only one of you needs to turn in the code, but you must specify who will be turning it in on the questionnaire. You cannot add or change partners after the code and questionnaire are submitted.
+
+
+<div class="panel panel-info">
+<div class="panel-heading" markdown="1">
+#### FAQ
+</div>
+<div class="panel-body" markdown="1">
+
+* Why do I get an error message saying *sh: dot: command not found*? 
+* You need to install graphviz. 
+
+* Why is my decision tree taking forever to train? 
+* You may need to set a limit to its depth. Try changing *clf = DecisionTreeClassifier(max_depth=None)* to *clf = DecisionTreeClassifier(max_depth=3)*
+
+* Where can I learn more about feature extraction?
+* Check out [this tutorial on feature extraction in scikit learn](http://scikit-learn.org/stable/modules/feature_extraction.html).
+</div>
+</div>
 
 <div class="panel panel-danger">
 <div class="panel-heading" markdown="1">
