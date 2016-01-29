@@ -5,7 +5,7 @@ caption: Crowdsourcing FTW!
 title: Homework 4 "Training a classifier"
 active_tab: homework
 release_date: 2016-01-29
-due_date: 2016-02-05
+due_date: 2016-02-05T12:00:00EST
 ---
 
 <!-- Check whether the assignment is up to date -->
@@ -31,7 +31,7 @@ As a preview of what is to come, your next assignments will cover the following 
 
 * Train a machine learning classifier to recognize whether or not an article describes gun violence
 * Crawl the web and download articles from local newspapers, and use your classifier to pull on the gun-related ones
-* Recruit crowdworkers to read the articles and pull out structured information (e.g. location, age of shooter)
+* Recruit crowd workers to read the articles and pull out structured information (e.g. location, age of shooter)
 * Determine workers' trustworthiness, and filter out data from unreliable workers
 * Analyze the data in your database to understand and visualize trends in gun violence in the US
 * Analyze the articles in your database to understand and visualize trends in how gun violence is reported
@@ -46,7 +46,7 @@ Ahhhh, machine learning. Is there any way to make your grandparents more afraid 
 
 This assignment should be a gentle introduction to machine learning, so don't worry if you've never been exposed to ML before. At its core, machine learning is the field of computer science concerned with algorithms that adapt by analyzing data.  A very simple case of machine learning is linear regression (the well-known *y = mx + b* you learned in middle school), where the you try to choose your parameters (*m* and *b*) in order to fit your data (*y* and *x*).  
 
-When you hear people talking about machine learning classification (what we will be doing in this assignment), you will probably here them talking in terms of **features** and **labels**. "Labels" are simply the thing you want to train the model to predict. So, in our case, we want to know whether or not an article is about gun violence, so we will have two possible labels: "Gun violece" and "Not gun violence". 
+When you hear people talking about machine learning classification (what we will be doing in this assignment), you will probably here them talking in terms of **features** and **labels**. "Labels" are simply the thing you want to train the model to predict. So, in our case, we want to know whether or not an article is about gun violence, so we will have two possible labels: "Gun violence" and "Not gun violence". 
 
 "Features" refer generally to all of the things about the data that the computer will be able to use to make its prediction. Computers cannot simply read an article to decide if it is about guns. We, the engineers, need to break down the article into numerical values (or "features") that it can understand. We can imagine a lot of features about an article, some of which might be good for determining if the article is about guns, and others which will not be very good. E.g. the *length of the article* might be one feature, but probably not very related to gun-violence-ness. Another feature might be *whether or not the article contains the word 'gun'*, which is more likely to be useful to the classifier. In this assignment, you will look more closely at some types of features that can be used to represent an article in a useful way for the computer, and some different algorithms for using these features to make predictions.
 
