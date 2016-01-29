@@ -233,6 +233,11 @@ Below are the questions that you will be asked to answer about the company or pr
 This assignment is worth 10 points of your overall grade in the course.  The rubric for the assignment is given below.
 
 * 5 points - answering the survey questions thoughtfully.
+  - 1 point for clearly describing what role crowdsourcing plays in the company or project
+  - 1 point for explaining who makes up the crowd, whether they are experts or non-experts, what incentives the company provides to get them to participate
+  - 1 point for explaining any quality issues that arise from the use of crowdsourcing and how the company addresses it
+  - 1 point for discussing scalability, or controversial issues
+  - 1 point for an entertaining, exciting or otherwise engaging writeup 
   - Extra credit (up to 1 point) - if you conduct an interview with someone who provides the services, or if you make a substantial contribution to the service yourself. 
 * 5 points total for the video
   - 2 point for relevance to the themes of the class
