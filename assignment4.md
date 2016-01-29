@@ -136,9 +136,12 @@ Your task will be to build a classifier following our guidelines, and [respond t
 
 And with that- Good luck! Start early and have fun! If robots are going to run the world, they need to first know the difference between articles about gun violence and articles about the weather. So go! Make it happen! 
 
-Don't forget to answer all of the questions in the [questionnaire](https://docs.google.com/forms/d/1YOCm-XTw3-BFGD2tr6YwCcyxQpzd0uGcYAdxTu4iQ54/viewform?usp=send_form) when you are done, and to submit your final classifier code, a picture of the tree you drew and the generated diagram of your optimal Decision Tree via turnin. 
+Don't forget to answer all of the questions in the [questionnaire](https://docs.google.com/forms/d/1YOCm-XTw3-BFGD2tr6YwCcyxQpzd0uGcYAdxTu4iQ54/viewform?usp=send_form) when you are done, and to submit your final classifier code, a picture of the tree you drew and the generated diagram of your optimal Decision Tree via turnin. You will need to put all of the files in one directory and submit the entire directory at once, like below:
 
-<pre><code>$ turnin -c nets213 -p classifier -v classifier.py rule-based-tree.png decision-tree.png</code></pre>
+<pre><code> $ mkdir assignment4 # make a directory
+ $ mv classifier.py rule-based-tree.png decision-tree.png assignment4 # move all of your files into that directory
+ $ turnin -c nets213 -p classifier -v assignment4/* # submit the whole directory
+</code></pre>
 
 Your code and questions are due <b>{{ page.due_date | date: "%A, %B %-d, %Y" }}</b>. You can work in pairs on this assignment.  You must declare the fact that you are working together when you turn in the questionnaire.  If you are working with a partner, only one of you needs to turn in the code, but you must specify who will be turning it in on the questionnaire. You cannot add or change partners after the code and questionnaire are submitted.
 
