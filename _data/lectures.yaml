@@ -139,7 +139,8 @@
     - Be sure to install IPython Notebook before the class
 -
   date: 2016-01-29
-  title: Friday hands-on activity
+  title: Friday hands-on activity (machine learning part 2)
+  slides: http://crowdsourcing-class.org/slides/machine-learning-part-2.pdf
   highlights:
     - Walkthrough of building a classifier in Python
     - We do the homework in front of your eyes
@@ -154,8 +155,8 @@
       url: http://www.jmlr.org/papers/volume12/pedregosa11a/pedregosa11a.pdf
 -
   date: 2016-02-01
-  slides: http://crowdsourcing-class.org/slides/being-an-mturk-requester.pdf
-  title: The Mechanical Turk crowdsourcing platform 
+  slides: http://crowdsourcing-class.org/slides/amazon-mechanical-turk.pdf
+  title: The Amazon Mechanical Turk crowdsourcing platform 
   highlights:
     - Amazon Mechanical Turk from the Requester's perspective&#58; Designing HITs, qualifications, pricing HITs, approving/rejecting
   reading:
