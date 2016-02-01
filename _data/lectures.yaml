@@ -139,9 +139,10 @@
     - Be sure to install IPython Notebook before the class
 -
   date: 2016-01-29
-  title: Friday hands-on activity (machine learning part 2)
+  title: Friday hands-on activity&colon; Machine Learning - part 2
   slides: http://crowdsourcing-class.org/slides/machine-learning-part-2.pdf
   highlights:
+    - Labeled training data - what it is, where to get it, and how to put it in a format that a classifier will be able to use
     - Walkthrough of building a classifier in Python
     - We do the homework in front of your eyes
     - Experiment design - training / test splits, overfitting, baselines, evaluation
@@ -184,23 +185,6 @@
     -
       title: Python tutorials and references
       url : http://crowdsourcing-class.org/resources.html
--
-  date: 2016-01-29
-  title: Friday hands-on activity&colon; Machine Learning - part 2
-  slides: http://crowdsourcing-class.org/slides/machine-learning-part-2.pdf
-  highlights:
-    - Labeled training data - what it is, where to get it, and how to put it in a format that a classifier will be able to use
-    - Walkthrough of building a classifier in Python
-    - We do the homework in front of your eyes
-    - Experiment design - training / test splits, overfitting, baselines, evaluation
-  reading:
-    -
-      title:  scikit-learn&#58; Machine Learning in Python (webpage with tutorials)
-      url: http://scikit-learn.org/stable/
-    -
-      author: Fabian Pedregosa and 15 others
-      title:  Scikit-learn&#58; Machine Learning in Python (short article in the Journal of Machine Learning Research)
-      url: http://www.jmlr.org/papers/volume12/pedregosa11a/pedregosa11a.pdf
 -
   date: 2016-02-05
   title: Friday hands-on activity
