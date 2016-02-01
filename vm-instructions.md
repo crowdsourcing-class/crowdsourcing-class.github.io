@@ -23,7 +23,7 @@ Double click on the <code>.exe</code> or <code>.dmg</code> file you just downloa
 
 ####Downloading the Disk Image
 
-We've prepped a Ubuntu Disk Image for you with all the libraries required for the course pre-installed. In case you have to install other libraries, it should be pretty simple as we're using a standard Linux distribution. Download the Disk Image [here](https://s3.amazonaws.com/nets213vm/NETS+213.vdi.zip). Double-click the <code>.zip</code> and extract the compressed Disk Image file "NETS 213.vdi".
+We've prepped a Ubuntu Disk Image for you with all the libraries required for the course pre-installed. In case you have to install other libraries, it should be pretty simple as we're using a standard Linux distribution. Download the Disk Image [here](https://s3.amazonaws.com/nets213vm/NETS-213.vdi).
 
 ####Getting started with VirtualBox
 * Open up VirtualBox and select "New"
@@ -33,7 +33,7 @@ We've prepped a Ubuntu Disk Image for you with all the libraries required for th
 	* Version : Ubuntu (64-bit)
 	* Memory : Set it to 2 GB (2048 MB)
 	* Select the "Use an existing virtual hard disk file"
-	* Choose the "NETS 213.vdi" file
+	* Choose the "NETS-213.vdi" file
 	* Create
 * Once created, double click on the "NETS 213" VM created.
 * The login password is "nets213". This will also be the password you use with the <code>sudo</code> command.
