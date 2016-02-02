@@ -33,6 +33,7 @@ Resources
 - [Tutorial on making videos](video_vimeo_tutorial.html) and uploading them to vimeo
 - Ellie's favorite [bash commands](http://crowdsourcing-class.org/bash-commands.html) for basic data processing/exploration
 - [Apply for Amazon Web Services credits](https://aws.amazon.com/education/awseducate/apply/)
+- [Philadelphia Open Data API](http://phlapi.com)
 
 ### Artificial Intelligence tutorials and APIs
 - [Microsoft's Project Oxford APIs](https://www.projectoxford.ai).  These APIs include functions for computer vision, face recognition, speech recognition and generation. 
