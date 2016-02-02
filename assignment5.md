@@ -28,20 +28,72 @@ Last week, you built a classifier to predict whether or not an article was about
 
 Predicting on data "in the wild" is much harder than predicting on the training data. There are a million reasons for this. To name a few:
 
--- Your training data contained 10% gun-related articles. If you download all the articles posted on a given day, it is probably not the case (let's hope to God!) that 10% of them describe gun violence. So you are now looking for a tiny needle in a huge haystack, whereas your classifier is expecting something very different().  
--- Your training data was nicely cleaned and contained sentences like: <i>"After a 14-year-old was gunned down Thursday night it appears Chicago went 42 hours without a shooting."</i> Scraping articles from the web can yield senences like this beauty: <i>"Boy, 3, among 13 injured in Chicago park shooting .zone Boy, 3, among 13 injured in Chicago park shooting #adgSocialTools #adgSocialTools div.social_header #adgSocialTools div.social_main #adgSocialTools div.social_main img, #adgSocialTools div.social_footer img #adgSocialTools div.social_footer #adgSocialTools div.social_footer..."</i>
+* Your training data contained 10% gun-related articles. If you download all the articles posted on a given day, it is probably not the case (let's hope to God!) that 10% of them describe gun violence. So you are now looking for a tiny needle in a huge haystack, whereas your classifier is expecting something very [different](assets/img/needle-in-a-haystack.png).  
+* Your training data was nicely cleaned and contained sentences like: <i>"After a 14-year-old was gunned down Thursday night it appears Chicago went 42 hours without a shooting."</i> Scraping articles from the web can yield senences like this beauty: <i>"Boy, 3, among 13 injured in Chicago park shooting .zone Boy, 3, among 13 injured in Chicago park shooting #adgSocialTools #adgSocialTools div.social_header #adgSocialTools div.social_main #adgSocialTools div.social_main img, #adgSocialTools div.social_footer img #adgSocialTools div.social_footer #adgSocialTools div.social_footer..."</i>
 
 You can probably imagine that that 99% accuracy on cross validation may have been misleading. So this week we will get a real estimate of how well your classifier can do by taking the articles that your classifier thinks are gun-related, and asking workers on Crowdflower whether they agree or disagree with these predictions.
 
 This assignment has three parts:
 
 1. You will need to build a crawler to collect news articles from the web. Some of these will hopefully be about gun violence, but many will not. 
-1. You will need to run your classifier from last week on your crawled articles, and pull out the articles that the classifier thinks are related to guns.
-2. You will create a task on [Crowdflower](http://www.crowdflower.com/) to have workers assess your predictions. You will use their labels to recalculate your classifier's accuracy.
+2. You will need to run your classifier from last week on your crawled articles, and pull out the articles that the classifier thinks are related to guns.
+3. You will create a task on [Crowdflower](http://www.crowdflower.com/) to have workers assess your predictions. You will use their labels to recalculate your classifier's accuracy.
+
+**Extra Credit**: We will run a little competition on the assignment for extra credit. The task is simple: whoever can deliver the largest list of urls to acutal, gun-violence articles will get extra credit, and much loving praise. This can mean you build a super-accurate classifier, or a super effective crawler, or both. We will describe the details of the competition at the end of the assignment. 
 
 ###Part 1: Pub(lication) Crawl
 
-Part 1 of your assignment is to build a web crawler! This is up there as one of the most important life skills you will ever learn, alongside balancing a budget and feeding yourself. And like balancing a budget, you don't need to know how to build a great web crawler, just something quick-and-dirty that gets the job done. This section of the assignment will introduce a few tools for crawling webpages, and then let you loose. You can pick your favorite tool, or you apply several of them. The ultimate goal is to collect as many gunviolence articles as you can. 
+Part 1 of your assignment is to build a web crawler! This is up there as one of the most important life skills you will ever learn, alongside balancing a budget and feeding yourself. And like most essential life skills, you don't need to be great at building a web crawler, you just need to know enough to get by. This section of the assignment will introduce two tools for collecting urls from the web, and walk you through running the templates we provide. Then, we will ask you to extend and improve what we show you in order to collect as many gun-violence article urls as you can.
+
+1. **Download the code** First things first: download the [code templates](http://crowdsourcing-class.org/assignments/downloads/assignment5.tgz) for this assignment. When you unpack the archive, you should see the following directories. 
+	
+	<pre><code> $ wget http://crowdsourcing-class.org/assignments/downloads/assignment5.tgz
+	$ tar -xzvf asssignment5.tgz 
+	$ ls assignment5	
+	part_1_crawling part_2_classification</code></pre>
+
+2. **Read through python_crawler.py** We will first deal with the code in part_1_crawling. You should see that this directory contains three files, like below. Open the file called python_crawler.py and read through the code and comments. You don't need to understand every line (TBH, I copy and paste code from the internet all the time without understanding it) but you should have an idea of what is happening, since you will need to modify it later. 
+
+	<pre><code> $ ls assignment5/part_1_crawler/
+	bing_api.py  get_clean_text.py  python_crawler.py </code></pre>
+
+3. **Use Python to crawl Gun Report blog** At a high level, the code in python_crawler.py is a basic web crawler. It will begin on a webpage that we specify, and it will look for all of the hyperlinks on that page. Everytime it finds a link, it will print the link, and then follow it. When if follows a link, it will start doing the exact same thing-- looking for more links, printing them, and then following them. For people who have taken algorithms, you will recognize this as a standard [depth-first search](https://en.wikipedia.org/wiki/Depth-first_search). For those of you who haven't, you will recognize this as a perfectly common sense way to look for links, regardless of fancy names. The code written now scrapes links from the [Gun Report Blog](http://nocera.blogs.nytimes.com/category/gun-report/). This is the same site Chris used to collect training data for your assignment last week. Trying running the code, and see what output you get. The below commands will run the crawler and print the links to a file called gun_report_urls.txt. The second two lines will remove duplicated urls in your list. Note this crawler is not very fast. For me, running the code took about 10 minutes and produced 8,884 unique urls.
+
+	<pre><code> $ python python_crawler.py > gun_report_urls.txt
+	$ cat gun_report_urls.txt | sort | uniq > tmp #remove duplicate urls and put all the unique ones in tmp
+	$ mv tmp gun_report_urls.txt # replace the old list of urls with the new list of only unique urls
+	$ wc -l gun_report_urls.txt # print the number of lines in the file.
+	8884 </code></pre>
+
+4. **Modify python_crawler.py** You should now modify the code in python_crawler.py in order to crawl the [Gun Violence Archive](http://www.gunviolencearchive.org/) website. You should save the urls you collect to a file called gun_archive_urls.txt, and submit this file when you turnin your assignment.
+
+5. **Sign up to access the Bing API** Crawling websites like we did above is a common way to collect data from the web. Another very common way is through the use of APIs. Here, we will show you how to use the Bing search API. In short, and API allows your program to issue web queries in much the same way you do when you use a browser. To use the Bing API, you will need to register with Microsoft [here](https://datamarket.azure.com/dataset/bing/search) (sign up for the free account). Once you are registered, go to **My Account** > **My Data** and click on the **Use** link next to **Bing Search API**. You can play with issuing different search queries in the browser here if you want. But, mainly, you will need to **Show Primary Account Key** and copy and paste your key into the bing_api.py script where it says YOUR KEY HERE.
+
+6. **Use the Bing API to collect urls** Like before, read through the code in bing_api.py and try to understand what is happening. Again, you will need to modify it, so familiarize yourself with the url request structure, and the parameters that you are passing. You can run the code similarly to before, as follows:
+
+	<pre><code> $ python bing_api.py > bing_urls.txt
+	$ cat bing_urls.txt | sort | uniq > tmp #remove duplicate urls and put all the unique ones in tmp
+	$ mv tmp bing_urls.txt # replace the old list of urls with the new list of only unique urls
+	$ wc -l bing_urls.txt # print the number of lines in the file.
+	140 </code></pre>
+
+7. **Modify bing_api.py** Now, edit the bing_api.py file in two ways. First, try at least three different queries, and output the results of each one. Second, change the printing to print not just the url, but also the title and date associated with the article. Your script should print the three fields (url/date/title) separated by tabs. You should print the output to a file called bing_api_results.txt, and submit this file when you turn in your assignment.
+
+8. **Go forth and do** At this point, you have a lot of tools at your disposal to collect urls and articles. You should try to collect as many as possible. At a minimum, you are **required** to submit the urls you collect from the Gun Violence Archive in Step 4, and the Bing API urls you collect using the three queries in Step 7. We will give extra credit for students who collect the most actual gun violence urls. Below are some ideas you might want to consider for increasing the number of urls you collect:
+
+	* Crawl entire news sites (e.g. New York Times) and grab all articles (not just gun-related ones). Then rely on your classifier to filter the list for you. You can get a list of local news sites [here](http://newspapermap.com/).
+	* Adapt your python crawler to scrape other gun violence awareness sites like [Fatal Encounters](http://www.fatalencounters.org/) or [the Guardian's gun violence site](http://www.theguardian.com/news/datablog/2012/jul/22/gun-homicides-ownership-world-list) 
+	* Change the date ranges you search using Bing in order to dig up older articles
+	* Try fancier crawling tools like [scrapy](http://scrapy.org/) or [Selenium](http://selenium-python.readthedocs.org/)
+
+9. **Download and install beautiful soup** At this point, you have done a lot of strenuous work to collect an awesome list of urls of articles. But, ultimately, you don't just want the urls, you want the articles themselves. So now, we will use a package called [Beautiful Soup](http://www.crummy.com/software/BeautifulSoup/). Although better tools exist, BeautifulSoup is probably the most popular python package for parsing html, so it is a useful tool to know. You can install it as follows:
+
+	<pre><code> $ sudo pip install bs4</code></pre>
+
+10. **Extract the article text from your urls** We have provided a script that will extract the text for you, and output a file with one article per line in the format "url \t article_text". In order to run it, you should gather up all the urls you have collected and put them in a file with one url per line. Then run the command below. In Part 2, you will use the output of get_clean_text.py as input to your classifier.
+
+	<pre><code> cat list_of_urls.txt | python get_clean_text.py > articles_and_urls.txt </code></pre>
+
 
 ###Part 2: Taking shots in the dark
 
