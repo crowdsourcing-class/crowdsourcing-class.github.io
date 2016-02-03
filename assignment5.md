@@ -66,17 +66,17 @@ Part 1 of your assignment is to build a web crawler! This is up there as one of 
 	bing_api.py  get_clean_text.py  python_crawler.py </code></pre>
 
 3. **Use Python to crawl Gun Report blog** At a high level, the code in python_crawler.py is a basic web crawler. It will begin on a webpage that we specify, and it will look for all of the hyperlinks on that page. Everytime it finds a link, it will print the link, and then follow it. When if follows a link, it will start doing the exact same thing-- looking for more links, printing them, and then following them. For people who have taken algorithms, you will recognize this as a standard [depth-first search](https://en.wikipedia.org/wiki/Depth-first_search). For those of you who haven't, you will recognize this as a perfectly common sense way to look for links, regardless of fancy names. The code written now scrapes links from the [Gun Report Blog](http://nocera.blogs.nytimes.com/category/gun-report/). This is the same site Chris used to collect training data for your assignment last week. Try running the code, and see what output you get. The below commands will run the crawler and print the links to a file called gun_report_urls.txt. The second two lines will remove duplicated urls in your list. Note this crawler is not very fast. For me, running the code took about 10 minutes and produced 8,884 unique urls.
-
-* Note: some OS X users will experience technical difficulties here because of the lxml package. To resolve, before running the code below, you'll want to make sure the package is installed and the path is correct. To check, run <code>which lxml</code>. If a path prints out in your terminal, you're safe to proceed. If no path prints out, then first enable Xcode to install command line developer tools. Some of you may have done this already. Do so by running <code>xcode-select --install</code>. Once that finishes, run <code>sudo easy_install lxml</code>. You'll likely see some kind of output that looks like: "Using build configuration of libxslt 1.1.28
+	* Note: some OS X users will experience technical difficulties here because of the lxml package. To resolve, before running the code below, you'll want to make sure the package is installed and the path is correct. To check, run <code>which lxml</code>. If a path prints out in your terminal, you're safe to proceed. If no path prints out, then first enable Xcode to install command line developer tools. Some of you may have done this already. Do so by running <code>xcode-select --install</code>. Once that finishes, run <code>sudo easy_install lxml</code>. You'll likely see some kind of output that looks like: "Using build configuration of libxslt 1.1.28
 Adding lxml 3.5.0 to easy-install.pth file." Your dependencies will update as well and then you're safe to proceed. 
 
-* If when you try to run python_crawler.py, it tells you that there's no module for something you're trying to import, your first step to debug should be using your favorite package manager (pip or conda) to install it. Ex: <code>pip install (thing you're missing)</code>. 
+	* If when you try to run python_crawler.py, it tells you that there's no module for something you're trying to import, your first step to debug should be using your favorite package manager (pip or conda) to install it. Ex: <code>pip install (thing you're missing)</code>. 
 
 	<pre><code> $ python python_crawler.py > gun_report_urls.txt
 	$ cat gun_report_urls.txt | sort | uniq > tmp #remove duplicate urls and put all the unique ones in tmp
 	$ mv tmp gun_report_urls.txt # replace the old list of urls with the new list of only unique urls
 	$ wc -l gun_report_urls.txt # print the number of lines in the file.
 	8884 </code></pre>
+
 
 4. **Modify python_crawler.py** You should now modify the code in python_crawler.py in order to crawl the [Gun Violence Archive](http://www.gunviolencearchive.org/) website. You should save the urls you collect to a file called gun_archive_urls.txt, and submit this file when you turnin your assignment.
 
