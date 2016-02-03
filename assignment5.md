@@ -18,7 +18,7 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 
 
 <div class="alert alert-info">
-  This assignment is due before class on Wednesday, October 1st.</div>
+  This assignment is due before class on Friday, February 12th.</div>
 
 
 Become a Requester<span class="text-muted"> : Assignment 5</span> 
@@ -40,6 +40,14 @@ This assignment has three parts:
 3. You will create a task on [Crowdflower](http://www.crowdflower.com/) to have workers assess your predictions. You will use their labels to recalculate your classifier's accuracy.
 
 **Extra Credit**: We will run a little competition on the assignment for extra credit. The task is simple: whoever can deliver the largest list of urls to acutal, gun-violence articles will get extra credit, and much loving praise. This can mean you build a super-accurate classifier, or a super effective crawler, or both. We will describe the details of the competition at the end of the assignment. 
+
+**Note:** We recommend using your account on biglab for this assignment. Depending on how successful you are in Part 1, you might end up with large numbers of files to process. The biglab machines have more memory than eniac (and I assume more than your laptop...) and will save you from running into memory issues (which can result in tragic situations, like not being able to watch netflix while your code runs...). You can use ssh to access your account on biglab like below. 
+
+	$ ssh epavlick@biglab.seas.upenn.edu
+	epavlick@biglab.seas.upenn.edu's password: 
+	SEAS SuSE Linux 13.1
+	$ mkdir assignment5 # make a directory to work in
+	$ cd assignment5 # go into that directory and being working
 
 <h3>Part 1: Pub(lication) Crawl</h3>
 
@@ -79,7 +87,7 @@ Part 1 of your assignment is to build a web crawler! This is up there as one of 
 
 7. **Modify bing_api.py** Now, edit the bing_api.py file in two ways. First, try at least three different queries, and output the results of each one. Second, change the printing to print not just the url, but also the title and date associated with the article. Your script should print the three fields (url/date/title) separated by tabs. You should print the output to a file called bing_api_results.txt, and submit this file when you turn in your assignment.
 
-8. **Go forth and do** At this point, you have a lot of tools at your disposal to collect urls and articles. You should try to collect as many as possible. At a minimum, you are **required** to submit the urls you collect from the Gun Violence Archive in Step 4, and the Bing API urls you collect using the three queries in Step 7. We will give extra credit for students who collect the most actual gun violence urls. Below are some ideas you might want to consider for increasing the number of urls you collect:
+8. **Go forth and do** At this point, you have a lot of tools at your disposal to collect urls and articles. You should try to collect as many as possible. At a minimum, **you are required to submit at a list of least 10,000 urls**. These urls must include those that you collect from the Gun Violence Archive in Step 4, and the Bing API urls you collect using the three queries in Step 7. The remaining urls can come from whereever you want (i.e. they can be articles from any news site, they don't have necessarily be gun violence articles). We will give extra credit for students who collect the most actual gun violence urls. Below are some ideas you might want to consider for increasing the number of urls you collect:
 
 	* Crawl entire news sites (e.g. New York Times) and grab all articles (not just gun-related ones). Then rely on your classifier to filter the list for you. You can get a list of local news sites [here](http://newspapermap.com/).
 	* Adapt your python crawler to scrape other gun violence awareness sites like [Fatal Encounters](http://www.fatalencounters.org/) or [the Guardian's gun violence site](http://www.theguardian.com/news/datablog/2012/jul/22/gun-homicides-ownership-world-list) 
@@ -97,68 +105,63 @@ Part 1 of your assignment is to build a web crawler! This is up there as one of 
 
 <h3>Part 2: Taking shots in the dark</h3>
 
-For this part, you will use your classifier from last week to make predictions about never-before-seen data. You will need to make some changes to the code you wrote last week. There are some engineering details that you need to get right in order for everything to run smoothly, so read the instructions carefully and follow them closely. 
+For this part, you will use your classifier from last week to make predictions about the gun-relatedness of the never-before-seen data you just collected in Part 1. You will need to make some changes to the code you wrote last week. There are some engineering details that you need to get right in order for everything to run smoothly, so read the instructions carefully and follow them closely. 
 
-1. First, ssh into your account on biglab. You will almost definitely crash your laptop if you try to work locally, unless you have a $!@#-ton of RAM, so now is as good a time as any to learn how to read, write, and run code from the command line! Bonus, we already have the data on biglab for you, so you don't need to download it. It is in the directory <code>/home1/n/nets213/data/</code>. You can look at the files in a directory by typing <code>ls</code> (for "list"). E.g.
+1. **Prepare your input data** First, you want to gather up all of the articles you collected in Part 1, so you can give them to your classifier as input. Your classifier expects the articles to be formatted simply with one article's text per line. You also want the urls in their own file, for later. You can use whatever method you want to get your data into this format. If you followed the instructions from Step 10 of Part 1, this should be easy to do. You already have a file with one article per line, you just need to isolate the text (since your classifier does not care about the url). You can do this in bash using the below command:
+	
+	<pre><code> cat articles_and_urls.txt | cut -f 1 > urls.txt 
+	cat articles_and_urls.txt | cut -f 2 > unlabelled_articles.txt </code></pre>
 
-	<pre><code>$ ssh epavlick@biglab.seas.upenn.edu
-	epavlick@biglab.seas.upenn.edu's password: 
-	SEAS SuSE Linux 13.1
-	epavlick@big05:~> ls /home1/n/nets213/data
-	training-data unlabelled-data</code></pre>
+2. **Familiarize yourself with the code** In the part_2_classification directory of the assignment5 archive you downloaded, you should see a python script. We will use the same training data as last week (you can download it again [here](http://crowdsourcing-class.org/assignments/downloads/articles.gz) or just copy over the file you downloaded last week). You will also use the same classifier you built last week, but this time, instead of testing it with cross validation and priniting out the accuracy, you will train it on all of the training data, and then use it to make predictions on your unlabelled data. To see how this is done, look at predict_unlabelled.py. This code should look very familiar to what you worked with last week, but has a few new functions added, which will handle the reading and vectorizing of the unlabelled data. 
 
-	You should see two directories, one containing your training data (this is the same as last week) and one containing unlabelled data. The unlabelled data is in two parallel files: <code>articles.txt</code> contains the text of the articles that you will use for the classifier. <code>urls.txt</code> contains the urls from which this text came; you will use these in Part 2 of the assignment.
+	To get an idea of the main changes that need to be made in order to have the classifier work on new data, read through the comments in the main method. Specifically, look at the function <code>get_matricies_for_unlabelled()</code>. The main difference is that when we convert our feature dictionary into a feature matrix, we need to make sure we use the same <code>DictVectorizer</code> object that we used to create the training data. This makes sense- we need to make sure that the column 627 in our new matrix means the same thing as column 627 in the training matrix, otherwise, the classifier will be totally helpless! You can also look at the function <code>predict_unlabelled()</code>. This should look very similar to the function you wrote to pull out misclassified examples in the homework last week.
+	
+	<pre><code> $ ls assignment5/part_2_classification	
+	predict_unlabelled.py </code></pre>
 
-2. You will the use the same classifier you built last week, but this time, instead of testing it with cross validation and priniting out the accuracy, you will train it on all your labeled data, and then use it to make predictions on your unlabelled data. To do this, download our [new code template](http://www.seas.upenn.edu/~epavlick/nets213/predict_unlabelled.py) (the easiest way would be to use [wget](https://www.gnu.org/software/wget/manual/html_node/Simple-Usage.html#Simple-Usage)!). This code should look very familiar to what you worked with last week, but has a few new functions added, which will handle the reading and vectorizing of the unlabelled data. The only change you will need to make is to <b>replace the <code>get_features()</code> function with the <code>get_features()</code> function that you wrote</b> last week. If you used any auxilary functions as part of your <code>get_features</code>, you will need to copy those over too.  
+3. **Edit predict_unlabelled.py** The only change you will need to make is to <b>replace the <code>get_features()</code> function with the <code>get_features()</code> function that you wrote</b> last week. If you used any auxilary functions as part of your <code>get_features</code>, you will need to copy those over too. When you copy over your function, if you are careful, it should run without complaining. 
 
-	You can copy over your function, and if you are careful, it should run without complaining. (Note: To give you an idea of the main changes that needed to be made in order to have the classifier work on new data, read through the comments in the main method. Specifically, look at the function <code>get_matricies_for_unlabelled()</code>. The main difference is that when we convert our feature dictionary into a feature matrix, we need to make sure we use the same <code>DictVectorizer</code> object that we used to create the training data. This makes sense- we need to make sure that the column 627 in our new matrix means the same thing as column 627 in the training matrix, otherwise, the classifier will be totally helpless! You can also look at the function <code>predict_unlabelled()</code>. This should look very similar to the function you wrote to pull out misclassified examples in the homework last week.)
+3. **Classify your articles!** Once you have copied over your feature function, you can run the program as follows. 
 
-3. Once you have copied over your feature function, you can run the program as follows. 
+	<pre><code>$ python predict_unlabelled.py training-articles.txt articles.txt</code></pre>
 
-	<pre><code>$ python predict_unlabelled.py /home1/n/nets213/data/training-data/articles.txt /home1/n/nets213/data/unlabelled-data/articles.txt</code></pre>
+	You might want to test your code to make sure it works before running on the full billion and a half articles (I assume that's how many you got in Part 1, right?), so try running with just a few lines of unlabelled data. You can do this by giving the code a third argument, e.g. to predict for the first 10 articles, run
 
-	You might want to test your code to make sure it works before running on the full 1.5M articles, so try running with just a few lines of data/unlabelled-data/articles.txt. You can do this by giving the code a third argument, e.g. to predict for the first 10 articles, run
+	<pre><code>$ python predict_unlabelled.py training-articles.txt articles.txt 10</code></pre>
 
-	<pre><code>$ python predict_unlabelled.py /home1/n/nets213/data/training-data/articles.txt /home1/n/nets213/data/unlabelled-data/articles.txt 10</code></pre>
+	This will still take a few minutes, since you still need to train on all 70K training articles! If it works, run on your full articles.txt file. If you have 100K or more articles, it might take a while to run, so don't hold your breadth. Maybe go grab coffee...or a nice dinner downtown...go for a leisurly hike. It took me about 20 minutes to classify 1.5 million articles on biglab. When the code finishes, it will have created a file called <code>classifier_predictions.txt</code>, which contains the classifier predictions, one per line. E.g. the first line of <code>classifier_predictions.txt</code> is a '0' if the classifier thinks that the first article in data/unlabelled-data/articles.txt is not gun related. You can check how many positive and negative predictions the classifier made with the bash command we mentioned in class: 
 
-	This will still take a few minutes, since you still need to train on all 70K training articles! 
+	<pre><code>$ cat classifier_predictions.txt | sort | uniq -c </code></pre>
 
-	If it works, run on the full 1.5M articles. Once you start it, don't hold your breadth. Maybe go grab coffee...or a nice dinner downtown...go for a leisurly hike. It took me about 20 minutes to finish on biglab. When the code finishes, it will have created a file called <code>classifier_predictions.txt</code>, which contains the classifier predictions, one per line. E.g. the first line of <code>classifier_predictions.txt</code> is a '0' if the classifier thinks that the first article in data/unlabelled-data/articles.txt is not gun related. My classifier found a little under 190,000 articles that it thought were gun-related. You can check this with the bash command we mentioned in class: 
+4. **Gather the positive predictions** You now have three parallel files, each with the same number of lines in it: <code>articles.txt</code>, <code>urls.txt</code>, and <code>classifier_predictions.txt</code>. For the next step, you will want to pull out just the urls of the articles which the classifier predicted as "gun-related"- that is, the lines for which classifier_predictions.txt has a '1'. You can use your favorite programming language to do this, or do it manually if you are bored and have nothing better to do. If you are interested, here is a great bash command to do it for you. 
 
-	<pre><code>$ cat classifier_predictions.txt | sort | uniq -c </code></pre>.
+	<pre><code>$ paste classifier_predictions.txt urls.txt | grep -e "^1" > positive_predicted_urls.txt</code></pre>
 
-4. You now have three parallel files, each with 1,471,811 lines in it: <code>unlabelled-data/articles.txt</code>, <code>data/unlabelled-data/urls.txt</code>, and <code>classifier_predictions.txt</code>. For the next step, you will want to pull out just the urls of the articles which the classifier predicted as "gun-related"- that is, the lines for which classifier_predictions.txt has a '1'. You can use your favorite programming language to do this, or do it manually if you are bored and have nothing better to do. If you are interested, here is a great bash command to do it for you: 
+	This creates a new file, positive_predicted_urls.txt, with two columns, one with the label (which will always be '1'), and one with the url. See our [bash cheat sheet](http://crowdsourcing-class.org/bash-commands.html) for a breakdown. 
 
-	<pre><code>$ paste classifier_predictions.txt /home1/n/nets213/data/unlabelled-data/urls.txt | grep -e "^1" > positive_predicted_urls.txt</code></pre>
-
-	This creates a new file, positive_predicted_urls.txt, with two columns, one with the label (which will always be '1'), and one with the url. It uses three bash commands: <code>paste</code> just takes the contents of both files and pastes them side-by-side; <code>grep</code> searches for lines which match the pattern <code>^1</code>, where the <code>^</code> just means "beginning of the line"; and the "<code>></code>" symbol (often read as "redirect") tells it to put the output into a new file, called <code>positive_predicted_urls.txt</code>.
-
-5. Finally, you will need to get a sample of these articles to label on Crowdflower. We will label 500 positive predictions. Again, some bash to the rescue:
+5. **Take a random sample to be annotated** Finally, you will need to get a sample of these articles to label on Crowdflower (you don't want to pay to have them all labeled!). We will label 500 positive predictions (hopefully you have at least that many). Again, you can use for favorite programming language to get a random sample. Or here is some bash to the rescue:
 
 	<pre><code> $ cat positive_predicted_urls.txt | shuf | head -500 > sample.txt</code></pre>
 	
-	This creates a new file, <code>sample.txt</code> which contains a random 500 lines from <code>positive_predicted_urls.txt</code>. Again, it uses three bash commands: <code>cat</code> (for "concatenate") just dumps the entire contents of a file; <code>shuf</code> scrambles the order of the lines; <code>head -n</code> takes the top <code>n</code> lines of its input and ignores the rest. 
-
-
 <h3>Part 3: ShootingsHIT</h3>
 
 Whew, okay, enough python and bash for now! Its time to design a HIT on Crowdflower! The goal is to have the workers look at each of the URLs you gathered in step 4 of Part 1, and have them judge whether they agree that it is gun-violence-related. This should be a very painless process, hopefully. And look! There are even pictures!
 
-1. Prep your data. You will need the list of urls to be in CSV format. The easiest way to do this will probably be to open <code>sample.txt</code>, or whatever you called your file, in a spreadsheet program like Google Docs. Then, you can use File->Dowload as->CSV, and save the file. Make sure you add a header to the columns, something informative like "url" or "stuff." 
+1. **Pred your data** You will need the list of urls to be in CSV format. The easiest way to do this will probably be to open <code>sample.txt</code>, or whatever you called your file, in a spreadsheet program like Google Docs. Then, you can use File->Dowload as->CSV, and save the file. Make sure you add a header to the columns, something informative like "url" or "stuff." 
 
-2. Log onto [Crowdflower](https://crowdflower.com/). Click on "Your Jobs" -> "Create New Job." Then choose "Start from scratch."
+2. **Log onto [Crowdflower](https://crowdflower.com/).** Click on "Your Jobs" -> "Create New Job." Then choose "Start from scratch."
 
 	<img src="assets/img/crowdflower-screenshots/new-job.png" style="width: 500px;"/>
 
-3. Choose the "spreadsheet" option for your data.
+3. **Choose the "spreadsheet" option for your data.**
 
 	<img src="assets/img/crowdflower-screenshots/upload-data.png" style="width: 500px;"/>
 
-4. You will be able to preview your data. It should look something like this.
+4. **Sanity check** You will be able to preview your data. It should look something like this.
 
 	<img src="assets/img/crowdflower-screenshots/data.png" style="width: 500px;"/>
 
-5. Next, design your interface. There is a nice WYSIWYG editor that will make it very easy to add questions. Just like on MTurk, you can flag variables using the \{\{VARIABLE_NAME\}\} syntax. When Crowdflower posts your HIT, it will replace your variable place holders with values from your CSV. E.g. everytime I write \{\{url\}\} in the HIT design, it will be replaced with an actual url from my data. Each row in my CSV corresponds to one HIT, so in each HIT, a different url will appear. Here is how my design looked, you are free to be more creative.
+5. **Set up your task** Next, design your interface. There is a nice WYSIWYG editor that will make it very easy to add questions. Just like on MTurk, you can flag variables using the \{\{VARIABLE_NAME\}\} syntax. When Crowdflower posts your HIT, it will replace your variable place holders with values from your CSV. E.g. everytime I write \{\{url\}\} in the HIT design, it will be replaced with an actual url from my data. Each row in my CSV corresponds to one HIT, so in each HIT, a different url will appear. Here is how my design looked, you are free to be more creative.
  
 	<img src="assets/img/crowdflower-screenshots/UI-design.png" style="width: 500px;"/>
 
@@ -166,14 +169,14 @@ Whew, okay, enough python and bash for now! Its time to design a HIT on Crowdflo
 	
 	<img src="assets/img/crowdflower-screenshots/html.png" style="width: 500px;"/>
 
-7. Once you are happy with your design, you will need to add in some test questions. These questions will be mixed into your data randomly, and used to evaluate how well the workers are doing. Crowdflower will walk through your data and ask you to label some of the articles yourself, and provide descriptions of why the answer is what it is. You should label about 50 articles to use as test questions.
+7. **Add test questions** Once you are happy with your design, you will need to add in some test questions. These questions will be mixed into your data randomly, and used to evaluate how well the workers are doing. Crowdflower will walk through your data and ask you to label some of the articles yourself, and provide descriptions of why the answer is what it is. You should label about 50 articles to use as test questions.
 
 	<img src="assets/img/crowdflower-screenshots/create-test.png" style="width: 500px;"/>
 	<img src="assets/img/crowdflower-screenshots/label-test.png" style="width: 500px;"/>
 
-8. That's basically it! Choose settings that reflect your feelings about the time and effort of your HIT, your morals, your politics, and your deep philosophies about the value of a hard days work. I had 3 workers judge each URL and paid a penny per URL. 
+8. **Decide on payment** That's basically it! Choose settings that reflect your feelings about the time and effort of your HIT, your morals, your politics, and your deep philosophies about the value of a hard day's work. I had 3 workers judge each URL and paid a penny per URL. 
 
-9. Now go! Post! And then obsessively watch the snazzy dashboard as your results come flooding in! 
+9. **Post!** Now go! Post! And then obsessively watch the snazzy dashboard as your results come flooding in! 
 	
 	<img src="assets/img/crowdflower-screenshots/dashboard.png" style="width: 500px;"/>
 
@@ -183,15 +186,44 @@ Whew, okay, enough python and bash for now! Its time to design a HIT on Crowdflo
 
 	Once the results are in, you can download them as a CSV file from the dashboard. Answer the few quick questions [here](https://docs.google.com/forms/d/10QW0B9xAZK2q9AISGJmYjs7QE3awx3f9h1meypUW5NU/viewform) about your results. We will do more work analyzing the results (specifically, the worker's quality) in the coming assignments.
 
+<h3>Extra Credit Competition</h3>
 
-The deliverables are: 
-	
-1. Your <code>classifier_predictions.txt</code>, which should be a 1,471,811 line file, containing precitions (0 or 1) for each unlabelled article.
-2. The final, labeled data you get from Crowdflower, as a csv file.
-3. A screenshot of your HIT, as it looked to workers.
-4. Your responses to [these questions](https://docs.google.com/forms/d/10QW0B9xAZK2q9AISGJmYjs7QE3awx3f9h1meypUW5NU/viewform). 
+We will hold a competition for the student(s) who can deliver the biggest, cleanest, and most diverse list of urls that point to actual gunviolence articles. The goal is to provide as many urls as you can, but without including false positives (e.g. urls that are unrelated to gun violence). You can try to improve the list in a number of ways-- by building better crawlers or more accurate classifiers, or both. If you want to play it safe, you can submit only the urls that passed your CrowdFlower task (e.g. ones that workers verified to be correct). If you want to get a bigger list, you can include urls that you crawled/classified but have not been verified by humans. You will be rewarded for more urls, but punished for false positives and for redundant urls, so follow your own risk preferences. We will score the lists you submit as follows:
+
+* +1/k points for each true gun-violence url you provide, where k is the number of other students who also submitted that url
+* -1 point for each non-gun-violence url (false positive) you provide
+
+Extra credit will go to the students with the highest score. May the best win!  
+
+<h3>Deliverables</h3>
+
+1. Your important source code: your *modified* python_crawler.py script, your *modified* bing_api.py script, and any additional code you wrote to collect your 10,000 urls.
+2. A list of at least 10,000 urls (as a text file, one url per line) that you gathered in Part 1
+3. The <code>gun_archive_urls.txt</code> file you created in Part 1 Step 4.
+4. The <code>bing_api_results.txt</code> file you created in Part 1 Step 7.
+5. The <code>positive_predicted_urls.txt</code> file containing urls that your classifier predicted as gun-related.
+6. The final, labeled data you get from Crowdflower, as a csv file.
+7. A screenshot of your HIT, as it looked to workers.
+8. Your cleanest possible list of urls you believe point to gun violence articles. See the note about extra credit above. 
+9. Your responses to [these questions](https://docs.google.com/forms/d/10QW0B9xAZK2q9AISGJmYjs7QE3awx3f9h1meypUW5NU/viewform). 
 
 Like before, please turn in your files using turnin:
 <pre><code>$ turnin -c nets213 -p crowdflower -v *</code></pre>
 
-This assignment is due <b>Wednesday, October 1</b>. You can work in pairs, but you must declare the fact that you are working together when you turn your assignment.  
+This assignment is due <b>Friday, February 12</b>. You can work in pairs, but you must declare the fact that you are working together when you turn your assignment.  
+
+<div class="panel panel-danger">
+<div class="panel-heading" markdown="1">
+<h4>Grading Rubric</h4>
+</div>
+<div class="panel-body" markdown="1">
+
+This assignment is worth 5 points of your overall grade in the course.  The rubric for the assignment is given below.
+
+* 2 points - Turn in a list of at least 10,000 urls, including some crawled from the Gun Violence Archive and some obtained using the Bing API
+* 1 point - A list of urls which your classifier positively predicted to be gun-related
+* 1 point - Your csv file of CrowdFlower judgements on the articles you posted 
+* 1 point - Answer the survey questions
+* Extra credit (1 point) - Extra credit for the longest, most accurate list of gun violence article urls
+</div>
+</div>
