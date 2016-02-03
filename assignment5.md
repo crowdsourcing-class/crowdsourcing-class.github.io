@@ -123,11 +123,11 @@ For this part, you will use your classifier from last week to make predictions a
 
 3. **Classify your articles!** Once you have copied over your feature function, you can run the program as follows. 
 
-	<pre><code>$ python predict_unlabelled.py training-articles.txt articles.txt</code></pre>
+	<pre><code>$ python predict_unlabelled.py articles.txt unlabelled_articles.txt</code></pre>
 
 	You might want to test your code to make sure it works before running on the full billion and a half articles (I assume that's how many you got in Part 1, right?), so try running with just a few lines of unlabelled data. You can do this by giving the code a third argument, e.g. to predict for the first 10 articles, run
 
-	<pre><code>$ python predict_unlabelled.py training-articles.txt articles.txt 10</code></pre>
+	<pre><code>$ python predict_unlabelled.py articles.txt unlabelled_articles.txt 10</code></pre>
 
 	This will still take a few minutes, since you still need to train on all 70K training articles! If it works, run on your full articles.txt file. If you have 100K or more articles, it might take a while to run, so don't hold your breadth. Maybe go grab coffee...or a nice dinner downtown...go for a leisurly hike. It took me about 20 minutes to classify 1.5 million articles on biglab. When the code finishes, it will have created a file called <code>classifier_predictions.txt</code>, which contains the classifier predictions, one per line. E.g. the first line of <code>classifier_predictions.txt</code> is a '0' if the classifier thinks that the first article in data/unlabelled-data/articles.txt is not gun related. You can check how many positive and negative predictions the classifier made with the bash command we mentioned in class: 
 
