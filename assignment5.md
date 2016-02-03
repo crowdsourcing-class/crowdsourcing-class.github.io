@@ -70,7 +70,7 @@ Part 1 of your assignment is to build a web crawler! This is up there as one of 
 * Note: some OS X users will experience technical difficulties here because of the lxml package. To resolve, before running the code below, you'll want to make sure the package is installed and the path is correct. To check, run <code>which lxml</code>. If a path prints out in your terminal, you're safe to proceed. If no path prints out, then first enable Xcode to install command line developer tools. Some of you may have done this already. Do so by running <code>xcode-select --install</code>. Once that finishes, run <code>sudo easy_install lxml</code>. You'll likely see some kind of output that looks like: "Using build configuration of libxslt 1.1.28
 Adding lxml 3.5.0 to easy-install.pth file." Your dependencies will update as well and then you're safe to proceed. 
 
-* If when you try to run python_crawler.py, it tells you that there's no module for something you're trying to import, your first step to debug should be using your favorite package manager (pip or conda) to install it. Ex: $pip install (thing you're missing)$. 
+* If when you try to run python_crawler.py, it tells you that there's no module for something you're trying to import, your first step to debug should be using your favorite package manager (pip or conda) to install it. Ex: <code>pip install (thing you're missing)</code>. 
 
 	<pre><code> $ python python_crawler.py > gun_report_urls.txt
 	$ cat gun_report_urls.txt | sort | uniq > tmp #remove duplicate urls and put all the unique ones in tmp
