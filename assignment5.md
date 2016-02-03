@@ -45,7 +45,7 @@ This assignment has three parts:
 
 Part 1 of your assignment is to build a web crawler! This is up there as one of the most important life skills you will ever learn, alongside balancing a budget and feeding yourself. And like most essential life skills, you don't need to be great at building a web crawler, you just need to know enough to get by. This section of the assignment will introduce two tools for collecting urls from the web, and walk you through running the templates we provide. Then, we will ask you to extend and improve what we show you in order to collect as many gun-violence article urls as you can.
 
-1. **Download the code** First things first: download the [code templates](http://crowdsourcing-class.org/assignments/downloads/assignment5.tgz) for this assignment. When you unpack the archive, you should see the following directories. 
+1. **Download the code** First things first: download the [code templates](http://crowdsourcing-class.org/assignments/downloads/assignment5.tgz) for this assignment. When you unpack the archive, you should see the directories shown below. (Note that if you experience problems with wget, you can always just click the link and download the file to whichever folder you plan to work from.)  
 	
 	<pre><code> $ wget http://crowdsourcing-class.org/assignments/downloads/assignment5.tgz
 	$ tar -xzvf asssignment5.tgz 
@@ -95,7 +95,7 @@ Part 1 of your assignment is to build a web crawler! This is up there as one of 
 	<pre><code> cat list_of_urls.txt | python get_clean_text.py > articles_and_urls.txt </code></pre>
 
 
-###Part 2: Taking shots in the dark
+<h3>Part 2: Taking shots in the dark</h3>
 
 For this part, you will use your classifier from last week to make predictions about never-before-seen data. You will need to make some changes to the code you wrote last week. There are some engineering details that you need to get right in order for everything to run smoothly, so read the instructions carefully and follow them closely. 
 
@@ -140,7 +140,7 @@ For this part, you will use your classifier from last week to make predictions a
 	This creates a new file, <code>sample.txt</code> which contains a random 500 lines from <code>positive_predicted_urls.txt</code>. Again, it uses three bash commands: <code>cat</code> (for "concatenate") just dumps the entire contents of a file; <code>shuf</code> scrambles the order of the lines; <code>head -n</code> takes the top <code>n</code> lines of its input and ignores the rest. 
 
 
-###Part 3: ShootingsHIT
+<h3>Part 3: ShootingsHIT</h3>
 
 Whew, okay, enough python and bash for now! Its time to design a HIT on Crowdflower! The goal is to have the workers look at each of the URLs you gathered in step 4 of Part 1, and have them judge whether they agree that it is gun-violence-related. This should be a very painless process, hopefully. And look! There are even pictures!
 
