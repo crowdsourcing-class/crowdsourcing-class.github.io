@@ -162,6 +162,10 @@
     - Amazon Mechanical Turk from the Requester's perspective&#58; Designing HITs, qualifications, pricing HITs, approving/rejecting
   reading:
     -
+      author: Gabriele Paolacci, Jesse Chandler and Panos Iperotic
+      title:  Running experiments on Amazon Mechanical Turk
+      url: readings/downloads/platform/running-experiments-on-mturk.pdf
+    -
       title:  Requester Tour of Mechanical Turk
       url: https://requester.mturk.com/tour
     -
@@ -169,6 +173,26 @@
       url: http://mechanicalturk.typepad.com/blog/requester/
 -
   date: 2016-02-03
+  slides: http://crowdsourcing-class.org/slides/amazon-mechanical-turk.pdf
+  title: The Amazon Mechanical Turk crowdsourcing platform (continued)
+  highlights:
+    - Amazon Mechanical Turk from the Requester's perspective&#58; Designing HITs, qualifications, pricing HITs, approving/rejecting
+  reading:
+    -
+      author: Gabriele Paolacci, Jesse Chandler and Panos Iperotic
+      title:  Running experiments on Amazon Mechanical Turk
+      url: readings/downloads/platform/running-experiments-on-mturk.pdf
+    -
+      title:  Requester Tour of Mechanical Turk
+      url: https://requester.mturk.com/tour
+    -
+      title:  Mechanical Turk blog
+      url: http://mechanicalturk.typepad.com/blog/requester/
+-
+  date: 2016-02-05
+  title: Friday hands-on activity
+-
+  date: 2016-02-08
   slides: http://crowdsourcing-class.org/slides/taxonomy-of-human-computation.pdf
   title: Taxonomy of crowdsourcing and human computation
   highlights:
@@ -185,9 +209,6 @@
     -
       title: Python tutorials and references
       url : http://crowdsourcing-class.org/resources.html
--
-  date: 2016-02-05
-  title: Friday hands-on activity
 -
   date: 2016-02-08
   slides: http://crowdsourcing-class.org/slides/programming-the-crowd.pdf
