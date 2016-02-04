@@ -31,6 +31,7 @@ Resources
 - [Tutorial on making videos](video_vimeo_tutorial.html) and uploading them to vimeo
 - Ellie's favorite [bash commands](http://crowdsourcing-class.org/bash-commands.html) for basic data processing/exploration
 - [Apply for Amazon Web Services credits](https://aws.amazon.com/education/awseducate/apply/)
+- [GitHub Student Developer Pack](https://education.github.com/). Free stuff for students.
 - [Philadelphia Open Data API](http://phlapi.com)
 
 ### Artificial Intelligence tutorials and APIs
