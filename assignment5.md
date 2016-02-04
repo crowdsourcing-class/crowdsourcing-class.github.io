@@ -202,7 +202,7 @@ Extra credit will go to the students with the highest score. May the best win!
 
 <h3>Deliverables</h3>
 
-1. Your important source code: your *modified* python_crawler.py script, your *modified* bing_api.py script, and any additional code you wrote to collect your 10,000 urls.
+1. Your important source code: your *modified* python_crawler.py script, your *modified* bing_api.py script, and any additional code you wrote to collect your 2,500 urls.
 2. A list of at least 2,500 urls (as a text file, one url per line) that you gathered in Part 1
 3. The <code>gun_archive_urls.txt</code> file you created in Part 1 Step 4.
 4. The <code>bing_api_results.txt</code> file you created in Part 1 Step 7.
@@ -223,10 +223,13 @@ This assignment is due <b>{{ page.due_date | date: "%A, %B %-d, %Y" }}</b>. You 
 </div>
 <div class="panel-body" markdown="1">
 
+* **I am getting a "no module called lxml" error** 
 * Some OS X users will experience technical difficulties here because of the lxml package. To resolve, before running the code below, you'll want to make sure the package is installed and the path is correct. To check, run <code>which lxml</code>. If a path prints out in your terminal, you're safe to proceed. If no path prints out, then first enable Xcode to install command line developer tools. Some of you may have done this already. Do so by running <code>xcode-select --install</code>. Once that finishes, run <code>sudo easy_install lxml</code>. You'll likely see some kind of output that looks like: "Using build configuration of libxslt 1.1.28
 Adding lxml 3.5.0 to easy-install.pth file." Your dependencies will update as well and then you're safe to proceed. 
 
-* If when you try to run python_crawler.py, it tells you that there's no module for something you're trying to import, your first step to debug should be using your favorite package manager (pip or conda) to install it. Ex: <code>pip install (thing you're missing)</code>. 
+  In general, when you try to run a script and it tells you that there's no module for something you're trying to import, your first step to debug should be using your favorite package manager (pip or conda) to install it. Ex: <code>pip install (thing you're missing)</code>. 
+
+* **I don't understand xpath** It's okay. None of us do. But lookng at (these examples)[http://crowdsourcing-class.org/xpath-examples.html] and trying to mimic them should get you what you need for this assignment. :) 
 </div>
 </div>
 
