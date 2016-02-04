@@ -4,6 +4,8 @@ img: capitalist-greed
 caption: Exploit the masses!
 title: Homework 5 | Become a Requester
 active_tab: homework
+release_date: 2016-02-05
+due_date: 2016-02-12T14:00:00EST
 ---
 
 <!-- Check whether the assignment is up to date -->
@@ -18,7 +20,9 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 
 
 <div class="alert alert-info">
-  This assignment is due before class on Friday, February 12th.</div>
+This assignment is due on {{ page.due_date | date: "%A, %B %-d, %Y" }}. 
+</div>
+
 
 
 Become a Requester<span class="text-muted"> : Assignment 5</span> 
@@ -79,7 +83,7 @@ Adding lxml 3.5.0 to easy-install.pth file." Your dependencies will update as we
 
 4. **Modify python_crawler.py** You should now modify the code in python_crawler.py in order to crawl the [Gun Violence Archive](http://www.gunviolencearchive.org/last-72-hours?page=1) website. You should save the urls you collect to a file called gun_archive_urls.txt, and submit this file when you turnin your assignment.
 
-5. **Sign up to access the Bing API** Crawling websites like we did above is a common way to collect data from the web. Another very common way is through the use of APIs. Here, we will show you how to use the Bing search API. In short, and API allows your program to issue web queries in much the same way you do when you use a browser. To use the Bing API, you will need to register with Microsoft [here](https://datamarket.azure.com/dataset/bing/search) (sign up for the free account). Once you are registered, go to **My Account** > **My Data** and click on the **Use** link next to **Bing Search API**. You can play with issuing different search queries in the browser here if you want. But, mainly, you will need to **Show Primary Account Key** and copy and paste your key into the bing_api.py script where it says YOUR KEY HERE.
+5. **Sign up to access the Bing API** Crawling websites like we did above is a common way to collect data from the web. Another very common way is through the use of APIs. Here, we will show you how to use the Bing search API. In short, and API allows your program to issue web queries in much the same way you do when you use a browser. To use the Bing API, you will need to register with Microsoft [here](https://datamarket.azure.com/dataset/bing/search) (sign up for the free account). Once you are registered, search Microsoft Azure Marketplace for "Bing Search API". Subscribe to the 5,000 transactions a month plan which is free. Then go to **My Account** > **My Data** and click on the **Use** link next to **Bing Search API**. This will redirect you to a page with Bing Search API at the top with fields for Source and Query. You can play with issuing different search queries in the browser here if you want. But, mainly, you will need to click **Show** next to **Primary Account Key**, which is at the top of the page just to the right of the logo, and copy and paste your key into the bing_api.py script where it says YOUR KEY HERE.
 
 6. **Use the Bing API to collect urls** Like before, read through the code in bing_api.py and try to understand what is happening. Again, you will need to modify it, so familiarize yourself with the url request structure, and the parameters that you are passing. You can run the code similarly to before, as follows:
 
@@ -189,7 +193,7 @@ Whew, okay, enough python and bash for now! Its time to design a HIT on Crowdflo
 	
 	<img src="assets/img/crowdflower-screenshots/view-hit.png" style="width: 500px;"/>
 
-	Once the results are in, you can download them as a CSV file from the dashboard. Answer the few quick questions [here](https://docs.google.com/forms/d/10QW0B9xAZK2q9AISGJmYjs7QE3awx3f9h1meypUW5NU/viewform) about your results. We will do more work analyzing the results (specifically, the worker's quality) in the coming assignments.
+	Once the results are in, you can download them as a CSV file from the dashboard. Answer the few quick questions [here](https://docs.google.com/forms/d/11SHa5vPZM2eU7144aRhai-oXB65hyAhLmTzdMf2ywjU/viewform) about your results. We will do more work analyzing the results (specifically, the worker's quality) in the coming assignments.
 
 <h3>Extra Credit Competition</h3>
 
@@ -215,7 +219,7 @@ Extra credit will go to the students with the highest score. May the best win!
 Like before, please turn in your files using turnin:
 <pre><code>$ turnin -c nets213 -p crowdflower -v *</code></pre>
 
-This assignment is due <b>Friday, February 12</b>. You can work in pairs, but you must declare the fact that you are working together when you turn your assignment.  
+This assignment is due <b>{{ page.due_date | date: "%A, %B %-d, %Y" }}</b>. You can work in pairs, but you must declare the fact that you are working together when you turn your assignment.  
 
 <div class="panel panel-danger">
 <div class="panel-heading" markdown="1">
