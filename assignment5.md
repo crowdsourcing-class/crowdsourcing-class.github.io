@@ -73,7 +73,7 @@ Part 1 of your assignment is to build a web crawler! This is up there as one of 
 	$ wc -l gun_report_urls.txt # print the number of lines in the file.
 	8884 </code></pre>
 
-4. **Modify python_crawler.py** You should now modify the code in python_crawler.py in order to crawl the [Gun Violence Archive](http://www.gunviolencearchive.org/) website. You should save the urls you collect to a file called gun_archive_urls.txt, and submit this file when you turnin your assignment.
+4. **Modify python_crawler.py** You should now modify the code in python_crawler.py in order to crawl the [Gun Violence Archive](http://www.gunviolencearchive.org/last-72-hours?page=1) website. You should save the urls you collect to a file called gun_archive_urls.txt, and submit this file when you turnin your assignment.
 
 5. **Sign up to access the Bing API** Crawling websites like we did above is a common way to collect data from the web. Another very common way is through the use of APIs. Here, we will show you how to use the Bing search API. In short, and API allows your program to issue web queries in much the same way you do when you use a browser. To use the Bing API, you will need to register with Microsoft [here](https://datamarket.azure.com/dataset/bing/search) (sign up for the free account). Once you are registered, go to **My Account** > **My Data** and click on the **Use** link next to **Bing Search API**. You can play with issuing different search queries in the browser here if you want. But, mainly, you will need to **Show Primary Account Key** and copy and paste your key into the bing_api.py script where it says YOUR KEY HERE.
 
