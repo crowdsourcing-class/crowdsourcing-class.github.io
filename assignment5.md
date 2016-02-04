@@ -4,6 +4,8 @@ img: capitalist-greed
 caption: Exploit the masses!
 title: Homework 5 | Become a Requester
 active_tab: homework
+release_date: 2016-02-05
+due_date: 2016-02-12T14:00:00EST
 ---
 
 <!-- Check whether the assignment is up to date -->
@@ -18,7 +20,9 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 
 
 <div class="alert alert-info">
-  This assignment is due before class on Friday, February 12th.</div>
+This assignment is due on {{ page.due_date | date: "%A, %B %-d, %Y" }}. 
+</div>
+
 
 
 Become a Requester<span class="text-muted"> : Assignment 5</span> 
@@ -215,7 +219,7 @@ Extra credit will go to the students with the highest score. May the best win!
 Like before, please turn in your files using turnin:
 <pre><code>$ turnin -c nets213 -p crowdflower -v *</code></pre>
 
-This assignment is due <b>Friday, February 12</b>. You can work in pairs, but you must declare the fact that you are working together when you turn your assignment.  
+This assignment is due <b>{{ page.due_date | date: "%A, %B %-d, %Y" }}</b>. You can work in pairs, but you must declare the fact that you are working together when you turn your assignment.  
 
 <div class="panel panel-danger">
 <div class="panel-heading" markdown="1">
