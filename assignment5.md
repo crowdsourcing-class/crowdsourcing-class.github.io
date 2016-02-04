@@ -94,7 +94,8 @@ Adding lxml 3.5.0 to easy-install.pth file." Your dependencies will update as we
 8. **Go forth and do** At this point, you have a lot of tools at your disposal to collect urls and articles. You should try to collect as many as possible. At a minimum, **you are required to submit at a list of least 10,000 urls**. These urls must include those that you collect from the Gun Violence Archive in Step 4, and the Bing API urls you collect using the three queries in Step 7. The remaining urls can come from whereever you want (i.e. they can be articles from any news site, they don't have necessarily be gun violence articles). We will give extra credit for students who collect the most actual gun violence urls. Below are some ideas you might want to consider for increasing the number of urls you collect:
 
 	* Crawl entire news sites (e.g. New York Times) and grab all articles (not just gun-related ones). Then rely on your classifier to filter the list for you. You can get a list of local news sites [here](http://newspapermap.com/).
-	* Adapt your python crawler to scrape other gun violence awareness sites like [Fatal Encounters](http://www.fatalencounters.org/) or [the Guardian's gun violence site](http://www.theguardian.com/news/datablog/2012/jul/22/gun-homicides-ownership-world-list) 
+	* Extend your python crawler to scrape the [reports pages of the Gun Violence Archive](http://www.gunviolencearchive.org/reports)
+	* Adapt your python crawler to scrape other gun violence awareness sites, maybe [Fatal Encounters](http://www.fatalencounters.org/) or [the Guardian's gun violence site](http://www.theguardian.com/news/datablog/2012/jul/22/gun-homicides-ownership-world-list) 
 	* Change the date ranges you search using Bing in order to dig up older articles
 	* Try fancier crawling tools like [scrapy](http://scrapy.org/) or [Selenium](http://selenium-python.readthedocs.org/)
 
