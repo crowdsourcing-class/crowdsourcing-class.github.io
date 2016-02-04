@@ -9,9 +9,7 @@ active_tab: resources
 Resources 
 =============================================================
 
-
-
-###General Python resources
+### General Python resources
 
 - Python itself has good documentation and a decent getting started page [here](https://docs.python.org/2/tutorial/introduction.html).
 - Python gives a list of good tutorials [here](https://wiki.python.org/moin/BeginnersGuide/Programmers). Many are focused on people with no programming background, but two that seem a bit less introductory are the [Python in 10 minutes](http://www.stavros.io/tutorials/python/) tutorial, and [Google's Python class](https://developers.google.com/edu/python/).
@@ -20,7 +18,7 @@ Resources
 - Here's a [guide on installing IPython](IPython_install_guide.html).
 - You can also use the [Installation Guide for the standard Linux (Ubuntu) VM](vm-instructions.html).
 
-###More advanced Python resources 
+### More advanced Python resources 
 
 - [Boto, a Python library for MTurk’s API](https://github.com/boto/boto). There is decent (although not perfect) documentation [here](http://boto.readthedocs.org/en/latest/ref/mturk.html) and a good tutorial available [here](http://www.toforge.com/2011/04/boto-mturk-tutorial-create-hits/).
 - [Scikit-learn](http://scikit-learn.org/stable/) is an amazingly easy library for doing machine learning in Python. It is also wonderfully verbosely documented with tons of examples.
@@ -33,6 +31,7 @@ Resources
 - [Tutorial on making videos](video_vimeo_tutorial.html) and uploading them to vimeo
 - Ellie's favorite [bash commands](http://crowdsourcing-class.org/bash-commands.html) for basic data processing/exploration
 - [Apply for Amazon Web Services credits](https://aws.amazon.com/education/awseducate/apply/)
+- [GitHub Student Developer Pack](https://education.github.com/). Free stuff for students.
 - [Philadelphia Open Data API](http://phlapi.com)
 
 ### Artificial Intelligence tutorials and APIs
