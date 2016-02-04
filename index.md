@@ -13,11 +13,12 @@ Crowdsourcing and human computation are emerging fields that sit squarely at the
 <div class="alert alert-info">
 The class has reached its enrollment cap of 120 students.  You may <a href="https://docs.google.com/forms/d/1nEXV3LrZXckeOWiklEAKRYiCEJa-o67BbCEjAuOHuFw/viewform?usp=send_form">add yourself to the waitlist</a>, we will notify you if space becomes available. You are welcome to sit in on the lectures and start the homework assignments so that you don't fall behind.
 </div>
--->
 
 <div class="alert alert-danger">
 If you would like free credit on CrowdFlower, please sign up for <a href="https://make.crowdflower.com/users/new">a CrowdFlower account</a> and submit your details on <a href="https://docs.google.com/forms/d/1shp2S5Jl3r5bEx6hT_as8xQJZ5piiy2KRIEYQS_8U74/viewform">this Google form</a> before class on Wednesday. If you do not submit the Google form before Wednesday at 2pm, then you will not receive the free credit from CrowdFlower, and you will have to fund your account with your own money.
 </div>
+-->
+
 
 <!-- Display an alert about upcoming homework assignments -->
 {% capture now %}{{'now' | date: '%s'}}{% endcapture %}
