@@ -2,7 +2,7 @@
 layout: default
 img: capitalist-greed
 caption: Exploit the masses!
-title: Homework 5 | Become a Requester
+title: Homework 5 "Become a Requester"
 active_tab: homework
 release_date: 2016-02-05
 due_date: 2016-02-12T14:00:00EST
