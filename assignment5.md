@@ -189,7 +189,7 @@ Whew, okay, enough python and bash for now! Its time to design a HIT on Crowdflo
 	
 	<img src="assets/img/crowdflower-screenshots/view-hit.png" style="width: 500px;"/>
 
-	Once the results are in, you can download them as a CSV file from the dashboard. Answer the few quick questions [here](https://docs.google.com/forms/d/11SHa5vPZM2eU7144aRhai-oXB65hyAhLmTzdMf2ywjU/viewform) about your results. We will do more work analyzing the results (specifically, the worker's quality) in the coming assignments.
+	Once the results are in, you can download them as a CSV file from the dashboard. Answer the few quick questions [here](http://goo.gl/forms/Ot2od9GZTf) about your results. We will do more work analyzing the results (specifically, the worker's quality) in the coming assignments.
 
 <h3>Extra Credit Competition</h3>
 
