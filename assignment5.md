@@ -69,13 +69,17 @@ Part 1 of your assignment is to build a web crawler! This is up there as one of 
 	<pre><code> $ ls assignment5/part_1_crawler/
 	bing_api.py  get_clean_text.py  python_crawler.py </code></pre>
 
-3. **Use Python to crawl Gun Report blog** At a high level, the code in python_crawler.py is a basic web crawler. It will begin on a webpage that we specify, and it will look for all of the hyperlinks on that page. Everytime it finds a link, it will print the link, and then follow it. When if follows a link, it will start doing the exact same thing-- looking for more links, printing them, and then following them. For people who have taken algorithms, you will recognize this as a standard [depth-first search](https://en.wikipedia.org/wiki/Depth-first_search). For those of you who haven't, you will recognize this as a perfectly common sense way to look for links, regardless of fancy names. The code written now scrapes links from the [Gun Report Blog](http://nocera.blogs.nytimes.com/category/gun-report/). This is the same site Chris used to collect training data for your assignment last week. Try running the code, and see what output you get. The below commands will run the crawler and print the links to a file called gun_report_urls.txt. The second two lines will remove duplicated urls in your list. Note this crawler is not very fast. For me, running the code took about 10 minutes and produced 8,868 unique urls.
+3. **Use Python to crawl Gun Report blog** At a high level, the code in python_crawler.py is a basic web crawler. It will begin on a webpage that we specify, and it will look for all of the hyperlinks on that page. Everytime it finds a link, it will print the link, and then follow it. When if follows a link, it will start doing the exact same thing-- looking for more links, printing them, and then following them. 
+
+The code written now scrapes links from each page of the [Gun Report Blog](http://nocera.blogs.nytimes.com/category/gun-report/). This is the same site Chris used to collect training data for your assignment last week. Try running the code, and see what output you get. The below commands will run the crawler and print the links to a file called gun_report_urls.txt. The second two lines will remove duplicated urls in your list. Note this crawler is not very fast. For me, running the code took about 10 minutes and produced 8,868 unique urls.
 
 	<pre><code> $ python python_crawler.py > gun_report_urls.txt
 	$ cat gun_report_urls.txt | sort | uniq > tmp #remove duplicate urls and put all the unique ones in tmp
 	$ mv tmp gun_report_urls.txt # replace the old list of urls with the new list of only unique urls
 	$ wc -l gun_report_urls.txt # print the number of lines in the file.
 	8868 </code></pre>
+
+If you want, you can recursively follow links and see if that yields any good additional articles.  You can modify the crawl method so that it processes everything on your stack in a breadth-first or depth-first search.
 
 4. **Modify python_crawler.py** You should now modify the code in python_crawler.py in order to crawl the [Gun Violence Archive](http://www.gunviolencearchive.org/last-72-hours?page=1) website. You should save the urls you collect to a file called gun_archive_urls.txt, and submit this file when you turnin your assignment.
 
