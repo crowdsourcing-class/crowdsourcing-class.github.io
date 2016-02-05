@@ -210,7 +210,7 @@ Extra credit will go to the students with the highest score. May the best win!
 6. The final, labeled data you get from Crowdflower, as a csv file.
 7. A screenshot of your HIT, as it looked to workers.
 8. Your cleanest possible list of urls you believe point to gun violence articles. See the note about extra credit above. 
-9. Your responses to [these questions](https://docs.google.com/forms/d/10QW0B9xAZK2q9AISGJmYjs7QE3awx3f9h1meypUW5NU/viewform). 
+9. Your responses to [these questions](http://goo.gl/forms/Ot2od9GZTf).
 
 Like before, please turn in your files using turnin:
 <pre><code>$ turnin -c nets213 -p crowdflower -v *</code></pre>
