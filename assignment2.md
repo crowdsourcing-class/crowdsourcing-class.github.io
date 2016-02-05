@@ -96,6 +96,7 @@ This week we will be looking at the wealth of companies that use crowdsourcing a
 [Postmates](https://postmates.com),
 [PredictWise](http://www.predictwise.com/),
 [Premise](http://www.premise.com/),
+[Prolific Academic](https://prolific.ac/rp?ref=NS6S9E53),
 [PublicStuff](https://www.publicstuff.com),
 [Quirky](http://quirky.com),
 [Quora](http://www.quora.com),
