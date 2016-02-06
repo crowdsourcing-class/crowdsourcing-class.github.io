@@ -80,5 +80,5 @@ Late day policy
 : Everyone can have 5 free late days without penalty.  After you have used your free late days, you will lose 20% per day (or fraction thereof) that your assignment is submitted late. The final project will have its own late day policy.
 
 Course materials
-: CrowdFlower has generously provided each student with $100 credit on their platform.  Students should expect to fund their accounts with an additional $50-$100 of their own money.  If this will cause you undue financial hardship, please let the instructor know.
+: CrowdFlower has generously provided each student with $50 credit on their platform.  Students should expect to spend an additional $50-$100 of their own money on CrowdFlower or MTurk or other crowdsourcing platforms.  If this will cause you undue financial hardship, please let the instructor know.
 
