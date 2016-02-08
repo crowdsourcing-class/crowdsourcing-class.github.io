@@ -19,6 +19,11 @@ If you would like free credit on CrowdFlower, please sign up for <a href="https:
 </div>
 -->
 
+
+<div class="alert alert-danger" markdown="1">
+Did you know you get participation credit for showing up in class?  During class today, I'll show a magic word that you can enter into [this form](https://docs.google.com/forms/d/1A_BugxGsmsVAUqDb8f4Z8ze39hZa5jwu0ekqFGYN2hA/viewform) to prove that you were there.
+</div>
+
 <div class="alert alert-info" markdown="1">
 Please submit a link to your company profile video [using this questionnaire](https://docs.google.com/forms/d/1y2ObY-Vvgc-_3r8HG8SyTIP5ofA35xxZcwNl1RJf4nc/viewform) before class on Friday.
 </div>
