@@ -251,6 +251,17 @@ This assignment is worth 10 points of your overall grade in the course.  The rub
 </div>
  
 
+<div class="panel panel-info">
+<div class="panel-heading" markdown="1">
+#### FAQ
+</div>
+<div class="panel-body" markdown="1">
+* _What is the difference between Users and Contributors?_  Many of you seemed confused about what constitutes a user vs. a contributor. In many crowdsourcing companies, this line is blurry- or nonexistent! Many companies you looked at fit what can be thought of as a "data-mining" model (e.g. Yelp, Foursquare), in which the primary service being provided depends on using data and modeling observed patterns of behavior-- e.g. to target ads or to recommend products. In these cases, the users are the contributors-- everyone who participates provides data, and everyone uses everyone else's data. This is an awesome crowdsourcing model because it is (ideally) self-sustaining and self-incentivizing. The more a person contributes (by providing more data about themselves), the better product they receive (e.g. better recommendations). 
+* _How does my company do Aggregation?_ Many of the companies we look at fit into the "match-making" or "marketplace" model (e.g. Uber, Airbnb, Etsy). This is a very common case in which the company is simply working to match supply with demand, where the suppliers (e.g. drivers, in the case of Uber) and the consumers (riders) are distributed all over, and may have trouble finding one another otherwise. Here, rating systems etc. are one piece of the platform that might require aggregating, but arguably the more interesting aggregation problem is how to match a supplier with a consumer. Is this through preference-based recommendation systems (as in the data-mining model discussed above), through location-based matching, through bidding/price? Making these matches is non-trival, but crucial to making the company function.
+* _Does this update a previous service or business model, or is it completely new?_ For this question, more than a third of you said "completely new." Try to think broadly when you are considering where these crowdsourcing companies fit into the economy as a whole. (Think Silicon Valley's favorite buzzword: "disruption.") Most of these services being provided are not completely new, but they are directly competing with a service that was traditionally supplied by a brick-and-mortar company in a more centralized manner. Uber competes with taxi companies, Airbnb with hotel chains, Coursera with higher education universities. This is part of what makes crowdsourcing so exciting! 
+* _Is getting venture capital funding is a business model?_ No. Smart investors don't invest in a company who says their plan for generating revenue is to "get money from investors." When in doubt about the company's business plan, it is probably "ads". :-)  
+</div>
+</div>
 
 
 #### Examples profiles from last year
