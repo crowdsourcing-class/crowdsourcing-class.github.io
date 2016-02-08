@@ -131,7 +131,7 @@ You are also welcome to profile a [relevant company](http://www.crowdsourcing.or
 This assignment has two deliverables:
 
 1. Answering [a questionnaire](https://docs.google.com/forms/d/1fxe5cwKqM5M2J6NGAsqC30hvNQ0JX4woJV0zOZhRNsU/viewform?usp=send_form) about the company or project that you are researching. This is due before class on {{ page.deliverables[0].due_date | date: "%A, %B %-d, %Y" }}.  If you are working with a partner, only one of you needs to submit the questionnaire. 
-2. A video presentation about the company.  Several of the best videos will be selected for in-class presentations on Fridays.  Teams whose videos are selected will receive extra credit. his is due before class on {{ page.deliverables[1].due_date | date: "%A, %B %-d, %Y" }}.
+2. A video presentation about the company.  Several of the best videos will be selected for in-class presentations on Fridays.  Teams whose videos are selected will receive extra credit. his is due before class on {{ page.deliverables[1].due_date | date: "%A, %B %-d, %Y" }}.  You can submit a link to your video on [this form](https://docs.google.com/forms/d/1y2ObY-Vvgc-_3r8HG8SyTIP5ofA35xxZcwNl1RJf4nc/viewform).
 
 This assignment can be done individually or in pairs.
 
