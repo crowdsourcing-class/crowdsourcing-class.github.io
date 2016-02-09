@@ -60,7 +60,7 @@ Part 1 of your assignment is to build a web crawler! This is up there as one of 
 1. **Download the code** First things first: download the [code templates](http://crowdsourcing-class.org/assignments/downloads/assignment5.tgz) for this assignment. When you unpack the archive, you should see the directories shown below. (Note that if you experience problems with wget, you can always just click the link and download the file to whichever folder you plan to work from.)  
 	
 	<pre><code> $ wget http://crowdsourcing-class.org/assignments/downloads/assignment5.tgz
-	$ tar -xzvf asssignment5.tgz 
+	$ tar -xzvf assignment5.tgz 
 	$ ls assignment5	
 	part_1_crawling part_2_classification</code></pre>
 
