@@ -30,9 +30,9 @@ Reimplement an Academic Paper<span class="text-muted"> : Assignment 6</span>
 For this week's assignment, you will read an academic paper about crowdsourcing and then replicate its findings. You can either work as a team of up to 3 people to re-create the findings.
 
 You have 4 options for academic papers that you can re-create:
-* The Demographics of MTurk by Panos Ipeirotis
-* Exploring Iterative and Parallel Human Computation Processes by Greg Little, Lydia B. Chilton, Max Goldman, and Robert C. Miller
-* Labeling Images with a Computer Game by Luis von Ahn and Laura Dabbish 
-* Crowds in Two Seconds: Enabling Realtime Crowd-Powered Interfaces by Michael Bernstein, Joel Brandt, Rob Miller, and David Karger
-* Financial Incentives and the Performance of Crowds by Winter Mason and Duncan Watts
+* [The Demographics of MTurk](readings/downloads/platform/demographics-of-mturk.pdf) by Panos Ipeirotis
+* [Exploring Iterative and Parallel Human Computation Processes](readings/downloads/programming/iterative-and-parallel-processing-in-hcomp.pdf) by Greg Little, Lydia B. Chilton, Max Goldman, and Robert C. Miller
+* [Labeling Images with a Computer Game](readings/downloads/gwap/ESP.pdf) by Luis von Ahn and Laura Dabbish 
+* [Financial Incentives and the Performance of Crowds](readings/downloads/econ/financial-incentives-and-the-performance-of-crowds.pdf) by Winter Mason and Duncan Watts
+* [Crowds in Two Seconds: Enabling Realtime Crowd-Powered Interfaces](readings/downloads/hci/adrenaline.pdf) by Michael Bernstein, Joel Brandt, Rob Miller, and David Karger
 
