@@ -130,7 +130,7 @@ For this part, you will use your classifier from last week to make predictions a
 
 3. **Edit predict_unlabelled.py** The only change you will need to make is to <b>replace the <code>get_features()</code> function with the <code>get_features()</code> function that you wrote</b> last week. If you used any auxilary functions as part of your <code>get_features</code>, you will need to copy those over too. When you copy over your function, if you are careful, it should run without complaining. 
 
-3. **Classify your articles!** Once you have copied over your feature function, you can run the program as follows. 
+4. **Classify your articles!** Once you have copied over your feature function, you can run the program as follows. 
 
 	<pre><code>$ python predict_unlabelled.py articles.txt unlabelled_articles.txt</code></pre>
 
@@ -142,13 +142,13 @@ For this part, you will use your classifier from last week to make predictions a
 
 	<pre><code>$ cat classifier_predictions.txt | sort | uniq -c </code></pre>
 
-4. **Gather the positive predictions** You now have three parallel files, each with the same number of lines in it: <code>articles.txt</code>, <code>urls.txt</code>, and <code>classifier_predictions.txt</code>. For the next step, you will want to pull out just the urls of the articles which the classifier predicted as "gun-related"- that is, the lines for which classifier_predictions.txt has a '1'. You can use your favorite programming language to do this, or do it manually if you are bored and have nothing better to do. If you are interested, here is a great bash command to do it for you. 
+5. **Gather the positive predictions** You now have three parallel files, each with the same number of lines in it: <code>articles.txt</code>, <code>urls.txt</code>, and <code>classifier_predictions.txt</code>. For the next step, you will want to pull out just the urls of the articles which the classifier predicted as "gun-related"- that is, the lines for which classifier_predictions.txt has a '1'. You can use your favorite programming language to do this, or do it manually if you are bored and have nothing better to do. If you are interested, here is a great bash command to do it for you. 
 
 	<pre><code>$ paste classifier_predictions.txt urls.txt | grep -e "^1" > positive_predicted_urls.txt</code></pre>
 
 	This creates a new file, positive_predicted_urls.txt, with two columns, one with the label (which will always be '1'), and one with the url. See our [bash cheat sheet](http://crowdsourcing-class.org/bash-commands.html) for a breakdown. 
 
-5. **Take a random sample to be annotated** Finally, you will need to get a sample of these articles to label on Crowdflower (you don't want to pay to have them all labeled!). We will label 500 positive predictions (hopefully you have at least that many). Again, you can use for favorite programming language to get a random sample. Or here is some bash to the rescue:
+6. **Take a random sample to be annotated** Finally, you will need to get a sample of these articles to label on Crowdflower (you don't want to pay to have them all labeled!). We will label 500 positive predictions (hopefully you have at least that many). Again, you can use for favorite programming language to get a random sample. Or here is some bash to the rescue:
 
 	<pre><code> $ cat positive_predicted_urls.txt | shuf | head -500 > sample.txt</code></pre>
 	
