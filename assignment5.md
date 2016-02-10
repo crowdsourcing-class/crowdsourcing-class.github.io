@@ -154,7 +154,7 @@ For this part, you will use your classifier from last week to make predictions a
 	
 <h3>Part 3: Checking Your Classifier's Labels Using The Crowd</h3>
 
-Whew, okay, enough python and bash for now! Its time to design a HIT on Crowdflower! The goal is to have the workers look at each of the URLs you gathered in step 4 of Part 1, and have them judge whether they agree that it is gun-violence-related. This should be a very painless process, hopefully. And look! There are even pictures!
+Whew, okay, enough python and bash for now! Its time to design a HIT on Crowdflower! The goal is to have the workers look at the sample of 500 URLs you produced in step 6 of Part 2, and have them judge whether they agree that it is gun-violence-related. This should be a very painless process, hopefully. And look! There are even pictures!
 
 1. **Pred your data** You will need the list of urls to be in CSV format. The easiest way to do this will probably be to open <code>sample.txt</code>, or whatever you called your file, in a spreadsheet program like Google Docs. Then, you can use File->Dowload as->CSV, and save the file. Make sure you add a header to the columns, something informative like "url" or "stuff." 
 
