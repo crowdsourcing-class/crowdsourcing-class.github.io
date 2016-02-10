@@ -210,7 +210,7 @@
       title:  Worker Evaluation in Crowdsourcing&#58; Gold Data or Multiple Workers?
       url: http://www.behind-the-enemy-lines.com/2010/09/worker-evaluation-in-crowdsourcing-gold.html
 -
-  date: 2016-02-08
+  date: 2016-02-10
   slides: http://crowdsourcing-class.org/slides/programming-the-crowd.pdf
   title: Programming concepts for human computation
   highlights:
@@ -221,22 +221,7 @@
     -
       author: Greg Little, Lydia B. Chilton, Max Goldman, and Robert C. Miller
       title:  TurKit&#58; Human Computation Algorithms on Mechanical Turk
-      url: readings/downloads/programming/LittleEtAl.pdf
-    -
-      title:  Download the TurKit software from the MIT Computer Science and Artificial Intelligence Laboratory
-      url: http://groups.csail.mit.edu/uid/turkit/
--
-  date: 2016-02-10
-  slides: http://crowdsourcing-class.org/slides/iterative-and-parallel-processing.pdf
-  title: Iterative and Parallel Processing
-  highlights:
-    - Experiments with TurKit
-    - Iterative versus parallel processing
-  reading:
-    -
-      author: Greg Little, Lydia B. Chilton, Max Goldman, and Robert C. Miller
-      title:  Exploring Iterative and Parallel Human Computation Processes
-      url: readings/downloads/programming/iterative-and-parallel-processing-in-hcomp.pdf
+      url: readings/downloads/programming/TurKit.pdf
     -
       title:  Download the TurKit software from the MIT Computer Science and Artificial Intelligence Laboratory
       url: http://groups.csail.mit.edu/uid/turkit/
@@ -261,6 +246,39 @@
       author: Charles Branas and Douglas Wiebe
       title: Gun Violence Research and Prevention
       url: http://www.uphs.upenn.edu/ficap/research/docs/Branas%20-%20Gun%20violence%20research%20summary.pdf 
+-
+  date: 2016-02-17
+  slides: http://crowdsourcing-class.org/slides/iterative-and-parallel-processing.pdf
+  title: Iterative and Parallel Processing
+  highlights:
+    - Experiments with TurKit
+    - Iterative versus parallel processing
+  reading:
+    -
+      author: Greg Little, Lydia B. Chilton, Max Goldman, and Robert C. Miller
+      title:  Exploring Iterative and Parallel Human Computation Processes
+      url: readings/downloads/programming/iterative-and-parallel-processing-in-hcomp.pdf
+    -
+      title:  Download the TurKit software from the MIT Computer Science and Artificial Intelligence Laboratory
+      url: http://groups.csail.mit.edu/uid/turkit/
+-
+  date: 2016-02-19
+  title: Drop deadline
+-
+  date: 2016-02-19
+  title: Friday hands-on activity
+-
+  date: 2016-02-22
+  title: Instructor will be traveling for a DARPA meeting.  Guest lecture
+  speaker: Lyle Ungar
+-
+  date: 2016-02-24
+  title: TBD
+  speaker: TBD
+-
+  date: 2016-02-26
+  title: Friday in-class activity
+  speaker: TBD
 -
   date: 2016-02-15
   slides: http://crowdsourcing-class.org/slides/crowdsourcing-and-HCI.pdf
@@ -293,26 +311,6 @@
       author: Nicolas Kokkalis, Thomas Köhn, Carl Pfeiffer, Dima Chornyi, Michael Bernstein, and Scott Klemmer
       title:  EmailValet&#58; Managing Email Overload through Private, Accountable Crowdsourcing
       url: readings/downloads/hci/EmailValet.pdf
--
-  date: 2016-02-19
-  title: Drop deadline
--
-  date: 2016-02-19
-  title: Friday hands-on activity
--
-  date: 2016-02-22
-  title: In-class presentations&#58; Pitch your term project ideas 
-  speaker: your TAs. Instructor will be traveling for a DARPA meeting.
-  slides: http://crowdsourcing-class.org/final-project-pitches.html
--
-  date: 2016-02-24
-  title: In-class presentations&#58; Pitch your term project ideas 
-  speaker: your TAs. Instructor will be traveling for a DARPA meeting.
-  slides: http://crowdsourcing-class.org/final-project-pitches.html
--
-  date: 2016-02-26
-  title: Friday in-class activity
-  speaker: your TAs. Instructor will be traveling for a DARPA meeting.
 -
   date: 2016-02-29
   slides: http://crowdsourcing-class.org/slides/quality-control.pdf
