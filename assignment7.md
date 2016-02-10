@@ -4,8 +4,8 @@ img: information_overload1
 caption: Love the information age...
 title: Homework 7 "Crowdsourcing Information Extraction"
 active_tab: homework
-release_date: 2016-02-19
-due_date: 2016-02-26T14:00:00EST
+release_date: 2016-02-26
+due_date: 2016-03-04T14:00:00EST
 ---
 
 <!-- Check whether the assignment is up to date -->
