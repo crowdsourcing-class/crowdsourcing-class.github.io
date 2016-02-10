@@ -169,7 +169,7 @@ If you have managed to make it this far in life without having to sign up for ac
 </div>
 
 
-<div class="panel panel-primary">
+<div class="panel panel-primary" id="survey">
 <div class="panel-heading" markdown="1">
 #### Survey Questions
 </div>
@@ -225,7 +225,7 @@ Below are the questions that you will be asked to answer about the company or pr
 
 
 
-<div class="panel panel-danger">
+<div class="panel panel-danger" id="rubric">
 <div class="panel-heading" markdown="1">
 #### Grading Rubric
 </div>
@@ -251,7 +251,7 @@ This assignment is worth 10 points of your overall grade in the course.  The rub
 </div>
  
 
-<div class="panel panel-info">
+<div class="panel panel-info" id="faq">
 <div class="panel-heading" markdown="1">
 #### FAQ
 </div>

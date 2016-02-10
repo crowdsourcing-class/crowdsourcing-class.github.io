@@ -60,7 +60,7 @@ In this assignment you’ll choose at least 50 assignments to complete.  We’re
 * [Crowd-Workers: Aggregating Information Across Turkers To Help Them Find Higher Paying Work](readings/downloads/ethics/crowd-workers.pdf) by Chris Callison-Burch
 * [Web Workers, Unite! Addressing Challenges of Online Laborers](readings/downloads/ethics/web-workers-unite.pdf) by Ben Bederson and Alex Quinn
 
-<div class="panel panel-primary">
+<div class="panel panel-primary" id="survey">
 <div class="panel-heading" markdown="1">
 #### Survey Questions
 </div>
@@ -110,7 +110,7 @@ Below are the questions that you will be asked to answer about your experience a
 </div>
  
 
-<div class="panel panel-danger">
+<div class="panel panel-danger" id="rubric">
 <div class="panel-heading" markdown="1">
 #### Grading Rubric
 </div>
@@ -130,12 +130,12 @@ This assignment is worth 5 points of your overall grade in the course.  The rubr
 
 
 
-<div class="panel panel-info" id = "special_note">
+<div class="panel panel-info" id="faq">
 <div class="panel-heading" markdown="1">
-#### What to do if Amazon rejects your application to be a Mechanical Turk worker
+#### FAQ
 </div>
 <div class="panel-body" markdown="1">
-There are two options if you were not able to create a Mechanical Turk account:
+_What should I do if Amazon rejects my application to be a Mechanical Turk worker (or rejects my Amazon Payments account, which has the same effect)?_  There are two options if you were not able to create a Mechanical Turk account:
 
 1. Borrow a classmate's Mechanical Turk account (recommended).<br>
 2. Sign up to be a contributor for CrowdFlower <a href = "https://elite.crowdflower.com/?view=register"> here. </a>CrowdFlower, like Mechanical Turk, is a crowdsourcing platform where you can sign up as a contributor (to do tasks) or a customer (to create tasks).
