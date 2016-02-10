@@ -2,7 +2,7 @@
 layout: default
 img: academic-paper
 caption:
-title: Homework 6 "Reimplement an Academic Paper"
+title: Homework 6 "Replicate Science"
 active_tab: homework
 release_date: 2016-02-12
 due_date: 2016-02-19T14:00:00EST
@@ -24,7 +24,7 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 This assignment is due before class on {{ page.due_date | date: "%A, %B %-d, %Y" }}. 
 </div>
 
-Reimplement An Academic Paper<span class="text-muted"> : Assignment 6</span> 
+Replicate Science<span class="text-muted"> : Assignment 6</span> 
 =============================================================
 For this week's assignment, you will read an academic paper about crowdsourcing and then replicate its findings. You can work as a team of up to 3 people to re-create the findings.
 
