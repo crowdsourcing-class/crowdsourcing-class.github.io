@@ -73,7 +73,7 @@ For this part of the homework assignment, you should write a complete descriptio
 3. Describe the crowd: How did the paper's authors recruit experimental subjects?  How many people participated in the experiment?  How much were they paid?
 4. For each experiment, summarize the results.   Describe how the authors presented those results: Where they summarized in a table, where they qualitatively analyzed?
 
-You can write up the experimental methodology in a Google doc. Once again, you should use your own words.  If you want to reproduce a figure or a table from the paper, that is fine, so long as you attribute it. 
+Write up the experimental methodology in your final report. Once again, you should use your own words.  If you want to reproduce a figure or a table from the paper, that is fine, so long as you attribute it. 
 
 ### 3. Plan your experiment
 
