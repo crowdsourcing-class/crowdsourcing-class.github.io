@@ -104,5 +104,14 @@ Analyze the results of your experiment.  Try to perform the same analysis that t
 
 ### 7. Final write-up
 
-Write a final report.
+Write a final report.  Your final report should be no longer than 5 page, including figures.  If you have too many figures to fit into 5 pages, you may submit the additional ones in a supplemental materials document.
 
+Your paper should include the following information:
+
+* A literature review section
+* A description of which paper you chose to replicate
+* An in-depth explanation of that paper's experimental design, including all of its experiments
+* If you choose one specific experiment from the paper, explain which one you picked and why
+* A description of your experimental setup, along with an explanation of any  deviations that you made from the original design
+* A description of what crowdsourcing platform you used, a description of the selection criteria you used for workers, how much you paid, and how you decided to reject workers (if applicable).  You should also give a pointer to your task design, which can be in a separate document. 
+* An analysis of your results, and a comparison to the findings of the original paper.
