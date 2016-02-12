@@ -152,7 +152,7 @@ Don't forget to answer all of the questions in the [questionnaire](https://docs.
 Your code and questions are due <b>{{ page.due_date | date: "%A, %B %-d, %Y" }}</b>. You can work in pairs on this assignment.  You must declare the fact that you are working together when you turn in the questionnaire.  If you are working with a partner, only one of you needs to turn in the code, but you must specify who will be turning it in on the questionnaire. You cannot add or change partners after the code and questionnaire are submitted.
 
 
-<div class="panel panel-info">
+<div class="panel panel-info" id="faq">
 <div class="panel-heading" markdown="1">
 #### FAQ
 </div>
