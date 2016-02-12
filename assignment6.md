@@ -118,3 +118,23 @@ Your paper should include the following information:
 
 You will submit your final report and your other materials via turnin, and you will need to answer a few questions on [this questionnaire](). 
 
+
+
+<div class="panel panel-danger" id="rubric">
+<div class="panel-heading" markdown="1">
+#### Grading Rubric
+</div>
+<div class="panel-body" markdown="1">
+
+This assignment is worth 5 points of your overall grade in the course.  The rubric for the writeup is given below.
+
+* 1 point - literature review
+* 1 point - detailed description of one paper's experimental design and results
+* 1 point - a description of your experimental setup, including descriptions of any deviations you made
+* 1 point - for successfully executing the experiment on a crowdsourcing platform, and describing how you used the platform
+* 1 point - for analyzing your results and comparing them to the original paper
+* Extra credit: up to two points for choosing a more challenging paper
+* Point caps: if you replicate the Demographics of Mechanical Turk paper, you point total will be capped at 3 points maximum if you run a demographic survey on one platform, or 4 points maximum if you run the demographic survey on both MTurk and CrowdFlower and contrast the two.
+</div>
+</div>
+ 
