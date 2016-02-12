@@ -5,7 +5,7 @@ caption: Science used to use ballpoint pens and it was printed on paper
 title: Homework 6 "Replicate Science"
 active_tab: homework
 release_date: 2016-02-12
-due_date: 2016-02-19T14:00:00EST
+due_date: 2016-02-26T14:00:00EST
 
 ---
 
@@ -133,7 +133,7 @@ This assignment is worth 5 points of your overall grade in the course.  The rubr
 * 1 point - a description of your experimental setup, including descriptions of any deviations you made
 * 1 point - for successfully executing the experiment on a crowdsourcing platform, and describing how you used the platform
 * 1 point - for analyzing your results and comparing them to the original paper
-* Extra credit: up to two points for choosing a more challenging paper
+* Extra credit: up to two points extra credit for choosing a more challenging paper
 * Point caps: if you replicate the Demographics of Mechanical Turk paper, you point total will be capped at 3 points maximum if you run a demographic survey on one platform, or 4 points maximum if you run the demographic survey on both MTurk and CrowdFlower and contrast the two.
 </div>
 </div>
