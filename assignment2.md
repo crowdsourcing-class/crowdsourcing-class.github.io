@@ -130,14 +130,15 @@ You are also welcome to profile a [relevant company](http://www.crowdsourcing.or
 
 This assignment has two deliverables:
 
-1. Answering [a questionnaire](https://docs.google.com/forms/d/1fxe5cwKqM5M2J6NGAsqC30hvNQ0JX4woJV0zOZhRNsU/viewform?usp=send_form) about the company or project that you are researching. This is due before class on {{ page.deliverables[0].due_date | date: "%A, %B %-d, %Y" }}.  If you are working with a partner, only one of you needs to submit the questionnaire. 
+1. Answering [a questionnaire](https://docs.google.com/forms/d/1fxe5cwKqM5M2J6NGAsqC30hvNQ0JX4woJV0zOZhRNsU/viewform?usp=send_form) about the company or project that you are researching. This is due before class on {{ page.deliverables[0].due_date | date: "%A, %B %-d, %Y" }}.  If you are working with a partner, only one of you needs to submit the questionnaire. **Please save your survey answers in a file on your own computer**, so that you can have a copy to use when you do your video profile.
 2. A video presentation about the company.  Several of the best videos will be selected for in-class presentations on Fridays.  Teams whose videos are selected will receive extra credit. his is due before class on {{ page.deliverables[1].due_date | date: "%A, %B %-d, %Y" }}.  You can submit a link to your video on [this form](https://docs.google.com/forms/d/1y2ObY-Vvgc-_3r8HG8SyTIP5ofA35xxZcwNl1RJf4nc/viewform).
 
 This assignment can be done individually or in pairs.
 
 First, please [sign up for a company or project](https://docs.google.com/spreadsheets/d/1dmTheLr1zzSzF4ci9hWIPNkO7sTHcXV3quwocPKr95o/edit?usp=sharing).  Please do not pick a company that another team has already signed up for.  If there’s a company that you’d like to research that isn’t on the list, you are welcome to ask the instructor or the TA to ask if it is OK.  
 
-You should independently research the company, and then [fill in your answers about it in this questionnaire](https://docs.google.com/forms/d/1fxe5cwKqM5M2J6NGAsqC30hvNQ0JX4woJV0zOZhRNsU/viewform?usp=send_form).  Your short answers to these questions on  {{ page.deliverables[0].due_date | date: "%A, %B %-d, %Y" }}.
+You should independently research the company, and then [fill in your answers about it in this questionnaire](https://docs.google.com/forms/d/1fxe5cwKqM5M2J6NGAsqC30hvNQ0JX4woJV0zOZhRNsU/viewform?usp=send_form).  Your short answers to these questions on  {{ page.deliverables[0].due_date | date: "%A, %B %-d, %Y" }}.  Remember to save your survey answers on your own computer, so that you can have a copy to use when you do your video profile.
+
 
 You will record a short 5 to 7 minute video presentation about your company. Your presentation should address the following questions:
 
@@ -147,7 +148,7 @@ You will record a short 5 to 7 minute video presentation about your company. You
 - How does the company benefit from user contributions?
 - Are there any controversies about the company?
 
-Your presentation video is due on {{ page.deliverables[1].due_date | date: "%A, %B %-d, %Y" }}. To turn in your video, please upload it to [Vimeo](https://vimeo.com/). Then give us the link to your video on the survey. Make sure that your video is publicly viewable or that you give us a password to view it on the web form.
+Your presentation video is due on {{ page.deliverables[1].due_date | date: "%A, %B %-d, %Y" }}. To turn in your video, please upload it to [Vimeo](https://vimeo.com/). Then give us the link to your video [using this form](https://docs.google.com/forms/d/1y2ObY-Vvgc-_3r8HG8SyTIP5ofA35xxZcwNl1RJf4nc/viewform). Make sure that your video is publicly viewable or that you give us a password to view it on the web form.
 
 If you have managed to make it this far in life without having to sign up for accounts for things on the internet, here are more detailed instructions:
 
@@ -174,7 +175,7 @@ If you have managed to make it this far in life without having to sign up for ac
 #### Survey Questions
 </div>
 <div class="panel-body" markdown="1">
-Below are the questions that you will be asked to answer about the company or project that you are profiling. Please submit your answers via [the questionnaire](https://docs.google.com/forms/d/1fxe5cwKqM5M2J6NGAsqC30hvNQ0JX4woJV0zOZhRNsU/viewform?usp=send_form) 
+Below are the questions that you will be asked to answer about the company or project that you are profiling. Please submit your answers via [the questionnaire](https://docs.google.com/forms/d/1fxe5cwKqM5M2J6NGAsqC30hvNQ0JX4woJV0zOZhRNsU/viewform?usp=send_form). We recommend that you **save your survey answers in a file on your own computer**, rather than typing them directly into the Google form, so that you can have a copy to use when you do your video profile.  You won't be able to access your answers from Google after you press submit.
 
 * What company are you profiling?
 * What online resources did you use in researching it?
