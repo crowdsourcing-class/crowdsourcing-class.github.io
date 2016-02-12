@@ -46,7 +46,7 @@ In this assignment you’ll choose at least 50 assignments to complete.  We’re
 	* [mTurk List](http://mturklist.com) 
 	* [HITs worth Turking for](http://www.reddit.com/r/HITsWorthTurkingFor/new/?sort=new) 
 	* [MTurk Crowd](http://www.mturkcrowd.com)
-6. After you have finished working, please answer the following questions about your experience and turn in your answers using [this survey](https://docs.google.com/forms/d/16qS3R6Tc9T807NxHCf_fbS8znBOAjJQVG6NFhyCM_oQ/viewform?usp=send_form).
+6. After you have finished working, please answer the following questions about your experience and turn in your answers using [this survey](https://docs.google.com/forms/d/16qS3R6Tc9T807NxHCf_fbS8znBOAjJQVG6NFhyCM_oQ/viewform?usp=send_form). _(We recommend writing the survey answers in a text file on your own computer instead of typing them directly into the Google form, so that you have a copy that you can refer to later)._
 
 **Extra Credit** The Crowd Workers extension you tried is mostly likely the next big thing in crowdsourcing. Right now, it is still a startup in its humble beginnings, being run out of the coffee-cup strewn office of a mere tenure-track professor at an Ivy League university. Help it gain some credibility by leaving a review in the [Google Chrome store](https://chrome.google.com/webstore/detail/crowdworkers/aamdbafophajiecmhbnbakndfgjkfpce/reviews) (we can debate [ethics](http://www.nytimes.com/2013/09/23/technology/give-yourself-4-stars-online-it-might-cost-you.html?_r=0) later). You will get extra credit if you leave a review on the Google Chrome store, or if you the survey to provide us with a thoughtful critique about how to improve the plugin. 
 
@@ -65,7 +65,7 @@ In this assignment you’ll choose at least 50 assignments to complete.  We’re
 #### Survey Questions
 </div>
 <div class="panel-body" markdown="1">
-Below are the questions that you will be asked to answer about your experience as a Crowd Worker.  Please turn in your answers using <a href="https://docs.google.com/forms/d/16qS3R6Tc9T807NxHCf_fbS8znBOAjJQVG6NFhyCM_oQ/viewform?usp=send_form">this form</a>.
+Below are the questions that you will be asked to answer about your experience as a Crowd Worker.  Please turn in your answers using <a href="https://docs.google.com/forms/d/16qS3R6Tc9T807NxHCf_fbS8znBOAjJQVG6NFhyCM_oQ/viewform?usp=send_form">this form</a>. 
 
 1. Did you successfully sign up as a Worker? If you were unable to sign up as a worker, please give an explanation.
 2. Did you successfully sign up for a requester account? If you were unable to sign up as a requester, please give an explanation.
@@ -106,6 +106,7 @@ Below are the questions that you will be asked to answer about your experience a
 20. What did you think of the other productivity tools?
 21. Extra Credit: Did you Leave a review for Crowd Workers on Google Chrome store? What changes would help improve the Crowd Workers plugin? Were there any bugs you noticed? What was difficult or unintuitive to use? What features would you like to see added?
 
+ It is a good idea to write your answers in a file on you own computer, instead of typing them directly into Google, so that you'll have a copy after you press the submit button.  If you type them directly into Google, you won't be able to retrieve them.
 </div>
 </div>
  
