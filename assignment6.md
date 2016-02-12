@@ -104,7 +104,7 @@ Analyze the results of your experiment.  Try to perform the same analysis that t
 
 ### 7. Final write-up
 
-Write a final report.  Your final report should be no longer than 5 page, including figures.  If you have too many figures to fit into 5 pages, you may submit the additional ones in a supplemental materials document.
+Write a final report.  Your final report should be written in markdown format, and should be approximately 3,500 words long.  The maximum length is 3,750 words.  If you need more than that, you're welcome to submit a supplemental materials document containing additional figures or analysis, but your main document should be constructed so that it is readable as a standalone report.  
 
 Your paper should include the following information:
 
@@ -115,3 +115,6 @@ Your paper should include the following information:
 * A description of your experimental setup, along with an explanation of any  deviations that you made from the original design
 * A description of what crowdsourcing platform you used, a description of the selection criteria you used for workers, how much you paid, and how you decided to reject workers (if applicable).  You should also give a pointer to your task design, which can be in a separate document. 
 * An analysis of your results, and a comparison to the findings of the original paper.
+
+You will submit your final report and your other materials via turnin, and you will need to answer a few questions on [this questionnaire](). 
+
