@@ -25,11 +25,6 @@ Did you know you get participation credit for showing up in class?  During class
 
 
 
-<div class="alert alert-info" markdown="1">
-Please submit a link to your company profile video [using this questionnaire](https://docs.google.com/forms/d/1y2ObY-Vvgc-_3r8HG8SyTIP5ofA35xxZcwNl1RJf4nc/viewform) before class on Friday.
-</div>
-
-
 <!-- Display an alert about upcoming homework assignments -->
 {% capture now %}{{'now' | date: '%s'}}{% endcapture %}
 {% for page in site.pages %}
