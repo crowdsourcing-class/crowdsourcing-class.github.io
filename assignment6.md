@@ -65,7 +65,7 @@ After you've read the papers, you should write a 1-2 paragraph summary of what t
 
 ### 2. Understand the paper's experimental design
 
-Your team should meet and come to a consensus about which paper that you want will reproduce.  You should pick a paper that you find to be interesting, and that you will be able to re-create in 1 week. It is not necessary to recreate every finding in a paper, it's fine to pick one or more of the experiments.  
+Your team should meet and come to a consensus about which paper that you want will reproduce.  You should pick a paper that you find to be interesting, and that you will be able to re-create in less than two weeks. It is not necessary to recreate every finding in a paper, it's fine to pick one or more of the experiments.  
 
 For this part of the homework assignment, you should write a complete description of the experimental methodology described in the paper, and what its findings were.  For the experimental methodology you should: 
 1. List the experiments that were run
@@ -104,7 +104,7 @@ Analyze the results of your experiment.  Try to perform the same analysis that t
 
 ### 7. Final write-up
 
-Write a final report.  Your final report should be written in markdown format, and should be approximately 3,500 words long.  The maximum length is 3,750 words.  If you need more than that, you're welcome to submit a supplemental materials document containing additional figures or analysis, but your main document should be constructed so that it is readable as a standalone report.  
+Write a final report.  Your final report should be written in markdown format, and should be approximately 3,500 words long (~5 pages).  The maximum length is 3,750 words.  If you need more than that, you're welcome to submit a supplemental materials document containing additional figures or analysis, but your main document should be constructed so that it is readable as a standalone report.  
 
 Your paper should include the following information:
 
@@ -137,4 +137,3 @@ This assignment is worth 5 points of your overall grade in the course.  The rubr
 * Point caps: if you replicate the Demographics of Mechanical Turk paper, you point total will be capped at 3 points maximum if you run a demographic survey on one platform, or 4 points maximum if you run the demographic survey on both MTurk and CrowdFlower and contrast the two.
 </div>
 </div>
- 
