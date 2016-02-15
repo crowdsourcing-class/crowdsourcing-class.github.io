@@ -12,6 +12,14 @@ You can [watch recordings of the lectures](https://ex.cts.isc.upenn.edu/Mediasit
 </div>
 
 
+
+
+<!-- Create a HTML anchor for the most recent lecture -->
+{% assign anchor_created = false %}
+{% capture now %}{{'now' | date: '%s'}}{% endcapture %}
+<!-- End create a HTML anchor for the most recent lecture -->
+
+
 The lecture schedule is subject to change as the term progresses.
 
 <table class="table table-striped"> 
@@ -22,7 +30,19 @@ The lecture schedule is subject to change as the term progresses.
       <th>Readings</th>
     </tr>
     {% for lecture in site.data.lectures %}
-    <tr>
+
+<!-- Create a HTML anchor for the most recent lecture -->
+{% capture lecture_date %}{{lecture.date | date: '%s'}}{% endcapture %}
+{% assign lecture_date = lecture_date | plus: 0 %}
+{% assign now = now | minus: 14400 %}
+
+{% if anchor_created != true and lecture_date >= now %}
+   {% assign anchor_created = true %}
+<tr id="now">
+   {% else %}
+<tr>
+{% endif %}
+<!-- End create a HTML anchor for the most recent lecture -->
       <td>{{ lecture.date | date: "%A, %B %-d, %Y" }}</td>
       <td>
 	{% if lecture.profile %}
