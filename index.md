@@ -18,14 +18,14 @@ The class has reached its enrollment cap of 120 students.  You may <a href="http
 If you would like free credit on CrowdFlower, please sign up for <a href="https://make.crowdflower.com/users/new">a CrowdFlower account</a> and submit your details on <a href="https://docs.google.com/forms/d/1shp2S5Jl3r5bEx6hT_as8xQJZ5piiy2KRIEYQS_8U74/viewform">this Google form</a> before class on Wednesday. If you do not submit the Google form before Wednesday at 2pm, then you will not receive the free credit from CrowdFlower, and you will have to fund your account with your own money.
 </div>
 
+<div class="alert alert-danger" markdown="1">
+Did you know you get participation credit for showing up in class?  During class today, we will pass out participation codes that you can enter into [this form](https://docs.google.com/forms/d/14UZWosW5_W_-qDNI8KJ_zUGkiyTO9yuwv7yCkCvuZgQ/viewform) to prove that you were there.
+</div>
+
 -->
 
 
 
-
-<div class="alert alert-danger" markdown="1">
-Did you know you get participation credit for showing up in class?  During class today, we will pass out participation codes that you can enter into [this form](https://docs.google.com/forms/d/14UZWosW5_W_-qDNI8KJ_zUGkiyTO9yuwv7yCkCvuZgQ/viewform) to prove that you were there.
-</div>
 
 
 <!-- Display an alert about upcoming homework assignments -->
