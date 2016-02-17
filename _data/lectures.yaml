@@ -263,6 +263,17 @@
       title: Homicide and Suicide Risks Associated With Firearms in the Home&colon; A National Case-Control Study
       url: readings/downloads/gun-violence/homicide-and-suicide-risks-associated-with-firearms-in-the-home.pdf
 -
+  date: 2016-02-17
+  slides: http://crowdsourcing-class.org/slides/twitter-for-public-health.pdf
+  title: Public health and Twitter
+  highlights:
+    - Distilling Collective Intelligence from Twitter
+  reading:
+    -
+      author: Michael Paul and Mark Dredze
+      title:  You are what you Tweet&#58; Analyzing Twitter for Public Health
+      url: readings/downloads/twitter/analyzing-twitter-for-public-health.pdf
+-
   date: 2016-02-19
   title: Drop deadline
 -
@@ -406,15 +417,7 @@
       url: readings/downloads/twitter/approximate-nearest-neighbors.pdf
 -
   date: 2016-03-23
-  slides: http://crowdsourcing-class.org/slides/twitter-for-public-health.pdf
-  title: Distilling Collective Intelligence from Twitter part 2
-  highlights:
-    - Public health and Twitter
-  reading:
-    -
-      author: Michael Paul and Mark Dredze
-      title:  You are what you Tweet&#58; Analyzing Twitter for Public Health
-      url: readings/downloads/twitter/analyzing-twitter-for-public-health.pdf
+  title: TBD
 -
   date: 2016-03-25
   title: Withdraw deadline
