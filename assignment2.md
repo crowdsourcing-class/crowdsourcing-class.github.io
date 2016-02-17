@@ -68,6 +68,7 @@ This week we will be looking at the wealth of companies that use crowdsourcing a
 [Freebase](http://www.freebase.com),
 [Freelancer](https://www.freelancer.com/),
 [Go Fund Me](https://www.gofundme.com/),
+[Good Judgment Open](https://www.gjopen.com),
 [Google Map Maker](http://appleinsider.com/articles/15/08/25/google-reopens-map-maker-with-new-safeguards-to-block-controversial-edits),
 [Global Voices](http://globalvoicesonline.org),
 [Iceland’s Crowdsourced Constitution](http://www.slate.com/articles/technology/future_tense/2014/07/five_lessons_from_iceland_s_failed_crowdsourced_constitution_experiment.html),
