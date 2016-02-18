@@ -104,7 +104,7 @@ Analyze the results of your experiment.  Try to perform the same analysis that t
 
 ### 7. Final write-up
 
-Write a final report.  Your final report should be written in markdown format, and should be approximately 3,500 words long (~5 pages).  The maximum length is 3,750 words.  If you need more than that, you're welcome to submit a supplemental materials document containing additional figures or analysis, but your main document should be constructed so that it is readable as a standalone report.  
+Write a final report.  Your final report should be written in markdown format (there's a good tutorial for markdown [here](http://markdowntutorial.com/)), and should be approximately 3,500 words long (~5 pages).  The maximum length is 3,750 words.  If you need more than that, you're welcome to submit a supplemental materials document containing additional figures or analysis, but your main document should be constructed so that it is readable as a standalone report.  
 
 Your paper should include the following information:
 
