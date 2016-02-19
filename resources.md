@@ -33,6 +33,7 @@ Resources
 - [Apply for Amazon Web Services credits](https://aws.amazon.com/education/awseducate/apply/)
 - [GitHub Student Developer Pack](https://education.github.com/). Free stuff for students.
 - [Philadelphia Open Data API](http://phlapi.com)
+- [Open Data Philly](http://opendataphilly.org) has cool data about things in Philly.
 
 ### Artificial Intelligence tutorials and APIs
 - [Microsoft's Project Oxford APIs](https://www.projectoxford.ai).  These APIs include functions for computer vision, face recognition, speech recognition and generation. 
