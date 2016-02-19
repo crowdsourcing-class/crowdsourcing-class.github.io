@@ -1,11 +1,9 @@
 ---
 layout: default
-img: information_overload1
-caption: Love the information age...
-title: Homework 7 "Crowdsourcing Information Extraction"
+img: quality-never-goes-out-of-style
+caption: Quality never goes out of style.
+title: Homework 8 | Quality control
 active_tab: homework
-release_date: 2016-02-26
-due_date: 2016-03-04T14:00:00EST
 ---
 
 <!-- Check whether the assignment is up to date -->
@@ -19,141 +17,123 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 <!-- End of check whether the assignment is up to date -->
 
 <div class="alert alert-info">
-  This assignment is due before class on Wednesday, October 22nd.</div>
+  This assignment is due before class on Wednesday, November 5th.
+</div>
 
-
-Crowdsourcing Information Extraction<span class="text-muted"> : Assignment 6</span> 
+Quality Control<span class="text-muted">: Assignment 8</span> 
 =============================================================
+As you all may have noticed, it is easy to get a lot of junk answers from CrowdFlower. According to your workers, there are currently shooters on the loose with names like "3", "hi", "https://tasks.CrowdFlower.com/assignments/823118d2-af64-4c5e-b6f1-0510e2a2e659", and my personal favorite: ["felony"](http://freakonomics.com/2013/04/08/how-much-does-your-name-matter-a-new-freakonomics-radio-podcast/).
 
-Okay, so we've been talking all semester about this gun violence database. And we've been making all sorts of big promises to Doug and the other epidemiologists. But, what have we gotten so far?: "Here are some articles that we are about 10% confident are about guns. Also, the word "shooting" is a good feature." Not exactly anything to write home about. So time to deliver. Let's take these articles and turn it into something useful. 
+That being said, a lot of you actually go very good results. Before getting hung up on the various frustrating expereinces so many of you had, keep in mind the big picture. You are hiring anonymous workers from across the country (or world, if you forgot to set up your filters!), which CrowdFlower recruits from ultra-sketchy sites like [this gem](http://www.clixsense.com/), and you are paying them a few cents for their time. I don't know about you, but based on all of my cynical models of human behavior, I would absolutely expect that you get 100% crap results back. But the truth is, you don't. You get a lot of really legitimate work from a lot of very sincere workers, you just need to make some effort to tease apart the good from that bad, which isn't always trivial. This is why we can dedicate a whole course to studying crowdsourcing.
 
-We will do this using (surprise!) crowdsourcing. This week, you are going to ask Crowdflower workers to read through the articles that you all identified as gun related back in homework 5, and pull out the key facts in a principled way. Your primary goal is to design an interface that helps them do this quickly and accurately. We will walk you through some initial steps to get you started on the design, but you are welcome to go in your own direction.  
+So, this week, we will attempt to answer two big questions:
 
-Your deliverables will be:
+1. How good are my workers? Which workers are reliable and which ones appear to be incompetent, lazy, and/or inebriated?
+2. How do I combine the (likely conflicting) labels from multiple Turkers in order to accurately label my data?
 
-1. Two csv files from Crowdflower containing the information the workers extract
+In class, we have discussed three different quality estimation methods to answer these questions:
 
-2. Screen shots of your two HIT designs
+1. Majority vote: A label is considered 'correct' if it agrees with the majority, and all votes are equal. (Pure democracy!)
+2. Confidence-weighted vote: A label is considered 'correct' if it agrees with the majority, but all workers are not equal. A worker's weight is proportional to their accuracy on your embedded gold-standard questions. (Elitist republic!)
+3. [Expectation maximization](http://en.wikipedia.org/wiki/Expectation%E2%80%93maximization_algorithm) : A label's 'correctness' is determined using an iterative algorithm, which uses the estimated quality of the worker in order to infer the labels, and then the estimated labels in order to infer the quality of the worker. (Some new-fangled solution to politics...?)
 
-3. Reponses about your findings in [this questionnaire](https://docs.google.com/forms/d/1_qW91g5FDIS5qa_2TdKtlfkMQDggT8b7QbuhFJ-0f08/viewform?usp=send_form).
+For this assignment, you will run the first two algorithms and provide a brief analysis comparing them to each other and to CrowdFlower's super-secret quality estimation algorithm. We will work with the results of your first CrowdFlower task (the binary gun/not gun judgement HIT), since the algorithms are not designed for open-ended answers. You should think about ways to map these concepts onto the open-ended IE HIT you worked with last week.
 
-You will might want to work in teams for this project. These HITs will require more time for the crowd workers, and so should pay a bit more than the previous ones. Don't be a jerk and pay them pennies just because your account is low! Buddy up with someone, or feel free to add some funds to your account. (We didn't have a text book for this class. And we gave you each $100. So we've been easy on your budget so far.)
+Since EM is a more advanced algorithm, we will only require you to walk through a toy example. If you are interested in machine learning, and want to understand this concept better, you are welcome and encouraged to run it on your actual CrowdFlower data. We will give you all the extra credit you could ever desire. Your name will be know all across Levine Hall.
 
-###Code, data, and signing up for more emails
+You will be using your own data from [Assignment 5](http://crowdsourcing-class.org/assignment5.html). You should download three reports: we will use the "Full" report for our own computations; we will use the "Aggregated" one and the "Contributors" one so that you can compare your own aggregation techniques against the ones used by CrowdFlower.
 
-1. In assignment 5, you guys had workers label your classifier's results. We've pulled together 400 of the urls your workers called "gun related." We've also written some code to do some text processing for you, which we will talk about in a few steps. You can download all the code and data [here](http://crowdsourcing-class.org/assignments/downloads/assignment6.tgz). 
+##Part 1: Comparing aggregation methods
 
-	<pre><code> $ wget http://crowdsourcing-class.org/assignments/downloads/assignment6.tgz
-	$ tar -xvzf assignment6.tgz</code></pre>
+###Majority vote
 
-2. You should see three files. `gun-violence-urls.txt` contains 400 urls that your workers labeled as gun-related in the previous assignment. `clean_and_process_data.py` is a script which will perform basic text processing to clean up your articles and help pull out some potentially useful information (like names and locations). <code>convert_to_csv.py</code> will put your data into a csv that can be uploaded to Crowdflower. 
+Majority vote is probably the easiest and most common way to aggregate your workers' labels. It is simple and gets to the heart of what "the wisdom of crowds" is supposed to give us- as long as the workers make uncorrelated errors, we should be able to walk away with decent results. Plus, as every insecure middle schooler knows, what is popular is always right. 
 
-3. In order to do the text processing, we will be using the [Alchemy API](http://www.alchemyapi.com/api/calling-the-api/). This is a super awesome professional API which does a lot of very complicated NLP for you and makes it seem easy. You should play around with their [online demo](http://www.alchemyapi.com/products/demo/alchemylanguage/). Specifically, look at the text extraction and entity extraction features, since these are the main features we will use. 
+1. First, use majority vote to assign labels to each of the urls in your data. You can impliment it however you want, but will want to output <b>two-column, tab-separated file</b> in the format "url \t label". 
 
-	In order to use Alchemy, you will need to [sign up for an account](http://www.alchemyapi.com/api/register.html) and get an API key. The default account will give you 1,000 API calls a day. This is probably enough for this assignment- you will need two calls per url, so if you only mess up one and a half times, you should still be within your daily limit. However, if you want to explore it more (which you really should! its awesome!) you can sign up for an academic account, which will give you 30,000 calls a day. If you want to do this, let me know. It just requires sending an email to the sales team, and you can copy the email I used to request my academic license.
+	Lets let <i>u</i> be a url and we'll use <i>labels</i> to refer to the data structure we are building, so that <i>labels[u]</i> is the label we assign to <i>u</i>. So we have 
 
-###HIT Design
+	<p align="center" style="font-size:16px font-family:courier">
+	<i>labels[u]</i> = majority label for <i>u</i>.
+	</p>
 
-As you may remember from [Doug's lecture](http://crowdsourcing-class.org/slides/gun-violence-as-a-public-health-issue.pdf), there are a lot of details about gun crimes that epidemiologists are interested in. For this assignment, you are going to ask workers to try to extract the following information: 
+2. Now, you can use the url labels you just computed to estimate a confidence in (or quality for) each worker. We will say that a worker's quality is simply the proportion of times that that worker agrees with the majority. 
 
-- Time and place
-	- City
-	- State
-	- Additional fine-grained location information 
-	- Date
-	- Time of day
-- Detials about shooter(s) (may have to answer questions multiple times if multiple victims)
-	- Number of shooters
-	- Name
-	- Gender
-	- Age
-	- Race
-- Detials about victim(s) (may have to answer questions multiple times if multiple victims)
-	- Number of victims
-	- Name
-	- Gender
-	- Age
-	- Race
-	- Killed? 
-	- Injured?
-	- Hospitalized? 
-- Circumstances of shooting
-	- Type of gun
-	- Number of shots fired
-	- Was it a case of domestic violence?
-	- Did the ictim and shooter know each other?
-	- Was the shooting during another crime (robbery, home invasion by the shooter, etc)?
-	- Was the shooter attempting to deter a home invasion?
-	- Was alcohol involved?
-	- Were drugs involved?
-	- Suicide or suicide attempt?
-	- Inadvertent discharge of a firearm? 
-	- Shooting by the police?
-	- Shooting of a police officer?
-	- Was the gun stolen?
-	- Was the gun owned by the vitim or thier family?
+	Let's define some more notation. This is, after all, a CS class. We have a quota to meet for overly-mathifying very simple concepts, to give the appearance of principle and rigor. 
 
-You will design two HITs on Crowdflower to extract this information from the articles. In the first, you will simply provide the article and ask workers to fill in the information. In the second, you will do some preprocessing to try to make the workers' job easier. 
+	Lets call <i>qualities</i> the dictionary that we build to hold the quality of each worker. We'll call the <i>i</i>th worker <i>w<sub>i</sub></i> and we'll use  <i>urls[w<sub>i</sub>]</i> to represent all the urls for which <i>w<sub>i</sub></i> provided a label. We'll let <i>l<sub>ui</sub></i> represent the label (e.g. "Gun-related", "Not gun-related", or "Don't know") that <i>w<sub>i</sub></i> assigns to url <i>u</i>. Then we calculate the quality of a worker as:
 
-####Not very good design
+	<p align="center" style="font-size:16px font-family:courier">
+	<i>qualities[w<sub>i</sub>]</i> = (1 / |<i>urls[w<sub>i</sub>]</i>|) * &Sigma;<sub><i>u</i> &isin; <i>urls[w<sub>i</sub>]</i></sub> &delta;(<i>l<sub>ui</sub> == labels[u]</i>)
+	</p>
 
-1. First, we will design a simple HIT. You can see my simple version [here](https://tasks.crowdflower.com/channels/cf_internal/jobs/628080/work?secret=HsuWoK3FcnApyscySyHcyUCgD7i9ixucAo2IllnnX4Dn) (you might need to click the "start a new assignment" link). You do not have to follow my designs exactly, but your design should extract the same information.
+	Here, <i>&delta;(x)<i> is a special function which equals 1 if <i>x</i> is true, and 0 if <i>x</i> is false. 
 
-2. From assignment 5, you should all be familiar with how to use the crowdflower interface. You should use <code>gun-violence-urls.txt</code> as your input data (remember you will need to add a header row!); in the next design, you will have to use an input with some more columns, but for now, you only need the urls.
+	Again, you should output a <b>two-column, tab-separated file</b> in the format "workerId \t quality".
+    
+### Weighted majority vote
 
-3. Just because this is the "simple HIT design" doesn't mean it should be a UI monstrosity. Crowdflower has a pretty cool [custom markup language](http://success.crowdflower.com/customer/portal/articles/1290342-cml-crowdflower-markup-language-) which gives you some nice control over how your questions are displayed. You might want to consider using something like the "only-if" field, so that workers don't have to view questions about victims number 2,3,4, and 5 if there is only one victim in the article. For example, I used this code so that the "Name of victim #2" question only appears if the worker answered that there are 2 or more victims. 
-	
-    <pre><code> &lt;cml:select label="Number of shooters" validates="required"&gt;
-    &lt;cml:option label="1" id=""/&gt;
-    &lt;cml:option label="2" id=""/&gt;
-    &lt;cml:option label="3" id=""/&gt;
-    &lt;cml:option label="4" id=""/&gt;
-    &lt;cml:option label="5 or more" id=""/&gt;
-    &lt;/cml:select&gt;
-    ...
-    &lt;cml:text label="Shooter #2 name" only-if="number_of_shooters:[2]||number_of_shooters:[3]||number_of_shooters:[4]||number_of_shooters:[5]" validates="required"/&gt;</code></pre>
+Majority vote is great: easy, straightforward, fair. But should everyone really pull the same weight? As every insecure student knows, whatever the smartest kid says is always right. So maybe we should recalibrate our voting, so that we listen more to the better workers. 
 
-####Less bad design
+3. For this, we will use the embedded test questions that you created. We will calculate each worker's quality to be their accuracy on the test questions. E.g.  
 
-4. Now, we will use Alchemy to design a nicer HIT interface, which will hopefully allow your workers to move through the articles more quickly and accurately. You can see my design [here](https://tasks.crowdflower.com/channels/cf_internal/jobs/628109/work?secret=HsuWoK3FcnApyscySyHcyUCgD7i9ixucAo2IllnnX4Dn). Again, you are encoraged to improve over my template! I am a god-awful web designer, so please! Make it better so we can recycle your designs for next year's students! :-P 
+	<p align="center" style="font-size:16px font-family:courier">
+	<i>qualities[w<sub>i</sub>]</i> = (1 / |<i>gold_urls[w<sub>i</sub>]</i>|) * &Sigma;<sub><i>u</i> &isin; <i>gold_urls[w<sub>i</sub>]</i></sub> &delta;(<i>l<sub>ui</sub> == gold_label[u]</i>)
+	</p>
 
-5. To do this, we will use Alchemy's [text extraction](http://www.alchemyapi.com/api/text-extraction/) to display the cleaned-up text to the workers. We will also use Alchemy's [entity extraction](http://www.alchemyapi.com/api/entity-extraction/), [date extraction](http://www.alchemyapi.com/api/publication-date/), and [keyword extraction](http://www.alchemyapi.com/api/keyword-extraction/). Open `clean_and_process_data.py`. This script will make the API calls using python. You can see how the API calls are constructed by looking at the request strings at the top of the file. 
+	Once again, output a two-column, tab-separated file in the format "workerId \t quality". (Hint: you can see whether or not a row in your csv file corresponds to a gold test question by checking the "_golden" column.)
 
-	<pre><code>http://access.alchemyapi.com/calls/url/URLGetText?apikey=[KEY]&url=[URL]&outputMode=json</code></pre>
+4. You can use these worker qualities to estimate new labels for each of the urls in your data. Now, instead of a every worker getting a vote of 1, each worker's vote will be equal to their quality score. So we can tally the votes as 
 
-	We will make two calls, one to extract the text, and one [combined call](http://www.alchemyapi.com/api/combined-call/) which will extract the remaining information. The file reads from [standard input](http://en.wikipedia.org/wiki/Standard_streams#Standard_input_.28stdin.29), which means you can run the program by doing the following:
+	<p align="center" style="font-size:16px font-family:courier">
+	<i>votes[u][l]</i> = &Sigma;<sub><i>w</i> &isin; <i>workers[u]</i></sub> &delta;(<i>l<sub>ui</sub> == l</i>) * <i>qualities[w<sub>i</sub>]</i>
+	</p>
 
-	<pre><code>python clean_and_process_data.py &lt; gun-violence-urls.txt</code></pre>
+	where <i>votes[url][l]</i> is the weighted votes for assigning label <i>l</i> to url <i>u</i> and <i>workers[u]</i> just lists all of the workers who labeled <i>u</i>. Then 
 
-	This will write the results to a file called `gun-violence-urls-and-entitites.csv`.
+	<p align="center" style="font-size:16px font-family:courier">
+	<i>labels[u]</i> = <i>l</i> with max <i>votes[u][l]</i>
+	</p>
 
-6. You will need to put the extracted data into a csv format, so that Crowdflower can understand it. The `convert_to_csv.py` script will do this for you. If you open it up, you will see that it reads through the extracted list of entities for each article and wraps them in an html `<span>` tag, so that you can handle them specially when you are designing your interface. Running the following will create a file called `gun-article-info.csv` that Crowdflower should understand. 
-	
-	<pre><code> python convert_to_csv.py gun-violence-urls-and-entitites.csv </code></pre>
+	Output another file in the format "url \t label". 
 
-7. Take another shot at your interface design, now taking advantage of the fact that you have a fairly good (but not perfect) list of the people and places in the article. You are welcome to reimpliment my design, although there is lots of room for improvement. Check the extra credit opportunities for more ideas! 
+###Comparing against CrowdFlower
 
-###Extra credit
+CrowdFlower has its own way of aggregating worker votes and determining confidence it workers. They keep their exact algorithms locked up and secret, but you can see the results in the csvs you downloaded. The results of their <i>labels[u]</i> is just the labels assigned in the "Aggregated" report. You can see their confidence in each worker in the "Contributors" report. 
 
-If you like web design, awesome! We are completely willing to give extra credit for faster, simpler, and sexier UIs. A few ideas:
+5. You can download [this script](assignments/downloads/cf_aggregation.py) as an example of how I formatted the CrowdFlower data to match the two-column format of our other files. Since your column names are different than mine, you will have to edit this script. Assuming you have edited it to match your column names, you can run it as follows (passing it your aggregaed and contributor reports, respectively): 
 
-- Pre-populate answers to the form so users can simply confirm or edit the answers.
+	<pre><code> $ python cf_aggregation.py -d a621213.csv -m data > CrowdFlower_data.txt
+	$ python cf_aggregation.py -d workset621213.csv -m worker > CrowdFlower_workers.txt</code></pre>
 
-- Allow users to click on entities in the text and flag them as specific fields (e.g. "victim") withough having to type into the text boxes.
+	You should now have 6 files, 3 "url \t label" files and 3 "workerId \t quality" files. You will do some comparisons and report your findings in [this questionnaire](https://docs.google.com/forms/d/16G-O0K9NHQCMOOuaJFgUSK-kjZ1A5WY45iIpIAa5HeQ/viewform?usp=send_form). 
+6. First, we'll compare how well the three methods agree on what the "correct" label for each url should be. For this, we will use a metric called [Cohen's kappa](http://en.wikipedia.org/wiki/Cohen's_kappa), which attempts to measure the level of agreement between two sets of categorical labels. You can download [our script](assignments/downloads/kappa.py) for computing it, which you can run like this:
 
-- Anything with drag and drop. People love to drag and drop.
+	<pre><code> $ python kappa.py CrowdFlower_data.txt majority_data.txt 
+	kappa = 0.969854</code></pre>
 
-- Alchemy does a good job, but misses some important things like dates and times. Try some other tools to detect this, or write your own!
+	To compare how well the three methods agree on the worker qualities, we will use [Kendall tau](http://en.wikipedia.org/wiki/Kendall_tau_rank_correlation_coefficient) correlation, which we talked about in class. Python has a [built-in implimentation](http://docs.scipy.org/doc/scipy-0.14.0/reference/generated/scipy.stats.kendalltau.html) that you can use, or you can [impliment it yourself](http://en.wikipedia.org/wiki/Kendall_tau_rank_correlation_coefficient#Algorithms). Note that Python use's a slightly different definition than we discussed in class, so you might get different numbers depending on which method you decide to use. 
 
-This assignment is due <b>Wednesday, October 22</b>. You can work in pairs, but you must declare the fact that you are working together when you turn your assignment. Remember to turn submit your questionnaire before the deadline. You can turn in your data and screenshots using turnin:
+	Your deliverables for this section are the 6 files you generated (3 "url \t label" files and 3 "workerId \t quality" files) and any code you used to generate them. Your code should be clearly named and reasonably commented. We will not need to run it, but we should be able to read it and see clearly what you did to generate your results. Remember to fill in the [questionnaire](https://docs.google.com/forms/d/16G-O0K9NHQCMOOuaJFgUSK-kjZ1A5WY45iIpIAa5HeQ/viewform?usp=send_form).
 
-<pre><code>$ turnin -c nets213 -p crowdie -v *</code></pre>
+##Part 2: The EM algorithm
 
-###Very useful hints
+The data aggregation algorithms you used above were straightforward and work reasonably well. But they are of course not perfect, and with all the CS researchers out there, all the Ph.Ds that need to be awarded and all the tenure that needs to be got, its only natural that many fancier, mathier algorithms have arisen. 
 
-1. If you want to launch your HIT so that only you can do it (to test it without paying workers), go to "Contributors" and then to the "Channels" tab, and turn off "On-Demand Workforce." Then you can follow the link at the bottom of the dashboard to test your own HIT. 
+We discussed the expectation maximization (EM) algorithm in class as a way to jointly find the data labels <i>and</i> the worker qualities. The intution is "<i>If</i> I knew how good my workers were, I could easily compute the data labels (just like you did in step 2 of weigthed vote) and <i>if</i> I knew the data labels, I could easily compute how good my workers are (just like you did in step 1 of weighted vote). The problem is, I don't know either." So the EM solution is to guess the worker qualities, use that to compute the labels, then use the labels we just computed to reassign the worker qualities, then use the new worker qualities to recompute the labels, and so on until we converge (or get bored). This is one of the best-loved algorithms in machine learning, and often appears to be somewhat magic when you first see it. The best way to get an intuition about what is happening is to walk through it by hand. So for this step, we will ask you do walk through 3 iterations of EM on a [toy data set](assignments/downloads/em_toy_data.txt) and report your results in the [questionnaire](https://docs.google.com/forms/d/16G-O0K9NHQCMOOuaJFgUSK-kjZ1A5WY45iIpIAa5HeQ/viewform?usp=send_form). 
 
-2. Don't use javascript! Use [jQuery](http://jquery.com/). Javascript is an ugly nightmare, jQuery is small and sleek and beautiful. If you don't know javascript, don't bother learning. Just use jQuery. 
+You can refer to the [lecture slides](http://crowdsourcing-class.org/slides/quality-control-3.pdf) as a guide. The numbers are slightly different, but the process is idenitcal. If you are super ambitious, you are welcome to delve into the depths of the [original 1979 paper](http://crowdsourcing-class.org/readings/downloads/ml/EM.pdf) describing the use of EM for diagnosing patients. If you are super ambitious and/or super in want of extra credit, you can code it up and run EM on your own CrowdFlower data!
 
-3. If you want to include jQuery in your HIT, you can do this in Crowdflower's javascript editor. You can see it by clicking the "Show Custom CSS/JS" link at the buttom of the "Build Job" page. However, if you want to access the data fields in your csv from your javascript, you will need to include the javascript within the CML editor. [Here](http://crowdsourcing-class.org/assignments/downloads/assignment6-js-example.txt) is the javascript I included to show/hide groups of questions in my HIT. You can add this to the top of your CML editor and use it as a template for your own HIT.
 
+##Deliverables
+
+This assignment is due <b>Wednesday, November 5</b>. You can work in pairs, but you must declare the fact that you are working together when you turn your assignment. Remember to submit your questionnaire before the deadline.  Your deliverables are stated at the ends of parts 1 and 2, but in the spirit of EM, I will reiterate:
+
+1. 3 files containing labels for each url, one file for each algorithm (majority, weighted, and CrowdFlower)
+2. 3 files containing qualities for each worker, one file for each algorithm (majority, weighted, and CrowdFlower)
+3. Your completed questionnaire 
+4. Any code you used to run your algorithms and/or perform your analyses. Your code should be readable enough that we can tell what you did, but does not need to conform to any particular interface.
+
+You can turn in your assignment using 
+
+	$ turnin -c nets213 -p quality -v *
