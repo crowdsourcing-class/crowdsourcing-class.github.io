@@ -25,7 +25,7 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 Final Project<span class="text-muted"> : Part 1</span> 
 =============================================================
 
-This week's assignment counts as a deliverable toward your final project.  This assignment will be worth 10% of your final grade.  The goal of this assignment is to generate several ideas that you could refine into your final project.  You'll pitch the ideas in class, and get feedback from your classmates about how exciting and how feasible they think your ideas are.
+This assignment counts as a deliverable toward your final project.   The goal of this assignment is to generate several ideas that you could refine into your final project.  You'll pitch the ideas in class, and get feedback from your classmates about how exciting and how feasible they think your ideas are.
 
 ### Step 1: Form a team
 

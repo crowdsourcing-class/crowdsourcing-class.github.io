@@ -16,36 +16,10 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 {% endif %}
 <!-- End of check whether the assignment is up to date -->
 
-
-Final Project
-=============================================================
-
-The final term project will be a self-designed project created by the students in consultation with the professor and the TA.
-
-## Deliverables
-
-Due October 8th Midterm: In class proposal for project/pitch to class
-
-Progress Update: Individual team meetings with TA+Prof, give concrete progress update
-
-Final: Writeup and demonstration system
-
-Your project should meet the following guidelines:
-
-* Should solve a real world problem
-* Should actually use crowdsourcing (it doesn't have to be via MTurk, but that is a good default way to incorporate crowdsourcing)
-* Should involve either an HCI or a ML component
-* Should explain the choice of incentives and discuss alternative ways of incentivizing workers
-* Should contain a quality control component
-* Analyze costs, decide whether it is a viable business
-* Extra credit: Lay the foundation for a PennApp, Use 99designs to create cool web site
-* Bonus Extra credit: Start a business and put your Prof + TA on the board of advisors
-* Super extra mega credit: Raise VC funding
-* Loss of all credit: Dropping out of school
-
-
-
 ### Example final projects from last year
+
+Here are 3 examples of my favorite final projects from last year. You can also check out all of the the final project videos from the [Fall 2014 class](final-projects-2014.html) and the [Fall 2013 class](final-projects-2013.html).
+
 
 <table class="table table-striped"> 
   <tbody>
@@ -196,7 +170,3 @@ Your project should meet the following guidelines:
   </tbody>
 </table>
  
-
-<div class="alert alert-info" markdown="span">
-You can also check out the final project videos from the [Fall 2014 class](final-projects-2014.html) and the [Fall 2013 class](final-projects-2013.html).
-</div>
