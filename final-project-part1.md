@@ -101,10 +101,10 @@ This assignment is due before class on <b>{{ page.due_date | date: "%A, %B %-d, 
 </div>
 <div class="panel-body" markdown="1">
 
-This assignment is worth 5 points of your final project grade.  
+This assignment is worth 7 points of your final project grade.  
 
 * 1 point for successfully forming a team with 3-5 members
-* 2 points for each project idea
+* 2 points for each of your 3 project ideas
   * 1 point for the video
   * 1 point for the questionnaire 
 
