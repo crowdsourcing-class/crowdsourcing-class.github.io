@@ -25,7 +25,7 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 Final Project<span class="text-muted"> : Part 1</span> 
 =============================================================
 
-This assignment counts as a deliverable toward your final project.   The goal of this assignment is to generate several ideas that you could refine into your final project.  You'll pitch the ideas in class, and get feedback from your classmates about how exciting and how feasible they think your ideas are.
+This assignment counts as a deliverable toward your final project.   The goal of this assignment is to generate several ideas that you could refine into your final project.  You'll create video pitches for three ideas, and get feedback from your classmates about how exciting and how feasible they think your ideas are.
 
 ### Step 1: Form a team
 
@@ -162,7 +162,7 @@ Write a suite of HITs on Mechanical Turk to test behavioral economic theories by
  
 ### Speech Recognition Systems
 
-Apple uses speech recognition systems for Siri.  You can develop this technology for new languages.  You need an [open source speech recognition system](http://kaldi.sourceforge.net/about.html) and a bunch of training data.  What sort of data?  Audio files paired with their transcriptions.  Where do you get data?  Crowdsourcing!  You can come up with ways of collecting data.  You could gather data either through transcription of existing audio files, or `elicitation' where people read texts out loud and save recordings of it. You'll need to figure out how to do good quality control, to what extent the quality matters when you're training a speech recognition system for a new langauge.
+Apple uses speech recognition systems for Siri.  You can develop this technology for new languages.  You need an [open source speech recognition system](http://kaldi-asr.org) and a bunch of training data.  What sort of data?  Audio files paired with their transcriptions.  Where do you get data?  Crowdsourcing!  You can come up with ways of collecting data.  You could gather data either through transcription of existing audio files, or `elicitation' where people read texts out loud and save recordings of it. You'll need to figure out how to do good quality control, to what extent the quality matters when you're training a speech recognition system for a new langauge.
 
 ### Food Truck Tracker
 
