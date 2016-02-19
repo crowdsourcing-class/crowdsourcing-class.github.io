@@ -162,11 +162,11 @@ Write a suite of HITs on Mechanical Turk to test behavioral economic theories by
  
 ### Speech Recognition Systems
 
-Apple uses speech recognition systems for Siri.  You can develop this technology for new languages.  You need an [open source speech recognition system](http://kaldi-asr.org) and a bunch of training data.  What sort of data?  Audio files paired with their transcriptions.  Where do you get data?  Crowdsourcing!  You can come up with ways of collecting data.  You could gather data either through transcription of existing audio files, or `elicitation' where people read texts out loud and save recordings of it. You'll need to figure out how to do good quality control, to what extent the quality matters when you're training a speech recognition system for a new langauge.
+Apple uses speech recognition systems for Siri.  You can develop this technology for new languages.  You need an [open source speech recognition system](http://kaldi-asr.org) and a bunch of training data.  What sort of data?  Audio files paired with their transcriptions.  Where do you get data?  Crowdsourcing!  You can come up with ways of collecting data.  You could gather data either through transcription of existing audio files, or `elicitation' where people read texts out loud and save recordings of it. You'll need to figure out how to do good quality control, to what extent the quality matters when you're training a speech recognition system for a new language.
 
 ### Food Truck Tracker
 
-There are a lot of food trucks in Philly.  Some of them are so awesome that they move to different locations on different days.  They announce their whereabouts on Twitter or Facebook.  Do they really expect us to keep track of where they all are?  Why not have the crowd create a map of the current whereabouts of all the food trucks.  How about having the crowd keep track of their menus and prices while you're at it?
+There are a lot of food trucks in Philly.  Some of them are so awesome that they move to different locations on different days.  They announce their whereabouts on Twitter or Facebook.  Do they really expect us to keep track of where they all are?  Why not have the crowd create a map of the current whereabouts of all the food trucks.  How about having the crowd keep track of their menus and prices while you're at it?  A good crowdsourcing platform to use for this project is [FieldAgent](https://www.fieldagent.net).  FieldAgent gave me $2000 in credit, which I can share with students.
 
 ### Track the spread of the flu using social media 
 
@@ -281,7 +281,7 @@ _Questions from Workers_
 
 Professor Eskenazi has provided [100 paragraphs that she would like workers to create questions for](assignments/downloads/Crowdsourcing-for-Web-QA.docx).
 
-### Collect data on language and mental state (Suggested by Professor Philip Resnik of the University of Maryland)
+### Collect data on language and mental state (suggested by Professor Philip Resnik of the University of Maryland)
 
 Recently Professor Resnik has been researching the problem of how language connects to underlying mental state, with an interest in potential applications like low-cost, wide-coverage screening for mental health conditions like depression.  He would like help collecting labeled training data for posts to a mental health forum, where the goal is to design a machine learning classifier that could flag posts if a person might be a danger to self or others and require intervention.   There is a related [shared task on the automatic triage of posts from a mental health forum](http://clpsych.org/shared-task-2016/) as part of an upcoming workshop on the Computational Linguistics and Clinical Psychology.  
 
