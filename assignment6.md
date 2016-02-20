@@ -120,7 +120,11 @@ You will submit your final report and your other materials via turnin, and you w
 
 Like before, please turn in your files using turnin: 
 
-<code>$ turnin -c nets213 -p replicate-science -v</code>
+<code>$ turnin -c nets213 -p replicate-science -v deliverables/*</code>
+
+Or if you are only submitting the report without supplementary materials:
+
+<code>$ turnin -c nets213 -p replicate-science -v report.md</code>
 
 Note that turnin only keeps the most recent work that you have sent it, so if you are submitting supplementary documents, they need to be in a directory with your primary report. 
 
