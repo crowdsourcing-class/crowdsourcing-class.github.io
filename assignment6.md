@@ -118,7 +118,11 @@ Your paper should include the following information:
 
 You will submit your final report and your other materials via turnin, and you will need to answer a few questions on [this questionnaire](). 
 
+Like before, please turn in your files using turnin: 
 
+<code>$ turnin -c nets213 -p replicate-science -v</code>
+
+Note that turnin only keeps the most recent work that you have sent it, so if you are submitting supplementary documents, they need to be in a directory with your primary report. 
 
 <div class="panel panel-danger" id="rubric">
 <div class="panel-heading" markdown="1">
