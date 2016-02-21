@@ -116,7 +116,7 @@ Your paper should include the following information:
 * A description of what crowdsourcing platform you used, a description of the selection criteria you used for workers, how much you paid, and how you decided to reject workers (if applicable).  You should also give a pointer to your task design, which can be in a separate document. 
 * An analysis of your results, and a comparison to the findings of the original paper.
 
-You will submit your final report and your other materials via turnin, and you will need to answer a few questions on [this questionnaire](). 
+You will submit your final report and your other materials via turnin, and you will need to answer a few questions on [this questionnaire](https://docs.google.com/forms/d/1tlU99Go83JyT9_w2DHun6CnQ0FQoVsrAaAdEzUrRIIc/viewform). 
 
 Like before, please turn in your files using turnin: 
 
