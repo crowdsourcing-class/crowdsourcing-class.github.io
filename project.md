@@ -17,6 +17,22 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 <!-- End of check whether the assignment is up to date 
 -->
 
+
+Final Project
+=============================================================
+
+The final term project will be a self-designed project created by the students in consultation with the professor and the TA.  The project will be done in 4 parts beginning mid-semester.  Each of these will have an associated set of deliverables. 
+
+* 
+
+
+
+
+### $10,000 Prize
+
+
+
+
 ### Example final projects from last year
 
 Here are 3 examples of my favorite final projects from last year. You can also check out all of the the final project videos from the [Fall 2014 class](final-projects-2014.html) and the [Fall 2013 class](final-projects-2013.html).
