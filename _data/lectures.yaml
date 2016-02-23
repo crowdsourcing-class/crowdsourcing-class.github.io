@@ -266,6 +266,8 @@
   date: 2016-02-17
   slides: http://crowdsourcing-class.org/slides/twitter-for-public-health.pdf
   title: Public health and Twitter
+  speaker: Ellie Pavlick
+  speaker_url: http://www.seas.upenn.edu/~epavlick/
   highlights:
     - Distilling Collective Intelligence from Twitter
   reading:
@@ -281,16 +283,33 @@
   title: Friday hands-on activity
 -
   date: 2016-02-22
-  title: Instructor will be traveling for a DARPA meeting.  Guest lecture
+  slides: https://prezi.com/inlusmmhla--/individual-and-community-wwbp/?utm_campaign=share&utm_medium=copy
+  title: Inferring individual and county level traits from social media
   speaker: Lyle Ungar
+  speaker_url: http://www.cis.upenn.edu/~ungar/
 -
   date: 2016-02-24
-  title: TBD
-  speaker: TBD
+  title: In-class activity&colon; find a group
 -
   date: 2016-02-26
-  title: Friday in-class activity
-  speaker: TBD
+  slides: http://crowdsourcing-class.org/slides/twitter-first-story-detection.pdf
+  title: Distilling Collective Intelligence from Twitter
+  highlights:
+    - Topic Detection and Tracking
+    - Approximate algorithms for scaling to large data sets
+  reading:
+    -
+      author: Sasa Petrovic, Miles Osborne, and Victor Lavrenko
+      title:  Streaming First Story Detection with application to Twitter
+      url: readings/downloads/twitter/streaming-first-story-detection-with-application-to-twitter.pdf
+    -
+      author: Ben Van Durme and Ashwin Lall
+      title:  Online Generation of Locality Sensitive Hash Signatures
+      url: readings/downloads/twitter/online-generation-of-locality-sensitive-hash-signatures.pdf
+    -
+      author: Sariel Har-Peled, Piotr Indyk and Rajeev Motwani 
+      title:  Approximate Nearest Neighbors&#58; Towards Removing the Curse of Dimensionality
+      url: readings/downloads/twitter/approximate-nearest-neighbors.pdf
 -
   date: 2016-02-15
   slides: http://crowdsourcing-class.org/slides/crowdsourcing-and-HCI.pdf
@@ -399,26 +418,6 @@
 -
   date: 2016-03-18
   title: Friday hands-on activity
--
-  date: 2016-03-16
-  slides: http://crowdsourcing-class.org/slides/twitter-first-story-detection.pdf
-  title: Distilling Collective Intelligence from Twitter part 1
-  highlights:
-    - Topic Detection and Tracking
-    - Approximate algorithms for scaling to large data sets
-  reading:
-    -
-      author: Sasa Petrovic, Miles Osborne, and Victor Lavrenko
-      title:  Streaming First Story Detection with application to Twitter
-      url: readings/downloads/twitter/streaming-first-story-detection-with-application-to-twitter.pdf
-    -
-      author: Ben Van Durme and Ashwin Lall
-      title:  Online Generation of Locality Sensitive Hash Signatures
-      url: readings/downloads/twitter/online-generation-of-locality-sensitive-hash-signatures.pdf
-    -
-      author: Sariel Har-Peled, Piotr Indyk and Rajeev Motwani 
-      title:  Approximate Nearest Neighbors&#58; Towards Removing the Curse of Dimensionality
-      url: readings/downloads/twitter/approximate-nearest-neighbors.pdf
 -
   date: 2016-03-23
   title: TBD
