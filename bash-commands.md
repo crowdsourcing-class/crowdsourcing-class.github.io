@@ -19,7 +19,7 @@ due_date:
 Bash<span class="text-muted">: Greatest Hits</span> 
 =============================================================
 
-####Where am I??
+#### Where am I??
 {% highlight tcsh %}
 $ ls # list all the files in this directory
 $ ls some/directory # list all the files in some/directory
@@ -31,7 +31,7 @@ $ rm file.txt # remove file.txt (be careful, it will be gone for good).
 $ rm -r directory # remove directory and all the files within it (again, gone for good).
 {% endhighlight %}
 
-####What the $#@! are these files?
+#### What the $#@! are these files?
 {% highlight tcsh %}
 $ ls -lah file.txt #print the size of file.txt in bytes (also the date it was created)
 $ wc -l file.txt #print the number of lines in file.txt
@@ -44,7 +44,7 @@ $ tar -xzvf file.tar.gz #unzip a tar archived file
 $ tar -czvf files.tar.gz files/ #create a tar archived file containing the contents of the directory files/
 {% endhighlight %}
 
-####Exploring and reorganizing file contents
+#### Exploring and reorganizing file contents
 {% highlight tcsh %}
 $ sort file.txt # sort the lines in file.txt (by default, alphabetically and ascending)
 $ sort -r file.txt # sort the lines in file.txt in reverse order
@@ -59,7 +59,7 @@ $ grep -v "phrase" file.txt # print out lines in file.txt that don't contain the
 $ shuf file.txt # shuffle the lines in file.txt
 {% endhighlight %}
 
-####Gettin' fancy
+#### Gettin' fancy
 Bash commands are connecting via "pipes", which means the input of one command is the output of the previous command. We use the | character to "pipe" one command's output into another. Below are some useful examples.
 {% highlight tcsh %}
 $ cat file.txt | sort | uniq | wc -l # how many unique lines are in this file
@@ -74,7 +74,7 @@ $ cat file.txt | sort | uniq -c | sort -nr > output.txt # stores the unique line
 $ cat output.txt | wc -l >> output.txt # Appends the line count of output.txt to the end of output.txt
 {% endhighlight %}
 
-####Downloading Files
+#### Downloading Files
 To download the contents of any URL (whether it be a file, HTML page or even a picture), there's a very useful command on Mac and Linux.
 {% highlight tcsh %}
 $ wget http://www.crowdsourcing-class.org/assignment1.html # Downloads the contents of the URL as th file 'assignment1.html' to the current directory (used in Linux)
