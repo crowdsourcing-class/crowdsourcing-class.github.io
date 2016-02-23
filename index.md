@@ -24,6 +24,10 @@ Did you know you get participation credit for showing up in class?  During class
 
 -->
 
+<div class="alert alert-info">
+The first peer grading assignment is due on before class on Monday February 29th.  You will be grading your classmates' company profile videos.  Links to the videos were sent to you an email from nets213@seas.upenn.edu with the subject line "first peer grading assignment".
+</div> 
+
 
 
 
