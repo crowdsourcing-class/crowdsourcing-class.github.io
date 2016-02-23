@@ -21,6 +21,13 @@ Abstract
 
 We will also cover tools and techniques for crowdsourcing. Effectively collecting crowdsourced data requires careful attention to the collection process, through selection of appropriately qualified workers, giving clear instructions that are understandable to non-experts, and performing quality control on the results to eliminate spammers who complete tasks randomly or carelessly in order to collect the small financial reward. We will introduce different crowdsourcing platforms, review privacy and institutional review board issues, and provide rules of thumb for cost and time estimates. Crowdsourced data also has a particular structure that raises issues in statistical analysis; we describe some of the key methods to address these issues.
 
+<!--
 CrowdFlower Credits
 : CrowdFlower has generously offered a $100 credit to all of the tutorial's participants.  Sign up for the credits [on this Google form](https://docs.google.com/forms/d/1aT9eypWdCEeqMIhjgl6oF6W9AICMyoQb42yEI-gjnmQ/viewform?usp=send_form), and then [register for CrowdFlower](https://make.crowdflower.com/users/new) using the same email address.
+-->
+
+
+<div class="alert alert-info">
+Here is a [video recording of our tutorial at the NAACL 2015 conference](http://techtalks.tv/talks/crowdsourcing-for-nlp/61562/).
+</div>
 
