@@ -83,3 +83,18 @@ $ wget http://www.crowdsourcing-class.org/assignment1.html # Downloads the conte
 $ curl -O http://www.crowdsourcing-class.org/assignment1.html # Downloads the contents of the URL as th file 'assignment1.html' to the current directory (used in Mac)
 {% endhighlight %}
 
+####Uploading Files and Directories
+To turn in your HWs, you need to log into the remote SEAS server (ENIAC) and use the <code>turnin</code> tool. There are some commands below which show how to transfer your HW files from your local computer to another machine / server over SSH.
+{% highlight tcsh %}
+$ scp your_file_name username@serveraddress:~/ # This copies the file your_file_name to the remote server. The ":~/" at the end is required. For Penn students, the username is your Pennkey.
+{% endhighlight %}
+{% highlight tcsh %}
+$ scp answers.txt johndoe@eniac.seas.upenn.edu:~/ # This copies answers.txt to ENIAC. The ":~/" at the end is required. The sample Pennkey here is "johndoe"
+{% endhighlight %}
+{% highlight tcsh %}
+$ scp -r your_directory_name username@serveraddress:~/ # This copies the entire directory your_directory_name to the remote server. The ":~/" at the end and the "-r" flag is required.
+{% endhighlight %}
+{% highlight tcsh %}
+$ scp -r NETS213_HW johndoe@eniac.seas.upenn.edu:~/ # This copies the NETS213_HW directory to the remote server. The ":~/" at the end and the "-r" flag is required.
+{% endhighlight %}
+
