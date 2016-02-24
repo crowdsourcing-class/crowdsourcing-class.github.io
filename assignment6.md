@@ -1,9 +1,12 @@
 ---
 layout: default
-img: information_overload1
-caption: Love the information age...
-title: Homework 6 | Crowdsourcing IE
+img: academic-paper
+caption: Science used to use ballpoint pens and it was printed on paper 
+title: Homework 6 "Replicate Science"
 active_tab: homework
+release_date: 2016-02-12
+due_date: 2016-02-26T14:00:00EST
+
 ---
 
 <!-- Check whether the assignment is up to date -->
@@ -16,142 +19,129 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 {% endif %}
 <!-- End of check whether the assignment is up to date -->
 
+
 <div class="alert alert-info">
-  This assignment is due before class on Wednesday, October 22nd.</div>
+This assignment is due before class on {{ page.due_date | date: "%A, %B %-d, %Y" }}. 
+</div>
 
-
-Crowdsourcing Information Extraction<span class="text-muted"> : Assignment 6</span> 
+Replicate Science<span class="text-muted"> : Assignment 6</span> 
 =============================================================
+One of the awesome things about crowdsourcing is that it lets us quickly run scientific experiments.  You're going to practice doing this by reading an academic paper that uses crowdsourcing and trying to replicate its findings.  Good science should be repeatable, so you're helping science by replicating someone else's experiments.  And it's good for your own understanding of crowdsourcing and academic research.  Did you know that your professors secretly spend most of their time doing research?  It's true.  If you think that their lectures sometimes seem underprepared, it's likely because they're in their lab, bringing down lightening from the Gods and cackling like Dr. Frankenstein until their calendar app reminds them to go to the lecture hall.
 
-Okay, so we've been talking all semester about this gun violence database. And we've been making all sorts of big promises to Doug and the other epidemiologists. But, what have we gotten so far?: "Here are some articles that we are about 10% confident are about guns. Also, the word "shooting" is a good feature." Not exactly anything to write home about. So time to deliver. Let's take these articles and turn it into something useful. 
+For this assignment, you can work in teams of 3-4 people.  Your final project will require that you work in groups, so this is a good chance for you to form a group and test out whether you want to work with those people.
 
-We will do this using (surprise!) crowdsourcing. This week, you are going to ask Crowdflower workers to read through the articles that you all identified as gun related back in homework 5, and pull out the key facts in a principled way. Your primary goal is to design an interface that helps them do this quickly and accurately. We will walk you through some initial steps to get you started on the design, but you are welcome to go in your own direction.  
+You have five options for academic papers that you can replicate:
 
-Your deliverables will be:
+* [Demographics of Mechanical Turk](readings/downloads/platform/demographics-of-mturk.pdf) by Panos Ipeirotis
+* [Exploring Iterative and Parallel Human Computation Processes](readings/downloads/programming/iterative-and-parallel-processing-in-hcomp.pdf) by Greg Little, Lydia B. Chilton, Max Goldman, and Robert C. Miller
+* [Labeling Images with a Computer Game](readings/downloads/gwap/ESP.pdf) by Luis von Ahn and Laura Dabbish 
+* [Financial Incentives and the Performance of Crowds](readings/downloads/econ/financial-incentives-and-the-performance-of-crowds.pdf) by Winter Mason and Duncan Watts
+* [Crowds in Two Seconds: Enabling Realtime Crowd-Powered Interfaces](readings/downloads/hci/adrenaline.pdf) by Michael Bernstein, Joel Brandt, Rob Miller, and David Karger
 
-1. Two csv files from Crowdflower containing the information the workers extract
+I have sorted the papers roughly in an order of how difficult they will be to replicate.  Because the difficulty level varies, and because I don't want to read 50 demographic studies of Mechanical Turk, I'm going to award different maximum point values to them based on their difficulties.  You can choose whichever one you want to work on.
 
-2. Screen shots of your two HIT designs
+* Demographics of Mechanical Turk -- 3 points maximum (4 points max if you run the demographic survey on both MTurk and CrowdFlower and contrast the two)
+* Exploring Iterative and Parallel Human Computation Processes -- 5 points maximum
+* Labeling Images with a Computer Game -- 5 points maximum 
+* Financial Incentives and the Performance of Crowds -- 6 points maximum
+* Crowds in Two Seconds: Enabling Realtime Crowd-Powered Interfaces -- 7 points maximum 
 
-3. Reponses about your findings in [this questionnaire](https://docs.google.com/forms/d/1_qW91g5FDIS5qa_2TdKtlfkMQDggT8b7QbuhFJ-0f08/viewform?usp=send_form).
+Here are the steps and deliverables for this project:
 
-You will might want to work in teams for this project. These HITs will require more time for the crowd workers, and so should pay a bit more than the previous ones. Don't be a jerk and pay them pennies just because your account is low! Buddy up with someone, or feel free to add some funds to your account. (We didn't have a text book for this class. And we gave you each $100. So we've been easy on your budget so far.)
+1. Read at least 3 of the academic papers and write a brief summary of each of them.
+2. Pick one paper, and write an in-depth summary of its experimental methodology and its findings.
+3. Re-create one or more experiments from the paper.  For this step, it's fine to deviate somewhat from the paper's design.  For instance, you can use a different crowdsourcing platform, or a different set of images to collect labels for.  
+4. Create a task on CrowdFlower or Mechanical Turk or another crowdsourcing platform, and perform the experiment.  You will submit your task templates, along with any code and other materials that you used.
 
-###Code, data, and signing up for more emails
+5. Collect responses from crowd
+6. Analyze your findings and say how they are different from the findings in the original paper.
+7. Write a report and submit your final materials. 
 
-1. In assignment 5, you guys had workers label your classifier's results. We've pulled together 400 of the urls your workers called "gun related." We've also written some code to do some text processing for you, which we will talk about in a few steps. You can download all the code and data [here](http://crowdsourcing-class.org/assignments/downloads/assignment6.tgz). 
+### 1. Literature review
 
-	<pre><code> $ wget http://crowdsourcing-class.org/assignments/downloads/assignment6.tgz
-	$ tar -xvzf assignment6.tgz</code></pre>
+You should begin this project by reading through 3 of the academic papers.  The goals of this step are for you to get a sense of what constitutes interesting research on crowdsourcing, and for you to see how academic papers describe their experimental designs and how they present their results.  While you are reading the papers, you should try to  estimate of how long it will take you to replicate one or more of the experiments that were presented in the paper.  
 
-2. You should see three files. `gun-violence-urls.txt` contains 400 urls that your workers labeled as gun-related in the previous assignment. `clean_and_process_data.py` is a script which will perform basic text processing to clean up your articles and help pull out some potentially useful information (like names and locations). <code>convert_to_csv.py</code> will put your data into a csv that can be uploaded to Crowdflower. 
+After you've read the papers, you should write a 1-2 paragraph summary of what they were about and what their main findings were.  The summary of the paper should be written in your own words, and not copied and pasted from the paper itself.
 
-3. In order to do the text processing, we will be using the [Alchemy API](http://www.alchemyapi.com/api/calling-the-api/). This is a super awesome professional API which does a lot of very complicated NLP for you and makes it seem easy. You should play around with their [online demo](http://www.alchemyapi.com/products/demo/alchemylanguage/). Specifically, look at the text extraction and entity extraction features, since these are the main features we will use. 
+### 2. Understand the paper's experimental design
 
-	In order to use Alchemy, you will need to [sign up for an account](http://www.alchemyapi.com/api/register.html) and get an API key. The default account will give you 1,000 API calls a day. This is probably enough for this assignment- you will need two calls per url, so if you only mess up one and a half times, you should still be within your daily limit. However, if you want to explore it more (which you really should! its awesome!) you can sign up for an academic account, which will give you 30,000 calls a day. If you want to do this, let me know. It just requires sending an email to the sales team, and you can copy the email I used to request my academic license.
+Your team should meet and come to a consensus about which paper that you want will reproduce.  You should pick a paper that you find to be interesting, and that you will be able to re-create in less than two weeks. It is not necessary to recreate every finding in a paper, it's fine to pick one or more of the experiments.  
 
-###HIT Design
+For this part of the homework assignment, you should write a complete description of the experimental methodology described in the paper, and what its findings were.  For the experimental methodology you should: 
+1. List the experiments that were run
+2. For each experiment, describe the materials that they used (like survey questions, images shown to users, or prompts for user feedback)
+3. Describe the crowd: How did the paper's authors recruit experimental subjects?  How many people participated in the experiment?  How much were they paid?
+4. For each experiment, summarize the results.   Describe how the authors presented those results: Where they summarized in a table, where they qualitatively analyzed?
 
-As you may remember from [Doug's lecture](http://crowdsourcing-class.org/slides/gun-violence-as-a-public-health-issue.pdf), there are a lot of details about gun crimes that epidemiologists are interested in. For this assignment, you are going to ask workers to try to extract the following information: 
+Write up the experimental methodology in your final report. Once again, you should use your own words.  If you want to reproduce a figure or a table from the paper, that is fine, so long as you attribute it. 
 
-- Time and place
-	- City
-	- State
-	- Additional fine-grained location information 
-	- Date
-	- Time of day
-- Detials about shooter(s) (may have to answer questions multiple times if multiple victims)
-	- Number of shooters
-	- Name
-	- Gender
-	- Age
-	- Race
-- Detials about victim(s) (may have to answer questions multiple times if multiple victims)
-	- Number of victims
-	- Name
-	- Gender
-	- Age
-	- Race
-	- Killed? 
-	- Injured?
-	- Hospitalized? 
-- Circumstances of shooting
-	- Type of gun
-	- Number of shots fired
-	- Was it a case of domestic violence?
-	- Did the ictim and shooter know each other?
-	- Was the shooting during another crime (robbery, home invasion by the shooter, etc)?
-	- Was the shooter attempting to deter a home invasion?
-	- Was alcohol involved?
-	- Were drugs involved?
-	- Suicide or suicide attempt?
-	- Inadvertent discharge of a firearm? 
-	- Shooting by the police?
-	- Shooting of a police officer?
-	- Was the gun stolen?
-	- Was the gun owned by the vitim or thier family?
+### 3. Plan your experiment
 
-You will design two HITs on Crowdflower to extract this information from the articles. In the first, you will simply provide the article and ask workers to fill in the information. In the second, you will do some preprocessing to try to make the workers' job easier. 
+Pick one or more of the experiments that you want to replicate. If the paper described a set of experiments, then you can pick one of them.  For instance, [Financial Incentives and the Performance of Crowds](readings/downloads/econ/financial-incentives-and-the-performance-of-crowds.pdf) performs two studies -- one where they have workers organize traffic cam photos chronologically and another where they have workers perform word puzzles.   Similarly, [Exploring Iterative and Parallel Human Computation Processes](readings/downloads/programming/iterative-and-parallel-processing-in-hcomp.pdf)  had 3 studies, one involving writing image descriptions, one on brainstorming, and one blurry image recognition.   If you are reproducing either of those papers, you only need to pick one of those studies. 
 
-####Not very good design
+When you create your own version of the paper's experiment, it's fine to deviate somewhat from the paper's design.  For instance, you could use CrowdFlower even if the original paper used Mechanical turk.  Or if the crowd was shown a particular set of images and asked to write captions or label the images, it might not be possible for you to get exactly the same set of images.  It's fine to choose your own.  When you deviate from the setup of the original experiment, you should note why.  You should also briefly explain if you think it might result in a different outcome than the findings of the original paper. 
 
-1. First, we will design a simple HIT. You can see my simple version [here](https://tasks.crowdflower.com/channels/cf_internal/jobs/628080/work?secret=HsuWoK3FcnApyscySyHcyUCgD7i9ixucAo2IllnnX4Dn) (you might need to click the "start a new assignment" link). You do not have to follow my designs exactly, but your design should extract the same information.
+In this step, you should collect any materials that you'll be presenting to workers (images, prompts, survey questions, etc).  You should save these in a directory and write a README describing them.  You'll submit them along with your final writeup.
 
-2. From assignment 5, you should all be familiar with how to use the crowdflower interface. You should use <code>gun-violence-urls.txt</code> as your input data (remember you will need to add a header row!); in the next design, you will have to use an input with some more columns, but for now, you only need the urls.
+### 4. Use a crowdsourcing platform to set up your experiment
 
-3. Just because this is the "simple HIT design" doesn't mean it should be a UI monstrosity. Crowdflower has a pretty cool [custom markup language](http://success.crowdflower.com/customer/portal/articles/1290342-cml-crowdflower-markup-language-) which gives you some nice control over how your questions are displayed. You might want to consider using something like the "only-if" field, so that workers don't have to view questions about victims number 2,3,4, and 5 if there is only one victim in the article. For example, I used this code so that the "Name of victim #2" question only appears if the worker answered that there are 2 or more victims. 
-	
-    <pre><code> &lt;cml:select label="Number of shooters" validates="required"&gt;
-    &lt;cml:option label="1" id=""/&gt;
-    &lt;cml:option label="2" id=""/&gt;
-    &lt;cml:option label="3" id=""/&gt;
-    &lt;cml:option label="4" id=""/&gt;
-    &lt;cml:option label="5 or more" id=""/&gt;
-    &lt;/cml:select&gt;
-    ...
-    &lt;cml:text label="Shooter #2 name" only-if="number_of_shooters:[2]||number_of_shooters:[3]||number_of_shooters:[4]||number_of_shooters:[5]" validates="required"/&gt;</code></pre>
+Create a task on CrowdFlower or Mechanical Turk or another crowdsourcing platform that you'll use to perform the experiment.  You should write clear instructions on what you'd like the workers to do (and how they will be rewarded, if that's relevant to the experiment).
 
-####Less bad design
+Please save your instructions, and take a screenshot of your task design, and/or submit an HTML template for it.  If you write any code with it (like for a Javascript alert for the [Crowds in Two Seconds](readings/downloads/hci/adrenaline.pdf)), then also include that code and a README describing what it does.
 
-4. Now, we will use Alchemy to design a nicer HIT interface, which will hopefully allow your workers to move through the articles more quickly and accurately. You can see my design [here](https://tasks.crowdflower.com/channels/cf_internal/jobs/628109/work?secret=HsuWoK3FcnApyscySyHcyUCgD7i9ixucAo2IllnnX4Dn). Again, you are encoraged to improve over my template! I am a god-awful web designer, so please! Make it better so we can recycle your designs for next year's students! :-P 
+### 5. Collect responses from crowd
 
-5. To do this, we will use Alchemy's [text extraction](http://www.alchemyapi.com/api/text-extraction/) to display the cleaned-up text to the workers. We will also use Alchemy's [entity extraction](http://www.alchemyapi.com/api/entity-extraction/), [date extraction](http://www.alchemyapi.com/api/publication-date/), and [keyword extraction](http://www.alchemyapi.com/api/keyword-extraction/). Open `clean_and_process_data.py`. This script will make the API calls using python. You can see how the API calls are constructed by looking at the request strings at the top of the file. 
+Decide on an appropriate reward amount, and an appropriate number of crowd workers that you need to hire to complete your experiment, and then run it.  You may consider starting with a small-scale pilot version of your experiment to make sure that everything is working properly, and that your instructions are written clearly enough for workers to understand.
 
-	<pre><code>http://access.alchemyapi.com/calls/url/URLGetText?apikey=[KEY]&url=[URL]&outputMode=json</code></pre>
+In your final write up on your experiment, you should describe how many workers you hired, and how  much you paid them.
+If you placed restrictions on who can participate (based on their country or their past approval rate, etc), then document that too.
+If you had to remove any workers for giving spammy results, describe what criteria you used to select whom to exclude from your experiment.
 
-	We will make two calls, one to extract the text, and one [combined call](http://www.alchemyapi.com/api/combined-call/) which will extract the remaining information. The file reads from [standard input](http://en.wikipedia.org/wiki/Standard_streams#Standard_input_.28stdin.29), which means you can run the program by doing the following:
+### 6. Analyze your findings
 
-	<pre><code>python clean_and_process_data.py &lt; gun-violence-urls.txt</code></pre>
+Analyze the results of your experiment.  Try to perform the same analysis that the original paper did.  You should also present your results in a similar format (for instance, a similar style of graph).  Are your high-level findings the same as the original paper or different?  If they are different, how so? What do you attribute the differences to?
 
-	This will write the results to a file called `gun-violence-urls-and-entitites.csv`.
 
-6. You will need to put the extracted data into a csv format, so that Crowdflower can understand it. The `convert_to_csv.py` script will do this for you. If you open it up, you will see that it reads through the extracted list of entities for each article and wraps them in an html `<span>` tag, so that you can handle them specially when you are designing your interface. Running the following will create a file called `gun-article-info.csv` that Crowdflower should understand. 
-	
-	<pre><code> python convert_to_csv.py gun-violence-urls-and-entitites.csv </code></pre>
+### 7. Final write-up
 
-7. Take another shot at your interface design, now taking advantage of the fact that you have a fairly good (but not perfect) list of the people and places in the article. You are welcome to reimpliment my design, although there is lots of room for improvement. Check the extra credit opportunities for more ideas! 
+Write a final report.  Your final report should be written in markdown format (there's a good tutorial for markdown [here](http://markdowntutorial.com/)), and should be approximately 3,500 words long (~5 pages).  The maximum length is 3,750 words.  If you need more than that, you're welcome to submit a supplemental materials document containing additional figures or analysis, but your main document should be constructed so that it is readable as a standalone report.  
 
-###Extra credit
+Your paper should include the following information:
 
-If you like web design, awesome! We are completely willing to give extra credit for faster, simpler, and sexier UIs. A few ideas:
+* A literature review section
+* A description of which paper you chose to replicate
+* An in-depth explanation of that paper's experimental design, including all of its experiments
+* If you choose one specific experiment from the paper, explain which one you picked and why
+* A description of your experimental setup, along with an explanation of any  deviations that you made from the original design
+* A description of what crowdsourcing platform you used, a description of the selection criteria you used for workers, how much you paid, and how you decided to reject workers (if applicable).  You should also give a pointer to your task design, which can be in a separate document. 
+* An analysis of your results, and a comparison to the findings of the original paper.
 
-- Pre-populate answers to the form so users can simply confirm or edit the answers.
+You will submit your final report and your other materials via turnin, and you will need to answer a few questions on [this questionnaire](https://docs.google.com/forms/d/1tlU99Go83JyT9_w2DHun6CnQ0FQoVsrAaAdEzUrRIIc/viewform). 
 
-- Allow users to click on entities in the text and flag them as specific fields (e.g. "victim") withough having to type into the text boxes.
+Like before, please turn in your files using turnin: 
 
-- Anything with drag and drop. People love to drag and drop.
+<code>$ turnin -c nets213 -p replicate-science -v deliverables/*</code>
 
-- Alchemy does a good job, but misses some important things like dates and times. Try some other tools to detect this, or write your own!
+Or if you are only submitting the report without supplementary materials:
 
-This assignment is due <b>Wednesday, October 22</b>. You can work in pairs, but you must declare the fact that you are working together when you turn your assignment. Remember to turn submit your questionnaire before the deadline. You can turn in your data and screenshots using turnin:
+<code>$ turnin -c nets213 -p replicate-science -v report.md</code>
 
-<pre><code>$ turnin -c nets213 -p crowdie -v *</code></pre>
+Note that turnin only keeps the most recent work that you have sent it, so if you are submitting supplementary documents, they need to be in a directory with your primary report. 
 
-###Very useful hints
+<div class="panel panel-danger" id="rubric">
+<div class="panel-heading" markdown="1">
+#### Grading Rubric
+</div>
+<div class="panel-body" markdown="1">
 
-1. If you want to launch your HIT so that only you can do it (to test it without paying workers), go to "Contributors" and then to the "Channels" tab, and turn off "On-Demand Workforce." Then you can follow the link at the bottom of the dashboard to test your own HIT. 
+This assignment is worth 5 points of your overall grade in the course.  The rubric for the writeup is given below.
 
-2. Don't use javascript! Use [jQuery](http://jquery.com/). Javascript is an ugly nightmare, jQuery is small and sleek and beautiful. If you don't know javascript, don't bother learning. Just use jQuery. 
-
-3. If you want to include jQuery in your HIT, you can do this in Crowdflower's javascript editor. You can see it by clicking the "Show Custom CSS/JS" link at the buttom of the "Build Job" page. However, if you want to access the data fields in your csv from your javascript, you will need to include the javascript within the CML editor. [Here](http://crowdsourcing-class.org/assignments/downloads/assignment6-js-example.txt) is the javascript I included to show/hide groups of questions in my HIT. You can add this to the top of your CML editor and use it as a template for your own HIT.
-
+* 1 point - literature review
+* 1 point - detailed description of one paper's experimental design and results
+* 1 point - a description of your experimental setup, including descriptions of any deviations you made
+* 1 point - for successfully executing the experiment on a crowdsourcing platform, and describing how you used the platform
+* 1 point - for analyzing your results and comparing them to the original paper
+* Extra credit: up to two points extra credit for choosing a more challenging paper
+* Point caps: if you replicate the Demographics of Mechanical Turk paper, you point total will be capped at 3 points maximum if you run a demographic survey on one platform, or 4 points maximum if you run the demographic survey on both MTurk and CrowdFlower and contrast the two.
+</div>
+</div>

@@ -9,14 +9,14 @@ active_tab: company-profile
 
 Company Profiles
 =============================================================
-As part of your [market research assignment](assignment2.html), you will give a short 5 to 10 minute presentation on your company.  Your presentation should answer the following questions:
+As part of the [market research assignment](assignment2.html), students researched companies that use crowdsourcing projects, and produced short videos about them.  Their presentations answered the following questions:
 
 - What incentives does the company offer to get people to participate?
 - How does it aggregate the information provided by the crowd?
 - What are the quality concerns, and how does the company do quality control?
 - How does the company benefit from user contributions?
 
-Here are the companies that you are profiling this term:
+Here are the company profiles that students produced this term:
 
 <table class="table table-striped"> 
   <tbody>

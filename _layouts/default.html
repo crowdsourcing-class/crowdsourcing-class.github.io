@@ -55,11 +55,12 @@
 		<li><a href="assignment3.html">Python Bootcamp</a></li>
 		<li><a href="assignment4.html">Training a Classifier</a></li>
 		<li><a href="assignment5.html">Become a Requester</a></li>
-		<li class="disabled"><a href="final-project-part1.html">Final project - part 1</a></li>
+		<li><a href="assignment6.html">Replicate Science</a></li>
+		<li><a href="final-project-part1.html">Final project - part 1</a></li>
+
 		<li class="disabled"><a href="peergrading.html">Peer Grading</a></li>
-		<li class="disabled"><a href="assignment6.html">Crowdsourcing IE</a></li>
-		<li class="disabled"><a href="assignment7.html">Lit Review</a></li>
-		<li class="disabled"><a href="assignment8.html">Quality Control</a></li>
+		<li class="disabled"><a href="assignment7.html">Quality Control</a></li>
+		<li class="disabled"><a href="assignment8.html">Crowdsourcing IE</a></li>
 		<li class="disabled"><a href="final-project-part2.html">Final project - part 2</a></li>
 		<li class="disabled"><a href="assignment9.html">Analyzing Data</a></li>
 		<li class="disabled"><a href="final-project-part3.html">Final project - part 3</a></li>
@@ -79,6 +80,7 @@
 
 
     <div class="container">
+
       {% if page.img %}
       <div class="row">
         <div class="col-sm-2 hidden-sm hidden-xs">
@@ -86,7 +88,16 @@
           <img src="assets/img/{{ page.img }}.jpg" class="img-responsive img-rounded" alt="{{ page.picture }}"/>
           {% if page.img_link %}</a>{% endif %} 
           <span class="text-muted"><i>{{ page.caption }}</i></span>
+<!--
+<ul class="nav nav-stacked" id="sidebar">
+<li role="presentation" class="active"><a href="#">HW Description</a></li>
+<li role="presentation"><a href="#survey">Survey</a></li>
+<li role="presentation"><a href="#rubric">Rubric</a></li>
+<li role="presentation"><a href="#faq">FAQ</a></li>
+</ul>
+-->
         </div>
+
         <div class="col-sm-10">
           {{ content }}
         </div>
@@ -116,6 +127,21 @@
       $(document).ready(function(){
         $("#{{ page.active_tab }}").addClass("active");
       });
+
+$('#sidebar').affix({
+      offset: {
+        top: 245
+      }
+});
+
+var $body   = $(document.body);
+var navHeight = $('.navbar').outerHeight(true) + 10;
+
+$body.scrollspy({
+	target: '#leftCol',
+	offset: navHeight
+});
+
     </script>
   </body>
 </html>

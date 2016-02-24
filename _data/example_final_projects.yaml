@@ -1,0 +1,303 @@
+-
+  how_many_teammates_are_in_your_group: 4
+  name_1: Dhrupad Bhardwaj
+  name_2: Sally Kong
+  name_3: Jing Ran
+  name_4: Amy Le
+  pennkey_username_1: dhrupadb
+  pennkey_username_2: kongjih
+  pennkey_username_3: jran
+  pennkey_username_4: pleamy
+  name_of_your_project: Shoptimum
+  give_a_one_sentence_description_of_your_project: Shoptimum is a crowdsourced fashion portal to get links to cheaper alternatives for celebrity clothes and accessories.
+  url_to_the_logo_for_your_project: https://raw.githubusercontent.com/jran/Shoptimum/gh&#45;pages/shoptimum&#37;20logo.png
+  what_similar_projects_exist: CopyCatChic &#45; It's a similar concept which provides cheaper alternatives to interior decoration and furniture. However it doesn't crowdsource results or showcase items and has a team of contributors post blogs about the items.<p>Polyvore &#45; It uses a crowdsourced platform to curate diverse products into a compatible ensemble in terms of decor, accessories or styling choices. However it doesn't cater to the particular agenda of finding more cost effective alternatives to existing fashion trends.
+  what_type_of_project_is_it: A tool for crowdsourcing, A business idea that uses crowdsourcing
+  how_do_you_incentivize_the_crowd_to_participate: The  ultimate objective of this application is to become a one stop fashion portal implicitly absorbing current trends by crowdsourcing which items would look best on the user. We plan to structure the incentive program as so&#58;<p>1. Each user who uses Shoptimum gets points for contributing to the application. Different actions have different amounts of points associated with them. For example, if the user is to submit images to be tagged and for which links are to be generated, that would involve between 5&#45;10 points based on the popularity of the image. If the user submits links for an image and tags it, based on the number of votes the user's submissions cumulatively receive that would involve a point score between 20 &#45; 100 points. If the user submitted a tag which ends up on the final highest rated combination (after a threshold of course), that would give the user a bump of 100 points for each item. Lastly, voting for the best alternative also gets you points based on how many people agree with you. As we don't show the vote counts, the vote is unbiased. Eg&#58; If you click the option that most people agree with, you get 30 points, else you get 15 points for contributing. <p>2. These points aim to translate into a system to rank users based on contributions and use frequency of the system. Should the application go live as a business model, we would tie up companies such as Macy's , Amazon, Forever 21 etc. and offer people extra points for listing their items as alternatives versus just any company. If you collect enough points, you would be eligible to receive vouchers or discounts at these stores thus incentivizing you to participate. 
+  what_does_the_crowd_provide_for_you: The crowd is a very very integral part of our application. Literally every step relies on the crowd to be functional. Firstly, the initial images which need to be tagged and cheaper alternatives found are submitted by the crowd. We would of course step in by adding pictures should there be a lack of crowd submissions but it's still the crowd's submissions which matter first. Secondly, and most importantly, the crowd is the one who submits links for each of celebrity/model picture, finding cheaper versions of the same clothing items / accessories as found in the picture. The crowd goes through e&#45;commerce e&#45;fashion portals to find who is selling a similar product and links us to them. The crowd also provides basic tags on attributes related to each item which we in turn use for analytics on what kind of styles are currently trending. Lastly, the voting system is reliant entirely on the crowd who votes to choose which of the submitted alternatives is the best / most cost efficient / most similar to the product submitted in the picture. The application takes all this data and then populates a list of highest voted alternatives and it also provides some analytics to the kinds of input generated.
+  how_do_you_ensure_the_quality_of_the_crowd_provides__: Step 3 in our process deals with QC &#58; The voting<p>The idea is that we ask the crowd for cheaper fashion alternatives, and then ensure the crowd is the one who selects which alternative is the closest to what the original is like. On the voting page, we show the original image side by side with other submitted alternatives. The idea being that people can compare in real time which of the alternatives is most fitting and then vote for that. The aggregation step collects these votes and accordingly maintains a table of the items which are the highest voted. By the law of large numbers, we can approximate that the crowd is almost always right and thus this is an effective QC method as an alternative which isn't satisfactory is likely not to get voted and thus would not show up in the final results. <p>For now we keep the process fairly democratic allowing each user to vote once and that vote would count as one vote only. The idea would eventually be that should users get experience and should the collect enough points via voting for the alternative that's always selected by the crowd then we could possibly modify the algorithm to a weighted vote system to give their vote more leverage. However this does present a care of abuse of power and it would require more research to fully determine which QC aggregation method is more effective. Regardless the crowd here does the QC for us. <p>How do we know that they are right? The final results page shows all the alternatives which were given the highest votes by the crowd and we can see that they're in face pretty close to what is worn by the individual in the original picture. A dip in usage would be a good indicator that people feel our matches are not accurate, thus telling us that the QC step has gone wrong. That said, again quoting the law of large numbers &#58; that's unlikely because on average the crowd is always right. 
+  how_do_you_aggregate_the_results_from_the_crowd: Aggregation takes place at two steps in the process. Firstly, when people submit links for cheaper alternatives to items displayed in the picture, all these links are collected in a table and associated with a count which is basically the vote that particular alternative received. We keep a track of all the alternatives and randomly display 4 of them to be voted on in the next step where users can pick which alternative is the closest match with the original image. We small modification in the script could be that the highest voted alternative is always shows to make sure that if it's indeed the best match then everyone get's to decide . Next we aggregate the votes from the crowd incrementing the vote every time someone votes for a particular alternative. Based on the count this alternative shows up in the final results page as the best alternative for the item. 
+  how_does_your_project_work: So our project is heavily crowd focussed. <p>Members of the crowds are allowed to post pictures of models and celebrities and descriptions about what they're wearing on a particular page.<p>After that, members of the crowd are allowed to go and look at posted pictures and then post links of those specific pieces of clothing available on commercial retail sites such as Amazon or Macy's etc.<p>On the same page, members of the crowd are allowed to post attributes such as color, material or other attributes about those pieces of clothing for analytics purposes.<p>In the third step, the crowd can go and see one of the posted pictures and compare the original piece of clothing to those cheaper alternatives suggested by the crowd. Members of the crowd can vote for their strongest match at this stage.<p>In the last stage, each posted picture is shown with a list of items which the crowd has deemed the best match.
+  would_your_project_benefit_if_you_could_get_contributions_from_thousands_of_people: Yes
+  vimeo_link: https://vimeo.com/114581689
+  pennkey_username_1: 
+  may_we_have_your_permission_to_feature_your_project_on_the_class_website: Yes
+  team_member_1__can_we_list_your_name_listed_alongside_your_project: Yes
+  team_member_2__can_we_list_your_name_listed_alongside_your_project: Yes
+  team_member_3__can_we_list_your_name_listed_alongside_your_project: Yes
+  team_member_4__can_we_list_your_name_listed_alongside_your_project: Yes
+  who_are_the_members_of_your_crowd: Anyone and everyone interested in fashion !
+  how_many_unique_participants_did_you_have: 10
+  for_your_final_project_did_you_simulate_the_crowd_or_run_a_real_experiment: Simulated crowd
+  if_the_crowd_was_simulated_how_did_you_collect_this_set_of_data: Given that it was finals week, we didn't have too many people willing to take the time out to find and contribute by submitting links and pictures. To add the data we needed we basically simulated the crowd among the project members and a few friends who were willing to help out. We each submitted pictures, added links and pictures, rated the best alternatives etc. Our code aggregated the data and populated it for us. 
+  if_the_crowd_was_simulated_how_would_you_change_things_to_use_a_real_crowd: The main change we would incorporate would be the incentive program. We focussed our efforts on the actual functionality of the application. That said, the idea would be to give people incentives such as points for submitting links which are frequently viewed / submitting alternatives which were highly upvoted. These points could translate into discounts or coupons with retail websites such as Amazon or Macy's as a viable business model
+  how_do_you_ensure_the_quality_of_the_crowd_provides: 
+  what_motivation_does_the_crowd_have_for_participating_in_your_project: Pay, Enjoyment, Reputation
+  did_you_perform_any_analysis_comparing_different_incentives_: Yes
+  if_you_compared_different_incentives_what_analysis_did_you_perform_: We didn't perform an explicit analysis which proved that this was the best incentive structure, that said, most publicly available research indicates that crowdsourced work done by users personally invested in the outcome and the topic associated with the outcome tend to give far superior results than a motivated simply by monetary incentives. Relying, not just on interest and dedication alone, we extend the concept to add an implicit monetary benefit  via our point system which people should be excited to use as the whole objective of this is to get access to cheaper alternatives.
+  if_you_have_a_graph_analyzing_incentives_include_the_html_for_a_google_graph_here: 
+  do_you_have_a_google_graph_analyzing_incentives_: 
+  do_your_crowd_workers_need_specialized_skills: No
+  what_sort_of_skills_do_they_need: The users don't need any specialized skills for participating. We'd prefer they had a generally sound sense of fashion and don't upvote clearly un&#45;similar or rather unattractive alternatives. A specific skill it may benefit users to have is an understanding of materials and types of clothes. If they were good at identifying this a search query for cheaper alternatives would be much more specific and thus likely to be easier. (E.g.&#58; Searching for Burgundy knit lambswool full &#45; sleeve women's cardigan  vs  Maroon sweater women 
+  if_skills_vary_widely_what_factors_cause_one_person_to_be_better_than_another_: As we keep this open to everyone, skills will vary. Of course because majority of the people on the app are fashion savvy or conscious we expect most of them to be able to be of relatively acceptable skill level. As mentioned, fashion sense and ability to identify clothing attributes would be a big plus when searching for alternatives.
+  did_you_analyze_the_skills_of_the_crowd: No
+  if_you_analyzed_skills_what_analysis_did_you_perform: 
+  do_you_have_a_google_graph_analyzing_skills_: No
+  if_you_have_a_graph_analyzing_skills_include_the_html_for_a_google_graph_here: 
+  is_the_quality_of_what_the_crowd_gives_you_a_concern: Yes
+  did_you_create_a_user_interface_for_the_crowd_workers: Yes
+  if_yes_please_give_the_url_to_a_screenshot_of_the_crowdfacing_user_interface: https://github.com/jran/Shoptimum/blob/master/ScreenShots.pdf
+  describe_your_crowdfacing_user_interface: Each of the 7 screen shots has an associated caption starting from the top left going down in read wise order<p>1&#58; Home screen the user sees on reaching the application. Also has the list of options of tasks the user can perform on Shoptimum<p>2&#58; Submit Links &#58; The User can submit a link to a picture of a celebrity or model they want tags for so that they can emulate their style on a budget<p>3&#58; Getting the links &#58; Users can submit links to cheap alternatives on  e&#45;commerce websites and an associated link of the picture of the item as well <p>4&#58; Users can also submit description tags about the items &#58; eg&#58; Color<p>5&#58; Users can then vote on which of the alternatives is closest to the item in the original celebrity/ model picture. The votings are aggregated via simple majority<p>6&#58; A page to display the final ensemble of highest voted alternatives<p>7&#58; A page to view the analytics of what kinds of attributes about the products is currently trending. 
+  did_you_analyze_the_aggregated_results_: Yes
+  what_analysis_did_you_perform_on_the_aggregated_results: 
+  did_you_analyze_the_quality_of_what_you_got_back: Yes
+  what_analysis_did_you_perform_on_the_aggregated_results: One thing we did analyze is that for each of our clothing items that we were finding alternatives for, what color was generally the trend. The idea is simple but we plan to extend it to material and other attributes to that we can get an idea about at any given point of time what is in fashion and what is trending. This is displayed on a separate tab with pie charts for each clothing item to get an idea of who's wearing what and what the majority of posts say people are looking to wear. <p>Conclusions are hard to draw given that we had a simulated crowd. But it would be interesting to see what we get should our crowd increase to a large set of people and of course across seasons as well
+  what_analysis_did_you_perform_on_quality: This was a fairly obvious comparison as the final step in our process involves populating results which display the original image and the alternative that people from the crowd chose as the best matching alternatives of all those submitted. We can see that in most of the cases the alternatives come quite close to the original products in the image. it's hard in fashion especially to find the exact same product unless it's very generic, but the idea is that you can find something pretty close to get the same overall fashion ensemble. 
+  do_you_have_a_google_graph_analyzing_quality_: No
+  if_you_have_a_graph_analyzing_quality_include_the_html_for_a_google_graph_here: 
+  is_this_something_that_could_be_automated: Yes
+  if_it_could_be_automated_say_how__if_it_is_difficult_or_impossible_to_automate_say_why: We considered automating a couple steps in the process, <p>1. Picture submissions &#58; We could crawl fashion magazines and find pictures of celebrities in their latest outfits to get an idea of fashion trends and have people tag links for those. However we felt that allowing people to also submit their own pictures was an important piece of the puzzle.<p>2. Getting links to cheaper alternatives &#58; This would definitely be the hardest part. It would have involved us getting instead of links, specific tags about each of the items such as color, material etc and using that data to make queries to various e&#45;fashion e&#45;commerce portals and get the search results. Then we would probably use a clustering algorithm to  try and match each picture with the specific item from the submitted image and accordingly post those results which the clustering algorithm deems similar. The crowd would then vote on the best alternatives. <p>Sadly, given the variety of styles out there and the relative complexity of image matching algorithms where the images may be differently angled, shadowed etc, it would mean a large ML component would have to be built it. It also restricted the sources for products whereas the crowd would be more versatile at finding alternatives from any possible source that can be found via a search engine. This step is definitely very difficult using ML, but not impossible. Perhaps a way to make it work would be to monitor usage and build a set of true matches and then train a clustering algorithm to use this labeled image matching data to generate a classifier better suited for the job in the future. It was definitely much simpler to have the crowd submit results.
+  do_the_skills_of_individual_workers_vary_widely: Yes
+  do_you_have_a_google_graph_analyzing_the_aggregated_results_: Yes
+  if_you_have_a_graph_analyzing_the_aggregated_results_include_the_html_for_a_google_graph_here: http://jran.github.io/Shoptimum/trending.html
+  did_you_create_a_user_interface_for_the_end_users_to_see_the_aggregated_results: Yes
+  if_yes_please_give_the_url_to_a_screenshot_of_the_user_interface_for_the_end_user: https://github.com/jran/Shoptimum/blob/master/ScreenShots.pdf<p>(The last screenshot shows this)
+  describe_what_your_end_user_sees_in_this_interface: The user sees pie charts generated via the Google API showing which colors are currently trending on the items being tagged on Shoptimum
+  what_is_the_scale_of_the_problem_that_you_are_trying_to_solve_: It's hard to judge the scale of the problem numerically. That said, there is a growing upper middle class population across the world who would greatly benefit from having more affordable alternatives to chic fashion worn by celebrities and models and they would greatly benefit from this service. It would also help people interested in fashion incubate interest and get an idea of how fashion trends are changing over time.
+  if_it_would_benefit_from_a_huge_crowd_how_would_it_benefit_: A large crowd means a lot of votes and hopefully a lot of alternatives as submissions which would benefit everyone as a lot of choice would give the crowd a solid set of alternatives to choose from when looking at more affordable alternatives. It would also probably give people an idea of fashion trends across regions and countries and possibly ethnicities making for a very interesting social experiment.  
+  what_challenges_would_scaling_to_a_large_crowd_introduce: The scripts the program use are fairly simple and thus highly scalable. The only problem to having a large user base would be data storage but this would only become a problem when the number of people is of the order of 10's of Millions. The biggest problem I forsee is a sort of data flow issue where a large number of people would be submitting pictures to be tagged or voting for alternatives but not submitting links to actual alternatives available. In this case the problem can be taken care of by using the user point system thus incentivising people to submit links as well as voting.
+  did_you_perform_an_analysis_about_how_to_scale_up_your_project: No
+  what_analysis_did_you_perform_on_the_scaling_up: 
+  do_you_have_a_google_graph_analyzing_scaling_: No
+  if_you_have_a_graph_analyzing_scaling_include_the_html_for_a_google_graph_here: 
+  url_to_the_flow_diagram_for_your_project: https://github.com/jran/Shoptimum/blob/master/flowchart.pdf
+  if_the_crowd_was_real_how_did_you_recruit_participants: 
+  did_your_project_work: I think it did yes!<p>In terms of functionality we managed to get all the core components up and running. We created a clean and seamless interface for the crowd to enter data and vote on this data to get a compiled list of search results. Additionally we also set up the structure analyze more data if needed and add features based on viability + user demand. <p>The project was able to showcase the fact that the crowd was an effective tool in giving us the results that we needed and that the concept that we were trying to achieve is in fact possible in the very form we envisioned it. We saw that for most of the pictures that were posted we found good alternatives that were fairly cost effective and given the frequency of pulls from sites such as Macy's, Amazon or Nordstrom we actually could partner with these companies in the future should the application user base get big enough. 
+  do_you_have_a_google_graph_analyzing_your_project_: No
+  if_you_have_a_graph_analyzing_your_project_include_the_html_for_a_google_graph_here: 
+  caption_for_your_google_graph_(project_analysis): 
+  what_were_the_biggest_challenges_that_you_had_to_deal_with: I think the biggest challenge was and is getting people to post alternatives. Everyone is super interested in getting information they need. They're also equally interested in voicing an opinion. That said, people aren't often willing to help out if it involves serious work. The idea will be that should this become commercial we would make the adding alternatives process easier by doing an initial query on regular websites and then having the crowd vet those as viable alternatives which would then be publicly voted on. We could also increase the incentive structure such that anyone actually submitting good credible links would receive a good amount of points which would translate into credit / gift cards / discounts on partner company websites on specific items etc.
+  where_there_major_changes_between_what_you_originally_proposed_and_your_final_product: No
+  if_so_what_changed_between_your_original_plan_and_your_final_product: I think the product is fairly consistent with what we proposed during the project proposal and status update. Yes the project involves a lot of crowdsourcing which is significantly more than we originally had in mind. That said we realized that it didn't make sense to have a ML algorithm slave away when the crowd would in fact by a much more useful and tactile tool to perform the same tasks. The idea is the eventually be able to gather enough data that we could consider training a machine learning algorithm to perform better image analysis for us that way again providing the crowd with options to pick from rather than forcing them to do heavy searching work themselves.
+  what_are_some_limitations_of_your_product: At this point the biggest limitation is that the product relies very very heavily on the crowd. Not only that, different steps in the process are less and more tedious and the challenge will be to make sure information flow is consistent across the steps as a bottleneck or a lack of information at a particular stage would severely limit the ability of other stages of the app to give satisfactory results. The plan is to structure the incentive program to make sure that less attractive stages in the process are made more lucrative by higher rewards. Eventually we can also try and automate some of the more tedious tasks in the process so that users are more likely to contribute.
+  did_your_results_deviate_from_what_you_would_expect_from_previous_work_or_what_you_learned_in_the_class: No
+  if_your_results_deviated_why_might_that_be: 
+  caption_for_your_graph_(scaling_up): 
+  caption_for_your_graph_(aggregation): The page has 5 graphs each with it's own caption
+  caption_for_your_graph_(quality): 
+  caption_for_your_graph_(skills): 
+  caption_for_your_graph_(incentives): 
+  is_there_anything_else_youd_like_to_say_about_your_project: 
+  did_you_train_a_machine_learning_component_from_what_the_crowd_gave_you: No
+  if_you_trained_a_machine_learning_component_describe_what_you_did: 
+  did_you_analyze_the_quality_of_the_machine_learning_component: No
+  if_you_have_a_graph_analyzing_a_machine_learning_component_include_the_html_for_a_google_graph_here: 
+  caption_for_your_graph_(incentives): 
+  caption_for_your_graph_(machine_learning_component): 
+  what_was_the_main_focus_of_your_teams_effort: Engineering a complex system
+  provide_a_link_to_your_final_presentation_video: 
+  if_you_have_a_graph_analyzing_scaling_include_the_html_for_a_google_graph_here: 
+  do_you_have_a_google_graph_analyzing_skills_: 
+  what_incentivi: 
+-
+  how_many_teammates_are_in_your_group: 4
+  name_1: Sean Sheffer
+  name_2: Devesh Dayal
+  name_3: Sierra Yit
+  name_4: Kate Miller
+  pennkey_username_1: sheffers
+  pennkey_username_2: deveshd
+  pennkey_username_3: sierray
+  pennkey_username_4: katmill
+  name_of_your_project: Critic Critic
+  give_a_one_sentence_description_of_your_project: Critic Critic uses crowdsourcing to measure and analyze media bias.
+  url_to_the_logo_for_your_project: https://github.com/kate16/criticcritic/blob/master/CriticCriticLogo.png
+  what_similar_projects_exist: Miss Representation is a documentary that discusses how men and women are portrayed differently in politics, but it draws on a lot of anecdotal evidence, and does not discuss political parties, age, or race.<p>Satirical comedy shows &#45; notably John Stewart from the Daily Show and Last Week today with John Oliver and the Colbert report slice media coverage from various sources and identify when bias is present. 
+  what_type_of_project_is_it: Social science experiment with the crowd
+  how_do_you_incentivize_the_crowd_to_participate: The project had different trial runs to incentivize the crowd &#45; first we payed them 3 cents to provide a url and three adjectives. This led to a very low response rate and an average user satisfaction of 3.4/5 for pay and 3.3/5 for difficulty of the task. This led to a rate of response of 1 judgment a day.<p>Therefore &#45; we upped the pay to 10 cents for the job and the responses increased to 5 a day with increased satisfaction of pay to 4.2/5 and difficulty to 4/5. The increased responses were after the pay incentive.
+  what_does_the_crowd_provide_for_you: The crowd provides a url to a website, news article, or blog and three adjectives that were used to describe the politician.
+  how_do_you_ensure_the_quality_of_the_crowd_provides__: We knew from previous HIT assignments that they would be completed very fast if QC wasn't taken into account. Usuall non&#45;results (fields that were left blank, with whitespace or periods, were put in the fields from countries in Latin America or India). Therefore &#45; we made each question required, and for the url field we made the validator a url link (rejection for empty fields). For the adjectives we limited the fields to only letters. We limited the workers only to US 
+  how_do_you_aggregate_the_results_from_the_crowd: We had a large list of adjectives that were generated from CSVs for all the candidates, and therefor we inputted the words fields to generate 5 wordclouds that would show the size of the words scaled by the weights of which they were repeated. 
+  how_does_your_project_work: The first step in our project is to generate a list of urls that link to news articles/blogs/websites that cover the politicians. In order to reasonably generate content within the project scope timeline &#45; we selected politicians who represented specific target demographics. In this case we wanted politicians from all backgrounds &#45; white male, white female, african american male, Hispanic female and Hispanic male. Respectively, we selected candidates in high position that would generate high media coverage&#58; President Obama, Speaker of the House John Boehner, Hilary Clinton, Justice Sotomayor, and Senator Marco Rubio.<p>The crowdworkers were tasked with finding a piece of media coverage &#45; url/blog/news article, and identifying three adjectives that were used to describe the candidates. After the content was generated from the crowdworkers &#45; we analyzed the data by using the weight of the descriptors. Visually appealing for presenting the data was a Word Cloud &#45; therefore for each candidate the word clouds were generated. <p>The next step is analyzing the descriptors per the candidates &#45; by looking at which words had the highest weights to confirm/deny biases in the representation of the candidates.
+  would_your_project_benefit_if_you_could_get_contributions_from_thousands_of_people: Yes
+  vimeo_link: http://vimeo.com/114452242
+  pennkey_username_1: 
+  may_we_have_your_permission_to_feature_your_project_on_the_class_website: Yes
+  team_member_1__can_we_list_your_name_listed_alongside_your_project: Yes
+  team_member_2__can_we_list_your_name_listed_alongside_your_project: Yes
+  team_member_3__can_we_list_your_name_listed_alongside_your_project: Yes
+  team_member_4__can_we_list_your_name_listed_alongside_your_project: Yes
+  who_are_the_members_of_your_crowd: Americans in the United States (for US media coverage)
+  how_many_unique_participants_did_you_have: 456
+  for_your_final_project_did_you_simulate_the_crowd_or_run_a_real_experiment: Real crowd
+  if_the_crowd_was_simulated_how_did_you_collect_this_set_of_data: 
+  if_the_crowd_was_simulated_how_would_you_change_things_to_use_a_real_crowd: 
+  how_do_you_ensure_the_quality_of_the_crowd_provides: 
+  what_motivation_does_the_crowd_have_for_participating_in_your_project: Pay
+  did_you_perform_any_analysis_comparing_different_incentives_: Yes
+  if_you_compared_different_incentives_what_analysis_did_you_perform_: First &#45; we suspected there was external motivation to answering the HITs per candidate even when the pay being the same. Since certain politicians were more popular than others despite pay being the same, we can argue there was some external motivation &#45; as shown by the graph&#58; External Motivation in giving responses. Obama, Clinton, Boehner, Sotomayor, and Rubio recieved total &#45; 37*3 + 44*3 + 37*3 + 16*3 + 18*3 = 456 responses even though the jobs were launched the same and pay was held equal even at 3 cents (later upped to 10 cents).<p>We looked at the user satisfactions for the jobs and rated ease of job &#45; across the 5 different HITS (one new job for each candidate). At 3 cents the user satisfaction ranged from 3.3&#45;3.5/5 for satisfaction and ease was 3.3/5. After upping the pay to 10 cents the rating increased to 4.2/5 for satisfaction and 4/5 for ease of the job.<p>Also, the rate of responses increased from 1 a day to average of 5 a day per the 5 launched jobs.
+  if_you_have_a_graph_analyzing_incentives_include_the_html_for_a_google_graph_here: http://htmlpreview.github.io/?https://github.com/kate16/criticcritic/blob/master/NETS213&#37;20incentivization
+  do_you_have_a_google_graph_analyzing_incentives_: 
+  do_your_crowd_workers_need_specialized_skills: Yes
+  what_sort_of_skills_do_they_need: Speak English, know enough English syntax to identify adjectives.
+  if_skills_vary_widely_what_factors_cause_one_person_to_be_better_than_another_: They need to identify which words are adjectives for the candidate versus strictly descriptors. (For example &#45; for Marco Rubio wanting to gain support for the Latino Vote, the word 'Latino' is not an adjective describing Rubio, but rather the vote &#45; therefore this is not bias in his descriptor).
+  did_you_analyze_the_skills_of_the_crowd: Yes
+  if_you_analyzed_skills_what_analysis_did_you_perform: We opened up the links to their articles in the CSVs, and searched for the adjectives that they produced were in the article. We also looked at the rate of judgments per hour &#45; and saw if any of the responses were rejected because the input was less than 10 seconds (ie the crowdworker was not looking for adjectives used in the article). We looked at the quality of the results by looking at the CSVs and seeing if any of the users repeated adjectives (trying to game the system) and opening up the links to see if they were broken or not. We reached the conclusion that paying the workers more had the judgements per hour increase, the satisfaction and even the ease of the job increase in rating. For adjectives &#45; because of the simplicity of the task even though workers could repeat adjectives we looked at the results and there were very few repeated adjectives per user response. Those that put non&#45;legible letters were taken out of the word clouds.
+  do_you_have_a_google_graph_analyzing_skills_: Yes
+  if_you_have_a_graph_analyzing_skills_include_the_html_for_a_google_graph_here: http://htmlpreview.github.io/?https://github.com/kate16/criticcritic/blob/master/Graph&#37;20Analysis/skill_analysis.html
+  is_the_quality_of_what_the_crowd_gives_you_a_concern: Yes
+  did_you_create_a_user_interface_for_the_crowd_workers: Yes
+  if_yes_please_give_the_url_to_a_screenshot_of_the_crowdfacing_user_interface: https://github.com/kate16/criticcritic/blob/master/actualHITscreenshot.jpg
+  describe_your_crowdfacing_user_interface: It asks for for the url &#45; and provides an article that the group decided is an adequate example article that the user may look at. Also &#45; our interface provides the workers with three adjectives that were from the example article, so there is no confusion to what the expectations of the work is. Lastly, there are three fields for adjectives 1, 2, and 3 and a field for the url.
+  did_you_analyze_the_aggregated_results_: Yes
+  what_analysis_did_you_perform_on_the_aggregated_results: 
+  did_you_analyze_the_quality_of_what_you_got_back: Yes
+  what_analysis_did_you_perform_on_the_aggregated_results: We analyzed the words by looking at the descriptors and finding the recurring themes of the word associations. Also we looked to weed out duplicate adjectives that were aggregated by all the forms of media.
+  what_analysis_did_you_perform_on_quality: We looked at the ip locations of the users who answered to see if they were actually from cities in the US, and made a graph distribution to see if they were indeed in the US. We opened the links generated from the CSV files to see if they were actual articles and that they were not broken. Also in the list of CSVs we looked to see if they indeed were adjectives &#45; if there were consecutive repeats from the same user (which we did not include in the word cloud). We determined that because of the limitation to the US the results/judgements came in slower &#45; but the websites were indeed articles and urls to blogs, were actually about the candidates and the adjectives were present. Although at first we were skeptical that the crowd would produce reliable results &#45; the strict QC we implemented this time allowed for true user data we could use for our project. 
+  do_you_have_a_google_graph_analyzing_quality_: Yes
+  if_you_have_a_graph_analyzing_quality_include_the_html_for_a_google_graph_here: http://htmlpreview.github.io/?https://github.com/kate16/criticcritic/blob/master/Graph&#37;20Analysis/qualityworkerlocationsgraph.html
+  is_this_something_that_could_be_automated: Yes
+  if_it_could_be_automated_say_how__if_it_is_difficult_or_impossible_to_automate_say_why: It is difficult to generate because at first we used crawlers to generate the links but it produces a lot of broken links &#45; and we wanted an adequate sample size from all sources of media (the entire body of media coverage) instead of say, the New York times opinion section. Also &#45; to automate the selection of adjectives used we'd need to create a program that had the entirely list of English adjectives used in the human language &#45; run the string of words and produce matches to extract the adjectives. 
+  do_the_skills_of_individual_workers_vary_widely: Yes
+  do_you_have_a_google_graph_analyzing_the_aggregated_results_: Yes
+  if_you_have_a_graph_analyzing_the_aggregated_results_include_the_html_for_a_google_graph_here: http://htmlpreview.github.io/?https://github.com/kate16/criticcritic/blob/master/Graph&#37;20Analysis/skill_analysis.html
+  did_you_create_a_user_interface_for_the_end_users_to_see_the_aggregated_results: No
+  if_yes_please_give_the_url_to_a_screenshot_of_the_user_interface_for_the_end_user: 
+  describe_what_your_end_user_sees_in_this_interface: 
+  what_is_the_scale_of_the_problem_that_you_are_trying_to_solve_: The scale of the problem is the entirety of national media coverage and attention. This would include every single news  article/ channel/ video that talks about a politician and generating a list of words that are used, weighing them and analyzing them for the overarching themes and trends to generate a portrayal. This would include hundreds of thousands of articles generated each day and thousands of video/news media generated each day.
+  if_it_would_benefit_from_a_huge_crowd_how_would_it_benefit_: It would benefit from a huge crowd by creating large sample size of overall media coverage &#45; therfore workers could pull in videos from youtube, blogs, new articles from New York times, Fox, twitter handles and feeds &#45; with more crowd we have a larger pull and representation of the broader spectrum that is media. And with more adjectives and language that is used gnerated we can weigh the words used to see if indeed there is different portrayals of candidates.
+  what_challenges_would_scaling_to_a_large_crowd_introduce: There would be duplicated sources and urls (which could be deduped like in one of the homeworks) but there would be a huge difficulty in ensuring that urls are not broken &#45; that they are actual articles and that the adjectives are actually in the articles portrayed. A representation in media can be any url or even link to an article therefore the verification of this aspect can again crowdsourced to ask&#58; is this url a representation of a politician, and are the adjectives given actually in the article itself. 
+  did_you_perform_an_analysis_about_how_to_scale_up_your_project: No
+  what_analysis_did_you_perform_on_the_scaling_up: How much would it cost to pull and analyze 10,000 articles &#45; which would be 10 cents &#45; to $1,000, per each candidate. Expanding this to only 10 politicians would be $10,000 &#45; therefore if we wanted fuller demographics &#45; a wide spectrum of say, 100 candidates this would be $100,000! This is a very expensive task and scaling up would need to be in a way that is automated. 
+  do_you_have_a_google_graph_analyzing_scaling_: No
+  if_you_have_a_graph_analyzing_scaling_include_the_html_for_a_google_graph_here: 
+  url_to_the_flow_diagram_for_your_project: https://github.com/kate16/criticcritic/blob/master/flowchart.pdf
+  if_the_crowd_was_real_how_did_you_recruit_participants: We had to limit the target countries to only the United States because we wanted a measurement of the American media coverage. They had to speak English &#45; and as we wanted various sources we limited the amount of responses to 5 judgement and a limit of 5 ip addresses. Anyone who could identify an article on the coverage of a candidate and have literacy to identify adjectives were part of the crowd.
+  did_your_project_work: From the wordclouds some of the interesting results&#58;<p>Word associations for Obama&#58; Muslim, communist, monarch<p>Word associations for Hilary Clinton&#58; Smart Inauthentic Lesbian.<p>John Boehner's word cloud did not contain any words pertaining to his emotional overtures (unlike the democratic candidates). Sonia Sotomayor and Rubio's cloud had positive word connotations in their representation. <p>Overarching trends&#58; Republicans more likely to be viewed as a unit, characterized by their positive with high weights being conservative. Democrats more characterized by strong emotions &#45; passionate, angry. Per gender&#58; men appeared to be viewed more as straightforward and honest. Women charaterized as calculated and ambitions, perhaps because seeking political power is atypical for the gender.'Cowardly' was more likely to describe men perhaps because of similarly gender pressures. All politicians were described as 'Angry' at some point. We were pleased to find while ageism does exist &#45; it applied to everyone once they reach a certain age and not targeted at certain candidates. 
+  do_you_have_a_google_graph_analyzing_your_project_: No
+  if_you_have_a_graph_analyzing_your_project_include_the_html_for_a_google_graph_here: 
+  caption_for_your_google_graph_(project_analysis): 
+  what_were_the_biggest_challenges_that_you_had_to_deal_with: The biggest challenges we had to deal with were finding the adequate source to represent the media and articles for political figures. We tried to use a web crawler at first &#45; but this generated many broken links and articles that were not strong portrayals of candidates. Also we encountered problems with scale &#45; we needed to direct the results that the crowd workers would produce to measure all media bias &#45; but for a reasonable time frame we limited it to five candidates from different backgrounds. With a higher scale &#45; we could produce results for candidates not only at the national stage and name presence, but rather per pure demographic &#45; female, hispanic, democrat of a certain age range. This would be an expanded feature. Also we wanted to search the articles for adjectives at first &#45; but realized that this song was different than gun articles that specific keywords couldn't be pulled as we are looking at the entirety of adjectives. 
+  where_there_major_changes_between_what_you_originally_proposed_and_your_final_product: No
+  if_so_what_changed_between_your_original_plan_and_your_final_product: The concept of using word clouds to analyze a slice of media portrayal of candidates is the same &#45; it just had to be scaled down instead of all politicians to certain politicians for the timeframe of the project and to make the directions clearer for the HITs. 
+  what_are_some_limitations_of_your_product: Some limitations include measuring media portrayal in terms of adjectives used to describe the candidate. Subjectively &#45; portrayal can include a persons overall tone &#45; the manner in which they discuss the candidate and the context of the article. The adjectives could have been an excerpt from another article or negative examples where the article itself is examining media portrayal. Also our project was limited to text from articles &#45; but another dimension is videos on the nightly news from anchors or videos in youtube videos. In this case the audio would need to be transcribed or crowdworkers could pull the adjectives used after watching a video. We took a slice of media representation based on text of articles where media portrayal is a medium itself. 
+  did_your_results_deviate_from_what_you_would_expect_from_previous_work_or_what_you_learned_in_the_class: No
+  if_your_results_deviated_why_might_that_be: We knew that we would get non&#45;words/non adjectives from users who would game the system &#45; but after our QC measure and carefully making the HITs, although the results were not as fast they were better than the results from previous projects. Results could have deviated from the media in the spectrum of time &#45; for example during an election versus coverage of a veto &#45; this could explain why the candidates could be 'angry' (ie Obama pushing immigration reform on a still congress) versus their actual portrayal. 
+  caption_for_your_graph_(scaling_up): 
+  caption_for_your_graph_(aggregation): Types of adjectives used in aggregate results
+  caption_for_your_graph_(quality): Locations of the Workers
+  caption_for_your_graph_(skills): Types of Responses from Crowdworkers
+  caption_for_your_graph_(incentives): External Motivation in responses per politician (With equal pay some politicians still received more responses than others)
+  is_there_anything_else_youd_like_to_say_about_your_project: Here is the link to the github with all our project files &#45; Thank you so much for the learning experience this project was fun and one of our favorite classes at Penn.<p>https://github.com/kate16/criticcritic
+  did_you_train_a_machine_learning_component_from_what_the_crowd_gave_you: No
+  if_you_trained_a_machine_learning_component_describe_what_you_did: 
+  did_you_analyze_the_quality_of_the_machine_learning_component: 
+  if_you_have_a_graph_analyzing_a_machine_learning_component_include_the_html_for_a_google_graph_here: 
+  caption_for_your_graph_(incentives): 
+  caption_for_your_graph_(machine_learning_component): 
+  what_was_the_main_focus_of_your_teams_effort: Conducting an in depth analysis of data
+  provide_a_link_to_your_final_presentation_video: 
+  if_you_have_a_graph_analyzing_scaling_include_the_html_for_a_google_graph_here: 
+  do_you_have_a_google_graph_analyzing_skills_: 
+  what_incentivi: 
+-
+  how_many_teammates_are_in_your_group: 3
+  name_1: Ross Mechanic
+  name_2: Fahim Abouelfadl
+  name_3: Francesco Melpignano
+  name_4: 
+  pennkey_username_1: mechanic
+  pennkey_username_2: fahim
+  pennkey_username_3: fmelp
+  pennkey_username_4: 
+  name_of_your_project: PictureThis
+  give_a_one_sentence_description_of_your_project: PictureThis uses crowdsourcing to have the crowd write new version of picture books. 
+  url_to_the_logo_for_your_project: https://github.com/rossmechanic/PictureThis/blob/master/Screen&#37;20Shot&#37;202014&#45;12&#45;16&#37;20at&#37;206.43.10&#37;20AM.png
+  what_similar_projects_exist: None. 
+  what_type_of_project_is_it: Social science experiment with the crowd, Creativity tool
+  how_do_you_incentivize_the_crowd_to_participate: We used monetary incentive, and over the course of our entire project, which produced 18 new versions of books, we spent about $30. But it was also important to us to make the HIT look fun and interest, and most of our contributors gave our HITs high ratings across the board.
+  what_does_the_crowd_provide_for_you: The crowd writes our captions for the picture books, and the crowd also provides quality control by rating the different captions. 
+  how_do_you_ensure_the_quality_of_the_crowd_provides__: Occasionally (although far more rarely than we expected), the crowd would give irrelevant answers to our questions on Crowdflower, (such as when a worker wrote his three parts of the story as children playing, children playing, and children playing). However, using the crowd to rate the captions effectively weeded out the poor quality. 
+  how_do_you_aggregate_the_results_from_the_crowd: We aggregated the results manually. We did so through excel manipulation, where we would average the ratings that each worker got on their captions for each book, and then select the captions of the two highest rated workers and manually moved their captions into the excel sheet to uploaded for the next round. Realistically we could have done this using the Python API, and I spent some time learning it, but with different lengths of books and the fact that the python API returns data as a list of dictionaries rather than a CSV file, it was simply less time&#45;consuming to do it manually for only 9 books. 
+  how_does_your_project_work: First, we took books from the International Children's Digital Library and separated the text from the pictures, uploading the pictures so that they each had their own unique URL to use for the Crowdflower HITs. We then posted HITs on Crowdflower that included all of the pictures, in order, from each book, and asked the workers to write captions for the first 3 pictures, given the rest of the pictures for reference (of where the story might be going). We took 6 new judgements for every book that we had. Next, for quality control, we posted another round of HITs that showed all of the judgements that had been made in the previous round, and asked the workers to rate them on a 1&#45;5 scale. We then averaged this ratings for each worker on each book, and the two workers with the highest average caption rating for a given book had their work advanced to the next round. This continued until 2 new versions of each of the 9 books we had were complete. Then, we had the crowd vote between the original version of each book, and the crowdsourced version of each book. 
+  would_your_project_benefit_if_you_could_get_contributions_from_thousands_of_people: No
+  vimeo_link: https://vimeo.com/115816106
+  pennkey_username_1: 
+  may_we_have_your_permission_to_feature_your_project_on_the_class_website: Yes
+  team_member_1__can_we_list_your_name_listed_alongside_your_project: Yes
+  team_member_2__can_we_list_your_name_listed_alongside_your_project: Yes
+  team_member_3__can_we_list_your_name_listed_alongside_your_project: Yes
+  team_member_4__can_we_list_your_name_listed_alongside_your_project: 
+  who_are_the_members_of_your_crowd: Crowdflower workers
+  how_many_unique_participants_did_you_have: 100
+  for_your_final_project_did_you_simulate_the_crowd_or_run_a_real_experiment: Real crowd
+  if_the_crowd_was_simulated_how_did_you_collect_this_set_of_data: 
+  if_the_crowd_was_simulated_how_would_you_change_things_to_use_a_real_crowd: 
+  how_do_you_ensure_the_quality_of_the_crowd_provides: 
+  what_motivation_does_the_crowd_have_for_participating_in_your_project: Pay, Enjoyment
+  did_you_perform_any_analysis_comparing_different_incentives_: No
+  if_you_compared_different_incentives_what_analysis_did_you_perform_: 
+  if_you_have_a_graph_analyzing_incentives_include_the_html_for_a_google_graph_here: 
+  do_you_have_a_google_graph_analyzing_incentives_: 
+  do_your_crowd_workers_need_specialized_skills: No
+  what_sort_of_skills_do_they_need: They only need to be English speaking.
+  if_skills_vary_widely_what_factors_cause_one_person_to_be_better_than_another_: 
+  did_you_analyze_the_skills_of_the_crowd: No
+  if_you_analyzed_skills_what_analysis_did_you_perform: 
+  do_you_have_a_google_graph_analyzing_skills_: No
+  if_you_have_a_graph_analyzing_skills_include_the_html_for_a_google_graph_here: 
+  is_the_quality_of_what_the_crowd_gives_you_a_concern: Yes
+  did_you_create_a_user_interface_for_the_crowd_workers: Yes
+  if_yes_please_give_the_url_to_a_screenshot_of_the_crowdfacing_user_interface: https://github.com/rossmechanic/PictureThis/blob/master/Mockups/screenshots_from_first_HIT/Screen&#37;20Shot&#37;202014&#45;11&#45;13&#37;20at&#37;203.52.19&#37;20PM.png
+  describe_your_crowdfacing_user_interface: Our crowd&#45;facing interface showed all of the pictures from a given pictures as well as an area under 3 of the pictures for the crowd workers to write captions. 
+  did_you_analyze_the_aggregated_results_: No
+  what_analysis_did_you_perform_on_the_aggregated_results: 
+  did_you_analyze_the_quality_of_what_you_got_back: Yes
+  what_analysis_did_you_perform_on_the_aggregated_results: We tested whether the crowd preferred the original books to the new crowdsourced versions. 
+  what_analysis_did_you_perform_on_quality: Well we compared our final results to the original versions of the book, asking the crowd which was better, and the crowd thought the crowdsourced versions were better. 76.67&#37; of the time. 
+  do_you_have_a_google_graph_analyzing_quality_: No
+  if_you_have_a_graph_analyzing_quality_include_the_html_for_a_google_graph_here: 
+  is_this_something_that_could_be_automated: No
+  if_it_could_be_automated_say_how__if_it_is_difficult_or_impossible_to_automate_say_why: Can not be automated. Although the aggregation parts could be. 
+  do_the_skills_of_individual_workers_vary_widely: No
+  do_you_have_a_google_graph_analyzing_the_aggregated_results_: 
+  if_you_have_a_graph_analyzing_the_aggregated_results_include_the_html_for_a_google_graph_here: 
+  did_you_create_a_user_interface_for_the_end_users_to_see_the_aggregated_results: No
+  if_yes_please_give_the_url_to_a_screenshot_of_the_user_interface_for_the_end_user: 
+  describe_what_your_end_user_sees_in_this_interface: 
+  what_is_the_scale_of_the_problem_that_you_are_trying_to_solve_: Well our project attempted to see if we could produce thousands of picture books for a relatively low cost. 
+  if_it_would_benefit_from_a_huge_crowd_how_would_it_benefit_: I don't think the size of the crowd matters too much, anything in the hundreds would work. But the larger the crowd, the more creativity we would get. 
+  what_challenges_would_scaling_to_a_large_crowd_introduce: I think with a larger crowd, we would want to create more versions of each story, because it would increase the probability that the final product is great. 
+  did_you_perform_an_analysis_about_how_to_scale_up_your_project: No
+  what_analysis_did_you_perform_on_the_scaling_up: 
+  do_you_have_a_google_graph_analyzing_scaling_: 
+  if_you_have_a_graph_analyzing_scaling_include_the_html_for_a_google_graph_here: 
+  url_to_the_flow_diagram_for_your_project: https://github.com/rossmechanic/PictureThis/blob/master/picturethisflowdiagram.jpg
+  if_the_crowd_was_real_how_did_you_recruit_participants: We used Crowdflower workers, most of whom gave our HIT high ratings.
+  did_your_project_work: Yes, we know that it worked because we created 18 new versions of picture books from the crowd, and the crowd preferred the crowdsourced versions of the book 76.67&#37; of the time, and thought they were equal 13.3&#37; of the time. 
+  do_you_have_a_google_graph_analyzing_your_project_: 
+  if_you_have_a_graph_analyzing_your_project_include_the_html_for_a_google_graph_here: 
+  caption_for_your_google_graph_(project_analysis): 
+  what_were_the_biggest_challenges_that_you_had_to_deal_with: Well we spent a lot of time trying to figure out how we could have the whole process automated using the the Python API, but we had difficulty figuring out how we would edit the CML files to cater to the different lengths of the books and also weren't entirely sure how we would transfer the important data from HIT to HIT. In the end, it made more sense to do the aggregation manually, but if we were to scale this project up, we would have to use the API. 
+  where_there_major_changes_between_what_you_originally_proposed_and_your_final_product: Yes
+  if_so_what_changed_between_your_original_plan_and_your_final_product: In our original plan we wanted to compare how closely related the text would be between the original versions and the crowdsourced versions of the picture books, but we ended up seeing little purpose in that. Instead we decided we wanted to see if the crowd could make picture books that were as good or even better than the original version, and it seems that the crowd did just that. 
+  what_are_some_limitations_of_your_product: There is certainly the possibility that workers voted on their own material, skewing what may have been passed through to later rounds. Moreover, voters may have been voting between stories that were partially written by themselves and the original versions when they voted on which was better, which would skew results. 
+  did_your_results_deviate_from_what_you_would_expect_from_previous_work_or_what_you_learned_in_the_class: Yes
+  if_your_results_deviated_why_might_that_be: I expected very few of the crowdsourced stories to be voted better than the originals, with only small portion equal, but the results turned out to be far more promising than that. The main thing that I worried about going in, was that the style would change between every three pictures, but since workers could see what was written before them, they tended to adapt the style to fit what was already written. 
+  caption_for_your_graph_(scaling_up): 
+  caption_for_your_graph_(aggregation): 
+  caption_for_your_graph_(quality): 
+  caption_for_your_graph_(skills): 
+  caption_for_your_graph_(incentives): 
+  is_there_anything_else_youd_like_to_say_about_your_project: 
+  did_you_train_a_machine_learning_component_from_what_the_crowd_gave_you: No
+  if_you_trained_a_machine_learning_component_describe_what_you_did: 
+  did_you_analyze_the_quality_of_the_machine_learning_component: 
+  if_you_have_a_graph_analyzing_a_machine_learning_component_include_the_html_for_a_google_graph_here: 
+  caption_for_your_graph_(incentives): 
+  caption_for_your_graph_(machine_learning_component): 
+  what_was_the_main_focus_of_your_teams_effort: Something in between
+  provide_a_link_to_your_final_presentation_video: 
+  if_you_have_a_graph_analyzing_scaling_include_the_html_for_a_google_graph_here: 
+  do_you_have_a_google_graph_analyzing_skills_: 
+  what_incentivi: 

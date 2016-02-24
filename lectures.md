@@ -8,8 +8,16 @@ active_tab: lectures
 ---
 
 <div class="alert alert-info" markdown="1">
-You can [watch recordings of the lectures](https://ex.cts.isc.upenn.edu/Mediasite/Catalog/Full/f03b307a2f104b5e826eb9620d1db36a21) if you have a PennKey.
+You can [watch recordings of the lectures](https://ex.cts.isc.upenn.edu/Mediasite/Catalog/Full/f03b307a2f104b5e826eb9620d1db36a21).
 </div>
+
+
+
+
+<!-- Create a HTML anchor for the most recent lecture -->
+{% assign anchor_created = false %}
+{% capture now %}{{'now' | date: '%s'}}{% endcapture %}
+<!-- End create a HTML anchor for the most recent lecture -->
 
 
 The lecture schedule is subject to change as the term progresses.
@@ -22,7 +30,19 @@ The lecture schedule is subject to change as the term progresses.
       <th>Readings</th>
     </tr>
     {% for lecture in site.data.lectures %}
-    <tr>
+
+<!-- Create a HTML anchor for the most recent lecture -->
+{% capture lecture_date %}{{lecture.date | date: '%s'}}{% endcapture %}
+{% assign lecture_date = lecture_date | plus: 0 %}
+{% assign now = now | minus: 14400 %}
+
+{% if anchor_created != true and lecture_date >= now %}
+   {% assign anchor_created = true %}
+<tr id="now">
+   {% else %}
+<tr>
+{% endif %}
+<!-- End create a HTML anchor for the most recent lecture -->
       <td>{{ lecture.date | date: "%A, %B %-d, %Y" }}</td>
       <td>
 	{% if lecture.profile %}

@@ -17,7 +17,19 @@ The class has reached its enrollment cap of 120 students.  You may <a href="http
 <div class="alert alert-danger">
 If you would like free credit on CrowdFlower, please sign up for <a href="https://make.crowdflower.com/users/new">a CrowdFlower account</a> and submit your details on <a href="https://docs.google.com/forms/d/1shp2S5Jl3r5bEx6hT_as8xQJZ5piiy2KRIEYQS_8U74/viewform">this Google form</a> before class on Wednesday. If you do not submit the Google form before Wednesday at 2pm, then you will not receive the free credit from CrowdFlower, and you will have to fund your account with your own money.
 </div>
+
+<div class="alert alert-danger" markdown="1">
+Did you know you get participation credit for showing up in class?  During class today, we will pass out participation codes that you can enter into [this form](https://docs.google.com/forms/d/14UZWosW5_W_-qDNI8KJ_zUGkiyTO9yuwv7yCkCvuZgQ/viewform) to prove that you were there.
+</div>
+
 -->
+
+<div class="alert alert-info">
+The first peer grading assignment is due on before class on Monday February 29th.  You will be grading your classmates' company profile videos.  Links to the videos were sent to you an email from nets213@seas.upenn.edu with the subject line "first peer grading assignment".
+</div> 
+
+
+
 
 
 <!-- Display an alert about upcoming homework assignments -->
@@ -65,8 +77,7 @@ Prerequisites
 : [CIS 120](http://www.seas.upenn.edu/~cis120/) or prior programming experience
 
 Course Readings
-: Selections from [The Wisdom of Crowds by James Surowiecki](http://www.amazon.com/Wisdom-Crowds-James-Surowiecki-ebook/dp/B000FCKC3I/)
-: [Various academic papers](lectures.html)
+: Each lecture has an accompanying set of [academic papers](lectures.html)
 
 Grading
 : This is a project-based course.  Instead of exams, you will do a series of hands-on assignments and a final project.  
@@ -80,5 +91,5 @@ Late day policy
 : Everyone can have 5 free late days without penalty.  After you have used your free late days, you will lose 20% per day (or fraction thereof) that your assignment is submitted late. The final project will have its own late day policy.
 
 Course materials
-: CrowdFlower has generously provided each student with $100 credit on their platform.  Students should expect to fund their accounts with an additional $50-$100 of their own money.  If this will cause you undue financial hardship, please let the instructor know.
+: CrowdFlower has generously provided each student with $50 credit on their platform.  Students should expect to spend an additional $50-$100 of their own money on CrowdFlower or MTurk or other crowdsourcing platforms.  If this will cause you undue financial hardship, please let the instructor know.
 

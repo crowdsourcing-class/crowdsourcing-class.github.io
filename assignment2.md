@@ -68,6 +68,7 @@ This week we will be looking at the wealth of companies that use crowdsourcing a
 [Freebase](http://www.freebase.com),
 [Freelancer](https://www.freelancer.com/),
 [Go Fund Me](https://www.gofundme.com/),
+[Good Judgment Open](https://www.gjopen.com),
 [Google Map Maker](http://appleinsider.com/articles/15/08/25/google-reopens-map-maker-with-new-safeguards-to-block-controversial-edits),
 [Global Voices](http://globalvoicesonline.org),
 [Iceland’s Crowdsourced Constitution](http://www.slate.com/articles/technology/future_tense/2014/07/five_lessons_from_iceland_s_failed_crowdsourced_constitution_experiment.html),
@@ -96,6 +97,7 @@ This week we will be looking at the wealth of companies that use crowdsourcing a
 [Postmates](https://postmates.com),
 [PredictWise](http://www.predictwise.com/),
 [Premise](http://www.premise.com/),
+[Prolific Academic](https://prolific.ac/rp?ref=NS6S9E53),
 [PublicStuff](https://www.publicstuff.com),
 [Quirky](http://quirky.com),
 [Quora](http://www.quora.com),
@@ -129,14 +131,15 @@ You are also welcome to profile a [relevant company](http://www.crowdsourcing.or
 
 This assignment has two deliverables:
 
-1. Answering [a questionnaire](https://docs.google.com/forms/d/1fxe5cwKqM5M2J6NGAsqC30hvNQ0JX4woJV0zOZhRNsU/viewform?usp=send_form) about the company or project that you are researching. This is due before class on {{ page.deliverables[0].due_date | date: "%A, %B %-d, %Y" }}.  If you are working with a partner, only one of you needs to submit the questionnaire. 
-2. A video presentation about the company.  Several of the best videos will be selected for in-class presentations on Fridays.  Teams whose videos are selected will receive extra credit. his is due before class on {{ page.deliverables[1].due_date | date: "%A, %B %-d, %Y" }}.
+1. Answering [a questionnaire](https://docs.google.com/forms/d/1fxe5cwKqM5M2J6NGAsqC30hvNQ0JX4woJV0zOZhRNsU/viewform?usp=send_form) about the company or project that you are researching. This is due before class on {{ page.deliverables[0].due_date | date: "%A, %B %-d, %Y" }}.  If you are working with a partner, only one of you needs to submit the questionnaire. **Please save your survey answers in a file on your own computer**, so that you can have a copy to use when you do your video profile.
+2. A video presentation about the company.  Several of the best videos will be selected for in-class presentations on Fridays.  Teams whose videos are selected will receive extra credit. his is due before class on {{ page.deliverables[1].due_date | date: "%A, %B %-d, %Y" }}.  You can submit a link to your video on [this form](https://docs.google.com/forms/d/1y2ObY-Vvgc-_3r8HG8SyTIP5ofA35xxZcwNl1RJf4nc/viewform).
 
 This assignment can be done individually or in pairs.
 
 First, please [sign up for a company or project](https://docs.google.com/spreadsheets/d/1dmTheLr1zzSzF4ci9hWIPNkO7sTHcXV3quwocPKr95o/edit?usp=sharing).  Please do not pick a company that another team has already signed up for.  If there’s a company that you’d like to research that isn’t on the list, you are welcome to ask the instructor or the TA to ask if it is OK.  
 
-You should independently research the company, and then [fill in your answers about it in this questionnaire](https://docs.google.com/forms/d/1fxe5cwKqM5M2J6NGAsqC30hvNQ0JX4woJV0zOZhRNsU/viewform?usp=send_form).  Your short answers to these questions on  {{ page.deliverables[0].due_date | date: "%A, %B %-d, %Y" }}.
+You should independently research the company, and then [fill in your answers about it in this questionnaire](https://docs.google.com/forms/d/1fxe5cwKqM5M2J6NGAsqC30hvNQ0JX4woJV0zOZhRNsU/viewform?usp=send_form).  Your short answers to these questions on  {{ page.deliverables[0].due_date | date: "%A, %B %-d, %Y" }}.  Remember to save your survey answers on your own computer, so that you can have a copy to use when you do your video profile.
+
 
 You will record a short 5 to 7 minute video presentation about your company. Your presentation should address the following questions:
 
@@ -146,7 +149,7 @@ You will record a short 5 to 7 minute video presentation about your company. You
 - How does the company benefit from user contributions?
 - Are there any controversies about the company?
 
-Your presentation video is due on {{ page.deliverables[1].due_date | date: "%A, %B %-d, %Y" }}. To turn in your video, please upload it to [Vimeo](https://vimeo.com/). Then give us the link to your video on the survey. Make sure that your video is publicly viewable or that you give us a password to view it on the web form.
+Your presentation video is due on {{ page.deliverables[1].due_date | date: "%A, %B %-d, %Y" }}. To turn in your video, please upload it to [Vimeo](https://vimeo.com/). Then give us the link to your video [using this form](https://docs.google.com/forms/d/1y2ObY-Vvgc-_3r8HG8SyTIP5ofA35xxZcwNl1RJf4nc/viewform). Make sure that your video is publicly viewable or that you give us a password to view it on the web form.
 
 If you have managed to make it this far in life without having to sign up for accounts for things on the internet, here are more detailed instructions:
 
@@ -168,12 +171,12 @@ If you have managed to make it this far in life without having to sign up for ac
 </div>
 
 
-<div class="panel panel-primary">
+<div class="panel panel-primary" id="survey">
 <div class="panel-heading" markdown="1">
 #### Survey Questions
 </div>
 <div class="panel-body" markdown="1">
-Below are the questions that you will be asked to answer about the company or project that you are profiling. Please submit your answers via [the questionnaire](https://docs.google.com/forms/d/1fxe5cwKqM5M2J6NGAsqC30hvNQ0JX4woJV0zOZhRNsU/viewform?usp=send_form) 
+Below are the questions that you will be asked to answer about the company or project that you are profiling. Please submit your answers via [the questionnaire](https://docs.google.com/forms/d/1fxe5cwKqM5M2J6NGAsqC30hvNQ0JX4woJV0zOZhRNsU/viewform?usp=send_form). We recommend that you **save your survey answers in a file on your own computer**, rather than typing them directly into the Google form, so that you can have a copy to use when you do your video profile.  You won't be able to access your answers from Google after you press submit.
 
 * What company are you profiling?
 * What online resources did you use in researching it?
@@ -224,7 +227,7 @@ Below are the questions that you will be asked to answer about the company or pr
 
 
 
-<div class="panel panel-danger">
+<div class="panel panel-danger" id="rubric">
 <div class="panel-heading" markdown="1">
 #### Grading Rubric
 </div>
@@ -250,6 +253,17 @@ This assignment is worth 10 points of your overall grade in the course.  The rub
 </div>
  
 
+<div class="panel panel-info" id="faq">
+<div class="panel-heading" markdown="1">
+#### FAQ
+</div>
+<div class="panel-body" markdown="1">
+* _What is the difference between Users and Contributors?_  Many of you seemed confused about what constitutes a user vs. a contributor. In many crowdsourcing companies, this line is blurry- or nonexistent! Many companies you looked at fit what can be thought of as a "data-mining" model (e.g. Yelp, Foursquare), in which the primary service being provided depends on using data and modeling observed patterns of behavior-- e.g. to target ads or to recommend products. In these cases, the users are the contributors-- everyone who participates provides data, and everyone uses everyone else's data. This is an awesome crowdsourcing model because it is (ideally) self-sustaining and self-incentivizing. The more a person contributes (by providing more data about themselves), the better product they receive (e.g. better recommendations). 
+* _How does my company do Aggregation?_ Many of the companies we look at fit into the "match-making" or "marketplace" model (e.g. Uber, Airbnb, Etsy). This is a very common case in which the company is simply working to match supply with demand, where the suppliers (e.g. drivers, in the case of Uber) and the consumers (riders) are distributed all over, and may have trouble finding one another otherwise. Here, rating systems etc. are one piece of the platform that might require aggregating, but arguably the more interesting aggregation problem is how to match a supplier with a consumer. Is this through preference-based recommendation systems (as in the data-mining model discussed above), through location-based matching, through bidding/price? Making these matches is non-trival, but crucial to making the company function.
+* _Does this update a previous service or business model, or is it completely new?_ For this question, more than a third of you said "completely new." Try to think broadly when you are considering where these crowdsourcing companies fit into the economy as a whole. (Think Silicon Valley's favorite buzzword: "disruption.") Most of these services being provided are not completely new, but they are directly competing with a service that was traditionally supplied by a brick-and-mortar company in a more centralized manner. Uber competes with taxi companies, Airbnb with hotel chains, Coursera with higher education universities. This is part of what makes crowdsourcing so exciting! 
+* _Is getting venture capital funding is a business model?_ No. Smart investors don't invest in a company who says their plan for generating revenue is to "get money from investors." When in doubt about the company's business plan, it is probably "ads". :-)  
+</div>
+</div>
 
 
 #### Examples profiles from last year

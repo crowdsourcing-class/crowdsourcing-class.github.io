@@ -191,6 +191,9 @@
 -
   date: 2016-02-05
   title: Friday hands-on activity
+  speaker: Kate Miller
+  highlights:
+    -  HW5 Walkthrough
 -
   date: 2016-02-08
   slides: http://crowdsourcing-class.org/slides/taxonomy-of-human-computation.pdf
@@ -206,11 +209,8 @@
       author: Panos Ipeirotis
       title:  Worker Evaluation in Crowdsourcing&#58; Gold Data or Multiple Workers?
       url: http://www.behind-the-enemy-lines.com/2010/09/worker-evaluation-in-crowdsourcing-gold.html
-    -
-      title: Python tutorials and references
-      url : http://crowdsourcing-class.org/resources.html
 -
-  date: 2016-02-08
+  date: 2016-02-10
   slides: http://crowdsourcing-class.org/slides/programming-the-crowd.pdf
   title: Programming concepts for human computation
   highlights:
@@ -221,12 +221,12 @@
     -
       author: Greg Little, Lydia B. Chilton, Max Goldman, and Robert C. Miller
       title:  TurKit&#58; Human Computation Algorithms on Mechanical Turk
-      url: readings/downloads/programming/LittleEtAl.pdf
+      url: readings/downloads/programming/Turkit.pdf
     -
       title:  Download the TurKit software from the MIT Computer Science and Artificial Intelligence Laboratory
       url: http://groups.csail.mit.edu/uid/turkit/
 -
-  date: 2016-02-10
+  date: 2016-02-12
   slides: http://crowdsourcing-class.org/slides/iterative-and-parallel-processing.pdf
   title: Iterative and Parallel Processing
   highlights:
@@ -240,9 +240,6 @@
     -
       title:  Download the TurKit software from the MIT Computer Science and Artificial Intelligence Laboratory
       url: http://groups.csail.mit.edu/uid/turkit/
--
-  date: 2016-02-12
-  title: Friday hands-on activity
 -
   date: 2016-02-15
   slides: http://crowdsourcing-class.org/slides/gun-violence-as-a-public-health-issue.pdf
@@ -261,6 +258,58 @@
       author: Charles Branas and Douglas Wiebe
       title: Gun Violence Research and Prevention
       url: http://www.uphs.upenn.edu/ficap/research/docs/Branas%20-%20Gun%20violence%20research%20summary.pdf 
+    - 
+      author: Douglas Wiebe
+      title: Homicide and Suicide Risks Associated With Firearms in the Home&colon; A National Case-Control Study
+      url: readings/downloads/gun-violence/homicide-and-suicide-risks-associated-with-firearms-in-the-home.pdf
+-
+  date: 2016-02-17
+  slides: http://crowdsourcing-class.org/slides/twitter-for-public-health.pdf
+  title: Public health and Twitter
+  speaker: Ellie Pavlick
+  speaker_url: http://www.seas.upenn.edu/~epavlick/
+  highlights:
+    - Distilling Collective Intelligence from Twitter
+  reading:
+    -
+      author: Michael Paul and Mark Dredze
+      title:  You are what you Tweet&#58; Analyzing Twitter for Public Health
+      url: readings/downloads/twitter/analyzing-twitter-for-public-health.pdf
+-
+  date: 2016-02-19
+  title: Drop deadline
+-
+  date: 2016-02-19
+  title: Friday hands-on activity
+-
+  date: 2016-02-22
+  slides: https://prezi.com/inlusmmhla--/individual-and-community-wwbp/?utm_campaign=share&utm_medium=copy
+  title: Inferring individual and county level traits from social media
+  speaker: Lyle Ungar
+  speaker_url: http://www.cis.upenn.edu/~ungar/
+-
+  date: 2016-02-24
+  title: In-class activity&colon; find a group
+-
+  date: 2016-02-26
+  slides: http://crowdsourcing-class.org/slides/twitter-first-story-detection.pdf
+  title: Distilling Collective Intelligence from Twitter
+  highlights:
+    - Topic Detection and Tracking
+    - Approximate algorithms for scaling to large data sets
+  reading:
+    -
+      author: Sasa Petrovic, Miles Osborne, and Victor Lavrenko
+      title:  Streaming First Story Detection with application to Twitter
+      url: readings/downloads/twitter/streaming-first-story-detection-with-application-to-twitter.pdf
+    -
+      author: Ben Van Durme and Ashwin Lall
+      title:  Online Generation of Locality Sensitive Hash Signatures
+      url: readings/downloads/twitter/online-generation-of-locality-sensitive-hash-signatures.pdf
+    -
+      author: Sariel Har-Peled, Piotr Indyk and Rajeev Motwani 
+      title:  Approximate Nearest Neighbors&#58; Towards Removing the Curse of Dimensionality
+      url: readings/downloads/twitter/approximate-nearest-neighbors.pdf
 -
   date: 2016-02-15
   slides: http://crowdsourcing-class.org/slides/crowdsourcing-and-HCI.pdf
@@ -294,26 +343,6 @@
       title:  EmailValet&#58; Managing Email Overload through Private, Accountable Crowdsourcing
       url: readings/downloads/hci/EmailValet.pdf
 -
-  date: 2016-02-19
-  title: Drop deadline
--
-  date: 2016-02-19
-  title: Friday hands-on activity
--
-  date: 2016-02-22
-  title: In-class presentations&#58; Pitch your term project ideas 
-  speaker: your TAs. Instructor will be traveling for a DARPA meeting.
-  slides: http://crowdsourcing-class.org/final-project-pitches.html
--
-  date: 2016-02-24
-  title: In-class presentations&#58; Pitch your term project ideas 
-  speaker: your TAs. Instructor will be traveling for a DARPA meeting.
-  slides: http://crowdsourcing-class.org/final-project-pitches.html
--
-  date: 2016-02-26
-  title: Friday in-class activity
-  speaker: your TAs. Instructor will be traveling for a DARPA meeting.
--
   date: 2016-02-29
   slides: http://crowdsourcing-class.org/slides/quality-control.pdf
   title: Quality Control part 1
@@ -345,6 +374,10 @@
       author: Winter Mason and Duncan Watts
       title:  Financial Incentives and the Performance of Crowds
       url: readings/downloads/econ/financial-incentives-and-the-performance-of-crowds.pdf
+    -
+      author: Kazushi Ikeda and Michael Bernstein
+      title:  Pay It Backward&colon; Per-Task Payments on Crowdsourcing Platforms Reduce Productivity
+      url: readings/downloads/econ/per-task-payments-on-crowdsourcing-platforms-reduce-productivity.pdf
 -
   date: 2016-03-04
   title: Friday hands-on activity
@@ -386,36 +419,8 @@
   date: 2016-03-18
   title: Friday hands-on activity
 -
-  date: 2016-03-16
-  slides: http://crowdsourcing-class.org/slides/twitter-first-story-detection.pdf
-  title: Distilling Collective Intelligence from Twitter part 1
-  highlights:
-    - Topic Detection and Tracking
-    - Approximate algorithms for scaling to large data sets
-  reading:
-    -
-      author: Sasa Petrovic, Miles Osborne, and Victor Lavrenko
-      title:  Streaming First Story Detection with application to Twitter
-      url: readings/downloads/twitter/streaming-first-story-detection-with-application-to-twitter.pdf
-    -
-      author: Ben Van Durme and Ashwin Lall
-      title:  Online Generation of Locality Sensitive Hash Signatures
-      url: readings/downloads/twitter/online-generation-of-locality-sensitive-hash-signatures.pdf
-    -
-      author: Sariel Har-Peled, Piotr Indyk and Rajeev Motwani 
-      title:  Approximate Nearest Neighbors&#58; Towards Removing the Curse of Dimensionality
-      url: readings/downloads/twitter/approximate-nearest-neighbors.pdf
--
   date: 2016-03-23
-  slides: http://crowdsourcing-class.org/slides/twitter-for-public-health.pdf
-  title: Distilling Collective Intelligence from Twitter part 2
-  highlights:
-    - Public health and Twitter
-  reading:
-    -
-      author: Michael Paul and Mark Dredze
-      title:  You are what you Tweet&#58; Analyzing Twitter for Public Health
-      url: readings/downloads/twitter/analyzing-twitter-for-public-health.pdf
+  title: TBD
 -
   date: 2016-03-25
   title: Withdraw deadline
@@ -560,5 +565,5 @@
   title: Course wrap-up
   slides: http://crowdsourcing-class.org/slides/wrap-up.pdf
 -
-  date: 2016-05-02
-  title: Final Presentations (date, time and location TBD)
+  date: 2016-05-05
+  title: Final Presentations will be held during the final exam slot on Thursday May 5th, 2016 from 9:00 to 11:00 (location TBD)

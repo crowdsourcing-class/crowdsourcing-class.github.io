@@ -2,7 +2,7 @@
 layout: default
 img: capitalist-greed
 caption: Exploit the masses!
-title: Homework 5 | Become a Requester
+title: Homework 5 "Become a Requester"
 active_tab: homework
 release_date: 2016-02-05
 due_date: 2016-02-12T14:00:00EST
@@ -20,7 +20,7 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 
 
 <div class="alert alert-info">
-This assignment is due on {{ page.due_date | date: "%A, %B %-d, %Y" }}. 
+This assignment is due before class on {{ page.due_date | date: "%A, %B %-d, %Y" }}. 
 </div>
 
 
@@ -53,14 +53,14 @@ This assignment has three parts:
 	$ mkdir assignment5 # make a directory to work in
 	$ cd assignment5 # go into that directory and being working
 
-<h3>Part 1: Pub(lication) Crawl</h3>
+<h3>Part 1: Crawling the web</h3>
 
 Part 1 of your assignment is to build a web crawler! This is up there as one of the most important life skills you will ever learn, alongside balancing a budget and feeding yourself. And like most essential life skills, you don't need to be great at building a web crawler, you just need to know enough to get by. This section of the assignment will introduce two tools for collecting urls from the web, and walk you through running the templates we provide. Then, we will ask you to extend and improve what we show you in order to collect as many gun-violence article urls as you can.
 
 1. **Download the code** First things first: download the [code templates](http://crowdsourcing-class.org/assignments/downloads/assignment5.tgz) for this assignment. When you unpack the archive, you should see the directories shown below. (Note that if you experience problems with wget, you can always just click the link and download the file to whichever folder you plan to work from.)  
 	
 	<pre><code> $ wget http://crowdsourcing-class.org/assignments/downloads/assignment5.tgz
-	$ tar -xzvf asssignment5.tgz 
+	$ tar -xzvf assignment5.tgz 
 	$ ls assignment5	
 	part_1_crawling part_2_classification</code></pre>
 
@@ -69,13 +69,17 @@ Part 1 of your assignment is to build a web crawler! This is up there as one of 
 	<pre><code> $ ls assignment5/part_1_crawler/
 	bing_api.py  get_clean_text.py  python_crawler.py </code></pre>
 
-3. **Use Python to crawl Gun Report blog** At a high level, the code in python_crawler.py is a basic web crawler. It will begin on a webpage that we specify, and it will look for all of the hyperlinks on that page. Everytime it finds a link, it will print the link, and then follow it. When if follows a link, it will start doing the exact same thing-- looking for more links, printing them, and then following them. For people who have taken algorithms, you will recognize this as a standard [depth-first search](https://en.wikipedia.org/wiki/Depth-first_search). For those of you who haven't, you will recognize this as a perfectly common sense way to look for links, regardless of fancy names. The code written now scrapes links from the [Gun Report Blog](http://nocera.blogs.nytimes.com/category/gun-report/). This is the same site Chris used to collect training data for your assignment last week. Try running the code, and see what output you get. The below commands will run the crawler and print the links to a file called gun_report_urls.txt. The second two lines will remove duplicated urls in your list. Note this crawler is not very fast. For me, running the code took about 10 minutes and produced 8,868 unique urls.
+3. **Use Python to crawl Gun Report blog** At a high level, the code in python_crawler.py is a basic web crawler. It will begin on a webpage that we specify, and it will look for all of the hyperlinks on that page. Everytime it finds a link, it will print the link, and then follow it. When if follows a link, it will start doing the exact same thing-- looking for more links, printing them, and then following them. 
+
+The code written now scrapes links from each page of the [Gun Report Blog](http://nocera.blogs.nytimes.com/category/gun-report/). This is the same site Chris used to collect training data for your assignment last week. Try running the code, and see what output you get. The below commands will run the crawler and print the links to a file called gun_report_urls.txt. The second two lines will remove duplicated urls in your list. Note this crawler is not very fast. For me, running the code took about 10 minutes and produced 8,868 unique urls.
 
 	<pre><code> $ python python_crawler.py > gun_report_urls.txt
 	$ cat gun_report_urls.txt | sort | uniq > tmp #remove duplicate urls and put all the unique ones in tmp
 	$ mv tmp gun_report_urls.txt # replace the old list of urls with the new list of only unique urls
 	$ wc -l gun_report_urls.txt # print the number of lines in the file.
 	8868 </code></pre>
+
+If you want, you can recursively follow links and see if that yields any good additional articles.  You can modify the crawl method so that it processes everything on your stack in a breadth-first or depth-first search.
 
 4. **Modify python_crawler.py** You should now modify the code in python_crawler.py in order to crawl the [Gun Violence Archive](http://www.gunviolencearchive.org/last-72-hours?page=1) website. You should save the urls you collect to a file called gun_archive_urls.txt, and submit this file when you turnin your assignment.
 
@@ -108,7 +112,7 @@ Part 1 of your assignment is to build a web crawler! This is up there as one of 
 	<pre><code> cat list_of_urls.txt | python get_clean_text.py > articles_and_urls.txt </code></pre>
 
 
-<h3>Part 2: Taking shots in the dark</h3>
+<h3>Part 2: Classifying Articles Using Machine Learning</h3>
 
 For this part, you will use your classifier from last week to make predictions about the gun-relatedness of the never-before-seen data you just collected in Part 1. You will need to make some changes to the code you wrote last week. There are some engineering details that you need to get right in order for everything to run smoothly, so read the instructions carefully and follow them closely. 
 
@@ -126,7 +130,7 @@ For this part, you will use your classifier from last week to make predictions a
 
 3. **Edit predict_unlabelled.py** The only change you will need to make is to <b>replace the <code>get_features()</code> function with the <code>get_features()</code> function that you wrote</b> last week. If you used any auxilary functions as part of your <code>get_features</code>, you will need to copy those over too. When you copy over your function, if you are careful, it should run without complaining. 
 
-3. **Classify your articles!** Once you have copied over your feature function, you can run the program as follows. 
+4. **Classify your articles!** Once you have copied over your feature function, you can run the program as follows. 
 
 	<pre><code>$ python predict_unlabelled.py articles.txt unlabelled_articles.txt</code></pre>
 
@@ -138,19 +142,19 @@ For this part, you will use your classifier from last week to make predictions a
 
 	<pre><code>$ cat classifier_predictions.txt | sort | uniq -c </code></pre>
 
-4. **Gather the positive predictions** You now have three parallel files, each with the same number of lines in it: <code>articles.txt</code>, <code>urls.txt</code>, and <code>classifier_predictions.txt</code>. For the next step, you will want to pull out just the urls of the articles which the classifier predicted as "gun-related"- that is, the lines for which classifier_predictions.txt has a '1'. You can use your favorite programming language to do this, or do it manually if you are bored and have nothing better to do. If you are interested, here is a great bash command to do it for you. 
+5. **Gather the positive predictions** You now have three parallel files, each with the same number of lines in it: <code>articles.txt</code>, <code>urls.txt</code>, and <code>classifier_predictions.txt</code>. For the next step, you will want to pull out just the urls of the articles which the classifier predicted as "gun-related"- that is, the lines for which classifier_predictions.txt has a '1'. You can use your favorite programming language to do this, or do it manually if you are bored and have nothing better to do. If you are interested, here is a great bash command to do it for you. 
 
 	<pre><code>$ paste classifier_predictions.txt urls.txt | grep -e "^1" > positive_predicted_urls.txt</code></pre>
 
 	This creates a new file, positive_predicted_urls.txt, with two columns, one with the label (which will always be '1'), and one with the url. See our [bash cheat sheet](http://crowdsourcing-class.org/bash-commands.html) for a breakdown. 
 
-5. **Take a random sample to be annotated** Finally, you will need to get a sample of these articles to label on Crowdflower (you don't want to pay to have them all labeled!). We will label 500 positive predictions (hopefully you have at least that many). Again, you can use for favorite programming language to get a random sample. Or here is some bash to the rescue:
+6. **Take a random sample to be annotated** Finally, you will need to get a sample of these articles to label on Crowdflower (you don't want to pay to have them all labeled!). We will label 500 positive predictions (hopefully you have at least that many). Again, you can use for favorite programming language to get a random sample. Or here is some bash to the rescue:
 
 	<pre><code> $ cat positive_predicted_urls.txt | shuf | head -500 > sample.txt</code></pre>
 	
-<h3>Part 3: ShootingsHIT</h3>
+<h3>Part 3: Checking Your Classifier's Labels Using The Crowd</h3>
 
-Whew, okay, enough python and bash for now! Its time to design a HIT on Crowdflower! The goal is to have the workers look at each of the URLs you gathered in step 4 of Part 1, and have them judge whether they agree that it is gun-violence-related. This should be a very painless process, hopefully. And look! There are even pictures!
+Whew, okay, enough python and bash for now! Its time to design a HIT on Crowdflower! The goal is to have the workers look at the sample of 500 URLs you produced in step 6 of Part 2, and have them judge whether they agree that it is gun-violence-related. This should be a very painless process, hopefully. And look! There are even pictures!
 
 1. **Pred your data** You will need the list of urls to be in CSV format. The easiest way to do this will probably be to open <code>sample.txt</code>, or whatever you called your file, in a spreadsheet program like Google Docs. Then, you can use File->Dowload as->CSV, and save the file. Make sure you add a header to the columns, something informative like "url" or "stuff." 
 
@@ -193,7 +197,7 @@ Whew, okay, enough python and bash for now! Its time to design a HIT on Crowdflo
 
 <h3>Extra Credit Competition</h3>
 
-We will hold a competition for the student(s) who can deliver the biggest, cleanest, and most diverse list of urls that point to actual gunviolence articles. The goal is to provide as many urls as you can, but without including false positives (e.g. urls that are unrelated to gun violence). You can try to improve the list in a number of ways-- by building better crawlers or more accurate classifiers, or both. If you want to play it safe, you can submit only the urls that passed your CrowdFlower task (e.g. ones that workers verified to be correct). If you want to get a bigger list, you can include urls that you crawled/classified but have not been verified by humans. You will be rewarded for more urls, but punished for false positives and for redundant urls, so follow your own risk preferences. We will score the lists you submit as follows:
+We will hold a competition for the student(s) who can deliver the biggest, cleanest, and most diverse list of urls that point to actual gun violence articles. The goal is to provide as many urls as you can, but without including false positives (e.g. urls that are unrelated to gun violence). You can try to improve the list in a number of ways-- by building better crawlers or more accurate classifiers, or both. If you want to play it safe, you can submit only the urls that passed your CrowdFlower task (e.g. ones that workers verified to be correct). If you want to get a bigger list, you can include urls that you crawled/classified but have not been verified by humans. You will be rewarded for more urls, but punished for false positives and for redundant urls, so follow your own risk preferences. We will score the lists you submit as follows:
 
 * +1/k points for each true gun-violence url you provide, where k is the number of other students who also submitted that url
 * -1 point for each non-gun-violence url (false positive) you provide

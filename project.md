@@ -6,7 +6,7 @@ title: Term project
 active_tab: project
 ---
 
-<!-- Check whether the assignment is up to date -->
+<!-- Check whether the assignment is up to date
 {% capture this_year %}{{'now' | date: '%Y'}}{% endcapture %}
 {% capture due_year %}{{page.due_date | date: '%Y'}}{% endcapture %}
 {% if this_year != due_year %} 
@@ -14,114 +14,176 @@ active_tab: project
 Warning: this assignment is out of date.  It may still need to be updated for this year's class.  Check with your instructor before you start working on this assignment.
 </div>
 {% endif %}
-<!-- End of check whether the assignment is up to date -->
+<!-- End of check whether the assignment is up to date 
+-->
 
-<div class="alert alert-info" markdown="span">
-Check out these fantastic [final project videos](final-projects.html) from the Fall 2013 class!
-</div>
 
 Final Project
 =============================================================
 
-The final term project will be a self-designed project created by the students in consultation with the professor and the TA.
+The final term project will be a self-designed project created by the students in consultation with the professor and the TA.  The project will be done in 4 parts beginning mid-semester.  Each of these will have an associated set of deliverables. 
 
-## Deliverables
+* 
 
-Due October 8th Midterm: In class proposal for project/pitch to class
 
-Progress Update: Individual team meetings with TA+Prof, give concrete progress update
 
-Final: Writeup and demonstration system
 
-Your project should meet the following guidelines:
+### $10,000 Prize
 
-* Should solve a real world problem
-* Should actually use crowdsourcing (it doesn't have to be via MTurk, but that is a good default way to incorporate crowdsourcing)
-* Should involve either an HCI or a ML component
-* Should explain the choice of incentives and discuss alternative ways of incentivizing workers
-* Should contain a quality control component
-* Analyze costs, decide whether it is a viable business
-* Extra credit: Lay the foundation for a PennApp, Use 99designs to create cool web site
-* Bonus Extra credit: Start a business and put your Prof + TA on the board of advisors
-* Super extra mega credit: Raise VC funding
-* Loss of all credit: Dropping out of school
 
-## Project ideas
 
-Here are a few final project ideas. You are welcome to adapt one of these ideas into your final project, or to come up with your own idea. 
-My expectation is that your final project will represent a substantial amount of work, and that it will be something that you're proud of and that you would like to show off to potential employers or to graduate schools.
+
+### Example final projects from last year
+
+Here are 3 examples of my favorite final projects from last year. You can also check out all of the the final project videos from the [Fall 2014 class](final-projects-2014.html) and the [Fall 2013 class](final-projects-2013.html).
+
+
+<table class="table table-striped"> 
+  <tbody>
+    {% for questionnaire in site.data.example_final_projects %}
+    {% assign anchor = questionnaire.name_of_your_project | replace:' ', '-' | replace:"'", '' | replace:'.', ''  | replace:'(', '' | replace:')', ''  %}
+    {% assign logo = questionnaire.url_to_the_logo_for_your_project | replace:"github.com", "raw.githubusercontent.com" | replace:"blob/", "" %}
+   <tr>
+      <td>
+	<div class="hidden-sm hidden-xs">
+		<img src="{{ logo }}" width="200" />
+	</div>
+      </td>
+      <td>
+<div class="visible-sm visible-xs">
+		<img src="{{ logo }}" width="100" />
+</div>
+<div class="panel-group" id="accordion{{ anchor }}">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <div class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion{{ anchor }}" href="#{{ anchor }}">
+{{ questionnaire.give_a_one_sentence_description_of_your_project }} 
+        </a>
+      </div>
+    </div>
+    <div id="{{ anchor }}" class="panel-collapse collapse">
+      <div class="panel-body">
+
+
+<b>{{ questionnaire.name_of_your_project }}</b> by 
+{% if questionnaire.team_member_1__can_we_list_your_name_listed_alongside_your_project %}
+	{{ questionnaire.name_1 }}{% endif %}
+{% if questionnaire.team_member_2__can_we_list_your_name_listed_alongside_your_project %}
+,	{{ questionnaire.name_2 }}{% endif %}
+{% if questionnaire.team_member_3__can_we_list_your_name_listed_alongside_your_project %}
+,	{{ questionnaire.name_3 }}{% endif %}
+{% if questionnaire.team_member_4__can_we_list_your_name_listed_alongside_your_project %}
+,	{{ questionnaire.name_4 }}
+{% endif %}
+
+{% assign vimeourl = questionnaire.vimeo_link | split:"/" %}
+{% for urlpart in vimeourl %}
+	{% capture videonum %}{{ urlpart }}{% endcapture %}
+{% endfor %} 
+
+<div align="center" class="hidden-sm hidden-xs">
+<iframe src="http://player.vimeo.com/video/{{ videonum }}" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <br />
+</div>
+<div align="center" class="visible-sm visible-xs">
+<b>Video profile:</b> <a href="http://player.vimeo.com/video/{{ videonum }}">http://player.vimeo.com/video/{{ videonum }}"</a> <br />
+</div>
+
+<b>Give a one sentence description of your project.</b> {{ questionnaire.give_a_one_sentence_description_of_your_project }}<br /> 
+<b>What type of project is it?</b> {{ questionnaire.what_type_of_project_is_it }}<br /> 
+<b>What similar projects exist?</b> {{ questionnaire.what_similar_projects_exist }}<br /> 
+<b>How does your project work?</b> {{ questionnaire.how_does_your_project_work}}<br />
+
+
+
+<center><b>The Crowd</b></center>
+<b>What does the crowd provide for you?</b> {{ questionnaire.what_does_the_crowd_provide_for_you }}<br /> 
+<b>Who are the members of your crowd?</b> {{ questionnaire.who_are_the_members_of_your_crowd }}<br />  
+<b>How many unique participants did you have?</b> {{ questionnaire.how_many_unique_participants_did_you_have}}<br />
+<b>For your final project, did you simulate the crowd or run a real experiment?</b> {{ questionnaire.for_your_final_project_did_you_simulate_the_crowd_or_run_a_real_experiment}}<br />
+{% if questionnaire.for_your_final_project_did_you_simulate_the_crowd_or_run_a_real_experiment == "Simulated crowd" %}
+	<b>If the crowd was simulated, how did you collect this set of data?</b> {{ questionnaire.if_the_crowd_was_simulated_how_did_you_collect_this_set_of_data}}<br />
+	<b>If the crowd was simulated, how would you change things to use a real crowd?</b> {{ questionnaire.if_the_crowd_was_simulated_how_would_you_change_things_to_use_a_real_crowd}}<br />
+{% else %}
+	<b>If the crowd was real, how did you recruit participants?</b> {{ questionnaire.if_the_crowd_was_real_how_did_you_recruit_participants}}<br />
+{% endif %}
+<b>Would your project benefit if you could get contributions form thousands of people?</b> {{ questionnaire.would_your_project_benefit_if_you_could_get_contributions_from_thousands_of_people }}<br /> 
+<b>Do your crowd workers need specialized skills?</b> {{ questionnaire.do_your_crowd_workers_need_specialized_skills}}<br />
+<b>What sort of skills do they need?</b> {{ questionnaire.what_sort_of_skills_do_they_need}}<br />
+<b>Do the skills of individual workers vary widely?</b> {{ questionnaire.do_the_skills_of_individual_workers_vary_widely}}<br />
+<b>If skills vary widely, what factors cause one person to be better than another? </b> {{ questionnaire.if_skills_vary_widely_what_factors_cause_one_person_to_be_better_than_another_}}<br />
+<b>Did you analyze the skills of the crowd?</b> {{ questionnaire.did_you_analyze_the_skills_of_the_crowd}}<br />
+<b>If you analyzed skills, what analysis did you perform?</b> {{ questionnaire.if_you_analyzed_skills_what_analysis_did_you_perform}}<br />
+
+
+
+<b>Did you create a user interface for the crowd workers?</b> {{ questionnaire.did_you_create_a_user_interface_for_the_crowd_workers}}<br />
+<b>If yes, please give the URL to a screenshot of the crowd-facing user interface.</b> {{ questionnaire.if_yes_please_give_the_url_to_a_screenshot_of_the_crowdfacing_user_interface}}<br />
+<b>Describe your crowd-facing user interface.</b> {{ questionnaire.describe_your_crowdfacing_user_interface}}<br />
+
+
+
+
+<center><b>Incentives</b></center>
+
+<b>How do you incentivize the crowd to participate?</b> {{ questionnaire.how_do_you_incentivize_the_crowd_to_participate }}<br /> 
+<b>Did you perform any analysis comparing different incentives? </b> {{ questionnaire.did_you_perform_any_analysis_comparing_different_incentives_}}<br />
+<b>If you compared different incentives, what analysis did you perform? </b> {{ questionnaire.if_you_compared_different_incentives_what_analysis_did_you_perform_}}<br />
+
+
+<center><b>Aggregation</b></center>
+
+<b>What is the scale of the problem that you are trying to solve? </b> {{ questionnaire.what_is_the_scale_of_the_problem_that_you_are_trying_to_solve_}}<br />
+
+
+<b>How do you aggregate the results from the crowd?</b>  {{ questionnaire.how_do_you_aggregate_the_results_from_the_crowd }}<br /> 
+<b>Did you analyze the aggregated results? </b> {{ questionnaire.did_you_analyze_the_aggregated_results_}}<br />
+<b>What analysis did you perform on the aggregated results?</b> {{ questionnaire.what_analysis_did_you_perform_on_the_aggregated_results}}<br />
+<b>Did you create a user interface for the end users to see the aggregated results?</b> {{ questionnaire.did_you_create_a_user_interface_for_the_end_users_to_see_the_aggregated_results}}<br />
+<b>If yes, please give the URL to a screenshot of the user interface for the end user.</b> {{ questionnaire.if_yes_please_give_the_url_to_a_screenshot_of_the_user_interface_for_the_end_user}}<br />
+<b>Describe what your end user sees in this interface.</b> {{ questionnaire.describe_what_your_end_user_sees_in_this_interface}}<br />
+
+
+<b>If it would benefit from a huge crowd, how would it benefit? </b> {{ questionnaire.if_it_would_benefit_from_a_huge_crowd_how_would_it_benefit_}}<br />
+<b>What challenges would scaling to a large crowd introduce?</b> {{ questionnaire.what_challenges_would_scaling_to_a_large_crowd_introduce}}<br />
+<b>Did you perform an analysis about how to scale up your project?</b> {{ questionnaire.did_you_perform_an_analysis_about_how_to_scale_up_your_project}}<br />
+<b>What analysis did you perform on the scaling up?</b> {{ questionnaire.what_analysis_did_you_perform_on_the_scaling_up}}<br />
+
+
+
+<center><b>Quality Control</b></center>
+
+<b>Is the quality of what the crowd gives you a concern?</b> {{ questionnaire.is_the_quality_of_what_the_crowd_gives_you_a_concern}}<br />
+<b>How do you ensure the quality of what the crowd provides?</b> 
+{{ questionnaire.how_do_you_ensure_the_quality_of_the_crowd_provides__ }}<br />
+
+<b>Did you analyze the quality of what you got back?</b> {{ questionnaire.did_you_analyze_the_quality_of_what_you_got_back}}<br />
+<b>What analysis did you perform on quality?</b> {{ questionnaire.what_analysis_did_you_perform_on_quality}}<br />
+<b>Is this something that could be automated?</b> {{ questionnaire.is_this_something_that_could_be_automated}}<br />
+<b>If it could be automated, say how.  If it is difficult or impossible to automate, say why.</b> {{ questionnaire.if_it_could_be_automated_say_how__if_it_is_difficult_or_impossible_to_automate_say_why}}<br />
+
+
+<center><b>Additional Analysis</b></center>
+
+
+<b>Did your project work?</b> {{ questionnaire.did_your_project_work}}<br />
+<b>What are some limitations of your project?</b> {{ questionnaire.what_are_some_limitations_of_your_product}}<br />
+
+{% if questionnaire.questionnaire.did_your_results_deviate_from_what_you_would_expect_from_previous_work_or_what_you_learned_in_the_class %}
+<b>Did your results deviate from what you would expect from previous work or what you learned in the class?</b> {{ questionnaire.did_your_results_deviate_from_what_you_would_expect_from_previous_work_or_what_you_learned_in_the_class}}<br />
+<b>If your results deviated, why might that be?</b> {{ questionnaire.if_your_results_deviated_why_might_that_be}}<br />
+{% endif %}
+
+<b>Is there anything else you'd like to say about your project?</b> {{ questionnaire.is_there_anything_else_youd_like_to_say_about_your_project}}<br />
+
+      </div>
+    </div>
+  </div>
+</div>
+
+       </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
  
-### Crowdsourced Matchmaking
-
-Come up with a human computation algorithm that helps people find a better match in online dating.  Some people have tried to use [machine learning](http://www.wired.com/2014/01/how-to-hack-okcupid/all/) or [crowdsourcing](http://www.youlookgoodtogether.com) to optimize their dating experience on OKCupid.  Can you come up with a better way of matching people up via crowdsourcing?  Maybe you can have the crowd act as Cyrano de Bergerac, feeding users better lines than they could think of themselves.  Maybe you could have people in a social network nominate people who they think would be good matches.
-
-### Translate Children's Books
-
-[The International Children's Digital Library](http://en.childrenslibrary.org) is a collection of children's books from around the the world.  Volunteer translators have translated a subset of their books into different languages.  We could try to translate many more of the books using crowdsourcing.  There could be different tasks for monolingual speakers and bilingual speakers.  Monolinguals could transcribe the text of the books (which is usually embedded in images).  Bilinguals could translate it.  Monolinguals could edit the translations.  
-
-
-### Crowdsourcing and Creativity
- 
-Create a human computation algorithm to convert prose into poetry. Your algorithm should model two aspects of poetry rhyme and meter. NLP researchers have been working on text-to-text generation algorithms that can rewrite sentences in many different ways. This software can generate a huge number of alternatives, some of which may fit the constraints of a poem. However, the software is currently poor at determining which of the generated sentences are grammatical versus ungrammatical, and which correctly retain the its original meaning. Your job will be to incorporate humans into the process to make those decisions. Meet with your professor to learn more about the NLP software (it takes quite a lot of effort to learn), and then design a set of MTurk HITs to filter generated sentences down to ones that are poetic, grammatical and mean the same thing as the original prose.
- 
-
-### Crowd Workers of the world, unite!
- 
-The Mechanical Turk interface for workers sucks. Although it lets workers search by value of HIT and maximum duration, it lacks one critical piece of inform: expected hourly rate. Write a web plug in to help workers track their hourly rate. Design a database that records these stats for multiple workers and reports the average hourly rate for different requesters and/or tasks. Possible extensions could track the approval/rejection rate of each requester, the average time from doing a HIT to getting paid for it, and a log of all of the reasons for rejection.
- 
-  
-### Fairness in rejection
-
-Design an adjudication system for work rejected by Mechanical Turk Requesters.  The system should allow Workers to appeal rejections, and should have a mechanism for deciding whether the rejection was fair (in which case it would stand), or unfair (in which case it should be overturned, and the Worker should be paid).  Possible ideas: design a second pass HIT that has other Turkers review the work, and decide whether it is acceptable or not.  As part of this project you should specify what constraints are on the original HIT design to allow easy second pass reviewing and highlighting / explanation of why an assignment was rejected.  You should also quantify the expected increase in costs to Requesters, based on variables like: rejection rate, original reward amount, reviewing cost estimate. 
-
-
-### Design a system for confederated qualifications
- 
-Design an implement a method for Mechanical Turk Requesters to share qualification tests and the results of who passed the tests. Write a short paper describing the value of such a system, and comparing it to MTurk's master's qualification. Design a few qualifications of your own that you think would be broadly useful, possibly by reviewing the tasks currently posted on MTurk and generalizing the skill sets that are needed. 
-
-
-
-### Cognitive science experiments 
- 
-Choose some aspect of the cognitive science that can be tested through experiments on human subjects. One of my favorite examples of this is Lera Boroditsky's work testing various aspects of the Sapir–Whorf hypothesis that language influences they way that we think. Read Lera's article on how she used MTurk to test whether [metaphors change the way people reason](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0052961). Choose your own topic (or reimplement several classic experiments). Write a paper discussing your results, discussing whether MTurk provides a representative sample of subjects, and describing how to go about applying for Institutional Review Board approval for cognitive science experiments on MTurk.
- 
- 
-### Behavioral Economics
- 
-Write a suite of HITs on Mechanical Turk to test behavioral economic theories by implementing a set of games like the "ultimatum game". In this game two people are paired up. (They can communicate with each other, but otherwise they’re anonymous to each other.) They’re given $10 to divide between them, according to this rule: One person (the proposer) decides, on his own, what the split should be (fifty-fifty, seventy-thirty, or whatever). He then makes a take-it-or-leave-it offer to the other person (the responder). The responder can either accept the offer, in which case both players pocket their respective shares of the cash, or reject it, in which case both players walk away empty-handed. See more details in "The Wisdom of Crowds". Note that this requires pairing two people simultaneously or simulating their interactions. 
- 
-### Speech Recognition Systems
-
-Apple uses speech recognition systems for Siri.  You can develop this technology for new languages.  You need an [open source speech recognition system](http://kaldi.sourceforge.net/about.html) and a bunch of training data.  What sort of data?  Audio files paired with their transcriptions.  Where do you get data?  Crowdsourcing!  You can come up with ways of collecting data.  You could gather data either through transcription of existing audio files, or `elicitation' where people read texts out loud and save recordings of it. You'll need to figure out how to do good quality control, to what extent the quality matters when you're training a speech recognition system for a new langauge.
-
-### Food Truck Tracker
-
-There are a lot of food trucks in Philly.  Some of them are so awesome that they move to different locations on different days.  They announce their whereabouts on Twitter or Facebook.  Do they really expect us to keep track of where they all are?  Why not have the crowd create a map of the current whereabouts of all the food trucks.  How about having the crowd keep track of their menus and prices while you're at it?
-
-### Track the spread of the flu using social media 
-
-Did you know that you can catch the flu from social media?  Well, you can't.  But you can use it as a tool to track the spread of certain diseases.  You could try re-creating one of the publications by [this cool researcher](http://www.cs.jhu.edu/~mdredze/publications.php).  What sorts of health problems do you think social media can give us information about?  
- 
-### Wikitopics
- 
-Wikipedia provides hour-by-hour page view statistics for every one of its pages. Write a human computation algorithm that uses these statistics as input to detect trending topics in the news. Use humans to (1) review the trending pages to say whether they describe something newsworthy, (2) cluster them into pages about the same event, and (3) write short summaries of the event that triggered them to become popular. Design good mechanisms for quality control for clustering, and for describing something as newsworthy. Read this paper about [a baseline computational algorithm.](http://www.cis.upenn.edu/~ccb/publications/wikitopics-what-is-popular-on-wikipedia-and-why.pdf)
- 
- 
-### MTurk Prediction Market
- 
-Prediction markets use collective intelligence to try to predict the outcome of future events. Prediction markets answer questions that have definite, verifiable answers on a particular date (like "Will the government shutdown still be in effect on October 31, 2013?"). They let people buy and sell shares in the outcomes, and track the value of each outcome's shares over time. You should implement a prediction market that sets that value of the shares. You should hire workers on Mechanical Turk to make the predictions. The major design challenge will be to formulate the system so that it incentivizes Turkers to make well-considered predictions instead of random predictions. For instance, you may consider designing a HIT that pays nothing initially, but that gives people up to $10 if all of their predictions are accurate. 
- 
-### Political Descriptors by Demographic
-
-The words we use to describe politicians and public figures in general depends a lot on their background. Pick one characteristic to keep track of (age, gender, party, country or state of origin, relationship status, time in office, anything), figure out which words correlate most strongly with politicians who possess that characteristic, and use the crowd to assign an intensity and sentiment to some of these words -- maybe even design a HIT that swaps out the names and pronouns of one politician for another and ask the Turker to assess the clarity and cohesion of the article to see how background affects descriptions in the media. 
-
-### Efficacy of Gun Violence Databases
-
-The Guardian recently started publishing an online database of police-involved killings called [The Counted](http://www.theguardian.com/us-news/ng-interactive/2015/jun/01/the-counted-police-killings-us-database). In turn, the FBI announced that it would also be [publishing information](http://www.theguardian.com/us-news/2015/dec/09/fbi-launch-new-system-count-people-killed-police-officers-the-counted) about the deadly use of physical force nationwide. This information is tracked in a lot of places, including gun violence blogs and even in the projects of students who took NETS213 last year. Using the crowd to identify duplicates and supplement details in one place could yield interesting information about which areas are best at reporting violence, which news sources are least accurate, or any other problem you'd like to study. Automatic reconciliation of conflicting data and classification of the type of data would likely require some strong HIT design. 
-
-### Inspiration from others
-
-[Jeffery Bigham](http://www.cs.cmu.edu/~jbigham/) runs a class at CMU. [You can check out his list of suggested final project topics.](http://www.programthecrowd.com/finalproject)
-
-
-[Open Data Philly](http://opendataphilly.org) has cool data about things in Philly.
