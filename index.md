@@ -27,12 +27,13 @@ The first peer grading assignment is due on before class on Monday February 29th
 </div> 
 
 
--->
-
 <div class="alert alert-danger" markdown="1">
 Did you know you get participation credit for showing up in class?  If you showed up the Friday before Spring break you're awesome and you get extra credit.  Write the code into [this form](https://docs.google.com/forms/d/15Ewt41aGE-muWdJHN6Qt_s8-K5p4Rs7voxvzeo3TQYI/viewform) to prove that you were there.
 </div>
 
+
+
+-->
 
 
 <!-- Display an alert about upcoming homework assignments -->
