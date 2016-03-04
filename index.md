@@ -22,12 +22,12 @@ If you would like free credit on CrowdFlower, please sign up for <a href="https:
 Did you know you get participation credit for showing up in class?  During class today, we will pass out participation codes that you can enter into [this form](https://docs.google.com/forms/d/14UZWosW5_W_-qDNI8KJ_zUGkiyTO9yuwv7yCkCvuZgQ/viewform) to prove that you were there.
 </div>
 
--->
-
 <div class="alert alert-info">
 The first peer grading assignment is due on before class on Monday February 29th.  You will be grading your classmates' company profile videos.  Links to the videos were sent to you an email from nets213@seas.upenn.edu with the subject line "first peer grading assignment".
 </div> 
 
+
+-->
 
 
 
