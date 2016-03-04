@@ -311,38 +311,6 @@
       title:  Approximate Nearest Neighbors&#58; Towards Removing the Curse of Dimensionality
       url: readings/downloads/twitter/approximate-nearest-neighbors.pdf
 -
-  date: 2016-02-15
-  slides: http://crowdsourcing-class.org/slides/crowdsourcing-and-HCI.pdf
-  title: Crowdsourcing and human computer interaction (HCI) design
-  highlights:
-    - Next generation interfaces
-    - Soylent word processor ("it's made of people")
-  reading:
-    -
-      author: Michael Bernstein, Greg Little, Rob Miller, Björn Hartmann, Mark Ackerman, David Karger, David Crowell, and Katrina Panovich
-      title:  Soylent&#58; A Word Processor with a Crowd Inside
-      url: readings/downloads/hci/Soylent.pdf
-    -
-      author: Jeff Bigham
-      title: Real-Time Crowd Support for People with Disabilities (video)
-      url: https://www.youtube.com/watch?v=oUebwz1QqOo
--
-  date: 2016-02-17
-  slides: http://crowdsourcing-class.org/slides/crowdsourcing-and-HCI.pdf
-  title: Crowdsourcing and HCI part 2
-  highlights:
-    - E-mail Valet
-    - Adrenaline
-  reading:
-    -
-      author: Michael Bernstein, Joel Brandt, Rob Miller, and David Karger
-      title:  Crowds in Two Seconds&#58; Enabling Realtime Crowd-Powered Interfaces
-      url: readings/downloads/hci/adrenaline.pdf
-    -
-      author: Nicolas Kokkalis, Thomas Köhn, Carl Pfeiffer, Dima Chornyi, Michael Bernstein, and Scott Klemmer
-      title:  EmailValet&#58; Managing Email Overload through Private, Accountable Crowdsourcing
-      url: readings/downloads/hci/EmailValet.pdf
--
   date: 2016-02-29
   slides: http://crowdsourcing-class.org/slides/quality-control.pdf
   title: Quality Control part 1
@@ -418,6 +386,38 @@
 -
   date: 2016-03-18
   title: Friday hands-on activity
+-
+  date: 2016-03-16
+  slides: http://crowdsourcing-class.org/slides/crowdsourcing-and-HCI.pdf
+  title: Crowdsourcing and human computer interaction (HCI) design
+  highlights:
+    - Next generation interfaces
+    - Soylent word processor ("it's made of people")
+  reading:
+    -
+      author: Michael Bernstein, Greg Little, Rob Miller, Björn Hartmann, Mark Ackerman, David Karger, David Crowell, and Katrina Panovich
+      title:  Soylent&#58; A Word Processor with a Crowd Inside
+      url: readings/downloads/hci/Soylent.pdf
+    -
+      author: Jeff Bigham
+      title: Real-Time Crowd Support for People with Disabilities (video)
+      url: https://www.youtube.com/watch?v=oUebwz1QqOo
+-
+  date: 2016-02-17
+  slides: http://crowdsourcing-class.org/slides/crowdsourcing-and-HCI.pdf
+  title: Crowdsourcing and HCI part 2
+  highlights:
+    - E-mail Valet
+    - Adrenaline
+  reading:
+    -
+      author: Michael Bernstein, Joel Brandt, Rob Miller, and David Karger
+      title:  Crowds in Two Seconds&#58; Enabling Realtime Crowd-Powered Interfaces
+      url: readings/downloads/hci/adrenaline.pdf
+    -
+      author: Nicolas Kokkalis, Thomas Köhn, Carl Pfeiffer, Dima Chornyi, Michael Bernstein, and Scott Klemmer
+      title:  EmailValet&#58; Managing Email Overload through Private, Accountable Crowdsourcing
+      url: readings/downloads/hci/EmailValet.pdf
 -
   date: 2016-03-23
   title: TBD
