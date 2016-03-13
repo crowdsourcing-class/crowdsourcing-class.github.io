@@ -2,8 +2,10 @@
 layout: default
 img: quality-never-goes-out-of-style
 caption: Quality never goes out of style.
-title: Homework 8 | Quality control
+title: Homework 7 | Quality control
 active_tab: homework
+release_date: 2016-03-14
+due_date: 2016-03-21T14:00:00EST
 ---
 
 <!-- Check whether the assignment is up to date -->
@@ -17,14 +19,14 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 <!-- End of check whether the assignment is up to date -->
 
 <div class="alert alert-info">
-  This assignment is due before class on Wednesday, November 5th.
+  This assignment is due before class on <b>{{ page.due_date | date: "%A, %B %-d, %Y" }}</b>.
 </div>
 
-Quality Control<span class="text-muted">: Assignment 8</span> 
+Quality Control<span class="text-muted">: Assignment 7</span> 
 =============================================================
-As you all may have noticed, it is easy to get a lot of junk answers from CrowdFlower. According to your workers, there are currently shooters on the loose with names like "3", "hi", "https://tasks.CrowdFlower.com/assignments/823118d2-af64-4c5e-b6f1-0510e2a2e659", and my personal favorite: ["felony"](http://freakonomics.com/2013/04/08/how-much-does-your-name-matter-a-new-freakonomics-radio-podcast/).
+As you all may have noticed, it is easy to get a lot of junk answers from CrowdFlower. Based on the worker's contributions to the databse we built last year (which you will be building next week), there are currently shooters on the loose with names like "3", "hi", "https://tasks.CrowdFlower.com/assignments/823118d2-af64-4c5e-b6f1-0510e2a2e659", and my personal favorite: ["felony"](http://freakonomics.com/2013/04/08/how-much-does-your-name-matter-a-new-freakonomics-radio-podcast/).
 
-That being said, a lot of you actually go very good results. Before getting hung up on the various frustrating expereinces so many of you had, keep in mind the big picture. You are hiring anonymous workers from across the country (or world, if you forgot to set up your filters!), which CrowdFlower recruits from ultra-sketchy sites like [this gem](http://www.clixsense.com/), and you are paying them a few cents for their time. I don't know about you, but based on all of my cynical models of human behavior, I would absolutely expect that you get 100% crap results back. But the truth is, you don't. You get a lot of really legitimate work from a lot of very sincere workers, you just need to make some effort to tease apart the good from that bad, which isn't always trivial. This is why we can dedicate a whole course to studying crowdsourcing.
+That being said, we've acutally been able to get very good results. Before getting hung up on the various frustrating expereinces so many of you had in the past couple assignments, keep in mind the big picture. You are hiring anonymous workers from across the country (or world, if you forgot to set up your filters!), which CrowdFlower recruits from ultra-sketchy sites like [this gem](http://www.clixsense.com/), and you are paying them a few cents for their time. I don't know about you, but based on all of my cynical models of human behavior, I would absolutely expect that you get 100% crap results back. But the truth is, you don't. You get a lot of really legitimate work from a lot of very sincere workers, you just need to make some effort to tease apart the good from that bad, which isn't always trivial. This is why we can dedicate a whole course to studying crowdsourcing.
 
 So, this week, we will attempt to answer two big questions:
 
@@ -37,9 +39,9 @@ In class, we have discussed three different quality estimation methods to answer
 2. Confidence-weighted vote: A label is considered 'correct' if it agrees with the majority, but all workers are not equal. A worker's weight is proportional to their accuracy on your embedded gold-standard questions. (Elitist republic!)
 3. [Expectation maximization](http://en.wikipedia.org/wiki/Expectation%E2%80%93maximization_algorithm) : A label's 'correctness' is determined using an iterative algorithm, which uses the estimated quality of the worker in order to infer the labels, and then the estimated labels in order to infer the quality of the worker. (Some new-fangled solution to politics...?)
 
-For this assignment, you will run the first two algorithms and provide a brief analysis comparing them to each other and to CrowdFlower's super-secret quality estimation algorithm. We will work with the results of your first CrowdFlower task (the binary gun/not gun judgement HIT), since the algorithms are not designed for open-ended answers. You should think about ways to map these concepts onto the open-ended IE HIT you worked with last week.
+For this assignment, you will run the first two algorithms and provide a brief analysis comparing them to each other and to CrowdFlower's super-secret quality estimation algorithm. We will work with the results of the CrowdFlower task you posted to a few weeks back to collect binary gun/not gun labels for your articles. 
 
-Since EM is a more advanced algorithm, we will only require you to walk through a toy example. If you are interested in machine learning, and want to understand this concept better, you are welcome and encouraged to run it on your actual CrowdFlower data. We will give you all the extra credit you could ever desire. Your name will be know all across Levine Hall.
+Since EM is a more advanced algorithm, we will only require you to walk through a toy example. If you are interested in machine learning, and want to understand this concept better, you are welcome and encouraged to run it on your actual CrowdFlower data. We will give you all the extra credit you could ever desire. Your name will be known all across Levine Hall.
 
 You will be using your own data from [Assignment 5](http://crowdsourcing-class.org/assignment5.html). You should download three reports: we will use the "Full" report for our own computations; we will use the "Aggregated" one and the "Contributors" one so that you can compare your own aggregation techniques against the ones used by CrowdFlower.
 
@@ -101,12 +103,12 @@ Majority vote is great: easy, straightforward, fair. But should everyone really 
 
 CrowdFlower has its own way of aggregating worker votes and determining confidence it workers. They keep their exact algorithms locked up and secret, but you can see the results in the csvs you downloaded. The results of their <i>labels[u]</i> is just the labels assigned in the "Aggregated" report. You can see their confidence in each worker in the "Contributors" report. 
 
-5. You can download [this script](assignments/downloads/cf_aggregation.py) as an example of how I formatted the CrowdFlower data to match the two-column format of our other files. Since your column names are different than mine, you will have to edit this script. Assuming you have edited it to match your column names, you can run it as follows (passing it your aggregaed and contributor reports, respectively): 
+5. You can download [this script](assignments/downloads/cf_aggregation.py) as an example of how I formatted the CrowdFlower data to match the two-column format of our other files. Since your column names are different than mine, you will have to edit this script. Assuming you have edited it to match your column names, you can run it as follows (passing it your aggregated and contributor reports, respectively): 
 
 	<pre><code> $ python cf_aggregation.py -d a621213.csv -m data > CrowdFlower_data.txt
 	$ python cf_aggregation.py -d workset621213.csv -m worker > CrowdFlower_workers.txt</code></pre>
 
-	You should now have 6 files, 3 "url \t label" files and 3 "workerId \t quality" files. You will do some comparisons and report your findings in [this questionnaire](https://docs.google.com/forms/d/16G-O0K9NHQCMOOuaJFgUSK-kjZ1A5WY45iIpIAa5HeQ/viewform?usp=send_form). 
+	You should now have 6 files, 3 "url \t label" files and 3 "workerId \t quality" files. You will do some comparisons and report your findings in [this questionnaire](https://docs.google.com/forms/d/1ERSmqJA8OXEUPm-clXhONd91CAQqHpKTLXZ5rgGhnl4/viewform?usp=send_form).
 6. First, we'll compare how well the three methods agree on what the "correct" label for each url should be. For this, we will use a metric called [Cohen's kappa](http://en.wikipedia.org/wiki/Cohen's_kappa), which attempts to measure the level of agreement between two sets of categorical labels. You can download [our script](assignments/downloads/kappa.py) for computing it, which you can run like this:
 
 	<pre><code> $ python kappa.py CrowdFlower_data.txt majority_data.txt 
@@ -114,26 +116,37 @@ CrowdFlower has its own way of aggregating worker votes and determining confiden
 
 	To compare how well the three methods agree on the worker qualities, we will use [Kendall tau](http://en.wikipedia.org/wiki/Kendall_tau_rank_correlation_coefficient) correlation, which we talked about in class. Python has a [built-in implimentation](http://docs.scipy.org/doc/scipy-0.14.0/reference/generated/scipy.stats.kendalltau.html) that you can use, or you can [impliment it yourself](http://en.wikipedia.org/wiki/Kendall_tau_rank_correlation_coefficient#Algorithms). Note that Python use's a slightly different definition than we discussed in class, so you might get different numbers depending on which method you decide to use. 
 
-	Your deliverables for this section are the 6 files you generated (3 "url \t label" files and 3 "workerId \t quality" files) and any code you used to generate them. Your code should be clearly named and reasonably commented. We will not need to run it, but we should be able to read it and see clearly what you did to generate your results. Remember to fill in the [questionnaire](https://docs.google.com/forms/d/16G-O0K9NHQCMOOuaJFgUSK-kjZ1A5WY45iIpIAa5HeQ/viewform?usp=send_form).
+	Your deliverables for this section are the 6 files you generated (3 "url \t label" files and 3 "workerId \t quality" files) and any code you used to generate them. Your code should be clearly named and reasonably commented. We will not need to run it, but we should be able to read it and see clearly what you did to generate your results. Remember to fill in the [questionnaire](https://docs.google.com/forms/d/1ERSmqJA8OXEUPm-clXhONd91CAQqHpKTLXZ5rgGhnl4/viewform?usp=send_form).
 
 ##Part 2: The EM algorithm
 
 The data aggregation algorithms you used above were straightforward and work reasonably well. But they are of course not perfect, and with all the CS researchers out there, all the Ph.Ds that need to be awarded and all the tenure that needs to be got, its only natural that many fancier, mathier algorithms have arisen. 
 
-We discussed the expectation maximization (EM) algorithm in class as a way to jointly find the data labels <i>and</i> the worker qualities. The intution is "<i>If</i> I knew how good my workers were, I could easily compute the data labels (just like you did in step 2 of weigthed vote) and <i>if</i> I knew the data labels, I could easily compute how good my workers are (just like you did in step 1 of weighted vote). The problem is, I don't know either." So the EM solution is to guess the worker qualities, use that to compute the labels, then use the labels we just computed to reassign the worker qualities, then use the new worker qualities to recompute the labels, and so on until we converge (or get bored). This is one of the best-loved algorithms in machine learning, and often appears to be somewhat magic when you first see it. The best way to get an intuition about what is happening is to walk through it by hand. So for this step, we will ask you do walk through 3 iterations of EM on a [toy data set](assignments/downloads/em_toy_data.txt) and report your results in the [questionnaire](https://docs.google.com/forms/d/16G-O0K9NHQCMOOuaJFgUSK-kjZ1A5WY45iIpIAa5HeQ/viewform?usp=send_form). 
+We discussed the expectation maximization (EM) algorithm in class as a way to jointly find the data labels <i>and</i> the worker qualities. The intution is "<i>If</i> I knew how good my workers were, I could easily compute the data labels (just like you did in step 2 of weigthed vote) and <i>if</i> I knew the data labels, I could easily compute how good my workers are (just like you did in step 1 of weighted vote). The problem is, I don't know either." So the EM solution is to guess the worker qualities, use that to compute the labels, then use the labels we just computed to reassign the worker qualities, then use the new worker qualities to recompute the labels, and so on until we converge (or get bored). This is one of the best-loved algorithms in machine learning, and often appears to be somewhat magic when you first see it. The best way to get an intuition about what is happening is to walk through it by hand. So for this step, we will ask you do walk through 3 iterations of EM on a [toy data set](assignments/downloads/em_toy_data.txt) and report your results in the [questionnaire](https://docs.google.com/forms/d/1ERSmqJA8OXEUPm-clXhONd91CAQqHpKTLXZ5rgGhnl4/viewform?usp=send_form).
 
 You can refer to the [lecture slides](http://crowdsourcing-class.org/slides/quality-control-3.pdf) as a guide. The numbers are slightly different, but the process is idenitcal. If you are super ambitious, you are welcome to delve into the depths of the [original 1979 paper](http://crowdsourcing-class.org/readings/downloads/ml/EM.pdf) describing the use of EM for diagnosing patients. If you are super ambitious and/or super in want of extra credit, you can code it up and run EM on your own CrowdFlower data!
 
 
 ##Deliverables
 
-This assignment is due <b>Wednesday, November 5</b>. You can work in pairs, but you must declare the fact that you are working together when you turn your assignment. Remember to submit your questionnaire before the deadline.  Your deliverables are stated at the ends of parts 1 and 2, but in the spirit of EM, I will reiterate:
 
-1. 3 files containing labels for each url, one file for each algorithm (majority, weighted, and CrowdFlower)
-2. 3 files containing qualities for each worker, one file for each algorithm (majority, weighted, and CrowdFlower)
-3. Your completed questionnaire 
-4. Any code you used to run your algorithms and/or perform your analyses. Your code should be readable enough that we can tell what you did, but does not need to conform to any particular interface.
+This assignment is due <b>{{ page.due_date | date: "%A, %B %-d, %Y" }}</b>. You can work in pairs, but you must declare the fact that you are working together when you turn your assignment. Remember to submit your questionnaire before the deadline.  
 
-You can turn in your assignment using 
+Like before, please turn in your files using turnin:
+<pre><code>$ turnin -c nets213 -p quality -v *</code></pre>
 
-	$ turnin -c nets213 -p quality -v *
+<div class="panel panel-danger">
+<div class="panel-heading" markdown="1">
+<h4>Grading Rubric</h4>
+</div>
+<div class="panel-body" markdown="1">
+
+This assignment is worth 5 points of your overall grade in the course.  The rubric for the assignment is given below.
+
+* 1 point - 3 files containing labels for each url, one file for each algorithm (majority, weighted, and CrowdFlower)
+* 1 point - 3 files containing qualities for each worker, one file for each algorithm (majority, weighted, and CrowdFlower)
+* 2 point - Your completed [questionnaire](https://docs.google.com/forms/d/1ERSmqJA8OXEUPm-clXhONd91CAQqHpKTLXZ5rgGhnl4/viewform?usp=send_form)
+* 1 point - Any code you used to run your algorithms and/or perform your analyses. Your code should be readable enough that we can tell what you did, but does not need to conform to any particular interface.
+* Extra credit (1 point) - An implimentation of the EM algorithm, and the output of running it on the data you received from CrowdFlower. This can be in your favorite programming language (it doesn't have to be in Python) but you must write the code yourself (no downloading someone else's implimentation from github), and document it well enough that we can understand what it does and how to run it. 
+</div>
+</div>
