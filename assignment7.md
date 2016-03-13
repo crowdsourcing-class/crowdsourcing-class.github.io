@@ -18,6 +18,10 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 {% endif %}
 <!-- End of check whether the assignment is up to date -->
 
+<div class="alert alert-danger">
+Warning: this assignment is out of date.  It may still need to be updated for this year's class.  Check with your instructor before you start working on this assignment.
+</div>
+
 <div class="alert alert-info">
   This assignment is due before class on <b>{{ page.due_date | date: "%A, %B %-d, %Y" }}</b>.
 </div>
