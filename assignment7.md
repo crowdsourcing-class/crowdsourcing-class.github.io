@@ -2,7 +2,7 @@
 layout: default
 img: quality-never-goes-out-of-style
 caption: Quality never goes out of style.
-title: Homework 7 | Quality control
+title: Homework 7 "Quality control"
 active_tab: homework
 release_date: 2016-03-14
 due_date: 2016-03-21T14:00:00EST
