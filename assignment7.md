@@ -72,7 +72,7 @@ Majority vote is probably the easiest and most common way to aggregate your work
 
 	Again, you should output a <b>two-column, tab-separated file</b> in the format "workerId \t quality".
     
-### Weighted majority vote
+###Weighted majority vote
 
 Majority vote is great: easy, straightforward, fair. But should everyone really pull the same weight? As every insecure student knows, whatever the smartest kid says is always right. So maybe we should recalibrate our voting, so that we listen more to the better workers. 
 
