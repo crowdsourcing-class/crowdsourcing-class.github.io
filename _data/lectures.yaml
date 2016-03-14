@@ -332,7 +332,6 @@
   title: Quality Control part 2
   highlights:
     - Economic incentives
-    - Reputation systems
   reading:
     -
       author: Anindya Ghose, Panos Ipeirotis, and Arun Sundararajan
@@ -367,6 +366,17 @@
     - The EM algorithm
   reading:
     -
+      author: Anindya Ghose, Panos Ipeirotis, and Arun Sundararajan
+      title:  Opinion Mining Using Econometrics&#58; A Case Study on Reputation Systems
+      url: readings/downloads/nlp/opinion-mining-using-econometrics.pdf
+-
+  date: 2016-03-16
+  slides: http://crowdsourcing-class.org/slides/quality-control-4.pdf
+  title: Quality Control part 4
+  highlights:
+    - The EM algorithm
+  reading:
+    -
       author: A. P. Dawid and A. M. Skene
       title:  Maximum Likelihood Estimation of Observer Error-Rates Using the EM Algorithm
       url: readings/downloads/ml/EM.pdf
@@ -378,11 +388,6 @@
       author: Dirk Hovy
       title:  An Evening with EM (a tutorial on EM)
       url: readings/downloads/ml/EM-tutorial.pdf
--
-  date: 2016-03-16
-  title: Prediction Markets
-  slides: http://crowdsourcing-class.org/slides/prediction-markets.pdf
-  speaker_url: http://www.seas.upenn.edu/~epavlick/
 -
   date: 2016-03-18
   title: Friday hands-on activity
@@ -547,7 +552,9 @@
   title: Friday hands-on activity
 -
   date: 2016-04-18
-  title: TBD
+  title: Prediction Markets
+  slides: http://crowdsourcing-class.org/slides/prediction-markets.pdf
+  speaker_url: http://www.seas.upenn.edu/~epavlick/
 -
   date: 2016-04-20
   title: TBD
