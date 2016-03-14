@@ -44,13 +44,13 @@ Since EM is a more advanced algorithm, we will only require you to walk through 
 
 You will be using your own data from [Assignment 5](http://crowdsourcing-class.org/assignment5.html). You should download three reports: we will use the "Full" report for our own computations; we will use the "Aggregated" one and the "Contributors" one so that you can compare your own aggregation techniques against the ones used by CrowdFlower.
 
-##Part 1: Comparing aggregation methods
+## Part 1: Comparing aggregation methods
 
-###Majority vote
+### Majority vote
 
 Majority vote is probably the easiest and most common way to aggregate your workers' labels. It is simple and gets to the heart of what "the wisdom of crowds" is supposed to give us- as long as the workers make uncorrelated errors, we should be able to walk away with decent results. Plus, as every insecure middle schooler knows, what is popular is always right. 
 
-1. First, use majority vote to assign labels to each of the urls in your data. You can impliment it however you want, but will want to output <b>two-column, tab-separated file</b> in the format "url \t label". 
+1. First, use majority vote to assign labels to each of the urls in your data. You can implement it however you want, but will want to output <b>two-column, tab-separated file</b> in the format "url \t label". 
 
 	Lets let <i>u</i> be a url and we'll use <i>labels</i> to refer to the data structure we are building, so that <i>labels[u]</i> is the label we assign to <i>u</i>. So we have 
 
@@ -72,7 +72,7 @@ Majority vote is probably the easiest and most common way to aggregate your work
 
 	Again, you should output a <b>two-column, tab-separated file</b> in the format "workerId \t quality".
     
-###Weighted majority vote
+### Weighted majority vote
 
 Majority vote is great: easy, straightforward, fair. But should everyone really pull the same weight? As every insecure student knows, whatever the smartest kid says is always right. So maybe we should recalibrate our voting, so that we listen more to the better workers. 
 
@@ -98,7 +98,7 @@ Majority vote is great: easy, straightforward, fair. But should everyone really 
 
 	Output another file in the format "url \t label". 
 
-###Comparing against CrowdFlower
+### Comparing against CrowdFlower
 
 CrowdFlower has its own way of aggregating worker votes and determining confidence it workers. They keep their exact algorithms locked up and secret, but you can see the results in the csvs you downloaded. The results of their <i>labels[u]</i> is just the labels assigned in the "Aggregated" report. You can see their confidence in each worker in the "Contributors" report. 
 
@@ -113,11 +113,11 @@ CrowdFlower has its own way of aggregating worker votes and determining confiden
 	<pre><code> $ python kappa.py CrowdFlower_data.txt majority_data.txt 
 	kappa = 0.969854</code></pre>
 
-	To compare how well the three methods agree on the worker qualities, we will use [Kendall tau](http://en.wikipedia.org/wiki/Kendall_tau_rank_correlation_coefficient) correlation, which we talked about in class. Python has a [built-in implimentation](http://docs.scipy.org/doc/scipy-0.14.0/reference/generated/scipy.stats.kendalltau.html) that you can use, or you can [impliment it yourself](http://en.wikipedia.org/wiki/Kendall_tau_rank_correlation_coefficient#Algorithms). Note that Python use's a slightly different definition than we discussed in class, so you might get different numbers depending on which method you decide to use. 
+	To compare how well the three methods agree on the worker qualities, we will use [Kendall tau](http://en.wikipedia.org/wiki/Kendall_tau_rank_correlation_coefficient) correlation, which we talked about in class. Python has a [built-in implementation](http://docs.scipy.org/doc/scipy-0.14.0/reference/generated/scipy.stats.kendalltau.html) that you can use, or you can [impliment it yourself](http://en.wikipedia.org/wiki/Kendall_tau_rank_correlation_coefficient#Algorithms). Note that Python use's a slightly different definition than we discussed in class, so you might get different numbers depending on which method you decide to use. 
 
 	Your deliverables for this section are the 6 files you generated (3 "url \t label" files and 3 "workerId \t quality" files) and any code you used to generate them. Your code should be clearly named and reasonably commented. We will not need to run it, but we should be able to read it and see clearly what you did to generate your results. Remember to fill in the [questionnaire](https://docs.google.com/forms/d/1ERSmqJA8OXEUPm-clXhONd91CAQqHpKTLXZ5rgGhnl4/viewform?usp=send_form).
 
-##Part 2: The EM algorithm
+## Part 2: The EM algorithm
 
 The data aggregation algorithms you used above were straightforward and work reasonably well. But they are of course not perfect, and with all the CS researchers out there, all the Ph.Ds that need to be awarded and all the tenure that needs to be got, its only natural that many fancier, mathier algorithms have arisen. 
 
@@ -126,7 +126,7 @@ We discussed the expectation maximization (EM) algorithm in class as a way to jo
 You can refer to the [lecture slides](http://crowdsourcing-class.org/slides/quality-control-3.pdf) as a guide. The numbers are slightly different, but the process is idenitcal. If you are super ambitious, you are welcome to delve into the depths of the [original 1979 paper](http://crowdsourcing-class.org/readings/downloads/ml/EM.pdf) describing the use of EM for diagnosing patients. If you are super ambitious and/or super in want of extra credit, you can code it up and run EM on your own CrowdFlower data!
 
 
-##Deliverables
+## Deliverables
 
 
 This assignment is due <b>{{ page.due_date | date: "%A, %B %-d, %Y" }}</b>. You can work in pairs, but you must declare the fact that you are working together when you turn your assignment. Remember to submit your questionnaire before the deadline.  
@@ -146,6 +146,6 @@ This assignment is worth 5 points of your overall grade in the course.  The rubr
 * 1 point - 3 files containing qualities for each worker, one file for each algorithm (majority, weighted, and CrowdFlower)
 * 2 point - Your completed [questionnaire](https://docs.google.com/forms/d/1ERSmqJA8OXEUPm-clXhONd91CAQqHpKTLXZ5rgGhnl4/viewform?usp=send_form)
 * 1 point - Any code you used to run your algorithms and/or perform your analyses. Your code should be readable enough that we can tell what you did, but does not need to conform to any particular interface.
-* Extra credit (1 point) - An implimentation of the EM algorithm, and the output of running it on the data you received from CrowdFlower. This can be in your favorite programming language (it doesn't have to be in Python) but you must write the code yourself (no downloading someone else's implimentation from github), and document it well enough that we can understand what it does and how to run it. 
+* Extra credit (1 point) - An implementation of the EM algorithm, and the output of running it on the data you received from CrowdFlower. This can be in your favorite programming language (it doesn't have to be in Python) but you must write the code yourself (no downloading someone else's implementation from github), and document it well enough that we can understand what it does and how to run it. 
 </div>
 </div>
