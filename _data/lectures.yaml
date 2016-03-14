@@ -362,8 +362,7 @@
   slides: http://crowdsourcing-class.org/slides/quality-control-3.pdf
   title: Quality Control part 3
   highlights:
-    - More on reputation systems
-    - The EM algorithm
+    - Reputation systems
   reading:
     -
       author: Anindya Ghose, Panos Ipeirotis, and Arun Sundararajan
