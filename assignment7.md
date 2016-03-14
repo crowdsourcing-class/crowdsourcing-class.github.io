@@ -24,14 +24,13 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 
 Quality Control<span class="text-muted">: Assignment 7</span> 
 =============================================================
-As you all may have noticed, it is easy to get a lot of junk answers from CrowdFlower. Based on the worker's contributions to the databse we built last year (which you will be building next week), there are currently shooters on the loose with names like "3", "hi", "https://tasks.CrowdFlower.com/assignments/823118d2-af64-4c5e-b6f1-0510e2a2e659", and my personal favorite: ["felony"](http://freakonomics.com/2013/04/08/how-much-does-your-name-matter-a-new-freakonomics-radio-podcast/).
-
-That being said, we've acutally been able to get very good results. Before getting hung up on the various frustrating expereinces so many of you had in the past couple assignments, keep in mind the big picture. You are hiring anonymous workers from across the country (or world, if you forgot to set up your filters!), which CrowdFlower recruits from ultra-sketchy sites like [this gem](http://www.clixsense.com/), and you are paying them a few cents for their time. I don't know about you, but based on all of my cynical models of human behavior, I would absolutely expect that you get 100% crap results back. But the truth is, you don't. You get a lot of really legitimate work from a lot of very sincere workers, you just need to make some effort to tease apart the good from that bad, which isn't always trivial. This is why we can dedicate a whole course to studying crowdsourcing.
+As you all may have noticed, it is easy to get a lot of junk answers from CrowdFlower. 
+You are hiring anonymous workers from across the world, which CrowdFlower recruits from ultra-sketchy sites like [this gem](http://www.clixsense.com/), and you are paying them a few cents for their time. I don't know about you, but based on all of my cynical models of human behavior, I would absolutely expect that you get 100% crap results back. But the truth is, you don't. You get a lot of really legitimate work from a lot of very sincere workers, you just need to make some effort to tease apart the good from that bad, which isn't always trivial. This is why we can dedicate a whole course to studying crowdsourcing.
 
 So, this week, we will attempt to answer two big questions:
 
 1. How good are my workers? Which workers are reliable and which ones appear to be incompetent, lazy, and/or inebriated?
-2. How do I combine the (likely conflicting) labels from multiple Turkers in order to accurately label my data?
+2. How do I combine the (likely conflicting) labels from multiple workers in order to accurately label my data?
 
 In class, we have discussed three different quality estimation methods to answer these questions:
 
