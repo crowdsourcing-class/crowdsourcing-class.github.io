@@ -332,7 +332,6 @@
   title: Quality Control part 2
   highlights:
     - Economic incentives
-    - Reputation systems
   reading:
     -
       author: Anindya Ghose, Panos Ipeirotis, and Arun Sundararajan
@@ -363,7 +362,17 @@
   slides: http://crowdsourcing-class.org/slides/quality-control-3.pdf
   title: Quality Control part 3
   highlights:
-    - More on reputation systems
+    - Reputation systems
+  reading:
+    -
+      author: Anindya Ghose, Panos Ipeirotis, and Arun Sundararajan
+      title:  Opinion Mining Using Econometrics&#58; A Case Study on Reputation Systems
+      url: readings/downloads/nlp/opinion-mining-using-econometrics.pdf
+-
+  date: 2016-03-16
+  slides: http://crowdsourcing-class.org/slides/quality-control-4.pdf
+  title: Quality Control part 4
+  highlights:
     - The EM algorithm
   reading:
     -
@@ -379,15 +388,10 @@
       title:  An Evening with EM (a tutorial on EM)
       url: readings/downloads/ml/EM-tutorial.pdf
 -
-  date: 2016-03-16
-  title: Prediction Markets
-  slides: http://crowdsourcing-class.org/slides/prediction-markets.pdf
-  speaker_url: http://www.seas.upenn.edu/~epavlick/
--
   date: 2016-03-18
   title: Friday hands-on activity
 -
-  date: 2016-03-16
+  date: 2016-03-21
   slides: http://crowdsourcing-class.org/slides/crowdsourcing-and-HCI.pdf
   title: Crowdsourcing and human computer interaction (HCI) design
   highlights:
@@ -403,7 +407,7 @@
       title: Real-Time Crowd Support for People with Disabilities (video)
       url: https://www.youtube.com/watch?v=oUebwz1QqOo
 -
-  date: 2016-02-17
+  date: 2016-02-23
   slides: http://crowdsourcing-class.org/slides/crowdsourcing-and-HCI.pdf
   title: Crowdsourcing and HCI part 2
   highlights:
@@ -418,9 +422,6 @@
       author: Nicolas Kokkalis, Thomas Köhn, Carl Pfeiffer, Dima Chornyi, Michael Bernstein, and Scott Klemmer
       title:  EmailValet&#58; Managing Email Overload through Private, Accountable Crowdsourcing
       url: readings/downloads/hci/EmailValet.pdf
--
-  date: 2016-03-23
-  title: TBD
 -
   date: 2016-03-25
   title: Withdraw deadline
@@ -550,7 +551,9 @@
   title: Friday hands-on activity
 -
   date: 2016-04-18
-  title: TBD
+  title: Prediction Markets
+  slides: http://crowdsourcing-class.org/slides/prediction-markets.pdf
+  speaker_url: http://www.seas.upenn.edu/~epavlick/
 -
   date: 2016-04-20
   title: TBD
@@ -566,4 +569,4 @@
   slides: http://crowdsourcing-class.org/slides/wrap-up.pdf
 -
   date: 2016-05-05
-  title: Final Presentations will be held during the final exam slot on Thursday May 5th, 2016 from 9:00 to 11:00 (location TBD)
+  title: Final Presentations will be held during the final exam slot on Thursday May 5th, 2016 from 9:00 to 11:00 (there are locations - LRSM Auditorium and Skirkanich Auditorium)
