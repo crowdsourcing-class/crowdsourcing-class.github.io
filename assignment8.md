@@ -41,7 +41,7 @@ You might want to work in teams for this project. These HITs will require more t
 
 ###Code, data, and signing up for more emails
 
-1. <b>Download the code and data.</b> In Assignment 5, you all had workers label your classifier's results and came up with lists of crowd-approved gun-related articles. We've pulled together 400 of the urls your workers called "gun related" that you will use for this assignment. We've also provided some code templates for the text processing you'll need to do. You can download the code and data [here](http://crowdsourcing-class.org/assignments/downloads/assignment6.tgz). 
+1. <b>Download the code and data.</b> In Assignment 5, you all had workers label your classifier's results and came up with lists of crowd-approved gun-related articles. We've pulled together 400 of the urls your workers called "gun related" that you will use for this assignment. We've also provided some code templates for the text processing you'll need to do. You can download the code and data [here](http://crowdsourcing-class.org/assignments/downloads/assignment8.tgz). 
 
 	<pre><code> $ wget http://crowdsourcing-class.org/assignments/downloads/assignment8.tgz
 	$ tar -xvzf assignment8.tgz</code></pre>
