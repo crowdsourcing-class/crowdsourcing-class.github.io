@@ -116,7 +116,7 @@ First, we will design a very simple HIT, in which we simply as workers to fill i
 
 ####Less bad design (Constrained Inputs)
 
-The above HIT you designed is <i>very</i> open-ended. This makes it less work for you, but as you will probably see when the results come back, you pay for that convenience with the quality of the results you receive. As you probably noticed when doing the QC homework, there are a lot of benefits to having a constrained set of answers, so you can do things like take the majority vote, or measure agreement between workers. In this section, we will use Alchemy to design a nicer HIT interface, which will hopefully allow your workers to move through the articles more quickly and provide more consistent results. You can see my design [here](https://tasks.crowdflower.com/channels/cf_internal/jobs/887033/work?secret=jpRirnRaKlcoU%2BZxvWY0bAwR7j9VnBh%2B07agJaEHJ03l). You are encoraged to improve over my template! I am a god-awful web designer, so please! Make it better so we can recycle your designs for next year's students! :-P 
+The above HIT you designed is <i>very</i> open-ended. This makes it less work for you, but as you will probably see when the results come back, you pay for that convenience with the quality of the results you receive. As you probably noticed when doing the QC homework, there are a lot of benefits to having a constrained set of answers, so you can do things like take the majority vote, or measure agreement between workers. In this section, we will use Alchemy to design a nicer HIT interface, which will hopefully allow your workers to move through the articles more quickly and provide more consistent results. You can see my design [here](https://tasks.crowdflower.com/channels/cf_internal/jobs/887048/work?secret=jpRirnRaKlcoU%2BZxvWY0bAwR7j9VnBh%2B07agJaEHJ03l). You are encoraged to improve over my template! I am a god-awful web designer, so please! Make it better so we can recycle your designs for next year's students! :-P 
 
 
 1. <b>Construct an Alchemy API call to extract entities from the article.</b>
@@ -162,7 +162,7 @@ We will also use Alchemy's [entity extraction](http://www.alchemyapi.com/api/ent
 
 4. <b>Redesign your HIT interface.</b> You will now redesign your HIT interface so that workers cannot input open-ended answers to your questions, but instead select from a pre-defined list of options. You will notice that this is not a perfect solution (Alchemy makes a lot of mistakes), but it solves many of the problems that arise with free text inputs. 
 
-	At a minium, you should reimpliment [my design](), although there is lots of room for improvement. Check the extra credit opportunities for more ideas! 
+	At a minium, you should reimpliment [my design](https://tasks.crowdflower.com/channels/cf_internal/jobs/887048/work?secret=jpRirnRaKlcoU%2BZxvWY0bAwR7j9VnBh%2B07agJaEHJ03l), although there is lots of room for improvement. Check the extra credit opportunities for more ideas! 
 	
 5. <b>Post your HIT!</b> <- That! Do that! You should pay the same amount as you did for the previous step, so you can compare their cost and speed of the two designs.
 
