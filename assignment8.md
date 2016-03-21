@@ -35,7 +35,7 @@ Your deliverables will be:
 
 2. Screen shots of two HIT designs (a bare-bones one, and a more user-friendly one).
 
-3. Reponses about your findings in [this questionnaire](https://docs.google.com/forms/d/1_qW91g5FDIS5qa_2TdKtlfkMQDggT8b7QbuhFJ-0f08/viewform?usp=send_form).
+3. Reponses about your findings in [this questionnaire](https://docs.google.com/forms/d/13ZPafIOfVTxco_Qa3YVYhK-gCC-aJwO-N20C3M3RNh0/viewform?usp=send_form).
 
 You might want to work in teams for this project. These HITs will require more time for the crowd workers, and so should pay a bit more than the previous ones. Don't be a jerk and pay them pennies just because your account is low! Buddy up with someone, or feel free to add some funds to your account. (We didn't have a text book for this class. And we gave you each $50. So we've been easy on your budget so far.)
 
@@ -183,7 +183,7 @@ Once again, your deliverables are:
 
 2. Screen shots of each of your two HIT designs (a bare-bones one, and a more user-friendly one).
 
-3. Reponses about your findings in [this questionnaire](https://docs.google.com/forms/d/1_qW91g5FDIS5qa_2TdKtlfkMQDggT8b7QbuhFJ-0f08/viewform?usp=send_form).
+3. Reponses about your findings in [this questionnaire](https://docs.google.com/forms/d/13ZPafIOfVTxco_Qa3YVYhK-gCC-aJwO-N20C3M3RNh0/viewform?usp=send_form).
 
 This assignment is due <b>Monday, March 27</b>. You can work in pairs, but you must declare the fact that you are working together when you turn your assignment. Remember to turn submit your questionnaire before the deadline. You can turn in your data and screenshots using turnin:
 
@@ -201,7 +201,7 @@ This assignment is worth 5 points of your overall grade in the course.  The rubr
 * 1 point - CSV file containing data extracted using improved HIT design with constrained inputs
 * 1 point - Screenshot of basic HIT design with open-ended inputs
 * 1 point - Screenshot of improved HIT design with constrained inputs
-* 1 point - Your completed [questionnaire](https://docs.google.com/forms/d/1ERSmqJA8OXEUPm-clXhONd91CAQqHpKTLXZ5rgGhnl4/viewform?usp=send_form)
+* 1 point - Your completed [questionnaire](https://docs.google.com/forms/d/13ZPafIOfVTxco_Qa3YVYhK-gCC-aJwO-N20C3M3RNh0/viewform?usp=send_form).
 * Extra credit (up to 1 point) - Your own UI improvements to the interface (you must turn in a screenshot and a short README describing the changes you made.)
 
 </div>
