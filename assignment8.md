@@ -39,7 +39,7 @@ Your deliverables will be:
 
 You might want to work in teams for this project. These HITs will require more time for the crowd workers, and so should pay a bit more than the previous ones. Don't be a jerk and pay them pennies just because your account is low! Buddy up with someone, or feel free to add some funds to your account. (We didn't have a text book for this class. And we gave you each $50. So we've been easy on your budget so far.)
 
-###Code, data, and signing up for more emails
+<h3>Code, data, and signing up for more emails</h3>
 
 1. <b>Download the code and data.</b> In Assignment 5, you all had workers label your classifier's results and came up with lists of crowd-approved gun-related articles. We've pulled together 400 of the urls your workers called "gun related" that you will use for this assignment. We've also provided some code templates for the text processing you'll need to do. You can download the code and data [here](http://crowdsourcing-class.org/assignments/downloads/assignment8.tgz). 
 
@@ -52,7 +52,7 @@ You might want to work in teams for this project. These HITs will require more t
 
 	In order to use Alchemy, you will need to [sign up for an account](http://www.alchemyapi.com/api/register.html) and get an API key. The default account will give you 1,000 API calls a day. This is probably enough for this assignment- you will need two calls per url, so if you only mess up four times, you should still be within your daily limit. However, if you want to explore it more (which you really should! its awesome!) you can sign up for an academic account, which will give you 30,000 calls a day. If you want to do this, let me know. It just requires sending an email to the sales team, and you can copy the email I used to request my academic license.
 
-###Extract Article Text using Alchemy API
+<h3>Extract Article Text using Alchemy API</h3>
 
 We will use Alchemy twice: once (now) to extract clean text, and again (later) to extract entity and location names. We have code templates to do this, but you will need to modify them a little bit yourself.
 
@@ -64,7 +64,7 @@ We will use Alchemy twice: once (now) to extract clean text, and again (later) t
 	
 	<pre><code>cat gun-violence-urls.txt | python extract_text.py > gun-violence-urls-and-text.txt</code></pre>
 
-###HIT Design
+<h3>HIT Design</h3>
 
 As you may remember from [Doug's lecture](http://crowdsourcing-class.org/slides/gun-violence-as-a-public-health-issue.pdf), there are a lot of details about gun crimes that epidemiologists are interested in. For this assignment, you are going to ask workers to try to extract the following information: 
 
@@ -104,7 +104,7 @@ As you may remember from [Doug's lecture](http://crowdsourcing-class.org/slides/
 
 You will design two HITs on Crowdflower to extract this information from the articles. In the first, you will simply provide the article and ask workers to fill in the information. In the second, you will do some preprocessing to try to make the workers' job easier. 
 
-####Not very good design (Open-ended Inputs)
+<h4>Not very good design (Open-ended Inputs)</h4>
 
 First, we will design a very simple HIT, in which we simply as workers to fill in the schema for us. You can see my simple version [here](https://tasks.crowdflower.com/assignments/74afb1ac-3e11-4487-b9ff-ddf5d6019eeb?cf_internal=true) (you might need to click the "start a new assignment" link). You do not have to follow my designs exactly, but your design should extract the same information.
 
@@ -114,7 +114,7 @@ First, we will design a very simple HIT, in which we simply as workers to fill i
 
 3. <b>Post your HIT.</b> Once your simple HIT is to your liking, go ahead and post it.  
 
-####Less bad design (Constrained Inputs)
+<h4>Less bad design (Constrained Inputs)</h4>
 
 The above HIT you designed is <i>very</i> open-ended. This makes it less work for you, but as you will probably see when the results come back, you pay for that convenience with the quality of the results you receive. As you probably noticed when doing the QC homework, there are a lot of benefits to having a constrained set of answers, so you can do things like take the majority vote, or measure agreement between workers. In this section, we will use Alchemy to design a nicer HIT interface, which will hopefully allow your workers to move through the articles more quickly and provide more consistent results. You can see my design [here](https://tasks.crowdflower.com/channels/cf_internal/jobs/887048/work?secret=jpRirnRaKlcoU%2BZxvWY0bAwR7j9VnBh%2B07agJaEHJ03l). You are encoraged to improve over my template! I am a god-awful web designer, so please! Make it better so we can recycle your designs for next year's students! :-P 
 
@@ -166,7 +166,7 @@ We will also use Alchemy's [entity extraction](http://www.alchemyapi.com/api/ent
 	
 5. <b>Post your HIT!</b> <- That! Do that! You should pay the same amount as you did for the previous step, so you can compare their cost and speed of the two designs.
 
-###Extra credit
+<h3>Extra credit</h3>
 
 If you like web design, awesome! We are completely willing to give extra credit for faster, simpler, and sexier UIs. A few ideas:
 
@@ -175,7 +175,7 @@ If you like web design, awesome! We are completely willing to give extra credit 
 - Alchemy does a good job, but misses some important things like dates and times. Try some other tools to detect this, or write your own!
 - Anything with drag and drop. People love to drag and drop.
 
-###Deliverables
+<h3>Deliverables</h3>
 
 Once again, your deliverables are:
 
