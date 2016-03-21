@@ -2,10 +2,10 @@
 layout: default
 img: information_overload1
 caption: Love the information age...
-title: Homework 7 "Crowdsourcing Information Extraction"
+title: Homework 8 "Crowdsourcing Information Extraction"
 active_tab: homework
 release_date: 2016-03-21
-due_date: 2016-03-27T14:00:00EST
+due_date: 2016-03-28T14:00:00EST
 ---
 
 <!-- Check whether the assignment is up to date -->
@@ -19,7 +19,7 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 <!-- End of check whether the assignment is up to date -->
 
 <div class="alert alert-info">
-  This assignment is due before class on Monday, March 27th.</div>
+  This assignment is due before class on Monday, March 28th.</div>
 
 
 Crowdsourcing Information Extraction<span class="text-muted"> : Assignment 8</span> 
@@ -185,7 +185,7 @@ Once again, your deliverables are:
 
 3. Reponses about your findings in [this questionnaire](https://docs.google.com/forms/d/13ZPafIOfVTxco_Qa3YVYhK-gCC-aJwO-N20C3M3RNh0/viewform?usp=send_form).
 
-This assignment is due <b>Monday, March 27</b>. You can work in pairs, but you must declare the fact that you are working together when you turn your assignment. Remember to turn submit your questionnaire before the deadline. You can turn in your data and screenshots using turnin:
+This assignment is due <b>Monday, March 28</b>. You can work in pairs, but you must declare the fact that you are working together when you turn your assignment. Remember to turn submit your questionnaire before the deadline. You can turn in your data and screenshots using turnin:
 
 <pre><code>$ turnin -c nets213 -p crowdie -v *</code></pre>
 
