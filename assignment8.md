@@ -222,6 +222,10 @@ This assignment is worth 5 points of your overall grade in the course.  The rubr
 
 	For this task, one worker per article is sufficient. Since everyone in the class is labeling the same URLs, there is no need for each group individually to collect redundant labels.
 
+* Do I need to make test questions?
+
+	No. For the open-ended design, this would be near impossible. For the constrained design, it is definitely doable, but we are not requiring it.
+
 * Is it okay if I post few than 100 URLs? What if I get http/Alchemy errors and am not able to extract text from every URL? 
 
 	That is okay, as long as you are not missing too many URLs. You should account for those that are missing by including a README with your submitted turnin files saying which URLs were skipped, and what errors they threw. Bad Gateway errors, for example, are okay. Errors that are due hitting your Alchemy API limit or due to bugs in your own code are not.
