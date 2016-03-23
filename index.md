@@ -36,6 +36,12 @@ Did you know you get participation credit for showing up in class?  If you showe
 -->
 
 
+
+<div class="alert alert-info">
+The second peer grading assignment is due on before class on Friday, March 25th.  You will be grading your classmates' pitches for their final projects.  Links to the videos were sent to you an email from nets213@seas.upenn.edu with the subject line "Final Project Pitch Peer Review Assignments". You can submit your feedback for the teams through [this form](http://goo.gl/forms/HzwsK9R5t7).
+</div> 
+
+
 <!-- Display an alert about upcoming homework assignments -->
 {% capture now %}{{'now' | date: '%s'}}{% endcapture %}
 {% for page in site.pages %}
