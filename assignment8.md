@@ -156,7 +156,7 @@ We will also use Alchemy's [entity extraction](http://www.alchemyapi.com/api/ent
 
 	Your code should take one argument (the name of the input file) and output a single file called `crowdflower-input.csv`. I.e. running the command below should produce the `crowdflower-input.csv` file as specified.
 	
-	<pre><code> python convert_to_csv.py gun-violence-urls-and-entitites.csv </code></pre>
+	<pre><code> python convert_to_csv.py gun-violence-urls-and-text-annotated.txt</code></pre>
 	
 	<b>Hint</b>: In addition to recording the city and person names as columns in my CSV, I used the string `replace()` method to wrap the entity names in a `<span>` element whever they appear in `clean_text`. This allows me to highlight them easily in my HIT interface. 
 
