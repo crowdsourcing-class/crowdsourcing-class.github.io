@@ -50,11 +50,11 @@ Your repository <b>must contain a docs/ directory</b>. It must contain the follo
 
 * <b>Screen shots / mockups</b> of some core interfaces that the crowd will see or that the end-users will see. This includes any HITs you plan to use in your project. There are lots of online [mockup tools](http://www.invisionapp.com/) that you can consider using, although [MS Paint](assets/img/mspaint_vista.jpg) is always a solid option as well.
 
-* <b>README.md</b> markdown file explaining the major components of your project. This should follow the schematic you created for your final project flow diagram. It should also indiciate what the high level milestones for each component are. To maje sure you understand the complexity of your own project, each component should have a point value between (1-4) outlining the amount of work required to implement that section. A project suitable for this class should have between 15 - 20 points overall. In your Project update meeting the staff will help you redistribute point values.
+* <b>README.md</b> markdown file explaining the major components of your project. This should follow the schematic you created for your final project flow diagram. It should also indiciate what the high level milestones for each component are. To make sure you understand the complexity of your own project, each component should have a point value between (1-4) outlining the amount of work required to implement that section. A project suitable for this class should have between 15 - 20 points overall. In your Project update meeting the staff will help you redistribute point values.
 
 ## Deliverable 2
 
-### Step 1: Gather any materials that you need to start
+<h3>Step 1: Gather any materials that you need to start</h3>
 Your repository <b>must contain a data/ directory</b>. For now, this should contain the following: 
 
 * <b>Raw data input</b> that your project requires. If your project needs inputs like Tweets about HPV, pictures of celebrities wearing stylings threads, or psycholinguistic stimuli, then spend time gathering a set of these inputs. You don't need the whole dataset, but have enough to be able to get a MVP (Minimal Viable Product) of your idea working. 
@@ -65,7 +65,7 @@ Eventually you'll be gathering real data from the crowd.  Before that happens yo
 
 * <b>Sample input/output from your aggregation module</b>. Again, you don't need your actual data, but should decide on the input and output format. It is okay if there is some overlap or dependence between these files and the files you give above for the QC module. Just verbosely document in your README and your flow diagram how these modules/data interact. 
 
-###Step 2: Implement a quality control module and an aggregation module
+<h3>Step 2: Implement a quality control module and an aggregation module</h3>
 
 Your repository <b>must contain a src/ directory</b>. It can be organized however best fits your system's architecture, but it should contain the following implementations. Make sure you state clearly in your README where to find each piece. 
 
@@ -73,17 +73,25 @@ Your repository <b>must contain a src/ directory</b>. It can be organized howeve
 
 * A simple, working version of <b>your aggregation module</b>.  This version can operate on your simulated data.  Say what additional work is needed for the final version of your project. 
 
-* These modules need not be hooked into your UI yet, but they should be able to pass through your dummy data and populate useful output data. You will explain in your project meeting how the values will be interpreted.
-
 * Update your README.md file to include which parts of the code deal with QC / Aggregation etc. and how they work.
+
+<b>Note</b>: These modules need not be hooked into your UI yet, but they should be able to pass through your dummy data and populate useful output data. You will explain in your project meeting how the values will be interpreted. Yes, we know, every group will have a very valid reason why their project doesn't <i>have</i> a QC and/or aggregation module, per se. In truth, you probably do. (If your project isn't aggregating at some point and doing QC at some point, you need to take a big step back and think about whether what you proposed is a good fit for this class.) Make your best effort to write some code that captures the essence of the aggretation/QC you will need, and we can discuss the problems and limitations in Part 3.
 
 ### Step 3 : Sign up for a meeting with Chris, Ellie, or the TAs. 
 
-There is so much variety in the kinds of projects you have come up with, which is *awesome*. Inevitably, this means you will read through this assignment and the deliverables and start complaining among your group in utter frustration about how terribly these deliverables fit with the project you are planning on building. So don't rant amongst yourselves! Come meet with us! Your project probably fits the structure better than you think it does. You can sign up for a individual meeting with use [here](https://docs.google.com/spreadsheets/d/1abxlZeSZjEeOMio91Kj2-8PcPngLxlvp7ppr3ne7r10/edit?usp=sharing).
+There is so much variety in the kinds of projects you have come up with, which is *awesome*. Inevitably, this means you will read through this assignment and the deliverables and start complaining among your group in utter frustration about how terribly these deliverables fit with the project you are planning on building. So don't rant amongst yourselves! Come meet with us! Your project probably fits the structure better than you think it does. You must sign up for a individual meeting with us [here](https://docs.google.com/spreadsheets/d/1abxlZeSZjEeOMio91Kj2-8PcPngLxlvp7ppr3ne7r10/edit?usp=sharing). 
+
+You should <b>plan to spend the first 5-7 minutes of your meeting presenting your project.</b> You should start by describing the end goal of your project (e.g. be "sales pitchy"-- what are you doing and why is it worthwhile?), and then walking through the deliverabes and giving a bird's eye view of what you have done, and what remains to do. The rest of your meeting, the Prof/TA will ask you questions about the details of your planned schedule and implimentation. You should <b>not</b> treat this as an getting-to-know-you meeting. You don't need to have a working demo, but you should have a solid handle on how you plan to proceed and be prepared to discuss the project concretely and technically. 
 
 ### Checklist
 
 This was a lot of text. Your take-away check list is: 
+
+<div class="panel panel-danger">
+<div class="panel-heading" markdown="1">
+<h4>Deliverables</h4>
+</div>
+<div class="panel-body" markdown="1">
 
 * Deliverable 1:
 
@@ -108,6 +116,6 @@ This was a lot of text. Your take-away check list is:
 	* A disgustingly clear README telling us where we can find each of the above things
 
 	* Sign up for a project update meeting
-
+</div></div>
 
 This first part of this assignment is due before 11:59pm on {{ page.deliverables[0].due_date | date: "%A, %B %-d, %Y" }}. Second part of this assignment is due before class on {{ page.deliverables[1].due_date | date: "%A, %B %-d, %Y" }}. You must work in groups on this project.  You must work in groups on this project.  You must declare who is in your group when you turn your assignment.  Everyone in your group will receive the same grade on the assignment. 
