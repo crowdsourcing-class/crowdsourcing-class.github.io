@@ -18,32 +18,39 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 <!-- End of check whether the assignment is up to date -->
 
 <div class="alert alert-info">
-  This assignment is due before 11:59pm on Thursday, November 13th.  You must work in groups on this project.  </div>
+  This first part (2(a)) of this assignment is due before 11:59pm on Saturday, April 2nd.  Second part of this assignment (2(b)) is due before 2:00pm on Friday, April 7th. You must work in groups on this project.  </div>
 
 
 Final Project<span class="text-muted"> : Part 2</span> 
 =============================================================
 
-This week's assignment counts as a deliverable toward your final project.  This assignment will be worth 10% of your final grade.  The goal of this assignment is to create a simple working prototype of your final project.  This will help to ensure that you are on top of all of the pieces of your project, and that you have a clear picture of how they interact.  This will hopefully allow you to divide the project into pieces that each member of your group can work on independently. 
+This assignment counts as a deliverable toward your final project.  This assignment will be worth 10% of your final grade and divided into two equally weighted parts.  The goal of this assignment is to select and think through your project idea and setup, talk with a member of the teaching staff about your project and create a simple working prototype of your final project.  This will help to ensure that you are on top of all of the pieces of your project, and that you have a clear picture of how they interact.  This will hopefully allow you to divide the project into pieces that each member of your group can work on independently. 
 
-###Step 1: Create a version control repository for your team
+##Final Project Part 2(a)
+
+###Step 1: Select a Project Idea
+You should have / will be receiving your project idea feedback shorlty. Using this select a project idea and start thinking about specific details on implementing it.
+
+###Step 2: Create a version control repository for your team
 
 You will use [github](https://github.com/) to as a version share code across your group. If you have never used github, there is a good getting started guide [here](https://guides.github.com/activities/hello-world/).  While you're at it, why don't you pick up a [CrowdFlower backpack](https://education.github.com/pack)?
 
-###Step 2: Big picture documentation
+###Step 3: Big picture documentation
 
 Your repository <b>must contain a docs/ directory</b>. It must contain the following: 
 
-* <b>README file</b> explaining the directory structure of your repository and what each script does. Don't worry about insulting our intelligence; even if your names are blaringly obvious, tell us anyway. "The run-quality-control.py script runs our quality control algorithm." Talk to us like we are illiterate babies.
-
 * <b>Flow diagram</b>: You should outline the major components/stages of your project, and how they depend on eachother. Somewhere you must have a <b>aggregation module</b> and a <b>quality control module</b>. This should be more conceptual than technical. We are less concerned with your choice of Java classes and interfaces, but more with the big picutre. When does the crowd touch the data? What has to happen before that? What will happen after that? What is your criteria for determining that the crowd's answers are "good enough" to move on? There are [online tools](http://www.gliffy.com/) for making flow diagrams that might be worth checking out.
 
-* <b>Screen shots / mockups</b> of all interfaces that the crowd will see or that the end-users will see. This includes any HITs you plan to use in your project. There are lots of online [mockup tools](http://www.invisionapp.com/) that you can consider using, although [MS Paint](assets/img/mspaint_vista.jpg) is always a solid option as well.
+* <b>Screen shots / mockups</b> of some core interfaces that the crowd will see or that the end-users will see. This includes any HITs you plan to use in your project. There are lots of online [mockup tools](http://www.invisionapp.com/) that you can consider using, although [MS Paint](assets/img/mspaint_vista.jpg) is always a solid option as well.
 
-###Step 3: Gather any materials that you need to start
+* <b>README.md</b> markdown file explaining the major components of your project. This should follow the schematic you created for your final project flow diagram. It should also indiciate what the high level milestones for each component are. To maje sure you understand the complexity of your own project, each component should have a point value between (1-4) outlining the amount of work required to implement that section. A project suitable for this class should have between 15 - 20 points overall. In your Project update meeting the staff will help you redistribute point values.
+
+##Final Project Part 2(b)
+
+###Step 1: Gather any materials that you need to start
 Your repository <b>must contain a data/ directory</b>. For now, this should contain the following: 
 
-* <b>Raw data input</b> that your project requires. If your project needs inputs like Tweets about HPV, pictures of celebrities wearing stylings threads, or psycholinguistic stimuli, then spend time gathering a set of these inputs. 
+* <b>Raw data input</b> that your project requires. If your project needs inputs like Tweets about HPV, pictures of celebrities wearing stylings threads, or psycholinguistic stimuli, then spend time gathering a set of these inputs. You don't need the whole dataset, but have enough to be able to get a MVP (Minimal Viable Product) of your idea working. 
 
 Eventually you'll be gathering real data from the crowd.  Before that happens you should create fake data that you can use as input for the initial implementation of your modules. Create a data subsection of your README file that describes the format. Ideally the format will be reusable when you get real data from your workers.  That way you only have to change your input files, and your algorithms can operate as they did before.
 
@@ -51,7 +58,7 @@ Eventually you'll be gathering real data from the crowd.  Before that happens yo
 
 * <b>Sample input/output from your aggregation module</b>. Again, you don't need your actual data, but should decide on the input and output format. It is okay if there is some overlap or dependence between these files and the files you give above for the QC module. Just verbosely document in your README and your flow diagram how these modules/data interact. 
 
-###Step 4: Implement a quality control module and an aggregation module
+###Step 2: Implement a quality control module and an aggregation module
 
 Your repository <b>must contain a src/ directory</b>. It can be organized however best fits your system's architecture, but it should contain the following implementations. Make sure you state clearly in your README where to find each piece. 
 
@@ -59,16 +66,11 @@ Your repository <b>must contain a src/ directory</b>. It can be organized howeve
 
 * A simple, working version of <b>your aggregation module</b>.  This version can operate on your simulated data.  Say what additional work is needed for the final version of your project. 
 
+* These modules need not be hooked into your UI yet, but they should be able to pass through your dummy data and populate useful output data. You will explain in your project meeting how the values will be interpreted.
 
-###Step 5: Answer another questionnaire 
+* Update your README.md file to include which parts of the code deal with QC / Aggregation etc. and how they work.
 
-What the hell is up with all of these questionnaires?  [Blame Francis Galton](http://en.wikipedia.org/wiki/Francis_Galton#The_questionnaire).  He also invented Vimeo.
-
-You will be asked to provide similar information to in the brainstorming session, but the focus will be on concreteness. No vague statements like "we will choose the best answer" or "users will answer questions about X". Say exactly <i>how</i> you will determine the best answer and <i>which</i> questions they will answer. You can and should provide links to files in your github repository as necessary. 
-
-You should <b>submit your answers to the questions on [the simple prototype questionnaire](https://docs.google.com/forms/d/1ac9KHIZjyvngeOqa-hQegaV2NXYojEuPKFvAHFr76c8/viewform?usp=send_form).</b>
-
-###Step 6 (optional): Sign up for a meeting with Chris and Ellie. 
+###Step 3 : Sign up for a meeting with Chris, Ellie, or the TAs. 
 
 There is so much variety in the kinds of projects you have come up with, which is *awesome*. Inevitably, this means you will read through this assignment and the deliverables and start complaining among your group in utter frustration about how terribly these deliverables fit with the project you are planning on building. So don't rant amongst yourselves! Come meet with us! Your project probably fits the structure better than you think it does. You can sign up for a individual meeting with use [here](https://docs.google.com/spreadsheets/d/1w0fl8caGH46590cx7qnaLHS1GHh1toBJXh8tuh5y-fQ/edit?usp=sharing).
 
@@ -76,22 +78,29 @@ There is so much variety in the kinds of projects you have come up with, which i
 
 This was a lot of text. Your take-away check list is: 
 
-* Flow diagram of major system components
+* Final Project Part 2 (a) :
 
-* Mockups of any user-facing interfaces (crowdworkers and end-users)
+	* Flow diagram of major system components
 
-* Raw data
+	* Mockups of any user-facing interfaces (crowdworkers and end-users)
 
-* Sample input/output for QC
+	* README.md with required content
 
-* Sample input/output for aggregation
+* Final Project Part 2 (b) : 
 
-* Code for QC
+	* Raw data
 
-* Code for aggregation 
+	* Sample input/output for QC
 
-* A disgustingly clear README telling us where we can find each of the above things
+	* Sample input/output for aggregation
 
-* Questionnaire
+	* Code for QC
 
-This assignment is due by 11:59pm on <b>Thursday, November 13th</b>.  You must work in groups on this project.  You must declare who is in your group when you turn your assignment.  Everyone in your group will receive the same grade on the assignment. 
+	* Code for aggregation 
+
+	* A disgustingly clear README telling us where we can find each of the above things
+
+	* Sign up for a project update meeting
+
+
+This first part (2(a)) of this assignment is due before <b>11:59pm</b> on <b>Saturday, April 2nd</b>.  Second part of this assignment (2(b)) is due before <b>2:00pm</b> on <b>Friday, April 7th</b>. You must work in groups on this project. .  You must work in groups on this project.  You must declare who is in your group when you turn your assignment.  Everyone in your group will receive the same grade on the assignment. 
