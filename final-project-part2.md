@@ -3,8 +3,17 @@ layout: default
 img: prototype
 caption: Simple prototype (vitruvian man by Brad Ashburn from The Noun Project)
 url: http://www.qmed.com/mpmn/medtechpulse/power-20-minute-prototype
-title: Final Project | Simple Working Prototype
+title: Final Project Part 2 "Simple Working Prototype"
 active_tab: homework
+release_date: 2016-03-28
+due_date: 2016-04-07T14:00:00EDT
+deliverables:
+    -
+      description: first part
+      due_date: 2016-04-02T23:59:00EDT
+    -
+      description: second part 
+      due_date: 2016-04-07T14:00:00EDT
 ---
 
 <!-- Check whether the assignment is up to date -->
@@ -17,8 +26,6 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 {% endif %}
 <!-- End of check whether the assignment is up to date -->
 
-<div class="alert alert-info">
-  This first part (2(a)) of this assignment is due before 11:59pm on Saturday, April 2nd.  Second part of this assignment (2(b)) is due before 2:00pm on Friday, April 7th. You must work in groups on this project.  </div>
 
 
 Final Project<span class="text-muted"> : Part 2</span> 
@@ -26,16 +33,16 @@ Final Project<span class="text-muted"> : Part 2</span>
 
 This assignment counts as a deliverable toward your final project.  This assignment will be worth 10% of your final grade and divided into two equally weighted parts.  The goal of this assignment is to select and think through your project idea and setup, talk with a member of the teaching staff about your project and create a simple working prototype of your final project.  This will help to ensure that you are on top of all of the pieces of your project, and that you have a clear picture of how they interact.  This will hopefully allow you to divide the project into pieces that each member of your group can work on independently. 
 
-##Final Project Part 2(a)
+## Deliverable 1 
 
-###Step 1: Select a Project Idea
+### Step 1: Select a Project Idea
 You should have / will be receiving your project idea feedback shorlty. Using this select a project idea and start thinking about specific details on implementing it.
 
-###Step 2: Create a version control repository for your team
+### Step 2: Create a version control repository for your team
 
 You will use [github](https://github.com/) to as a version share code across your group. If you have never used github, there is a good getting started guide [here](https://guides.github.com/activities/hello-world/).  While you're at it, why don't you pick up a [CrowdFlower backpack](https://education.github.com/pack)?
 
-###Step 3: Big picture documentation
+### Step 3: Big picture documentation
 
 Your repository <b>must contain a docs/ directory</b>. It must contain the following: 
 
@@ -45,9 +52,9 @@ Your repository <b>must contain a docs/ directory</b>. It must contain the follo
 
 * <b>README.md</b> markdown file explaining the major components of your project. This should follow the schematic you created for your final project flow diagram. It should also indiciate what the high level milestones for each component are. To maje sure you understand the complexity of your own project, each component should have a point value between (1-4) outlining the amount of work required to implement that section. A project suitable for this class should have between 15 - 20 points overall. In your Project update meeting the staff will help you redistribute point values.
 
-##Final Project Part 2(b)
+## Deliverable 2
 
-###Step 1: Gather any materials that you need to start
+### Step 1: Gather any materials that you need to start
 Your repository <b>must contain a data/ directory</b>. For now, this should contain the following: 
 
 * <b>Raw data input</b> that your project requires. If your project needs inputs like Tweets about HPV, pictures of celebrities wearing stylings threads, or psycholinguistic stimuli, then spend time gathering a set of these inputs. You don't need the whole dataset, but have enough to be able to get a MVP (Minimal Viable Product) of your idea working. 
@@ -70,15 +77,15 @@ Your repository <b>must contain a src/ directory</b>. It can be organized howeve
 
 * Update your README.md file to include which parts of the code deal with QC / Aggregation etc. and how they work.
 
-###Step 3 : Sign up for a meeting with Chris, Ellie, or the TAs. 
+### Step 3 : Sign up for a meeting with Chris, Ellie, or the TAs. 
 
-There is so much variety in the kinds of projects you have come up with, which is *awesome*. Inevitably, this means you will read through this assignment and the deliverables and start complaining among your group in utter frustration about how terribly these deliverables fit with the project you are planning on building. So don't rant amongst yourselves! Come meet with us! Your project probably fits the structure better than you think it does. You can sign up for a individual meeting with use [here](https://docs.google.com/spreadsheets/d/1w0fl8caGH46590cx7qnaLHS1GHh1toBJXh8tuh5y-fQ/edit?usp=sharing).
+There is so much variety in the kinds of projects you have come up with, which is *awesome*. Inevitably, this means you will read through this assignment and the deliverables and start complaining among your group in utter frustration about how terribly these deliverables fit with the project you are planning on building. So don't rant amongst yourselves! Come meet with us! Your project probably fits the structure better than you think it does. You can sign up for a individual meeting with use [here](https://docs.google.com/spreadsheets/d/1abxlZeSZjEeOMio91Kj2-8PcPngLxlvp7ppr3ne7r10/edit?usp=sharing).
 
-###Deliverables
+### Checklist
 
 This was a lot of text. Your take-away check list is: 
 
-* Final Project Part 2 (a) :
+* Deliverable 1:
 
 	* Flow diagram of major system components
 
@@ -86,7 +93,7 @@ This was a lot of text. Your take-away check list is:
 
 	* README.md with required content
 
-* Final Project Part 2 (b) : 
+* Deliverable 2: 
 
 	* Raw data
 
@@ -103,4 +110,4 @@ This was a lot of text. Your take-away check list is:
 	* Sign up for a project update meeting
 
 
-This first part (2(a)) of this assignment is due before <b>11:59pm</b> on <b>Saturday, April 2nd</b>.  Second part of this assignment (2(b)) is due before <b>2:00pm</b> on <b>Friday, April 7th</b>. You must work in groups on this project. .  You must work in groups on this project.  You must declare who is in your group when you turn your assignment.  Everyone in your group will receive the same grade on the assignment. 
+This first part of this assignment is due before 11:59pm on {{ page.deliverables[0].due_date | date: "%A, %B %-d, %Y" }}. Second part of this assignment is due before class on {{ page.deliverables[1].due_date | date: "%A, %B %-d, %Y" }}. You must work in groups on this project.  You must work in groups on this project.  You must declare who is in your group when you turn your assignment.  Everyone in your group will receive the same grade on the assignment. 
