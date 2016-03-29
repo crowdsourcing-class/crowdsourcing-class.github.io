@@ -565,6 +565,19 @@
   title: Real-time Crowdsourcing 
   speaker: Walter S. Lasecki, Assistant Professor, University of Michigan
   speaker_url: http://web.eecs.umich.edu/~wlasecki/
+  reading:
+    -
+      author: Walter Lasecki, Kyle Murray, Samuel White, Robert Miller, and Jeff Bigham
+      title:  Real-time Crowd Control of Existing Interfaces
+      url: readings/downloads/hci/legion.pdf
+    -
+      author: Walter Lasecki, Christopher Miller, Adam Sadilek, Andrew Abumoussa, Donato Borrello, Raja Kushalnagar, and Jeff Bigham
+      title:  Real-Time Captioning by Groups of Non-Experts
+      url: readings/downloads/hci/scribe.pdf
+    -
+      author: Walter Lasecki, Juho Kim, Nicholas Rafter, Onkur Sen, Jeff Bigham and Michael Bernstein
+      title:  Apparition&colon; Crowdsourced User Interfaces That Come To Life As You Sketch Them
+      url: readings/downloads/hci/scribe.pdf
 -
   date: 2016-04-27
   title: Course wrap-up
