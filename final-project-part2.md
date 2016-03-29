@@ -6,7 +6,7 @@ url: http://www.qmed.com/mpmn/medtechpulse/power-20-minute-prototype
 title: Final Project Part 2 "Simple Working Prototype"
 active_tab: homework
 release_date: 2016-03-28
-due_date: 2016-04-07T14:00:00EDT
+due_date: 2016-04-08T14:00:00EDT
 deliverables:
     -
       description: first part
