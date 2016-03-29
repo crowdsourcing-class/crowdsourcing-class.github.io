@@ -5,7 +5,7 @@ caption: Love the information age...
 title: Homework 8 "Crowdsourcing Information Extraction"
 active_tab: homework
 release_date: 2016-03-21
-due_date: 2016-03-28T14:00:00EST
+due_date: 2016-03-28T14:00:00EDT
 ---
 
 <!-- Check whether the assignment is up to date -->

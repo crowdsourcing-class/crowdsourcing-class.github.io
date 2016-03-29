@@ -27,6 +27,15 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 <!-- End of check whether the assignment is up to date -->
 
 
+<div class="alert alert-info">
+{% if page.deliverables %}
+This assignment has multiple deliverables.
+{% for deliverable in page.deliverables %}
+The {{deliverable.description}} is due before {{ deliverable.due_date | date: "%I:%M%p" }} on {{ deliverable.due_date | date: "%A, %B %-d, %Y" }}.  
+{% endfor %}
+{% endif %}
+</div>
+
 
 Final Project<span class="text-muted"> : Part 2</span> 
 =============================================================
