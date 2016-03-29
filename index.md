@@ -52,7 +52,7 @@ The second peer grading assignment is due on before class on Friday, March 25th.
 {% if page.deliverables %}
 The assignment has multiple deliverables.
 {% for deliverable in page.deliverables %}
-The {{deliverable.description}} is due before  {{ deliverable.due_date | date: "%I:%M%p" }} on {{ deliverable.due_date | date: "%A, %B %-d, %Y" }}.  
+The {{deliverable.description}} is due before {{ deliverable.due_date | date: "%I:%M%p" }} on {{ deliverable.due_date | date: "%A, %B %-d, %Y" }}.  
 {% endfor %}
 {% else %}
 It is due before class on {{ page.due_date | date: "%A, %B %-d, %Y" }}.

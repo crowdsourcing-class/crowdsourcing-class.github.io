@@ -20,7 +20,7 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 
 
 <div class="alert alert-info">
-This assignment is due before class on {{ page.due_date | date: "%A, %B %-d, %Y" }}. 
+This assignment is before {{ page.due_date | date: "%I:%M%p" }} due on {{ page.due_date | date: "%A, %B %-d, %Y" }}. 
 </div>
 
 

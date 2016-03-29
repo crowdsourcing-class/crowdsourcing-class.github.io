@@ -17,7 +17,7 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 
 
 <div class="alert alert-info">
-  This assignment is an optional assignment.  We will have a dinner and hackathon session  after the last day of class on Monday, December 8th. 
+This assignment is before {{ page.due_date | date: "%I:%M%p" }} due on {{ page.due_date | date: "%A, %B %-d, %Y" }}. 
 </div>
 
 

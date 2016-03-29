@@ -1382,7 +1382,7 @@ chart.draw(view, options);
 </script>
 
 <div class="alert alert-info">
-This assignment is due before class on Monday, November 24th.  You may do this assignment individually or with a partner. 
+This assignment is before {{ page.due_date | date: "%I:%M%p" }} due on {{ page.due_date | date: "%A, %B %-d, %Y" }}. 
 </div>
 
 Putting it all together<span class="text-muted">: Assignment 9</span> 
