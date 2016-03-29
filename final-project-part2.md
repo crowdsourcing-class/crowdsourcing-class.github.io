@@ -13,7 +13,7 @@ deliverables:
       due_date: 2016-04-02T23:59:00EDT
     -
       description: second part 
-      due_date: 2016-04-07T14:00:00EDT
+      due_date: 2016-04-08T14:00:00EDT
 ---
 
 <!-- Check whether the assignment is up to date -->
@@ -45,7 +45,7 @@ This assignment counts as a deliverable toward your final project.  This assignm
 ## Deliverable 1 
 
 ### Step 1: Select a Project Idea
-You should have / will be receiving your project idea feedback shorlty. Using this select a project idea and start thinking about specific details on implementing it.
+You should have received or will be receiving your project idea feedback shorlty. Using this select a project idea and start thinking about specific details on implementing it.
 
 ### Step 2: Create a version control repository for your team
 
@@ -90,7 +90,7 @@ Your repository <b>must contain a src/ directory</b>. It can be organized howeve
 
 There is so much variety in the kinds of projects you have come up with, which is *awesome*. Inevitably, this means you will read through this assignment and the deliverables and start complaining among your group in utter frustration about how terribly these deliverables fit with the project you are planning on building. So don't rant amongst yourselves! Come meet with us! Your project probably fits the structure better than you think it does. You must sign up for a individual meeting with us [here](https://docs.google.com/spreadsheets/d/1abxlZeSZjEeOMio91Kj2-8PcPngLxlvp7ppr3ne7r10/edit?usp=sharing). 
 
-You should <b>plan to spend the first 5-7 minutes of your meeting presenting your project.</b> You should start by describing the end goal of your project (e.g. be "sales pitchy"-- what are you doing and why is it worthwhile?), and then walking through the deliverabes and giving a bird's eye view of what you have done, and what remains to do. The rest of your meeting, the Prof/TA will ask you questions about the details of your planned schedule and implimentation. You should <b>not</b> treat this as an getting-to-know-you meeting. You don't need to have a working demo, but you should have a solid handle on how you plan to proceed and be prepared to discuss the project concretely and technically. 
+You should <b>plan to spend the first 5-7 minutes of your meeting presenting your project.</b> You should start by describing the end goal of your project (e.g. be "sales pitchy"-- what are you doing and why is it worthwhile?), and then walking through the deliverabes and giving a bird's eye view of what you have done, and what remains to do. The rest of your meeting, the Prof/TA will ask you questions about the details of your planned schedule and implementation. You should <b>not</b> treat this as an getting-to-know-you meeting. You don't need to have a working demo, but you should have a solid handle on how you plan to proceed and be prepared to discuss the project concretely and technically. 
 
 ### Checklist
 
@@ -105,25 +105,17 @@ This was a lot of text. Your take-away check list is:
 * Deliverable 1:
 
 	* Flow diagram of major system components
-
 	* Mockups of any user-facing interfaces (crowdworkers and end-users)
-
 	* README.md with required content
 
 * Deliverable 2: 
 
 	* Raw data
-
 	* Sample input/output for QC
-
 	* Sample input/output for aggregation
-
 	* Code for QC
-
 	* Code for aggregation 
-
 	* A disgustingly clear README telling us where we can find each of the above things
-
 	* Sign up for a project update meeting
 </div></div>
 
