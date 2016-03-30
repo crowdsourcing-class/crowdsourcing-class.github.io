@@ -453,6 +453,12 @@
   title: The Wisdom of the Crowd Comes to Poetry
   speaker: Al Filreis
   speaker_url: http://writing.upenn.edu/~afilreis
+  reading:
+    -
+      author: Al Filreis
+      title:  ModPo Coursera course
+      url: https://www.coursera.org/course/modernpoetry
+
 -
   date: 2016-04-01
   title: Friday hands-on activity
