@@ -464,23 +464,19 @@
   title: Friday hands-on activity
 -
   date: 2016-04-04
-  title: Social Sciences and Human Subjects Research
-  slides: http://crowdsourcing-class.org/slides/crowdsourcing-and-the-social-sciences.pdf
+  title: Crowdsourcing for Automatic Speech Recognition
+  slides: http://crowdsourcing-class.org/slides/crowdsourcing-speech-recognition.pdf
   highlights:
-    - Human subjects research
-    - Social Science experiments
+    - A high level overview of automatic speech recognition
+    - Using crowdsourcing to train ASR systems
   reading:
     -
-      author: Michael Buhrmester, Tracy Kwang and Samuel Gosling
-      title:  Amazon's Mechanical Turk - A New Source of Inexpensive, Yet High-Quality, Data?
-      url: http://personal.stevens.edu/~ysakamot/creativity/turk%20perspectives.pdf
+      author: Scott Novotney and Chris Callison-Burch
+      title:  Cheap, Fast and Good Enough&#58; Automatic Speech Recognition with Non-Expert Transcription
+      url: http://www.cis.upenn.edu/~ccb/publications/automatic-speech-recognition-with-non-expert-transcription.pdf
     -
-      author: Danielle N. Shapiro, Jesse Chandler, Pam A. Mueller
-      title:  Using Mechanical Turk to Study Clinical Populations
-      url: http://cpx.sagepub.com/content/1/2/213.full
-    -
-      title:  Penn's Institutional Review Board
-      url: http://www.upenn.edu/IRB/mission-institutional-review-board-irb/guidance
+      title:  Crowdsourcing for Speech Processing&#58; Applications to Data Collection, Transcription and Assessment
+      url: http://www.amazon.com/Crowdsourcing-Speech-Processing-Applications-Transcription/dp/1118358694/
 -
   date: 2016-04-06
   title: A/B Testing
@@ -539,19 +535,23 @@
       url: http://www.ipeirotis.com/wp-content/uploads/2014/11/STEP_A_Scalable_Testing_and_Evaluation_Platform.pdf
 -
   date: 2016-04-13
-  title: Crowdsourcing for Automatic Speech Recognition
-  slides: http://crowdsourcing-class.org/slides/crowdsourcing-speech-recognition.pdf
+  title: Social Sciences and Human Subjects Research
+  slides: http://crowdsourcing-class.org/slides/crowdsourcing-and-the-social-sciences.pdf
   highlights:
-    - A high level overview of automatic speech recognition
-    - Using crowdsourcing to train ASR systems
+    - Human subjects research
+    - Social Science experiments
   reading:
     -
-      author: Scott Novotney and Chris Callison-Burch
-      title:  Cheap, Fast and Good Enough&#58; Automatic Speech Recognition with Non-Expert Transcription
-      url: http://www.cis.upenn.edu/~ccb/publications/automatic-speech-recognition-with-non-expert-transcription.pdf
+      author: Michael Buhrmester, Tracy Kwang and Samuel Gosling
+      title:  Amazon's Mechanical Turk - A New Source of Inexpensive, Yet High-Quality, Data?
+      url: http://personal.stevens.edu/~ysakamot/creativity/turk%20perspectives.pdf
     -
-      title:  Crowdsourcing for Speech Processing&#58; Applications to Data Collection, Transcription and Assessment
-      url: http://www.amazon.com/Crowdsourcing-Speech-Processing-Applications-Transcription/dp/1118358694/
+      author: Danielle N. Shapiro, Jesse Chandler, Pam A. Mueller
+      title:  Using Mechanical Turk to Study Clinical Populations
+      url: http://cpx.sagepub.com/content/1/2/213.full
+    -
+      title:  Penn's Institutional Review Board
+      url: http://www.upenn.edu/IRB/mission-institutional-review-board-irb/guidance
 -
   date: 2016-04-15
   title: Friday hands-on activity
