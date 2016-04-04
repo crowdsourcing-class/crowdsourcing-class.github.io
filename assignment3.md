@@ -43,7 +43,7 @@ $ turnin -c nets213 -p python-bootcamp -v IPython_Bootcamp.ipynb{% endhighlight 
 
 You do not need to turn in anything for the first 3 sections, but you should read to read through them and walk through the exercises so that you can let us know if you are having trouble.
 
-###1. The basics: variables and data structures
+### 1. The basics: variables and data structures
 
 Python has the basic variable types you are used to: strings, ints, floats. Unlike Java and many other languages, variables are not type-checked. You simply declare a variable by assigning a value to it. Later, you can reassign a different type to that same variable and Python couldn't care less.
 
@@ -117,7 +117,7 @@ Dictionaries (or maps or associative arrays) are probably the favorite data stru
 
 As you can imagine, the lack of type-checking makes it very easy to write bad Python code. I would advise against doing so. But it is your call, some people like the thrill of nondeterministic runtime errors and such. Don't let me cramp your style.
 
-###2. Control structures and functions
+### 2. Control structures and functions
 
 Python makes it easy to write bad code. But it makes it _very_ hard to write ugly code. So chalk one up for superficiality. Python uses whitespace to denote control structures, like loops and if/else blocks. By convention, you should use four spaces for each level of indentation. (I use tabs because I am lazy and like to save the key strokes. I was told over the summer that this is the mark of a novice, and no one of any merit uses tabs. I just hung my head in shame. So use spaces.)
 
@@ -163,7 +163,7 @@ idx - the integer index of the element to return
 6
 {% endhighlight %}
 
-###3. File IO
+### 3. File IO
 
 You can open, read, and write files using the aptly-named open(), read(), and write() commands. read() returns the entire contents of the file as a string. readlines() will split on the newline character and return the lines as a list, which is generally nicer for allowing you to iterate line-by-line. I won't go through an example here, but I highly recommend playing with the [csv module](https://docs.python.org/2/library/csv.html), which is incredibly useful and we will likely use regularly throughout the semester. 
 
@@ -182,7 +182,7 @@ You can open, read, and write files using the aptly-named open(), read(), and wr
 ['line1\n', 'line2\n', 'line3\n', 'line4\n']
 {% endhighlight %}
 
-###4. Text processing in Python
+### 4. Text processing in Python
 
 For this part, you will need to submit your code to answer the following questions. You should download the [iPython notebook](assignments/downloads/python-bootcamp/IPythonBootcamp.ipynb) file, and do all of your work there. You can submit your entire notebook at the end of the assignment.
  
@@ -230,7 +230,7 @@ This assignment is worth 1 point toward your overall grade in the course.  It co
 </div>
 </div>
 
-###Bonus! Bash bootcamp.
+### Bonus! Bash bootcamp.
 
 Knowing more than one scripting language increases your productivity 1 zillion fold (proven fact). If you breezed through the python bootcamp and are sitting and twiddling your thumbs, try brushing up your bash programming skills by doing the following questions using the same wine.txt file. Many of them are the same or similar to what you just did in python. Think about how these operations are conceptually different when you write in bash compared to python. Check out this [cheat sheet](http://crowdsourcing-class.org/bash-commands.html) of bash commands to get you started.
 
