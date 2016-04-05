@@ -562,7 +562,31 @@
   speaker_url: http://www.seas.upenn.edu/~epavlick/
 -
   date: 2016-04-20
-  title: TBD
+  title: How to make better forecasts
+  speaker: Lyle Ungar 
+  speaker_url: http://www.cis.upenn.edu/~ungar/
+  highlights:
+    - We report the results of a four year experiment in which over twenty thousand volunteers made predictions about hundreds of real world geopolitical events in dozens of carefully controlled experiments, all designed to answer questions about what interventions increase the accuracy of forecasts. 
+    - What traits do good forecasters share? 
+    - How important is domain expertise? 
+    - Can training improve forecasts?  
+    - How should forecasts be elicited--surveys or prediction markets? 
+    - How should that wisdom be combined? What clever statistical aggregations work best?
+  reading:
+    -
+      author: Open Good Judgement
+      title: Are you a superforecaster?
+      url: https://www.gjopen.com
+    -
+      author: Pavel D. Atanasov, Phillip Rescober, Eric Stone, Emile Servan-Schreiber, Philip E. Tetlock, Lyle Ungar and Barbara Mellers
+      title: Distilling the Wisdom of Crowds&colon; Prediction Markets versus Prediction Polls
+      url: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2660628
+    -
+      author: Barbara Mellers and Lyle Ungar
+      title: Other papers
+      url: https://scholar.google.com/scholar?q=mellers+ungar&btnG=&hl=en&as_sdt=0%2C39
+
+
 -
   date: 2016-04-22
   title: Friday hands-on activity
