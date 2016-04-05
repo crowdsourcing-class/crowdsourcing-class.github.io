@@ -85,6 +85,7 @@ This week we will be looking at the wealth of companies that use crowdsourcing a
 [Kiva](http://kiva.org),
 [leadGenius](https://leadgenius.com),
 [Lending Club](https://www.lendingclub.com/public/how-peer-lending-works.action),
+[Longitude Prize of 1714](http://www.crowdsourcing.com/cs/2008/05/chapter-7-what.html),
 [Lyft](https://www.lyft.com),
 [Microworkers](https://microworkers.com),
 [Microsoft Prediction Lab](https://www.prediction.microsoft.com/#!/),
