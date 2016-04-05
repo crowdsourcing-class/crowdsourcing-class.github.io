@@ -221,7 +221,7 @@ A Picture is Worth 5,948 HITs<span class="text-muted">: Assignment 9</span>
 
 We are down to the final two weekly homework assignments. This week and next, we will analyze the data that our workers have extracted, and try to see if it better helps us answer who/where/when/how questions about gun violence in the USA. We'll use the [Google Charts API](https://developers.google.com/chart/) which makes even boring statistics look sexy as all hell.
 
-##Data
+<h2>Data</h2>
 
 You can download the almost-clean data [here](assignments/downloads/gun-database.tsv). It contains 5,948 reports and the strucuted data that our Turkers extracted. The data file contains four columns, described below:
 
@@ -310,19 +310,19 @@ There is no fool-proof way of doing this, so we will just use some intuitive rul
 
 	<pre><code>json.dump(deduped, open('deduped-data.json', 'w'))</code></pre>
 
-##The Gun ReReport
+<h2>The Gun ReReport</h2>
 
 Now you have a hopefully fairly clean, de-duplicated set of data to work with. Lets ask some questions, and answer them with some figures. Below are instructions for producing four graphs looking at different aspects of the data. Choose two which you find especially interesting and reproduce them using the Google charts API. Each of the API documentation pages gives you an html template you can use, and its usually just as easy as pasting in your own data into the template. You can open the html templates in any browser to look at your results. 
 
 After you have reproduced two of our figures, produce two more plots, charts, or graphs showing any dimension of the data you want to explore. You will answer [a few questions](https://docs.google.com/forms/d/1m6LFLPzvjRxZTRmaCIayy9oJmQrnppa3riYUgtH0wz0/viewform) afterward. 
 
-###When
+<h3>When</h3>
 
 First, lets see when shootings happen most often. This will help me decide when are the best times to walk around alone with my wallet in plain view, while texting on my iPhone in the most visibly distracted way. Do do this, we can make a basic [Line Chart](https://developers.google.com/chart/interactive/docs/gallery/linechart).
 
 <div id="time_chart"></div>
 
-###Where
+<h3>Where</h3>
 
 Back when Doug talked to us, he mentioned that intentional shootings might be more common in urban areas, but accidental shootings are very common in rural areas. Does our data reflect this? We can plot our incidents by location using the [Google Geo Chart](https://developers.google.com/chart/interactive/docs/gallery/geochart). Here you can see it plotted by state (since the page loads faster that way...), but its more interesting when plotted by city. Try plotting the number of intentional shootings (left) and unintentional shootings (right) by city. 
 
@@ -331,19 +331,19 @@ Back when Doug talked to us, he mentioned that intentional shootings might be mo
 <td><div id="unintentional_div" style="width: 400px; height: 150px;"></div></td>
 </tr></table>
 
-###Who
+<h3>Who</h3>
 
 Most of the records do not contain data about race. But for those that do, we can see some interesting results. Try using the [stacked bar graph](https://developers.google.com/chart/interactive/docs/gallery/columnchart#StackedColumns) to produce a graph like this one. You are welcome to try looking at this slighly differently- e.g. including information about age or gender instead of or in addition to information about race.
 
 <div id="race_div" style="width: 500px; height: 175;"></div>
 
-###How
+<h3>How</h3>
 
 The information we collected about "type of gun" is not very structured, but we can still pull out some high-level information. By looking through the records and counting the "type of gun" strings with contain the words "rifle", "shotgun", "pistol", "revolver", and "handgun", we can get a sense of how often each type of gun was used. Using the [Diff Charts API](https://developers.google.com/chart/interactive/docs/gallery/diffchart) we can make it more interesting by comparing how the gun types are different between fatal shootings (inner circle) and non-fatal shootings (outer circle).
 
 <div id="guns_div" style="width: 500px; height: 175;"></div>
 
-###Tell us something cool
+<h3>Tell us something cool</h3>
 
 Create any two plots you want to display something interesting from the data. One trick for making your graphs instantly more interesting (and for forcing yourself to ask deeper questions) is to always display multiple dimensions at a time. Shootings over time of day? Boring. Fatal vs. non-fatal shootings by time of day and age of shooter? So much more cool!! Keep in mind all of the types of data we collected and try to think of meaningful questions you can ask. E.g. 
 
@@ -352,18 +352,52 @@ Create any two plots you want to display something interesting from the data. On
 - Try looking at the articles' text for a more qualitative analysis; there are great [tools available for building word clouds](https://github.com/Coppersmith/vennclouds). Eg. how is the text of different for intentional vs. unintentional shootings? 
 - Extra credit if you link up with an external resource. E.g. can you say anything about shootings in a city as a function of [the average income](http://www.census.gov/compendia/statab/cats/income_expenditures_poverty_wealth/income_and_poverty--state_and_local_data.html) or the city's [spending on law enforcement](http://www.census.gov/compendia/statab/cats/law_enforcement_courts_prisons/criminal_justice_expenditures.html)?
 
-##Deliverables
+<h2>Deliverables</h2>
 
 This assignment is due <b>Monday, November 24</b>. You can work in pairs, but you must declare the fact that you are working together when you turn your assignment. Remember to submit your questionnaire before the deadline.  
 
-1. Your de-duplicated data, in json format.
-2. Two figures from our analysis, which you reproduced, as html files.
-3. Your own two figures, as html, png, or pdf files.
-4. Your answers to the [questionnaire](https://docs.google.com/forms/d/1m6LFLPzvjRxZTRmaCIayy9oJmQrnppa3riYUgtH0wz0/viewform). 
+<div class="panel panel-danger">
+<div class="panel-heading" markdown="1">
+<h4>Grading Rubric</h4>
+</div>
+<div class="panel-body" markdown="1">
+
+This assignment is worth 5 points of your overall grade in the course.  The rubric for the assignment is given below.
+
+* 1 point - Your de-duplicated data, in json format.
+* 1 point - Two figures from our analysis, which you reproduced, as html files.
+* 2 point - Your own two figures, as html, png, or pdf files.
+* 1 point - Your answers to the [questionnaire](https://docs.google.com/forms/d/1m6LFLPzvjRxZTRmaCIayy9oJmQrnppa3riYUgtH0wz0/viewform). 
+* Extra credit (up to 1 point) - Integrating external datasources, or otherwise producing really super cool figures. 
+</div>
+</div>
 
 You can turn in your figures using 
 
 	$ turnin -c nets213 -p the-end -v *
+
+<div class="panel panel-info" id="faq">
+<div class="panel-heading" markdown="1">
+#### Tips and FAQ
+</div>
+<div class="panel-body" markdown="1">
+
+* Do I have to use Python?
+
+	No, but just know you are hurting my feelings. Python is awesome. But you can use whatever language is most comfortable for you and will allow you to make the most dazzling figures.
+
+* Do I have to use the Google Charts API?
+
+	Yes, you need to reproduce two of the four figures we showed you using the google charts API. But for your own two figures, you may use whatever plotting software you like. You can draw my hand too, but don't expect full credit for it unless you are a very gifted artist. I highly recommend [matplotlib](), which is the python plotting library and enables you to do almost anything you could ever want in terms of plotting. You can even make [xkcd]() figures, and I'll even promise that you will not be punished for doing so (as long as they still display something meaningful...).
+
+* What if when I try to reproduce the charts shown here, the numbers/values are different?
+
+	That is okay. They will change based on how you dedup your data, and what heuristics you use to normalize strings in the database. They don't need to look exactly the same, but the results should be reasonable and the differences should be explainable.
+
+* All the strings are different, and it is making it hard to aggregate the values that I need. It is so annoying! 
+
+	Tell me about it!! There are so many different ways of saying the same thing, you could probably devote [multiple PhDs](http://www.seas.upenn.edu/~epavlick/ppdb-pubs.html) to the problem and not even solve it! So yes, you will have to do some work to normalize differences in strings. E.g. 12am = 12 a.m. = 12 = midnight. You will never make it perfect, but you should make a sincere effort to clean the data as best you can so that your figures are as accurate as possible.
+</div>
 
 
 Related Projects
