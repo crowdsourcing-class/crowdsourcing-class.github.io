@@ -31,7 +31,7 @@ Here are the different deliverables required for the final project:
 * [Part 1: Form a team and brainstorm 3 ideas](final-project-part1.html) -- This is worth 7% of your overall grade.
 * [Part 2: Select an idea and start implementing its components](final-project-part2.html) -- This is worth 10% of your overall grade.
 * [Part 3: Develop a working system that is capable of collecting data](final-project-part3.html) -- This is worth 10% of your overall grade.
-* [Part 4: Analyze your results and produce a video about your project](final-project-part4.html) -- This is worth 12% of your overall grade.
+* [Part 4: Analyze your results and produce a video about your project](final-project-part4.html) -- This is worth 13% of your overall grade.
 
 
 ### $10,000 Prize
