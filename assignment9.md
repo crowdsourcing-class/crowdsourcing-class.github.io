@@ -5,6 +5,8 @@ img_link: http://www.amazon.com/Visual-Display-Quantitative-Information/dp/09613
 caption: Read this book. It will change your life.
 title: Homework 9 | A picture is worth 5,948 HITs
 active_tab: homework
+release_date: 2016-04-05
+due_date: 2016-04-11T11:59:59EDT
 ---
 
 <!-- Check whether the assignment is up to date -->
@@ -397,6 +399,7 @@ You can turn in your figures using
 * All the strings are different, and it is making it hard to aggregate the values that I need. It is so annoying! 
 
 	Tell me about it!! There are so many different ways of saying the same thing, you could probably devote [multiple PhDs](http://www.seas.upenn.edu/~epavlick/ppdb-pubs.html) to the problem and not even solve it! So yes, you will have to do some work to normalize differences in strings. E.g. 12am = 12 a.m. = 12 = midnight. You will never make it perfect, but you should make a sincere effort to clean the data as best you can so that your figures are as accurate as possible.
+</div>
 </div>
 
 
