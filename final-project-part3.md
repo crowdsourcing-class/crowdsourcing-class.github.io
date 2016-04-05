@@ -24,9 +24,9 @@ This assignment is before {{ page.due_date | date: "%I:%M%p" }} due on {{ page.d
 Final Project<span class="text-muted"> : Part 3</span> 
 =============================================================
 
-This week's assignment is optional.  It doesn't count toward your final grade, but it's a nice milestone on the road to your final project. We highly encourage you to participate. 
+The final project is due on Thursday May 5th, 2016.  By that time, your system will need to be fully operational, and you'll have to have collected enough data to do an interesting analysis.  You can either collect data by employing a real crowd, or by having your classmates simulate the crowd.  
 
-The final project is due on Monday December 15th.  By that time, your system will need to be fully operational, and you'll have to have collected enough data to do an interesting analysis.  You can either collect data by employing a real crowd, or by having your classmates simulate the crowd.  On Monday December 8th, we'll have a catered dinner / hackathon after the final NETS 213 lecture.  During the hackathon, you will try out each other's projects, with the goal of creating some data that you can use to analyze for your final project.
+For this project, you will finish a working version of your system, so that your classmates can help you as a simulated crowd, with the goal of creating some data that you can use to analyze for your final project.
 
 What you should do to prepare:
 
