@@ -6,7 +6,7 @@ caption: Read this book. It will change your life.
 title: Homework 9 | A picture is worth 5,948 HITs
 active_tab: homework
 release_date: 2016-04-05
-due_date: 2016-04-11T11:59:59EDT
+due_date: 2016-04-11T23:59:59EDT
 ---
 
 <!-- Check whether the assignment is up to date -->
