@@ -518,7 +518,24 @@
   date: 2016-04-08
   speaker: Kristy Milland 
   speaker_url: http://www.kristymilland.com
-  title: 
+  title: The Best Practices of the Best Requesters
+  reading:
+    -
+      author: Alice M. Brawley and Cynthia L.S. Pury
+      title: Work experiences on MTurk&colon; Job satisfaction, turnover, and information sharing
+      url: readings/downloads/ethics/mturk-job-satisfaction.pdf
+    -
+      author: Bassam Tariq
+      title: Video&colon; Turking for a Living
+      url: http://www.newyorker.com/culture/culture-desk/video-turking-for-respect
+    -
+      author: Kristy Milland and others
+      title: TurkerNation forum&colon; What "myths" about Turkers would you like to bust?
+      url: http://turkernation.com/showthread.php?22932-What-quot-myths-quot-about-Turkers-would-you-like-to-bust
+    -
+      author: Kristy Milland and others
+      title: TurkerNation forum&colon; Requester How-Tos and FAQs
+      url: http://turkernation.com/forumdisplay.php?131-Requester-How-Tos-amp-FAQs
 -
   date: 2016-04-11
   title: Expert Crowds
@@ -556,7 +573,11 @@
       url: http://www.upenn.edu/IRB/mission-institutional-review-board-irb/guidance
 -
   date: 2016-04-15
-  title: Friday hands-on activity
+  title: Crowdsourcing A Meeting of Minds&colon; Designing the Future of Work
+  speaker: Michael Bernstein 
+  speaker_url: http://hci.stanford.edu/msb/
+  highlights:
+    - Crowdsourcing is an increasingly powerful method where computation guides many amateurs' efforts in order to recreate an expert's abilities. However, across domains from design to engineering to art, few goals are truly the effort of just one person — even one expert. If we can now crowdsource simple tasks such as image labeling, how might computation coordinate many peoples' abilities toward far more complex and interdependent goals? In this talk, I present computational systems for gathering and guiding crowds of experts, including professional programmers, designers, singers and artists. The resulting collectives tackle problems modularly and at scale, dynamically grow and shrink depending on task demands, and combine into larger organizations. I'll demonstrate how computationally-enabled expert crowds can pursue goals such as designing new user experiences overnight, producing animated shorts in two days, and even pursuing novel research.
 -
   date: 2016-04-18
   title: Prediction Markets
