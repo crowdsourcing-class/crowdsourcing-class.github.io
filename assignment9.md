@@ -364,7 +364,7 @@ This assignment is due <b>before {{ page.due_date | date: "%I:%M%p" }} on {{ pag
 </div>
 <div class="panel-body" markdown="1">
 
-This assignment is worth 5 points of your overall grade in the course.  The rubric for the assignment is given below. Please <b>do not</b> turn in raw data files. Only submit the files specified.
+This assignment is worth 5 points of your overall grade in the course.  The rubric for the assignment is given below. 
 
 * 1 point - Your de-duplicated data, in json format.
 * 1 point - Two figures from our analysis, which you reproduced, as html files.
