@@ -366,7 +366,7 @@ This assignment is due <b>before {{ page.due_date | date: "%I:%M%p" }} on {{ pag
 
 This assignment is worth 5 points of your overall grade in the course.  The rubric for the assignment is given below. 
 
-* 1 point - Your de-duplicated data, in json format.
+* 1 point - Your de-duplicated data, in json format compressed using gzip. (Do not submit a full, uncompressed file!)
 * 1 point - Two figures from our analysis, which you reproduced, as html files.
 * 2 point - Your own two figures, as html, png, or pdf files.
 * 1 point - Your answers to the [questionnaire](https://docs.google.com/forms/d/1qNXpuDjhQD9Qn26_XVjJqLR1Fra6FQD2iJyO0sSZ7u8/edit?uiv=1).
