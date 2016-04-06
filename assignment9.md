@@ -3,7 +3,7 @@ layout: default
 img: the-visual-display-of-quantitative-information
 img_link: http://www.amazon.com/Visual-Display-Quantitative-Information/dp/0961392142/
 caption: Read this book. It will change your life.
-title: Homework 9 | A picture is worth 5,948 HITs
+title: Homework 9 | Analyze Data
 active_tab: homework
 release_date: 2016-04-05
 due_date: 2016-04-11T23:59:59EDT
@@ -218,7 +218,7 @@ chart.draw(view, options);
 This assignment is before {{ page.due_date | date: "%I:%M%p" }} due on {{ page.due_date | date: "%A, %B %-d, %Y" }}. 
 </div>
 
-A Picture is Worth 5,948 HITs<span class="text-muted">: Assignment 9</span> 
+Analyze Data<span class="text-muted">: Assignment 9</span> 
 =============================================================
 
 We are down to the final two weekly homework assignments. This week and next, we will analyze the data that our workers have extracted, and try to see if it better helps us answer who/where/when/how questions about gun violence in the USA. We'll use the [Google Charts API](https://developers.google.com/chart/) which makes even boring statistics look sexy as all hell.
@@ -356,7 +356,7 @@ Create any two plots you want to display something interesting from the data. On
 
 <h2>Deliverables</h2>
 
-This assignment is due <b>Monday, November 24</b>. You can work in pairs, but you must declare the fact that you are working together when you turn your assignment. Remember to submit your questionnaire before the deadline.  
+This assignment is due <b>before {{ page.due_date | date: "%I:%M%p" }} on {{ page.due_date | date: "%A, %B %-d, %Y" }}</b>. You can work in pairs, but you must declare the fact that you are working together when you turn your assignment. Remember to submit your questionnaire before the deadline.  
 
 <div class="panel panel-danger">
 <div class="panel-heading" markdown="1">
@@ -364,7 +364,7 @@ This assignment is due <b>Monday, November 24</b>. You can work in pairs, but yo
 </div>
 <div class="panel-body" markdown="1">
 
-This assignment is worth 5 points of your overall grade in the course.  The rubric for the assignment is given below.
+This assignment is worth 5 points of your overall grade in the course.  The rubric for the assignment is given below. Please <b>do not</b> turn in raw data files. Only submit the files specified.
 
 * 1 point - Your de-duplicated data, in json format.
 * 1 point - Two figures from our analysis, which you reproduced, as html files.
@@ -376,7 +376,7 @@ This assignment is worth 5 points of your overall grade in the course.  The rubr
 
 You can turn in your figures using 
 
-	$ turnin -c nets213 -p the-end -v *
+	$ turnin -c nets213 -p analyze-data -v *
 
 <div class="panel panel-info" id="faq">
 <div class="panel-heading" markdown="1">
