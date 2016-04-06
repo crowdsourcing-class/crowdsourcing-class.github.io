@@ -316,7 +316,7 @@ There is no fool-proof way of doing this, so we will just use some intuitive rul
 
 Now you have a hopefully fairly clean, de-duplicated set of data to work with. Lets ask some questions, and answer them with some figures. Below are instructions for producing four graphs looking at different aspects of the data. Choose two which you find especially interesting and reproduce them using the Google charts API. Each of the API documentation pages gives you an html template you can use, and its usually just as easy as pasting in your own data into the template. You can open the html templates in any browser to look at your results. 
 
-After you have reproduced two of our figures, produce two more plots, charts, or graphs showing any dimension of the data you want to explore. You will answer [a few questions](https://docs.google.com/forms/d/1m6LFLPzvjRxZTRmaCIayy9oJmQrnppa3riYUgtH0wz0/viewform) afterward. 
+After you have reproduced two of our figures, produce two more plots, charts, or graphs showing any dimension of the data you want to explore. You will answer [a few questions](https://docs.google.com/forms/d/1qNXpuDjhQD9Qn26_XVjJqLR1Fra6FQD2iJyO0sSZ7u8/edit?uiv=1) afterward. 
 
 <h3>When</h3>
 
@@ -369,7 +369,7 @@ This assignment is worth 5 points of your overall grade in the course.  The rubr
 * 1 point - Your de-duplicated data, in json format.
 * 1 point - Two figures from our analysis, which you reproduced, as html files.
 * 2 point - Your own two figures, as html, png, or pdf files.
-* 1 point - Your answers to the [questionnaire](https://docs.google.com/forms/d/1m6LFLPzvjRxZTRmaCIayy9oJmQrnppa3riYUgtH0wz0/viewform). 
+* 1 point - Your answers to the [questionnaire](https://docs.google.com/forms/d/1qNXpuDjhQD9Qn26_XVjJqLR1Fra6FQD2iJyO0sSZ7u8/edit?uiv=1).
 * Extra credit (up to 1 point) - Integrating external datasources, or otherwise producing really super cool figures. 
 </div>
 </div>
