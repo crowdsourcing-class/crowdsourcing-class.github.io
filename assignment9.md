@@ -390,7 +390,7 @@ You can turn in your figures using
 
 * Do I have to use the Google Charts API?
 
-	Yes, you need to reproduce two of the four figures we showed you using the google charts API. But for your own two figures, you may use whatever plotting software you like. You can draw my hand too, but don't expect full credit for it unless you are a very gifted artist. I highly recommend [matplotlib](http://matplotlib.org/), which is the python plotting library and enables you to do almost anything you could ever want in terms of plotting. You can even make [xkcd](http://matplotlib.org/xkcd/examples/showcase/xkcd.html) figures, and I'll even promise that you will not be punished for doing so (as long as they still display something meaningful...).
+	Yes, you need to reproduce two of the four figures we showed you using the google charts API. But for your own two figures, you may use whatever plotting software you like. You can draw by hand too, but don't expect full credit for it unless you are a very gifted artist. I highly recommend [matplotlib](http://matplotlib.org/), which is the python plotting library and enables you to do almost anything you could ever want in terms of plotting. You can even make [xkcd](http://matplotlib.org/xkcd/examples/showcase/xkcd.html) figures, and I'll even promise that you will not be punished for doing so (as long as they still display something meaningful...).
 
 * What if when I try to reproduce the charts shown here, the numbers/values are different?
 
