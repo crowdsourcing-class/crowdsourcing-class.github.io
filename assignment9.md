@@ -3,7 +3,7 @@ layout: default
 img: the-visual-display-of-quantitative-information
 img_link: http://www.amazon.com/Visual-Display-Quantitative-Information/dp/0961392142/
 caption: Read this book. It will change your life.
-title: Homework 9 | Analyze Data
+title: Homework 9 "Analyze Data"
 active_tab: homework
 release_date: 2016-04-05
 due_date: 2016-04-11T23:59:59EDT
