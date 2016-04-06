@@ -576,8 +576,7 @@
   title: Crowdsourcing A Meeting of Minds&colon; Designing the Future of Work
   speaker: Michael Bernstein 
   speaker_url: http://hci.stanford.edu/msb/
-  highlights:
-    - Crowdsourcing is an increasingly powerful method where computation guides many amateurs' efforts in order to recreate an expert's abilities. However, across domains from design to engineering to art, few goals are truly the effort of just one person — even one expert. If we can now crowdsource simple tasks such as image labeling, how might computation coordinate many peoples' abilities toward far more complex and interdependent goals? In this talk, I present computational systems for gathering and guiding crowds of experts, including professional programmers, designers, singers and artists. The resulting collectives tackle problems modularly and at scale, dynamically grow and shrink depending on task demands, and combine into larger organizations. I'll demonstrate how computationally-enabled expert crowds can pursue goals such as designing new user experiences overnight, producing animated shorts in two days, and even pursuing novel research.
+  abstract: Crowdsourcing is an increasingly powerful method where computation guides many amateurs' efforts in order to recreate an expert's abilities. However, across domains from design to engineering to art, few goals are truly the effort of just one person — even one expert. If we can now crowdsource simple tasks such as image labeling, how might computation coordinate many peoples' abilities toward far more complex and interdependent goals? In this talk, I present computational systems for gathering and guiding crowds of experts, including professional programmers, designers, singers and artists. The resulting collectives tackle problems modularly and at scale, dynamically grow and shrink depending on task demands, and combine into larger organizations. I'll demonstrate how computationally-enabled expert crowds can pursue goals such as designing new user experiences overnight, producing animated shorts in two days, and even pursuing novel research.
 -
   date: 2016-04-18
   title: Prediction Markets
@@ -588,8 +587,8 @@
   title: How to make better forecasts
   speaker: Lyle Ungar 
   speaker_url: http://www.cis.upenn.edu/~ungar/
+  abstract: We report the results of a four year experiment in which over twenty thousand volunteers made predictions about hundreds of real world geopolitical events in dozens of carefully controlled experiments, all designed to answer questions about what interventions increase the accuracy of forecasts. 
   highlights:
-    - We report the results of a four year experiment in which over twenty thousand volunteers made predictions about hundreds of real world geopolitical events in dozens of carefully controlled experiments, all designed to answer questions about what interventions increase the accuracy of forecasts. 
     - What traits do good forecasters share? 
     - How important is domain expertise? 
     - Can training improve forecasts?  
