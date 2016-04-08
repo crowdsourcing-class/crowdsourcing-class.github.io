@@ -367,6 +367,7 @@ This assignment is due <b>before {{ page.due_date | date: "%I:%M%p" }} on {{ pag
 This assignment is worth 5 points of your overall grade in the course.  The rubric for the assignment is given below. 
 
 Required: a README.md file explaining what each file contains (both code and text files and supporting images). We should be able to understand what you did and what we're looking at solely through the README. For code, include both its purpose (what it generates) and how to run it from the command line (with input arguments). Be sure that this command runs on eniac (with dependencies). 
+
 * 1 point - Your code to dedupe and your de-duplicated data, in json format compressed using gzip. (Do not submit a full, uncompressed file!)
 * 1 point - Two figures from our analysis, which you reproduced, as html files, including any code used to generate them.
 * 2 point - Your own two figures, as html, png, or pdf files, including any code used to generate them.
