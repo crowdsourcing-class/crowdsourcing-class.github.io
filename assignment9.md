@@ -225,7 +225,7 @@ We are down to the final two weekly homework assignments. This week and next, we
 
 <h2>Data</h2>
 
-You can download the almost-clean data [here](assignments/downloads/gun-database.tsv). It contains 5,948 reports and the strucuted data that our Turkers extracted. The data file contains four columns, described below:
+You can download the almost-clean data [here](assignments/downloads/gun-database.tsv). It contains 5,948 reports and the structured data that our Turkers extracted. The data file contains four columns, described below:
 
  * Article url-- The url of the article
  * Article title-- The title of the alchemy, extracted using the Alchemy API
