@@ -366,10 +366,11 @@ This assignment is due <b>before {{ page.due_date | date: "%I:%M%p" }} on {{ pag
 
 This assignment is worth 5 points of your overall grade in the course.  The rubric for the assignment is given below. 
 
+Required: a README.md file explaining what each file contains (both code and text files and supporting images). We should be able to understand what you did and what we're looking at solely through the README. For code, include both its purpose (what it generates) and how to run it from the command line (with input arguments). 
 * 1 point - Your de-duplicated data, in json format compressed using gzip. (Do not submit a full, uncompressed file!)
 * 1 point - Two figures from our analysis, which you reproduced, as html files.
 * 2 point - Your own two figures, as html, png, or pdf files.
-* 1 point - Your answers to the [questionnaire](https://docs.google.com/forms/d/1qNXpuDjhQD9Qn26_XVjJqLR1Fra6FQD2iJyO0sSZ7u8/edit?uiv=1).
+* 1 point - README and your answers to the [questionnaire](https://docs.google.com/forms/d/1qNXpuDjhQD9Qn26_XVjJqLR1Fra6FQD2iJyO0sSZ7u8/edit?uiv=1). 
 * Extra credit (up to 1 point) - Integrating external datasources, or otherwise producing really super cool figures. 
 </div>
 </div>
