@@ -2,13 +2,15 @@
 layout: default
 img: prototype-3
 caption: Final working system
-title: Final Project | That's all there is, there isn't any more. 
+title: Final Project 
 active_tab: homework
+release_date: 2017-04-11
+due_date: 2016-04-18T23:59:59EDT
 ---
 
 <!-- Check whether the assignment is up to date -->
 {% capture this_year %}{{'now' | date: '%Y'}}{% endcapture %}
-{% capture due_year %}{{page.due_date | date: '%Y'}}{% endcapture %}
+{% capture due_year %}{{page.release_date | date: '%Y'}}{% endcapture %}
 {% if this_year != due_year %} 
 <div class="alert alert-danger">
 Warning: this assignment is out of date.  It may still need to be updated for this year's class.  Check with your instructor before you start working on this assignment.
@@ -16,8 +18,10 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 {% endif %}
 <!-- End of check whether the assignment is up to date -->
 
+
 <div class="alert alert-info">
-The final project is due on Monday December 15th.  The presentations will be from 3pm-5pm in Berger Auditorium room 101 in Skirkanich Hall.  You must work in groups on this project.  </div>
+The final project is due on  {{ page.due_date | date: "%A, %B %-d, %Y" }}. 
+</div>
 
 
 Final Project<span class="text-muted"> : Part 4</span> 

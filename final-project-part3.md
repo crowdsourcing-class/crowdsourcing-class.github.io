@@ -2,12 +2,14 @@
 layout: default
 img: prototype-2
 caption: Working prototype (icon created by Ben Ehmke from The Noun Project)
-title: Final Project | Gatering Data
+title: Final Project "Working Prototype"
 active_tab: homework
+release_date: 2017-04-11
+due_date: 2016-04-18T23:59:59EDT
 ---
 <!-- Check whether the assignment is up to date -->
 {% capture this_year %}{{'now' | date: '%Y'}}{% endcapture %}
-{% capture due_year %}{{page.due_date | date: '%Y'}}{% endcapture %}
+{% capture due_year %}{{page.release_date | date: '%Y'}}{% endcapture %}
 {% if this_year != due_year %} 
 <div class="alert alert-danger">
 Warning: this assignment is out of date.  It may still need to be updated for this year's class.  Check with your instructor before you start working on this assignment.
