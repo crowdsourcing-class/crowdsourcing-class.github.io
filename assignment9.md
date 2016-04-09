@@ -304,8 +304,8 @@ There is no fool-proof way of doing this, so we will just use some intuitive rul
 	   for that_record in deduped : 
 	      if can_merge(this_record, that_record) : 
 	         update fields in deduped with new information added by this_record
-	      else : 
-	         add this_record to deduped
+	   if this_record can't be merged : 
+	      add this_record to deduped
 	</code></pre>
 
 4. Save your dedupped records to a new file. You can save an object in json format like this:
