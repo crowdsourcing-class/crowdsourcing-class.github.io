@@ -539,22 +539,6 @@
       url: http://turkernation.com/forumdisplay.php?131-Requester-How-Tos-amp-FAQs
 -
   date: 2016-04-11
-  title: Expert Crowds
-  slides: http://crowdsourcing-class.org/slides/expert-crowds.pdf
-  highlights:
-    - Finding people with obscure knowledge via ads
-    - Creating and evaluating test questions
-  reading:
-    -
-      author: Panos Ipeirotis and Evgeniy Gabrilovich
-      title:  Quizz&#58; Targeted Crowdsourcing with a Billion (Potential) Users
-      url: http://www.ipeirotis.com/wp-content/uploads/2014/01/fp267-ipeirotis.pdf
-    -
-      author: Maria Christoforaki and Panos Ipeirotis
-      title:  STEP&#58; A Scalable Testing and Evaluation Platform
-      url: http://www.ipeirotis.com/wp-content/uploads/2014/11/STEP_A_Scalable_Testing_and_Evaluation_Platform.pdf
--
-  date: 2016-04-13
   title: Social Sciences and Human Subjects Research
   slides: http://crowdsourcing-class.org/slides/crowdsourcing-and-the-social-sciences.pdf
   highlights:
@@ -572,6 +556,22 @@
     -
       title:  Penn's Institutional Review Board
       url: http://www.upenn.edu/IRB/mission-institutional-review-board-irb/guidance
+-
+  date: 2016-04-13
+  title: Expert Crowds
+  slides: http://crowdsourcing-class.org/slides/expert-crowds.pdf
+  highlights:
+    - Finding people with obscure knowledge via ads
+    - Creating and evaluating test questions
+  reading:
+    -
+      author: Panos Ipeirotis and Evgeniy Gabrilovich
+      title:  Quizz&#58; Targeted Crowdsourcing with a Billion (Potential) Users
+      url: http://www.ipeirotis.com/wp-content/uploads/2014/01/fp267-ipeirotis.pdf
+    -
+      author: Maria Christoforaki and Panos Ipeirotis
+      title:  STEP&#58; A Scalable Testing and Evaluation Platform
+      url: http://www.ipeirotis.com/wp-content/uploads/2014/11/STEP_A_Scalable_Testing_and_Evaluation_Platform.pdf
 -
   date: 2016-04-15
   title: Crowdsourcing A Meeting of Minds&colon; Designing the Future of Work
