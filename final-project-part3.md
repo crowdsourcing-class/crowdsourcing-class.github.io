@@ -2,9 +2,9 @@
 layout: default
 img: prototype-2
 caption: Working prototype (icon created by Ben Ehmke from The Noun Project)
-title: Final Project "Working Prototype"
+title: Final Project part 3 "Working Prototype"
 active_tab: homework
-release_date: 2017-04-11
+release_date: 2016-04-11
 due_date: 2016-04-18T23:59:59EDT
 ---
 <!-- Check whether the assignment is up to date -->
