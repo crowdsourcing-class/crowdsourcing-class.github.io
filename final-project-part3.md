@@ -30,6 +30,8 @@ The final project is due on Thursday May 5th, 2016.  By that time, your system w
 
 For your final project, you can collect data by employing a real crowd, or by having your classmates simulate the crowd.  For this part of the project, you will finish a working version of your system, so that your classmates can help you as a simulated crowd, with the goals of debugging your system before you turn the real crowd loose on it, and/or creating some data that you can use to analyze for your final project.
 
+Your classmates will make contributions before the last day of classes, and will get credit toward their participation grade for their contributions.
+
 ### What you should do to prepare
 
 * Get a working prototype ready
