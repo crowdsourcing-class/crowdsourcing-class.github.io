@@ -36,7 +36,7 @@ Your classmates will make contributions before the last day of classes, and will
 
 * Get a working prototype ready
 * Be sure that it is capable of collecting data from the crowd.
-* Write a step-by-step README that walks your classmates through how to use your system, including all details about how to access it and what inputs you need.
+* Write a step-by-step README that walks your classmates through how to use your system, including all details about how to access it and what you want them to do. If you are using a crowdsourcing platform to collect your crowd contributions, then you should set up your project to be running on the Mechanical Turk Worker Sandbox, or CrowdFlower 
 * Put together a short video tutorial for a new member of the crowd (like one of your classmates) shows you using the system, and explains to them how you would like them to make contributions to your project
 * Think about what sort of analysis you want to do.  
 	- Do you want to compare your system against an existing non-crowdsourcing method?  
@@ -69,3 +69,18 @@ Please fill out [this questionnaire](https://docs.google.com/forms/d/10kT2rAlzSt
 
 </div>
 </div>
+
+
+<div class="panel panel-danger">
+<div class="panel-heading" markdown="1">
+<h4>Grading Rubric</h4>
+</div>
+<div class="panel-body" markdown="1">
+
+This assignment is worth 7 points of your overall grade in the course.  The rubric for the assignment is given below. 
+* 5 points - have a working prototype with sufficient documentation so that the course staff can verify that it's working
+* 1 point - for your training video for new members of your crowd
+* 1 point - for clearly written step-by-step instructions on how they can make contributions
+</div>
+</div>
+
