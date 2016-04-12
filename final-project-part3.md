@@ -36,7 +36,7 @@ Your classmates will make contributions before the last day of classes, and will
 
 * Get a working prototype ready
 * Be sure that it is capable of collecting data from the crowd.
-* Write a step-by-step README that walks your classmates through how to use your system, including all details about how to access it and what you want them to do. If you are using a crowdsourcing platform to collect your crowd contributions, then you should set up your project to be running on the Mechanical Turk Worker Sandbox
+* Write a step-by-step README that walks your classmates through how to use your system, including all details about how to access it and what you want them to do. If you are using a crowdsourcing platform to collect your crowd contributions, then you should set up your project to be running on the Mechanical Turk Worker Sandbox. If you are using CrowdFlower, you should launch your HIT to the "Internal Crowd." You can do this by going to "Contributors" and then to the "Channels" tab, and turning off "On-Demand Workforce." Then you can follow the link at the bottom of the dashboard to test your own HIT. 
 * Put together a short video tutorial for a new member of the crowd (like one of your classmates) shows you using the system, and explains to them how you would like them to make contributions to your project
 * Think about what sort of analysis you want to do.  
 	- Do you want to compare your system against an existing non-crowdsourcing method?  
