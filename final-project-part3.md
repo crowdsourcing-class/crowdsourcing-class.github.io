@@ -26,17 +26,44 @@ This assignment is before {{ page.due_date | date: "%I:%M%p" }} due on {{ page.d
 Final Project<span class="text-muted"> : Part 3</span> 
 =============================================================
 
-The final project is due on Thursday May 5th, 2016.  By that time, your system will need to be fully operational, and you'll have to have collected enough data to do an interesting analysis.  You can either collect data by employing a real crowd, or by having your classmates simulate the crowd.  
+The final project is due on Thursday May 5th, 2016.  By that time, your system will need to be fully operational, and you'll have to have collected enough data to do an interesting analysis.  We recommend looking over [the questions on the final questionnaire](final-project-part4.html#survey), so that you get a sense of what is expected of the final project. You should pay attention to what sorts of analyses you can do for your final project. 
 
-For this project, you will finish a working version of your system, so that your classmates can help you as a simulated crowd, with the goal of creating some data that you can use to analyze for your final project.
+For your final project, you can collect data by employing a real crowd, or by having your classmates simulate the crowd.  For this part of the project, you will finish a working version of your system, so that your classmates can help you as a simulated crowd, with the goals of debugging your system before you turn the real crowd loose on it, and/or creating some data that you can use to analyze for your final project.
 
-What you should do to prepare:
+### What you should do to prepare
 
 * Get a working prototype ready
 * Be sure that it is capable of collecting data from the crowd.
-* Write a step-by-step README that shows your classmates how to use your system.
+* Write a step-by-step README that walks your classmates through how to use your system, including all details about how to access it and what inputs you need.
+* Put together a short video tutorial for a new member of the crowd (like one of your classmates) shows you using the system, and explains to them how you would like them to make contributions to your project
 * Think about what sort of analysis you want to do.  
 	- Do you want to compare your system against an existing non-crowdsourcing method?  
 	- Do you want to analyze how accurate the crowd is at making predictions?
 	- Do you want to test how well your method could scale in terms of time/money?
 * Make sure that your capturing the appropriate information so that you can do your analysis.
+
+
+
+
+<div class="panel panel-primary" id="survey">
+<div class="panel-heading" markdown="1">
+#### What to submit
+</div>
+<div class="panel-body" markdown="1">
+Please fill out [this questionnaire](https://docs.google.com/forms/d/10kT2rAlzStgj0D6q0FBo4EspBKQQSt4ckRg-30rAnV0/viewform).  It asks for the following:
+
+* Details about your team members
+* Name of your project
+* A one sentence description of your project.
+* A logo for your project (PNG format, stored on github)
+* What type of project is it? 
+  * Human computation algorithm
+  * Social science experiment with the crowd
+  * A tool for crowdsourcing
+  * A business idea that uses crowdsourcing
+  * Other
+* Provide a link to your training video for new members of your crowd (Vimeo link, and password details)
+* A written step-by-step guide for how your classmates should make contributions to your project. This should include where to access it, and who to contact if it isn't working or if  they have any questions.
+
+</div>
+</div>
