@@ -36,7 +36,7 @@ Your classmates will make contributions before the last day of classes, and will
 
 * Get a working prototype ready
 * Be sure that it is capable of collecting data from the crowd.
-* Write a step-by-step README that walks your classmates through how to use your system, including all details about how to access it and what you want them to do. If you are using a crowdsourcing platform to collect your crowd contributions, then you should set up your project to be running on the Mechanical Turk Worker Sandbox, or CrowdFlower 
+* Write a step-by-step README that walks your classmates through how to use your system, including all details about how to access it and what you want them to do. If you are using a crowdsourcing platform to collect your crowd contributions, then you should set up your project to be running on the Mechanical Turk Worker Sandbox
 * Put together a short video tutorial for a new member of the crowd (like one of your classmates) shows you using the system, and explains to them how you would like them to make contributions to your project
 * Think about what sort of analysis you want to do.  
 	- Do you want to compare your system against an existing non-crowdsourcing method?  
@@ -66,7 +66,8 @@ Please fill out [this questionnaire](https://docs.google.com/forms/d/10kT2rAlzSt
   * Other
 * Provide a link to your training video for new members of your crowd (Vimeo link, and password details)
 * A written step-by-step guide for how your classmates should make contributions to your project. This should include where to access it, and who to contact if it isn't working or if  they have any questions.
-
+* A link to your github repo for the code that you use to run your system
+* A README describing how the code runs
 </div>
 </div>
 
