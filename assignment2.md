@@ -116,6 +116,7 @@ This week we will be looking at the wealth of companies that use crowdsourcing a
 [Thumbtack](http://www.thumbtack.com/),
 [topcoder](http://www.topcoder.com),
 [TurkOpticon](http://turkopticon.ucsd.edu),
+[TurkPrime](https://www.turkprime.com),
 [Uber](https://www.uber.com),
 [Udacity](https://www.udacity.com),
 [Upwork (formerly oDesk)](https://www.upwork.com),
