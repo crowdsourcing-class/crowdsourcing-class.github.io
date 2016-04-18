@@ -575,14 +575,23 @@
 -
   date: 2016-04-15
   title: Crowdsourcing A Meeting of Minds&colon; Designing the Future of Work
+  slides: http://crowdsourcing-class.org/slides/bernstein-future-of-work.pdf
   speaker: Michael Bernstein 
   speaker_url: http://hci.stanford.edu/msb/
   abstract: Crowdsourcing is an increasingly powerful method where computation guides many amateurs' efforts in order to recreate an expert's abilities. However, across domains from design to engineering to art, few goals are truly the effort of just one person — even one expert. If we can now crowdsource simple tasks such as image labeling, how might computation coordinate many peoples' abilities toward far more complex and interdependent goals? In this talk, I present computational systems for gathering and guiding crowds of experts, including professional programmers, designers, singers and artists. The resulting collectives tackle problems modularly and at scale, dynamically grow and shrink depending on task demands, and combine into larger organizations. I'll demonstrate how computationally-enabled expert crowds can pursue goals such as designing new user experiences overnight, producing animated shorts in two days, and even pursuing novel research.
 -
-  date: 2016-04-18
-  title: Prediction Markets
-  slides: http://crowdsourcing-class.org/slides/prediction-markets.pdf
-  speaker_url: http://www.seas.upenn.edu/~epavlick/
+  date: 2016-04-20
+  title: What data can tell us about sex and relationships
+  slides: http://crowdsourcing-class.org/slides/speed-dating-okcupid.pdf
+  reading:
+    -
+      author: Rajesh Ranganath, Dan Jurafsky, and Dan McFarland
+      title: Detecting Flirting and its Misperception in Speed-Dates
+      url: http://nlp.stanford.edu/pubs/rajesh09.pdf
+    -
+      author: Christian Rudder 
+      title: Dataclysm&colon; Who We Are (When We Think No One's Looking) 
+      url: http://www.amazon.com/Dataclysm-When-Think-Ones-Looking/dp/0385347375
 -
   date: 2016-04-20
   title: How to make better forecasts
@@ -612,7 +621,9 @@
 
 -
   date: 2016-04-22
-  title: Friday hands-on activity
+  title: Prediction Markets
+  slides: http://crowdsourcing-class.org/slides/prediction-markets.pdf
+  speaker_url: http://www.seas.upenn.edu/~epavlick/
 -
   date: 2016-04-25
   title: Real-time Crowdsourcing 
