@@ -27,7 +27,7 @@ The final project is due on  {{ page.due_date | date: "%A, %B %-d, %Y" }}.
 </div>
 
 
-Final Project<span class="text-muted"> : Part 4</span> 
+Final Project<span class="text-muted"> : The End</span> 
 =============================================================
 
 The end is in sight.  This will be the final deliverable for NETS 213.  This assignment will be worth 20% of your final grade.  The goals of the final deliverables are the following:
