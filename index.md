@@ -90,8 +90,8 @@ Course Readings
 Grading
 : This is a project-based course.  Instead of exams, you will do a series of hands-on assignments and a final project.  
 
-* Weekly assignments (50%)
-* Final project (40%)
+* Weekly assignments (45%)
+* Final project (45%)
 * Peer grading (5%)
 * Participation (5%)
 
