@@ -26,7 +26,7 @@ This assignment is before {{ page.due_date | date: "%I:%M%p" }} due on {{ page.d
 Final Project<span class="text-muted"> : Part 3</span> 
 =============================================================
 
-The final project is due on Thursday May 5th, 2016.  By that time, your system will need to be fully operational, and you'll have to have collected enough data to do an interesting analysis.  We recommend looking over [the questions on the final questionnaire](final-project-part4.html#survey), so that you get a sense of what is expected of the final project. You should pay attention to what sorts of analyses you can do for your final project. 
+The final project is due on Thursday May 5th, 2016.  By that time, your system will need to be fully operational, and you'll have to have collected enough data to do an interesting analysis.  We recommend looking over [the questions on the final questionnaire](final-project-part5.html#survey), so that you get a sense of what is expected of the final project. You should pay attention to what sorts of analyses you can do for your final project. 
 
 For your final project, you can collect data by employing a real crowd, or by having your classmates simulate the crowd.  For this part of the project, you will finish a working version of your system, so that your classmates can help you as a simulated crowd, with the goals of debugging your system before you turn the real crowd loose on it, and/or creating some data that you can use to analyze for your final project.
 

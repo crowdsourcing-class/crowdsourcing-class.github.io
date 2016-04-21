@@ -21,7 +21,7 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 Final Project
 =============================================================
 
-The final term project will be a self-designed project created by the students in consultation with the professor and the TAs.  The project will be done in 4 parts beginning mid-semester.  Each of these will have an associated set of deliverables.  Together these parts will be worth 40% of your overall grade.   The project must be done in teams.  The minimum team size is 3, and the maximum size is 5.   All team members will receive the same grade on the project.
+The final term project will be a self-designed project created by the students in consultation with the professor and the TAs.  The project will be done in 5 parts beginning mid-semester.  Each of these will have an associated set of deliverables.  Together these parts will be worth 45% of your overall grade.   The project must be done in teams.  The minimum team size is 3, and the maximum size is 5.   All team members will receive the same grade on the project.
 
 The term project is open-ended.  We have some guidelines on what the project must contain -- for instance, it must use a crowd, it must have a quality control and an aggregation component, and it should include either a machine learning component or human-computer interaction component, and it must include an analysis -- but there is a huge range of what you might do.  Check out some of the example final projects below for some models of what constitutes a good project.  They show the scope of what you're required to do, and the range of what is possible.  
 These example projects range from something that might be a viable business idea that uses the crowd, to a social science analysis of media portrayal of politicians, to a creativity platform for generating children's books using the crowd.
@@ -31,7 +31,8 @@ Here are the different deliverables required for the final project:
 * [Part 1: Form a team and brainstorm 3 ideas](final-project-part1.html) -- This is worth 7% of your overall grade.
 * [Part 2: Select an idea and start implementing its components](final-project-part2.html) -- This is worth 7% of your overall grade.
 * [Part 3: Develop a working system that is capable of collecting data](final-project-part3.html) -- This is worth 7% of your overall grade.
-* [Part 4: Analyze your results and produce a video about your project](final-project-part4.html) -- This is worth 19% of your overall grade.
+* [Part 4: Conduct a preliminary analysis of your data](final-project-part4.html) -- This is worth 5% of your overall grade.
+* [Part 5: Analyze your results and produce a video about your project](final-project-part5.html) -- This is worth 19% of your overall grade.
 
 
 ### $10,000 Prize
