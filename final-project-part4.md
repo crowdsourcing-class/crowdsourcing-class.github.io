@@ -30,10 +30,10 @@ The final project is due on Thursday May 5th, 2016.  As part of your final deliv
 
 In this final project milestone, you will perform a preliminary analysis on the data that you collected from your classmates or through a crowdsourcing platform, if you've already begun collecting real data.
 
-* How does compare your system against an existing non-crowdsourcing method?  For instance, you could compare the quality of non-expert annotations versus expert annotations.
-* How accurate is your machine learning is once it is trained on crowd-sourced training data?  You should compare against a random and a majority-class baseline.
+* How your system compare against an existing non-crowdsourcing method?  For instance, you could compare the quality of non-expert annotations versus expert annotations.
+* How accurate is your machine learning once it is trained on crowd-sourced training data?  You should compare against a random and a majority-class baseline.
 * How well did your quality control mechanism work at filtering out low quality work?
-* How well does your method could scale in terms of time/money?
+* How well could your method scale in terms of time/money?
 * What is the latency of the crowd response, if your project has a large human-computer interaction component?  How did you improve it?
 * If you are doing a creative project, how much is the crowd-created project preferred to a sole-effort?  How well does an iterative approach to creating something compare to a parallel approach?  
 
