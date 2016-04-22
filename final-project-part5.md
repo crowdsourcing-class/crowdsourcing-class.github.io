@@ -23,7 +23,7 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 
 
 <div class="alert alert-info">
-The final project is due on  {{ page.due_date | date: "%A, %B %-d, %Y" }}. 
+The final project is due on  {{ page.due_date | date: "%A, %B %-d, %Y" }}. Late days *are not* allowed for this assignment.
 </div>
 
 
