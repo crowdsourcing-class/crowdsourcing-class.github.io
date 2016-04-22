@@ -81,9 +81,9 @@ Please fill out [this questionnaire](https://docs.google.com/forms/d/10kT2rAlzSt
 This assignment is worth 7 points of your overall grade in the course.  The rubric for the assignment is given below. 
 
 * 5 points - have a working prototype with sufficient documentation so that the course staff can verify that it's working
-  * 2 points - having your system live so that we can see that it is running
-  * 2 points - allowing us to make a submission in the way that a member of the crowd would
-  * 1 point - linking to your github code for the system, and including a README describing what's going on in the code
+ * 2 points - allowing us to make a submission in the way that a member of the crowd would
+ * 2 points - successfully implemented features/milestones set in README
+ * 1 point - documentation for code relevant to QC, aggregation, and all supporting code
 * 1 point - for your training video for new members of your crowd
 * 1 point - for clearly written step-by-step instructions on how they can make contributions
 </div>
