@@ -4,7 +4,7 @@ img: analysis
 caption: Prelimiary Analysis (icon created by Creative Stall from The Noun Project)
 title: Final Project part 4 "Preliminary Analysis"
 active_tab: homework
-release_date: 2017-04-21
+release_date: 2016-04-21
 due_date: 2016-04-27T23:59:59EDT
 ---
 <!-- Check whether the assignment is up to date -->
@@ -32,6 +32,7 @@ In this final project milestone, you will perform a preliminary analysis on the 
 
 * How does compare your system against an existing non-crowdsourcing method?  For instance, you could compare the quality of non-expert annotations versus expert annotations.
 * How accurate is your machine learning is once it is trained on crowd-sourced training data?  You should compare against a random and a majority-class baseline.
+* How well did your quality control mechanism work at filtering out low quality work?
 * How well does your method could scale in terms of time/money?
 * What is the latency of the crowd response, if your project has a large human-computer interaction component?  How did you improve it?
 * If you are doing a creative project, how much is the crowd-created project preferred to a sole-effort?  How well does an iterative approach to creating something compare to a parallel approach?  
@@ -54,23 +55,30 @@ In this final project milestone, you will perform a preliminary analysis on the 
 #### What to submit
 </div>
 <div class="panel-body" markdown="1">
-Please fill out [this questionnaire](XXX).  It asks for the following:
+Please fill out [this questionnaire](https://docs.google.com/forms/d/1jyYEjuxL1Lc6FtWV2f6p0Vm_KBlcAHehNjM6Oc_ZLY4/viewform).  It asks for the following:
 
 * Details about your team members
 * Name of your project
-* What kind of analysis did you perform? 
- * Comparison of different incentives
- * Analysis of worker skills
- * Investigation of quality control
- * Comparison of aggregated results versus individual efforts
- * Accuracy of a machine learning component
- * Analysis of scaling
- * Other:
+* Who contributed to your preliminary data collection
+  * Classmates
+  * Crowd workers
+  * Both
+* How many people made contributions to your project so far?
+* How many data points have you collected so far?
+* Do you plan to collect more data for your final project? 
+* What kind of analysis did you perform for this milestone? 
+  * Comparison of different incentives
+  * Analysis of worker skills
+  * Investigation of quality control
+  * Comparison of aggregated results versus individual efforts
+  * Accuracy of a machine learning component
+  * Analysis of scaling
+  * Other
 * Describe what analysis you performed
 * Where the results what you expected?
 * Include a link to a PNG of figure that shows a visualization of your preliminary analysis (a graph, a chart, a table)
 * Write a caption that describes the figure.  Your caption should says how to interpret it, and gives your understanding of what it shows.
-* How many data points were included in your analysis? 
+* What will you do differently for your final analysis?
 * Give a link to the data files that you analyzed
 * Give a link to the code, scripts, or spreadsheets that you used to generate the figure 
 * What is the command line argument that we would need to run to produce your analysis?
