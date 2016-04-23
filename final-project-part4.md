@@ -94,7 +94,11 @@ Please fill out [this questionnaire](https://docs.google.com/forms/d/1jyYEjuxL1L
 
 This assignment is worth 5 points of your overall grade in the course.  The rubric for the assignment is given below. 
 
-TBD
+* 1 point for assembling a data file from the crowd's contributions
+* 1 point for picking an analysis that makes sense for your project, and fits with the themes of the class
+* 1 points for generating a well-designed figure
+* 1 point for writing a good explanation of the figure
+* 1 point for uploading and documenting your code
 </div>
 </div>
 
