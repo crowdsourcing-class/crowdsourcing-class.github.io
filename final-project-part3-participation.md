@@ -19,7 +19,7 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 <!-- End of check whether the assignment is up to date -->
 
 <div class="alert alert-info">
-This assignment is before {{ page.due_date | date: "%I:%M%p" }} due on {{ page.due_date | date: "%A, %B %-d, %Y" }}. 
+This assignment is before {{ page.due_date | date: "%I:%M%p" }} due on {{ page.due_date | date: "%A, %B %-d, %Y" }}.  Late days are *not* allowed for this assignment.
 </div>
 
 
@@ -57,7 +57,7 @@ All teams now have a working prototype for their final projects.  In this assign
 6. Being the crowd for your classmates' final projects (this assignment)
 
 * Wasn't 3/4/16 the Friday before Spring Break?  Yup.  I was there, weren't you?
-* Can I made up missed lectures by doing this assignment multiple times?  Yes.
+* I missed some of the participation points.  Is there anyway that I can make them up? Yes, you can do the ["Be the crowd" assignment](final-project-part3-participation.html) multiple times to make up points.  Your max participation grade is 5.
 </div>
 </div>
 
