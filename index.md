@@ -64,7 +64,7 @@ It is due before {{ page.due_date | date: "%I:%M%p" }} on {{ page.due_date | dat
 <!-- End alert for upcoming homework assignments -->
 
 
-<div class="alert alert-danger" markdown="1">
+<div class="alert alert-success" markdown="1">
 Thanks for taking NETS 213!  Please help improve the course for next year by filling out [this Feedback Survey](https://docs.google.com/forms/d/1N926AFAjs97P7pS9rZ_BQeEUKZI1Yl98jfbZy1IuIws/viewform).
 </div>
 
