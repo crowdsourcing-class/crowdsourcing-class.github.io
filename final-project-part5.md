@@ -208,3 +208,18 @@ Save the screenshot as a PNG file, and put it in your github repo. Include the f
 
 </div>
 </div>
+
+<div class="panel panel-danger">
+<div class="panel-heading" markdown="1">
+<h4>Grading Rubric</h4>
+</div>
+<div class="panel-body" markdown="1">
+
+This assignment is worth 20 points of your overall grade in the course.  The rubric for the assignment is given below. 
+
+* 5 points for your video
+* 5 points for your responses to the questionnaire
+* 10 points will be allocated based on a hollistic evaluation of your project (video+questionnaire), with special attention to how well you address the major themes of the course.
+</div>
+</div>
+
