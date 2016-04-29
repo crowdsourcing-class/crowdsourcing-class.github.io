@@ -100,7 +100,6 @@ Below are the questions that you will be asked to answer about your final projec
   * Conducting an in depth analysis of data
   * Something in between
 * How does your project work? Describe each of the steps involved in your project. What parts are done by the crowd, and what parts will be done automatically.
-* URL to the flow diagram for your project. Create a PNG file, and save it in your github repo. Include the full path to your diagram here (prefix with https://github.com/).
 * Provide a link to your final presentation video.  Give the full path to your Vimeo video, and the password, if it is not public. 
 
 #### The Crowd 
@@ -148,7 +147,7 @@ Below are the questions that you will be asked to answer about your final projec
 * If skills vary widely, what factors cause one person to be better than another?
 * Did you analyze the skills of the crowd?
 * If you analyzed skills, what analysis did you perform? How did you analyze their skills? What questions did you investigate? Did you look at the quality of their results? Did you analyze the time it took individuals to complete the task? What conclusions did you reach?
-* Do you have a Google graph analyzing skills? If you have a graph analyzing skills, include a link to a PNG file of the graph here.
+* Do you have a graph analyzing skills? If you have a graph analyzing skills, include a link to a PNG file of the graph here.
 
 
 #### Quality Control
@@ -159,7 +158,7 @@ Below are the questions that you will be asked to answer about your final projec
 * Did you analyze the quality of what you got back? For instance, did you compare the quality of results against a gold standard? Did you compare different QC strategies?
 * What analysis did you perform on quality?
 * What questions did you investigate? What conclusions did you reach?
-* Do you have a Google graph analyzing quality? If you have a graph analyzing quality, include a link to a PNG file of the graph here.
+* Do you have a graph analyzing quality? If you have a graph analyzing quality, include a link to a PNG file of the graph here.
 
 
 #### Aggregation
@@ -167,7 +166,7 @@ Below are the questions that you will be asked to answer about your final projec
 * How do you aggregate the results from the crowd?
 * Did you analyze the aggregated results?
 * What analysis did you perform on the aggregated results? What questions did you investigate? Did you compare aggregated responses against individual responses? What conclusions did you reach?
-* Do you have a Google graph analyzing the aggregated results? If you have a graph analyzing the aggregated results, include a link to a PNG file of the graph here.
+* Do you have a graph analyzing the aggregated results? If you have a graph analyzing the aggregated results, include a link to a PNG file of the graph here.
 * Did you create a user interface for the end users to see the aggregated results? If yes, please give the URL to a screenshot of the user interface for the end user.
 Save the screenshot as a PNG file, and put it in your github repo. Include the full path to your image (prefix with https://github.com/). You can include multiple screenshots, one per line.
 * Describe what your end user sees in this interface. This can be a short caption for the screenshot. Alternately, if you put a lot of effort into the interface design, you can give a longer explanation of what you did.
@@ -182,13 +181,13 @@ Save the screenshot as a PNG file, and put it in your github repo. Include the f
 * Did you perform an analysis about how to scale up your project? For instance, a cost analysis?
 * What analysis did you perform on the scaling up?
 * What questions did you investigate? What conclusions did you reach?
-* Do you have a Google graph analyzing scaling? If you have a graph analyzing scaling, include a link to a PNG file of the graph here.
+* Do you have a graph analyzing scaling? If you have a graph analyzing scaling, include a link to a PNG file of the graph here.
 
 
 #### Project Analysis
 
 * Did your project work? How do you know? Analyze some results, discuss some positive outcomes of your project.
-* Do you have a Google graph analyzing your project? If you have a graph analyzing your project, include a link to a PNG file of the graph here.
+* Do you have a graph analyzing your project? If you have a graph analyzing your project, include a link to a PNG file of the graph here.
 * What were the biggest challenges that you had to deal with?
 * Where there major changes between what you originally proposed and your final product?
 * If so, what changed between your original plan and your final product?
@@ -196,6 +195,12 @@ Save the screenshot as a PNG file, and put it in your github repo. Include the f
 * Did your results deviate from what you would expect from previous work or what you learned in the class?
 * If your results deviated, why might that be?
 
+#### Technical Challenges
+
+* Did your project require a substantial technical component? Did it require substantial software engineering? Did you need to learn a new language or API?
+* If project required a substantial technical component, describe the largest technical challenge you faced.
+* How did you overcome this challenge? What new tools or skills were required? Feel free to nerd out a bit, to help us understand the amount of work that was required. 
+* Do you have any screen shots or flow diagrams to illustrate the technical component you described? If so, include a link to a PNG file of the graph here.
 
 #### Other info (optional)
 * Is there anything else you'd like to say about your project?
