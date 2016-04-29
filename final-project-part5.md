@@ -65,7 +65,7 @@ The questions we will ask, includes questions about these topics:
 * What are the biggest challenges you had to deal with? What changed between your original plan and your final product?
 * What are some limitations of your product. If yours is an engineering-heavy project, what would you need to overcome in order to scale (cost/incentives/QC...)? If yours was a scientific study, what are some sources of error that may have been introduced by your method. If you results deviate from previous work, why might that be?
 
-The questionnaire has questions asking you to do a deeper analysis of the individual components of your project. You should pick some number of these, and do an analysis. For each of the analysis questions, we ask you to create a graph using [your visualization skills](assignment9.html). The number of questions you should pick depends on where the balance of your team's effort went.  Some people are building really complex system that require a lot of engineering.  Other people's focus is on analyzing data.  If your focus is on analysis, then you should generate more graphs. 
+The questionnaire has questions asking you to do a deeper analysis of the individual components of your project. You should pick **two** of these, and do an analysis. For each of the analysis questions, we ask you to create a graph using [your visualization skills](assignment9.html). Which questions you should pick depends on where the balance of your team's effort went.  Some people are building really complex system that require a lot of engineering.  Other people's focus is on analyzing data.  If your focus is on analysis, then you should generate more in-depth graphs. 
 
 
 ### Final Presentations
