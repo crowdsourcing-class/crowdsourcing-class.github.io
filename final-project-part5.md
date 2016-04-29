@@ -4,7 +4,7 @@ img: prototype-3
 caption: Final working system
 title: Final Project 
 active_tab: homework
-release_date: 2017-04-11
+release_date: 2016-04-29
 due_date: 2016-05-05T09:00:00EDT
 presentations_start: 2016-05-05T09:00:00EDT
 presentations_end: 2016-05-05T011:00:00EDT
@@ -30,7 +30,7 @@ The final project is due on  {{ page.due_date | date: "%A, %B %-d, %Y" }}. Late 
 Final Project<span class="text-muted"> : The End</span> 
 =============================================================
 
-The end is in sight.  This will be the final deliverable for NETS 213.  This assignment will be worth 20% of your final grade.  The goals of the final deliverables are the following:
+The end is in sight.  This will be the final deliverable for NETS 213.  This assignment will be worth 19% of your final grade.  The goals of the final deliverables are the following:
 
 * Show off what you did and why it is cool
 * Demonstrate how it relates to the course and what you learned
@@ -65,7 +65,7 @@ The questions we will ask, includes questions about these topics:
 * What are the biggest challenges you had to deal with? What changed between your original plan and your final product?
 * What are some limitations of your product. If yours is an engineering-heavy project, what would you need to overcome in order to scale (cost/incentives/QC...)? If yours was a scientific study, what are some sources of error that may have been introduced by your method. If you results deviate from previous work, why might that be?
 
-The questionnaire has questions asking you to do a deeper analysis of the individual components of your project. You should pick some number of these, and do an analysis. For each of the analysis questions, we ask you to create a graph using [your Google graph skills](assignment9.html). The number of questions you should pick depends on where the balance of your team's effort went.  Some people are building really complex system that require a lot of engineering.  Other people's focus is on analyzing data.  If your focus is on analysis, then you should generate more graphs. 
+The questionnaire has questions asking you to do a deeper analysis of the individual components of your project. You should pick some number of these, and do an analysis. For each of the analysis questions, we ask you to create a graph using [your visualization skills](assignment9.html). The number of questions you should pick depends on where the balance of your team's effort went.  Some people are building really complex system that require a lot of engineering.  Other people's focus is on analyzing data.  If your focus is on analysis, then you should generate more graphs. 
 
 
 ### Final Presentations
@@ -125,7 +125,7 @@ Below are the questions that you will be asked to answer about your final projec
   * Other
 * How do you incentivize the crowd to participate? Please write 1-3 paragraphs giving the specifics of how you incentivize the crowd. If your crowd is simulated, then what would you need to do to incentivize a real crowd?
 * Did you perform any analysis comparing different incentives?
-* If you compared different incentives, what analysis did you perform? If you have a graph analyzing incentives, include the HTML for a Google graph here.
+* If you compared different incentives, what analysis did you perform? If you have a graph analyzing incentives, include a link to a PNG file of the graph here.
 
 ####  What the crowd gives you
 
@@ -135,7 +135,7 @@ Below are the questions that you will be asked to answer about your final projec
 * Did you train a machine learning component from what the crowd gave you?
 * If you trained a machine learning component, describe what you did.
 * Did you analyze the quality of the machine learning component? For instance, did you compare its quality against crowd workers using an n-fold cross validation?
-* If you have a graph analyzing a machine learning component, include the HTML for a Google graph here.
+* If you have a graph analyzing a machine learning component, include a link to a PNG file of the graph here.
 * Did you create a user interface for the crowd workers? Answer yes even if it's something simple like a HTML form on CrowdFlower.
 * If yes, please give the URL to a screenshot of the crowd-facing user interface. Save the screenshot as a PNG file, and put it in your github repo. Include the full path to your image (prefix with https://github.com/). You can include multiple screenshots, one per line.
 * Describe your crowd-facing user interface. This can be a short caption for the screenshot. Alternately, if you put a lot of effort into the interface design, you can give a longer explanation of what you did.
@@ -148,7 +148,7 @@ Below are the questions that you will be asked to answer about your final projec
 * If skills vary widely, what factors cause one person to be better than another?
 * Did you analyze the skills of the crowd?
 * If you analyzed skills, what analysis did you perform? How did you analyze their skills? What questions did you investigate? Did you look at the quality of their results? Did you analyze the time it took individuals to complete the task? What conclusions did you reach?
-* Do you have a Google graph analyzing skills? If you have a graph analyzing skills, include the HTML for a Google graph here.
+* Do you have a Google graph analyzing skills? If you have a graph analyzing skills, include a link to a PNG file of the graph here.
 
 
 #### Quality Control
@@ -159,7 +159,7 @@ Below are the questions that you will be asked to answer about your final projec
 * Did you analyze the quality of what you got back? For instance, did you compare the quality of results against a gold standard? Did you compare different QC strategies?
 * What analysis did you perform on quality?
 * What questions did you investigate? What conclusions did you reach?
-* Do you have a Google graph analyzing quality? If you have a graph analyzing quality, include the HTML for a Google graph here.
+* Do you have a Google graph analyzing quality? If you have a graph analyzing quality, include a link to a PNG file of the graph here.
 
 
 #### Aggregation
@@ -167,7 +167,7 @@ Below are the questions that you will be asked to answer about your final projec
 * How do you aggregate the results from the crowd?
 * Did you analyze the aggregated results?
 * What analysis did you perform on the aggregated results? What questions did you investigate? Did you compare aggregated responses against individual responses? What conclusions did you reach?
-* Do you have a Google graph analyzing the aggregated results? If you have a graph analyzing the aggregated results, include the HTML for a Google graph here.
+* Do you have a Google graph analyzing the aggregated results? If you have a graph analyzing the aggregated results, include a link to a PNG file of the graph here.
 * Did you create a user interface for the end users to see the aggregated results? If yes, please give the URL to a screenshot of the user interface for the end user.
 Save the screenshot as a PNG file, and put it in your github repo. Include the full path to your image (prefix with https://github.com/). You can include multiple screenshots, one per line.
 * Describe what your end user sees in this interface. This can be a short caption for the screenshot. Alternately, if you put a lot of effort into the interface design, you can give a longer explanation of what you did.
@@ -182,13 +182,13 @@ Save the screenshot as a PNG file, and put it in your github repo. Include the f
 * Did you perform an analysis about how to scale up your project? For instance, a cost analysis?
 * What analysis did you perform on the scaling up?
 * What questions did you investigate? What conclusions did you reach?
-* Do you have a Google graph analyzing scaling? If you have a graph analyzing scaling, include the HTML for a Google graph here.
+* Do you have a Google graph analyzing scaling? If you have a graph analyzing scaling, include a link to a PNG file of the graph here.
 
 
 #### Project Analysis
 
 * Did your project work? How do you know? Analyze some results, discuss some positive outcomes of your project.
-* Do you have a Google graph analyzing your project? If you have a graph analyzing your project, include the HTML for a Google graph here.
+* Do you have a Google graph analyzing your project? If you have a graph analyzing your project, include a link to a PNG file of the graph here.
 * What were the biggest challenges that you had to deal with?
 * Where there major changes between what you originally proposed and your final product?
 * If so, what changed between your original plan and your final product?
