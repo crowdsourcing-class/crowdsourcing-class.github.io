@@ -66,7 +66,7 @@ The questions we will ask, includes questions about these topics:
 * What are the biggest challenges you had to deal with? What changed between your original plan and your final product?
 * What are some limitations of your product. If yours is an engineering-heavy project, what would you need to overcome in order to scale (cost/incentives/QC...)? If yours was a scientific study, what are some sources of error that may have been introduced by your method. If you results deviate from previous work, why might that be?
 
-The questionnaire has questions asking you to do a deeper analysis of the individual components of your project. You should pick **two** of these, and do an analysis. For each of the analysis questions, we ask you to create a graph using [your visualization skills](assignment9.html). Which questions you should pick depends on where the balance of your team's effort went.  Some people are building really complex system that require a lot of engineering.  Other people's focus is on analyzing data.  If your focus is on analysis, then you should generate more in-depth graphs. 
+The questionnaire has questions asking you to do a deeper analysis of the individual components of your project.   You should pick **two** of the sections to do a deeper analysis on. For the two deeper analyses, we ask you to create a graph using [your visualization skills](assignment9.html). Which questions you should pick depends on where the balance of your team's effort went.  Some people are building really complex system that require a lot of engineering.  Other people's focus is on analyzing data.  If your focus is on analysis, then you should generate more in-depth graphs. 
 
 
 ### Final Presentations
@@ -82,6 +82,8 @@ The final project presentations will be held on {{ page.presentations_start | da
 </div>
 <div class="panel-body" markdown="1">
 Below are the questions that you will be asked to answer about your final project.  lease submit your answers via the questionnaires [here]({{ page.questionnaire1}}) and [here]({{page.questionnaire2}}). (Note that the questionnaire is broken into two parts! Make sure you submit both!). We recommend that you **save your survey answers in a file on your own computer**, rather than typing them directly into the Google form, so that you can have a copy to use when you do your video profile.  You won't be able to access your answers from Google after you press submit.
+
+You must answer the questions in all of the sections below, but you only need to create graphs for 2 sections.
 
 #### Basic project information 
 
