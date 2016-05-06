@@ -88,7 +88,7 @@ Final projects from 2016
 <b>If skills vary widely, what factors cause one person to be better than another? </b> {{ questionnaire.if_skills_vary_widely_what_factors_cause_one_person_to_be_better_than_another_}}<br />
 <b>Did you analyze the skills of the crowd?</b> {{ questionnaire.did_you_analyze_the_skills_of_the_crowd }}<br />
 <b>If you analyzed skills, what analysis did you perform?</b> {{ questionnaire.if_you_analyzed_skills_what_analysis_did_you_perform}}<br />
-{% if questionnaire.do_you_have_a_graph_analyzing_skills_ %} <b>Graph analyzing skills:</b>{{ questionnaire.if_you_have_a_graph_analyzing_skills_include_a_png_of_your_graph_or_table_here }}<br /> <b>Caption:</b> {{ questionnaire.caption_for_your_graph_skills }}<br />{% endif %}
+{% if questionnaire.do_you_have_a_graph_analyzing_skills_ %} <b>Graph analyzing skills:</b> {{ questionnaire.if_you_have_a_graph_analyzing_skills_include_a_png_of_your_graph_or_table_here }}<br /> <b>Caption:</b> {{ questionnaire.caption_for_your_graph_skills }}<br />{% endif %}
 
 <b>Did you create a user interface for the crowd workers?</b> {{ questionnaire.did_you_create_a_user_interface_for_the_crowd_workers}}<br />
 <b>If yes, please give the URL to a screenshot of the crowd-facing user interface.</b> {{ questionnaire.if_yes_please_give_the_url_to_a_screenshot_of_the_crowdfacing_user_interface}}<br />
