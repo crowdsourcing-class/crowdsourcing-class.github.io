@@ -68,6 +68,9 @@ It is due before {{ page.due_date | date: "%I:%M%p" }} on {{ page.due_date | dat
 Thanks for taking NETS 213!  Please help improve the course for next year by filling out [this Feedback Survey](https://docs.google.com/forms/d/1N926AFAjs97P7pS9rZ_BQeEUKZI1Yl98jfbZy1IuIws/viewform).
 </div>
 
+<div class="alert alert-info" markdown="1">
+Check out the [excellent final projects](http://crowdsourcing-class.org/final-projects-2016.html) from this year's class.
+</div>
 
 
 Course number
