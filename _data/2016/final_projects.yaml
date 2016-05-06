@@ -130,7 +130,7 @@
   what_was_the_main_focus_of_your_teams_effort: Something in between
   how_does_your_project_work: 1) Initial Question&#58; A user posts a question on doctorturk.co hoping to recieve high quality advice.<p>2) Generation&#58; The question gets posted to MTurk or Crowdflower, generating a number of 100&#45;2000 character paragraphs of advice. <p>3) Aggregation&#58; After a certain number of pieces of advice have been generated (usually 5 or 10), a different type of hit is posted, asking crowdworkers to select the best and the worst pieces of advice. Usually 5 or 10 votes are tallied to ensure quality.<p>4) Quality Control 1&#58; The worker who submitted the best piece of advice will receive a cash bonus (usually doubling the amount of money they made from the hit). The worker who submitted the worst piece of advice will not be paid at all. <p>5) Quality Control 2&#58; A third type of hit is now posted, showing the workers the question and the best answer and asking them “Imagine that you asked this question, and this was the response you received. Would you be completely satisfied with this response as an answer?”. If the worker selects yes, they give a description of why. If they select no, they are asked to come up with their own new answer to the question and submit that.<p>6) Iteration&#58; If the ‘quality control 2’ step returns a majority of yes’s, the best answer is sent back to the original poster of the question. If that step returns a majority of no’s, then we return to the ‘Generation’ step, gather enough answers to supplement the responses to QC2, and proceed normally through the rest of the steps until a majority of yes’s are received. <p>7) Completion&#58; Once the crowd has deemed the advice good enough, it is returned to the user.
   provide_a_link_to_your_final_presentation_video: https://vimeo.com/165387684
-  does_your_video_require_a_password: No, it's public (have a friend check to be sure)
+  does_your_video_require_a_password: No
   if_your_video_requires_a_password_what_is_it: 
   who_are_the_members_of_your_crowd: Workers on Crowdflower
   for_your_final_project_did_you_simulate_the_crowd_or_run_a_real_experiment: Real crowd
@@ -234,7 +234,7 @@
   what_was_the_main_focus_of_your_teams_effort: Engineering a complex system
   how_does_your_project_work: The following are steps that the crowd needs to follow to participate in the project.<p>1. Go to https://nets213project.herokuapp.com/ (mobile device highly recommended)<p>2. Sign up for a FeedMe account. You must use your upenn.edu email address<p>3. You will get an email verification. Click on the link “Confirm my account”<p>4. Once your account is verified, you can login.<p>5. Once you have created an account, you can take two actions&#58;<p>      a. If you are at an event or have found a free found opportunity, create a post about an event with free food to advertise to users<p>              i. Click on “New” button<p>              ii. Fill in the details asked&#58; free food offered, time (when the food is free to take for anybody&#45; it’s classified as leftover), and location<p>      b. Find an event with free food to attend<p>              i. Rate the event by pressing upvote or downvote<p>              ii. If you go and see that the food is all gone, you can press the “Food Gone” button<p>Their posts will be ordered based on highest approval rating to lowest approval rating and they will automatically get points for making posts and upvotes and for clicking the food gone button when the food is gone. Their points will accumulate, and the system automatically changes their ranks in the user leadership page.
   provide_a_link_to_your_final_presentation_video: https://vimeo.com/165400299
-  does_your_video_require_a_password: No, it's public (have a friend check to be sure)
+  does_your_video_require_a_password: No
   if_your_video_requires_a_password_what_is_it: 
   who_are_the_members_of_your_crowd: The members of our crowd are Penn students (and faculty) who have upenn.edu email addresses.
   for_your_final_project_did_you_simulate_the_crowd_or_run_a_real_experiment: Real crowd
@@ -338,7 +338,7 @@
   what_was_the_main_focus_of_your_teams_effort: Something in between
   how_does_your_project_work: We launched a task on Crowdflower asking for users to right a line of rap under a preselected theme, and to fit within the previous lines, if any. After soliciting a number of potential lines, workers then voted on the most appropriate/best line to fit within the theme and other lines. This was repeated until we obtained sixteen lines. The setting up of the two different tasks were both automated.
   provide_a_link_to_your_final_presentation_video: https://vimeo.com/165400686<p>updated video&#58; <p>https://vimeo.com/165442962
-  does_your_video_require_a_password: No, it's public (have a friend check to be sure)
+  does_your_video_require_a_password: No
   if_your_video_requires_a_password_what_is_it: 
   who_are_the_members_of_your_crowd: Crowdflower contributors
   for_your_final_project_did_you_simulate_the_crowd_or_run_a_real_experiment: Real crowd
@@ -754,7 +754,7 @@
   what_was_the_main_focus_of_your_teams_effort: Something in between
   how_does_your_project_work: First, using the crowd (we simulated the crowd for this part of the project but we would like to use Field Agent in the future), we gather images of the food trucks comprehensively displaying the names and menus, along with a reference point for where the food truck might be on a zoomed in map of the vicinity (to place a more approximate marker for later). We try to ensure that the images are readable before we get them, but refine them/verify them to make sure that the menu items are legible (that the picture isn’t total nonsense).<p>Then, after grouping the images of each truck together and hosting them/creating links that reference those pictures, using CrowdFlower, we upload the images as a .csv file and allow the crowd to translate the items on the images. We asked them to provide a name, along with the transcribed menu items in the input below.<p>Once the menu items along with the name have been transcribed, we receive and upload the data with the corresponding marker to our application, hosted online at ‘wherethefoodtrucksat.herokuapp.com’.<p>Once on the website, users can view a dynamic, complete map of food trucks across University City. If a user clicks on a marker, he/she can view the name of the food truck, along with a number for placing a remote order and the crowd&#45;transcribed menu.<p> The idea here was to be able to create a model where users could add to the map from where&#45;ever they might be, so we tried to create a system where an individual can take pictures, transcribe the pictures and then we can add the data to create the most complete map possible.<p>
   provide_a_link_to_your_final_presentation_video: https://vimeo.com/165398855
-  does_your_video_require_a_password: No, it's public (have a friend check to be sure)
+  does_your_video_require_a_password: No
   if_your_video_requires_a_password_what_is_it: 
   who_are_the_members_of_your_crowd: Students in the class, workers on Crowdflower, workers on Field Agent. 
   for_your_final_project_did_you_simulate_the_crowd_or_run_a_real_experiment: Both simulated and real
@@ -858,7 +858,7 @@
   what_was_the_main_focus_of_your_teams_effort: Something in between
   how_does_your_project_work: Step 1&#58; Scrape books from the children’s library. Jose developed a python scraper specifically for the children library website that downloads the images and saves them into a file. It works in batches and you just need to edit which language you want by changing the id field in the script. <p>Step 2&#58; Use these book images to create hits, each page to be translated by a crowd worker.<p>Step 3&#58; Use the translation data to create quality control hits where workers rate the translations.<p>Step 4&#58; Use the crowd flower output and run aggregated.py script to output the best translations per image as a txt file.<p>Step5&#58; Run the txt file through our book.py script and output books as txt files.<p>Between steps 4 and 5 we ran our analysis scripts and used some command line to get our analysis data.
   provide_a_link_to_your_final_presentation_video: https://vimeo.com/165390452
-  does_your_video_require_a_password: No, it's public (have a friend check to be sure)
+  does_your_video_require_a_password: No
   if_your_video_requires_a_password_what_is_it: 
   who_are_the_members_of_your_crowd: Crowdflower workers and students.
   for_your_final_project_did_you_simulate_the_crowd_or_run_a_real_experiment: Simulated crowd
@@ -962,7 +962,7 @@
   what_was_the_main_focus_of_your_teams_effort: Something in between
   how_does_your_project_work: 1. Designers submit versions of their design on nets213ccb.herokuapp.com<p>2. Our code automatically creates a task on CrowdFlower for workers to vote on which version they like, and provide comments on each version of the design. <p>3. Once the above task is completed, our code then automatically creates another CrowdFlower task to serve as one step of quality control. Workers are given sets of comments alongside the corresponding design and asked to rank how useful the comment is on a scale from 1&#45;5. <p>4. Once this task is completed, our code automatically aggregates results from both tasks, figuring out which design has the most votes, and then giving the top 5 comments for each design based on the ranking in the second task. These results are then displayed on the original website for designers to log in and see.
   provide_a_link_to_your_final_presentation_video: https://vimeo.com/165398278
-  does_your_video_require_a_password: No, it's public (have a friend check to be sure)
+  does_your_video_require_a_password: No
   if_your_video_requires_a_password_what_is_it: 
   who_are_the_members_of_your_crowd: Both designers and workers on CrowdFlower.
   for_your_final_project_did_you_simulate_the_crowd_or_run_a_real_experiment: Both simulated and real
@@ -1066,7 +1066,7 @@
   what_was_the_main_focus_of_your_teams_effort: Engineering a complex system
   how_does_your_project_work: To start, a user would text +1&#45;855&#45;265&#45;1514 a location name&#58; “Blarneys?” at a certain time (let’s say it’s 1AM). Crowdr then pulls responses from the database about whether Blarneys at 1AM is crowded based on past contributions about how crowded Blarneys is at 1AM. These contributions have been aggregated to produce an answer that indicates whether Blarneys is crowded, and the percentage of respondents who have said Blarneys is crowded. <p>A member of the crowd would contribute by texting the same number whether a location is crowded or not. For example, a valid contribution would simply be a text “Blarneys is crowded.” The contributor would receive a “thank you” text in response. This contribution is then averaged out with everyone else who has contributed feedback about Blarneys at that time to formulate responses to future queries about how crowded Blarneys is at that time.<p>So, the crowd merely texts whether a certain location is crowded, and the responses to users and aggregation of crowd responses is automated. The locations that can be currently queried using Crowdr are Blarneys, Huntsman, Smokes, Copabanana, Harvest, Commons, Starbucks, Saxby’s, Rodin, and Harrison.
   provide_a_link_to_your_final_presentation_video: https://vimeo.com/165400306
-  does_your_video_require_a_password: No, it's public (have a friend check to be sure)
+  does_your_video_require_a_password: No
   if_your_video_requires_a_password_what_is_it: 
   who_are_the_members_of_your_crowd: Currently Crowdr is set up with locations on Penn’s campus (Blarneys, Smokes, Copa, Huntsman), so members of the crowd are targeting students, faculty and staff at Penn.
   for_your_final_project_did_you_simulate_the_crowd_or_run_a_real_experiment: Both simulated and real
@@ -1274,7 +1274,7 @@
   what_was_the_main_focus_of_your_teams_effort: Engineering a complex system
   how_does_your_project_work: 1. We begin streaming the game on Twitch via FFSplit.<p>2. Our python code connects to our Twitch account and starts tracking the chat inputs.<p>3. Users make accounts on https://www.twitch.tv/.<p>4. Users input commands via our chat at https://www.twitch.tv/nets213.<p>5. Our program reads the chatstream and chooses which command to input to the game.<p>Note &#45; we altered the aggregation module for each experiment to test how well users performed under different aggregation settings, ranging from anarchy to democracy.
   provide_a_link_to_your_final_presentation_video: https://vimeo.com/165401075
-  does_your_video_require_a_password: No, it's public (have a friend check to be sure)
+  does_your_video_require_a_password: No
   if_your_video_requires_a_password_what_is_it: 
   who_are_the_members_of_your_crowd: Anyone with a Twitch account!
   for_your_final_project_did_you_simulate_the_crowd_or_run_a_real_experiment: Real crowd
@@ -1482,7 +1482,7 @@
   what_was_the_main_focus_of_your_teams_effort: Engineering a complex system
   how_does_your_project_work: The user uploads a set of images that are to be ranked by the crowd, along with a specific user&#45;specified criteria with which the images should be judged upon. The crowd then votes on the set images submitted by each user based on the criteria, and each set of judgement stored into a database. We then automatically run PageRank over the sets of judgement to produce an overall ranking of the images to the user. The results are then returned to the user through our online user interface.
   provide_a_link_to_your_final_presentation_video: https://vimeo.com/165415728
-  does_your_video_require_a_password: No, it's public (have a friend check to be sure)
+  does_your_video_require_a_password: No
   if_your_video_requires_a_password_what_is_it: 
   who_are_the_members_of_your_crowd: Users of PopOp.
   for_your_final_project_did_you_simulate_the_crowd_or_run_a_real_experiment: Both simulated and real
@@ -1898,7 +1898,7 @@
   what_was_the_main_focus_of_your_teams_effort: Conducting an in depth analysis of data
   how_does_your_project_work: Crowd workers from Crowdflower complete our HIT that asks the following questions&#58;<p>1) Personal demographic information (their age, ethnicity, gender, what gender they’re most attracted to, etc.)<p>2) Rate different attributes (like intelligence, humor, physical attractiveness, etc.) on their personal scale<p>3) Rating these same attributes but for what they believe their country would respond<p>4) Rating images of groups of 3 people from the same ethnic group based on which gender they labeled they’re most attracted to in part 1.<p>Lastly, we control for quality and aggregate the responses, using python scripts and visualization tools to organize and display the results in an appealing way.
   provide_a_link_to_your_final_presentation_video: https://vimeo.com/165404498
-  does_your_video_require_a_password: No, it's public (have a friend check to be sure)
+  does_your_video_require_a_password: No
   if_your_video_requires_a_password_what_is_it: 
   who_are_the_members_of_your_crowd: Paid Crowdflower workers. In order to simplify our analysis, we limited the workers to a handful of countries around the globe&#58; USA; China and Hong Kong; India; Turkey; Nigeria; and Egypt.  We solicited demographic data from the contributors, including age, location, gender, and ethnicity.  Of our qualified contributors&#58; Gender&#58; 50/50 male/female Age&#58; most were between 31&#45;45 (significant amounts between 18&#45;30 and 45&#45;60, only a few under 18 or above 60) Ethnicity&#58; predominately White (nearly half) but approximately 40&#37; being East Asian or South Asian and less than 10&#37; were Black, Latino, or Middle Eastern About 80&#37; were from USA (over half) or India (about a quarter), and the remainder were from Hong Kong, Egypt, Turkey, or Nigeria.
   for_your_final_project_did_you_simulate_the_crowd_or_run_a_real_experiment: Real crowd
@@ -2002,7 +2002,7 @@
   what_was_the_main_focus_of_your_teams_effort: Conducting an in depth analysis of data
   how_does_your_project_work: We first came up with an in&#45;depth survey that we would give to the crowd members so that we could collect data in order to fully study the international opinion on the US Presidential candidates. In order to generate useful results within the scope of the class, we targeted only 5 countries&#58; India, Germany, Canada, Brazil and Mexico. These were chosen not only because they represented people from a diverse range of socio&#45;economic backgrounds but also because they all had high concentrations of high quality crowdworkers. <p>Once the survey portion was completed, the results and data was aggregated after passing through our QC module. We then generated several graphical representations using global heat maps to analyze the findings.
   provide_a_link_to_your_final_presentation_video: https://vimeo.com/165413795
-  does_your_video_require_a_password: No, it's public (have a friend check to be sure)
+  does_your_video_require_a_password: No
   if_your_video_requires_a_password_what_is_it: 
   who_are_the_members_of_your_crowd: Crowdflower workers in the countries we focused on
   for_your_final_project_did_you_simulate_the_crowd_or_run_a_real_experiment: Both simulated and real
@@ -2314,7 +2314,7 @@
   what_was_the_main_focus_of_your_teams_effort: Something in between
   how_does_your_project_work: 1. We crawled the ICDL website to get the urls of each page for each desired book.<p>2. Workers transcribed text from photos from output urls.<p>3. Each page was translated from English to Spanish or Spanish to English by bilingual speakers. And 3 speakers were asked to translate each section.<p>4. Bilingual speakers were asked to vote for the best translation for each section.<p>5. We used a script to compare the translations to google translate and got a similarity score for each hit response.<p>6. The best translations for each section were put together into a single translation for the entire book. We did this by choosing the translation that got the lowest(best) sum of points (1pts&#45;1st, 2pts&#45;2nd, 3pts&#45;3rd). We broke ties by choosing the translation with the lowest similarity to google translate.
   provide_a_link_to_your_final_presentation_video: https://vimeo.com/165414868
-  does_your_video_require_a_password: No, it's public (have a friend check to be sure)
+  does_your_video_require_a_password: No
   if_your_video_requires_a_password_what_is_it: 
   who_are_the_members_of_your_crowd: Bilingual English and Spanish speakers, and monolingual English/Spanish speakers
   for_your_final_project_did_you_simulate_the_crowd_or_run_a_real_experiment: Real crowd
@@ -2626,7 +2626,7 @@
   what_was_the_main_focus_of_your_teams_effort: Engineering a complex system
   how_does_your_project_work: First you will go to our website and sign up for an account. While on the sign&#45;up page, you will provide us with some demographic information and will also be prompted to fill out a personality test which will provide us with you weight across five personality traits (extraverted, agreeable, conscientious, emotionally stable, open to new experiences) and weight across the ten reasons they watch movies (pleasure&#45;seeking, nostalgia, catharsis, aggression, escapism, sensation&#45;seeking, artistic, information&#45;seeking, boredom&#45;avoidance, and socialisation). You will not be able to use our platform until they have rated at least 5 movies to provide us with a baseline. Now whenever you want to know the likelihood that you have for liking a movie, you will be able to search for a movie and find the rating which is calculated automatically by our algorithm. We use the “BKS algorithm” that we developed to determine your expected rating. The algorithm will first look at what ratings were provided by the crowd for that specific movie and compare your personality traits and reasons you watch movies to those users. The differences are weighted by a gamma factor and used to calculate the similarity score between the user who has already rated this movie and yourself. The quality score of the user will then be taking into consideration to calculate the recommendation factor between you and that user. The recommendation factor and the Ratings will then be multiplied and summed up across all the users that have rated that movie to determine your expected rating. When you log back into the webpage, a notification will show up on the “Movies” page to ask if you saw the movie in question and to tell us if the recommendation was right or wrong. This will allow us to adjust the quality score of all the users and improve our algorithm.
   provide_a_link_to_your_final_presentation_video: http://vimeo.com/165423668
-  does_your_video_require_a_password: No, it's public (have a friend check to be sure)
+  does_your_video_require_a_password: No
   if_your_video_requires_a_password_what_is_it: 
   who_are_the_members_of_your_crowd: Anyone who watches movies and is willing to share their ratings of them along with some information used to populate their profiles.
   for_your_final_project_did_you_simulate_the_crowd_or_run_a_real_experiment: Simulated crowd
@@ -2834,7 +2834,7 @@
   what_was_the_main_focus_of_your_teams_effort: Conducting an in depth analysis of data
   how_does_your_project_work: Input&#58; Crowdflower dataset of workers and their ratings (0 or 1) on photos &#45; small fraction of which have been rated by person we are taste&#45;matching to, and the majority of which have not yet been rated.<p>Steps&#58;<p>For each worker, using their ratings of photos that have been rated by the person we are taste&#45;matching to, we compute the worker’s RMSE (root mean square error). RMSE measures the deviations of the worker’s photo preferences from the true photo preferences of the person being taste&#45;matched to. RMSE score ranges between 0 and 1. A lower RMSE score indicates a stronger alignment in taste between the worker and person being taste&#45;matched to. A higher RMSE indicates a weaker alignment in taste. The extreme case of RMSE = 0 indicates that the worker agreed on every single photo rating; the opposite extreme of RMSE = 1 indicates that the worker disagreed on every photo rating.<p>Compare photos that workers with low RMSE’s approved of with photos that workers with high RMSE’s approved of. Display photos side by side in front of person being taste&#45;matched to. Count number of instances in which photo chosen by low RMSE worker was preferred to photo chosen by high RMSE worker.<p>Perform a statistical test.
   provide_a_link_to_your_final_presentation_video: https://vimeo.com/165376216
-  does_your_video_require_a_password: No, it's public (have a friend check to be sure)
+  does_your_video_require_a_password: No
   if_your_video_requires_a_password_what_is_it: 
   who_are_the_members_of_your_crowd: The members of our crowd are workers on Crowdflower, with no constraint on demographics because we want a diverse set of photo preferences.
   for_your_final_project_did_you_simulate_the_crowd_or_run_a_real_experiment: Real crowd

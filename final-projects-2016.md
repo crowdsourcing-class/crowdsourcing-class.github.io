@@ -7,12 +7,12 @@ active_tab: project
 ---
 
 
-Final projects from 2015
+Final projects from 2016
 =============================================================
 
 <table class="table table-striped"> 
   <tbody>
-    {% for questionnaire in site.data.2015.final_projects %}
+    {% for questionnaire in site.data.2016.final_projects %}
     {% assign anchor = questionnaire.name_of_your_project | replace:' ', '-' | replace:"'", '' | replace:'.', ''  | replace:'(', '' | replace:')', ''  %}
     {% assign logo = questionnaire.url_to_the_logo_for_your_project | replace:"github.com", "raw.githubusercontent.com" | replace:"blob/", "" %}
    <tr>
@@ -54,6 +54,7 @@ Final projects from 2015
 {% for urlpart in vimeourl %}
 	{% capture videonum %}{{ urlpart }}{% endcapture %}
 {% endfor %} 
+{% if questionnaire.does_your_video_require_a_password %} <b>Vimeo Password:</b> {{questionnaire.if_your_video_requires_a_password_what_is_it}}<br /> {% endif %}
 
 <div align="center" class="hidden-sm hidden-xs">
 <iframe src="http://player.vimeo.com/video/{{ videonum }}" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <br />
