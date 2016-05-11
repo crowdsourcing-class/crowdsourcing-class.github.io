@@ -413,3 +413,4 @@ Related Projects
 * [The Guardian - The Counted: People Killed by Police in the USA](http://www.theguardian.com/us-news/ng-interactive/2015/jun/01/the-counted-map-us-police-killings#)
 * [Mass killings in the United States](http://www.gannett-cdn.com/GDContent/mass-killings/)
 * [Mass killings in the USA by Muslims and non-Muslims](assets/img/2015-mass-shootings-visualization.jpg)
+* [Mapping Chicago's Shootings](http://blog.apps.chicagotribune.com/2013/07/15/mapping-chicagos-shooting-victims/)
