@@ -36,6 +36,11 @@ Did you know you get participation credit for showing up in class?  If you showe
 The second peer grading assignment is due on before class on Friday, March 25th.  You will be grading your classmates' pitches for their final projects.  Links to the videos were sent to you an email from nets213@seas.upenn.edu with the subject line "Final Project Pitch Peer Review Assignments". You can submit your feedback for the teams through [this form](http://goo.gl/forms/HzwsK9R5t7).
 </div> 
 
+
+<div class="alert alert-success" markdown="1">
+Thanks for taking NETS 213!  Please help improve the course for next year by filling out [this Feedback Survey](https://docs.google.com/forms/d/1N926AFAjs97P7pS9rZ_BQeEUKZI1Yl98jfbZy1IuIws/viewform).
+</div>
+
 -->
 
 
@@ -64,13 +69,16 @@ It is due before {{ page.due_date | date: "%I:%M%p" }} on {{ page.due_date | dat
 <!-- End alert for upcoming homework assignments -->
 
 
-<div class="alert alert-success" markdown="1">
-Thanks for taking NETS 213!  Please help improve the course for next year by filling out [this Feedback Survey](https://docs.google.com/forms/d/1N926AFAjs97P7pS9rZ_BQeEUKZI1Yl98jfbZy1IuIws/viewform).
-</div>
 
 <div class="alert alert-info" markdown="1">
-Check out the [excellent final projects](http://crowdsourcing-class.org/final-projects-2016.html) from this year's class.
+Check out the [excellent final projects](http://crowdsourcing-class.org/final-projects-2016.html) from the 2016 class.
 </div>
+
+
+<div class="alert alert-info" markdown="1">
+The class won't be offered in the 2016-2017 school year.  Check back again next year.
+</div>
+
 
 
 Course number
