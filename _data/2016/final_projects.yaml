@@ -1065,7 +1065,7 @@
   what_type_of_project_is_it: A business idea that uses crowdsourcing
   what_was_the_main_focus_of_your_teams_effort: Something in between
   how_does_your_project_work: Identifying privacy policies to decode, creating a HIT to gather information from the privacy policies, manually breaking up the privacy policies, creating list of statements that may be addressed in policies, running the HIT to determine the content of each section (crowd does this), running the aggregation and quality control code, and then presenting the data in a visual format. 
-  provide_a_link_to_your_final_presentation_video: https://vimeo.com/gracearnold/decoded
+  provide_a_link_to_your_final_presentation_video: https://vimeo.com/165385269
   does_your_video_require_a_password: Yes
   if_your_video_requires_a_password_what_is_it: NETS
   who_are_the_members_of_your_crowd: This project will use Crowdflower workers to decode our chosen privacy policies by asking them to read small sections of a policy, and check a box next to any of our questions of interest that the section answers.
