@@ -27,7 +27,7 @@ CrowdFlower Credits
 -->
 
 
-<div class="alert alert-info">
+<div class="alert alert-info" markdown="1">
 Here is a [video recording of our tutorial at the NAACL 2015 conference](http://techtalks.tv/talks/crowdsourcing-for-nlp/61562/).
 </div>
 
