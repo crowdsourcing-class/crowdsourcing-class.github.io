@@ -96,6 +96,7 @@ This week we will be looking at the wealth of companies that use crowdsourcing a
 [Orchestra](http://orchestra.unlimitedlabs.com),
 [Parchment](http://www.parchment.com),
 [PatientsLikeMe](http://www.patientslikeme.com),
+[Phrase Detectives](http://anawiki.essex.ac.uk/phrasedetectives/),
 [Postmates](https://postmates.com),
 [PredictWise](http://www.predictwise.com/),
 [Premise](http://www.premise.com/),
@@ -106,6 +107,8 @@ This week we will be looking at the wealth of companies that use crowdsourcing a
 [Qualtrics](http://www.qualtrics.com/),
 [Rotten Tomatoes](http://www.rottentomatoes.com),
 [Samasource](http://samasource.org),
+[scale](https://www.scaleapi.com),
+[scistarter](http://scistarter.com),
 [Silk Road](http://arstechnica.com/tech-policy/2014/08/dark-net-drug-markets-kept-alive-by-great-customer-service/),
 [Stackexchange](http://stackexchange.com/sites),
 [Stackoverflow](http://stackoverflow.com),
@@ -128,7 +131,8 @@ This week we will be looking at the wealth of companies that use crowdsourcing a
 [WorkFusion](http://www.workfusion.com),
 [XPRIZE](http://www.xprize.org),
 [Yelp](http://www.yelp.com/),
-[Zensors](http://zensors.com/).
+[Zensors](http://zensors.com/),
+[Zombi Lingo (French)](http://zombilingo.org).
 You are also welcome to profile a [relevant company](http://www.crowdsourcing.org/uploads/CrowdSourcing-Industry-Landscape-v09.jpg) that is not on this list (but please verify your choice beforehand with the instructor). 
 
 
