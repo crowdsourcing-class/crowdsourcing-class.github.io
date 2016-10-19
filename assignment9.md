@@ -414,3 +414,4 @@ Related Projects
 * [Mass killings in the United States](http://www.gannett-cdn.com/GDContent/mass-killings/)
 * [Mass killings in the USA by Muslims and non-Muslims](assets/img/2015-mass-shootings-visualization.jpg)
 * [Mapping Chicago's Shootings](http://blog.apps.chicagotribune.com/2013/07/15/mapping-chicagos-shooting-victims/)
+* [538 - Gun Deaths in America](http://fivethirtyeight.com/features/gun-deaths/)
