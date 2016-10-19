@@ -24,6 +24,7 @@ Resources
 - [Scikit-learn](http://scikit-learn.org/stable/) is an amazingly easy library for doing machine learning in Python. It is also wonderfully verbosely documented with tons of examples.
 - [Kaggle has some tutorials on sklearn](https://www.kaggle.com/c/data-science-london-scikit-learn/visualization)
 - [NLTK](http://www.nltk.org/) is a great library for doing natural language processing in Python.  
+- [spaCy](https://spacy.io) is another NLP library in Python
 - [Python client for the CrowdFlower API](https://github.com/peoplepattern/crowdflower).  There’s a tutorial on the [People Pattern blog](http://www.peoplepattern.com/crowdflower-python-client-crowdflower-api/).
 - [Seaborn: statistical data visualization in Python](http://stanford.edu/~mwaskom/software/seaborn/index.html)
 
