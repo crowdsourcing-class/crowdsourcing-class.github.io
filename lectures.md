@@ -29,13 +29,11 @@ The lecture schedule is subject to change as the term progresses.
       <th>Topic</th>
       <th>Readings</th>
     </tr>
-    {% for lecture in site.data.lectures %}
-
+{% for lecture in site.data.lectures %}
 <!-- Create a HTML anchor for the most recent lecture -->
 {% capture lecture_date %}{{lecture.date | date: '%s'}}{% endcapture %}
 {% assign lecture_date = lecture_date | plus: 0 %}
 {% assign now = now | minus: 14400 %}
-
 {% if anchor_created != true and lecture_date >= now %}
    {% assign anchor_created = true %}
 <tr id="now">
@@ -43,8 +41,8 @@ The lecture schedule is subject to change as the term progresses.
 <tr>
 {% endif %}
 <!-- End create a HTML anchor for the most recent lecture -->
-      <td>{{ lecture.date | date: "%A, %B %-d, %Y" }}</td>
-      <td>
+<td>{{ lecture.date | date: "%A, %B %-d, %Y" }}</td>
+<td>
 	{% if lecture.profile %}
 	Company Profile:  
         {% endif %}
@@ -64,8 +62,7 @@ The lecture schedule is subject to change as the term progresses.
 	   </li></span>
           {% endfor %}
         {% endif %}
-      </td>
-      <td>
+<td>
         {% if lecture.reading %}
           <ul class="fa-ul">
           {% for reading in lecture.reading %}
@@ -84,9 +81,5 @@ The lecture schedule is subject to change as the term progresses.
           {% endfor %}
           </ul>
         {% endif %}
-      </td>
-    </tr>
-    {% endfor %}
-  </tbody>
-</table>
+{% endfor %}
 
