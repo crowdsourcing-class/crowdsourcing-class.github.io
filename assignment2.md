@@ -109,6 +109,7 @@ This week we will be looking at the wealth of companies that use crowdsourcing a
 [Samasource](http://samasource.org),
 [scale](https://www.scaleapi.com),
 [scistarter](http://scistarter.com),
+[Sesame Credit - is this fake?](http://www.independent.co.uk/news/world/asia/china-has-made-obedience-to-the-state-a-game-a6783841.html),
 [Silk Road](http://arstechnica.com/tech-policy/2014/08/dark-net-drug-markets-kept-alive-by-great-customer-service/),
 [Stackexchange](http://stackexchange.com/sites),
 [Stackoverflow](http://stackoverflow.com),
