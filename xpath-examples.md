@@ -19,7 +19,7 @@ due_date:
 XPath<span class="text-muted">: Enough to get by</span> 
 =============================================================
 
-XPath is a syntax for selecting nodes out of xml-formatted documents. You can look at the tutorials [here](http://www.w3schools.com/xsl/xpath_examples.asp) and [here](http://www.w3schools.com/xsl/xpath_syntax.asp). Below are some basic examples that should suffice for our assignments. Shown in the boxes are code snippets, followed by the output that results from running them. You can [download the code and example xml file](http://crowdsourcing-class.org/assignments/downloads/xpath-examples.tgz) for these examples if you want to change and test them yourself.
+XPath is a syntax for selecting nodes out of xml-formatted documents. You can look at the tutorials [here](https://www.w3schools.com/xml/xml_xpath.asp) and [here](https://www.w3schools.com/xml/xpath_syntax.asp). Below are some basic examples that should suffice for our assignments. Shown in the boxes are code snippets, followed by the output that results from running them. You can [download the code and example xml file](http://crowdsourcing-class.org/assignments/downloads/xpath-examples.tgz) for these examples if you want to change and test them yourself.
 
 * Assume you have the below xml document, which contains inventory for a bookstore.
 

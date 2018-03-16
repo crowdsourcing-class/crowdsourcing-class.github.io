@@ -68,6 +68,7 @@ This week we will be looking at the wealth of companies that use crowdsourcing a
 [Foursquare](https://foursquare.com),
 [Freebase](http://www.freebase.com),
 [Freelancer](https://www.freelancer.com/),
+[Gems](https://gems.org/whitepaper.pdf),
 [Go Fund Me](https://www.gofundme.com/),
 [Good Judgment Open](https://www.gjopen.com),
 [Google Map Maker](http://appleinsider.com/articles/15/08/25/google-reopens-map-maker-with-new-safeguards-to-block-controversial-edits),
