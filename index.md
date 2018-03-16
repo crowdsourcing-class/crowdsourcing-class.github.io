@@ -71,12 +71,12 @@ It is due before {{ page.due_date | date: "%I:%M%p" }} on {{ page.due_date | dat
 
 
 <div class="alert alert-info" markdown="1">
-Check out the [excellent final projects](http://crowdsourcing-class.org/final-projects-2016.html) from the 2016 class.
+Check out the [excellent final projects](http://crowdsourcing-class.org/final-projects-2016.html) from last year's class.
 </div>
 
 
 <div class="alert alert-info" markdown="1">
-The class won't be offered in the 2016-2017 school year.  Check back again next year.
+The class will be offered next in Spring 2019.
 </div>
 
 
