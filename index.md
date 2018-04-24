@@ -76,7 +76,7 @@ Check out the [excellent final projects](http://crowdsourcing-class.org/final-pr
 
 
 <div class="alert alert-info" markdown="1">
-The class will be offered next in Spring 2019.
+The class will be offered in Spring 2019.
 </div>
 
 
