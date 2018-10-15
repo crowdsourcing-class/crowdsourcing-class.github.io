@@ -7,12 +7,13 @@ caption: An engraving of the Mechanical Turk, the 18th century chess-playing aut
 active_tab: main_page 
 ---
 
-Crowdsourcing and human computation are emerging fields that sit squarely at the intersection of economics and computer science. They examine how people can be used to solve complex tasks that are currently beyond the capabilities of artificial intelligence algorithms. Online marketplaces like [Mechanical Turk](https://www.mturk.com/) and [CrowdFlower](https://crowdflower.com) provide an infrastructure that allows micropayments to be given to people in return for completing human intelligence tasks. This opens up previously unthinkable possibilities like people being used as function calls in software. We will investigate how crowdsourcing can be used for computer science applications like machine learning, next-generation interfaces, and data mining. Beyond these computer science aspects, we will also delve into topics like the sharing economy, prediction markets, how businesses can capitalize on collective intelligence, and the fundamental principles that underlie democracy and other group decision-making processes.
+Crowdsourcing and human computation are emerging fields that sit squarely at the intersection of economics and computer science. They examine how people can be used to solve complex tasks that are currently beyond the capabilities of artificial intelligence algorithms. Online marketplaces like [Mechanical Turk](https://www.mturk.com/) and [Figure Eight](https://www.figure-eight.com) provide an infrastructure that allows micropayments to be given to people in return for completing human intelligence tasks. This opens up previously unthinkable possibilities like people being used as function calls in software. We will investigate how crowdsourcing can be used for computer science applications like machine learning, next-generation interfaces, and data mining. Beyond these computer science aspects, we will also delve into topics like the sharing economy, prediction markets, how businesses can capitalize on collective intelligence, and the fundamental principles that underlie democracy and other group decision-making processes.
+
+<div class="alert alert-info">
+NETS 2013 will be offered in Spring 2019!  The lectures will be Tuesday and Thursday 3-4:30pm.  To request permission to the enroll in the course, please sign up for <a href="https://forms.cis.upenn.edu/waitlist/index.php">the waitlist</a>.
+</div>
 
 <!--
-<div class="alert alert-info">
-The class has reached its enrollment cap of 120 students.  You may <a href="https://docs.google.com/forms/d/1nEXV3LrZXckeOWiklEAKRYiCEJa-o67BbCEjAuOHuFw/viewform?usp=send_form">add yourself to the waitlist</a>, we will notify you if space becomes available. You are welcome to sit in on the lectures and start the homework assignments so that you don't fall behind.
-</div>
 
 <div class="alert alert-danger">
 If you would like free credit on CrowdFlower, please sign up for <a href="https://make.crowdflower.com/users/new">a CrowdFlower account</a> and submit your details on <a href="https://docs.google.com/forms/d/1shp2S5Jl3r5bEx6hT_as8xQJZ5piiy2KRIEYQS_8U74/viewform">this Google form</a> before class on Wednesday. If you do not submit the Google form before Wednesday at 2pm, then you will not receive the free credit from CrowdFlower, and you will have to fund your account with your own money.
@@ -94,10 +95,10 @@ Discussion Forum
 : [Piazza](https://piazza.com/upenn/spring2016/nets213)
 
 Time and place
-: Spring 2016, MWF 2-3PM, LRSM Auditorium
+: Spring 2019, Tuesdays and Thursdays 3-4:30pm, Location TBA
 
 Office Hours
-: [See calendar page](calendar.html) 
+: TBD
 
 Prerequisites
 : [CIS 120](http://www.seas.upenn.edu/~cis120/) or prior programming experience
@@ -114,8 +115,8 @@ Grading
 * Participation (5%)
 
 Late day policy
-: Everyone can have 5 free late days without penalty.  After you have used your free late days, you will lose 20% per day (or fraction thereof) that your assignment is submitted late. The final project will have its own late day policy.
+: Each student has five free "late days". Homeworks can be submitted at most two days late. If you are out of late days, then you will not be able to submit your homework. One "day" is defined as anytime between 1 second and 24 hours after the homework deadline. The intent of the late day policy it to allow you to take extra time due to unforseen circumstances like illnesses or family emergencies, and for forseeable interruptions like on campus interviewing and religious holidays. You do not need to ask permission to use your late days. No additional late days are granted.
 
 Course materials
-: CrowdFlower has generously provided each student with $50 credit on their platform.  Students should expect to spend an additional $50-$100 of their own money on CrowdFlower or MTurk or other crowdsourcing platforms.  If this will cause you undue financial hardship, please let the instructor know.
+: Students should expect to spend around $50-$100 of their own money on CrowdFlower or MTurk or other crowdsourcing platforms.  If this will cause you undue financial hardship, please let the instructor know.
 
