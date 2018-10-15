@@ -98,6 +98,7 @@ This week we will be looking at the wealth of companies that use crowdsourcing a
 [Parchment](http://www.parchment.com),
 [PatientsLikeMe](http://www.patientslikeme.com),
 [Phrase Detectives](http://anawiki.essex.ac.uk/phrasedetectives/),
+[Polis](https://pol.is/home)
 [Postmates](https://postmates.com),
 [PredictWise](http://www.predictwise.com/),
 [Premise](http://www.premise.com/),
@@ -127,6 +128,7 @@ This week we will be looking at the wealth of companies that use crowdsourcing a
 [Udacity](https://www.udacity.com),
 [Upwork (formerly oDesk)](https://www.upwork.com),
 [Ushahidi](http://www.ushahidi.com),
+[vTaiwan](https://www.technologyreview.com/s/611816/the-simple-but-ingenious-system-taiwan-uses-to-crowdsource-its-laws/),
 [Waze](https://www.waze.com),
 [We the People](https://petitions.whitehouse.gov),
 [Wikipedia's AI helper](http://www.wired.com/2015/12/wikipedia-is-using-ai-to-expand-the-ranks-of-human-editors/),
