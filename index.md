@@ -90,7 +90,7 @@ Discussion Forum
 : [Piazza](https://piazza.com/upenn/spring2016/nets213)
 
 Time and place
-: Spring 2019, Tuesdays and Thursdays 3-4:30pm, Location TBA
+: Spring 2019, Tuesdays and Thursdays 3-4:30pm, Location: 3401 Walnut Street room 401B
 
 Office Hours
 : TBD
