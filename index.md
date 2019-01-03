@@ -87,7 +87,7 @@ Teaching Assistants
 : [Course Staff](staff.html) 
 
 Discussion Forum
-: [Piazza](https://piazza.com/upenn/spring2016/nets213)
+: [Piazza](https://piazza.com/upenn/spring2018/nets213)
 
 Time and place
 : Spring 2019, Tuesdays and Thursdays 3-4:30pm, Location: 3401 Walnut Street room 401B
@@ -102,12 +102,16 @@ Course Readings
 : Each lecture has an accompanying set of [academic papers](lectures.html)
 
 Grading
-: This is a project-based course.  Instead of exams, you will do a series of hands-on assignments and a final project.  
+: TBD
+
+<!-- old grading 
+This is a project-based course.  Instead of exams, you will do a series of hands-on assignments and a final project.  
 
 * Weekly assignments (45%)
 * Final project (45%)
 * Peer grading (5%)
 * Participation (5%)
+-->
 
 Late day policy
 : Each student has five free "late days". Homeworks can be submitted at most two days late. If you are out of late days, then you will not be able to submit your homework. One "day" is defined as anytime between 1 second and 24 hours after the homework deadline. The intent of the late day policy it to allow you to take extra time due to unforseen circumstances like illnesses or family emergencies, and for forseeable interruptions like on campus interviewing and religious holidays. You do not need to ask permission to use your late days. No additional late days are granted.
