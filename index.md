@@ -86,6 +86,9 @@ Instructor
 Teaching Assistants
 : [Course Staff](staff.html) 
 
+Website 
+: [http://crowdsourcing-class.org/](http://crowdsourcing-class.org/)
+
 Discussion Forum
 : [Piazza](https://piazza.com/upenn/spring2018/nets213)
 
