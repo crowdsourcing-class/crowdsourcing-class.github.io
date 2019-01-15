@@ -1,0 +1,659 @@
+-
+  date: 2016-01-13
+  slides: http://crowdsourcing-class.org/slides/class-intro.pdf
+  title: Intro Lecture
+  highlights:
+    - Relationship between crowdsourcing, human computation, collective intelligence, data mining, and sharing economy companies 
+    - Examples of crowdsourcing and human computation
+  reading:
+    -
+      author: James Surowiecki
+      title:  The Wisdom of Crowds&colon; Introduction
+      url: http://wisdomofcrowds.blogspot.com/2009/12/introduction-part-i.html
+
+    -
+      author: James Surowiecki
+      title:  The Wisdom of Crowds&colon; Chapter 1
+      url: http://wisdomofcrowds.blogspot.com/2009/12/chapter-one-part-i.html
+    -
+      author: Malone, Laubacher, and Dellarocas
+      title:  Harnessing Crowds&#58; Mapping the Genome of Collective Intelligence
+      url: http://crowdsourcing-class.org/readings/downloads/intro/MaloneEtAl.pdf
+    -
+      author: Sir Francis Galton
+      title:  Vox Populi
+      url: http://wisdomofcrowds.blogspot.com/2009/12/vox-populi-sir-francis-galton.html
+    -
+      author: Slate Magazine
+      title: Why did people lose their minds over Beanie Babies?
+      url: http://www.slate.com/articles/health_and_science/science/2015/02/beanie_babies_bubble_economics_and_psychology_of_a_plush_toy_investment.html
+    -
+      author: Real Time with Bill Maher
+      title: The "Sharing" Economy (video)
+      url: https://youtu.be/-ygeC-oeIO4?t=100
+-
+  date: 2016-01-15
+  title: Friday hands-on exercise (become a Crowd Worker)
+  highlights:
+    - Homework 1 walkthrough 
+    - The <a href="https://www.mturk.com/mturk/welcome">Mechanical Turk website</a>
+    - The <a href="http://crowd-workers.com/">Crowd Workers website</a> and <a href="https://chrome.google.com/webstore/detail/crowdworkers/aamdbafophajiecmhbnbakndfgjkfpce">Chrome extension</a>
+  reading:
+    -
+      author: Jeff Bigham
+      title:  My MTurk (half) Workday
+      url: http://www.cs.cmu.edu/~jbigham/posts/2014/half-workday-as-turker.html
+    -
+      author: Lilly Irani and Six Silberman
+      title: Turkopticon&colon; Interrupting Worker Invisibility in Amazon Mechanical Turk
+      url: http://crowdsourcing-class.org/readings/downloads/ethics/turkopticon.pdf
+    -
+      author: Chris Callison-Burch
+      title: Crowd-Workers&colon; Aggregating Information Across Turkers To Help Them Find Higher Paying Work
+      url: http://crowdsourcing-class.org/readings/downloads/ethics/crowd-workers.pdf
+-
+  date: 2016-01-18
+  title: No classes - Martin Luther King Day
+-
+  date: 2016-01-20
+  slides: http://crowdsourcing-class.org/slides/crowd-workers.pdf
+  title: Crowd Workers
+  highlights:
+    - Ethics of Crowdsourcing
+    - Why the Mechanical Turk user interface sucks
+    - External tools designed by workers
+    - Design principles for a fairer workplace
+  reading:
+    -
+      author: Karen Fort, Gilles Adda and Bretonnel Cohen 
+      title: Amazon Mechanical Turk&#58; Gold Mine or Coal Mine?
+      url: http://crowdsourcing-class.org/readings/downloads/ethics/gold-mine-or-coal-mine.pdf
+    -
+      author: Jeremy Snyder
+      title: Exploitation and Sweatshop Labor&colon; Perspectives and Issues
+      url: http://crowdsourcing-class.org/readings/downloads/ethics/exploitation-and-sweatshop-labor.pdf
+    -
+      author: Ben Bederson and Alex Quinn
+      title: Web Workers, Unite! Addressing Challenges of Online Laborers
+      url: http://crowdsourcing-class.org/readings/downloads/ethics/web-workers-unite.pdf 
+    -
+      author: David Martin, Benjamin Hanrahan, Jacki O’Neill and Neha Gupta
+      title: Being A Turker
+      url: http://crowdsourcing-class.org/readings/downloads/ethics/being-a-turker.pdf
+    -
+      author: Amy Glasmeier 
+      title:  The MIT Living Wage Calculator
+      url: http://livingwage.mit.edu/
+    -
+      author: Panos Ipeirotis
+      title: The Demographics of MTurk
+      url: http://crowdsourcing-class.org/readings/downloads/platform/demographics-of-mturk.pdf
+    -
+      author: The Late Show with Stephen Colbert
+      title: Interview with Uber CEO Travis Kalanick (video)
+      url: https://youtu.be/wGdjLv8neBs?t=80 
+    -
+      author: Alison Griswold
+      title: In Search of Uber’s Unicorn (Slate Article)
+      url: http://www.slate.com/articles/business/moneybox/2014/10/uber_driver_salary_the_ride_sharing_company_says_its_drivers_make_great.html 
+    -
+      title: Class action lawsuit against Uber (website)
+      url: http://uberlawsuit.com
+    -
+      author: U.S. Department of Labor  
+      title:  Employees Who Are Misclassified as Independent Contractors
+      url: http://crowdsourcing-class.org/readings/downloads/ethics/misclassification-of-employees-as-contractors.pdf
+-
+  date: 2016-01-22
+  title: Friday hands-on activity
+  speaker: Sierra Yit
+  highlights:
+    -  HW2 Walkthrough
+    -  Vimeo Tutorial 
+    -  IPython Installation 
+  reading:
+    -
+      author: Sierra Yit
+      title: Vimeo Tutorial
+      url: http://crowdsourcing-class.org/video_vimeo_tutorial.html
+    -
+      author: Kate Miller
+      title: IPython Installation Guide 
+      url: http://crowdsourcing-class.org/IPython_install_guide.html
+-
+  date: 2016-01-25
+  slides: http://crowdsourcing-class.org/slides/machine-learning.pdf
+  title: Machine Learning part 1
+  highlights:
+    - Examples of machine learning applications
+    - Bayes Rule 
+    - Reasoning with Probabilities
+  reading:
+    -
+      author: Hilary Mason
+      title:  Intro to Machine Learning in Python
+      url: http://shop.oreilly.com/product/0636920017493.do
+-
+  date: 2016-01-27
+  title: Python bootcamp 
+  speaker: Ellie Pavlick
+  highlights:
+    - A rare Wednesday hands-on, for credit in-class exercise 
+    - Bring your laptop 
+    - Be sure to install IPython Notebook before the class
+-
+  date: 2016-01-29
+  title: Friday hands-on activity&colon; Machine Learning - part 2
+  slides: http://crowdsourcing-class.org/slides/machine-learning-part-2.pdf
+  highlights:
+    - Labeled training data - what it is, where to get it, and how to put it in a format that a classifier will be able to use
+    - Walkthrough of building a classifier in Python
+    - We do the homework in front of your eyes
+    - Experiment design - training / test splits, overfitting, baselines, evaluation
+  reading:
+    -
+      title:  scikit-learn&#58; Machine Learning in Python (webpage with tutorials)
+      url: http://scikit-learn.org/stable/
+    -
+      author: Fabian Pedregosa and 15 others
+      title:  Scikit-learn&#58; Machine Learning in Python (short article in the Journal of Machine Learning Research)
+      url: http://www.jmlr.org/papers/volume12/pedregosa11a/pedregosa11a.pdf
+-
+  date: 2016-02-01
+  slides: http://crowdsourcing-class.org/slides/amazon-mechanical-turk.pdf
+  title: The Amazon Mechanical Turk crowdsourcing platform 
+  highlights:
+    - Amazon Mechanical Turk from the Requester's perspective&#58; Designing HITs, qualifications, pricing HITs, approving/rejecting
+  reading:
+    -
+      author: Gabriele Paolacci, Jesse Chandler and Panos Iperotic
+      title:  Running experiments on Amazon Mechanical Turk
+      url: readings/downloads/platform/running-experiments-on-mturk.pdf
+    -
+      title:  Requester Tour of Mechanical Turk
+      url: https://requester.mturk.com/tour
+    -
+      title:  Mechanical Turk blog
+      url: http://mechanicalturk.typepad.com/blog/requester/
+-
+  date: 2016-02-03
+  slides: http://crowdsourcing-class.org/slides/amazon-mechanical-turk.pdf
+  title: The Amazon Mechanical Turk crowdsourcing platform (continued)
+  highlights:
+    - Amazon Mechanical Turk from the Requester's perspective&#58; Designing HITs, qualifications, pricing HITs, approving/rejecting
+  reading:
+    -
+      author: Gabriele Paolacci, Jesse Chandler and Panos Iperotic
+      title:  Running experiments on Amazon Mechanical Turk
+      url: readings/downloads/platform/running-experiments-on-mturk.pdf
+    -
+      title:  Requester Tour of Mechanical Turk
+      url: https://requester.mturk.com/tour
+    -
+      title:  Mechanical Turk blog
+      url: http://mechanicalturk.typepad.com/blog/requester/
+-
+  date: 2016-02-05
+  title: Friday hands-on activity
+  speaker: Kate Miller
+  highlights:
+    -  HW5 Walkthrough
+-
+  date: 2016-02-08
+  slides: http://crowdsourcing-class.org/slides/taxonomy-of-human-computation.pdf
+  title: Taxonomy of crowdsourcing and human computation
+  highlights:
+    - Categorization system&#58; motivation, quality control, aggregation, human skill, process flow
+  reading:
+    -
+      author: Alex Quinn and Ben Bederson
+      title:  Human Computation&#58; A Survey and Taxonomy of a Growing Field
+      url: readings/downloads/intro/QuinnAndBederson.pdf
+    -
+      author: Panos Ipeirotis
+      title:  Worker Evaluation in Crowdsourcing&#58; Gold Data or Multiple Workers?
+      url: http://www.behind-the-enemy-lines.com/2010/09/worker-evaluation-in-crowdsourcing-gold.html
+-
+  date: 2016-02-10
+  slides: http://crowdsourcing-class.org/slides/programming-the-crowd.pdf
+  title: Programming concepts for human computation
+  highlights:
+    - People as function calls, decomposing complex tasks into simpler subtasks
+    - Memoizataion of expensive function calls, "Crash and Re-Run"
+    - <a href="http://crowdsourcing-class.org/slides/quicksort-with-kittens.mov">Quicksort for kittens</a>
+  reading:
+    -
+      author: Greg Little, Lydia B. Chilton, Max Goldman, and Robert C. Miller
+      title:  TurKit&#58; Human Computation Algorithms on Mechanical Turk
+      url: readings/downloads/programming/Turkit.pdf
+    -
+      title:  Download the TurKit software from the MIT Computer Science and Artificial Intelligence Laboratory
+      url: http://groups.csail.mit.edu/uid/turkit/
+-
+  date: 2016-02-12
+  slides: http://crowdsourcing-class.org/slides/iterative-and-parallel-processing.pdf
+  title: Iterative and Parallel Processing
+  highlights:
+    - Experiments with TurKit
+    - Iterative versus parallel processing
+  reading:
+    -
+      author: Greg Little, Lydia B. Chilton, Max Goldman, and Robert C. Miller
+      title:  Exploring Iterative and Parallel Human Computation Processes
+      url: readings/downloads/programming/iterative-and-parallel-processing-in-hcomp.pdf
+    -
+      title:  Download the TurKit software from the MIT Computer Science and Artificial Intelligence Laboratory
+      url: http://groups.csail.mit.edu/uid/turkit/
+-
+  date: 2016-02-15
+  slides: http://crowdsourcing-class.org/slides/gun-violence-as-a-public-health-issue.pdf
+  title: Firearm Violence&#58; A Public Health Issue
+  speaker: Douglas Wiebe, Associate Professor of Epidemiology, University of Pennsylvania Perelman School of Medicine
+  speaker_url: http://www.cceb.upenn.edu/faculty/?id=185
+  highlights:
+    - Firearm injury as a public health issue
+    - Importance of data in epidemiology
+  reading:
+    -
+      author: FICAP
+      title:  Firearm Injury in the U.S. 2011 Resource Book
+      url: http://www.uphs.upenn.edu/ficap/resourcebook/pdf/monograph.pdf
+    - 
+      author: Charles Branas and Douglas Wiebe
+      title: Gun Violence Research and Prevention
+      url: http://www.uphs.upenn.edu/ficap/research/docs/Branas%20-%20Gun%20violence%20research%20summary.pdf 
+    - 
+      author: Douglas Wiebe
+      title: Homicide and Suicide Risks Associated With Firearms in the Home&colon; A National Case-Control Study
+      url: readings/downloads/gun-violence/homicide-and-suicide-risks-associated-with-firearms-in-the-home.pdf
+-
+  date: 2016-02-17
+  slides: http://crowdsourcing-class.org/slides/twitter-for-public-health.pdf
+  title: Public health and Twitter
+  speaker: Ellie Pavlick
+  speaker_url: http://www.seas.upenn.edu/~epavlick/
+  highlights:
+    - Distilling Collective Intelligence from Twitter
+  reading:
+    -
+      author: Michael Paul and Mark Dredze
+      title:  You are what you Tweet&#58; Analyzing Twitter for Public Health
+      url: readings/downloads/twitter/analyzing-twitter-for-public-health.pdf
+-
+  date: 2016-02-19
+  title: Drop deadline
+-
+  date: 2016-02-19
+  title: Friday hands-on activity
+-
+  date: 2016-02-22
+  slides: https://prezi.com/inlusmmhla--/individual-and-community-wwbp/?utm_campaign=share&utm_medium=copy
+  title: Inferring individual and county level traits from social media
+  speaker: Lyle Ungar
+  speaker_url: http://www.cis.upenn.edu/~ungar/
+-
+  date: 2016-02-24
+  title: In-class activity&colon; find a group
+-
+  date: 2016-02-26
+  slides: http://crowdsourcing-class.org/slides/twitter-first-story-detection.pdf
+  title: Distilling Collective Intelligence from Twitter
+  highlights:
+    - Topic Detection and Tracking
+    - Approximate algorithms for scaling to large data sets
+  reading:
+    -
+      author: Sasa Petrovic, Miles Osborne, and Victor Lavrenko
+      title:  Streaming First Story Detection with application to Twitter
+      url: readings/downloads/twitter/streaming-first-story-detection-with-application-to-twitter.pdf
+    -
+      author: Ben Van Durme and Ashwin Lall
+      title:  Online Generation of Locality Sensitive Hash Signatures
+      url: readings/downloads/twitter/online-generation-of-locality-sensitive-hash-signatures.pdf
+    -
+      author: Sariel Har-Peled, Piotr Indyk and Rajeev Motwani 
+      title:  Approximate Nearest Neighbors&#58; Towards Removing the Curse of Dimensionality
+      url: readings/downloads/twitter/approximate-nearest-neighbors.pdf
+-
+  date: 2016-02-29
+  slides: http://crowdsourcing-class.org/slides/quality-control.pdf
+  title: Quality Control part 1
+  highlights:
+    - Agreement-based methods
+    - Embedded gold standard
+  reading:
+    -
+      author: Luis von Ahn and Laura Dabbish
+      title:  Labeling Images with a Computer Game
+      url: readings/downloads/gwap/ESP.pdf
+    -
+      author: Rion Snow, Brendan O’Connor, Daniel Jurafsky and Andrew Ng
+      title:  Cheap and Fast — But is it Good? Evaluating Non-Expert Annotations for Natural Language Tasks
+      url: readings/downloads/nlp/evaluating-non-expert-annotations-for-nlp.pdf
+-
+  date: 2016-03-02
+  slides: http://crowdsourcing-class.org/slides/quality-control-2.pdf
+  title: Quality Control part 2
+  highlights:
+    - Economic incentives
+  reading:
+    -
+      author: Anindya Ghose, Panos Ipeirotis, and Arun Sundararajan
+      title:  Opinion Mining Using Econometrics&#58; A Case Study on Reputation Systems
+      url: readings/downloads/nlp/opinion-mining-using-econometrics.pdf
+    -
+      author: Winter Mason and Duncan Watts
+      title:  Financial Incentives and the Performance of Crowds
+      url: readings/downloads/econ/financial-incentives-and-the-performance-of-crowds.pdf
+    -
+      author: Kazushi Ikeda and Michael Bernstein
+      title:  Pay It Backward&colon; Per-Task Payments on Crowdsourcing Platforms Reduce Productivity
+      url: readings/downloads/econ/per-task-payments-on-crowdsourcing-platforms-reduce-productivity.pdf
+-
+  date: 2016-03-04
+  title: Friday hands-on activity
+-
+  date: 2016-03-07
+  title: No classes - Spring Break
+-
+  date: 2016-03-09
+  title: No classes - Spring Break
+-
+  date: 2016-03-11
+  title: No classes - Spring Break
+-
+  date: 2016-03-14
+  slides: http://crowdsourcing-class.org/slides/quality-control-3.pdf
+  title: Quality Control part 3
+  highlights:
+    - Reputation systems
+  reading:
+    -
+      author: Anindya Ghose, Panos Ipeirotis, and Arun Sundararajan
+      title:  Opinion Mining Using Econometrics&#58; A Case Study on Reputation Systems
+      url: readings/downloads/nlp/opinion-mining-using-econometrics.pdf
+-
+  date: 2016-03-16
+  slides: http://crowdsourcing-class.org/slides/quality-control-4.pdf
+  title: Quality Control part 4
+  highlights:
+    - The EM algorithm
+  reading:
+    -
+      author: A. P. Dawid and A. M. Skene
+      title:  Maximum Likelihood Estimation of Observer Error-Rates Using the EM Algorithm
+      url: readings/downloads/ml/EM.pdf
+    -
+      author: Victor Sheng, Foster Provost, and Panos Ipeirotis
+      title:  Get Another Label? Improving Data Quality and Data Mining Using Multiple, Noisy Labelers
+      url: readings/downloads/econ/get-another-label.pdf
+    -
+      author: Dirk Hovy
+      title:  An Evening with EM (a tutorial on EM)
+      url: readings/downloads/ml/EM-tutorial.pdf
+-
+  date: 2016-03-18
+  title: Friday hands-on activity
+-
+  date: 2016-03-21
+  slides: http://crowdsourcing-class.org/slides/crowdsourcing-and-HCI.pdf
+  title: Crowdsourcing and human computer interaction (HCI) design
+  highlights:
+    - Next generation interfaces
+    - Soylent word processor ("it's made of people")
+  reading:
+    -
+      author: Michael Bernstein, Greg Little, Rob Miller, Björn Hartmann, Mark Ackerman, David Karger, David Crowell, and Katrina Panovich
+      title:  Soylent&#58; A Word Processor with a Crowd Inside
+      url: readings/downloads/hci/Soylent.pdf
+    -
+      author: Jeff Bigham
+      title: Real-Time Crowd Support for People with Disabilities (video)
+      url: https://www.youtube.com/watch?v=oUebwz1QqOo
+-
+  date: 2016-03-23
+  slides: http://crowdsourcing-class.org/slides/crowdsourcing-and-HCI.pdf
+  title: Crowdsourcing and HCI part 2
+  highlights:
+    - E-mail Valet
+    - Adrenaline
+  reading:
+    -
+      author: Michael Bernstein, Joel Brandt, Rob Miller, and David Karger
+      title:  Crowds in Two Seconds&#58; Enabling Realtime Crowd-Powered Interfaces
+      url: readings/downloads/hci/adrenaline.pdf
+    -
+      author: Nicolas Kokkalis, Thomas Köhn, Carl Pfeiffer, Dima Chornyi, Michael Bernstein, and Scott Klemmer
+      title:  EmailValet&#58; Managing Email Overload through Private, Accountable Crowdsourcing
+      url: readings/downloads/hci/EmailValet.pdf
+-
+  date: 2016-03-25
+  title: Withdraw deadline
+-
+  date: 2016-03-25
+  title: Friday hands-on activity
+-
+  date: 2016-03-28
+  title: Crowdsourcing Translation
+  slides: http://crowdsourcing-class.org/slides/crowdsourcing-translation.pdf
+  highlights:
+    - The language demographics of Mechanical Turk
+    - Using crowdsourcing to collect data to train SMT systems
+  reading:
+    -
+      author: Omar Zaidan and Chris Callison-Burch
+      title:  Crowdsourcing Translation&#58; Professional Quality from Non-Professionals
+      url: http://www.cis.upenn.edu/~ccb/publications/crowdsourcing-translation.pdf
+    -
+      author: Ellie Pavlick, Matt Post, Ann Irvine, Dmitry Kachaev, and Chris Callison-Burch
+      title:  The Language Demographics of Amazon Mechanical Turk
+      url: http://www.cis.upenn.edu/~ccb/publications/language-demographics-of-mechanical-turk.pdf
+    -
+      title:  Machine Translation of Arabic Dialects
+      author: Rabih Zbib, Erika Malchiodi, Jacob Devlin, David Stallard, Spyros Matsoukas, Richard Schwartz, John Makhoul, Omar F. Zaidan, and Chris Callison-Burch
+      url: http://www.cis.upenn.edu/~ccb/publications/machine-translation-of-arabic-dialects.pdf
+-
+  date: 2016-03-30
+  title: The Wisdom of the Crowd Comes to Poetry
+  speaker: Al Filreis
+  speaker_url: http://writing.upenn.edu/~afilreis
+  reading:
+    -
+      author: Al Filreis
+      title:  ModPo Coursera course
+      url: https://www.coursera.org/learn/modpo
+
+-
+  date: 2016-04-01
+  title: Friday hands-on activity
+-
+  date: 2016-04-04
+  title: Crowdsourcing for Automatic Speech Recognition
+  slides: http://crowdsourcing-class.org/slides/crowdsourcing-speech-recognition.pdf
+  highlights:
+    - A high level overview of automatic speech recognition
+    - Using crowdsourcing to train ASR systems
+  reading:
+    -
+      author: Scott Novotney and Chris Callison-Burch
+      title:  Cheap, Fast and Good Enough&#58; Automatic Speech Recognition with Non-Expert Transcription
+      url: http://www.cis.upenn.edu/~ccb/publications/automatic-speech-recognition-with-non-expert-transcription.pdf
+    -
+      title:  Crowdsourcing for Speech Processing&#58; Applications to Data Collection, Transcription and Assessment
+      url: http://www.amazon.com/Crowdsourcing-Speech-Processing-Applications-Transcription/dp/1118358694/
+-
+  date: 2016-04-06
+  title: A/B Testing
+  slides: http://crowdsourcing-class.org/slides/ab-testing.pdf
+  highlights:
+    - Active versus passive crowdsourcing
+    - Making money with statistics 
+    - Optimizing web sites using A/B testing
+    - Are you part of a social experiment?
+  reading:
+    -
+      author: Wired Magazine
+      title:  The A/B Test&#58; Inside the Technology That’s Changing the Rules of Business
+      url: http://www.wired.com/business/2012/04/ff_abtesting
+    -
+      author: Kyle Rush
+      title:  Optimization at the Obama campaign&#58; A/B Testing
+      url: http://o04151985.kylerush.net/blog/optimization-at-the-obama-campaign-ab-testing/
+    -
+      author: Ben Tilly
+      title:  Effective A/B Testing
+      url: http://elem.com/~btilly/effective-ab-testing/
+    -
+      title:  Optimizely
+      url: https://www.optimizely.com 
+    -
+      author: Adam Kramer, Jamie Guillory, and Jeffrey Hancock
+      title:  Experimental evidence of massive-scale emotional contagion through social networks
+      url: https://cornell.app.box.com/fbcontagion
+    -
+      author: TLDR podcast
+      title:  TLDR #32 - An Imperfect Match
+      url: http://www.onthemedia.org/story/tldr-32-imperfect-match/
+    -
+      author: Christian Rudder - OKCupid
+      title:  We Experiment On Human Beings!
+      url: http://blog.okcupid.com/index.php/we-experiment-on-human-beings/
+-
+  date: 2016-04-08
+  speaker: Kristy Milland 
+  speaker_url: http://www.kristymilland.com
+  slides: http://crowdsourcing-class.org/slides/best-practices-of-best-requesters.pdf
+  title: The Best Practices of the Best Requesters
+  reading:
+    -
+      author: Alice M. Brawley and Cynthia L.S. Pury
+      title: Work experiences on MTurk&colon; Job satisfaction, turnover, and information sharing
+      url: readings/downloads/ethics/mturk-job-satisfaction.pdf
+    -
+      author: Bassam Tariq
+      title: Video&colon; Turking for a Living
+      url: http://www.newyorker.com/culture/culture-desk/video-turking-for-respect
+    -
+      author: Kristy Milland and others
+      title: TurkerNation forum&colon; What "myths" about Turkers would you like to bust?
+      url: http://turkernation.com/showthread.php?22932-What-quot-myths-quot-about-Turkers-would-you-like-to-bust
+    -
+      author: Kristy Milland and others
+      title: TurkerNation forum&colon; Requester How-Tos and FAQs
+      url: http://turkernation.com/forumdisplay.php?131-Requester-How-Tos-amp-FAQs
+-
+  date: 2016-04-11
+  title: Social Sciences and Human Subjects Research
+  slides: http://crowdsourcing-class.org/slides/crowdsourcing-and-the-social-sciences.pdf
+  highlights:
+    - Human subjects research
+    - Social Science experiments
+  reading:
+    -
+      author: Michael Buhrmester, Tracy Kwang and Samuel Gosling
+      title:  Amazon's Mechanical Turk - A New Source of Inexpensive, Yet High-Quality, Data?
+      url: http://personal.stevens.edu/~ysakamot/creativity/turk%20perspectives.pdf
+    -
+      author: Danielle N. Shapiro, Jesse Chandler, Pam A. Mueller
+      title:  Using Mechanical Turk to Study Clinical Populations
+      url: http://cpx.sagepub.com/content/1/2/213.full
+    -
+      title:  Penn's Institutional Review Board
+      url: http://www.upenn.edu/IRB/mission-institutional-review-board-irb/guidance
+-
+  date: 2016-04-13
+  title: Expert Crowds
+  slides: http://crowdsourcing-class.org/slides/expert-crowds.pdf
+  highlights:
+    - Finding people with obscure knowledge via ads
+    - Creating and evaluating test questions
+  reading:
+    -
+      author: Panos Ipeirotis and Evgeniy Gabrilovich
+      title:  Quizz&#58; Targeted Crowdsourcing with a Billion (Potential) Users
+      url: http://www.ipeirotis.com/wp-content/uploads/2014/01/fp267-ipeirotis.pdf
+    -
+      author: Maria Christoforaki and Panos Ipeirotis
+      title:  STEP&#58; A Scalable Testing and Evaluation Platform
+      url: http://www.ipeirotis.com/wp-content/uploads/2014/11/STEP_A_Scalable_Testing_and_Evaluation_Platform.pdf
+-
+  date: 2016-04-15
+  title: Crowdsourcing A Meeting of Minds&colon; Designing the Future of Work
+  slides: http://crowdsourcing-class.org/slides/bernstein-future-of-work.pdf
+  speaker: Michael Bernstein 
+  speaker_url: http://hci.stanford.edu/msb/
+  abstract: Crowdsourcing is an increasingly powerful method where computation guides many amateurs' efforts in order to recreate an expert's abilities. However, across domains from design to engineering to art, few goals are truly the effort of just one person — even one expert. If we can now crowdsource simple tasks such as image labeling, how might computation coordinate many peoples' abilities toward far more complex and interdependent goals? In this talk, I present computational systems for gathering and guiding crowds of experts, including professional programmers, designers, singers and artists. The resulting collectives tackle problems modularly and at scale, dynamically grow and shrink depending on task demands, and combine into larger organizations. I'll demonstrate how computationally-enabled expert crowds can pursue goals such as designing new user experiences overnight, producing animated shorts in two days, and even pursuing novel research.
+-
+  date: 2016-04-20
+  title: What data can tell us about sex and relationships
+  slides: http://crowdsourcing-class.org/slides/speed-dating-okcupid.pdf
+  reading:
+    -
+      author: Rajesh Ranganath, Dan Jurafsky, and Dan McFarland
+      title: Detecting Flirting and its Misperception in Speed-Dates
+      url: http://nlp.stanford.edu/pubs/rajesh09.pdf
+    -
+      author: Christian Rudder 
+      title: Dataclysm&colon; Who We Are (When We Think No One's Looking) 
+      url: http://www.amazon.com/Dataclysm-When-Think-Ones-Looking/dp/0385347375
+    -
+      author: Christian Rudder - OKCupid
+      title:  OKCupid's blog (sadly now defunct)
+      url: http://blog.okcupid.com/
+-
+  date: 2016-04-20
+  title: How to make better forecasts
+  speaker: Lyle Ungar 
+  speaker_url: http://www.cis.upenn.edu/~ungar/
+  abstract: We report the results of a four year experiment in which over twenty thousand volunteers made predictions about hundreds of real world geopolitical events in dozens of carefully controlled experiments, all designed to answer questions about what interventions increase the accuracy of forecasts. 
+  highlights:
+    - What traits do good forecasters share? 
+    - How important is domain expertise? 
+    - Can training improve forecasts?  
+    - How should forecasts be elicited--surveys or prediction markets? 
+    - How should that wisdom be combined? What clever statistical aggregations work best?
+  reading:
+    -
+      author: the Good Judgement project
+      title: Are you a superforecaster?
+      url: https://www.gjopen.com
+    -
+      author: Pavel D. Atanasov, Phillip Rescober, Eric Stone, Emile Servan-Schreiber, Philip E. Tetlock, Lyle Ungar and Barbara Mellers
+      title: Distilling the Wisdom of Crowds&colon; Prediction Markets versus Prediction Polls
+      url: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2660628
+    -
+      author: Barbara Mellers and Lyle Ungar
+      title: Other papers
+      url: https://scholar.google.com/scholar?q=mellers+ungar&btnG=&hl=en&as_sdt=0%2C39
+
+
+-
+  date: 2016-04-22
+  title: Prediction Markets
+  slides: http://crowdsourcing-class.org/slides/prediction-markets.pdf
+  speaker_url: http://www.seas.upenn.edu/~epavlick/
+-
+  date: 2016-04-25
+  title: Real-time Crowdsourcing 
+  speaker: Walter S. Lasecki, Assistant Professor, University of Michigan
+  speaker_url: http://web.eecs.umich.edu/~wlasecki/
+  reading:
+    -
+      author: Walter Lasecki, Kyle Murray, Samuel White, Robert Miller, and Jeff Bigham
+      title:  Real-time Crowd Control of Existing Interfaces
+      url: readings/downloads/hci/legion.pdf
+    -
+      author: Walter Lasecki, Christopher Miller, Adam Sadilek, Andrew Abumoussa, Donato Borrello, Raja Kushalnagar, and Jeff Bigham
+      title:  Real-Time Captioning by Groups of Non-Experts
+      url: readings/downloads/hci/scribe.pdf
+    -
+      author: Walter Lasecki, Juho Kim, Nicholas Rafter, Onkur Sen, Jeff Bigham and Michael Bernstein
+      title:  Apparition&colon; Crowdsourced User Interfaces That Come To Life As You Sketch Them
+      url: readings/downloads/hci/scribe.pdf
+-
+  date: 2016-04-27
+  title: Course wrap-up
+  slides: http://crowdsourcing-class.org/slides/wrap-up.pdf
+-
+  date: 2016-05-05
+  title: Final Presentations will be held during the final exam slot on Thursday May 5th, 2016 from 9:00 to 11:00 (there are locations - LRSM Auditorium and Skirkanich Auditorium)
