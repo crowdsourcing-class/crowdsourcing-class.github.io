@@ -1,5 +1,5 @@
 -
-  date: 2016-01-13
+  date: 2017-01-17
   slides: http://crowdsourcing-class.org/slides/class-intro.pdf
   title: Intro Lecture
   highlights:
@@ -32,10 +32,18 @@
       title: The "Sharing" Economy (video)
       url: https://youtu.be/-ygeC-oeIO4?t=100
 -
-  date: 2016-01-15
-  title: Friday hands-on exercise (become a Crowd Worker)
+  date: 2018-01-22
+  slides: 
+  title: Is Democracy Broken?
   highlights:
-    - Homework 1 walkthrough 
+    - Electoral College v Popular Vote
+    - Gerrymandering 
+    - History of Voter Suppression in the USA
+-
+  date: 2018-01-22
+  title: HW1 released - Become a Crowd Worker
+  type: homework
+  highlights:
     - The <a href="https://www.mturk.com/mturk/welcome">Mechanical Turk website</a>
     - The <a href="http://crowd-workers.com/">Crowd Workers website</a> and <a href="https://chrome.google.com/webstore/detail/crowdworkers/aamdbafophajiecmhbnbakndfgjkfpce">Chrome extension</a>
   reading:
@@ -52,10 +60,7 @@
       title: Crowd-Workers&colon; Aggregating Information Across Turkers To Help Them Find Higher Paying Work
       url: http://crowdsourcing-class.org/readings/downloads/ethics/crowd-workers.pdf
 -
-  date: 2016-01-18
-  title: No classes - Martin Luther King Day
--
-  date: 2016-01-20
+  date: 2018-01-24
   slides: http://crowdsourcing-class.org/slides/crowd-workers.pdf
   title: Crowd Workers
   highlights:
@@ -104,62 +109,28 @@
       title:  Employees Who Are Misclassified as Independent Contractors
       url: http://crowdsourcing-class.org/readings/downloads/ethics/misclassification-of-employees-as-contractors.pdf
 -
-  date: 2016-01-22
-  title: Friday hands-on activity
-  speaker: Sierra Yit
+  date: 2018-01-29
+  slides: 
+  title: The Gig Economy 
   highlights:
-    -  HW2 Walkthrough
-    -  Vimeo Tutorial 
-    -  IPython Installation 
+    - The future of work or a digital underclass?
+    - Piecework v hourly wages
+    - CCB - todo - incorporate papers that Six recommended
   reading:
     -
-      author: Sierra Yit
-      title: Vimeo Tutorial
-      url: http://crowdsourcing-class.org/video_vimeo_tutorial.html
+      author: Caroline O'Donovan - Buzzfeed
+      title: This "Creepy" Time-Tracking Software Is Like Having Your Boss Watch You Every Second
+      url: https://www.buzzfeednews.com/article/carolineodonovan/upwork-freelancers-work-diary-keystrokes-screenshot
     -
-      author: Kate Miller
-      title: IPython Installation Guide 
-      url: http://crowdsourcing-class.org/IPython_install_guide.html
+      author: Upwork
+      title: Use Your Work Diary
+      url: https://support.upwork.com/hc/en-us/articles/211068518-Use-Your-Work-Diary
 -
-  date: 2016-01-25
-  slides: http://crowdsourcing-class.org/slides/machine-learning.pdf
-  title: Machine Learning part 1
-  highlights:
-    - Examples of machine learning applications
-    - Bayes Rule 
-    - Reasoning with Probabilities
-  reading:
-    -
-      author: Hilary Mason
-      title:  Intro to Machine Learning in Python
-      url: http://shop.oreilly.com/product/0636920017493.do
+  date: 2018-01-31
+  slides: 
+  title: Labor and Regulatory Issues in the Platform Economy - Six Silberman or Mary L. Gray or Siddharth Suri
 -
-  date: 2016-01-27
-  title: Python bootcamp 
-  speaker: Ellie Pavlick
-  highlights:
-    - A rare Wednesday hands-on, for credit in-class exercise 
-    - Bring your laptop 
-    - Be sure to install IPython Notebook before the class
--
-  date: 2016-01-29
-  title: Friday hands-on activity&colon; Machine Learning - part 2
-  slides: http://crowdsourcing-class.org/slides/machine-learning-part-2.pdf
-  highlights:
-    - Labeled training data - what it is, where to get it, and how to put it in a format that a classifier will be able to use
-    - Walkthrough of building a classifier in Python
-    - We do the homework in front of your eyes
-    - Experiment design - training / test splits, overfitting, baselines, evaluation
-  reading:
-    -
-      title:  scikit-learn&#58; Machine Learning in Python (webpage with tutorials)
-      url: http://scikit-learn.org/stable/
-    -
-      author: Fabian Pedregosa and 15 others
-      title:  Scikit-learn&#58; Machine Learning in Python (short article in the Journal of Machine Learning Research)
-      url: http://www.jmlr.org/papers/volume12/pedregosa11a/pedregosa11a.pdf
--
-  date: 2016-02-01
+  date: 2018-02-05
   slides: http://crowdsourcing-class.org/slides/amazon-mechanical-turk.pdf
   title: The Amazon Mechanical Turk crowdsourcing platform 
   highlights:
@@ -176,7 +147,7 @@
       title:  Mechanical Turk blog
       url: http://mechanicalturk.typepad.com/blog/requester/
 -
-  date: 2016-02-03
+  date: 2018-02-07
   slides: http://crowdsourcing-class.org/slides/amazon-mechanical-turk.pdf
   title: The Amazon Mechanical Turk crowdsourcing platform (continued)
   highlights:
@@ -193,13 +164,7 @@
       title:  Mechanical Turk blog
       url: http://mechanicalturk.typepad.com/blog/requester/
 -
-  date: 2016-02-05
-  title: Friday hands-on activity
-  speaker: Kate Miller
-  highlights:
-    -  HW5 Walkthrough
--
-  date: 2016-02-08
+  date: 2018-02-12
   slides: http://crowdsourcing-class.org/slides/taxonomy-of-human-computation.pdf
   title: Taxonomy of crowdsourcing and human computation
   highlights:
@@ -214,7 +179,7 @@
       title:  Worker Evaluation in Crowdsourcing&#58; Gold Data or Multiple Workers?
       url: http://www.behind-the-enemy-lines.com/2010/09/worker-evaluation-in-crowdsourcing-gold.html
 -
-  date: 2016-02-10
+  date: 2018-02-14
   slides: http://crowdsourcing-class.org/slides/programming-the-crowd.pdf
   title: Programming concepts for human computation
   highlights:
@@ -230,7 +195,7 @@
       title:  Download the TurKit software from the MIT Computer Science and Artificial Intelligence Laboratory
       url: http://groups.csail.mit.edu/uid/turkit/
 -
-  date: 2016-02-12
+  date: 2018-02-19
   slides: http://crowdsourcing-class.org/slides/iterative-and-parallel-processing.pdf
   title: Iterative and Parallel Processing
   highlights:
@@ -245,29 +210,7 @@
       title:  Download the TurKit software from the MIT Computer Science and Artificial Intelligence Laboratory
       url: http://groups.csail.mit.edu/uid/turkit/
 -
-  date: 2016-02-15
-  slides: http://crowdsourcing-class.org/slides/gun-violence-as-a-public-health-issue.pdf
-  title: Firearm Violence&#58; A Public Health Issue
-  speaker: Douglas Wiebe, Associate Professor of Epidemiology, University of Pennsylvania Perelman School of Medicine
-  speaker_url: http://www.cceb.upenn.edu/faculty/?id=185
-  highlights:
-    - Firearm injury as a public health issue
-    - Importance of data in epidemiology
-  reading:
-    -
-      author: FICAP
-      title:  Firearm Injury in the U.S. 2011 Resource Book
-      url: http://www.uphs.upenn.edu/ficap/resourcebook/pdf/monograph.pdf
-    - 
-      author: Charles Branas and Douglas Wiebe
-      title: Gun Violence Research and Prevention
-      url: http://www.uphs.upenn.edu/ficap/research/docs/Branas%20-%20Gun%20violence%20research%20summary.pdf 
-    - 
-      author: Douglas Wiebe
-      title: Homicide and Suicide Risks Associated With Firearms in the Home&colon; A National Case-Control Study
-      url: readings/downloads/gun-violence/homicide-and-suicide-risks-associated-with-firearms-in-the-home.pdf
--
-  date: 2016-02-17
+  date: 2018-02-17
   slides: http://crowdsourcing-class.org/slides/twitter-for-public-health.pdf
   title: Public health and Twitter
   speaker: Ellie Pavlick
@@ -280,22 +223,16 @@
       title:  You are what you Tweet&#58; Analyzing Twitter for Public Health
       url: readings/downloads/twitter/analyzing-twitter-for-public-health.pdf
 -
-  date: 2016-02-19
+  date: 2018-02-19
   title: Drop deadline
 -
-  date: 2016-02-19
+  date: 2018-02-19
   title: Friday hands-on activity
 -
-  date: 2016-02-22
-  slides: https://prezi.com/inlusmmhla--/individual-and-community-wwbp/?utm_campaign=share&utm_medium=copy
-  title: Inferring individual and county level traits from social media
-  speaker: Lyle Ungar
-  speaker_url: http://www.cis.upenn.edu/~ungar/
--
-  date: 2016-02-24
+  date: 2018-02-24
   title: In-class activity&colon; find a group
 -
-  date: 2016-02-26
+  date: 2018-02-26
   slides: http://crowdsourcing-class.org/slides/twitter-first-story-detection.pdf
   title: Distilling Collective Intelligence from Twitter
   highlights:
@@ -315,7 +252,7 @@
       title:  Approximate Nearest Neighbors&#58; Towards Removing the Curse of Dimensionality
       url: readings/downloads/twitter/approximate-nearest-neighbors.pdf
 -
-  date: 2016-02-29
+  date: 2018-02-29
   slides: http://crowdsourcing-class.org/slides/quality-control.pdf
   title: Quality Control part 1
   highlights:
@@ -331,7 +268,7 @@
       title:  Cheap and Fast — But is it Good? Evaluating Non-Expert Annotations for Natural Language Tasks
       url: readings/downloads/nlp/evaluating-non-expert-annotations-for-nlp.pdf
 -
-  date: 2016-03-02
+  date: 2018-03-02
   slides: http://crowdsourcing-class.org/slides/quality-control-2.pdf
   title: Quality Control part 2
   highlights:
@@ -350,19 +287,19 @@
       title:  Pay It Backward&colon; Per-Task Payments on Crowdsourcing Platforms Reduce Productivity
       url: readings/downloads/econ/per-task-payments-on-crowdsourcing-platforms-reduce-productivity.pdf
 -
-  date: 2016-03-04
+  date: 2018-03-04
   title: Friday hands-on activity
 -
-  date: 2016-03-07
+  date: 2018-03-07
   title: No classes - Spring Break
 -
-  date: 2016-03-09
+  date: 2018-03-09
   title: No classes - Spring Break
 -
-  date: 2016-03-11
+  date: 2018-03-11
   title: No classes - Spring Break
 -
-  date: 2016-03-14
+  date: 2018-03-14
   slides: http://crowdsourcing-class.org/slides/quality-control-3.pdf
   title: Quality Control part 3
   highlights:
@@ -373,7 +310,7 @@
       title:  Opinion Mining Using Econometrics&#58; A Case Study on Reputation Systems
       url: readings/downloads/nlp/opinion-mining-using-econometrics.pdf
 -
-  date: 2016-03-16
+  date: 2018-03-16
   slides: http://crowdsourcing-class.org/slides/quality-control-4.pdf
   title: Quality Control part 4
   highlights:
@@ -392,10 +329,10 @@
       title:  An Evening with EM (a tutorial on EM)
       url: readings/downloads/ml/EM-tutorial.pdf
 -
-  date: 2016-03-18
+  date: 2018-03-18
   title: Friday hands-on activity
 -
-  date: 2016-03-21
+  date: 2018-03-21
   slides: http://crowdsourcing-class.org/slides/crowdsourcing-and-HCI.pdf
   title: Crowdsourcing and human computer interaction (HCI) design
   highlights:
@@ -411,7 +348,7 @@
       title: Real-Time Crowd Support for People with Disabilities (video)
       url: https://www.youtube.com/watch?v=oUebwz1QqOo
 -
-  date: 2016-03-23
+  date: 2018-03-23
   slides: http://crowdsourcing-class.org/slides/crowdsourcing-and-HCI.pdf
   title: Crowdsourcing and HCI part 2
   highlights:
@@ -427,13 +364,13 @@
       title:  EmailValet&#58; Managing Email Overload through Private, Accountable Crowdsourcing
       url: readings/downloads/hci/EmailValet.pdf
 -
-  date: 2016-03-25
+  date: 2018-03-25
   title: Withdraw deadline
 -
-  date: 2016-03-25
+  date: 2018-03-25
   title: Friday hands-on activity
 -
-  date: 2016-03-28
+  date: 2018-03-28
   title: Crowdsourcing Translation
   slides: http://crowdsourcing-class.org/slides/crowdsourcing-translation.pdf
   highlights:
@@ -453,7 +390,7 @@
       author: Rabih Zbib, Erika Malchiodi, Jacob Devlin, David Stallard, Spyros Matsoukas, Richard Schwartz, John Makhoul, Omar F. Zaidan, and Chris Callison-Burch
       url: http://www.cis.upenn.edu/~ccb/publications/machine-translation-of-arabic-dialects.pdf
 -
-  date: 2016-03-30
+  date: 2018-03-30
   title: The Wisdom of the Crowd Comes to Poetry
   speaker: Al Filreis
   speaker_url: http://writing.upenn.edu/~afilreis
@@ -464,10 +401,10 @@
       url: https://www.coursera.org/learn/modpo
 
 -
-  date: 2016-04-01
+  date: 2018-04-01
   title: Friday hands-on activity
 -
-  date: 2016-04-04
+  date: 2018-04-04
   title: Crowdsourcing for Automatic Speech Recognition
   slides: http://crowdsourcing-class.org/slides/crowdsourcing-speech-recognition.pdf
   highlights:
@@ -482,7 +419,7 @@
       title:  Crowdsourcing for Speech Processing&#58; Applications to Data Collection, Transcription and Assessment
       url: http://www.amazon.com/Crowdsourcing-Speech-Processing-Applications-Transcription/dp/1118358694/
 -
-  date: 2016-04-06
+  date: 2018-04-06
   title: A/B Testing
   slides: http://crowdsourcing-class.org/slides/ab-testing.pdf
   highlights:
@@ -519,7 +456,7 @@
       title:  We Experiment On Human Beings!
       url: http://blog.okcupid.com/index.php/we-experiment-on-human-beings/
 -
-  date: 2016-04-08
+  date: 2018-04-08
   speaker: Kristy Milland 
   speaker_url: http://www.kristymilland.com
   slides: http://crowdsourcing-class.org/slides/best-practices-of-best-requesters.pdf
@@ -542,7 +479,7 @@
       title: TurkerNation forum&colon; Requester How-Tos and FAQs
       url: http://turkernation.com/forumdisplay.php?131-Requester-How-Tos-amp-FAQs
 -
-  date: 2016-04-11
+  date: 2018-04-11
   title: Social Sciences and Human Subjects Research
   slides: http://crowdsourcing-class.org/slides/crowdsourcing-and-the-social-sciences.pdf
   highlights:
@@ -561,7 +498,7 @@
       title:  Penn's Institutional Review Board
       url: http://www.upenn.edu/IRB/mission-institutional-review-board-irb/guidance
 -
-  date: 2016-04-13
+  date: 2018-04-13
   title: Expert Crowds
   slides: http://crowdsourcing-class.org/slides/expert-crowds.pdf
   highlights:
@@ -577,14 +514,14 @@
       title:  STEP&#58; A Scalable Testing and Evaluation Platform
       url: http://www.ipeirotis.com/wp-content/uploads/2014/11/STEP_A_Scalable_Testing_and_Evaluation_Platform.pdf
 -
-  date: 2016-04-15
+  date: 2018-04-15
   title: Crowdsourcing A Meeting of Minds&colon; Designing the Future of Work
   slides: http://crowdsourcing-class.org/slides/bernstein-future-of-work.pdf
   speaker: Michael Bernstein 
   speaker_url: http://hci.stanford.edu/msb/
   abstract: Crowdsourcing is an increasingly powerful method where computation guides many amateurs' efforts in order to recreate an expert's abilities. However, across domains from design to engineering to art, few goals are truly the effort of just one person — even one expert. If we can now crowdsource simple tasks such as image labeling, how might computation coordinate many peoples' abilities toward far more complex and interdependent goals? In this talk, I present computational systems for gathering and guiding crowds of experts, including professional programmers, designers, singers and artists. The resulting collectives tackle problems modularly and at scale, dynamically grow and shrink depending on task demands, and combine into larger organizations. I'll demonstrate how computationally-enabled expert crowds can pursue goals such as designing new user experiences overnight, producing animated shorts in two days, and even pursuing novel research.
 -
-  date: 2016-04-20
+  date: 2018-04-20
   title: What data can tell us about sex and relationships
   slides: http://crowdsourcing-class.org/slides/speed-dating-okcupid.pdf
   reading:
@@ -601,7 +538,7 @@
       title:  OKCupid's blog (sadly now defunct)
       url: http://blog.okcupid.com/
 -
-  date: 2016-04-20
+  date: 2018-04-20
   title: How to make better forecasts
   speaker: Lyle Ungar 
   speaker_url: http://www.cis.upenn.edu/~ungar/
@@ -628,12 +565,12 @@
 
 
 -
-  date: 2016-04-22
+  date: 2018-04-22
   title: Prediction Markets
   slides: http://crowdsourcing-class.org/slides/prediction-markets.pdf
   speaker_url: http://www.seas.upenn.edu/~epavlick/
 -
-  date: 2016-04-25
+  date: 2018-04-25
   title: Real-time Crowdsourcing 
   speaker: Walter S. Lasecki, Assistant Professor, University of Michigan
   speaker_url: http://web.eecs.umich.edu/~wlasecki/
@@ -651,9 +588,41 @@
       title:  Apparition&colon; Crowdsourced User Interfaces That Come To Life As You Sketch Them
       url: readings/downloads/hci/scribe.pdf
 -
-  date: 2016-04-27
+  date: 2018-04-27
   title: Course wrap-up
   slides: http://crowdsourcing-class.org/slides/wrap-up.pdf
 -
-  date: 2016-05-05
-  title: Final Presentations will be held during the final exam slot on Thursday May 5th, 2016 from 9:00 to 11:00 (there are locations - LRSM Auditorium and Skirkanich Auditorium)
+  date: 2018-05-05
+  title: Final Presentations will be held during the final exam slot on Thursday May 5th, 2018 from 9:00 to 11:00 (there are locations - LRSM Auditorium and Skirkanich Auditorium)
+
+
+-
+  date: 2018-01-25
+  slides: http://crowdsourcing-class.org/slides/machine-learning.pdf
+  title: Machine Learning part 1
+  highlights:
+    - Examples of machine learning applications
+    - Bayes Rule 
+    - Reasoning with Probabilities
+  reading:
+    -
+      author: Hilary Mason
+      title:  Intro to Machine Learning in Python
+      url: http://shop.oreilly.com/product/0636920017493.do
+-
+  date: 2018-01-29
+  title: Friday hands-on activity&colon; Machine Learning - part 2
+  slides: http://crowdsourcing-class.org/slides/machine-learning-part-2.pdf
+  highlights:
+    - Labeled training data - what it is, where to get it, and how to put it in a format that a classifier will be able to use
+    - Walkthrough of building a classifier in Python
+    - We do the homework in front of your eyes
+    - Experiment design - training / test splits, overfitting, baselines, evaluation
+  reading:
+    -
+      title:  scikit-learn&#58; Machine Learning in Python (webpage with tutorials)
+      url: http://scikit-learn.org/stable/
+    -
+      author: Fabian Pedregosa and 15 others
+      title:  Scikit-learn&#58; Machine Learning in Python (short article in the Journal of Machine Learning Research)
+      url: http://www.jmlr.org/papers/volume12/pedregosa11a/pedregosa11a.pdf
