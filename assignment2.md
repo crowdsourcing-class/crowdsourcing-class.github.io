@@ -38,6 +38,22 @@ The {{deliverable.description}} is due before {{ deliverable.due_date | date: "%
 Market Research <span class="text-muted">: Assignment 2</span> 
 =============================================================
 This week we will be looking at the wealth of companies that use crowdsourcing as part of their business. Here’s a list of companies that you could research:
+
+[Clickworker](https://www.clickworker.com),
+[Field Agent](http://www.fieldagent.net),
+[Figure Eight](https://www.figure-eight.com),
+[Hilfr.dk](https://hilfr.dk),
+[The iLabour Project ](https://ilabour.oii.ox.ac.uk)
+[Indivisible](https://indivisible.org),
+[Patreon](https://www.patreon.com/home),
+[Prolific](https://prolific.ac),
+[Samasource](https://www.samasource.org/services),
+[TaskRabbit](https://www.taskrabbit.com),
+[Threadless](https://www.threadless.com/how-it-works/),
+[Upwork](https://www.upwork.com),
+[Zooniverse](https://www.zooniverse.org),
+
+<!--
 [99Designs](http://99designs.com),
 [airbnb](https://www.airbnb.com),
 [Apple HealthKit/ResearchKit](http://www.apple.com/researchkit/),
@@ -123,7 +139,7 @@ This week we will be looking at the wealth of companies that use crowdsourcing a
 [Zensors](http://zensors.com/),
 [Zombi Lingo (French)](http://zombilingo.org).
 You are also welcome to profile a [relevant company](http://www.crowdsourcing.org/uploads/CrowdSourcing-Industry-Landscape-v09.jpg) that is not on this list (but please verify your choice beforehand with the instructor). 
-
+-->
 
 
 This assignment has two deliverables:
