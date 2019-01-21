@@ -39,15 +39,18 @@ Market Research <span class="text-muted">: Assignment 2</span>
 =============================================================
 This week we will be looking at the wealth of companies that use crowdsourcing as part of their business. Here’s a list of companies that you could research:
 
+[5 Calls](https://5calls.org),
 [Clickworker](https://www.clickworker.com),
 [Field Agent](http://www.fieldagent.net),
 [Figure Eight](https://www.figure-eight.com),
 [Hilfr.dk](https://hilfr.dk),
-[The iLabour Project ](https://ilabour.oii.ox.ac.uk)
+[The iLabour Project](https://ilabour.oii.ox.ac.uk)
 [Indivisible](https://indivisible.org),
 [Patreon](https://www.patreon.com/home),
+[PredictIt](https://www.predictit.org),
 [Prolific](https://prolific.ac),
 [Samasource](https://www.samasource.org/services),
+[Scale API](https://scale.ai),
 [TaskRabbit](https://www.taskrabbit.com),
 [Threadless](https://www.threadless.com/how-it-works/),
 [Upwork](https://www.upwork.com),
