@@ -38,13 +38,13 @@ In this assignment you’ll choose at least 50 HITs to complete.  We’re going 
   * For the first 25 HITs that you do, use the [search tools provided by Mechanical Turk](https://worker.mturk.com/projects).
      Try to get a sense of the variety of tasks that are available, and the kinds of projects for which Mturk is being used. Once you sign up, you will see that you *can* complete this assignment by transcribing 50 receipts, but is it really worth it? 
   * You may notice that some tasks have pretty strict qualifications. Some of them are based on your amount of tasks completed or your task approval rate. You can see your qualifications [here](https://worker.mturk.com/qualifications/assigned).
-  * For your second 25 HITs, use the search tools provided on the [Crowd Workers web service](http://crowd-workers.com/new_work?ordering=-last_submitted,-available&only_favourites=false&min_available=1). *This is not required if you are using Sandbox version and do not have access to Crowd Workers.*
+  * For your second 25 HITs, use the search tools provided on the [Crowd Workers web service](http://crowd-workers.com/new_work?ordering=-last_submitted,-available&only_favourites=false&min_available=1). *You are not required to use Crowd Workers if you are using Sandbox version and do not have access to Crowd Workers.*
 4. There are several tools for better Turking. Please explore a few of these and give us your thoughts.
   * [HITs worth Turking for](http://www.reddit.com/r/HITsWorthTurkingFor/new/?sort=new) 
   * [MTurk Crowd](http://www.mturkcrowd.com)
 5. After you have finished working, please answer the following questions about your experience and turn in your answers using [the Homework 1 survey on Gradescope](https://www.gradescope.com/courses/36538). 
 
-**Note:** The Crowd Workers extension you tried is mostly likely the next big thing in crowdsourcing. Right now, it is still a startup in its humble beginnings, being run out of the coffee-cup strewn office of a mere tenure-track professor at an Ivy League university. Help it gain some credibility by leaving a review in the [Google Chrome store](https://chrome.google.com/webstore/detail/crowdworkers/aamdbafophajiecmhbnbakndfgjkfpce/reviews) (we can debate [ethics](http://www.nytimes.com/2013/09/23/technology/give-yourself-4-stars-online-it-might-cost-you.html?_r=0) later). You will get extra credit if you leave a review on the Google Chrome store, or if you the survey to provide us with a thoughtful critique about how to improve the plugin. 
+**Note:** The Crowd Workers extension you tried is mostly likely the next big thing in crowdsourcing. Right now, it is still a startup in its humble beginnings, being run out of the coffee-cup strewn office of a mere tenure-track professor at an Ivy League university. Help it gain some credibility by leaving a review in the [Google Chrome store](https://chrome.google.com/webstore/detail/crowdworkers/aamdbafophajiecmhbnbakndfgjkfpce/reviews) (we can debate [ethics](http://www.nytimes.com/2013/09/23/technology/give-yourself-4-stars-online-it-might-cost-you.html?_r=0) later).
 
 ### Suggested Readings
 
@@ -65,7 +65,7 @@ Below are the questions that you will be asked to answer about your experience a
 
 It is a good idea to write your answers in a file on you own computer, instead of typing them directly into Gradescope, so that you'll have a copy after you press the submit button. 
 
-Please put N/A in your survey answer for questions involving Crowd Workers while you do not have access to it.
+**Note:** Please put N/A in your survey answer for questions involving Crowd Workers if you do not have access to it.
 
 1. Did you successfully sign up as a Worker? 
 2. If you were unable to sign up as a worker, please give an explanation.
@@ -132,11 +132,6 @@ This assignment is worth 5% of your overall grade in the course. Please answer t
 	If you cannot create a Mechanical Turk worker account, [create a Mechanical Turk Sandbox account](<https://workersandbox.mturk.com/>). 
 
 	Mechanical Turk's “Sandbox” version is a test version of the Mechanical Turk marketplace. Requesters use it to test out tasks before publishing them. These tasks, despite showing a reward on the site, do not pay any money. Anyone who has an Amazon account can create a Sandbox account, and no SSN information is required.
-
-- **What should I do to survey questions involving Crowd Workers if I do not have access to it?**
-
-	If that is the case, please put N/A in your survey answer. 
-
 
 </div>
 </div>
