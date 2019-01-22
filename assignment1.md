@@ -6,6 +6,7 @@ title: Homework 1 "Become a Crowd Worker"
 active_tab: homework
 release_date: 2019-01-22
 due_date: 2019-01-29T23:59:00EST
+submission_link: https://www.gradescope.com/courses/36538
 ---
 
 <!-- Check whether the assignment is up to date -->
@@ -28,7 +29,7 @@ Become a Crowd Worker <span class="text-muted">: Assignment 1</span>
 
 The point of the first assignment is to get to acquainted with Mechanical Turk from the worker's perspective. The crowdsourcing platform allows us, the programmers, to work with humans as though they are function calls (fulfilling every antisocial CS student's dreams). Since, for the rest of the semester, you will be relying on crowd workers to complete work for you quickly and accurately, you should take this first assignment as an opportunity to understand your workers and the ways you can help them work best for you. Pay attention to what makes tasks interesting and attractive, how much each task pays, and whether you think the compensation is fair. We will ask you to turn in a short writeup describing your experience.
 
-You should be excited about this assignment! You may actually get *paid* to do it! For my 50 HITs, I made a full $1.14. That is a far better return than the terrible stock which I am holding for no good reason. So go! Have fun!
+You should be excited about this assignment! You may actually get *paid* to do it! For my 50 HITs, I made a full $1.14. Only 438 more HITs to go before I can go downstairs and buy lunch at the Franklin Table food court. So go! Have fun!
 
 In this assignment you’ll choose at least 50 HITs to complete.  We’re going to do an experiment to compare how much money you make under two conditions.  The first condition is using the MTurk interface, and the second condition is using a productivity tool that your instructor has built, called [Crowd Workers](http://crowd-workers.com/landing). 
 
@@ -40,11 +41,12 @@ In this assignment you’ll choose at least 50 HITs to complete.  We’re going 
   * You may notice that some tasks have pretty strict qualifications. Some of them are based on your amount of tasks completed or your task approval rate. You can see your qualifications [here](https://worker.mturk.com/qualifications/assigned).
   * For your second 25 HITs, use the search tools provided on the [Crowd Workers web service](http://crowd-workers.com/new_work?ordering=-last_submitted,-available&only_favourites=false&min_available=1). *You are not required to use Crowd Workers if you are using Sandbox version and do not have access to Crowd Workers.*
 4. There are several tools for better Turking. Please explore a few of these and give us your thoughts.
+  * [TurkerView](https://turkerview.com)
   * [HITs worth Turking for](http://www.reddit.com/r/HITsWorthTurkingFor/new/?sort=new) 
   * [MTurk Crowd](http://www.mturkcrowd.com)
-5. After you have finished working, please answer the following questions about your experience and turn in your answers using [the Homework 1 survey on Gradescope](https://www.gradescope.com/courses/36538). 
+5. After you have finished working, please answer the following questions about your experience and turn in your answers using [the Homework 1 survey on Gradescope]({{page.submission_link}}). 
 
-**Note:** The Crowd Workers extension you tried is mostly likely the next big thing in crowdsourcing. Right now, it is still a startup in its humble beginnings, being run out of the coffee-cup strewn office of a mere tenure-track professor at an Ivy League university. Help it gain some credibility by leaving a review in the [Google Chrome store](https://chrome.google.com/webstore/detail/crowdworkers/aamdbafophajiecmhbnbakndfgjkfpce/reviews) (we can debate [ethics](http://www.nytimes.com/2013/09/23/technology/give-yourself-4-stars-online-it-might-cost-you.html?_r=0) later).
+**Note:** The Crowd Workers is extension it you tried is like totally the next big thing in crowdsourcing. It started with humble beginnings, being run out of the coffee-cup strewn office of a mere tenure-track professor at an Ivy League university. Help it gain some credibility by leaving a review of it in the [Google Chrome store](https://chrome.google.com/webstore/detail/crowdworkers/aamdbafophajiecmhbnbakndfgjkfpce/reviews).
 
 ### Suggested Readings
 
@@ -56,12 +58,30 @@ In this assignment you’ll choose at least 50 HITs to complete.  We’re going 
 * [A Data-Driven Analysis of Workers’ Earnings on
   Amazon Mechanical Turk](https://www.cs.cmu.edu/~jbigham/pubs/pdfs/2018/crowd-earnings.pdf) by Kotaro Hara, Abigail Adams, Kristy Milland, Saiph Savage, Chris Callison-Burch, and Jeffrey P. Bigham
 
+  
+
+<div class="panel panel-info" id="faq">
+<div class="panel-heading" markdown="1">
+#### FAQ
+</div>
+<div class="panel-body" markdown="1">
+- **What should I do if Amazon rejects my application to be a Mechanical Turk worker (or rejects my Amazon Payments account, which has the same effect)?**
+
+	If you cannot create a Mechanical Turk worker account, [create a Mechanical Turk Sandbox account](<https://workersandbox.mturk.com/>). 
+
+	Mechanical Turk's “Sandbox” version is a test version of the Mechanical Turk marketplace. Requesters use it to test out tasks before publishing them. These tasks, despite showing a reward on the site, do not pay any money. Anyone who has an Amazon account can create a Sandbox account, and no SSN information is required.
+
+	The Crowd Workers extension doesn't work with the workersandbox, so please put  N/A in your survey answers for questions involving Crowd Workers if you do not have access to it.
+
+</div>
+</div>
+
 <div class="panel panel-primary" id="survey">
 <div class="panel-heading" markdown="1">
 #### Survey Questions
 </div>
 <div class="panel-body" markdown="1">
-Below are the questions that you will be asked to answer about your experience as a Crowd Worker.  Please turn in your answers using [the Homework 1 survey on Gradescope](https://www.gradescope.com/courses/36538).
+Below are the questions that you will be asked to answer about your experience as a Crowd Worker.  Please turn in your answers using [the Homework 1 survey on Gradescope]({{page.submission_link}}).
 
 It is a good idea to write your answers in a file on you own computer, instead of typing them directly into Gradescope, so that you'll have a copy after you press the submit button. 
 
@@ -116,22 +136,7 @@ It is a good idea to write your answers in a file on you own computer, instead o
 </div>
 
 <div class="panel-body" markdown="1">
-This assignment is worth 5% of your overall grade in the course. Please answer the survey questions thoughtfully.
+This assignment is worth approximately 5% of your overall grade in the course. Please answer the survey questions thoughtfully.
 </div>
 </div>
 
-
-
-<div class="panel panel-info" id="faq">
-<div class="panel-heading" markdown="1">
-#### FAQ
-</div>
-<div class="panel-body" markdown="1">
-- **What should I do if Amazon rejects my application to be a Mechanical Turk worker (or rejects my Amazon Payments account, which has the same effect)?**
-
-	If you cannot create a Mechanical Turk worker account, [create a Mechanical Turk Sandbox account](<https://workersandbox.mturk.com/>). 
-
-	Mechanical Turk's “Sandbox” version is a test version of the Mechanical Turk marketplace. Requesters use it to test out tasks before publishing them. These tasks, despite showing a reward on the site, do not pay any money. Anyone who has an Amazon account can create a Sandbox account, and no SSN information is required.
-
-</div>
-</div>
