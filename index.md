@@ -10,7 +10,7 @@ active_tab: main_page
 Crowdsourcing and human computation are emerging fields that sit squarely at the intersection of economics and computer science. They examine how people can be used to solve complex tasks that are currently beyond the capabilities of artificial intelligence algorithms. Online marketplaces like [Mechanical Turk](https://www.mturk.com/) and [Figure Eight](https://www.figure-eight.com) provide an infrastructure that allows micropayments to be given to people in return for completing human intelligence tasks. This opens up previously unthinkable possibilities like people being used as function calls in software. We will investigate how crowdsourcing can be used for computer science applications like machine learning, next-generation interfaces, and data mining. Beyond these computer science aspects, we will also delve into topics like the sharing economy, prediction markets, how businesses can capitalize on collective intelligence, and the fundamental principles that underlie democracy and other group decision-making processes.
 
 <div class="alert alert-info">
-NETS 213 will be offered in Spring 2019!  The lectures will be Tuesday and Thursday 3-4:30pm.  To request permission to the enroll in the course, you can sign up for <a href="https://forms.cis.upenn.edu/waitlist/index.php">the waitlist</a>, starting on Monday Oct 29.
+[How many jellybens are in the jar?](https://docs.google.com/forms/d/e/1FAIpQLSd7Cw_J-dXQqT6mzGR9kZN3u6DSnVaLism2Z84SyyLUdIdbMw/viewform?usp=sf_link)
 </div>
 
 <!--
