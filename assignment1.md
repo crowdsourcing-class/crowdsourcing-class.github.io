@@ -46,7 +46,7 @@ In this assignment you’ll choose at least 50 HITs to complete.  We’re going 
   * [MTurk Crowd](http://www.mturkcrowd.com)
 5. After you have finished working, please answer the following questions about your experience and turn in your answers using [the Homework 1 survey on Gradescope]({{page.submission_link}}). 
 
-**Note:** The Crowd Workers is extension it you tried is like totally the next big thing in crowdsourcing. It started with humble beginnings, being run out of the coffee-cup strewn office of a mere tenure-track professor at an Ivy League university. Help it gain some credibility by leaving a review of it in the [Google Chrome store](https://chrome.google.com/webstore/detail/crowdworkers/aamdbafophajiecmhbnbakndfgjkfpce/reviews).
+**Note:** The Crowd Workers extension you tried is like totally the next big thing in crowdsourcing. It started with humble beginnings, being run out of the coffee-cup strewn office of a mere tenure-track professor at an Ivy League university. Help it gain some credibility by leaving a review of it in the [Google Chrome store](https://chrome.google.com/webstore/detail/crowdworkers/aamdbafophajiecmhbnbakndfgjkfpce/reviews).
 
 ### Suggested Readings
 
