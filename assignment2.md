@@ -49,6 +49,7 @@ This week we will be looking at the wealth of companies that use crowdsourcing a
 [Patreon](https://www.patreon.com/home),
 [PredictIt](https://www.predictit.org),
 [Prolific](https://prolific.ac),
+[PsiTurk](https://psiturk.org),
 [Samasource](https://www.samasource.org/services),
 [Scale API](https://scale.ai),
 [TaskRabbit](https://www.taskrabbit.com),
