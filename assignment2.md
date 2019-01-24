@@ -65,7 +65,6 @@ This week we will be looking at the wealth of companies that use crowdsourcing a
 [Figure Eight](https://www.figure-eight.com),
 [Flattr](https://flattr.com),
 [Freelancer](https://www.freelancer.com/),
-[Figure Eight](https://www.figure-eight.com),
 [Genius](https://genius.com/),
 [GoFundMe](https://www.gofundme.com/),
 [Good Judgment Open](https://www.gjopen.com),
