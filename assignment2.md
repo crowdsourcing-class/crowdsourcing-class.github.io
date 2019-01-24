@@ -37,7 +37,7 @@ The {{deliverable.description}} is due before {{ deliverable.due_date | date: "%
 
 Market Research <span class="text-muted">: Assignment 2</span> 
 =============================================================
-This week we will be looking at the wealth of companies that use crowdsourcing as part of their business. Here’s a list of companies that you could research:
+This week we will be looking at the wealth of companies and projects that use crowdsourcing as part of their business. Here’s a list of companies and projects that you could research:
 
 [5 Calls](https://5calls.org),
 [99Designs](http://99designs.com),
