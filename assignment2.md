@@ -105,12 +105,12 @@ This week we will be looking at the wealth of companies that use crowdsourcing a
 [Qualtrics](http://www.qualtrics.com/),
 [Samasource](http://samasource.org),
 [Scale](https://scale.ai),
-[scistarter](http://scistarter.com),
+[Scistarter](http://scistarter.com),
 [Sunshine](http://www.slate.com/blogs/future_tense/2015/03/27/apple_watch_could_make_you_a_walking_weather_station.html),
 [TaskRabbit](https://www.taskrabbit.com),
 [Threadless](https://www.threadless.com/how-it-works/),
 [Thumbtack](http://www.thumbtack.com/),
-[topcoder](http://www.topcoder.com),
+[Topcoder](http://www.topcoder.com),
 [TurkOpticon](http://turkopticon.ucsd.edu),
 [TurkPrime](https://www.turkprime.com),
 [TurkServer](http://dash.harvard.edu/bitstream/handle/1/11956911/Parkes_TurkServer.pdf?sequence=1),
@@ -124,8 +124,7 @@ This week we will be looking at the wealth of companies that use crowdsourcing a
 [XPRIZE](http://www.xprize.org),
 [Yelp](http://www.yelp.com/),
 [Zensors](http://zensors.com/),
-[Zombi Lingo (French)](http://zombilingo.org).
-[Zooniverse](https://www.zooniverse.org),
+[Zooniverse](https://www.zooniverse.org).
 
 <!--
 
