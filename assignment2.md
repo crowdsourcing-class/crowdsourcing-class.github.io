@@ -139,7 +139,7 @@ This assignment has two deliverables:
 
 This assignment can be done individually or in pairs.
 
-First, please [sign up for a company or project](https://docs.google.com/spreadsheets/d/1dmTheLr1zzSzF4ci9hWIPNkO7sTHcXV3quwocPKr95o/edit?usp=sharing).  Please do not pick a company that another team has already signed up for.  If there’s a company that you’d like to research that isn’t on the list, you are welcome to ask the instructor or the TA to ask if it is OK.  
+First, please [sign up for a company or project](https://docs.google.com/spreadsheets/d/14feAFi0wqhkE2nW7hEDAL9EOczxvCFvqflZRYbSa_CI/edit?usp=sharing).  Please do not pick a company that another team has already signed up for.  If there’s a company that you’d like to research that isn’t on the list, you are welcome to ask the instructor or the TA to ask if it is OK.  
 
 You should independently research the company, and then [fill in your answers about it in this questionnaire](https://docs.google.com/forms/d/1fxe5cwKqM5M2J6NGAsqC30hvNQ0JX4woJV0zOZhRNsU/viewform?usp=send_form).  Your short answers to these questions on  {{ page.deliverables[0].due_date | date: "%A, %B %-d, %Y" }}.  Remember to save your survey answers on your own computer, so that you can have a copy to use when you do your video profile.
 
