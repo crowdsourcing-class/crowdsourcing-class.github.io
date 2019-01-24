@@ -50,8 +50,8 @@
   recording: 
   readings:
     -
-      authors: Kotaro Hara, Abigail Adams, Kristy Milland, Saiph Savage  Chris Callison-Burch, Jeffrey P. Bigham
-      title: A Data-Driven Analysis of Workers’ Earnings on Amazon Mechanical Turk
+      authors: Kotaro Hara, Abi Adams, Kristy Milland, Saiph Savage, Chris Callison-Burch and Jeff Bigham
+      title: A Data-Driven Analysis of Workers' Earnings on Amazon Mechanical Turk
       url: https://www.cis.upenn.edu/~ccb/publications/data-driven-analysis-of-workers-earnings-on-amazon-mechanical-turk.pdf
     -
       authors: Pew Research Center
@@ -65,5 +65,6 @@
       authors: The Supreme Court of California
       title: Decision on workers classified as employees or as independent contractors
       url: https://www.uberlawsuit.com/Dynamex%20.pdf
+
 
 
