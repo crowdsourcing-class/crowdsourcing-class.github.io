@@ -94,7 +94,7 @@ This week we will be looking at the wealth of companies that use crowdsourcing a
 [Orchestra](http://orchestra.unlimitedlabs.com),
 [PatientsLikeMe](http://www.patientslikeme.com),
 [Patreon](https://www.patreon.com/home),
-[Polis](https://pol.is/home)
+[Polis](https://pol.is/home),
 [Postmates](https://postmates.com),
 [PredictIt](https://www.predictit.org),
 [PredictWise](http://www.predictwise.com/),
