@@ -9,9 +9,18 @@ active_tab: main_page
 
 Crowdsourcing and human computation are emerging fields that sit squarely at the intersection of economics and computer science. They examine how people can be used to solve complex tasks that are currently beyond the capabilities of artificial intelligence algorithms. Online marketplaces like [Mechanical Turk](https://www.mturk.com/) and [Figure Eight](https://www.figure-eight.com) provide an infrastructure that allows micropayments to be given to people in return for completing human intelligence tasks. This opens up previously unthinkable possibilities like people being used as function calls in software. We will investigate how crowdsourcing can be used for computer science applications like machine learning, next-generation interfaces, and data mining. Beyond these computer science aspects, we will also delve into topics like the sharing economy, prediction markets, how businesses can capitalize on collective intelligence, and the fundamental principles that underlie democracy and other group decision-making processes.
 
+<!--
 <div class="alert alert-info">
 <a href="https://docs.google.com/forms/d/e/1FAIpQLSd7Cw_J-dXQqT6mzGR9kZN3u6DSnVaLism2Z84SyyLUdIdbMw/viewform?usp=sf_link">How many jellybeans are in the jar?</a>
 </div>
+-->
+
+
+<div class="alert alert-info">
+Are you a student who didn't get a permit, but you're still interested in enrolling the course? If so, <a href="https://docs.google.com/forms/d/e/1FAIpQLScHVWrUy3fupHdlaE4MDC5CTzXdq5ZIDrexwN8w6lUUU_AVoQ/viewform?usp=sf_link">please fill out this form</a>.
+</div>
+
+
 
 <!--
 
