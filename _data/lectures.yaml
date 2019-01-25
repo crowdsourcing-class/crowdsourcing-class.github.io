@@ -1,7 +1,8 @@
 -
   date: 2019-01-17
-  slides: http://crowdsourcing-class.org/slides/class-intro.pdf
+  slides: class-intro.pdf
   title: Intro Lecture
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e430eacc-e1d2-43f3-acb6-a9d80148c3be
   readings:
     -
       title: The Wisdom of Crowds&colon; Introduction
@@ -12,4 +13,58 @@
       authors: International Labour Oranization
       url: https://www.ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/---publ/documents/publication/wcms_645337.pdf
       local_url: http://crowdsourcing-class.org/readings/digital-labour-platforms-and-the-future-of-work-ILO-report.pdf
+-
+  date: 2019-01-22
+  slides: crowd-workers.pdf
+  title: Crowd Workers
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e6d3ea8c-1218-40f4-be2a-a9d8015332cb
+  readings:
+    -
+      authors: Jeff Bigham
+      title:  My MTurk (half) Workday
+      url: http://www.cs.cmu.edu/~jbigham/posts/2014/half-workday-as-turker.html
+    -
+      authors: Lilly Irani and Six Silberman
+      title: Turkopticon&colon; Interrupting Worker Invisibility in Amazon Mechanical Turk
+      url: http://crowdsourcing-class.org/readings/downloads/ethics/turkopticon.pdf
+    -
+      authors: Chris Callison-Burch
+      title: Crowd-Workers&colon; Aggregating Information Across Turkers To Help Them Find Higher Paying Work
+      url: http://crowdsourcing-class.org/readings/downloads/ethics/crowd-workers.pdf
+    -
+      authors: Ben Bederson and Alex Quinn
+      title: Web Workers, Unite! Addressing Challenges of Online Laborers
+      url: http://crowdsourcing-class.org/readings/downloads/ethics/web-workers-unite.pdf 
+    -
+      authors: David Martin, Benjamin Hanrahan, Jacki O’Neill and Neha Gupta
+      title: Being A Turker
+      url: http://crowdsourcing-class.org/readings/downloads/ethics/being-a-turker.pdf
+    -
+      authors: Karen Fort, Gilles Adda and Bretonnel Cohen 
+      title: Amazon Mechanical Turk&#58; Gold Mine or Coal Mine?
+      url: http://crowdsourcing-class.org/readings/downloads/ethics/gold-mine-or-coal-mine.pdf
+-
+  date: 2019-01-24
+  slides: crowd-workers-2.pdf
+  title: Gig Work and the Platform Economy
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=92b43d6b-6621-4715-82b1-a9d8015333b1
+  readings:
+    -
+      authors: Kotaro Hara, Abi Adams, Kristy Milland, Saiph Savage, Chris Callison-Burch and Jeff Bigham
+      title: A Data-Driven Analysis of Workers' Earnings on Amazon Mechanical Turk
+      url: https://www.cis.upenn.edu/~ccb/publications/data-driven-analysis-of-workers-earnings-on-amazon-mechanical-turk.pdf
+    -
+      authors: Pew Research Center
+      title:  Gig Work, Online Selling and Home Sharing
+      url: http://www.pewinternet.org/2016/11/17/gig-work-online-selling-and-home-sharing/
+    -
+      authors: JPMorgan Chase Institute
+      title: Paychecks, Paydays, and the Online Platform Economy
+      url: https://www.jpmorganchase.com/corporate/institute/document/jpmc-institute-volatility-2-report.pdf
+    -
+      authors: The Supreme Court of California
+      title: Decision on workers classified as employees or as independent contractors
+      url: https://www.uberlawsuit.com/Dynamex%20.pdf
+
+
 
