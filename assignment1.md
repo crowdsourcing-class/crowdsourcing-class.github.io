@@ -77,6 +77,10 @@ In this assignment you’ll choose at least 50 HITs to complete.  We’re going 
 
   An alternative to Crowdworkers is Greasy Fork, which can help get information on your overall hourly wage as well as different requesters' hourly wages. Here are [instructions](https://greasyfork.org/en/help/installing-user-scripts) on how to get a web extension for your browser to load the Greasy Fork script, and here's a [link](https://greasyfork.org/en/scripts/31108-mturk-hourly) to download the script. Once you have the script loaded, you should be able to see hourly wage information on your mechanical turk [dashboard](https://worker.mturk.com/dashboard) page. On the dashboard, click on a given date, and you should be able to see the HIT(s) that you did, what their rewards were, and what their hourly wages are. 
 
+- **After loading Greasy Fork, why are all the hourly wages on the MTurk dashboard listed as N/A?**
+
+  Greasy Fork does not track previous tasks. It will give an associated hourly wage to the tasks you complete after enabling the feature.
+
 </div>
 </div>
 
