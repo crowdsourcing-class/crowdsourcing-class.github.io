@@ -34,7 +34,7 @@ You should be excited about this assignment! You may actually get *paid* to do i
 In this assignment you’ll choose at least 50 HITs to complete.  We’re going to do an experiment to compare how much money you make under two conditions.  The first condition is using the MTurk interface, and the second condition is using a productivity tool that your instructor has built, called [Crowd Workers](http://crowd-workers.com/landing). 
 
 1. Sign up for MTurk as a worker [here](https://www.mturk.com/mturk/welcome).  Please do this as early as possible, since it can take 48 hours or more to have your account approved.  Foreign students may have problems signing up since Amazon now requires a Social Security Number. Problems have also arisen when students attempt to set up an Amazon Payments account, which is required by MTurk (this problem can sometimes be resolved by faxing a government ID). <a href = "#faq"> *If you are not able to create an account, follow the instructions in the FAQ section to create a MTurk Sandbox account.* </a>
-2. Install the [Crowd Workers](http://crowd-workers.com/landing) Google Chrome extension. This will track and help you to analyze the work that you’ve done. Please use the Google Chrome web browser with the Crowd Workers plugin installed for all of this homework assignment. *This is not required if you are using Sandbox version and do not have access to Crowd Workers.*
+2. Install the [Crowd Workers](http://crowd-workers.com/landing) Google Chrome extension. This will track and help you to analyze the work that you’ve done. Please use the Google Chrome web browser with the Crowd Workers plugin installed for all of this homework assignment. *This is not required if you are using Sandbox version and do not have access to Crowd Workers.* *If you're using the regular mechanical turk version, please see the <a href = "#faq">FAQ section</a> below to use the Greasy Fork extension as an alternative.*
 3. Next, choose at least 50 HITs to complete.  You should pick a goal for yourself.  You can try to make as much money as you can, or you try to make the highest hourly rate that you can. 
   * For the first 25 HITs that you do, use the [search tools provided by Mechanical Turk](https://worker.mturk.com/projects).
      Try to get a sense of the variety of tasks that are available, and the kinds of projects for which Mturk is being used. Once you sign up, you will see that you *can* complete this assignment by transcribing 50 receipts, but is it really worth it? 
@@ -68,10 +68,14 @@ In this assignment you’ll choose at least 50 HITs to complete.  We’re going 
 - **What should I do if Amazon rejects my application to be a Mechanical Turk worker (or rejects my Amazon Payments account, which has the same effect)?**
 
 	If you cannot create a Mechanical Turk worker account, [create a Mechanical Turk Sandbox account](<https://workersandbox.mturk.com/>). 
-
+	
 	Mechanical Turk's “Sandbox” version is a test version of the Mechanical Turk marketplace. Requesters use it to test out tasks before publishing them. These tasks, despite showing a reward on the site, do not pay any money. Anyone who has an Amazon account can create a Sandbox account, and no SSN information is required.
-
+	
 	The Crowd Workers extension doesn't work with the workersandbox, so please put  N/A in your survey answers for questions involving Crowd Workers if you do not have access to it.
+
+- **What should I do if Crowdworkers isn't showing information for my completed tasks?**
+
+  An alternative to Crowdworkers is Greasy Fork, which can help get information on your overall hourly wage as well as different requesters' hourly wages. Here are [instructions](https://greasyfork.org/en/help/installing-user-scripts) on how to get a web extension for your browser to load the Greasy Fork script, and here's a [link](https://greasyfork.org/en/scripts/31108-mturk-hourly) to download the script. Once you have the script loaded, you should be able to see hourly wage information on your mechanical turk [dashboard](https://worker.mturk.com/dashboard) page. On the dashboard, click on a given date, and you should be able to see the HIT(s) that you did, what their rewards were, and what their hourly wages are. 
 
 </div>
 </div>
@@ -108,8 +112,8 @@ It is a good idea to write your answers in a file on you own computer, instead o
 * No
 12. If you did have a HIT rejected, what reason did the Requester give?
 13. What types of tasks did you do, and how did you pick them?
-14. What was the highest paying HIT that you completed?  Find it on Crowd Workers [here](http://crowd-workers.com/analytics?ordering=-reward) and then click on the HIT title, and copy-and-paste a link to the HIT group.
-15. What HIT paid you the highest hourly rate? Sort by "My hourly rate" on Crowd Workers [here](http://crowd-workers.com/analytics) and then click on the HIT title, and copy-and-paste a link to the HITgroup.
+14. What was the highest paying HIT that you completed?  Find it on Crowd Workers [here](http://crowd-workers.com/analytics?ordering=-reward) and then click on the HIT title, and copy-and-paste a link to the HIT group. You can also go through your HITs on the Dashboard to see which one is highest paying.
+15. What HIT paid you the highest hourly rate? Sort by "My hourly rate" on Crowd Workers [here](http://crowd-workers.com/analytics) and then click on the HIT title, and copy-and-paste a link to the HITgroup. Please follow the instructions in the FAQ to find this HIT if you used Greasy Fork.
 16. Describe the most interesting or weirdest or most fun HIT that you found.  Write a couple of sentences describing it.
 17. Which do you think provides a better way of discovering work? What is the reason? If other, please specify.
 * Crowd Workers 
