@@ -122,7 +122,7 @@ It is a good idea to write your answers in a file on you own computer, instead o
 18. Would you recommend Crowd Workers to other Turkers? 
 * Yes 
 * No
-19. What would you do to improve the Crowd Worker site to make it easier for users to find higher paying work?
+19. What would you do to improve the Crowd Worker site to make it easier for users to find higher paying work? If Crowd Workers didn't work for you, what feature would you add to Mechanical Turk to make it easier for workers to find higher paying tasks?
 20. Did you check out any of the other Turker productivity sites or try any productivity plugins? 
 * HITS worth Turking for 
 * MTurk Crowd
