@@ -1,6 +1,6 @@
 -
   date: 2019-01-17
-  slides: http://crowdsourcing-class.org/slides/class-intro.pdf
+  slides: slides/class-intro.pdf
   title: Intro Lecture
   recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e430eacc-e1d2-43f3-acb6-a9d80148c3be
   readings:
@@ -15,7 +15,7 @@
       local_url: http://crowdsourcing-class.org/readings/digital-labour-platforms-and-the-future-of-work-ILO-report.pdf
 -
   date: 2019-01-22
-  slides: http://crowdsourcing-class.org/slides/class-intro.pdf
+  slides: slides/class-intro.pdf
   title: Crowd Workers
   recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e6d3ea8c-1218-40f4-be2a-a9d8015332cb
   readings:
@@ -45,9 +45,9 @@
       url: http://crowdsourcing-class.org/readings/downloads/ethics/gold-mine-or-coal-mine.pdf
 -
   date: 2019-01-22
-  slides: http://crowdsourcing-class.org/slides/class-intro.pdf
+  slides: slides/class-intro.pdf
   title: Gig Work and the Platform Economy
-  recording: 
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=92b43d6b-6621-4715-82b1-a9d8015333b1
   readings:
     -
       authors: Kotaro Hara, Abi Adams, Kristy Milland, Saiph Savage, Chris Callison-Burch and Jeff Bigham
