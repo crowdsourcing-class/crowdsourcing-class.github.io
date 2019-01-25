@@ -4,15 +4,15 @@ img: launching-a-start-up
 caption: Crowdsource your startup!
 title: Homework 2 "Market Research"
 active_tab: homework
-release_date: 2016-01-22
-due_date: 2016-02-12T14:00:00EST
+release_date: 2019-01-29
+due_date: 2019-02-05T23:59:00EST
 deliverables:
     -
       description: written survey
-      due_date: 2016-01-29T14:00:00EST
+      due_date: 2019-02-05T23:59:00EST
     -
       description: video 
-      due_date: 2016-02-12T14:00:00EST
+      due_date: 2019-02-12T23:59:00EST
 ---
 
 <!-- Check whether the assignment is up to date -->
@@ -132,19 +132,19 @@ You are also welcome to profile a [relevant company](http://www.crowdsourcing.or
 -->
 
 
-This assignment has two deliverables:
+This assignment has one required deliverable (the second is optional):
 
 1. Answering [a questionnaire](https://docs.google.com/forms/d/1fxe5cwKqM5M2J6NGAsqC30hvNQ0JX4woJV0zOZhRNsU/viewform?usp=send_form) about the company or project that you are researching. This is due before {{ page.deliverables[0].due_date | date: "%I:%M%p" }} on {{ page.deliverables[0].due_date | date: "%A, %B %-d, %Y" }}.  If you are working with a partner, only one of you needs to submit the questionnaire. **Please save your survey answers in a file on your own computer**, so that you can have a copy to use when you do your video profile.
-2. A video presentation about the company.  Several of the best videos will be selected for in-class presentations on Fridays.  Teams whose videos are selected will receive extra credit. his is due before {{ page.deliverables[1].due_date | date: "%I:%M%p" }}  on {{ page.deliverables[1].due_date | date: "%A, %B %-d, %Y" }}.  You can submit a link to your video on [this form](https://docs.google.com/forms/d/1y2ObY-Vvgc-_3r8HG8SyTIP5ofA35xxZcwNl1RJf4nc/viewform).
+2. A video presentation about the company.  Several of the best videos will be selected for in-class presentations.  Teams whose videos are selected will receive extra credit. This is due before {{ page.deliverables[1].due_date | date: "%I:%M%p" }}  on {{ page.deliverables[1].due_date | date: "%A, %B %-d, %Y" }}.  You can submit a link to your video on [this form](https://docs.google.com/forms/d/1y2ObY-Vvgc-_3r8HG8SyTIP5ofA35xxZcwNl1RJf4nc/viewform).
 
-This assignment can be done individually or in pairs.
+This assignment should be done in pairs.
 
 First, please [sign up for a company or project](https://docs.google.com/spreadsheets/d/14feAFi0wqhkE2nW7hEDAL9EOczxvCFvqflZRYbSa_CI/edit?usp=sharing).  Please do not pick a company that another team has already signed up for.  If there’s a company that you’d like to research that isn’t on the list, you are welcome to ask the instructor or the TA to ask if it is OK.  
 
 You should independently research the company, and then [fill in your answers about it in this questionnaire](https://docs.google.com/forms/d/1fxe5cwKqM5M2J6NGAsqC30hvNQ0JX4woJV0zOZhRNsU/viewform?usp=send_form).  Your short answers to these questions on  {{ page.deliverables[0].due_date | date: "%A, %B %-d, %Y" }}.  Remember to save your survey answers on your own computer, so that you can have a copy to use when you do your video profile.
 
 
-You will record a short 5 to 7 minute video presentation about your company. Your presentation should address the following questions:
+You can optionally record a short 5 to 7 minute video presentation about your company. Your presentation should address the following questions:
 
 - What incentives does it offer to get people to participate?
 - How does it aggregate the information provided by the crowd?
@@ -238,19 +238,14 @@ Below are the questions that you will be asked to answer about the company or pr
 
 This assignment is worth 10 points of your overall grade in the course.  The rubric for the assignment is given below.
 
-* 5 points - answering the survey questions thoughtfully.
-  - 1 point for clearly describing what role crowdsourcing plays in the company or project
-  - 1 point for explaining who makes up the crowd, whether they are experts or non-experts, what incentives the company provides to get them to participate
-  - 1 point for explaining any quality issues that arise from the use of crowdsourcing and how the company addresses it
-  - 1 point for discussing scalability, or controversial issues
-  - 1 point for answering all of survey questions
+* 10 points - answering the survey questions thoughtfully.
+  - 2 points for clearly describing what role crowdsourcing plays in the company or project
+  - 2 points for explaining who makes up the crowd, whether they are experts or non-experts, what incentives the company provides to get them to participate
+  - 2 points for explaining any quality issues that arise from the use of crowdsourcing and how the company addresses it
+  - 2 points for discussing scalability, or controversial issues
+  - 2 points for answering all of survey questions
   - Extra credit (up to 1 point) - for an especially entertaining, exciting or otherwise engaging writeup 
   - Extra credit (up to 1 point) - if you conduct an interview with someone who provides the services, or if you make a substantial contribution to the service yourself. 
-* 5 points total for the video
-  - 2 point for relevance to the themes of the class
-  - 1 point for the narration
-  - 1 point for the quality of the audio (we recommend using an external microphone)
-  - 1 point for a compelling visual accompaniment  
   - Extra credit (up to 2 points) - if your video is selected for presentation in class, you will receive extra credit.
 </div>
 </div>
