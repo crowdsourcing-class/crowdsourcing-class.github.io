@@ -39,7 +39,7 @@ In this assignment you’ll choose at least 50 HITs to complete.  We’re going 
   * For the first 25 HITs that you do, use the [search tools provided by Mechanical Turk](https://worker.mturk.com/projects).
      Try to get a sense of the variety of tasks that are available, and the kinds of projects for which Mturk is being used. Once you sign up, you will see that you *can* complete this assignment by transcribing 50 receipts, but is it really worth it? 
   * You may notice that some tasks have pretty strict qualifications. Some of them are based on your amount of tasks completed or your task approval rate. You can see your qualifications [here](https://worker.mturk.com/qualifications/assigned).
-  * For your second 25 HITs, use the search tools provided on the [Crowd Workers web service](http://crowd-workers.com/new_work?ordering=-last_submitted,-available&only_favourites=false&min_available=1). *You are not required to use Crowd Workers if you are using Sandbox version and do not have access to Crowd Workers.*
+  * For your second 25 HITs, use the search tools provided on the [Crowd Workers web service](http://crowd-workers.com/new_work?ordering=-last_submitted,-available&only_favourites=false&min_available=1). *You are not required to use Crowd Workers if you are using Sandbox version and do not have access to Crowd Workers. If Crowd Workers isn't providing you search results, then you may continue using Mechanical Turk's search tools for the second 25 tasks.*
 4. There are several tools for better Turking. Please explore a few of these and give us your thoughts.
   * [TurkerView](https://turkerview.com)
   * [HITs worth Turking for](http://www.reddit.com/r/HITsWorthTurkingFor/new/?sort=new) 
