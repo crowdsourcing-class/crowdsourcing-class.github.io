@@ -369,13 +369,4 @@ This assignment is worth 10 points of your overall grade in the course.  The rub
 </ul>
 <br />
 </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-      </td>
-    </tr>
     {% endfor %}
-  </tbody>
-</table>
