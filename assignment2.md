@@ -6,6 +6,7 @@ title: Homework 2 "Market Research"
 active_tab: homework
 release_date: 2019-01-29
 due_date: 2019-02-05T23:59:00EST
+submission_link: https://www.gradescope.com/courses/36538
 deliverables:
     -
       description: written survey
@@ -134,14 +135,14 @@ You are also welcome to profile a [relevant company](http://www.crowdsourcing.or
 
 This assignment has one required deliverable (the second is optional):
 
-1. Answering [a questionnaire](https://docs.google.com/forms/d/1fxe5cwKqM5M2J6NGAsqC30hvNQ0JX4woJV0zOZhRNsU/viewform?usp=send_form) about the company or project that you are researching. This is due before {{ page.deliverables[0].due_date | date: "%I:%M%p" }} on {{ page.deliverables[0].due_date | date: "%A, %B %-d, %Y" }}.  If you are working with a partner, only one of you needs to submit the questionnaire. **Please save your survey answers in a file on your own computer**, so that you can have a copy to use should you choose to do a video profile.
+1. Answering [Homework 2 questionnaire on Gradescope]({{page.submission_link}}) about the company or project that you are researching. This is due before {{ page.deliverables[0].due_date | date: "%I:%M%p" }} on {{ page.deliverables[0].due_date | date: "%A, %B %-d, %Y" }}.  If you are working with a partner, only one of you needs to submit the questionnaire. **Please save your survey answers in a file on your own computer**, so that you can have a copy to use should you choose to do a video profile.
 2. A video presentation about the company.  Several of the best videos will be selected for in-class presentations.  Teams whose videos are selected will receive extra credit. This is due before {{ page.deliverables[1].due_date | date: "%I:%M%p" }}  on {{ page.deliverables[1].due_date | date: "%A, %B %-d, %Y" }}.  You can submit a link to your video on [this form](https://docs.google.com/forms/d/1y2ObY-Vvgc-_3r8HG8SyTIP5ofA35xxZcwNl1RJf4nc/viewform).
 
 This assignment should be done in pairs.
 
 First, please [sign up for a company or project](https://docs.google.com/spreadsheets/d/14feAFi0wqhkE2nW7hEDAL9EOczxvCFvqflZRYbSa_CI/edit?usp=sharing).  Please do not pick a company that another team has already signed up for.  If there’s a company that you’d like to research that isn’t on the list, you are welcome to ask the instructor or the TA to ask if it is OK.  
 
-You should independently research the company, and then [fill in your answers about it in this questionnaire](https://docs.google.com/forms/d/1fxe5cwKqM5M2J6NGAsqC30hvNQ0JX4woJV0zOZhRNsU/viewform?usp=send_form).  Your short answers to these questions on  {{ page.deliverables[0].due_date | date: "%A, %B %-d, %Y" }}.  Remember to save your survey answers on your own computer, so that you can have a copy to use when you do your video profile.
+You should independently research the company, and then [fill in your answers about it in Homework 2 questionnaire on Gradescope]({{page.submission_link}}).  Your short answers to these questions on  {{ page.deliverables[0].due_date | date: "%A, %B %-d, %Y" }}.  Remember to save your survey answers on your own computer, so that you can have a copy to use when you do your video profile.
 
 
 You can optionally record a short 5 to 7 minute video presentation about your company. Your presentation should address the following questions:
@@ -152,7 +153,7 @@ You can optionally record a short 5 to 7 minute video presentation about your co
 - How does the company benefit from user contributions?
 - Are there any controversies about the company?
 
-Your presentation video is due on {{ page.deliverables[1].due_date | date: "%A, %B %-d, %Y" }}. To turn in your video, please upload it to [Vimeo](https://vimeo.com/). Then give us the link to your video [using this form](https://docs.google.com/forms/d/1y2ObY-Vvgc-_3r8HG8SyTIP5ofA35xxZcwNl1RJf4nc/viewform). Make sure that your video is publicly viewable or that you give us a password to view it on the web form.
+Your presentation video is due on {{ page.deliverables[1].due_date | date: "%A, %B %-d, %Y" }}. To turn in your video, please upload it to [Vimeo](https://vimeo.com/). Then give us the link to your video using [Homework 2 - Extra Credit]({{page.submission_link}}). Make sure that your video is publicly viewable or that you give us a password to view it on the web form.
 
 If you have managed to make it this far in life without having to sign up for accounts for things on the internet, here are more detailed instructions:
 
@@ -174,57 +175,82 @@ If you have managed to make it this far in life without having to sign up for ac
 </div>
 
 
+<div class="panel panel-info" id="faq">
+<div class="panel-heading" markdown="1">
+#### FAQ
+</div>
+<div class="panel-body" markdown="1">
+- **What is the difference between Users and Contributors?**
+
+  Many of you seemed confused about what constitutes a user vs. a contributor. In many crowdsourcing companies, this line is blurry- or nonexistent! Many companies you looked at fit what can be thought of as a "data-mining" model (e.g. Yelp, Foursquare), in which the primary service being provided depends on using data and modeling observed patterns of behavior-- e.g. to target ads or to recommend products. In these cases, the users are the contributors-- everyone who participates provides data, and everyone uses everyone else's data. This is an awesome crowdsourcing model because it is (ideally) self-sustaining and self-incentivizing. The more a person contributes (by providing more data about themselves), the better product they receive (e.g. better recommendations). 
+
+- **How does my company do Aggregation?**
+
+  Many of the companies we look at fit into the "match-making" or "marketplace" model (e.g. Uber, Airbnb, Etsy). This is a very common case in which the company is simply working to match supply with demand, where the suppliers (e.g. drivers, in the case of Uber) and the consumers (riders) are distributed all over, and may have trouble finding one another otherwise. Here, rating systems etc. are one piece of the platform that might require aggregating, but arguably the more interesting aggregation problem is how to match a supplier with a consumer. Is this through preference-based recommendation systems (as in the data-mining model discussed above), through location-based matching, through bidding/price? Making these matches is non-trival, but crucial to making the company function.
+
+- **Does this update a previous service or business model, or is it completely new?**
+
+  For this question, more than a third of you said "completely new." Try to think broadly when you are considering where these crowdsourcing companies fit into the economy as a whole. (Think Silicon Valley's favorite buzzword: "disruption.") Most of these services being provided are not completely new, but they are directly competing with a service that was traditionally supplied by a brick-and-mortar company in a more centralized manner. Uber competes with taxi companies, Airbnb with hotel chains, Coursera with higher education universities. This is part of what makes crowdsourcing so exciting!
+
+- **Is getting venture capital funding is a business model?**
+
+  No. Smart investors don't invest in a company who says their plan for generating revenue is to "get money from investors." When in doubt about the company's business plan, it is probably "ads". :-)
+
+</div>
+</div>
+
+
 <div class="panel panel-primary" id="survey">
 <div class="panel-heading" markdown="1">
 #### Survey Questions
 </div>
 <div class="panel-body" markdown="1">
-Below are the questions that you will be asked to answer about the company or project that you are profiling. Please submit your answers via [the questionnaire](https://docs.google.com/forms/d/1fxe5cwKqM5M2J6NGAsqC30hvNQ0JX4woJV0zOZhRNsU/viewform?usp=send_form). We recommend that you **save your survey answers in a file on your own computer**, rather than typing them directly into the Google form, so that you can have a copy to use when you do your video profile.  You won't be able to access your answers from Google after you press submit.
+Below are the questions that you will be asked to answer about the company or project that you are profiling. Please turn in your answers using [the Homework 2 survey on Gradescope]({{page.submission_link}}).
 
-* What company are you profiling?
-* What online resources did you use in researching it?
-* Did you use any other resources?
-* Did you conduct any interviews, did you try the company’s service?
-* Give a one sentence description of the company.
-* Give a URL for the company’s website
-* Give a URL for the company’s logo
-* When was the company started?
-* Who were the founders?
-* Does it have an interesting origin story?
-* What kind of organization is it? 
+We recommend that you **save your survey answers in a file on your own computer**, typing them directly into Gradescope, so that you’ll have a copy after you press the submit button.
+
+1. What company are you profiling?
+2. If you choose a company that is not in the list above, please specify the company name.
+3. What online resources did you use in researching it? List URLs, one per line.
+4. Did you use any other resources? Did you conduct any interviews, did you try the company’s service?
+5. Give a one sentence description of the company. Be sure to use the name of the company in your sentence.
+6. Give a URL for the company’s website
+7. Give a URL for the company’s logo
+8. When was the company started?
+9. Who were the founders?
+10. Does it have an interesting origin story?
+11. What kind of organization is it? 
   -  Publicly traded company
   -  Privately held company
   -  Non-profit organization
   -  Other
-* What service does the company provide?
-* Does this update a previous service or business model, or is it completely new?
-* If it updates something, what does it replace?
-* What other new companies provide services that are similar to your company’s?
-* What is an example of how someone uses this service?
-* What sort of people use the service? 
-* If this is a service that you have used, then describe your experience.
-* Compare the number of users to contributors.
+12. If the company type is none of the above, please specify.
+13. What service does the company provide?
+14. Does this update a previous service or business model, or is it completely new?
+15. If it updates something, what does it replace?
+16. What other new companies provide services that are similar to your company’s?
+17. What is an example of how someone uses this service? What sort of people use the service? If this is a service that you have used, then describe your experience. 
+18. Compare the number of users to contributors.
   -  More users than contributors
   -  More contributors than users
   -  Roughly equal numbers
-* Who are the people who contribute services?
-* How does the company incentivize them to contribute, or what motivates them to participate?
-* Is this a service that was previously provided by experts / professionals?
-* Are the contributors experts / professionals?
-* How does the company generate revenue?
-* How does the company ensure the quality of the services it provides?
-* Is its service something that is typically regulated by the government?
-* If so, what are the intents of the regulations and does your company meet those standards?
-* Is a reputation system used by your company?
-* If so, how does it work?
-* If the service is provided by many contributors, how are are their contributions aggregated?
-* Describe the workflow for how the service is advertised, and how the contributors contribute, and what the users get in the end.
-* What is the scale of the services that your company provides, in terms of users?
-* What is the scale of the services that your company provides, in terms of dollars?
-* If your company were to scale up to 10 or 100 times its current size, how well do you think its business model would work?
-* How well would the incentive scheme scale? How about the quality/aggregation model?
-* Have there been any controversies about the company or the service that it provides?
-* Is there anything else you'd like to say about the company?
+19. Who are the people who contribute services?
+20. How does the company incentivize them to contribute, or what motivates them to participate?
+21. Is this a service that was previously provided by experts / professionals?
+22. Are the contributors experts / professionals?
+23. How does the company generate revenue?
+24. How does the company ensure the quality of the services it provides?
+25. Is its service something that is typically regulated by the government?
+26. If so, what are the intents of the regulations and does your company meet those standards?
+27. Is a reputation system used by your company?
+28. If so, how does it work?
+29. If the service is provided by many contributors, how are are their contributions aggregated?
+30. Describe the workflow for how the service is advertised, and how the contributors contribute, and what the users get in the end.
+31. What is the scale of the services that your company provides, in terms of users?
+32. What is the scale of the services that your company provides, in terms of dollars?
+33. If your company were to scale up to 10 or 100 times its current size, how well do you think its business model would work? How well would the incentive scheme scale? How about the quality/aggregation model?
+34. Have there been any controversies about the company or the service that it provides?
+35. Is there anything else you'd like to say about the company?
 </div>
 </div>
 
@@ -236,33 +262,11 @@ Below are the questions that you will be asked to answer about the company or pr
 </div>
 <div class="panel-body" markdown="1">
 
-This assignment is worth 10 points of your overall grade in the course.  The rubric for the assignment is given below.
+The written survey is worth approximately 10% of your overall grade in the course. Please answer the survey questions thoughtfully. 
+Extra credit would worth approximately 5% of the overall grade in the course.
 
-* 10 points - answering the survey questions thoughtfully.
-  - 2 points for clearly describing what role crowdsourcing plays in the company or project
-  - 2 points for explaining who makes up the crowd, whether they are experts or non-experts, what incentives the company provides to get them to participate
-  - 2 points for explaining any quality issues that arise from the use of crowdsourcing and how the company addresses it
-  - 2 points for discussing scalability, or controversial issues
-  - 2 points for answering all of survey questions
-  - Extra credit (up to 1 point) - for an especially entertaining, exciting or otherwise engaging writeup 
-  - Extra credit (up to 1 point) - if you conduct an interview with someone who provides the services, or if you make a substantial contribution to the service yourself. 
-  - Extra credit (up to 2 points) - if your video is selected for presentation in class, you will receive extra credit.
 </div>
 </div>
-
-
-<div class="panel panel-info" id="faq">
-<div class="panel-heading" markdown="1">
-#### FAQ
-</div>
-<div class="panel-body" markdown="1">
-* _What is the difference between Users and Contributors?_  Many of you seemed confused about what constitutes a user vs. a contributor. In many crowdsourcing companies, this line is blurry- or nonexistent! Many companies you looked at fit what can be thought of as a "data-mining" model (e.g. Yelp, Foursquare), in which the primary service being provided depends on using data and modeling observed patterns of behavior-- e.g. to target ads or to recommend products. In these cases, the users are the contributors-- everyone who participates provides data, and everyone uses everyone else's data. This is an awesome crowdsourcing model because it is (ideally) self-sustaining and self-incentivizing. The more a person contributes (by providing more data about themselves), the better product they receive (e.g. better recommendations). 
-* _How does my company do Aggregation?_ Many of the companies we look at fit into the "match-making" or "marketplace" model (e.g. Uber, Airbnb, Etsy). This is a very common case in which the company is simply working to match supply with demand, where the suppliers (e.g. drivers, in the case of Uber) and the consumers (riders) are distributed all over, and may have trouble finding one another otherwise. Here, rating systems etc. are one piece of the platform that might require aggregating, but arguably the more interesting aggregation problem is how to match a supplier with a consumer. Is this through preference-based recommendation systems (as in the data-mining model discussed above), through location-based matching, through bidding/price? Making these matches is non-trival, but crucial to making the company function.
-* _Does this update a previous service or business model, or is it completely new?_ For this question, more than a third of you said "completely new." Try to think broadly when you are considering where these crowdsourcing companies fit into the economy as a whole. (Think Silicon Valley's favorite buzzword: "disruption.") Most of these services being provided are not completely new, but they are directly competing with a service that was traditionally supplied by a brick-and-mortar company in a more centralized manner. Uber competes with taxi companies, Airbnb with hotel chains, Coursera with higher education universities. This is part of what makes crowdsourcing so exciting! 
-* _Is getting venture capital funding is a business model?_ No. Smart investors don't invest in a company who says their plan for generating revenue is to "get money from investors." When in doubt about the company's business plan, it is probably "ads". :-)  
-</div>
-</div>
-
 
 #### Examples profiles from last year
 
