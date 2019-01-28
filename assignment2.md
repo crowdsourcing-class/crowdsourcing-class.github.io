@@ -196,6 +196,10 @@ If you have managed to make it this far in life without having to sign up for ac
 
   No. Smart investors don't invest in a company who says their plan for generating revenue is to "get money from investors." When in doubt about the company's business plan, it is probably "ads". :-)
 
+- **How to make a group submission on Gradescope?**
+
+  One group member can submit answers just as you do in previous homeworks. Then at the submitted page where you could see all your answers and points distribution, there is an option on the top right for you to edit group member. You can add your partner there with his or her Gradescope Id inside this course. Both of you with share the same submission and get the same grading. The submission is required to be made by only one team member.
+
 </div>
 </div>
 
