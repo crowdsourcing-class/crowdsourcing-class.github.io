@@ -56,7 +56,7 @@ The lecture schedule will be updated as the term progresses.
 
 
         {% if lecture.slides %}
-          <a href="slides/{{ lecture.slides }}">[slides]</a>
+          <a href="{{ lecture.slides }}">[slides]</a>
         {% endif %}
 
 
