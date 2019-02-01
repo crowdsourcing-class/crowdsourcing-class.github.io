@@ -136,7 +136,7 @@ You are also welcome to profile a [relevant company](http://www.crowdsourcing.or
 This assignment has two deliverables:
 
 1. Answering [the Homework 2 questionnaire on Gradescope]({{page.submission_link}}) about the company or project that you are researching. This is due before {{ page.deliverables[0].due_date | date: "%I:%M%p" }} on {{ page.deliverables[0].due_date | date: "%A, %B %-d, %Y" }}.  If you are working with a partner, only one of you needs to submit the questionnaire. **Please save your survey answers in a file on your own computer**, so that you can have a copy to use for your presentation.
-2. A presentation, optionally a video, about the company.  Several of the best videos will be selected for in-class presentations.  Teams whose videos are selected will receive extra credit. This is due before {{ page.deliverables[1].due_date | date: "%I:%M%p" }}  on {{ page.deliverables[1].due_date | date: "%A, %B %-d, %Y" }}.  You can submit a link to your video on [this form](https://docs.google.com/forms/d/1y2ObY-Vvgc-_3r8HG8SyTIP5ofA35xxZcwNl1RJf4nc/viewform).
+2. A presentation, optionally a video, about the company.  Several of the best videos will be selected for in-class presentations.  Teams whose videos are selected will receive extra credit. This is due before {{ page.deliverables[1].due_date | date: "%I:%M%p" }}  on {{ page.deliverables[1].due_date | date: "%A, %B %-d, %Y" }}.  You can submit a link to your video on [the Gradescope presentation form]({{page.submission_link}}).
 
 This assignment should be done in pairs.
 
