@@ -152,7 +152,7 @@ You will prepare a short presentation, optionally a 5 to 7 minute video presenta
 - How does the company benefit from user contributions?
 - Are there any controversies about the company?
 
-Your presentation is due on {{ page.deliverables[1].due_date | date: "%A, %B %-d, %Y" }}. To turn in your video, please upload it to [Vimeo](https://vimeo.com/). Give us the link to your presentation using [the Homework 2 presentation form]({{page.submission_link}}). Make sure that your video is publicly viewable or that you give us a password to view it on the web form.
+Your presentation is due on {{ page.deliverables[1].due_date | date: "%A, %B %-d, %Y" }}. To turn in your video, please upload it to [Vimeo](https://vimeo.com/). Give us the link to your presentation or video using [the Homework 2 presentation form]({{page.submission_link}}). Make sure that your video is publicly viewable or that you give us a password to view it on the web form.
 
 If you have managed to make it this far in life without having to sign up for accounts for things on the internet, here are more detailed instructions:
 
