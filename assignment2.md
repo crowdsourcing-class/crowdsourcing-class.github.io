@@ -302,7 +302,7 @@ Extra credit would worth approximately 5% of the overall grade in the course.
     <div id="{{ anchor }}" class="panel-collapse collapse">
       <div class="panel-body">
 
-{% if questionnaire.do_you_mind_if_we_post_a_link_to_your_video_on_the_class_website == "Yes, post it! " %}
+{% if questionnaire.do_you_mind_if_we_post_a_link_to_your_video_on_the_class_website == "Yes, post it!" %}
 {% assign vimeourl = questionnaire.paste_in_the_url_of_your_presentation_on_vimeo | split:"/" %}
 {% for urlpart in vimeourl %}
 	{% capture videonum %}{{ urlpart }}{% endcapture %}
