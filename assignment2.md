@@ -12,7 +12,7 @@ deliverables:
       description: written survey
       due_date: 2019-02-05T23:59:00EST
     -
-      description: video 
+      description: presentation 
       due_date: 2019-02-12T23:59:00EST
 ---
 
@@ -133,19 +133,18 @@ You are also welcome to profile a [relevant company](http://www.crowdsourcing.or
 -->
 
 
-This assignment has one required deliverable (the second is optional):
+This assignment has two deliverables:
 
-1. Answering [Homework 2 questionnaire on Gradescope]({{page.submission_link}}) about the company or project that you are researching. This is due before {{ page.deliverables[0].due_date | date: "%I:%M%p" }} on {{ page.deliverables[0].due_date | date: "%A, %B %-d, %Y" }}.  If you are working with a partner, only one of you needs to submit the questionnaire. **Please save your survey answers in a file on your own computer**, so that you can have a copy to use should you choose to do a video profile.
-2. A video presentation about the company.  Several of the best videos will be selected for in-class presentations.  Teams whose videos are selected will receive extra credit. This is due before {{ page.deliverables[1].due_date | date: "%I:%M%p" }}  on {{ page.deliverables[1].due_date | date: "%A, %B %-d, %Y" }}.  You can submit a link to your video on [this form](https://docs.google.com/forms/d/1y2ObY-Vvgc-_3r8HG8SyTIP5ofA35xxZcwNl1RJf4nc/viewform).
+1. Answering [the Homework 2 questionnaire on Gradescope]({{page.submission_link}}) about the company or project that you are researching. This is due before {{ page.deliverables[0].due_date | date: "%I:%M%p" }} on {{ page.deliverables[0].due_date | date: "%A, %B %-d, %Y" }}.  If you are working with a partner, only one of you needs to submit the questionnaire. **Please save your survey answers in a file on your own computer**, so that you can have a copy to use for your presentation.
+2. A presentation, optionally a video, about the company.  Several of the best videos will be selected for in-class presentations.  Teams whose videos are selected will receive extra credit. This is due before {{ page.deliverables[1].due_date | date: "%I:%M%p" }}  on {{ page.deliverables[1].due_date | date: "%A, %B %-d, %Y" }}.  You can submit a link to your video on [this form](https://docs.google.com/forms/d/1y2ObY-Vvgc-_3r8HG8SyTIP5ofA35xxZcwNl1RJf4nc/viewform).
 
 This assignment should be done in pairs.
 
 First, please [sign up for a company or project](https://docs.google.com/spreadsheets/d/14feAFi0wqhkE2nW7hEDAL9EOczxvCFvqflZRYbSa_CI/edit?usp=sharing).  Please do not pick a company that another team has already signed up for.  If there’s a company that you’d like to research that isn’t on the list, you are welcome to ask the instructor or the TA to ask if it is OK.  
 
-You should independently research the company, and then [fill in your answers about it in Homework 2 questionnaire on Gradescope]({{page.submission_link}}).  Your short answers to these questions on  {{ page.deliverables[0].due_date | date: "%A, %B %-d, %Y" }}.  Remember to save your survey answers on your own computer, so that you can have a copy to use when you do your video profile.
+You should independently research the company, and then [fill in your answers about it in the Homework 2 questionnaire on Gradescope]({{page.submission_link}}).  Your short answers to these questions on  {{ page.deliverables[0].due_date | date: "%A, %B %-d, %Y" }}.  Remember to save your survey answers on your own computer, so that you can have a copy to use when you do your video profile.
 
-
-You can optionally record a short 5 to 7 minute video presentation about your company. Your presentation should address the following questions:
+You will prepare a short presentation, optionally a 5 to 7 minute video presentation, about your company. Your presentation should address the following questions:
 
 - What incentives does it offer to get people to participate?
 - How does it aggregate the information provided by the crowd?
@@ -153,7 +152,7 @@ You can optionally record a short 5 to 7 minute video presentation about your co
 - How does the company benefit from user contributions?
 - Are there any controversies about the company?
 
-Your presentation video is due on {{ page.deliverables[1].due_date | date: "%A, %B %-d, %Y" }}. To turn in your video, please upload it to [Vimeo](https://vimeo.com/). Then give us the link to your video using [Homework 2 - Extra Credit]({{page.submission_link}}). Make sure that your video is publicly viewable or that you give us a password to view it on the web form.
+Your presentation is due on {{ page.deliverables[1].due_date | date: "%A, %B %-d, %Y" }}. To turn in your video, please upload it to [Vimeo](https://vimeo.com/). Give us the link to your presentation using [the Homework 2 presentation form]({{page.submission_link}}). Make sure that your video is publicly viewable or that you give us a password to view it on the web form.
 
 If you have managed to make it this far in life without having to sign up for accounts for things on the internet, here are more detailed instructions:
 
