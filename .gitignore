@@ -2,3 +2,10 @@
 *~
 _site/*
 .jekyll-metadata
+tweets/
+tweets/*
+get_tweets.py
+pelosi_tweets.csv
+pelosi_tweets.tsv
+pelosi_tweets.txt
+trump_tweets.tsv
