@@ -46,29 +46,3 @@ Two deliverables are required for you to upload to Gradescope:
 You can download both files through the drop-down menu of File in the Colab environment.
 
 **Notice:** Please make sure all originally commented examples stay as comments before you make submissions to [Gradescope]({{page.submission_link}}).
-
-
-<div class="panel panel-danger">
-<div class="panel-heading" markdown="1">
-#### Grading Rubric
-</div>
-<div class="panel-body" markdown="1">
-
-This assignment is worth is worth approximately 5% of your overall grade in the course. 
-</div>
-</div>
-
-### Bonus! Bash bootcamp.
-
-Knowing more than one scripting language increases your productivity 1 zillion fold (proven fact). If you breezed through the python bootcamp and are sitting and twiddling your thumbs, try brushing up your bash programming skills by doing the following questions using the [wine.txt](assignments/hw3/wine.txt) file. Many of them can also be done in python. Think about how these operations are conceptually different when you write in bash compared to python. Check out this [cheat sheet](http://crowdsourcing-class.org/bash-commands.html) of bash commands to get you started.
-
-1. How many lines are there in the file?
-2. What is the distribution over star ratings?
-3. How many reviews contain the word 'a'?
-4. How many reviews contain the word 'fruit'?
-5. How many reviews contain the word 'mineral'?
-6. Make a new file containing the full text of all the reviews, with one word per line. (You don't have to do this in python, but I think that is the easiest way. If you want to try a new command-line tool, check out [sed](http://stackoverflow.com/questions/1853009/replace-all-whitespace-with-a-line-break-paragraph-mark-to-make-a-word-list)). 
-7. How many total words appear in your list?
-8. How many unique words appear in your list?
-9. What are the 10 most common words used across all of the reviews, and how many times is each used?
-10. How many times does the word "red" appear? (Be careful of capitalization!)
