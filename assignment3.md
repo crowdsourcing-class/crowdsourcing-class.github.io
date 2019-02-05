@@ -35,7 +35,7 @@ Python Bootcamp <span class="text-muted">: Assignment 3</span>
 =============================================================
 This week we will start writing some code! This assignment is designed to be a crash-course to get you up to speed on the level of Python you will need to know in order to do the remainder of the assignments. It's easiest to learn by doing, so please start early so we can help you get on board. You want to spend the semester focusing on the crowdsourcing and machine learning, not the indenting and semicoloning. 
 
-To start with, download the skeleton file [IPython notebook](assignments/hw3/homework3.ipynb) and upload it to [Google Colab](https://colab.research.google.com). And you can start working from there.
+To start with, download the skeleton file [Jupyter notebook](assignments/hw3/homework3.ipynb) and upload it to [Google Colab](https://colab.research.google.com). And you can start working from there. For a tutorial on Jupyter notebooks, download [this notebook](assignments/hw3/00_notebook_tutorial.ipynb) and walk through it on Colab.
 
 Detailed instructions are given in the skeleton file. Functions that are required for you to implement are in python format. Some examples are embedded as comments for your reference. 
 
@@ -43,6 +43,6 @@ Two deliverables are required for you to upload to Gradescope:
 1. IPython notebook **homework3.ipynb** modified with your implementation;
 2. The corresponding python **homework3.py** file. 
 
-You can download both files through the drop-down menu of File in the Colab environment.
+You can download both files through the drop-down menu of "File" in the Colab environment.
 
 **Notice:** Please make sure all originally commented examples stay as comments before you make submissions to [Gradescope]({{page.submission_link}}).
