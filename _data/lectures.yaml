@@ -62,9 +62,13 @@
       title: Paychecks, Paydays, and the Online Platform Economy
       url: https://www.jpmorganchase.com/corporate/institute/document/jpmc-institute-volatility-2-report.pdf
     -
+      authors: World Bank
+      title: The Global Opportunity in Online Outsourcing
+      url: https://openknowledge.worldbank.org/bitstream/handle/10986/22284/The0global0opp0n0online0outsourcing.pdf
+    -
       authors: The Supreme Court of California
       title: Decision on workers classified as employees or as independent contractors
-      url: https://www.uberlawsuit.com/Dynamex%20.pdf
+      url: https://www.uberlawsuit.com/Dynamex%20.pdf      
 -
   date: 2019-01-29
   slides: https://docs.google.com/document/d/1l7U081geWguUUCVqb5TIzeZ9wzaM9r16fj_TZ0Umyug/edit?usp=sharing
@@ -106,6 +110,20 @@
     -
       title: Dataturks installation guide
       url: https://medium.com/@dataturks/dataturks-on-prem-a-fully-self-hosted-data-annotation-solution-86b455bf0634
+-
+  date: 2019-02-05
+  slides: http://crowdsourcing-class.org/slides/amazon-mechanical-turk.pdf
+  title: The Amazon Mechanical Turk crowdsourcing platform (wrap-up)
+  recording: 
+  readings:
+    -
+      title: Analyzing the Amazon Mechanical Turk Marketplace
+      authors: Panos Ipeirotis
+      url: https://archive.nyu.edu/jspui/bitstream/2451/29801/4/CeDER-10-04.pdf
+    -
+      title: Fast, Cheap and Creative&colon;  Evaluating Translation Quality Using Amazon's Mechanical Turk
+      authors: Chris Callison-Burch
+      url: https://www.cis.upenn.edu/~ccb/publications.html
 
 
 
