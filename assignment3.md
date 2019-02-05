@@ -39,10 +39,10 @@ To start with, download the skeleton file [Jupyter notebook](assignments/hw3/hom
 
 Detailed instructions are given in the skeleton file. Functions that are required for you to implement are in python format. Some examples are embedded as comments for your reference. 
 
-Two deliverables are required for you to upload to Gradescope:
+Two deliverables are required for you to upload to [Gradescope]({{page.submission_link}}):
 1. IPython notebook **homework3.ipynb** modified with your implementation;
 2. The corresponding python **homework3.py** file. 
 
 You can download both files through the drop-down menu of "File" in the Colab environment.
 
-**Notice:** Please make sure all originally commented examples stay as comments before you make submissions to [Gradescope]({{page.submission_link}}).
+**Notice:** Before you make submissions to [Gradescope]({{page.submission_link}}), make sure that all the codes except the required functions are commented, including the provided examples.
