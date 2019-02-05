@@ -13,12 +13,12 @@ Crowdsourcing and human computation are emerging fields that sit squarely at the
 <div class="alert alert-info">
 <a href="https://docs.google.com/forms/d/e/1FAIpQLSd7Cw_J-dXQqT6mzGR9kZN3u6DSnVaLism2Z84SyyLUdIdbMw/viewform?usp=sf_link">How many jellybeans are in the jar?</a>
 </div>
--->
-
 
 <div class="alert alert-info">
 Are you a student who didn't get a permit, but you're still interested in enrolling the course? If so, <a href="https://docs.google.com/forms/d/e/1FAIpQLScHVWrUy3fupHdlaE4MDC5CTzXdq5ZIDrexwN8w6lUUU_AVoQ/viewform?usp=sf_link">please fill out this form</a>.
 </div>
+-->
+
 
 
 
