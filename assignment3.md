@@ -3,10 +3,10 @@ layout: default
 img: python
 img_link: http://xkcd.com/353/
 caption: Hello world!
-title: Homework 3 "IPython Bootcamp"
+title: Homework 3 "Python Bootcamp"
 active_tab: homework
-release_date: 2019-02-12
-due_date: 2019-02-19T23:59:00EST
+release_date: 2019-02-05
+due_date: 2019-02-12T23:59:00EST
 submission_link: https://www.gradescope.com/courses/36538
 ---
 
