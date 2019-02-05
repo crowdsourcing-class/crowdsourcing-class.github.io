@@ -78,11 +78,17 @@ The lecture schedule will be updated as the term progresses.
           {% for reading in lecture.readings %}
           {% if reading.url %}
               {% if reading.optional %}<b>Optional:</b> {% endif %}
-              {{ reading.authors }}, <a href="{{ reading.url }}">{{ reading.title }}</a> 
+              {% if reading.authors %}
+              {{ reading.authors }}, 
+              {% endif %}
+              <a href="{{ reading.url }}">{{ reading.title }}</a> 
             <br />
           {% else %}
               {% if reading.optional %}<b>Optional</b> {% endif %}
-             {{ reading.authors }}, {{ reading.title }} 
+              {% if reading.authors %}
+              {{ reading.authors }}, 
+              {% endif %}
+             {{ reading.title }} 
             <br />
           {% endif %}
           {% endfor %}
