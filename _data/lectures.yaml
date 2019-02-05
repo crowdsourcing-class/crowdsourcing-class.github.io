@@ -66,10 +66,46 @@
       title: Decision on workers classified as employees or as independent contractors
       url: https://www.uberlawsuit.com/Dynamex%20.pdf
 -
-  date: 2019-01-24
+  date: 2019-01-29
   slides: https://docs.google.com/document/d/1l7U081geWguUUCVqb5TIzeZ9wzaM9r16fj_TZ0Umyug/edit?usp=sharing
   title: Governing Crowd Work
   speaker: Six Silberman
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0bfed787-f1ba-4cf2-b94c-a9d801533405
+  readings:
+    -
+      authors: Lilly Irani and Six Silberman
+      title: Turkopticon&colon; Interrupting worker invisibility in Amazon Mechanical Turk
+      url: https://www.cis.upenn.edu/~ccb/publications/data-driven-analysis-of-workers-earnings-on-amazon-mechanical-turk.pdf
+      url: http://crowdsourcing-class.org/readings/downloads/ethics/turkopticon.pdf
+-
+  date: 2019-01-31
+  slides: http://crowdsourcing-class.org/slides/amazon-mechanical-turk.pdf
+  title: The Amazon Mechanical Turk crowdsourcing platform 
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=287ba022-aee1-4c21-9111-a9d80153342f
+  readings:
+    -
+      author: Gabriele Paolacci, Jesse Chandler and Panos Iperotic
+      title:  Running experiments on Amazon Mechanical Turk
+      url: http://crowdsourcing-class.org/readings/downloads/platform/running-experiments-on-mturk.pdf
+    -
+      title:  Amazon Mechanical Turk
+      url: https://www.mturk.com
+    -
+      title:  Mechanical Turk blog
+      url: https://blog.mturk.com
+-
+  date: 2019-02-05
+  slides: https://docs.google.com/presentation/d/1JFhcj4PesbIXV_-ozElbsHuAJ-QlAFjUcazVq2ZDhVQ/
+  title: Dataturks&colon; Machine learning data annotations made super easy for teams
+  speaker: Mohan Gupta
+  recording: 
+  readings:
+    -
+      title: Dataturks
+      url: https://dataturks.com
+    -
+      title: Dataturks installation guide
+      url: https://medium.com/@dataturks/dataturks-on-prem-a-fully-self-hosted-data-annotation-solution-86b455bf0634
 
 
 
