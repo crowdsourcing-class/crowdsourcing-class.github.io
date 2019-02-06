@@ -46,3 +46,5 @@ Two deliverables are required for you to upload to [Gradescope]({{page.submissio
 You can download both files through the drop-down menu of "File" in the Colab environment.
 
 **Notice:** Before you make submissions to [Gradescope]({{page.submission_link}}), make sure that all the codes except the required functions are commented, including the provided examples.
+
+This homework can also be done in pairs. Only one group member is required to submit the work. Both of you with share the same submission and get the same grading.
