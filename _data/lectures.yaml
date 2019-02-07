@@ -62,10 +62,6 @@
       title: Paychecks, Paydays, and the Online Platform Economy
       url: https://www.jpmorganchase.com/corporate/institute/document/jpmc-institute-volatility-2-report.pdf
     -
-      authors: World Bank
-      title: The Global Opportunity in Online Outsourcing
-      url: https://openknowledge.worldbank.org/bitstream/handle/10986/22284/The0global0opp0n0online0outsourcing.pdf
-    -
       authors: The Supreme Court of California
       title: Decision on workers classified as employees or as independent contractors
       url: https://www.uberlawsuit.com/Dynamex%20.pdf      
@@ -97,6 +93,10 @@
     -
       title:  Mechanical Turk blog
       url: https://blog.mturk.com
+    -
+      title: Fast, Cheap and Creative&colon;  Evaluating Translation Quality Using Amazon's Mechanical Turk
+      authors: Chris Callison-Burch
+      url: https://www.cis.upenn.edu/~ccb/publications.html
 -
   date: 2019-02-05
   slides: https://docs.google.com/presentation/d/1JFhcj4PesbIXV_-ozElbsHuAJ-QlAFjUcazVq2ZDhVQ/
@@ -111,7 +111,7 @@
       title: Dataturks installation guide
       url: https://medium.com/@dataturks/dataturks-on-prem-a-fully-self-hosted-data-annotation-solution-86b455bf0634
 -
-  date: 2019-02-05
+  date: 2019-02-07
   slides: http://crowdsourcing-class.org/slides/amazon-mechanical-turk.pdf
   title: The Amazon Mechanical Turk crowdsourcing platform (wrap-up)
   recording: 
@@ -121,9 +121,17 @@
       authors: Panos Ipeirotis
       url: https://archive.nyu.edu/jspui/bitstream/2451/29801/4/CeDER-10-04.pdf
     -
-      title: Fast, Cheap and Creative&colon;  Evaluating Translation Quality Using Amazon's Mechanical Turk
-      authors: Chris Callison-Burch
-      url: https://www.cis.upenn.edu/~ccb/publications.html
+      title: The Dynamics of Micro-Task Crowdsourcing&colon; The Case of Amazon MTurk
+      authors: Djellel Eddine Difallah, Michele Catasta, Gianluca Demartini, Panos Ipeirotis, Philippe Cudré-Mauroux
+      url: http://www.ipeirotis.com/wp-content/uploads/2015/02/frp1365-difallah.pdf
+    -
+      title: Crowdsourced Data Management&colon; Industry and Academic Perspectives
+      authors: Adam Marcus and Aditya Parameswaran
+      url: readings/downloads/econ/crowdsourced-datamanagement.pdf
+    -
+      authors: World Bank
+      title: The Global Opportunity in Online Outsourcing
+      url: https://openknowledge.worldbank.org/bitstream/handle/10986/22284/The0global0opp0n0online0outsourcing.pdf
 
 
 
