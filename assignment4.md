@@ -229,5 +229,4 @@ Related Projects
 * [USA TODAY research reveals flaws in mass-killing data](http://www.usatoday.com/story/news/nation/2013/12/03/fbi-mass-killing-data-inaccurate/3666953/)
 * [Why The Ban On Gun Violence Research Is A Public Health Issue](http://www.huffingtonpost.com/entry/dickey-amendment-gun-violence-research-ban_us_56606201e4b072e9d1c4eaaa)
 
-{% endcomment %}
 --->
