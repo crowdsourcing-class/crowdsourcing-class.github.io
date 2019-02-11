@@ -25,7 +25,7 @@ This assignment is before {{ page.due_date | date: "%I:%M%p" }}  due on {{ page.
 </div>
 
 
-Training a classifier<span class="text-muted">: Assignment 4</span> 
+Training a classifier<span class="text-muted"> : Assignment 4</span> 
 =============================================================
 Deep learning is transforming the world, and the point of this assignment is to demonstrate that _**you**_ can do deep learning!
 
@@ -44,7 +44,7 @@ And next week, we will explore [shortcomings with current image classification a
 <div class="panel-body" markdown="1">
 1. [Read the Getting Started section](https://course.fast.ai/#getting-started), which describes the need to access a NVIDIA GPU (Graphics Processing Unit). Thankfully, Google Colab freely provides the use of a NVIDIA K80 GPU for up to 12 hours at a time!
 2. [Follow the Colab Setup](https://course.fast.ai/start_colab.html), opening the notebook called "nbs/dl1/lesson1-pets.ipynb". Make sure to change your runtime type to GPU and save a copy of the notebook in your Google Drive, as instructed!
-3. [Watch Lesson 1 on image classification](https://course.fast.ai/videos/?lesson=1), following along in your copy of the notebook - it's fun, and you'll learn more!
+3. [Watch Lesson 1 on image classification](https://course.fast.ai/videos/?lesson=1), following along in your copy of the notebook - it's fun, and you'll learn more by runnning code!
 4. [Answer the following Homework 4 questions on Gradescope]({{page.submission_link}}), where a link to your Colab notebook with all the outputs shown is required.
 </div>
 </div>
