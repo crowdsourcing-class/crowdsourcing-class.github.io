@@ -4,8 +4,8 @@ img: ML
 caption: Crowdsourcing FTW!
 title: Homework 4 "Training a classifier"
 active_tab: homework
-release_date: 2016-01-29
-due_date: 2016-02-05T12:00:00EST
+release_date: 2019-02-12
+due_date: 2019-02-19T12:00:00EST
 ---
 
 <!-- Check whether the assignment is up to date -->
@@ -32,7 +32,7 @@ The [fast.ai](https://www.fast.ai/) community is making deep learning easier to 
 
 For example, after following along with the [first lesson](https://course.fast.ai/videos/?lesson=1) for this assignment, you’ll have trained an image classifier that can recognize 12 cat breeds and 25 dog breeds at a state-of-the-art accuracy of around 94%, compared to 59% in 2012!
 
-Next week, we will explore shortcomings with current image classification approaches and how crowdsourcing can help.
+Next week, we will explore [shortcomings with current image classification approaches](https://www.fast.ai/2019/01/29/five-scary-things/#bias) and how crowdsourcing can help.
 
 ![Some applications](https://www.fast.ai/images/part1v3-thumbs/lesson1-overview.png)
 
