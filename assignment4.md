@@ -5,7 +5,7 @@ caption: Crowdsourcing FTW!
 title: Homework 4 "Training a classifier"
 active_tab: homework
 release_date: 2019-02-12
-due_date: 2019-02-19T12:00:00EST
+due_date: 2019-02-19T23:59:00EST
 ---
 
 <!-- Check whether the assignment is up to date -->
