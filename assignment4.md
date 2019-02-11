@@ -43,13 +43,14 @@ Next week, we will explore [shortcomings with current image classification appro
 3. [Watch Lesson 1 on image classification](https://course.fast.ai/videos/?lesson=1), following along in your copy of the notebook - it's fun, and you'll learn more!
 4. [Submit answers to the following questions], as well as a link to your Colab notebook with all the outputs shown.
 
-### Questions
-*	What are two places that you often get data from, and why are they each important?
-*	What is “fine-grained classification”, and why is it difficult?
-*	What are “labels”, and how do you get them in this dataset?
-*	Why shouldn’t images in a dataset have different shapes and sizes?
-*	What does it mean to “normalize” images?
-*	What is “transfer learning”, and why is it helpful?
-*	What is “overfitting”, and how do you try to avoid it?
-*	Describe two ways to interpret your model’s performance.
-*	Describe the connection between “unfreezing”, “fine-tuning”, and “learning rates”.
+#### Questions
+
+What are two places that you often get data from, and why are they each important?
+What is “fine-grained classification”, and why is it difficult?
+What are “labels”, and how do you get them in this dataset?
+Why shouldn’t images in a dataset have different shapes and sizes?
+What does it mean to “normalize” images?
+What is “transfer learning”, and why is it helpful?
+What is “overfitting”, and how do you try to avoid it?
+Describe two ways to interpret your model’s performance.
+Describe the connection between “unfreezing”, “fine-tuning”, and “learning rates”.
