@@ -26,6 +26,7 @@ This assignment is before {{ page.due_date | date: "%I:%M%p" }}  due on {{ page.
 
 Training a classifier<span class="text-muted">: Assignment 4</span> 
 =============================================================
+<!---
 If you watch the news, you have probably noticed that gun-related killings have become a standard part of the newscast, alongside weather and sports.  A lot of reserachers and concerned people (see [here](http://www.gunviolencearchive.org/), [here](http://www.theguardian.com/news/datablog/2012/jul/22/gun-homicides-ownership-world-list), and [here](http://www.fatalencounters.org/)) are interested in collecting data on the details of these shootings, following the zeitgeist that big data begets solutions.  This problem of finding and curating gun violence data is a great fit for crowdsourcing. It is too much work for one person to do alone, and too hard for computers to do automatically. This semester, our weekly homework assignments will work to build a large database of gun violence incidents across the country. 
 
 As a preview of what is to come, your next assignments will cover the following steps in order to build a database:
@@ -201,4 +202,5 @@ Related Projects
 * [USA TODAY research reveals flaws in mass-killing data](http://www.usatoday.com/story/news/nation/2013/12/03/fbi-mass-killing-data-inaccurate/3666953/)
 * [Why The Ban On Gun Violence Research Is A Public Health Issue](http://www.huffingtonpost.com/entry/dickey-amendment-gun-violence-research-ban_us_56606201e4b072e9d1c4eaaa)
 
-
+{% endcomment %}
+--->
