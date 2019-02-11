@@ -43,7 +43,11 @@ Next week, we will explore [shortcomings with current image classification appro
 3. [Watch Lesson 1 on image classification](https://course.fast.ai/videos/?lesson=1), following along in your copy of the notebook - it's fun, and you'll learn more!
 4. [Submit answers to the following questions], as well as a link to your Colab notebook with all the outputs shown.
 
+<div class="panel panel-primary" id="questions">
+<div class="panel-heading" markdown="1">
 #### Questions
+</div>
+<div class="panel-body" markdown="1">
 
 1. What are two places that you often get data from, and why are they each important?
 2. What is “fine-grained classification”, and why is it difficult?
@@ -55,3 +59,5 @@ Next week, we will explore [shortcomings with current image classification appro
 8. Describe two ways to interpret your model’s performance.
 9. Describe the connection between “unfreezing”, “fine-tuning”, and “learning rates”.
 10. Please include a link to your Colab nnotebook with all the outputs shown.
+</div>
+</div>
