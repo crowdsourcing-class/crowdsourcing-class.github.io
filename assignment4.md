@@ -45,12 +45,13 @@ Next week, we will explore [shortcomings with current image classification appro
 
 #### Questions
 
-What are two places that you often get data from, and why are they each important?
-What is “fine-grained classification”, and why is it difficult?
-What are “labels”, and how do you get them in this dataset?
-Why shouldn’t images in a dataset have different shapes and sizes?
-What does it mean to “normalize” images?
-What is “transfer learning”, and why is it helpful?
-What is “overfitting”, and how do you try to avoid it?
-Describe two ways to interpret your model’s performance.
-Describe the connection between “unfreezing”, “fine-tuning”, and “learning rates”.
+1. What are two places that you often get data from, and why are they each important?
+2. What is “fine-grained classification”, and why is it difficult?
+3. What are “labels”, and how do you get them in this dataset?
+4. Why shouldn’t images in a dataset have different shapes and sizes?
+5. What does it mean to “normalize” images?
+6. What is “transfer learning”, and why is it helpful?
+7. What is “overfitting”, and how do you try to avoid it?
+8. Describe two ways to interpret your model’s performance.
+9. Describe the connection between “unfreezing”, “fine-tuning”, and “learning rates”.
+10. Please include a link to your Colab nnotebook with all the outputs shown.
