@@ -57,7 +57,7 @@ Thanks for taking NETS 213!  Please help improve the course for next year by fil
 
 
 <div class="alert alert-success" markdown="1">
-Here is [a batch of MTurk data](http://www.cis.upenn.edu/~ccb/Batch_3517965_batch_results.csv.gz) that we will analyze in class today.
+Here is [a batch of MTurk data](http://www.cis.upenn.edu/~ccb/Batch_3517965_batch_results.csv.gz) that we will analyze in class last week.
 </div>
 
 <!-- Display an alert about upcoming homework assignments -->
@@ -110,7 +110,11 @@ Time and place
 : Spring 2019, Tuesdays and Thursdays 3-4:30pm, Location: 3401 Walnut Street room 401B
 
 Office Hours
-: TBD
+: Tuesday 6-7pm in 3401 Walnut St, room 452C
+: Wednesday 2-4pm in 3401 Walnut Street 4th Floor outside 463C
+: Thursday 6-7pm in 3401 Walnut St, room 452C
+: Friday 2-4pm in 3401 Walnut Street 4th Floor outside 463C
+: CCB's office hours are [by appointment on ccb-office-hours.youcanbook.me](https://ccb-office-hours.youcanbook.me)
 
 Prerequisites
 : [CIS 120](http://www.seas.upenn.edu/~cis120/) or prior programming experience
