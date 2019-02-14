@@ -46,6 +46,7 @@ This week we will be looking at the wealth of companies and projects that use cr
 [Apple HealthKit/ResearchKit](http://www.apple.com/researchkit/),
 [Benefunder](http://www.benefunder.org),
 [Change.org](https://www.change.org),
+[CivilServant](https://civilservant.io/about_us.html),
 [Clickworker](https://www.clickworker.com/),
 [CloudFactory](http://www.cloudfactory.com/home),
 [Couchsurfing](https://www.couchsurfing.org/),
