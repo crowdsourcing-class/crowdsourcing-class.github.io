@@ -102,7 +102,7 @@
   slides: https://docs.google.com/presentation/d/1JFhcj4PesbIXV_-ozElbsHuAJ-QlAFjUcazVq2ZDhVQ/
   title: Dataturks&colon; Machine learning data annotations made super easy for teams
   speaker: Mohan Gupta
-  recording: 
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=94a1a093-1c28-4e20-a442-a9d801533515
   readings:
     -
       title: Dataturks
@@ -114,7 +114,7 @@
   date: 2019-02-07
   slides: http://crowdsourcing-class.org/slides/size-of-the-crowdsourcing-marketplace.pdf
   title: What is the size of the crowdsourcing marketplace? 
-  recording: 
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a499e69b-900c-4b70-a450-a9d80153359d
   readings:
     -
       title: Analyzing the Amazon Mechanical Turk Marketplace
@@ -136,7 +136,7 @@
   date: 2019-02-12
   slides: http://crowdsourcing-class.org/slides/machine-learning.pdf
   title: Intro to Machine Learning
-  recording: 
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4aa027e1-0404-4cfe-8192-a9d8015335da
   readings:
     -
       title: Practical Deep Learning for Coders
@@ -146,3 +146,25 @@
       title: Logistic Regression
       authors: Daniel Jurafsky and James Martin
       url: https://web.stanford.edu/~jurafsky/slp3/5.pdf
+-
+  date: 2019-02-12
+  slides: http://crowdsourcing-class.org/slides/computer-vision.pdf
+  title: How Crowdsourcing Enabled Computer Vision
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=86eccb91-1fd3-485d-81cf-a9d801533650
+  readings:
+    -
+      title: The data that transformed AI research – and possibly the world
+      authors: Dave Gershgorn - Quartz
+      url: https://qz.com/1034972/the-data-that-changed-the-direction-of-ai-research-and-possibly-the-world/
+    -
+      title: slides about ImageNet&colon; Crowdsourcing, benchmarking & other cool things 
+      authors: Fei-Fei Li
+      url: http://www.image-net.org/papers/ImageNet_2010.pdf
+    -
+      title: ImageNet&colon; A Large-Scale Hierarchical Image Database
+      authors: Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li and Li Fei-Fei
+      url: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5206848
+    -
+      title: notes for Stanford's CS231n course "Convolutional Neural Networks for Visual Recognition"
+      authors: Stanford University instructors
+      url: http://cs231n.github.io
