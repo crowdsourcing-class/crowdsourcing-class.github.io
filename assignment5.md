@@ -5,7 +5,7 @@ caption: Exploit the masses!
 title: Homework 5 "Become a Requester"
 active_tab: homework
 release_date: 2019-02-19
-due_date: 2019-02-26TT23:59:00EST
+due_date: 2019-02-26T23:59:00EST
 ---
 
 <!-- Check whether the assignment is up to date -->
