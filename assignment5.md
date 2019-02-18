@@ -5,7 +5,7 @@ caption: Exploit the masses!
 title: Homework 5 "Become a Requester"
 active_tab: homework
 release_date: 2019-02-19
-due_date: 2016-02-26TT23:59:00EST
+due_date: 2019-02-26TT23:59:00EST
 ---
 
 <!-- Check whether the assignment is up to date -->
@@ -57,7 +57,15 @@ In this assignment, you will explore how a classifier pre-trained on ImageNet pe
 
 2. Upload the [zipped "Weddings Indian Languages" dataset](https://drive.google.com/file/d/1ElHME-VAHg2NUJKQuD5uaQQ-fCgMrWBi/view?usp=sharing) to Colab and run `!unzip "weddings-indian-languages.zip"` in a new cell. The dataset is composed of around 200-1000 images per language, for 7 languages spoken in India (Bengali, Gujarati, Hindi, Malayalam, Marathi, Punjabi, Tamil, and Telugu), taken from MMID.
 
-3. Create a DataFrame from a list of dictionaries, where each dictionary contains the results of the classifier on an image, and looks like `{"path": "weddings-indian-languages/hindi/6250/07.jpg", "predictions": ["vestment", "kimono", "theater_curtain"], "predictions_include_groom_or_bridegroom": False}`. We recommend using the [glob module](https://docs.python.org/3/library/glob.html) with wildcards to get a list of all the images. Save the DataFrame as `image_paths_and_predictions.csv`, which you will use later in the assignment. To simplify step 7, **you must add "https://s3.amazonaws.com/nets213-hw5/" to the beginning of each image file path**, before saving it as a CSV.
+3. Create a DataFrame from a list of dictionaries, where each dictionary contains the results of the classifier on an image, and looks like this.
+
+```
+{"path": "weddings-indian-languages/hindi/6250/07.jpg",
+"predictions": ["vestment", "kimono", "theater_curtain"],
+"predictions_include_groom_or_bridegroom": False}
+```
+
+We recommend using the [glob module](https://docs.python.org/3/library/glob.html) with wildcards to get a list of all the images. Save the DataFrame as `image_paths_and_predictions.csv`, which you will use later in the assignment. To simplify step 7, **you must add "https://s3.amazonaws.com/nets213-hw5/" to the beginning of each image file path**, before saving it as a CSV.
 
 4. In the [Amazon MTurk Requester site](https://requester.mturk.com/create/projects/new), sign in to create a new project from the "Other" template. The task you are creating is to get workers in India to click on images that represent the word "groom/bridegroom". 
 
@@ -96,7 +104,7 @@ Below are the questions that you will be asked to answer about this assignment. 
 
 1. What is the link to your Colab notebook?
 2. Attach a screenshot of the page confirming the settings of the HIT.
-3. What is the rate of positives and false negatives?
+3. What is the percentage of images predicted as "bride/bridegroom" by the classifier and the percentage of images not predicted as "bride/bridegroom" by the classifier but labeled as "bride/bridegroom" by the workers?
 4. Analyze how the predictions of the classifier compare to the labels of the workers. Include images to explain why the classifier correctly or incorrectly labels certain images. 
 5. If you had more time to work on this HIT, what additional steps would you add to include better quality control and aggregation?
 6. Upload `submissions.csv`.
