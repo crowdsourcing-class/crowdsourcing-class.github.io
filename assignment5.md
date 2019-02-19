@@ -43,9 +43,9 @@ A different large-scale crowdsourced dataset, [The Massively Multilingual Image 
 
 ![MMID](https://multilingual-images.org/resources/thumbnail_kucing-top5-cnn.png)
 
-MMID contains around 100 images for around 10,000 words in 100 foreign languages, providing an interesting source of data for improving the "geodiversity" of image classifiers. However, [the images for an English translation of a foreign word can be noisy](http://aclweb.org/anthology/P18-1239), as shown by crowdworkers who evaluated the relevance of images for a large subset of translations for 3 languages.
+MMID contains around 100 images for around 10,000 words in 100 foreign languages, providing an interesting source of data for improving the "geodiversity" of image classifiers. However, [the images for an English translation of a foreign word can be noisy](http://aclweb.org/anthology/P18-1239), as shown by crowdworkers who evaluated the relevance of images for a large subset of translations in 3 languages.
 
-In this assignment, you will explore how a classifier pre-trained on ImageNet perform on photos representing wedding-related words in several Indian languages, and employ Indian workers on Mechanical Turk to validate that images are in fact related to "groom/bridegroom".
+In this assignment, you will explore how a classifier pre-trained on ImageNet performs on photos representing wedding-related words in several Indian languages, and employ Indian workers on Mechanical Turk to validate that images are in fact related to "groom/bridegroom".
 
 <div class="panel panel-info">
 <div class="panel-heading" markdown="1">
