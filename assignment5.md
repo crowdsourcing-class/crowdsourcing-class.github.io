@@ -1,10 +1,11 @@
 ---
 layout: default
-img: capitalist-greed
-caption: Exploit the masses!
+img: fei-fei-li
+img_link: https://qz.com/1034972/the-data-that-changed-the-direction-of-ai-research-and-possibly-the-world/
+caption: Become Fei-Fei Li!
 title: Homework 5 "Become a Requester"
 active_tab: homework
-release_date: 2019-02-19
+release_date: 2019-02-19T23:59:00EST
 due_date: 2019-02-26T23:59:00EST
 ---
 
@@ -27,6 +28,55 @@ This assignment is before {{ page.due_date | date: "%I:%M%p" }} due on {{ page.d
 
 Become a Requester<span class="text-muted"> : Assignment 5</span> 
 =============================================================
+
+In this homework assignment, you're going to learn how to be a [requester on Amazon Mechanical Turk](https://requester.mturk.com/).  You should try to sign-up as a requester as soon as possible, because it is a multi-step process and each step can take time.  If you're unable to sign up as a requester yourself, we recommend partnering with another student who has successfully signed up.
+
+Once you are a requester, you will be able to post work on MTurk and to pay workers to complete your tasks.  To complete the work outlined in this assignment, you need to pay about $30.  If paying $30 of your own money presents a financial hardship to you, then please email your professor.
+
+We will be asking workers to label images for us, similar to how [Fei-Fei Li created ImageNet](https://qz.com/1034972/the-data-that-changed-the-direction-of-ai-research-and-possibly-the-world/).
+
+## Your first HIT
+
+Let's get started with creating your first HIT on MTurk.   After logging into your requester account, go to the Create Tab and then click [New Project](](https://requester.mturk.com/create/projects/new)).  We'll be labeling images, so you can start with the built-in Image Contains  HIT design (shown below).
+
+<img src="images/requester-step-1.png" alt="Click on the Create tab to start building a New Project" class="img-responsive" />
+
+Select Image Classification, and then click on Create Project.  You will see 3 tabs: 
+* **Enter Properties** is where you can configure how much you will pay workers to do your task (Reward per assignment), how many workers you want to annotate each item (Number of assignments per task), and who is allowed to work on your your tasks (Worker requirements).
+* **Design Layout** is where you can edit the HTML that forms your HIT.  You can update the instructions,  add new html form elements to collect input from workers, and modify the variable names (denoted as ${variable_name}).
+* **Preview and Finish** is where you see how your task will look to workers.  When you publish your tasks, any variables in the layout will be replaced with the input data that you provide via a comma separated value (CSV) file.  You haven't uploaded any data yet, so you won't see it in the preview.
+
+In the **Enter Properties** tab, you should change the following fields:
+* Project Name - this is a mneumonic name for yourself.  I named mine "Image labeling version 1".
+* Title - this is what the workers will see in the on the HIT Groups listing on [worker.mturk.com](https://worker.mturk.com).  We're going to be having workers label wedding photos, so I changed this field to say "Does this image show a wedding?".
+* Description - this is what a worker sees once they click on your HIT title.  I changed this field to say "Does this image depict a wedding?  We are interested in both Indian weddings and Western-style weddings."
+* Keywords - workers can search for tasks based on this.  In addition to *image*, and *classification*, I added *wedding*.
+* Reward per assignment - this is how much you'll pay a worker to do one task.  It doesn't include Amazon's commission.  I set this at $0.01.
+* Number of assignments per task - this is how many workers you want to label each item.  I set this at 3 so that we can take a majortiy vote in cases where workers disagree about what the correct answer should be.
+
+
+<img src="images/requester-step-2.png" alt="Edit the properties of your project" class="img-responsive" />
+
+
+In the **Worker requirements** section of the **Enter Properties** tab, I added several qualifications taht workers had to meet in order to do my task:
+* HIT Approval Rate >= 90%
+* Number of HITs approved >= 500
+* Location is India (since we'll be labeling a lot of photos related to Indian weddings)
+
+<img src="images/requester-step-3.png" alt="Edit the Worker Requirements for your project" class="img-responsive" />
+
+In the **Design Layout** tab, edit the HTML to say that we're looking for pictures of weddings instead of birds, and edit the Detailed Instructions section to give clearer instructions on what we're looking for.  Here's what I wrote: 
+
+*Instructions for determining if the image depicts a wedding:*
+* *We are interested in both Indian weddings and Western-style weddings*
+* *Pick yes if the image shows a bride and groom*
+* *Pick yes if the image shows a wedding or something related to a wedding ceremony*
+
+
+<img src="images/requester-step-4.png" alt="Edit the Worker Requirements for your project" class="img-responsive" />
+
+After you've made those edits, you can click on Save and then Preview to see what your HIT will look like to workers.
+
 ## Background
 
 Last week, you trained an image classifier with modern machine learning methods to achieve state-of-the-art results, making use of _transfer learning_ from the ImageNet dataset, which was [collected with large-scale crowdsourcing](http://image-net.org/tutorials/cvpr2015/crowdsourcing_slides.pdf). 
