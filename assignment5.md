@@ -82,7 +82,7 @@ We recommend using the [glob module](https://docs.python.org/3/library/glob.html
 ```
 Create a Counter object counts
 For every row in the DataFrame:
-     true_images = the list of selected images from splitting the string in the "Answer.selected" column of the row
+     true_images = the list of images from splitting the string in the "Answer.selected" column of the row
      for every column "Input.image<number>":
           if image<number> is in true_images:
                url = row["Input.image<number>"]
