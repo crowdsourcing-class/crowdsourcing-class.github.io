@@ -69,7 +69,7 @@ We recommend using the [glob module](https://docs.python.org/3/library/glob.html
 
 4. In the [Amazon MTurk Requester site](https://requester.mturk.com/create/projects/new), sign in to create a new project from the "Other" template. The task you are creating is to get workers in India to click on images that represent the word "groom/bridegroom". 
 
-5. Enter the properties of the HIT using the best practices you learned from class - we recommend $0.02 per HIT (for an hourly wage of around $3.6) and 3 assignments per task (for quality control). **Under "Worker Requirements", you MUST add the criterion that the location of workers is India.**
+5. Enter the properties of the HIT using the best practices you learned from class - we recommend $0.02 per HIT (for an hourly wage of around $3.6) and 3 assignments per task (for better quality control and aggregation). **Under "Worker Requirements", you MUST add the criterion that the location of workers is India.**
 
 6. Use the [provided design layout](https://drive.google.com/file/d/1PHipJaHMhPPImSk-SJ8JKSdmhOLLgwnA/view?usp=sharing) and preview the HIT. Download a sample of the input CSV file for the project at the top of the page, and finish creating the HIT.
 
