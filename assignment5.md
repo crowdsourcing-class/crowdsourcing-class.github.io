@@ -57,7 +57,7 @@ In this assignment, you will explore how a classifier pre-trained on ImageNet pe
 
 2. Upload the [zipped "Weddings Indian Languages" dataset](https://drive.google.com/file/d/1ElHME-VAHg2NUJKQuD5uaQQ-fCgMrWBi/view?usp=sharing) to Colab and run `!unzip "weddings-indian-languages.zip"` in a new cell. The dataset is composed of around 200-1000 images per language, for 7 languages spoken in India (Bengali, Gujarati, Hindi, Malayalam, Marathi, Punjabi, Tamil, and Telugu), taken from MMID.
 
-3. Create a Pandas DataFrame from a list of dictionaries, where each dictionary contains the results of the classifier on an image, and looks like this.
+3. Create a [Pandas DataFrame](https://colab.research.google.com/drive/1aASE_EiwZTT18ktR7uaLMWbMI30QXdk5) from a list of dictionaries, where each dictionary contains the results of the classifier on an image, and looks like this.
 
 ```
 {"path": "weddings-indian-languages/hindi/6250/07.jpg",
@@ -71,25 +71,25 @@ We recommend using the [glob module](https://docs.python.org/3/library/glob.html
 
 5. Enter the properties of the HIT using the best practices you learned from class - we recommend $0.02 per HIT (for an hourly wage of around $3.6) and 3 assignments per task (for better quality control and aggregation). **Under "Worker Requirements", you MUST add the criterion that the location of workers is India.**
 
-6. Use the [provided design layout](https://drive.google.com/file/d/1PHipJaHMhPPImSk-SJ8JKSdmhOLLgwnA/view?usp=sharing) and preview the HIT. Download a sample of the input CSV file for the project at the top of the page, and finish creating the HIT.
+6. Use the [provided design layout](https://drive.google.com/file/d/1PHipJaHMhPPImSk-SJ8JKSdmhOLLgwnA/view?usp=sharing) and preview the HIT. Download a sample of the input CSV file for the project at the top of the preview page, and finish creating the HIT.
 
-7. Use the sample `input.csv` file format and `image_paths_and_predictions.csv` (created in step 3) to create `variables.csv` with the right format for the HIT. The English word we care about is "groom/bridegroom".
+7. Use the sample `input.csv` file format and data from `image_paths_and_predictions.csv` (created in step 3, which you can load in as a DataFrame) to create `variables.csv` with the right format for this HIT. The English word we care about is "groom/bridegroom".
 
-8. Click "Publish Batch" in MTurk, uploading `variables.csv`, and preview the tasks. Click "Next" and confirm the settings of your HIT, which should cost approximately $30 per team. Sit back and watch the crowd work!
+8. Click "Publish Batch" in MTurk, uploading `variables.csv`, and preview the tasks. Click "Next" and confirm the settings of your HIT, which should cost approximately $30 per team. **Make sure to screenshot this page for the report**. Sit back and watch the crowd work!
 
-9. When the HIT is done, download the Batch CSV and read it into a DataFrame. For every row in the DataFrame, split "Answer.selected" to get the the images that workers identified as "groom/bridegroom". For each such image in the row (Input.image<number>), if image<number> is in the selected images, update the counter, where the key is the URL in the Input.image<number> column. Here is the pseudocode:
+9. When the HIT is done, download the Batch CSV and read it into a DataFrame in Colab. For every row in the DataFrame, split "Answer.selected" to get the list of images that workers identified as "groom/bridegroom". For each image in the row (in columns "Input.image<number>"), if image<number> is in the selected images, update a counter, where the key is the URL in the "Input.image<number>" column. Here is the pseudocode:
   
 ```
-Create a Counter object c
+Create a Counter object counts
 For every row in the DataFrame:
-     true_images = the list from splitting the string in the "Answer.selected" column of the row by "|"
-     for every image{i} in the images:
-          if image{i} in true_images:
-               url = row["Input.image{j}"]
-               c[url] += 1
+     true_images = the list of selected images from splitting the string in the "Answer.selected" column of the row
+     for every column "Input.image<number>":
+          if image<number> is in true_images:
+               url = row["Input.image<number>"]
+               counts[url] += 1
 ```
   
-10. Create a DataFrame from the counter, and derive a new column that is True only if the counter value is 2 or more (a majority of the workers said the image represented "bride/bridegroom"). Use the merge function to join the DataFrame from `image_paths_and_predictions.csv` to the DataFrame of true labels, on the column of image paths. Save the DataFrame as `submissions.csv`. Calculate the percentage of images the classifier predicted to be about "groom/bridegroom" (positives), and calculate the rate of images that the classifier missed the presence of "groom/bridegroom" (false negatives). Are you surprised by the results you got? Explore the results further by visualizing images that the classifier (in)correctly labeled.
+10. Create a DataFrame from the resulting counter, and derive a new column that is True only if the counter value is 2 or more (a majority of the workers said the image represented "bride/bridegroom"). Use the merge function to join the DataFrame loaded from `image_paths_and_predictions.csv` to the DataFrame of true labels, on the column of image paths. Save the DataFrame as `submissions.csv`. Calculate the percentage of images the classifier predicted to be about "groom/bridegroom" ("positives"), and calculate the rate of images for which the classifier missed the presence of "groom/bridegroom" ("false negatives"). Are you surprised by the results you got? Analyze the predictions and "true labels" further by visualizing images that the classifier (in)correctly labeled.
 
 </div>
 </div>
@@ -103,10 +103,10 @@ For every row in the DataFrame:
 Below are the questions that you will be asked to answer about this assignment. Please turn in your answers in a PDF for [Homework 5 on Gradescope]({{page.submission_link}}).
 
 1. What is the link to your Colab notebook?
-2. Attach a screenshot of the page confirming the settings of the HIT.
-3. What is the percentage of images predicted as "bride/bridegroom" by the classifier and the percentage of images not predicted as "bride/bridegroom" by the classifier but labeled as "bride/bridegroom" by the workers?
-4. Analyze how the predictions of the classifier compare to the labels of the workers. Include images to explain why the classifier correctly or incorrectly labels certain images. 
-5. If you had more time to work on this HIT, what additional steps would you add to include better quality control and aggregation?
+2. Attach a screenshot of the page confirming the settings of your HIT.
+3. What is the percentage of images predicted as "bride/bridegroom" by the classifier ("positives") and the percentage of images not predicted as "bride/bridegroom" by the classifier but labeled as "bride/bridegroom" by the workers ("false negatives")?
+4. Analyze how the predictions of the classifier compare to the labels of the workers. Include images to hypothesize why the classifier correctly or incorrectly labeled certain images. 
+5. If you had more time to work on this HIT, what additional things would you add in the creation or processing of the HIT for better quality control and aggregation?
 6. Upload `submissions.csv`.
 </div>
 </div>
