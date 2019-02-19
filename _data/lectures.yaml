@@ -147,7 +147,7 @@
       authors: Daniel Jurafsky and James Martin
       url: https://web.stanford.edu/~jurafsky/slp3/5.pdf
 -
-  date: 2019-02-12
+  date: 2019-02-14
   slides: http://crowdsourcing-class.org/slides/computer-vision.pdf
   title: How Crowdsourcing Enabled Computer Vision
   recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=86eccb91-1fd3-485d-81cf-a9d801533650
@@ -168,3 +168,17 @@
       title: notes for Stanford's CS231n course "Convolutional Neural Networks for Visual Recognition"
       authors: Stanford University instructors
       url: http://cs231n.github.io
+-
+  date: 2019-02-19
+  slides: http://crowdsourcing-class.org/slides/taxonomy-of-human-computation.pdf
+  title: Taxonomy of crowdsourcing and human computation 
+  recording: 
+  readings:
+    -
+      title:  Human Computation&#58; A Survey and Taxonomy of a Growing Field
+      authors: Alex Quinn and Ben Bederson
+      url: readings/downloads/intro/QuinnAndBederson.pdf
+    -
+      authors: Panos Ipeirotis
+      title:  Worker Evaluation in Crowdsourcing&#58; Gold Data or Multiple Workers?
+      url: http://www.behind-the-enemy-lines.com/2010/09/worker-evaluation-in-crowdsourcing-gold.html
