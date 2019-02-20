@@ -56,10 +56,6 @@ Thanks for taking NETS 213!  Please help improve the course for next year by fil
 
 
 
-<div class="alert alert-success" markdown="1">
-Here is [a batch of MTurk data](http://www.cis.upenn.edu/~ccb/Batch_3517965_batch_results.csv.gz) that we will analyze in class last week.
-</div>
-
 <!-- Display an alert about upcoming homework assignments -->
 {% capture now %}{{'now' | date: '%s'}}{% endcapture %}
 {% for page in site.pages %}
