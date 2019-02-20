@@ -152,6 +152,17 @@ MMID contains around 100 images for around 10,000 words in 100 foreign languages
 
 In this assignment, you will explore how a classifier pre-trained on ImageNet performs on photos representing wedding-related words in several Indian languages, and employ Indian workers on Mechanical Turk to validate that images are in fact related to "groom/bridegroom". You should work in teams of 2.
 
+## What to do in this assignment
+
+You'll do the following things in this assignment:
+1. Use an image classifier trained on ImageNet to classify a set of wedding pictures that were collected in the MMID data set for several Indian langauges and several Western European languages.
+2. See what faction of the images are predicted to depict weddings by the classifier.
+3. Post the images to Mechanical Turk and having India-based Turkers manually label whether the images depict weddings.  We'll give you a HIT design that will allow Turkers to label more than one image at once.
+4. Aggregate the workers results to create a set of correct labels for the images.
+5. Validate the model's predictions by comparing them to the correct labels that you derived from the Turkers' answers.
+6. Analyze the results and write a short report about your findings.
+7. Upload your MTurk results CSV file and your code.
+
 <div class="panel panel-info">
 <div class="panel-heading" markdown="1">
 #### Detailed Instructions
