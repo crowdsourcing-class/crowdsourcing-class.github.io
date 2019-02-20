@@ -83,15 +83,25 @@ Last week, you trained an image classifier with modern machine learning methods 
 
 [AI encodes and magnifies bias](https://www.fast.ai/2019/01/29/five-scary-things/#bias), and [Google researchers](https://ai.google/research/pubs/pub46553) found that ImageNet and another popular dataset called Open Images "appear to exhibit an observable amerocentric and eurocentric representation bias," as demonstrated by the distribution of geographically identifiable images in the datasets, with 2/3 of the images from the Western world.
 
-![Chart from 'No Classification without Representation'](https://www.groundai.com/media/arxiv_projects/161052/imagenet_pie_chart.png.750x0_q75_crop.jpg)
+
+<img src="https://www.groundai.com/media/arxiv_projects/161052/imagenet_pie_chart.png.750x0_q75_crop.jpg" alt="Chart from 'No Classification without Representation'" class="img-responsive" />
+
+
 
 In addition, classifiers trained on the datasets show "strong differences in the relative performance on images from different locales", with lower accuracy and confidence on images with labels related to people, like "bridegroom" and "police officer", from countries like India and China. The research helped inspire the [Inclusive Images Challenge](https://ai.googleblog.com/2018/09/introducing-inclusive-images-competition.html), run by Google in partnership with a top deep learning conference called NeurIPS, last year.
 
-![Non-geodiverse classifier](https://3.bp.blogspot.com/-2kC1S5aFftI/W5BN51YsLlI/AAAAAAAADTQ/zfBOHMA4kfQly_-ePkFrqyAAiWcuLiHEwCLcBGAs/s640/f1.png)
+
+<img src="https://3.bp.blogspot.com/-2kC1S5aFftI/W5BN51YsLlI/AAAAAAAADTQ/zfBOHMA4kfQly_-ePkFrqyAAiWcuLiHEwCLcBGAs/s640/f1.png" alt="Non-geodiverse classifier" class="img-responsive" />
+
+
 
 A different large-scale crowdsourced dataset, [The Massively Multilingual Image Dataset (MMID)](http://multilingual-images.org/), was created by Penn researchers to learn English translations for words in 100 foreign languages, by scraping images for each foreign word and finding the English words that had the most "similar" images.
 
-![MMID](https://multilingual-images.org/resources/thumbnail_kucing-top5-cnn.png)
+
+
+<img src="https://multilingual-images.org/resources/thumbnail_kucing-top5-cnn.png" alt="An image from the massively multilingual images dataset" class="img-responsive" />
+
+
 
 MMID contains around 100 images for around 10,000 words in 100 foreign languages, providing an interesting source of data for improving the "geodiversity" of image classifiers. However, [the images for an English translation of a foreign word can be noisy](http://aclweb.org/anthology/P18-1239), as shown by crowdworkers who evaluated the relevance of images for a large subset of translations in 3 languages.
 
