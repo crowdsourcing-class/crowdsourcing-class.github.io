@@ -5,7 +5,7 @@ img_link: https://qz.com/1034972/the-data-that-changed-the-direction-of-ai-resea
 caption: Become Fei-Fei Li!
 title: Homework 5 "Become a Requester"
 active_tab: homework
-release_date: 2019-02-19T23:59:00EST
+release_date: 2019-02-19
 due_date: 2019-02-26T23:59:00EST
 ---
 
@@ -19,6 +19,10 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 {% endif %}
 <!-- End of check whether the assignment is up to date -->
 
+
+<div class="alert alert-danger" markdown="1">
+You should try to [sign up to be a Mechanical Turk Requester](https://requester.mturk.com/)  ASAP.  If you are unable to get an account, you can partner with a student who got one. 
+</div>
 
 <div class="alert alert-info">
 This assignment is before {{ page.due_date | date: "%I:%M%p" }} due on {{ page.due_date | date: "%A, %B %-d, %Y" }}. 
