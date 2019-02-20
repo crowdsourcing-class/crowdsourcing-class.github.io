@@ -75,7 +75,7 @@ In the **Design Layout** tab, edit the HTML to say that we're looking for pictur
 
 <img src="images/requester-step-4.png" alt="Edit the Worker Requirements for your project" class="img-responsive" />
 
-After you've made those edits, you can click on Save and then Preview to see what your HIT will look like to workers.
+After you've made those edits, you can click on Save and then Preview to see what your HIT will look like to workers. **This is only for you to get familiar with the MTurk design layout, but for convenience, we have provided the template that you will be using when you will be designing your HIT.**
 
 ## Background
 
