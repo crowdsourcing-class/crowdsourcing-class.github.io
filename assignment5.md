@@ -51,14 +51,14 @@ In the **Enter Properties** tab, you should change the following fields:
 * Title - this is what the workers will see in the on the HIT Groups listing on [worker.mturk.com](https://worker.mturk.com).  We're going to be having workers label wedding photos, so I changed this field to say "Does this image show a wedding?".
 * Description - this is what a worker sees once they click on your HIT title.  I changed this field to say "Does this image depict a wedding?  We are interested in both Indian weddings and Western-style weddings."
 * Keywords - workers can search for tasks based on this.  In addition to *image*, and *classification*, I added *wedding*.
-* Reward per assignment - this is how much you'll pay a worker to do one task.  It doesn't include Amazon's commission.  I set this at $0.01.
+* Reward per assignment - this is how much you'll pay a worker to do one task.  It doesn't include Amazon's commission. I set this at $0.01.
 * Number of assignments per task - this is how many workers you want to label each item.  I set this at 3 so that we can take a majortiy vote in cases where workers disagree about what the correct answer should be.
 
 
 <img src="images/requester-step-2.png" alt="Edit the properties of your project" class="img-responsive" />
 
 
-In the **Worker requirements** section of the **Enter Properties** tab, I added several qualifications taht workers had to meet in order to do my task:
+In the **Worker requirements** section of the **Enter Properties** tab, I added several qualifications that workers had to meet in order to do my task:
 * HIT Approval Rate >= 90%
 * Number of HITs approved >= 500
 * Location is India (since we'll be labeling a lot of photos related to Indian weddings)
