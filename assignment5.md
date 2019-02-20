@@ -219,6 +219,8 @@ Below are the questions that you will be asked to answer about this assignment. 
 3. What is the precision, recall, and F1 score of the classifier on Western images vs. on non-Western images? Compare the differences.
 4. Analyze how the predictions of the classifier compare to the labels of the workers. Include images to explain why you think the classifier correctly or incorrectly labeled certain images.
 5. If you had more time to work on this HIT, what additional things would you add in the creation or processing of the HIT for better quality control and aggregation?
-6. Upload `submissions.csv`.
+6. Upload `submissions.csv` and the Batch CSV file (From step 9) with the MTurk results
+7. Calculate the cost of annotating images from the entire wedding dataset (Both Indian and European) on MTurk using the 1-image-per-HIT design that was described in the section “Your First HIT”. Compare this cost with the cost you obtained while using the multiple-images-per-HIT-design we gave you. Assume the “Reward per Assignment” in both the cases to be $0.01, and the “Number of Assignments per Task” to be 3. State any other assumptions necessary.
+8. Calculate the cost of annotating the 35 million images in the MMID. For this question, you are free to choose any HIT design, and any values for “Reward per Assignment” and “Number of Assignments per task”.  State your reasons for choosing the design and these values. State any other assumptions necessary.
 </div>
 </div>
