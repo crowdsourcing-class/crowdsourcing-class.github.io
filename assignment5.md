@@ -190,7 +190,7 @@ For every row in the DataFrame:
                counts[url] += 1
 ```
   
-10. Create a DataFrame from the resulting counter, and derive a new column that is True only if the counter value is 2 or more (a majority of the workers said the image represented "bride/bridegroom"). Use the merge function to join the DataFrame loaded from `image_paths_and_predictions.csv` to the DataFrame of true labels, on the column of image paths. Save the DataFrame as `submissions.csv`. Calculate the precision, recall, and F1 score of the classifier. Are you surprised by the results you got? Analyze the predictions and "true labels" further by visualizing images that the classifier (in)correctly labeled.
+10. Create a DataFrame from the resulting counter, and derive a new column that is True only if the counter value is 2 or more (a majority of the workers said the image represented "bride/bridegroom"). Use the merge function to join the DataFrame loaded from `image_paths_and_predictions.csv` to the DataFrame of true labels, on the column of image paths. Save the DataFrame as `submissions.csv`. Calculate the precision, recall, and F1 score of the classifier, for Western images vs. non-Western images. Are you surprised by the results you got? Analyze the predictions and "true labels" further by visualizing images that the classifier (in)correctly labeled.
 
 </div>
 </div>
@@ -205,7 +205,7 @@ Below are the questions that you will be asked to answer about this assignment. 
 
 1. What is the link to your Colab notebook?
 2. Attach a screenshot of the page confirming the settings of your HIT.
-3. What is the precision, recall, and F1 score of the classifier?
+3. What is the precision, recall, and F1 score of the classifier on Western images vs. on non-Western images? Compare the differences.
 4. Analyze how the predictions of the classifier compare to the labels of the workers. Include images to explain why you think the classifier correctly or incorrectly labeled certain images.
 5. If you had more time to work on this HIT, what additional things would you add in the creation or processing of the HIT for better quality control and aggregation?
 6. Upload `submissions.csv`.
