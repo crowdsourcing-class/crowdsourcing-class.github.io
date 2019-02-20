@@ -29,9 +29,9 @@ This assignment is before {{ page.due_date | date: "%I:%M%p" }} due on {{ page.d
 Become a Requester<span class="text-muted"> : Assignment 5</span> 
 =============================================================
 
-In this homework assignment, you're going to learn how to be a [requester on Amazon Mechanical Turk](https://requester.mturk.com/).  You should try to sign-up as a requester as soon as possible, because it is a multi-step process and each step can take time.  If you're unable to sign up as a requester yourself, we recommend partnering with another student who has successfully signed up.
+In this homework assignment, you're going to learn how to be a [requester on Amazon Mechanical Turk](https://requester.mturk.com/).  You should try to sign-up as a requester as soon as possible, because it is a multi-step process and each step can take time.  If you're unable to sign up as a requester yourself, we recommend partnering with another student who has successfully signed up. You will work in pairs.
 
-Once you are a requester, you will be able to post work on MTurk and to pay workers to complete your tasks.  To complete the work outlined in this assignment, you need to pay about $30.  If paying $30 of your own money presents a financial hardship to you, then please email your professor.
+Once you are a requester, you will be able to post work on MTurk and to pay workers to complete your tasks.  To complete the work outlined in this assignment, you need to pay about $25.  If paying $25 of your own money presents a financial hardship to you, then please email your professor.
 
 We will be asking workers to label images for us, similar to how [Fei-Fei Li created ImageNet](https://qz.com/1034972/the-data-that-changed-the-direction-of-ai-research-and-possibly-the-world/).
 
@@ -117,15 +117,11 @@ In this assignment, you will explore how a classifier pre-trained on ImageNet pe
 
 We recommend using the [glob module](https://docs.python.org/3/library/glob.html) with the appropriate wildcards to get a list of all the images. Save the DataFrame as `image_paths_and_predictions.csv`, which you will use later in the assignment. To simplify step 7, **you must add "https://s3.amazonaws.com/nets213-hw5/" to the beginning of each image file path**, before saving the DataFrame as a CSV.
 
-4. In the [Amazon MTurk Requester site](https://requester.mturk.com/create/projects/new), sign in to create a new project from the "Other" template. The task you are creating is to get workers in India to click on images that represent the word "groom/bridegroom". 
-
-5. Enter the properties of the HIT using the best practices you learned from class - we recommend $0.02 per HIT (for an hourly wage of around $3.6) and 3 assignments per task (for better quality control and aggregation). **Under "Worker Requirements", you MUST add the criterion that the location of workers is India.**
-
-6. Use the [provided design layout](https://drive.google.com/file/d/1PHipJaHMhPPImSk-SJ8JKSdmhOLLgwnA/view?usp=sharing) and preview the HIT. Download a sample of the input CSV file for the project at the top of the preview page, and finish creating the HIT.
+6. Use the [provided design layout](https://drive.google.com/file/d/1PHipJaHMhPPImSk-SJ8JKSdmhOLLgwnA/view?usp=sharing) to create the HIT. Download a sample of the input CSV file for the project at the top of the preview page, and finish creating the HIT.
 
 7. Use the sample `input.csv` file format and data from `image_paths_and_predictions.csv` (created in step 3, which you can load in as a DataFrame) to create `variables.csv` with the right format for this HIT. The English word we care about is "groom/bridegroom".
 
-8. Click "Publish Batch" in MTurk, uploading `variables.csv`, and preview the tasks. Click "Next" and confirm the settings of your HIT, which should cost approximately $30 per team. **Make sure to screenshot this page for the report**. Sit back and watch the crowd work!
+8. Click "Publish Batch" in MTurk, uploading `variables.csv`, and preview the tasks. Click "Next" and confirm the settings of your HIT, which should cost approximately $25 per team. **Make sure to screenshot this page for the report**. Sit back and watch the crowd work!
 
 9. When the HIT is done, download the Batch CSV and read it into a DataFrame in Colab. For every row in the DataFrame, split "Answer.selected" to get the list of images that workers identified as "groom/bridegroom". For each image in the row (in columns "Input.image<number>"), if image<number> is in the selected images, update a counter, where the key is the URL in the "Input.image<number>" column. Here is the pseudocode:
   
