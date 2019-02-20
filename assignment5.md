@@ -75,31 +75,76 @@ In the **Design Layout** tab, edit the HTML to say that we're looking for pictur
 
 <img src="images/requester-step-4.png" alt="Edit the Worker Requirements for your project" class="img-responsive" />
 
-After you've made those edits, you can click on Save and then Preview to see what your HIT will look like to workers. **This is only for you to get familiar with the MTurk design layout, but for convenience, we have provided the template that you will be using when you will be designing your HIT.**
+After you've made those edits, you can click on Save and then Preview to see what your HIT will look like to workers.   Since you haven't yet uploaded any information (like the URLs for the images that you want users to judge), there will be a placeholder saying "Image will display here".  
 
-## Background
+<img src="images/requester-step-5.png" alt="Preview what your HIT will look like to workers" class="img-responsive" />
+
+If you're satisfied with how the HIT looks, you can click the Finish button.  You'll then see your newly created task listed with a big orange button saying "Publish Batch" next to it.  You can publish a batch by clicking that button and uploading a comma separated value (CSV) file with the inputs to the HIT.  The popup screen that appears will give you a link to download a sample .csv file that shows what fields you need for your HIT.  For this HIT design, all we need is a single column with the header *image_url*, and a list of the image URLs that we want workers to judge.  Here's a [small CSV file](assignments/downloads/wedding-photos-small.csv) that you can use to test your HIT.
+
+
+<img src="images/requester-step-6.png" alt="Upload your CSV file" class="img-responsive" width="50%"/>
+
+Once you've uploaded the CSV then you can preview the HITs with the data populating them. There's a "Next HIT" button that will let you click through and preview multiple assignments.  This is useful to check things like whether your image links are all working properly.  
+
+
+<img src="images/requester-step-7.png" alt="Preview what your HIT will look like to workers" class="img-responsive" />
+
+If you're happy with how the HITs look, you can click the big orange "Next" button.  You'll then see a summary screen that gives details about the HIT including how much it will cost.  You can then publish your task for Turkers to work on by clicking on the big orange "Publish" button.
+
+
+<img src="images/requester-step-8.png" alt="Confirm the cost before you publish" class="img-responsive" />
+
+Your HITs will be posted to MTurk.  Once work has begun, you can mointor progress in the [Manage tab](https://requester.mturk.com/manage). You'll see a green progress bar showing how many of them have been completed. 
+
+
+<img src="images/requester-step-9.png" alt="Confirm the cost before you publish" class="img-responsive" />
+
+You can see the individual responses by clicking on the "Review Results" link above the progress bar.  On this screen you'll see:
+* The HIT ID - notice that there are 3 HIT IDs that are all identical, since we asked 3 workers to annotate each item. 
+* The Worker ID of the workers who completed each HIT.
+* The Approval Rate for the worker - this is how many of the worker's tasks we have approved in the past (not how many all requesters have approved - just us).
+* Input.Image Url - the input field in the CSV that we uploaded.
+* Image Contains.Label - the label that the worker picked.
+
+<img src="images/requester-step-10.png" alt="Review the results from the workers" class="img-responsive" />
+
+You can see that the three workers all said that the first URL did not show a wedding.  This is the image that they said doesn't show a wedding:
+
+<img src="images/weddings-indian-languages_gujarati_7268_01.jpg" alt="This doesn't show a wedding" class="img-responsive" width="33%" />
+
+
+Three workers said that the second URL did show a wedding.  This is the image that does show a wedding:
+
+<img src="images/weddings-indian-languages_hindi_7246_01.jpg" alt="This does show a wedding" class="img-responsive" width="33%" />
+
+
+The Review Results screen will also let you approve or reject the Workers' submissions.  I recommend going ahead and approving all the assignments for this test HIT.
+You can also Download all of these results in a CSV file.  Here is the [results file](assignments/downloads/wedding-photos-small-Batch_3537650_batch_results.csv) from when I ran the HIT.   You can open the CSV file in a spreadsheet app.  You'll notice that the CSV file has a lot of extra fields that include information about your HIT, including the properties that you included for it, and info about the amount of time that workers took to complete each assignment.  Columns in the results CSV that start with "Input." are the variables that were in the CSV that you uploaded.  Columns that start with "Answer." are the answers that the Turkers provided.
+
+
+
+## Why are we labeling images of Indian weddings?
 
 Last week, you trained an image classifier with modern machine learning methods to achieve state-of-the-art results, making use of _transfer learning_ from the ImageNet dataset, which was [collected with large-scale crowdsourcing](http://image-net.org/tutorials/cvpr2015/crowdsourcing_slides.pdf). 
 
 [AI encodes and magnifies bias](https://www.fast.ai/2019/01/29/five-scary-things/#bias), and [Google researchers](https://ai.google/research/pubs/pub46553) found that ImageNet and another popular dataset called Open Images "appear to exhibit an observable amerocentric and eurocentric representation bias," as demonstrated by the distribution of geographically identifiable images in the datasets, with 2/3 of the images from the Western world.
 
 
-<img src="https://www.groundai.com/media/arxiv_projects/161052/imagenet_pie_chart.png.750x0_q75_crop.jpg" alt="Chart from 'No Classification without Representation'" class="img-responsive" />
+<img src="images/imagenet_pie_chart.jpg" alt="Chart from 'No Classification without Representation'" class="img-responsive" width="50%" />
 
 
 
 In addition, classifiers trained on the datasets show "strong differences in the relative performance on images from different locales", with lower accuracy and confidence on images with labels related to people, like "bridegroom" and "police officer", from countries like India and China. The research helped inspire the [Inclusive Images Challenge](https://ai.googleblog.com/2018/09/introducing-inclusive-images-competition.html), run by Google in partnership with a top deep learning conference called NeurIPS, last year.
 
 
-<img src="https://3.bp.blogspot.com/-2kC1S5aFftI/W5BN51YsLlI/AAAAAAAADTQ/zfBOHMA4kfQly_-ePkFrqyAAiWcuLiHEwCLcBGAs/s640/f1.png" alt="Non-geodiverse classifier" class="img-responsive" />
-
+<img src="images/bias-towards-western-weddings.png" alt="This classifier has no problem correctly labeling photos of Western weddings, but fails on pictures of weddings from other cultures" class="img-responsive" />
 
 
 A different large-scale crowdsourced dataset, [The Massively Multilingual Image Dataset (MMID)](http://multilingual-images.org/), was created by Penn researchers to learn English translations for words in 100 foreign languages, by scraping images for each foreign word and finding the English words that had the most "similar" images.
 
 
 
-<img src="https://multilingual-images.org/resources/thumbnail_kucing-top5-cnn.png" alt="An image from the massively multilingual images dataset" class="img-responsive" />
+<img src="https://multilingual-images.org/resources/thumbnail_kucing-top5-cnn.png" alt="An image from the massively multilingual images dataset" class="img-responsive" width="50%"/>
 
 
 
