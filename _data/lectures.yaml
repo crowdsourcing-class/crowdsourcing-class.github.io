@@ -182,3 +182,160 @@
       authors: Panos Ipeirotis
       title:  Worker Evaluation in Crowdsourcing&#58; Gold Data or Multiple Workers?
       url: http://www.behind-the-enemy-lines.com/2010/09/worker-evaluation-in-crowdsourcing-gold.html
+-
+  date: 2019-02-21
+  slides: http://crowdsourcing-class.org/slides/programming-the-crowd.pdf
+  title: Programming concepts for human computation
+  readings:
+    -
+      authors: Greg Little, Lydia B. Chilton, Max Goldman, and Robert C. Miller
+      title:  TurKit&#58; Human Computation Algorithms on Mechanical Turk
+      url: readings/downloads/programming/Turkit.pdf
+-
+  date: 2019-02-22
+  slides: 
+  title: Drop Deadline
+  type: no_lecture
+-
+  date: 2019-02-26
+  slides: http://crowdsourcing-class.org/slides/iterative-and-parallel-processing.pdf
+  title: Iterative and Parallel Processing
+  readings:
+    -
+      authors: Greg Little, Lydia B. Chilton, Max Goldman, and Robert C. Miller
+      title:  Exploring Iterative and Parallel Human Computation Processes
+      url: readings/downloads/programming/iterative-and-parallel-processing-in-hcomp.pdf
+-
+  date: 2016-02-28
+  slides: http://crowdsourcing-class.org/slides/quality-control.pdf
+  title: Quality Control part 1
+  highlights:
+    - Agreement-based methods
+    - Embedded gold standard
+  readings:
+    -
+      authors: Luis von Ahn and Laura Dabbish
+      title:  Labeling Images with a Computer Game
+      url: readings/downloads/gwap/ESP.pdf
+    -
+      authors: Rion Snow, Brendan O’Connor, Daniel Jurafsky and Andrew Ng
+      title:  Cheap and Fast — But is it Good? Evaluating Non-Expert Annotations for Natural Language Tasks
+      url: readings/downloads/nlp/evaluating-non-expert-annotations-for-nlp.pdf
+-
+  date: 2019-03-05
+  slides: 
+  title: No Lecture - Spring Break
+  type: no_lecture
+-
+  date: 2019-03-07
+  slides: 
+  title: No Lecture - Spring Break
+  type: no_lecture
+-
+  date: 2019-03-12
+  slides: http://crowdsourcing-class.org/slides/quality-control-2.pdf
+  title: Quality Control part 2
+  highlights:
+    - Economic incentives
+  reading:
+    -
+      author: Anindya Ghose, Panos Ipeirotis, and Arun Sundararajan
+      title:  Opinion Mining Using Econometrics&#58; A Case Study on Reputation Systems
+      url: readings/downloads/nlp/opinion-mining-using-econometrics.pdf
+    -
+      author: Winter Mason and Duncan Watts
+      title:  Financial Incentives and the Performance of Crowds
+      url: readings/downloads/econ/financial-incentives-and-the-performance-of-crowds.pdf
+    -
+      author: Kazushi Ikeda and Michael Bernstein
+      title:  Pay It Backward&colon; Per-Task Payments on Crowdsourcing Platforms Reduce Productivity
+      url: readings/downloads/econ/per-task-payments-on-crowdsourcing-platforms-reduce-productivity.pdf
+-
+  date: 2019-03-14
+  slides: 
+  title: Guest lecutre by John McCoy
+  slides_credit: 
+  readings: 
+-
+  date: 2019-03-19
+  slides: 
+  title: 
+  slides_credit: 
+  readings: 
+-
+  date: 2019-03-21
+  slides: 
+  title: 
+  slides_credit: 
+  readings: 
+-
+  date: 2019-03-26
+  slides: 
+  title: 
+  slides_credit: 
+  readings: 
+-
+  date: 2019-03-28
+  slides: 
+  title: 
+  slides_credit: 
+  readings: 
+-
+  date: 2019-04-02
+  slides: 
+  title: 
+  slides_credit: 
+  readings: 
+-
+  date: 2019-04-04
+  slides: 
+  title: 
+  slides_credit: 
+  readings: 
+-
+  date: 2019-04-05
+  slides: 
+  title: Withdraw Deadline
+  type: no_lecture
+-
+  date: 2019-04-09
+  slides: 
+  title: 
+  slides_credit: 
+  readings: 
+-
+  date: 2019-04-11
+  slides: 
+  title: 
+  slides_credit: 
+  readings: 
+-
+  date: 2019-04-16
+  slides: 
+  title: 
+  slides_credit: 
+  readings: 
+-
+  date: 2019-04-18
+  slides: 
+  title: 
+  slides_credit: 
+  readings: 
+-
+  date: 2019-04-23
+  slides: 
+  title: 
+  slides_credit: 
+  readings: 
+-
+  date: 2019-04-25
+  slides: 
+  title: 
+  slides_credit: 
+  readings: 
+-
+  date: 2019-04-30
+  slides: 
+  title: 
+  slides_credit: 
+  readings: 
