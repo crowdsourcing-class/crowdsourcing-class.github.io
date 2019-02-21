@@ -198,9 +198,11 @@ Create a Counter object counts
 For every row in the DataFrame:
      true_images = the list of images from splitting the string in the "Answer.selected" column of the row
      for every column "Input.image<number>":
-          if image<number> is in true_images:
-               url = row["Input.image<number>"]
-               counts[url] += 1
+         url = row["Input.image<number>"]
+         if image<number> is in true_images:
+            counts[url] += 1
+         else:
+            counts[url] += 0
 ```
 8. Create a DataFrame from the resulting counter, and derive a new column that is True only if the counter value is 2 or more (a majority of the workers said the image represented "bride/bridegroom"). Use the merge function to join the DataFrame loaded from `image_paths_and_predictions.csv` to the DataFrame of true labels, on the column of image paths. Save the DataFrame as `submissions.csv`. Calculate the precision, recall, and F1 score of the classifier, for Western images vs. non-Western images. Are you surprised by the results you got? Analyze the predictions and "true labels" further by visualizing images that the classifier (in)correctly labeled.
 
