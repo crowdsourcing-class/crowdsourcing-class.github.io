@@ -179,8 +179,8 @@ You'll do the following things in this assignment:
 
 3. Create a [Pandas DataFrame](https://colab.research.google.com/drive/1aASE_EiwZTT18ktR7uaLMWbMI30QXdk5) from a list of dictionaries, where each dictionary contains the results of the classifier on an image, and looks like this.
 ```
-{"path": "weddings-indian-languages/hindi/6250/07.jpg",
-"predictions": ["vestment", "kimono", "theater_curtain"],
+{"path": "weddings-indian-languages/punjabi/7899/01.jpg",
+"predictions": ["vestment", "abaya", "cloak"],
 "predictions_include_groom_or_bridegroom": False}
 ```
 We recommend using the [glob module](https://docs.python.org/3/library/glob.html) with the appropriate wildcards to get a list of all the images. Save the DataFrame as `image_paths_and_predictions.csv`, which you will use later in the assignment. To simplify step 7, **you must add "https://s3.amazonaws.com/nets213-hw5/" to the beginning of each image file path**, before saving the DataFrame as a CSV.
