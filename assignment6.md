@@ -32,19 +32,26 @@ One of the awesome things about crowdsourcing is that it lets us quickly run sci
 
 For this assignment, you can work in teams of 3-4 people.  Your final project will require that you work in groups, so this is a good chance for you to form a group and test out whether you want to work with those people.
 
-You have five options for academic papers that you can replicate:
+You have seven options for academic papers that you can replicate:
 
 * [Demographics of Mechanical Turk](readings/downloads/platform/demographics-of-mturk.pdf) by Panos Ipeirotis
-* [Exploring Iterative and Parallel Human Computation Processes](readings/downloads/programming/iterative-and-parallel-processing-in-hcomp.pdf) by Greg Little, Lydia B. Chilton, Max Goldman, and Robert C. Miller
+* [Exploring Iterative and Parallel Human Computation Processes](readings/downloads/programming/iterative-and-parallel-processing-in-hcomp.pdf) by Greg Little, Lydia B. Chilton, Max Goldman, and Robert C. Miller**
 * [Labeling Images with a Computer Game](readings/downloads/gwap/ESP.pdf) by Luis von Ahn and Laura Dabbish 
+* [Fast, Cheap, and Creative: Evaluating Translation Quality
+  Using Amazon’s Mechanical Turk](https://www.cis.upenn.edu/~ccb/publications/mechanical-turk-for-machine-translation-evaluation.pdf) by Chris Callison-Burch
+* [Sprout: Crowd-Powered Task Design for Crowdsourcing](https://aiweb.cs.washington.edu/ai/pubs/bragg-uist18.pdf) by Jonathan Bragg, Mausam, Daniel S. Weld
 * [Financial Incentives and the Performance of Crowds](readings/downloads/econ/financial-incentives-and-the-performance-of-crowds.pdf) by Winter Mason and Duncan Watts
 * [Crowds in Two Seconds: Enabling Realtime Crowd-Powered Interfaces](readings/downloads/hci/adrenaline.pdf) by Michael Bernstein, Joel Brandt, Rob Miller, and David Karger
+
+** Please note that the [Turkit](http://up.csail.mit.edu/turkit/) software package referened in this paper is no longer maintained
 
 I have sorted the papers roughly in an order of how difficult they will be to replicate.  Because the difficulty level varies, and because I don't want to read 50 demographic studies of Mechanical Turk, I'm going to award different maximum point values to them based on their difficulties.  You can choose whichever one you want to work on.
 
 * Demographics of Mechanical Turk -- 3 points maximum (4 points max if you run the demographic survey on both MTurk and CrowdFlower and contrast the two)
 * Exploring Iterative and Parallel Human Computation Processes -- 5 points maximum
 * Labeling Images with a Computer Game -- 5 points maximum 
+* Fast, Cheap, and Creative: Evaluating Translation Quality Using Amazon's Mechanical Turk -- 5 points maximum
+* Sprout: Crowd-Powered Task Design for Crowdsourcing -- 5 points maximum
 * Financial Incentives and the Performance of Crowds -- 6 points maximum
 * Crowds in Two Seconds: Enabling Realtime Crowd-Powered Interfaces -- 7 points maximum 
 
@@ -103,10 +110,14 @@ If you had to remove any workers for giving spammy results, describe what criter
 
 Analyze the results of your experiment.  Try to perform the same analysis that the original paper did.  You should also present your results in a similar format (for instance, a similar style of graph).  Are your high-level findings the same as the original paper or different?  If they are different, how so? What do you attribute the differences to?
 
+### 7. Sample Report
+
+We had many excellent reports written the last time this class was offered. Here is one [example submission](readings/hw6writeup.pdf) that demonstrates the kind of high quality report we're looking for. They replicated the Financial Incentives and the Performance of Crowds paper.
+
 
 ### 7. Final write-up
 
-Write a final report.  Your final report should be written in markdown format (there's a good tutorial for markdown [here](http://markdowntutorial.com/)), and should be approximately 3,500 words long (~5 pages).  The maximum length is 3,750 words.  If you need more than that, you're welcome to submit a supplemental materials document containing additional figures or analysis, but your main document should be constructed so that it is readable as a standalone report.  
+Write a final report.  Your final report should be written in markdown format (there's a good tutorial for markdown [here](http://markdowntutorial.com/)), and should be approximately 3,500 words long (~5 pages excluding figures and appendix).  The maximum length is 3,750 words.  If you need more than that, you're welcome to include an appendix containing additional figures or analysis, but your main document should be constructed so that it is readable as a standalone report.  
 
 Your paper should include the following information:
 
@@ -118,17 +129,7 @@ Your paper should include the following information:
 * A description of what crowdsourcing platform you used, a description of the selection criteria you used for workers, how much you paid, and how you decided to reject workers (if applicable).  You should also give a pointer to your task design, which can be in a separate document. 
 * An analysis of your results, and a comparison to the findings of the original paper.
 
-You will submit your final report and your other materials via turnin, and you will need to answer a few questions on [this questionnaire](https://docs.google.com/forms/d/1tlU99Go83JyT9_w2DHun6CnQ0FQoVsrAaAdEzUrRIIc/viewform). 
-
-Like before, please turn in your files using turnin: 
-
-<code>$ turnin -c nets213 -p replicate-science -v deliverables/*</code>
-
-Or if you are only submitting the report without supplementary materials:
-
-<code>$ turnin -c nets213 -p replicate-science -v report.md</code>
-
-Note that turnin only keeps the most recent work that you have sent it, so if you are submitting supplementary documents, they need to be in a directory with your primary report. 
+You will submit your final report and your other materials via Gradescope. Your report should be titled *report.pdf* and your other deliverables should be in a zip file titled *deliverables*.
 
 <div class="panel panel-danger" id="rubric">
 <div class="panel-heading" markdown="1">
