@@ -5,7 +5,7 @@ caption: Science used to use ballpoint pens and it was printed on paper
 title: Homework 6 "Replicate Science"
 active_tab: homework
 release_date: 2019-02-26
-due_date: 2016-03-12T23:59:00EST
+due_date: 2019-03-12T23:59:00EST
 
 ---
 
@@ -24,6 +24,14 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 This assignment is before {{ page.due_date | date: "%I:%M%p" }} due on {{ page.due_date | date: "%A, %B %-d, %Y" }}. 
 </div>
 
+
+<div class="alert alert-success">
+For this assignment, you can work in teams of 3-4 people. Your final project will require that you work in groups, so this is a good chance for you to form a group and test out whether you want to work with those people.
+</div>
+
+<div class="alert alert-warning" markdown="1">
+Here's an [example write-up](http://crowdsourcing-class.org/readings/hw6writeup.pdf) from a past class that demonstrates the kind of high quality report we’re looking for.
+</div>
 
 
 Replicate Science<span class="text-muted"> : Assignment 6</span> 
