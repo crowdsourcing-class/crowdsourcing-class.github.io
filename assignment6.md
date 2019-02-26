@@ -44,7 +44,6 @@ You have seven options for academic papers that you can replicate:
 
 * [Demographics of Mechanical Turk](readings/downloads/platform/demographics-of-mturk.pdf) by Panos Ipeirotis
 * [Exploring Iterative and Parallel Human Computation Processes](readings/downloads/programming/iterative-and-parallel-processing-in-hcomp.pdf) by Greg Little, Lydia B. Chilton, Max Goldman, and Robert C. Miller**
-* [Labeling Images with a Computer Game](readings/downloads/gwap/ESP.pdf) by Luis von Ahn and Laura Dabbish 
 * [Fast, Cheap, and Creative: Evaluating Translation Quality
   Using Amazon’s Mechanical Turk](https://www.cis.upenn.edu/~ccb/publications/mechanical-turk-for-machine-translation-evaluation.pdf) by Chris Callison-Burch (we recommend replicating the experiments in Section 5.3)
 * [Sprout: Crowd-Powered Task Design for Crowdsourcing](https://aiweb.cs.washington.edu/ai/pubs/bragg-uist18.pdf) by Jonathan Bragg, Mausam, Daniel S. Weld
@@ -57,7 +56,6 @@ I have sorted the papers roughly in an order of how difficult they will be to re
 
 * Demographics of Mechanical Turk -- 3 points maximum (4 points max if you run the demographic survey on both MTurk and CrowdFlower and contrast the two)
 * Exploring Iterative and Parallel Human Computation Processes -- 5 points maximum
-* Labeling Images with a Computer Game -- 5 points maximum 
 * Fast, Cheap, and Creative: Evaluating Translation Quality Using Amazon's Mechanical Turk -- 5 points maximum
 * Sprout: Crowd-Powered Task Design for Crowdsourcing -- 5 points maximum
 * Financial Incentives and the Performance of Crowds -- 6 points maximum
