@@ -324,9 +324,15 @@
 -
   date: 2019-04-23
   slides: 
-  title: 
-  slides_credit: 
-  readings: 
+  title: Ghost Work
+  speaker: Mary L. Gray and Siddarth Suri
+  recording: 
+  readings:
+    -
+      authors: Mary L. Gray and Siddarth Suri
+      title: Ghost Work&colon; How to Stop Silicon Valley from Building a New Global Underclass
+      url: https://www.amazon.com/Ghost-Work-Silicon-Building-Underclass/dp/1328566242/
+      optional: true
 -
   date: 2019-04-25
   slides: 
