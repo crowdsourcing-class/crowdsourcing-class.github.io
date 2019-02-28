@@ -207,11 +207,8 @@
       url: readings/downloads/programming/iterative-and-parallel-processing-in-hcomp.pdf
 -
   date: 2016-02-28
-  slides: http://crowdsourcing-class.org/slides/quality-control.pdf
+  slides: http://crowdsourcing-class.org/slides/quality-control-1.pdf
   title: Quality Control part 1
-  highlights:
-    - Agreement-based methods
-    - Embedded gold standard
   readings:
     -
       authors: Luis von Ahn and Laura Dabbish
@@ -221,6 +218,10 @@
       authors: Rion Snow, Brendan O’Connor, Daniel Jurafsky and Andrew Ng
       title:  Cheap and Fast — But is it Good? Evaluating Non-Expert Annotations for Natural Language Tasks
       url: readings/downloads/nlp/evaluating-non-expert-annotations-for-nlp.pdf
+    -
+      authors: Winter Mason and Duncan Watts
+      title:  Financial Incentives and the Performance of Crowds
+      url: readings/downloads/econ/financial-incentives-and-the-performance-of-crowds.pdf
 -
   date: 2019-03-05
   slides: 
@@ -235,19 +236,13 @@
   date: 2019-03-12
   slides: http://crowdsourcing-class.org/slides/quality-control-2.pdf
   title: Quality Control part 2
-  highlights:
-    - Economic incentives
-  reading:
+  readings:
     -
-      author: Anindya Ghose, Panos Ipeirotis, and Arun Sundararajan
+      authors: Anindya Ghose, Panos Ipeirotis, and Arun Sundararajan
       title:  Opinion Mining Using Econometrics&#58; A Case Study on Reputation Systems
       url: readings/downloads/nlp/opinion-mining-using-econometrics.pdf
     -
-      author: Winter Mason and Duncan Watts
-      title:  Financial Incentives and the Performance of Crowds
-      url: readings/downloads/econ/financial-incentives-and-the-performance-of-crowds.pdf
-    -
-      author: Kazushi Ikeda and Michael Bernstein
+      authors: Kazushi Ikeda and Michael Bernstein
       title:  Pay It Backward&colon; Per-Task Payments on Crowdsourcing Platforms Reduce Productivity
       url: readings/downloads/econ/per-task-payments-on-crowdsourcing-platforms-reduce-productivity.pdf
 -
