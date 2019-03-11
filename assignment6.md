@@ -5,7 +5,7 @@ caption: Science used to use ballpoint pens and it was printed on paper
 title: Homework 6 "Replicate Science"
 active_tab: homework
 release_date: 2019-02-26
-due_date: 2019-03-12T23:59:00EST
+due_date: 2019-03-14T23:59:00EST
 
 ---
 
