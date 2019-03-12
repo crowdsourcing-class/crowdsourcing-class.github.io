@@ -4,7 +4,7 @@ img: brainstorm
 caption: Brain designed by <a href="http://www.thenounproject.com/marcusmichaels">Marcus Michaels</a> from the <a href="http://www.thenounproject.com">Noun Project</a>
 title: Final Project Part 1 "Brainstorm 3 Ideas"
 active_tab: homework
-release_date: 2019-03-14
+release_date: 2019-03-15
 due_date: 2019-03-21T23:59:00EST
 submission_link: https://www.gradescope.com/courses/36538
 ---
