@@ -4,8 +4,9 @@ img: brainstorm
 caption: Brain designed by <a href="http://www.thenounproject.com/marcusmichaels">Marcus Michaels</a> from the <a href="http://www.thenounproject.com">Noun Project</a>
 title: Final Project Part 1 "Brainstorm 3 Ideas"
 active_tab: homework
-release_date: 2016-02-19
-due_date: 2016-03-04T14:00:00EST
+release_date: 2019-03-14
+due_date: 2019-03-21T23:59:00EST
+submission_link: https://www.gradescope.com/courses/36538
 ---
 
 <!-- Check whether the assignment is up to date -->
@@ -26,11 +27,11 @@ This assignment is before {{ page.due_date | date: "%I:%M%p" }} due on {{ page.d
 Final Project<span class="text-muted"> : Part 1</span> 
 =============================================================
 
-This assignment counts as a deliverable toward your final project.   The goal of this assignment is to generate several ideas that you could refine into your final project.  You'll create video pitches for three ideas, and get feedback from your classmates about how exciting and how feasible they think your ideas are.
+This assignment counts as a deliverable toward your final project.   The goal of this assignment is to generate several ideas that you could refine into your final project.
 
 ### Step 1: Form a team
 
-Your final project must be done in a group.  The size of the group can be 3-5 people.  Find some awesome people.  Do you remember what James Surowiecki says about groups?  They're best if they are composed of a diverse set of people.  So maybe you should try to pick out people who aren't already your friends.  Use the [Piazza message board](https://piazza.com/class/ijblb017ius5zp?cid=5) to advertise that you're looking for teammates. 
+Your final project must be done in a group.  The size of the group can be 3-5 people.  Find some awesome people.  Do you remember what James Surowiecki says about groups?  They're best if they are composed of a diverse set of people.  So maybe you should try to pick out people who aren't already your friends.  Use the [Piazza message board](https://piazza.com/class/jqh5fxq39c65y?cid=5) to advertise that you're looking for teammates. 
 
 ### Step 2: Brainstorm ideas for your project
 
@@ -60,40 +61,37 @@ Your initial ideas don't have to do all of these things yet, but they should be 
 
 ### Step 4: Answer questions about the 3 ideas
 
-You will be asked to answer to provide the following information:
+<div class="panel panel-primary" id="questions">
+<div class="panel-heading" markdown="1">
+#### Report
+</div>
+<div class="panel-body" markdown="1">
 
-* Team members. (The team should be the same for all 3 projects).  
-* Name for the project.  
-* One sentence description of the project.
-* What problem does it solve? 
-* What similar projects exist? 
-* What type of project is it? (Human computation algorithm, social science experiment with the crowd, a tool for crowdsourcing, a business idea that uses crowdsourcing)
-* Who will be the members of your crowd? 
-* How will you incentivize them to participate?
-* What will they provide, and what sort of skills do they need?
-* How will you ensure the quality of the crowd provides? 
-* How will you aggregate the results from the crowd?
-* Describe each of the steps involved in your process.  What parts will be done by the crowd, and what parts will be done automatically. 
-* How will you evaluate if your project is successful? 
-* What potential problems do you foresee when implementing your project?
-* A link to your Vimeo video
+Below are the questions that you will be asked to answer about this assignment. Please turn in your answers in a PDF for [Final Project: Part 1 on Gradescope]({{page.submission_link}}). 
 
-You should submit your answers to the question on [the project pitch questionnaire](https://docs.google.com/forms/d/13rsvzkIXIA1HZz02oCF8I1RY4pOcacRAbP6DAaEiB2U/viewform).  Please submit separate forms for each of your 3 ideas.
+**Notice:** you should answer all questions separately for each of the 3 ideas.
 
-### Step 5: Create video pitches for each of your 3 ideas
+1. What is the name of your project (points for creativity!)
+2. Give a one sentence description of your project. (Please use the name of the project in your description.)
+3. What problem does it solve? 
+4. What similar projects exist? 
+5. What type of project is it? 
+  * Human computation algorithm
+  * Social science experiment with the crowd
+  * A tool for crowdsourcing
+  * A business idea that uses crowdsourcing
+  * Other
+6. Who will be the members of your crowd? 
+7. How will you incentivize them to participate? 
+8. What will they provide, and what sort of skills do they need? 
+9. How will you ensure the quality of the crowd provides? 
+10. How will you aggregate the results from the crowd? 
+11. Describe each of the steps involved in your process. What parts will be done by the crowd, and what parts will be done automatically. 
+12. How will you evaluate if your project is successful? 
+13. What potential problems do you foresee when implementing your project? 
 
-You should produce a 90 second to 2 minute video for each of your ideas.  The video should include slides that describe your project, along with a narrative that explains the project in an exciting, cogent way.  No need for Hollywood level production values in this video project.  A clear description of your proposed project is preferred instead of being overly creative. 
-
-* The first slide should include the name of your project, and a logo that denotes what happens in your project.  You can create a logo using the awesome icons from [the NounProject](http://thenounproject.com).
-* The slides should clearly explain what your project idea is, and how it relates to the themes of the class.  What problem does it solve?  How does it use crowdsourcing?  Who is your crowd?  
-* Your goals are to excite people about the project, and to convince us that your idea is feasible and that you have thought it through.
-
-
-### Step 6: Peer grading
-
-You will each be assigned a set of projects to review, and you'll give feedback to your classmates on their ideas.  We will provide a set of criteria for you to use when evaluating the project ideas.  We will give you the questionnaires and videos for several projects for you to evaluate.  Peer grading will constitute 5% of your overall grade.  There will be several assignments that you will peer-review: this assignment, the company profiles, and the other parts of the final project.
-
-This assignment is due before class on <b>{{ page.due_date | date: "%A, %B %-d, %Y" }}</b>.  You must work in groups on this project.  You must declare who is in your group when you turn your assignment.  Everyone in your group will receive the same grade on the assignment. 
+</div>
+</div>
 
 
 <div class="panel panel-danger" id="rubric">
@@ -106,8 +104,6 @@ This assignment is worth 7 points of your final project grade.
 
 * 1 point for successfully forming a team with 3-5 members
 * 2 points for each of your 3 project ideas
-  * 1 point for the video
-  * 1 point for the questionnaire 
 
 </div>
 </div>
@@ -298,37 +294,5 @@ This project would involve working with Professor Resnik to develop annotation g
 ### Inspiration from others
 
 [Jeffery Bigham](http://www.cs.cmu.edu/~jbigham/) runs a class at CMU. [You can check out his list of suggested final project topics.](http://www.programthecrowd.com/finalproject)
-</div>
-</div>
-
-
- 
-
-
-<div class="panel panel-info" id="survey">
-<div class="panel-heading" markdown="1">
-#### Questionnaire 
-</div>
-<div class="panel-body" markdown="1">
-You will be asked to answer the following questions about each of your three term project ideas.  (Be sure to save a copy of your answers for your records).
-
-* What is the name of your project (points for creativity!)
-* Give a one sentence description of your project. (Please use the name of the project in your description.)
-* What problem does it solve? 
-* What similar projects exist? 
-* What type of project is it? 
-  * Human computation algorithm
-  * Social science experiment with the crowd
-  * A tool for crowdsourcing
-  * A business idea that uses crowdsourcing
-  * Other
-* Who will be the members of your crowd? 
-* How will you incentivize them to participate? 
-* What will they provide, and what sort of skills do they need? 
-* How will you ensure the quality of the crowd provides? 
-* How will you aggregate the results from the crowd? 
-* Describe each of the steps involved in your process. What parts will be done by the crowd, and what parts will be done automatically. 
-* How will you evaluate if your project is successful? 
-* What potential problems do you foresee when implementing your project? 
 </div>
 </div>
