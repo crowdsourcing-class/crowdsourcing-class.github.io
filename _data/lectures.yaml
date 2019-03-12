@@ -248,9 +248,17 @@
 -
   date: 2019-03-14
   slides: 
-  title: Guest lecutre by John McCoy
-  slides_credit: 
+  title: Extracting More Wisdom from the Crowd 
+  slides_credit: John McCoy
+  speaker: John McCoy
+  speaker_url: http://jpmccoy.com
+  abstract: In many situations, from economists predicting unemployment rates to chemists estimating fuel safety, individuals have differing opinions or predictions. We consider the wisdom-of-the-crowd problem of aggregating the judgments of multiple individuals on a single question, when no outside information about their competence is available. Many standard methods select the most popular answer, after correcting for variations in confidence. Using a formal model, we prove that any such method can fail even if based on perfect Bayesian estimates of individual confidence, or, more generally, on Bayesian posterior probabilities. Our model suggests a new method for aggregating opinions&colon; select the answer that is more popular than people predict. We show that our new method outperforms majority and confidence-weighted voting in a range of domains including geography and trivia questions, laypeople and professionals judging art prices, and dermatologists evaluating skin lesions.
+  bio: John McCoy is an Assistant Professor of Marketing at the Wharton School. As a computational cognitive scientist, his research deals with the processes underlying human judgment and decision making, and applying our knowledge of such processes to problems in marketing. Methodologically, he uses a combination of behavioral experiments and computational modeling, drawing on ideas and techniques from psychology, economics, marketing, Bayesian statistics, and computer science. Much of his current work focuses on better ways to aggregate judgments from multiple individuals, including in situations where the majority may be wrong and the truth may be unverifiable. Prior to Wharton, he was a PhD student in the Brain and Cognitive Sciences Department at MIT. Popular accounts of his work have appeared in places like the Wall Street Journal, NPR, and the New Yorker.
   readings: 
+    -
+      authors: Dražen Prelec, H. Sebastian Seung, and John McCoy
+      title:  A Solution to the Single-Question Crowd Wisdom Problem
+      url: https://www.nature.com/articles/nature21054
 -
   date: 2019-03-19
   slides: 
