@@ -19,11 +19,6 @@ Are you a student who didn't get a permit, but you're still interested in enroll
 </div>
 -->
 
-<div class="alert alert-info" markdown="1">
-Try out [the ESP-style image labeling game ARTigo](http://www.artigo.org), which is designed to add metadata to digitized art collections.
-</div>
-
-
 
 <!--
 
