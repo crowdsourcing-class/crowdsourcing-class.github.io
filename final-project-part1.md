@@ -118,6 +118,61 @@ This assignment is worth 7 points of your final project grade.
 Here are a few final project ideas. You are welcome to adapt one of these ideas into your final project, or to come up with your own idea. 
 My expectation is that your final project will represent a substantial amount of work, and that it will be something that you're proud of and that you would like to show off to potential employers or to graduate schools.
  
+### Definition Annotation in Legal Contracts (suggested by Seth Kulick and Neville Ryant of the LDC)
+
+The project is to use crowdsourcing to identify spans of text in legal
+documents that specify the definition for an inline defined term.  For
+example, given
+
+(1) During the Term, the Executive shall receive a base salary at the
+initial annual rate of Two Hundred Thousand Dollars ($200,000) ("Base
+Salary"), payable …
+(2) “Unless sooner terminated pursuant to other provisions hereof,
+Company agrees to employ Executive for the period beginning on the
+Effective Date and ending on December 31, 2009 (the "Employment
+Term").
+
+In (1) the span "a base salary at the initial annual rate of Two
+Hundred Thousand Dollars ($200,000)" would be marked as the definition
+for "Base Salary”, and in (2) the span "the period beginning on the
+Effective Date and ending on December 31, 2009" would be marked as the
+definition for "Employment Term”.
+
+We have about 5 million sentences with inline defined terms, extracted
+from about 500,000 contracts of various types pulled from the
+Lawinsider site.  Some cases are more difficult than others - e.g.,
+(1) is easier than (2) because of the repeated “base salary”.  (2)
+relies on the similarity of "period" and "term"  while in other
+still-harder cases even that kind of basis for finding the span is not
+available.  Also, some of the sentences can be extremely long, due to
+the nature of the legal language.   We will also have a rough
+categorization of the sentences for their difficulty so that a sample
+can be selected for crowd annotation, and also provide examples of
+non-inline definitions, of the form “X means Y”, as control instances
+for QC of the annotation.
+
+We hope (although cannot guarantee) that the resulting corpus will be
+released through the Linguistic Data Consortium (pending IRB approval), in which case
+students(s) who worked on this will be listed as co-authors. 
+
+### Collecting data for Catbots (3 ideas suggested by João Sedoc)
+
+*Empathetic Dataset creation for chatbots*: 
+We have a set of 419 news articles and what we want is to have MTurkers chat with each other about the news article. This will then create a dataset to train chatbots on. There has been prior work from FaceBook, called an [empathic dialogues dataset](https://openreview.net/forum?id=HyesW2C9YQ), but the stimulus setup is lacking. It should look something like [this](https://raw.githubusercontent.com/facebookresearch/ParlAI/master/docs/source//_static/img/mturk.png).
+
+*ChatEval Human Evaluation* 
+Part 1:
+Currently, we are evaluating chatbots using an A/B testing mechanism, but we would like to use [RankME](https://github.com/jeknov/RankME) for chatbot evaluation; however, this is made for CrowdFlower and the task of natural language generation and not chatbot evaluation. Here's an [example](https://github.com/jeknov/RankME/blob/master/lik_stp1.png) of what it currently looks like, but there are more on github.
+Part 2:
+ChatEval Human Baseline Collection:
+As part of ChatEval we have a bunch of evaluation datasets. We need to collect human responses for these currently we stated with [DataTurks](https://dataturks.com/projects/chatevalteam/Human%20gold%20standard%20chat%20responses%20(III)), but we need to migrate to using AMT to get more data. This can in turn then be used to evaluate chatbots.
+Part 3:
+Conversations with Chatbots:
+As part of ChatEval we have several near state-of-the-art chatbots. We would want MTurkers to converse with the chatbots on some topic and then rate the chatbot. Some of this has already been done in [ParlAi](http://parl.ai/static/docs/tutorial_mturk.html). (code [here](https://github.com/facebookresearch/ParlAI/tree/master/parlai/mturk))
+
+*MTurk Survey Master*
+The goal of the project is to find or create a survey and then have one MTurker to be the interviewer and have the other MTurker be the responder. Instead of just giving the survey, we have the survey be a conversation, and instead how answering questions from a lets say 1-5 scale the responder would give open ended responses. Then at the end of the conversation, the responder will actually fill out the survey. An initial step might be to look at the [national election survey](https://electionstudies.org/project/2018-pilot-study/).
+
 ### Crowdsourced Matchmaking
 
 Come up with a human computation algorithm that helps people find a better match in online dating.  Some people have tried to use [machine learning](http://www.wired.com/2014/01/how-to-hack-okcupid/all/) or [crowdsourcing](http://www.youlookgoodtogether.com) to optimize their dating experience on OKCupid.  Can you come up with a better way of matching people up via crowdsourcing?  Maybe you can have the crowd act as Cyrano de Bergerac, feeding users better lines than they could think of themselves.  Maybe you could have people in a social network nominate people who they think would be good matches.
