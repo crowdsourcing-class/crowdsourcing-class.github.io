@@ -173,6 +173,10 @@ As part of ChatEval we have several near state-of-the-art chatbots. We would wan
 *MTurk Survey Master*
 The goal of the project is to find or create a survey and then have one MTurker to be the interviewer and have the other MTurker be the responder. Instead of just giving the survey, we have the survey be a conversation, and instead how answering questions from a lets say 1-5 scale the responder would give open ended responses. Then at the end of the conversation, the responder will actually fill out the survey. An initial step might be to look at the [national election survey](https://electionstudies.org/project/2018-pilot-study/).
 
+### Roll Call
+
+Design a crowdsourced app that can collect the contact information for all legislators in a state and poll their offices to see where each of them stand on a piece of upcoming legislation.  For instance, you could use the app to poll all members of the [PA house](https://en.wikipedia.org/wiki/Pennsylvania_House_of_Representatives) and the [PA senate](https://en.wikipedia.org/wiki/Pennsylvania_State_Senate) about whether or not they would support the [National Popular Vote Interstate Compact](https://en.wikipedia.org/wiki/National_Popular_Vote_Interstate_Compact). 
+
 ### Crowdsourced Matchmaking
 
 Come up with a human computation algorithm that helps people find a better match in online dating.  Some people have tried to use [machine learning](http://www.wired.com/2014/01/how-to-hack-okcupid/all/) or [crowdsourcing](http://www.youlookgoodtogether.com) to optimize their dating experience on OKCupid.  Can you come up with a better way of matching people up via crowdsourcing?  Maybe you can have the crowd act as Cyrano de Bergerac, feeding users better lines than they could think of themselves.  Maybe you could have people in a social network nominate people who they think would be good matches.
