@@ -118,6 +118,10 @@ This assignment is worth 7 points of your final project grade.
 Here are a few final project ideas. You are welcome to adapt one of these ideas into your final project, or to come up with your own idea. 
 My expectation is that your final project will represent a substantial amount of work, and that it will be something that you're proud of and that you would like to show off to potential employers or to graduate schools.
  
+### Text Adventure Games (suggested by CCB and Daphne Ippolito)
+
+Long before video games had the amazing graphics they had now, there existed text adventure games like [Zork](http://zorkonline.net) or [The Hitchhiker's Guide to the Galaxy](http://textadventures.co.uk/games/view/3cbedqimquselmanehhzxg/the-hitchhikers-guide-to-the-galaxy). There was a recent paper from Facebook Research that used MTurk to create data to help [Learning to Speak and Act in a Fantasy Text Adventure Game](https://arxiv.org/pdf/1903.03094.pdf).  Your project could re-create the data in the FB paper, with some augmentations suggested by CCB and his PhD student Daphne.
+
 ### Definition Annotation in Legal Contracts (suggested by Seth Kulick and Neville Ryant of the LDC)
 
 The project is to use crowdsourcing to identify spans of text in legal
@@ -172,6 +176,9 @@ As part of ChatEval we have several near state-of-the-art chatbots. We would wan
 
 *MTurk Survey Master*
 The goal of the project is to find or create a survey and then have one MTurker to be the interviewer and have the other MTurker be the responder. Instead of just giving the survey, we have the survey be a conversation, and instead how answering questions from a lets say 1-5 scale the responder would give open ended responses. Then at the end of the conversation, the responder will actually fill out the survey. An initial step might be to look at the [national election survey](https://electionstudies.org/project/2018-pilot-study/).
+
+
+
 
 ### Roll Call
 
