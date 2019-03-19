@@ -316,7 +316,7 @@
   pennkey_username_4: 
   name_of_your_project: PictureThis
   give_a_one_sentence_description_of_your_project: PictureThis uses crowdsourcing to have the crowd write new version of picture books. 
-  url_to_the_logo_for_your_project: https://crowdsourcing-class.org/assets/img/picture-this-project.jpg
+  url_to_the_logo_for_your_project: http://crowdsourcing-class.org/assets/img/picture-this-project.jpg
   what_similar_projects_exist: None. 
   what_type_of_project_is_it: Social science experiment with the crowd, Creativity tool
   how_do_you_incentivize_the_crowd_to_participate: We used monetary incentive, and over the course of our entire project, which produced 18 new versions of books, we spent about $30. But it was also important to us to make the HIT look fun and interest, and most of our contributors gave our HITs high ratings across the board.
