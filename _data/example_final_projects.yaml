@@ -1,4 +1,108 @@
 -
+  name_of_your_project: Crowdsourcing for Personalized Photo Preferences
+  give_a_one_sentence_description_of_your_project: Crowdsourcing for Personalized Photo Preferences solves the issue of gathering personalized photo ratings &#45; ratings similar to the tastes of a certain individual.
+  timestamp: 5/5/2016 0&#58;03&#58;05
+  how_many_teammates_are_in_your_group: 2
+  may_we_have_your_permission_to_feature_your_project_on_the_class_website: Yes
+  name_1: Ryan Chen
+  name_2: Chris Kao
+  name_3: 
+  name_4: 
+  name_5: 
+  may_we_have_your_permission_to_feature_your_project_on_the_class_website: Yes
+  team_member_1__can_we_list_your_name_listed_alongside_your_project: Yes
+  team_member_2__can_we_list_your_name_listed_alongside_your_project: No
+  team_member_3__can_we_list_your_name_listed_alongside_your_project: No
+  team_member_4__can_we_list_your_name_listed_alongside_your_project: No
+  pennkey_username_1: ryanchen
+  pennkey_username_2: chriskao
+  pennkey_username_3: 
+  pennkey_username_4: 
+  pennkey_username_5: 
+  url_to_the_logo_for_your_project: https://github.com/crisscrosskao/Crowdsourcing&#45;for&#45;Personalized&#45;Photo&#45;Preferences/blob/master/logo.png
+  what_problem_does_it_solve: Crowdsourcing for Personalized Photo Preferences solves the problem of efficiently rating a large quantity of photos (in the thousands) that would usually be filtered by one person. The crowd can filter the original photo set to 5&#37; &#45; 10&#37; of the “best” photos &#45; best meaning the photos that the individual would most likely approve of.
+  what_similar_projects_exist: Currently, all Penn social media accounts are managed by one person, Matt Griffin. Matt goes through hundreds of photos each day and selects the top 3 photos to be posted onto the Penn Instagram. <p>Meanwhile, a few university’s social media departments have begun to utilize the crowd. For instance, Stanford’s social media team finds article that mention Stanford professors in the news, and asks the crowd to determine whether the professor was mentioned in a positive or negative light, and whether the social media team should draft a response to the issue.<p>Our inspiration for this project of crowdsourcing for personalized photo preferences was a research paper that Professor Callison&#45;Burch recommended&#58; A Crowd of Your Own&#58; Crowdsourcing for On&#45;Demand Personalization (2014). In this study, the researchers compare two approaches to crowdsourcing for on&#45;demand personalization&#58; taste&#45;matching versus taste&#45;grokking. Taste&#45;grokking influences the crowd before their task to show the workers how they’d like photos rated. Taste&#45;matching is more of a laissez&#45;faire approach that lets the workers rate as they wish, then keeps the most similar workers after the fact by computing RMSE scores that measure similarity between the worker and the individual being taste&#45;matched to. Based on the results of the study, we decided to explore taste&#45;matching.
+  what_type_of_project_is_it: Human computation algorithm
+  what_was_the_main_focus_of_your_teams_effort: Conducting an in depth analysis of data
+  how_does_your_project_work: Input&#58; Crowdflower dataset of workers and their ratings (0 or 1) on photos &#45; small fraction of which have been rated by person we are taste&#45;matching to, and the majority of which have not yet been rated.<p>Steps&#58;<p>For each worker, using their ratings of photos that have been rated by the person we are taste&#45;matching to, we compute the worker’s RMSE (root mean square error). RMSE measures the deviations of the worker’s photo preferences from the true photo preferences of the person being taste&#45;matched to. RMSE score ranges between 0 and 1. A lower RMSE score indicates a stronger alignment in taste between the worker and person being taste&#45;matched to. A higher RMSE indicates a weaker alignment in taste. The extreme case of RMSE = 0 indicates that the worker agreed on every single photo rating; the opposite extreme of RMSE = 1 indicates that the worker disagreed on every photo rating.<p>Compare photos that workers with low RMSE’s approved of with photos that workers with high RMSE’s approved of. Display photos side by side in front of person being taste&#45;matched to. Count number of instances in which photo chosen by low RMSE worker was preferred to photo chosen by high RMSE worker.<p>Perform a statistical test.
+  vimeo_link: https://vimeo.com/165376216
+  does_your_video_require_a_password: No
+  if_your_video_requires_a_password_what_is_it: 
+  who_are_the_members_of_your_crowd: The members of our crowd are workers on Crowdflower, with no constraint on demographics because we want a diverse set of photo preferences.
+  for_your_final_project_did_you_simulate_the_crowd_or_run_a_real_experiment: Real crowd
+  if_the_crowd_was_simulated_how_did_you_collect_this_set_of_data: 
+  if_the_crowd_was_simulated_how_would_you_change_things_to_use_a_real_crowd: 
+  if_the_crowd_was_real_how_did_you_recruit_participants: We paid workers on Crowdflower.<p>
+  how_many_unique_participants_did_you_have: 176
+  what_motivation_does_the_crowd_have_for_participating_in_your_project: Pay
+  how_do_you_incentivize_the_crowd_to_participate: On Crowdflower, we paid workers $0.03 per task. Each task contained 10 photos &#45; 5 already rated by individual being taste&#45;matched to, and 5 unrated. For each photo, workers were asked to either indicate Yes or No, whether they believed the photo deserved to be featured on the Penn Instagram.
+  did_you_perform_any_analysis_comparing_different_incentives_: No
+  if_you_compared_different_incentives_what_analysis_did_you_perform_: 
+  if_you_have_a_graph_analyzing_incentives_include_a_png_graph_or_table_here: 
+  caption_for_your_graph_incentives: 
+  what_does_the_crowd_provide_for_you: Each worker of the crowd provides his/her personal ratings of a set of photos. In our case, we had 235 unique vectors of photo ratings.
+  is_this_something_that_could_be_automated: No
+  if_it_could_be_automated_say_how__if_it_is_difficult_or_impossible_to_automate_say_why: We cannot have a computer offer “personalized” photo preferences.
+  did_you_train_a_machine_learning_component_from_what_the_crowd_gave_you: No
+  if_you_trained_a_machine_learning_component_describe_what_you_did: 
+  did_you_analyze_the_quality_of_the_machine_learning_component: 
+  if_you_have_a_graph_analyzing_a_machine_learning_component_include_a_png_of_your_graph_or_table_here: 
+  caption_for_your_graph_machine_learning_component: 
+  did_you_create_a_user_interface_for_the_crowd_workers: Yes
+  if_yes_please_give_the_url_to_a_screenshot_of_the_crowdfacing_user_interface: https://github.com/crisscrosskao/Crowdsourcing&#45;for&#45;Personalized&#45;Photo&#45;Preferences/blob/master/brolls/task.png
+  describe_your_crowdfacing_user_interface: Our Crowdflower user interface is very simple. In the instructions, we first established the context that photos are being rated for the Penn Instagram, then presented a short set of guidelines on what types of photos should be rejected.<p>
+  do_your_crowd_workers_need_specialized_skills: No
+  what_sort_of_skills_do_they_need: Prior experience looking at photos, and common sense in selecting photos.
+  do_the_skills_of_individual_workers_vary_widely: No
+  if_skills_vary_widely_what_factors_cause_one_person_to_be_better_than_another_: 
+  did_you_analyze_the_skills_of_the_crowd: No
+  if_you_analyzed_skills_what_analysis_did_you_perform: 
+  do_you_have_a_graph_analyzing_skills_: 
+  if_you_have_a_graph_analyzing_skills_include_a_png_of_your_graph_or_table_here: 
+  caption_for_your_graph_skills: 
+  is_the_quality_of_what_the_crowd_gives_you_a_concern: Yes
+  how_do_you_ensure_the_quality_of_the_crowd_provides__: We compute a RMSE (root&#45;mean&#45;square error) for each worker, which measures the deviations of the worker’s photo preferences from the true photo preferences of the person being taste&#45;matched to. RMSE score ranges between 0 and 1. A lower RMSE score indicates a stronger alignment in taste between the worker and person being taste&#45;matched to. A higher RMSE indicates a weaker alignment in taste. The extreme case of RMSE = 0 indicates that the worker agreed on every single photo rating; the opposite extreme of RMSE = 1 indicates that the worker disagreed on every photo rating.
+  did_you_analyze_the_quality_of_what_you_got_back: Yes
+  what_analysis_did_you_perform_on_quality: Is RMSE an accurate way to taste&#45;match?<p>We expect that when being shown 2 photos — one approved by a worker with low RMSE and the other approved by a worker with high RMSE — the person being taste&#45;matched to will choose the photo approved by the low RMSE worker because that worker’s tastes better align with the tastes of the person being taste&#45;matched to.<p>Our results&#58;<p>Chris rated 100 pairs of photos. In each pair, one photo was approved by a worker with low RMSE and the other approved by a worker with high RMSE. Of the 100 pairs, there were 59 instances in which Chris preferred the low RMSE worker’s photo over the high RMSE worker’s photo. On the flip side of the coin, there were 100 &#45; 59 = 41 instances in which the high RMSE worker’s photo was preferred. <p>These were the expected results — that the low RMSE workers’ photos would be preferred. The question is whether 59 versus 41 is statistically significant.
+  do_you_have_a_graph_analyzing_quality_: Yes
+  if_you_have_a_graph_analyzing_quality_include_a_png_of_your_graph_or_table_here: https://github.com/crisscrosskao/Crowdsourcing&#45;for&#45;Personalized&#45;Photo&#45;Preferences/blob/master/brolls/box&#37;20plot.png
+  caption_for_your_graph_quality: We can see the median and the interquartile range of the RMSE scores recorded.
+  how_do_you_aggregate_the_results_from_the_crowd: After calculating the RMSE, workers whose RMSE scores are less than 0.6 are kept. The closer the RMSE value is to 0, the more similar the worker’s tastes are to the seeded data. The workers whose RMSE scores are greater than 0.6 are tossed and their preferences are disregarded. By keeping the lower RMSE workers, we can see what photos are approved and rejected and we can expect these decisions to be the same as the seeder. (Matt)
+  did_you_analyze_the_aggregated_results_: Yes
+  what_analysis_did_you_perform_on_the_aggregated_results: We performed a population proportion hypothesis test on the aggregated results. We were trying to see if the RMSE was an accurate way of preference matching. In a pool of photos that have been approved by those with high RMSE and those with low RMSE, Chris selected a photo from each pair. 59 out of the 100 photos were from the low RMSE workers. By running a population hypothesis test, we saw that 59 was significant enough to say that low RMSE workers had the better matched preferences. This also implies that the RMSE is an accurate measure for differences.
+  do_you_have_a_graph_analyzing_the_aggregated_results_: Yes
+  if_you_have_a_graph_analyzing_the_aggregated_results_include_a_png_of_your_graph_or_table_here: https://github.com/crisscrosskao/Crowdsourcing&#45;for&#45;Personalized&#45;Photo&#45;Preferences/blob/master/googlechart/barplotgoogle.png
+  caption_for_your_graph_aggregation: A bar graph showing how many photos were selected from the high and low RMSE crowd.
+  did_you_create_a_user_interface_for_the_end_users_to_see_the_aggregated_results: No
+  if_yes_please_give_the_url_to_a_screenshot_of_the_user_interface_for_the_end_user: 
+  describe_what_your_end_user_sees_in_this_interface: 
+  what_is_the_scale_of_the_problem_that_you_are_trying_to_solve_: The scale of the problem is potentially a large one. Ideally, preference matching could be used so that one person can quickly access items that they are more likely to be keen to. However, if there is a big database of items for one person to select from, the person would have to spend a lot of time going through the database. Crowdsourcing solves that issue, and no matter how large the database is, the sheer number of crowd workers can help alleviate the user’s task. As photo aggregation techniques improve, the Penn Office of University of Communications will have thousands of photos to crawl through, thus crowdsourcing in this manner could save a lot of time and therefore money.
+  would_your_project_benefit_if_you_could_get_contributions_from_thousands_of_people: Yes
+  if_it_would_benefit_from_a_huge_crowd_how_would_it_benefit_if_it_would_not_why_not: If we could get contributions from thousands of people, we would be able to have many photos rated. Because it takes the social media manager 2 hours to rate 300 photos, by using crowdsourcing, we could reduce the time it took to get ratings for thousands of photos.
+  what_challenges_would_scaling_to_a_large_crowd_introduce: A large crowd will potentially skew the results as the probability of having workers from different segments of the population give their preferences. We could be potentially missing out on catering to multiple segments of the population.<p>
+  did_you_perform_an_analysis_about_how_to_scale_up_your_project: Yes
+  what_analysis_did_you_perform_on_the_scaling_up: We analyzed the cost and time on scaling up. For every 10 photos rated, we paid the workers 3 cents. The benefit we get as analysts increases linearly for each photo rated, so if we were to make workers rate more photos, we would be using the same rate of three cents for every 10 photos. Time is not a concern, especially with so many crowd workers.
+  do_you_have_a_graph_analyzing_scaling_: No
+  if_you_have_a_graph_analyzing_scaling_include_a_png_of_your_graph_or_table_here: 
+  caption_for_your_graph_scaling_up: 
+  did_your_project_work: Our project worked. We performed a hypothesis test. The hypothesis test checked for the significance of the proportion of approved photos that were from the low RMSE workers and high RMSE workers. Because we were able to reject the null hypothesis and, thus concluded that there was a statistically significant amount of photos approved by low RMSE workers, the test also implied that the RMSE yielded a statistically significant way of measuring differences in preferences.
+  do_you_have_a_graph_analyzing_your_projects_success_: Yes
+  if_you_have_a_graph_analyzing_your_project_include_a_png_of_your_graph_or_table_here: https://github.com/crisscrosskao/Crowdsourcing&#45;for&#45;Personalized&#45;Photo&#45;Preferences/blob/master/googlechart/scattergoogle.png
+  caption_for_your_graph_project_analysis: As the number of ratings go up, the RMSE seems to converge to a value which suggests that a true mean RMSE value may exist.
+  what_were_the_biggest_challenges_that_you_had_to_deal_with: We wanted to force the workers to answer test questions in order to taste match them with the social media manager’s preferences. Because of crowdflower was hard to work with, Ellie suggested that we place photos side by side and have workers rate them. This solved our problem of forcing users to taste match with the social media manager. 
+  where_there_major_changes_between_what_you_originally_proposed_and_your_final_product: Yes
+  if_so_what_changed_between_your_original_plan_and_your_final_product: We originally proposed a way for the crowd to select photos that went on Penn Instagram without regard for the social media manager’s preferences. The major change was that we were able to use crowdsourcing to match workers’ tastes with the social media managers.
+  what_are_some_limitations_of_your_product: Some sources of error would be workers who randomly selected photo to finish the task quickly. This type of behavior would compromise our results because if he happened to still taste match with the social media manager, his ratings would be considered when they really should not be. For instance, if a worker approves all photos without actually looking at them, he would be compromising the results.
+  did_your_results_deviate_from_what_you_would_expect_from_previous_work_or_what_you_learned_in_the_class: No
+  if_your_results_deviated_why_might_that_be: 
+  did_your_project_require_a_substantial_technical_component: No, we were more focused on the analysis.
+  if_project_required_a_substantial_technical_component_describe_the_largest_technical_challenge_you_faced: We have been using Python the entire semester, no technical challenges were faced.
+  how_did_you_overcome_this_challenge: No technical challenges were faced.
+  do_you_have_any_screen_shots_or_flow_diagrams_to_illustrate_the_technical_component_you_described_: Yes.
+  if_you_have_a_screen_shot_or_flow_diagram_include_a_png_of_your_figure_here: https://github.com/crisscrosskao/Crowdsourcing&#45;for&#45;Personalized&#45;Photo&#45;Preferences/blob/master/flowchart.png
+  caption_for_your_figure_technical_component: The technical parts were in calculating RMSE, assigning RMSE, and performing the hypothesis test.
+  is_there_anything_else_youd_like_to_say_about_your_project: 
+-
   how_many_teammates_are_in_your_group: 4
   name_1: Dhrupad Bhardwaj
   name_2: Sally Kong
@@ -212,7 +316,7 @@
   pennkey_username_4: 
   name_of_your_project: PictureThis
   give_a_one_sentence_description_of_your_project: PictureThis uses crowdsourcing to have the crowd write new version of picture books. 
-  url_to_the_logo_for_your_project: https://github.com/rossmechanic/PictureThis/blob/master/Screen&#37;20Shot&#37;202014&#45;12&#45;16&#37;20at&#37;206.43.10&#37;20AM.png
+  url_to_the_logo_for_your_project: https://crowdsourcing-class.org/assets/img/picture-this-project.jpg
   what_similar_projects_exist: None. 
   what_type_of_project_is_it: Social science experiment with the crowd, Creativity tool
   how_do_you_incentivize_the_crowd_to_participate: We used monetary incentive, and over the course of our entire project, which produced 18 new versions of books, we spent about $30. But it was also important to us to make the HIT look fun and interest, and most of our contributors gave our HITs high ratings across the board.

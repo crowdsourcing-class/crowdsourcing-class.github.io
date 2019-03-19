@@ -178,14 +178,5 @@ Here are 3 examples of my favorite final projects from past classes. You can als
 
 <b>Is there anything else you'd like to say about your project?</b> {{ questionnaire.is_there_anything_else_youd_like_to_say_about_your_project}}<br />
 
-      </div>
-    </div>
-  </div>
-</div>
-
-       </td>
-    </tr>
     {% endfor %}
-  </tbody>
-</table>
  
