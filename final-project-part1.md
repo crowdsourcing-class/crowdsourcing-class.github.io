@@ -155,7 +155,7 @@ We hope (although cannot guarantee) that the resulting corpus will be
 released through the Linguistic Data Consortium (pending IRB approval), in which case
 students(s) who worked on this will be listed as co-authors. 
 
-### Collecting data for Catbots (3 ideas suggested by João Sedoc)
+### Collecting data for Chatbots (3 ideas suggested by João Sedoc)
 
 *Empathetic Dataset creation for chatbots*: 
 We have a set of 419 news articles and what we want is to have MTurkers chat with each other about the news article. This will then create a dataset to train chatbots on. There has been prior work from FaceBook, called an [empathic dialogues dataset](https://openreview.net/forum?id=HyesW2C9YQ), but the stimulus setup is lacking. It should look something like [this](https://raw.githubusercontent.com/facebookresearch/ParlAI/master/docs/source//_static/img/mturk.png).
