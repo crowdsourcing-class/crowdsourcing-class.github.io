@@ -261,20 +261,34 @@
       url: https://www.nature.com/articles/nature21054
 -
   date: 2019-03-19
-  slides: 
-  title: 
-  slides_credit: 
-  readings: 
+  slides: http://crowdsourcing-class.org/slides/crowdsourcing-and-HCI.pdf
+  title: Crowdsourcing and human computer interaction (HCI) design
+  readings:
+    -
+      authors: Michael Bernstein, Greg Little, Rob Miller, Björn Hartmann, Mark Ackerman, David Karger, David Crowell, and Katrina Panovich
+      title:  Soylent&#58; A Word Processor with a Crowd Inside
+      url: readings/downloads/hci/Soylent.pdf
+    -
+      authors: Jeff Bigham
+      title: Real-Time Crowd Support for People with Disabilities (video)
+      url: https://www.youtube.com/watch?v=oUebwz1QqOo
 -
   date: 2019-03-21
-  slides: 
-  title: 
-  slides_credit: 
-  readings: 
+  slides: http://crowdsourcing-class.org/slides/crowdsourcing-and-HCI-privacy-and-latency.pdf
+  title: Crowdsourcing and HCI part 2
+  readings:
+    -
+      author: Michael Bernstein, Joel Brandt, Rob Miller, and David Karger
+      title:  Crowds in Two Seconds&#58; Enabling Realtime Crowd-Powered Interfaces
+      url: readings/downloads/hci/adrenaline.pdf
+    -
+      author: Nicolas Kokkalis, Thomas Köhn, Carl Pfeiffer, Dima Chornyi, Michael Bernstein, and Scott Klemmer
+      title:  EmailValet&#58; Managing Email Overload through Private, Accountable Crowdsourcing
+      url: readings/downloads/hci/EmailValet.pdf
 -
   date: 2019-03-26
   slides: 
-  title: 
+  title: tenative guest lecture
   slides_credit: 
   readings: 
 -
@@ -346,5 +360,13 @@
   date: 2019-04-30
   slides: 
   title: 
+  slides_credit: 
+  readings:
+
+-
+  date: 2019-05-08
+  slides: 
+  readings: 
+  title: Final presentations during fial exam slot - Wednesday, May 8, 2019 from 12:00 - 02:00 in LEVH 101
   slides_credit: 
   readings: 
