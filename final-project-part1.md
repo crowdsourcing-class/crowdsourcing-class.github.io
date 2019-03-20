@@ -120,7 +120,7 @@ My expectation is that your final project will represent a substantial amount of
  
 ### Text Adventure Games (suggested by CCB and Daphne Ippolito)
 
-Long before video games had the amazing graphics they had now, there existed text adventure games like [Zork](http://zorkonline.net) or [The Hitchhiker's Guide to the Galaxy](http://textadventures.co.uk/games/view/3cbedqimquselmanehhzxg/the-hitchhikers-guide-to-the-galaxy). There was a recent paper from Facebook Research that used MTurk to create data to help [Learning to Speak and Act in a Fantasy Text Adventure Game](https://arxiv.org/pdf/1903.03094.pdf).  Your project could re-create the data in the FB paper, with some augmentations suggested by CCB and his PhD student Daphne.
+Long before video games had the amazing graphics they have now, there existed text adventure games like [Zork](http://zorkonline.net) or [The Hitchhiker's Guide to the Galaxy](http://textadventures.co.uk/games/view/3cbedqimquselmanehhzxg/the-hitchhikers-guide-to-the-galaxy). Text adventure games were also known as [Interactive Fiction](https://en.wikipedia.org/wiki/Interactive_fiction). There was a recent paper from Facebook Research that used MTurk to create data to help [Learning to Speak and Act in a Fantasy Text Adventure Game](https://arxiv.org/pdf/1903.03094.pdf).  The Facebook project is probably a better example of a [Multi-User Dungeon (MUD)](https://en.wikipedia.org/wiki/MUD) than interactive finction.   Your project could create data in a similar fashion to the Facebook paper, with some augmentations suggested by CCB and his PhD student Daphne.
 
 ### Definition Annotation in Legal Contracts (suggested by Seth Kulick and Neville Ryant of the LDC)
 
