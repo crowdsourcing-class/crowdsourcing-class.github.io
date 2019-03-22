@@ -307,7 +307,8 @@
       url: readings/downloads/hci/evorus.pdf
     -
       authors: Ting-Hao K. Huang, Walter S. Lasecki, Amos Azaria, Jeffrey P. Bigham
-      title:  "Is there anything else I can help you with?"&colon; Challenges in Deploying an On-Demand Crowd-Powered Conversational Agent
+      title: >
+        "Is there anything else I can help you with?"&colon; Challenges in Deploying an On-Demand Crowd-Powered Conversational Agent
       url: readings/downloads/hci/challenges-of-crowd-powered-agents.pdf
 -
   date: 2019-03-28
