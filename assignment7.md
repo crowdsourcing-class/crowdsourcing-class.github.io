@@ -151,14 +151,16 @@ You can refer to the [lecture slides](slides/quality-control-3.pdf) as a guide. 
 
 Sometimes, the projects you need for crowd-sourcing might needs better understanding or attention from people, or requires tons of data for people to label with limited budget. In that case, you might not want risk having people that are totally random, but the ones who actually gets what you are trying to do.
 
-The Adjectives and Attribute Matching project we are dealing with in this assignment fits perfectly to those conditions. So we decided to go with this other quality control method, which is to use a test batch to select "good" workers that can do our tasks with high quality in general. The data you use in the assignment is actually a test batch that we use to do the selection.
+The Adjectives and Attribute Matching project we are dealing with in this assignment fits perfectly to those conditions. So we decided to go with this other quality control method, which is to use a test batch to select "good" workers that can do our tasks with high quality in general and only allow them to be the workers for our full batch data. The data you have access to in this assignment is actually a test batch that we use to do the selection. 
 
 How do we define as "good" workers? In our case, we need a worker to satisfy 3 conditions:
 1. Completed >= 5 number of HITs;
 2. Must be correct about the negative quality control adjective;
 3. Must reach >= 75% correctness about the positive quality control adjectives.
 
-You will implement a function `select_qualified_worker(rows)` that takes in the initial list of result rows (no column names) read from the result CSV file we give, return a list of two-element tuples in the format `(worker_id, percentage)` sorted increasingly by the worker\_id.
+You can of course try other criterions and see how things are different if you are interested and discuss in the report, but not for python code submission purpose.
+
+You will implement a function `select_qualified_worker(rows)` that takes in the initial list of result rows (no column names) read from the result CSV file we give, return a list of two-element tuples in the format `(worker_id, pos_percentage)` sorted increasingly by the worker\_id. 
 
 In your `main` function, you should output the returned tuples into a 2-column CSV file called `output6.csv` with the same column names mentioned above. 
 
