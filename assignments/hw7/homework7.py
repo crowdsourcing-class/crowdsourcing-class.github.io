@@ -29,7 +29,7 @@ def em_worker_quality(rows):
 def em_votes(rows, worker_qual):
     pass
 
-def em_iteration(rows):
+def em_iteration(rows, worker_qual):
     labels = em_votes(rows, worker_qual)
     worker_qual = em_worker_quality(labels, rows)
     return labels, worker_qual
