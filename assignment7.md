@@ -4,8 +4,8 @@ img: quality-never-goes-out-of-style
 caption: Quality never goes out of style.
 title: Homework 7 "Quality control"
 active_tab: homework
-release_date: 2016-03-14
-due_date: 2016-03-21T14:00:00EST
+release_date: 2019-03-22
+due_date: 2019-03-28T23:59:00EST
 ---
 
 <!-- Check whether the assignment is up to date -->
@@ -25,8 +25,8 @@ This assignment is before {{ page.due_date | date: "%I:%M%p" }} due on {{ page.d
 
 Quality Control<span class="text-muted">: Assignment 7</span> 
 =============================================================
-As you all may have noticed, it is easy to get a lot of junk answers from CrowdFlower. 
-You are hiring anonymous workers from across the world, which CrowdFlower recruits from ultra-sketchy sites like [this gem](http://www.clixsense.com/), and you are paying them a few cents for their time. I don't know about you, but based on all of my cynical models of human behavior, I would absolutely expect that you get 100% crap results back. But the truth is, you don't. You get a lot of really legitimate work from a lot of very sincere workers, you just need to make some effort to tease apart the good from that bad, which isn't always trivial. This is why we can dedicate a whole course to studying crowdsourcing.
+As you all may have noticed, it is easy to get a lot of junk answers from MTurk. 
+You are hiring anonymous workers and you are paying them a few cents for their time. I don't know about you, but based on all of my cynical models of human behavior, I would absolutely expect that you get 100% crap results back. But the truth is, you don't. You get a lot of really legitimate work from a lot of very sincere workers, you just need to make some efforts to tease apart the good from the bad, which isn't always trivial. This is why we can dedicate a whole course to studying crowdsourcing.
 
 So, this week, we will attempt to answer two big questions:
 
@@ -39,25 +39,51 @@ In class, we have discussed three different quality estimation methods to answer
 2. Confidence-weighted vote: A label is considered 'correct' if it agrees with the majority, but all workers are not equal. A worker's weight is proportional to their accuracy on your embedded gold-standard questions. (Elitist republic!)
 3. [Expectation maximization](http://en.wikipedia.org/wiki/Expectation%E2%80%93maximization_algorithm) : A label's 'correctness' is determined using an iterative algorithm, which uses the estimated quality of the worker in order to infer the labels, and then the estimated labels in order to infer the quality of the worker. (Some new-fangled solution to politics...?)
 
-For this assignment, you will run the first two algorithms and provide a brief analysis comparing them to each other and to CrowdFlower's super-secret quality estimation algorithm. We will work with the results of the CrowdFlower task you posted to a few weeks back to collect binary gun/not gun labels for your articles. 
+For this assignment, you will run the first two algorithms and provide a brief analysis comparing them to each other. Besides, you will filter out "good" workers and create a new qualification type of your own as another good way of quality control. The data you will be using are the results from a real mTurk project. You can work independently or in pairs.
 
-Since EM is a more advanced algorithm, we will only require you to walk through a toy example. If you are interested in machine learning, and want to understand this concept better, you are welcome and encouraged to run it on your actual CrowdFlower data. We will give you all the extra credit you could ever desire. Your name will be known all across Levine Hall.
+Since EM is a more advanced algorithm, we will only require you to walk through a toy example.
+If you are interested in machine learning, and want to understand this concept better, you are welcome and encouraged to run it on the same real mTurk project data and earn some extra credits!
 
-You will be using your own data from [Assignment 5](http://crowdsourcing-class.org/assignment5.html). You should download three reports: we will use the "Full" report for our own computations; we will use the "Aggregated" one and the "Contributors" one so that you can compare your own aggregation techniques against the ones used by CrowdFlower.
+Please first download the skeleton python file [homework7.py](assignments/hw7/homework7.py).
 
-## Part 1: Comparing aggregation methods
+## Part 1: Aggregation methods
+
+### Data
+
+The data you will be using are the results from a real mTurk project **Adjectives and Attribute Matching** with more complicated result file. You can download it as [hw7_data.csv](assignments/hw7/hw7_data.csv). Theses are real data collected for research purpose. 
+
+Each HIT gives worker a certain attribute, its exact description, some example adjectives, and lets them judge for an additional several adjectives if each of them could describe that attribute. 
+
+Below are the screenshots of the HIT instructions (same across all HITs) that worker can see. *To better understand this project, please take a close look at these instructions.*
+
+<img src="assignments/hw7/ins_screenshot1.png" alt="Example HIT view" width="80%"/>
+<img src="assignments/hw7/ins_screenshot2.png" alt="Example HIT view" width="79.9%"/>
+<img src="assignments/hw7/ins_screenshot3.png" alt="Example HIT view" width="79.9%"/>
+
+And below are screenshots of an example that worker would see and need to complete after the instruction. 
+
+<img src="assignments/hw7/hit_screenshot1.png" alt="Example HIT view" width="80%"/>
+<img src="assignments/hw7/hit_screenshot2.png" alt="Example HIT view" width="80%"/>
+
+The content for each task changes according to the csv file uploaded to create the batch. 
+To simplify things, we treat "Yes" as labeled `TRUE` while "No" or "No an adjective" both as labeled `FALSE`.
+For each assignment, there are up to 16 number of adjectives for worker to label, where up to 10 are the ones we need answers, up to 5 for embedded positive quality control (the answer is supposed to be "Yes", i.e. `TRUE`), and 1 for negative quality control (the answer is supposed to be "No" or "Not an adjective", i.e. `FALSE`). Each assignment are supposed to be done by 3 workers, and those 16 words are shown in the random order for each worker.
+
+In the data file, the fields with column names `Input.adj_*` are the 10 adjectives we need answers; `Input.pos_qual_ctrl_*` are the 5 for positive quality controls and `Input.neg_qual_ctrl` is the 1 for negative quality control. The columns that in the same format with `Input` replaced to `Answer` are the answers we got from workers. 
 
 ### Majority vote
 
-Majority vote is probably the easiest and most common way to aggregate your workers' labels. It is simple and gets to the heart of what "the wisdom of crowds" is supposed to give us- as long as the workers make uncorrelated errors, we should be able to walk away with decent results. Plus, as every insecure middle schooler knows, what is popular is always right. 
+Majority vote is probably the easiest and most common way to aggregate your workers' labels. It is simple and gets to the heart of what "the wisdom of crowds" is supposed to give us - as long as the workers make uncorrelated errors, we should be able to walk away with decent results. Plus, as every insecure middle schooler knows, what is popular is always right. 
 
-1. First, use majority vote to assign labels to each of the urls in your data. You can implement it however you want, but will want to output <b>two-column, tab-separated file</b> in the format "url \t label". 
+1. First, use majority vote to assign labels to each of the urls in your data. You will implement a function `majority_vote(rows)` that takes in the initial list of result rows (no column names) read from the result CSV file we give, return a list of three-element tuples in the format `(attr_id, adj, label)` sorted increasingly given the same column order.
 
-	Lets let <i>u</i> be a url and we'll use <i>labels</i> to refer to the data structure we are building, so that <i>labels[u]</i> is the label we assign to <i>u</i>. So we have 
+	Lets let u be a url and we'll use <i>labels</i> to refer to the data structure we are building, so that <i>labels[u]</i> is the label we assign to <i>u</i>. So we have 
 
 	<p align="center" style="font-size:16px font-family:courier">
 	<i>labels[u]</i> = majority label for <i>u</i>.
 	</p>
+
+	In your `main` function, you should output the returned tuples into a 3-column CSV file called `output1.csv` with the same column names mentioned above.
 
 2. Now, you can use the url labels you just computed to estimate a confidence in (or quality for) each worker. We will say that a worker's quality is simply the proportion of times that that worker agrees with the majority. 
 
@@ -71,19 +97,26 @@ Majority vote is probably the easiest and most common way to aggregate your work
 
 	Here, <i>&delta;(x)<i> is a special function which equals 1 if <i>x</i> is true, and 0 if <i>x</i> is false. 
 
-	Again, you should output a <b>two-column, tab-separated file</b> in the format "workerId \t quality".
+	You will implement a function `majority_vote_workers(rows, votes)` that takes in the initial list of result rows (no column names) read from the result CSV file we give and the votes computed from the previous question, return a list of two-element tuples in the format `(worker_id, quality)` sorted increasingly given the worker_id.
+
+	In your `main` function, you should output the returned tuples into a 2-column CSV file called `output2.csv` with the same column names mentioned above.
+
     
 ### Weighted majority vote
 
 Majority vote is great: easy, straightforward, fair. But should everyone really pull the same weight? As every insecure student knows, whatever the smartest kid says is always right. So maybe we should recalibrate our voting, so that we listen more to the better workers. 
 
-3. For this, we will use the embedded test questions that you created. We will calculate each worker's quality to be their accuracy on the test questions. E.g.  
+3. For this, we will use the embedded test questions. We will calculate each worker's quality to be their accuracy on the test questions. E.g.  
 
 	<p align="center" style="font-size:16px font-family:courier">
 	<i>qualities[w<sub>i</sub>]</i> = (1 / |<i>gold_urls[w<sub>i</sub>]</i>|) * &Sigma;<sub><i>u</i> &isin; <i>gold_urls[w<sub>i</sub>]</i></sub> &delta;(<i>l<sub>ui</sub> == gold_label[u]</i>)
 	</p>
 
-	Once again, output a two-column, tab-separated file in the format "workerId \t quality". (Hint: you can see whether or not a row in your csv file corresponds to a gold test question by checking the "_golden" column.)
+	Remember, you can see whether or not a row in your csv file corresponds to a gold test question by checking the `*_qual_ctrl_*` column.
+
+	You will implement a function `weighted_majority_vote_workers(rows)` that takes in the initial list of result rows (no column names) read from the result CSV file we give, return a list of two-element tuples in the format `(worker_id, quality)` sorted increasingly given the worker_id.
+
+	In your `main` function, you should output the returned tuples into a 2-column CSV file called `output3.csv` with the same column names mentioned above. 
 
 4. You can use these worker qualities to estimate new labels for each of the urls in your data. Now, instead of a every worker getting a vote of 1, each worker's vote will be equal to their quality score. So we can tally the votes as 
 
@@ -97,43 +130,60 @@ Majority vote is great: easy, straightforward, fair. But should everyone really 
 	<i>labels[u]</i> = <i>l</i> with max <i>votes[u][l]</i>
 	</p>
 
-	Output another file in the format "url \t label". 
+	You will implement a function `weighted_majority_vote(rows, workers)` that takes in the initial list of result rows (no column names) read from the result CSV file we give and and the worker quality computed from the previous question, return a list of three-element tuples in the format `(attr_id, adj, label)` sorted increasingly given the same column order.
 
-### Comparing against CrowdFlower
+	In your `main` function, you should output the returned tuples into a 2-column CSV file called `output4.csv` with the same column names mentioned above. 
 
-CrowdFlower has its own way of aggregating worker votes and determining confidence it workers. They keep their exact algorithms locked up and secret, but you can see the results in the csvs you downloaded. The results of their <i>labels[u]</i> is just the labels assigned in the "Aggregated" report. You can see their confidence in each worker in the "Contributors" report. 
-
-5. You can download [this script](assignments/downloads/cf_aggregation.py) as an example of how I formatted the CrowdFlower data to match the two-column format of our other files. Since your column names are different than mine, you will have to edit this script. Assuming you have edited it to match your column names, you can run it as follows (passing it your aggregated and contributor reports, respectively): 
-
-	<pre><code> $ python cf_aggregation.py -d a621213.csv -m data > CrowdFlower_data.txt
-	$ python cf_aggregation.py -d workset621213.csv -m worker > CrowdFlower_workers.txt</code></pre>
-
-	You should now have 6 files, 3 "url \t label" files and 3 "workerId \t quality" files. You will do some comparisons and report your findings in [this questionnaire](https://docs.google.com/forms/d/1ERSmqJA8OXEUPm-clXhONd91CAQqHpKTLXZ5rgGhnl4/viewform?usp=send_form).
-6. First, we'll compare how well the three methods agree on what the "correct" label for each url should be. For this, we will use a metric called [Cohen's kappa](http://en.wikipedia.org/wiki/Cohen's_kappa), which attempts to measure the level of agreement between two sets of categorical labels. You can download [our script](assignments/downloads/kappa.py) for computing it, which you can run like this:
-
-	<pre><code> $ python kappa.py CrowdFlower_data.txt majority_data.txt 
-	kappa = 0.969854</code></pre>
-
-	To compare how well the three methods agree on the worker qualities, we will use [Kendall tau](http://en.wikipedia.org/wiki/Kendall_tau_rank_correlation_coefficient) correlation, which we talked about in class. Python has a [built-in implementation](http://docs.scipy.org/doc/scipy-0.14.0/reference/generated/scipy.stats.kendalltau.html) that you can use, or you can [implement it yourself](http://en.wikipedia.org/wiki/Kendall_tau_rank_correlation_coefficient#Algorithms). Note that Python use's a slightly different definition than we discussed in class, so you might get different numbers depending on which method you decide to use. 
-
-	Your deliverables for this section are the 6 files you generated (3 "url \t label" files and 3 "workerId \t quality" files) and any code you used to generate them. Your code should be clearly named and reasonably commented. We will not need to run it, but we should be able to read it and see clearly what you did to generate your results. Remember to fill in the [questionnaire](https://docs.google.com/forms/d/1ERSmqJA8OXEUPm-clXhONd91CAQqHpKTLXZ5rgGhnl4/viewform?usp=send_form).
 
 ## Part 2: The EM algorithm
 
 The data aggregation algorithms you used above were straightforward and work reasonably well. But they are of course not perfect, and with all the CS researchers out there, all the Ph.Ds that need to be awarded and all the tenure that needs to be got, its only natural that many fancier, mathier algorithms have arisen. 
 
-We discussed the expectation maximization (EM) algorithm in class as a way to jointly find the data labels <i>and</i> the worker qualities. The intution is "<i>If</i> I knew how good my workers were, I could easily compute the data labels (just like you did in step 2 of weigthed vote) and <i>if</i> I knew the data labels, I could easily compute how good my workers are (just like you did in step 1 of weighted vote). The problem is, I don't know either." So the EM solution is to guess the worker qualities, use that to compute the labels, then use the labels we just computed to reassign the worker qualities, then use the new worker qualities to recompute the labels, and so on until we converge (or get bored). This is one of the best-loved algorithms in machine learning, and often appears to be somewhat magic when you first see it. The best way to get an intuition about what is happening is to walk through it by hand. So for this step, we will ask you do walk through 3 iterations of EM on a [toy data set](assignments/downloads/em_toy_data.txt) and report your results in the [questionnaire](https://docs.google.com/forms/d/1ERSmqJA8OXEUPm-clXhONd91CAQqHpKTLXZ5rgGhnl4/viewform?usp=send_form).
+We discussed the expectation maximization (EM) algorithm in class as a way to jointly find the data labels <i>and</i> the worker qualities. The intution is "<i>If</i> I knew how good my workers were, I could easily compute the data labels (just like you did in step 2 of weigthed vote) and <i>if</i> I knew the data labels, I could easily compute how good my workers are (just like you did in step 1 of weighted vote). The problem is, I don't know either." So the EM solution is to guess the worker qualities, use that to compute the labels, then use the labels we just computed to reassign the worker qualities, then use the new worker qualities to recompute the labels, and so on until we converge (or get bored). This is one of the best-loved algorithms in machine learning, and often appears to be somewhat magic when you first see it. The best way to get an intuition about what is happening is to walk through it by hand. So for this step, we will ask you do walk through 3 iterations of EM on a [toy data set](assignments/downloads/em_toy_data.txt).
 
-You can refer to the [lecture slides](http://crowdsourcing-class.org/slides/quality-control-4.pdf) as a guide. The numbers are slightly different, but the process is idenitcal. If you are super ambitious, you are welcome to delve into the depths of the [original 1979 paper](http://crowdsourcing-class.org/readings/downloads/ml/EM.pdf) describing the use of EM for diagnosing patients. If you are super ambitious and/or super in want of extra credit, you can code it up and run EM on your own CrowdFlower data!
+You will implement a function `em_vote(rows, iter_num)` that takes in the list of result rows read from the toy dataset, return a list of two-element tuples in the format `(url, label)` sorted increasingly by the url order. Some skeleton functions are given, which should help with your understanding of the algorithm structure.
+
+In your `main` function, you should output the returned tuples into a 2-column CSV file called `output5.csv` with the same column names mentioned above. 
+
+You can refer to the [lecture slides](slides/quality-control-3.pdf) as a guide. The numbers are slightly different, but the process is idenitcal. If you are super ambitious, you are welcome to delve into the depths of the [original 1979 paper](http://crowdsourcing-class.org/readings/downloads/ml/EM.pdf) describing the use of EM for diagnosing patients. If you are super ambitious and/or super in want of extra credit, you can code it up and run EM on the data on the Adjectives and Attribute Matching result data!
+
+## Part 3: Qualified workers
+
+Sometimes, the projects you need for crowd-sourcing might needs better understanding or attention from people, or requires tons of data for people to label with limited budget. In that case, you might not want risk having people that are totally random, but the ones who actually gets what you are trying to do.
+
+The Adjectives and Attribute Matching project we are dealing with in this assignment fits perfectly to those conditions. So we decided to go with this other quality control method, which is to use a test batch to select "good" workers that can do our tasks with high quality in general. The data you use in the assignment is actually a test batch that we use to do the selection.
+
+How do we define as "good" workers? In our case, we need a worker to satisfy 3 conditions:
+1. Completed >= 5 number of HITs;
+2. Must be correct about the negative quality control adjective;
+3. Must reach >= 75% correctness about the positive quality control adjectives.
+
+You will implement a function `select_qualified_worker(rows)` that takes in the initial list of result rows (no column names) read from the result CSV file we give, return a list of two-element tuples in the format `(worker_id, percentage)` sorted increasingly by the worker\_id.
+
+In your `main` function, you should output the returned tuples into a 2-column CSV file called `output6.csv` with the same column names mentioned above. 
+
+Additionally, create a new qualification type and add the "good" workers to it according to your results. You can access a worker's page by going to **https://requester.mturk.com/workers/WORKERID**. Take a screenshot when you are done adding all the qualified workers.
 
 
-## Deliverables
+<div class="panel panel-info">
+<div class="panel-heading" markdown="1">
+#### Deliverables
+</div>
+<div class="panel-body" markdown="1">
 
+1. **homework7.py** with your own codes added
+	
+	Notice: Please **DON'T** put any print statements inside or outside any functions. Otherwise, you may lose all points for your python implementation.
 
-This assignment is due <b>{{ page.due_date | date: "%A, %B %-d, %Y" }}</b>. You can work in pairs, but you must declare the fact that you are working together when you turn your assignment. Remember to submit your questionnaire before the deadline.  
+2. All 6 required output CSV files from **output1.csv** to **output6.csv**
 
-Like before, please turn in your files using turnin:
-<pre><code>$ turnin -c nets213 -p quality -v *</code></pre>
+3. Report **homework7.pdf**
+ * Compare 2 method results from Part 1, give interesting examples on how they are different on some example attribute-adjective pairs
+ * Worker quality and URL labels after each iteration of EM algorithm for toy dataset
+ * Screenshot of your own new qualification type with "good" workers added
+ * Share your thoughts on different quality control methods
+</div>
+</div>
 
 <div class="panel panel-danger">
 <div class="panel-heading" markdown="1">
@@ -141,12 +191,11 @@ Like before, please turn in your files using turnin:
 </div>
 <div class="panel-body" markdown="1">
 
-This assignment is worth 5 points of your overall grade in the course.  The rubric for the assignment is given below.
+This assignment is worth 5 points of your overall grade in the course. The rubric for the assignment is given below.
 
-* 1 point - 3 files containing labels for each url, one file for each algorithm (majority, weighted, and CrowdFlower)
-* 1 point - 3 files containing qualities for each worker, one file for each algorithm (majority, weighted, and CrowdFlower)
-* 2 point - Your completed [questionnaire](https://docs.google.com/forms/d/1ERSmqJA8OXEUPm-clXhONd91CAQqHpKTLXZ5rgGhnl4/viewform?usp=send_form)
-* 1 point - Any code you used to run your algorithms and/or perform your analyses. Your code should be readable enough that we can tell what you did, but does not need to conform to any particular interface.
-* Extra credit (1 point) - An implementation of the EM algorithm, and the output of running it on the data you received from CrowdFlower. This can be in your favorite programming language (it doesn't have to be in Python) but you must write the code yourself (no downloading someone else's implementation from github), and document it well enough that we can understand what it does and how to run it. 
+* 1 point - Python file with required functions implemented. Your code should be readable enough that we can tell what you did, but does not need to conform to any particular interface.
+* 2 point - 6 ouput CSV files in the required format
+* 2 point - Report with required details
+* Extra credit (1 point) - an extra Python file with your EM implementation on our data.
 </div>
 </div>
