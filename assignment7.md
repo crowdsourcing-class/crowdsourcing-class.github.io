@@ -50,7 +50,7 @@ Please first download the skeleton python file [homework7.py](assignments/hw7/ho
 
 ### Data
 
-The data you will be using are the results from a real mTurk project **Adjectives and Attribute Matching** with more complicated result file. You can download it as [hw7_data.csv](assignments/hw7/hw7_data.csv). Theses are real data collected for research purpose. 
+The data you will be using are the results from a real mTurk project **Adjectives and Attribute Matching** with a more complicated result file. You can download it as [hw7_data.csv](assignments/hw7/hw7_data.csv). These are real data collected for research purpose. 
 
 Each HIT gives worker a certain attribute, its exact description, some example adjectives, and lets them judge for an additional several adjectives if each of them could describe that attribute. 
 
@@ -84,7 +84,7 @@ Majority vote is probably the easiest and most common way to aggregate your work
 
 	Let's define some more notation. This is, after all, a CS class. We have a quota to meet for overly-mathifying very simple concepts, to give the appearance of principle and rigor. 
 
-	Lets call $$\textit{qualities}$$ the dictionary that we build to hold the quality of each worker. We'll call the $$i$$th worker $$w_i$$ and we'll use  $$\textit{pairs}[w_i]$$ to represent all the attribute-adjective pair for which $$w_i$$ provided a label. We'll let $$l_{pi}$$ represent the label, i.e. `TRUE` or `FALSE`, that $$w_i$$ assigns to the pair $$p$$. Then we calculate the quality of a worker as:
+	Lets call $$\textit{qualities}$$ the dictionary that we build to hold the quality of each worker. We'll call the $$i$$th worker $$w_i$$ and we'll use  $$\textit{pairs}[w_i]$$ to represent all the attribute-adjective pairs for which $$w_i$$ provided a label. We'll let $$l_{pi}$$ represent the label, i.e. `TRUE` or `FALSE`, that $$w_i$$ assigns to the pair $$p$$. Then we calculate the quality of a worker as:
 
 	<center>
 		$$\textit{qualities}[w_i] = 
@@ -119,17 +119,17 @@ Majority vote is great: easy, straightforward, fair. But should everyone really 
 
 	In your `main` function, you should output the returned tuples into a 2-column CSV file called `output3.csv` with the same column names mentioned above. 
 
-4. You can use these worker qualities to estimate new labels for each of the urls in your data. Now, instead of a every worker getting a vote of 1, each worker's vote will be equal to their quality score. So we can tally the votes as 
+4. You can use these worker qualities to estimate new labels for each of the attribute-adjective pairs in the data. Now, instead of a every worker getting a vote of 1, each worker's vote will be equal to their quality score. So we can tally the votes as 
 
-	<p align="center" style="font-size:16px font-family:courier">
-	<i>votes[u][l]</i> = &Sigma;<sub><i>w</i> &isin; <i>workers[u]</i></sub> &delta;(<i>l<sub>ui</sub> == l</i>) * <i>qualities[w<sub>i</sub>]</i>
-	</p>
+	<center>
+		$$\textit{vote}[p][l] = 
+		\sum_{w_i \in \textit{workers}[p]} 
+		\delta(l_{pi}\textit{ == }l)\cdot \textit{qualities}[w_i]$$
+	</center>
 
-	where <i>votes[url][l]</i> is the weighted votes for assigning label <i>l</i> to url <i>u</i> and <i>workers[u]</i> just lists all of the workers who labeled <i>u</i>. Then 
+	where $$\textit{vote}[p][l]$$ is the weighted votes for assigning label $$l$$ to attribute-adjective pair $$p$$ and $$\textit{workers}[p]$$ is just lists all of the workers who labeled $$p$$. Then 
 
-	<p align="center" style="font-size:16px font-family:courier">
-	<i>labels[u]</i> = <i>l</i> with max <i>votes[u][l]</i>
-	</p>
+	<center>$$\textit{labels}[p] = l \text{ with max } \textit{vote}[p][l].$$</center>
 
 	You will implement a function `weighted_majority_vote(rows, workers)` that takes in the initial list of result rows (no column names) read from the result CSV file we give and and the worker quality computed from the previous question, return a list of three-element tuples in the format `(attr_id, adj, label)` sorted increasingly given the same column order.
 
