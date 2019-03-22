@@ -144,7 +144,7 @@ We discussed the expectation maximization (EM) algorithm in class as a way to jo
 
 You will implement a function `em_vote(rows, iter_num)` that takes in the list of result rows read from the toy dataset, return a list of two-element tuples in the format `(url, label)` sorted increasingly by the url order. Some skeleton functions are given, which should help with your understanding of the algorithm structure.
 
-In your `main` function, you should output the returned tuples into a 2-column CSV file called `output5.csv` with the same column names mentioned above. 
+In your `main` function, you should output the returned tuples after 3 iterations into a 2-column CSV file called `output5.csv` with the same column names mentioned above. 
 
 You can refer to the [lecture slides](slides/quality-control-3.pdf) as a guide. The numbers are slightly different, but the process is idenitcal. If you are super ambitious, you are welcome to delve into the depths of the [original 1979 paper](http://crowdsourcing-class.org/readings/downloads/ml/EM.pdf) describing the use of EM for diagnosing patients. If you are super ambitious and/or super in want of extra credit, you can code it up and run EM on the data on the Adjectives and Attribute Matching result data!
 
@@ -156,8 +156,9 @@ The Adjectives and Attribute Matching project we are dealing with in this assign
 
 How do we define as "good" workers? In our case, we need a worker to satisfy 3 conditions:
 1. Completed >= 5 number of HITs;
-2. Must be correct about the negative quality control adjective;
-3. Must reach >= 75% correctness about the positive quality control adjectives.
+2. Of all the completed HITs, the percentage of HITs that satisfy the following condition must >= 75%:
+	* Must be correct about the negative quality control adjective;
+	* Must be correct about at least 4 out of 5 positive quality control;
 
 You can of course try other criterions and see how things are different if you are interested and discuss in the report, but not for python code submission purpose.
 
