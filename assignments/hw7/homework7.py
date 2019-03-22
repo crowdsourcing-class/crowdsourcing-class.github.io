@@ -43,11 +43,11 @@ def em_vote(rows, iter_num):
 def select_qualified_worker(rows):
     pass
 
+
 # Your main function
 
 def main():
     # Call above functions and output required CSV files
-
     pass
 
 if __name__ == '__main__':

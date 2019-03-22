@@ -54,16 +54,13 @@ The data you will be using are the results from a real mTurk project **Adjective
 
 Each HIT gives worker a certain attribute, its exact description, some example adjectives, and lets them judge for an additional several adjectives if each of them could describe that attribute. 
 
-Below are the screenshots of the HIT instructions (same across all HITs) that worker can see. *To better understand this project, please take a close look at these instructions.*
+Below is the screenshots of the HIT instructions (same across all HITs) that worker can see. *To better understand this project, please take a close look at these instructions.*
 
-<img src="assignments/hw7/ins_screenshot1.png" alt="Example HIT view" width="80%"/>
-<img src="assignments/hw7/ins_screenshot2.png" alt="Example HIT view" width="79.9%"/>
-<img src="assignments/hw7/ins_screenshot3.png" alt="Example HIT view" width="79.9%"/>
+<img src="assignments/hw7/ins_screenshot.png" alt="Example HIT view" width="90%"/>
 
 And below are screenshots of an example that worker would see and need to complete after the instruction. 
 
-<img src="assignments/hw7/hit_screenshot1.png" alt="Example HIT view" width="80%"/>
-<img src="assignments/hw7/hit_screenshot2.png" alt="Example HIT view" width="80%"/>
+<img src="assignments/hw7/hit_screenshot.png" alt="Example HIT view" width="90%"/>
 
 The content for each task changes according to the csv file uploaded to create the batch. 
 To simplify things, we treat "Yes" as labeled `TRUE` while "No" or "No an adjective" both as labeled `FALSE`.
@@ -196,8 +193,8 @@ Additionally, create a new qualification type and add the "good" workers to it a
 This assignment is worth 5 points of your overall grade in the course. The rubric for the assignment is given below.
 
 * 1 point - Python file with required functions implemented. Your code should be readable enough that we can tell what you did, but does not need to conform to any particular interface.
-* 2 point - 6 ouput CSV files in the required format
-* 2 point - Report with required details
-* Extra credit (1 point) - an extra Python file with your EM implementation on our data.
+* 2 point - 6 ouput CSV files in the required format.
+* 2 point - Report with required details.
+* Extra credit (1 point) - an extra Python file and CSV results with your EM implementation on our data.
 </div>
 </div>
