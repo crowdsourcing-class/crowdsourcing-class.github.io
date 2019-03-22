@@ -79,7 +79,7 @@
       url: http://crowdsourcing-class.org/readings/downloads/ethics/turkopticon.pdf
 -
   date: 2019-01-31
-  slides: http://crowdsourcing-class.org/slides/amazon-mechanical-turk.pdf
+  slides: slides/amazon-mechanical-turk.pdf
   title: The Amazon Mechanical Turk crowdsourcing platform 
   recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=287ba022-aee1-4c21-9111-a9d80153342f
   readings:
@@ -112,7 +112,7 @@
       url: https://medium.com/@dataturks/dataturks-on-prem-a-fully-self-hosted-data-annotation-solution-86b455bf0634
 -
   date: 2019-02-07
-  slides: http://crowdsourcing-class.org/slides/size-of-the-crowdsourcing-marketplace.pdf
+  slides: slides/size-of-the-crowdsourcing-marketplace.pdf
   title: What is the size of the crowdsourcing marketplace? 
   recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a499e69b-900c-4b70-a450-a9d80153359d
   readings:
@@ -134,7 +134,7 @@
       url: https://openknowledge.worldbank.org/bitstream/handle/10986/22284/The0global0opp0n0online0outsourcing.pdf
 -
   date: 2019-02-12
-  slides: http://crowdsourcing-class.org/slides/machine-learning.pdf
+  slides: slides/machine-learning.pdf
   title: Intro to Machine Learning
   recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4aa027e1-0404-4cfe-8192-a9d8015335da
   readings:
@@ -148,7 +148,7 @@
       url: https://web.stanford.edu/~jurafsky/slp3/5.pdf
 -
   date: 2019-02-14
-  slides: http://crowdsourcing-class.org/slides/computer-vision.pdf
+  slides: slides/computer-vision.pdf
   title: How Crowdsourcing Enabled Computer Vision
   recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=86eccb91-1fd3-485d-81cf-a9d801533650
   readings:
@@ -170,9 +170,9 @@
       url: http://cs231n.github.io
 -
   date: 2019-02-19
-  slides: http://crowdsourcing-class.org/slides/taxonomy-of-human-computation.pdf
+  slides: slides/taxonomy-of-human-computation.pdf
   title: Taxonomy of crowdsourcing and human computation 
-  recording: 
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=94f16286-d7cb-4492-9f8a-a9d80153367f
   readings:
     -
       title:  Human Computation&#58; A Survey and Taxonomy of a Growing Field
@@ -184,8 +184,9 @@
       url: http://www.behind-the-enemy-lines.com/2010/09/worker-evaluation-in-crowdsourcing-gold.html
 -
   date: 2019-02-21
-  slides: http://crowdsourcing-class.org/slides/programming-the-crowd.pdf
+  slides: slides/programming-the-crowd.pdf
   title: Programming concepts for human computation
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=bacb8584-46c4-40f9-88e4-a9d8015336a4
   readings:
     -
       authors: Greg Little, Lydia B. Chilton, Max Goldman, and Robert C. Miller
@@ -198,8 +199,9 @@
   type: no_lecture
 -
   date: 2019-02-26
-  slides: http://crowdsourcing-class.org/slides/iterative-and-parallel-processing.pdf
+  slides: slides/iterative-and-parallel-processing.pdf
   title: Iterative and Parallel Processing
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c628af15-49e9-4bd7-bcaa-a9d8015336d8
   readings:
     -
       authors: Greg Little, Lydia B. Chilton, Max Goldman, and Robert C. Miller
@@ -207,8 +209,9 @@
       url: readings/downloads/programming/iterative-and-parallel-processing-in-hcomp.pdf
 -
   date: 2019-02-28
-  slides: http://crowdsourcing-class.org/slides/quality-control-1.pdf
+  slides: slides/quality-control-1.pdf
   title: Quality Control part 1
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=855a8baa-04b2-45d0-8b31-a9d80153371e
   readings:
     -
       authors: Luis von Ahn and Laura Dabbish
@@ -234,8 +237,9 @@
   type: no_lecture
 -
   date: 2019-03-12
-  slides: http://crowdsourcing-class.org/slides/quality-control-2.pdf
+  slides: slides/quality-control-2.pdf
   title: Quality Control part 2
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c074836d-4ade-484e-a74f-a9d8015337cc
   readings:
     -
       authors: Anindya Ghose, Panos Ipeirotis, and Arun Sundararajan
@@ -252,6 +256,7 @@
   slides_credit: John McCoy
   speaker: John McCoy
   speaker_url: http://jpmccoy.com
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=15fd6ada-cfa1-437f-a174-a9d8015337f6
   abstract: In many situations, from economists predicting unemployment rates to chemists estimating fuel safety, individuals have differing opinions or predictions. We consider the wisdom-of-the-crowd problem of aggregating the judgments of multiple individuals on a single question, when no outside information about their competence is available. Many standard methods select the most popular answer, after correcting for variations in confidence. Using a formal model, we prove that any such method can fail even if based on perfect Bayesian estimates of individual confidence, or, more generally, on Bayesian posterior probabilities. Our model suggests a new method for aggregating opinions&colon; select the answer that is more popular than people predict. We show that our new method outperforms majority and confidence-weighted voting in a range of domains including geography and trivia questions, laypeople and professionals judging art prices, and dermatologists evaluating skin lesions.
   bio: John McCoy is an Assistant Professor of Marketing at the Wharton School. As a computational cognitive scientist, his research deals with the processes underlying human judgment and decision making, and applying our knowledge of such processes to problems in marketing. Methodologically, he uses a combination of behavioral experiments and computational modeling, drawing on ideas and techniques from psychology, economics, marketing, Bayesian statistics, and computer science. Much of his current work focuses on better ways to aggregate judgments from multiple individuals, including in situations where the majority may be wrong and the truth may be unverifiable. Prior to Wharton, he was a PhD student in the Brain and Cognitive Sciences Department at MIT. Popular accounts of his work have appeared in places like the Wall Street Journal, NPR, and the New Yorker.
   readings: 
@@ -261,8 +266,9 @@
       url: https://www.nature.com/articles/nature21054
 -
   date: 2019-03-19
-  slides: http://crowdsourcing-class.org/slides/crowdsourcing-and-HCI.pdf
+  slides: slides/crowdsourcing-and-HCI.pdf
   title: Crowdsourcing and human computer interaction (HCI) design
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=134eb493-3269-4970-ae50-a9d801533820
   readings:
     -
       authors: Michael Bernstein, Greg Little, Rob Miller, Björn Hartmann, Mark Ackerman, David Karger, David Crowell, and Katrina Panovich
@@ -274,15 +280,16 @@
       url: https://www.youtube.com/watch?v=oUebwz1QqOo
 -
   date: 2019-03-21
-  slides: http://crowdsourcing-class.org/slides/crowdsourcing-and-HCI-privacy-and-latency.pdf
+  slides: slides/crowdsourcing-and-HCI-privacy-and-latency.pdf
   title: Crowdsourcing and HCI part 2
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3c249ddd-97fa-4c32-bc44-a9d80153384b
   readings:
     -
-      author: Michael Bernstein, Joel Brandt, Rob Miller, and David Karger
+      authors: Michael Bernstein, Joel Brandt, Rob Miller, and David Karger
       title:  Crowds in Two Seconds&#58; Enabling Realtime Crowd-Powered Interfaces
       url: readings/downloads/hci/adrenaline.pdf
     -
-      author: Nicolas Kokkalis, Thomas Köhn, Carl Pfeiffer, Dima Chornyi, Michael Bernstein, and Scott Klemmer
+      authors: Nicolas Kokkalis, Thomas Köhn, Carl Pfeiffer, Dima Chornyi, Michael Bernstein, and Scott Klemmer
       title:  EmailValet&#58; Managing Email Overload through Private, Accountable Crowdsourcing
       url: readings/downloads/hci/EmailValet.pdf
 -
@@ -294,6 +301,14 @@
   slides_credit: Ting-Hao (Kenneth) Huang
   recording: 
   readings: 
+    -
+      authors: Ting-Hao K. Huang, Joseph Chee Chang, Jeffrey P. Bigham
+      title: Evorus&colon; A Crowd-Powered Conversational Assistant Built to Automate Itself Over Time
+      url: readings/downloads/hci/evorus.pdf
+    -
+      authors: Ting-Hao K. Huang, Walter S. Lasecki, Amos Azaria, Jeffrey P. Bigham
+      title:  "Is there anything else I can help you with?"&colon; Challenges in Deploying an On-Demand Crowd-Powered Conversational Agent
+      url: readings/downloads/hci/challenges-of-crowd-powered-agents.pdf
 -
   date: 2019-03-28
   slides: 
