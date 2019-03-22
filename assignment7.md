@@ -54,11 +54,11 @@ The data you will be using are the results from a real mTurk project **Adjective
 
 Each HIT gives worker a certain attribute, its exact description, some example adjectives, and lets them judge for an additional several adjectives if each of them could describe that attribute. 
 
-Below is the screenshots of the HIT instructions (same across all HITs) that worker can see. *To better understand this project, please take a close look at these instructions.*
+Below is a screenshot of the HIT instructions (same across all HITs) that worker can see. *To better understand this project, please take a close look at these instructions.*
 
 <img src="assignments/hw7/ins_screenshot.png" alt="Example HIT view" width="90%"/>
 
-And below are screenshots of an example that worker would see and need to complete after the instruction. 
+And below is a screenshot of an example that worker would see and need to complete after the instruction. 
 
 <img src="assignments/hw7/hit_screenshot.png" alt="Example HIT view" width="90%"/>
 
@@ -172,7 +172,7 @@ Additionally, create a new qualification type and add the "good" workers to it a
 
 1. **homework7.py** with your own codes added
 	
-	Notice: Please **DON'T** put any print statements inside or outside any functions. Otherwise, you may lose all points for your python implementation.
+	Notice: Please **DON'T** put any print statements inside or outside any functions. Otherwise, you may lose all points for your python implementation. If you need to print anything for debugging for analyzing, please do that in your `main` function.
 
 2. All 6 required output CSV files from **output1.csv** to **output6.csv**
 
