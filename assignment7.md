@@ -86,7 +86,6 @@ Majority vote is probably the easiest and most common way to aggregate your work
 
 	Lets call $$\textit{qualities}$$ the dictionary that we build to hold the quality of each worker. We'll call the $$i$$th worker $$w_i$$ and we'll use  $$\textit{pairs}[w_i]$$ to represent all the attribute-adjective pair for which $$w_i$$ provided a label. We'll let $$l_{pi}$$ represent the label, i.e. `TRUE` or `FALSE`, that $$w_i$$ assigns to the pair $$p$$. Then we calculate the quality of a worker as:
 
-
 	<center>
 		$$\textit{qualities}[w_i] = 
 		\frac{1}{|\textit{pairs}[w_i]|} \cdot
@@ -105,13 +104,16 @@ Majority vote is probably the easiest and most common way to aggregate your work
 
 Majority vote is great: easy, straightforward, fair. But should everyone really pull the same weight? As every insecure student knows, whatever the smartest kid says is always right. So maybe we should recalibrate our voting, so that we listen more to the better workers. 
 
-3. For this, we will use the embedded test questions. We will calculate each worker's quality to be their accuracy on the test questions. E.g.  
+3. For this, we will use the embedded quality control test questions. We will calculate each worker's quality to be their accuracy on the test questions. E.g.  
 
-	<p align="center" style="font-size:16px font-family:courier">
-	<i>qualities[w<sub>i</sub>]</i> = (1 / |<i>gold_urls[w<sub>i</sub>]</i>|) * &Sigma;<sub><i>u</i> &isin; <i>gold_urls[w<sub>i</sub>]</i></sub> &delta;(<i>l<sub>ui</sub> == gold_label[u]</i>)
-	</p>
+	<center>
+		$$\textit{qualities}[w_i] = 
+		\frac{1}{|\textit{gold_pairs}[w_i]|} \cdot
+		\sum_{p\in \textit{gold_pairs}[w_i]} 
+		\delta(l_{pi}\textit{ == gold_labels}[p]).$$
+	</center>
 
-	Remember, you can see whether or not a row in your csv file corresponds to a gold test question by checking the `*_qual_ctrl_*` column.
+	Remember, you can know whether or not an attribute-adjective pair in your CSV file corresponds to a gold test question by checking the `*_qual_ctrl*` columns.
 
 	You will implement a function `weighted_majority_vote_workers(rows)` that takes in the initial list of result rows (no column names) read from the result CSV file we give, return a list of two-element tuples in the format `(worker_id, quality)` sorted increasingly given the worker_id.
 
