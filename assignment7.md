@@ -158,7 +158,7 @@ How do we define as "good" workers? In our case, we need a worker to satisfy 3 c
 1. Completed >= 5 number of HITs;
 2. Of all the completed HITs, the percentage of HITs that satisfy the following condition must >= 75%:
 	* Must be correct about the negative quality control adjective;
-	* Must be correct about at least 4 out of 5 positive quality control;
+	* Must be correct about at least 4 out of 5 positive quality control adjectives;
 
 You can of course try other criterions and see how things are different if you are interested and discuss in the report, but not for python code submission purpose.
 
