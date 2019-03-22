@@ -74,11 +74,9 @@ Majority vote is probably the easiest and most common way to aggregate your work
 
 1. First, use majority vote to assign labels to each of the urls in your data. You will implement a function `majority_vote(rows)` that takes in the initial list of result rows (no column names) read from the result CSV file we give, return a list of three-element tuples in the format `(attr_id, adj, label)` sorted increasingly given the same column order.
 
-	Lets let u be a url and we'll use <i>labels</i> to refer to the data structure we are building, so that <i>labels[u]</i> is the label we assign to <i>u</i>. So we have 
+	Lets let $$u$$ be a url and we'll use $$\textit{labels}$$ to refer to the data structure we are building, so that $$\textit{labels}[u]$$ is the label we assign to $$u$$. So we have 
 
-	<p align="center" style="font-size:16px font-family:courier">
-	<i>labels[u]</i> = majority label for <i>u</i>.
-	</p>
+	<center>$$\textit{labels}[u] = \text{majority label for } u.$$</center>
 
 	In your `main` function, you should output the returned tuples into a 3-column CSV file called `output1.csv` with the same column names mentioned above.
 
