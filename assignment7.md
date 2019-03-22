@@ -66,31 +66,35 @@ The content for each task changes according to the csv file uploaded to create t
 To simplify things, we treat "Yes" as labeled `TRUE` while "No" or "No an adjective" both as labeled `FALSE`.
 For each assignment, there are up to 16 number of adjectives for worker to label, where up to 10 are the ones we need answers, up to 5 for embedded positive quality control (the answer is supposed to be "Yes", i.e. `TRUE`), and 1 for negative quality control (the answer is supposed to be "No" or "Not an adjective", i.e. `FALSE`). Each assignment are supposed to be done by 3 workers, and those 16 words are shown in the random order for each worker.
 
-In the data file, the fields with column names `Input.adj_*` are the 10 adjectives we need answers; `Input.pos_qual_ctrl_*` are the 5 for positive quality controls and `Input.neg_qual_ctrl` is the 1 for negative quality control. The columns that in the same format with `Input` replaced to `Answer` are the answers we got from workers. 
+In the data file, the fields with column names `Input.adj_*` are the 10 adjectives we need answers; `Input.pos_qual_ctrl_*` are the 5 for positive quality controls and `Input.neg_qual_ctrl` is the 1 for negative quality control. The columns that in the same format with `Input` replaced to `Answer` are the answers we got from workers. For all the function return values and output files in this assignment, you should only contain relevant things for the words in the `Input.adj_*` columns, ignoring the embedded quality control columns.
 
 ### Majority vote
 
 Majority vote is probably the easiest and most common way to aggregate your workers' labels. It is simple and gets to the heart of what "the wisdom of crowds" is supposed to give us - as long as the workers make uncorrelated errors, we should be able to walk away with decent results. Plus, as every insecure middle schooler knows, what is popular is always right. 
 
-1. First, use majority vote to assign labels to each of the urls in your data. You will implement a function `majority_vote(rows)` that takes in the initial list of result rows (no column names) read from the result CSV file we give, return a list of three-element tuples in the format `(attr_id, adj, label)` sorted increasingly given the same column order.
+1. First, use majority vote to assign labels to each of the attribute-adjective pair in the data. You will implement a function `majority_vote(rows)` that takes in the initial list of result rows (no column names) read from the result CSV file we give, return a list of three-element tuples in the format `(attr_id, adj, label)` sorted increasingly given the same column order.
 
-	Lets let $$u$$ be a url and we'll use $$\textit{labels}$$ to refer to the data structure we are building, so that $$\textit{labels}[u]$$ is the label we assign to $$u$$. So we have 
+	Lets let $$p$$ be a attribute-adjective pair and we'll use $$\textit{labels}$$ to refer to the data structure we are building, so that $$\textit{labels}[p]$$ is the label we assign to $$p$$. So we have 
 
-	<center>$$\textit{labels}[u] = \text{majority label for } u.$$</center>
+	<center>$$\textit{labels}[p] = \text{majority label for } p.$$</center>
 
 	In your `main` function, you should output the returned tuples into a 3-column CSV file called `output1.csv` with the same column names mentioned above.
 
-2. Now, you can use the url labels you just computed to estimate a confidence in (or quality for) each worker. We will say that a worker's quality is simply the proportion of times that that worker agrees with the majority. 
+2. Now, you can use the pair labels you just computed to estimate a confidence in (or quality for) each worker. We will say that a worker's quality is simply the proportion of times that that worker agrees with the majority. 
 
 	Let's define some more notation. This is, after all, a CS class. We have a quota to meet for overly-mathifying very simple concepts, to give the appearance of principle and rigor. 
 
-	Lets call <i>qualities</i> the dictionary that we build to hold the quality of each worker. We'll call the <i>i</i>th worker <i>w<sub>i</sub></i> and we'll use  <i>urls[w<sub>i</sub>]</i> to represent all the urls for which <i>w<sub>i</sub></i> provided a label. We'll let <i>l<sub>ui</sub></i> represent the label (e.g. "Gun-related", "Not gun-related", or "Don't know") that <i>w<sub>i</sub></i> assigns to url <i>u</i>. Then we calculate the quality of a worker as:
+	Lets call $$\textit{qualities}$$ the dictionary that we build to hold the quality of each worker. We'll call the $$i$$th worker $$w_i$$ and we'll use  $$\textit{pairs}[w_i]$$ to represent all the attribute-adjective pair for which $$w_i$$ provided a label. We'll let $$l_{pi}$$ represent the label, i.e. `TRUE` or `FALSE`, that $$w_i$$ assigns to the pair $$p$$. Then we calculate the quality of a worker as:
 
-	<p align="center" style="font-size:16px font-family:courier">
-	<i>qualities[w<sub>i</sub>]</i> = (1 / |<i>urls[w<sub>i</sub>]</i>|) * &Sigma;<sub><i>u</i> &isin; <i>urls[w<sub>i</sub>]</i></sub> &delta;(<i>l<sub>ui</sub> == labels[u]</i>)
-	</p>
 
-	Here, <i>&delta;(x)<i> is a special function which equals 1 if <i>x</i> is true, and 0 if <i>x</i> is false. 
+	<center>
+		$$\textit{qualities}[w_i] = 
+		\frac{1}{|\textit{pairs}[w_i]|} \cdot
+		\sum_{p\in \textit{pairs}[w_i]} 
+		\delta(l_{pi}\textit{ == labels}[p]).$$
+	</center>
+
+	Here, $$\delta(x)$$ is a special function which equals 1 if $$x$$ is true, and 0 if $$x$$ is false. 
 
 	You will implement a function `majority_vote_workers(rows, votes)` that takes in the initial list of result rows (no column names) read from the result CSV file we give and the votes computed from the previous question, return a list of two-element tuples in the format `(worker_id, quality)` sorted increasingly given the worker_id.
 
