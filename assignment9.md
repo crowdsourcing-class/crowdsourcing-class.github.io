@@ -3,7 +3,7 @@ layout: default
 img: the-visual-display-of-quantitative-information
 img_link: http://www.amazon.com/Visual-Display-Quantitative-Information/dp/0961392142/
 caption: Read this book. It will change your life.
-title: Homework 9 "Analyzing Data"
+title: Homework 8 "Analyze Data"
 active_tab: homework
 release_date: 2016-04-05
 due_date: 2016-04-11T23:59:59EDT
@@ -218,7 +218,7 @@ chart.draw(view, options);
 This assignment is before {{ page.due_date | date: "%I:%M%p" }} due on {{ page.due_date | date: "%A, %B %-d, %Y" }}. 
 </div>
 
-Analyze Data<span class="text-muted">: Assignment 9</span> 
+Analyze Data<span class="text-muted">: Assignment 8</span> 
 =============================================================
 
 We are down to the final two weekly homework assignments. This week and next, we will analyze the data that our workers have extracted, and try to see if it better helps us answer who/where/when/how questions about gun violence in the USA. We'll use the [Google Charts API](https://developers.google.com/chart/) which makes even boring statistics look sexy as all hell.
