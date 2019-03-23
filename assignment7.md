@@ -131,7 +131,7 @@ Majority vote is great: easy, straightforward, fair. But should everyone really 
 
 	<center>$$\textit{labels}[p] = l \text{ with max } \textit{vote}[p][l].$$</center>
 
-	You will implement a function `weighted_majority_vote(rows, workers)` that takes in the initial list of result rows (no column names) read from the result CSV file we give and and the worker quality computed from the previous question, return a list of three-element tuples in the format `(attr_id, adj, label)` sorted alphabetically given the same column order.
+	You will implement a function `weighted_majority_vote(rows, workers)` that takes in the initial list of result rows (no column names) read from the result CSV file we give and the returned value from the previous `weighted_majority_vote_workers(rows)` function, return a list of three-element tuples in the format `(attr_id, adj, label)` sorted alphabetically given the same column order.
 
 	In your `main` function, you should output the returned tuples into a 2-column CSV file called `output4.csv` with the same column names mentioned above. 
 
