@@ -1,11 +1,12 @@
 ---
 layout: default
-img: information_overload1
-caption: Love the information age...
-title: Homework 8 "Crowdsourcing Information Extraction"
+img: the-visual-display-of-quantitative-information
+img_link: http://www.amazon.com/Visual-Display-Quantitative-Information/dp/0961392142/
+caption: Read this book. It will change your life.
+title: Homework 8 "Analyze Data"
 active_tab: homework
-release_date: 2016-03-21
-due_date: 2016-03-28T14:00:00EDT
+release_date: 2016-04-05
+due_date: 2016-04-11T23:59:59EDT
 ---
 
 <!-- Check whether the assignment is up to date -->
@@ -18,177 +19,344 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 {% endif %}
 <!-- End of check whether the assignment is up to date -->
 
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+
+<script type="text/javascript">
+google.load("visualization", "1.1", {packages:["corechart", "geochart", "calendar"]});
+google.setOnLoadCallback(drawCharts);
+function drawCharts() {
+var oldData = google.visualization.arrayToDataTable([
+["Gun", "Count"],
+["Handgun (Pistol/Revolver)", 503],
+["Long gun (Rifle/Shotgun)", 202],
+["Machine gun/Assault rifle", 83],
+]);
+var newData = google.visualization.arrayToDataTable([
+["Gun", "Count"],
+["Handgun (Pistol/Revolver)", 410],
+["Long gun (Rifle/Shotgun)", 189],
+["Machine gun/Assault rifle", 51],
+]);
+var options = {};
+var chartDiff = new google.visualization.PieChart(document.getElementById('guns_div'));
+var diffData = chartDiff.computeDiff(oldData, newData);
+chartDiff.draw(diffData, options);
+
+var data = google.visualization.arrayToDataTable([
+['State', 'Number of incidents'],
+['AK', 1],
+['AL', 17],
+['AR', 13],
+['AZ', 22],
+['CA', 110],
+['CO', 61],
+['CT', 9],
+['DC', 3],
+['DE', 3],
+['FL', 27],
+['GA', 37],
+['HI', 1],
+['IA', 6],
+['ID', 2],
+['IL', 148],
+['IN', 81],
+['KS', 24],
+['KY', 11],
+['LA', 45],
+['MA', 22],
+['MD', 28],
+['ME', 1],
+['MI', 62],
+['MN', 57],
+['MO', 67],
+['MS', 39],
+['MT', 13],
+['NC', 50],
+['ND', 6],
+['NE', 2],
+['NH', 2],
+['NJ', 56],
+['NM', 1],
+['NV', 5],
+['NY', 65],
+['OH', 61],
+['OK', 23],
+['OR', 5],
+['PA', 40],
+['SC', 59],
+['TN', 153],
+['TX', 118],
+['UT', 7],
+['VA', 23],
+['VT', 2],
+['WA', 14],
+['WI', 66],
+['WV', 2],
+]);
+var options = {
+region : 'US',
+displayMode: 'markers',
+resolution: 'provinces',
+colorAxis : {colors : ['#FF1919', '#800000']}
+};
+var chart = new google.visualization.GeoChart(document.getElementById('intentional_div'));
+chart.draw(data, options);
+
+var data = google.visualization.arrayToDataTable([
+['State', 'Number of incidents'],
+['AL', 1],
+['AR', 1],
+['AZ', 3],
+['CA', 12],
+['CO', 8],
+['DC', 2],
+['DE', 1],
+['FL', 10],
+['GA', 3],
+['IA', 4],
+['ID', 1],
+['IL', 51],
+['IN', 12],
+['KS', 4],
+['KY', 3],
+['LA', 1],
+['MA', 2],
+['MD', 5],
+['MI', 11],
+['MN', 1],
+['MO', 12],
+['NC', 7],
+['NJ', 7],
+['NM', 1],
+['NY', 15],
+['OH', 8],
+['OK', 1],
+['OR', 1],
+['PA', 13],
+['SC', 8],
+['SD', 1],
+['TN', 11],
+['TX', 16],
+['UT', 3],
+['VA', 3],
+['WA', 3],
+['WI', 8],
+['WV', 1],
+['WY', 1],
+]);
+var options = {
+region : 'US',
+displayMode: 'markers',
+resolution: 'provinces',
+colorAxis : {colors : ['#3333FF', '#000066']}
+};
+var chart = new google.visualization.GeoChart(document.getElementById('unintentional_div'));
+chart.draw(data, options);
+
+
+var data = google.visualization.arrayToDataTable([
+['Hour', 'Fatal', 'Nonfatal'],
+['1', 96, 142],
+['2', 74, 141],
+['3', 129, 257],
+['4', 43, 48],
+['5', 20, 29],
+['6', 30, 32],
+['7', 30, 25],
+['8', 36, 26],
+['9', 43, 25],
+['10', 116, 84],
+['11', 146, 158],
+['12', 63, 74],
+['13', 67, 66],
+['14', 34, 67],
+['15', 77, 53],
+['16', 36, 96],
+['17', 95, 151],
+['18', 120, 157],
+['19', 103, 191],
+['20', 77, 165],
+['21', 194, 111],
+['22', 82, 142],
+['23', 84, 107],
+['24', 33, 45],
+]);
+var view = new google.visualization.DataView(data);
+var options = {
+title: 'Fatal and Nonfatal shootings by time of day',
+curveType: 'function',
+legend: { position: 'bottom' }
+};
+var chart = new google.visualization.LineChart(document.getElementById('time_chart'));
+chart.draw(data, options);
+
+var data = google.visualization.arrayToDataTable([
+['Race', 'White', 'African Am.', 'Asian/Mid. Eastern', 'Hispanic', 'Other', { role: 'annotation' } ],
+['Hispanic', 1.0 , 0, 0, 1.0, 0, ''],
+['White', 4.0 , 12.0, 0, 0, 0, ''],
+['Other', 0 , 0, 0, 0, 3.0, ''],
+['African American', 1.0 , 3.0, 0, 4.0, 0, ''],
+['Asian/Mid. Eastern', 0 , 1.0, 9.0, 0, 1.0, ''],
+]);
+var view = new google.visualization.DataView(data);
+var options = {
+width: 600,
+height: 400,
+legend: { position: 'top', maxLines: 3 },
+bar: { groupWidth: '75%' },
+hAxis : {title : 'Race of shooter'},
+vAxis : {title : 'Number of reports by race of victim'},
+isStacked: true,
+};
+var chart = new google.visualization.ColumnChart(document.getElementById("race_div"));
+chart.draw(view, options);
+};
+
+</script>
+
 <div class="alert alert-info">
 This assignment is before {{ page.due_date | date: "%I:%M%p" }} due on {{ page.due_date | date: "%A, %B %-d, %Y" }}. 
 </div>
 
-
-Crowdsourcing Information Extraction<span class="text-muted"> : Assignment 8</span> 
+Analyze Data<span class="text-muted">: Assignment 8</span> 
 =============================================================
 
-Okay, so we've been talking all semester about this gun violence database. And we've been making all sorts of big promises to Doug and the other epidemiologists. But, what have we gotten so far?: "Here are some articles that we are about 10% confident are about guns. Also, the word "shooting" is a good feature." Not exactly anything to write home about. So time to deliver. Let's take these articles and turn it into something useful. 
+We are down to the final two weekly homework assignments. This week and next, we will analyze the data that our workers have extracted, and try to see if it better helps us answer who/where/when/how questions about gun violence in the USA. We'll use the [Google Charts API](https://developers.google.com/chart/) which makes even boring statistics look sexy as all hell.
 
-We will do this using (surprise!) crowdsourcing. This week, you are going to ask Crowdflower workers to read through the articles that you all identified as gun related back in Assignment 5, and pull out the key facts in a principled way. Your primary goal is to design an interface that helps them do this quickly and accurately. We will walk you through some initial steps to get you started on the design, but you are welcome to go in your own direction.  
+<h2>Data</h2>
 
-Your deliverables will be:
+You can download the almost-clean data [here](assignments/downloads/gun-database.tsv). It contains 5,948 reports and the structured data that our Turkers extracted. The data file contains four columns, described below:
 
-1. Two csv files from Crowdflower containing the information the workers extract
+ * Article url-- The url of the article
+ * Article title-- The title of the alchemy, extracted using the Alchemy API
+ * Full text-- The full text of the article, extracted using hte Alchemy API. (You will use this in next week's assignment.)
+ * Json-- The extracted information about the incident, e.g. time, location, shooter name, etc. (You will use this data for this assignment.)
+ * Worker-- The worker who extracted the information
 
-2. Screen shots of two HIT designs (a bare-bones one, and a more user-friendly one).
+You can do this assignment in whatever language you prefer, but word on the street is all the cool kids are using Python. You can load the data into a list using the following code. You should be familiar with [JSON](http://en.wikipedia.org/wiki/JSON) format from our last assignment.
 
-3. Reponses about your findings in [this questionnaire](https://docs.google.com/forms/d/13ZPafIOfVTxco_Qa3YVYhK-gCC-aJwO-N20C3M3RNh0/viewform?usp=send_form).
+<pre><code>import csv
+import json
 
-You might want to work in teams for this project. These HITs will require more time for the crowd workers, and so should pay a bit more than the previous ones. Don't be a jerk and pay them pennies just because your account is low! Buddy up with someone, or feel free to add some funds to your account. (We didn't have a text book for this class. And we gave you each $50. So we've been easy on your budget so far.)
-
-<h3>Code, data, and signing up for more emails</h3>
-
-1. <b>Download the code and data.</b> In Assignment 5, you all had workers label your classifier's results and came up with lists of crowd-approved gun-related articles. We've pulled together 400 of the urls your workers called "gun related" that you will use for this assignment. We've also provided some code templates for the text processing you'll need to do. You can download the code and data [here](http://crowdsourcing-class.org/assignments/downloads/assignment8.tgz). 
-
-	<pre><code> $ wget http://crowdsourcing-class.org/assignments/downloads/assignment8.tgz
-	$ tar -xvzf assignment8.tgz</code></pre>
-
-2. <b>Familiarize yourself with the files.</b> You should see four files. `gun-violence-urls.txt` contains 100 urls that your workers labeled as gun-related in the previous assignment. `extract_text.py` and `extract_entities.py` are the scripts which you will edit to perform basic text processing using the Alchemy API. `convert_to_csv.py` is a script you will write mostly on your own to put your data into a csv that can be uploaded to CrowdFlower. 
-
-3. <b>Sign up for the Alchemy API.</b> In order to do the text processing, we will be using the [Alchemy API](http://www.alchemyapi.com/api/calling-the-api/). This is a super awesome professional API which does a lot of very complicated NLP for you and makes it seem easy. You should play around with their [online demo](http://www.alchemyapi.com/products/demo/alchemylanguage/). Specifically, look at the text extraction and entity extraction features, since these are the main features we will use. 
-
-	In order to use Alchemy, you will need to [sign up for an account](http://www.alchemyapi.com/api/register.html) and get an API key. The default account will give you 1,000 API calls a day. This is probably enough for this assignment- you will need two calls per url, so if you only mess up four times, you should still be within your daily limit. However, if you want to explore it more (which you really should! its awesome!) you can sign up for an academic account, which will give you 30,000 calls a day. If you want to do this, let me know. It just requires sending an email to the sales team, and you can copy the email I used to request my academic license.
-
-<h3>Extract Article Text using Alchemy API</h3>
-
-We will use Alchemy twice: once (now) to extract clean text, and again (later) to extract entity and location names. We have code templates to do this, but you will need to modify them a little bit yourself.
-
-1. <b>Construct an Alchemy API call to extract clean text from each URL.</b> We will use Alchemy's [text extraction](http://www.alchemyapi.com/api/text/urls.html#text) call. Open `extract_text.py`. This script should look similar to the code you used to call the Bing API in Assignment 5. You will need to modify the `construct_api_call` method to return a valid url request. The Alchemy API call for extracting text should look like this: 
-
-	<pre><code>http://access.alchemyapi.com/calls/url/URLGetText?apikey=[KEY]&url=[URL]&outputMode=json</code></pre>
-	
-	Your final version of `extract_text.py` should read from [standard input](http://en.wikipedia.org/wiki/Standard_streams#Standard_input_.28stdin.29) and write to [standard output](https://en.wikipedia.org/wiki/Standard_streams#Standard_output_.28stdout.29). It should output two fields per line in tab-separated format: `url \t clean_text`. You should be able to run your script like this:
-	
-	<pre><code>cat gun-violence-urls.txt | python extract_text.py > gun-violence-urls-and-text.txt</code></pre>
-
-<h3>HIT Design</h3>
-
-As you may remember from [Doug's lecture](http://crowdsourcing-class.org/slides/gun-violence-as-a-public-health-issue.pdf), there are a lot of details about gun crimes that epidemiologists are interested in. For this assignment, you are going to ask workers to try to extract the following information: 
-
-- Time and place
-	- City
-	- State
-	- Date
-	- Time of day
-- Detials about shooter (there many be multiple shooters, but we will only ask for information about one)
-	- Name
-	- Gender
-	- Age
-	- Race
-	- Were there additional shooters? How many?
-- Detials about victim (there many be multiple victims, but we will only ask for information about one)
-	- Name
-	- Gender
-	- Age
-	- Race
-	- Killed? Injured? Hospitalized? 
-	- Were there additional victims? How many?
-- Circumstances of shooting
-	- Type of gun
-	- Number of shots fired
-	- Was it a case of domestic violence?
-	- Did the victim and shooter know each other?
-	- Was the shooting during another crime (robbery, home invasion by the shooter, etc)?
-	- Was the shooter attempting to deter a home invasion?
-	- Was alcohol involved?
-	- Were drugs involved?
-	- Suicide or suicide attempt?
-	- Inadvertent discharge of a firearm? 
-	- Shooting by the police?
-	- Shooting of a police officer?
-	- Was the gun stolen?
-	- Was the gun owned by the vitim or thier family?
-
-You will design two HITs on Crowdflower to extract this information from the articles. In the first, you will simply provide the article and ask workers to fill in the information. In the second, you will do some preprocessing to try to make the workers' job easier. 
-
-<h4>Not very good design (Open-ended Inputs)</h4>
-
-First, we will design a very simple HIT, in which we simply as workers to fill in the schema for us. You can see my simple version [here](https://tasks.crowdflower.com/assignments/74afb1ac-3e11-4487-b9ff-ddf5d6019eeb?cf_internal=true) (you might need to click the "start a new assignment" link). You do not have to follow my designs exactly, but your design should extract the same information.
-
-1. <b>Prep your input csv.</b> From Assignment 5, you should all be familiar with how to use the crowdflower interface. You should use the <code>gun-violence-urls-and-text.txt</code> file that you just created as your input data (you might need to reformat the file and add a header row!).
-
-2. <b>Design your interface.</b> Just because this is the "simple HIT design" doesn't mean it should be a UI monstrosity. Take the time to write clear instructions/examples. Crowdflower has a pretty cool [custom markup language](http://success.crowdflower.com/customer/portal/articles/1290342-cml-crowdflower-markup-language-) (or cml) which gives you some nice control over how your questions are displayed. Whether or not you decide to take advantage of the cml, it is worth skimming through the documentation so you know what is available.
-
-3. <b>Post your HIT.</b> Once your simple HIT is to your liking, go ahead and post it.  
-
-<h4>Less bad design (Constrained Inputs)</h4>
-
-The above HIT you designed is <i>very</i> open-ended. This makes it less work for you, but as you will probably see when the results come back, you pay for that convenience with the quality of the results you receive. As you probably noticed when doing the QC homework, there are a lot of benefits to having a constrained set of answers, so you can do things like take the majority vote, or measure agreement between workers. In this section, we will use Alchemy to design a nicer HIT interface, which will hopefully allow your workers to move through the articles more quickly and provide more consistent results. You can see my design [here](https://tasks.crowdflower.com/channels/cf_internal/jobs/887048/work?secret=jpRirnRaKlcoU%2BZxvWY0bAwR7j9VnBh%2B07agJaEHJ03l). You are encoraged to improve over my template! I am a god-awful web designer, so please! Make it better so we can recycle your designs for next year's students! :-P 
-
-
-1. <b>Construct an Alchemy API call to extract entities from the article.</b>
-We will also use Alchemy's [entity extraction](http://www.alchemyapi.com/api/entity-extraction/) and [date extraction](http://www.alchemyapi.com/api/publication-date/). This will allow us to design a more constrained interface so that workers hopefully give us more consistant inputs.
-
-	We will use the Alchemy [combined call](http://www.alchemyapi.com/api/combined-call/) which will extract all of this information at once. The combined call you should use looks like this (it requests the article title, publication date, and a list of the entities in the article):
-	
-	<pre><code>http://access.alchemyapi.com/calls/url/URLGetCombinedData?apikey=%s&url=%s&extract=title,pub-date,entity&outputMode=json
+data = []
+for row in csv.DictReader(open('gun-database.tsv'), delimiter='\t'):
+  data.append(json.loads(row['Json']))
 </code></pre>
-	
-	You need to modify `extract_entities.py` in much the same way as you just did above. Again, your script should read from stdin and write to stdout. 
 
-	<pre><code>cat gun-violence-urls-and-text.txt | python extract_entities.py > gun-violence-urls-and-text-annotated.txt</code></pre>
-	
-	The output of your script should again be tab-separated, and the fields should be: `url \t title \t publication_date \t clean_text \t entity_json`. The `entity_json` will be the string version of the [JSON](https://en.wikipedia.org/wiki/JSON) data structure that Alchemy returns to you. It should look like a list of dictionaries, like below. You will worry about processing the JSON in the next step.
-	
-	<pre><code>[{"relevance": "0.928925", "count": "2", "type": "Person", "text": "Stacey Craven"}, ... ]</code></pre>
+Now, <code>data</code> is a python list of all the records in our data. Each record is a dictionary. A single record, for example, might look like this beauty:
 
-3. <b>Convert your data to a CSV.</b> Now, you must complete `convert_to_csv.py` so that it reads in `gun-violence-urls-and-text-annotated.txt` and outputs a CSV file that CrowdFlower can understand. You can do the processing however you want, but we <i>highly</i> recommend using [Python's CSV module](https://docs.python.org/2/library/csv.html), [JSON module](https://docs.python.org/2/library/json.html), and [datetime module](https://docs.python.org/2/library/datetime.html). Taking the time up front to get comfortable with these modules will save you literally hours of time. You're CSV file needs to contain the following columns: 
+<pre><code>>> data[17]
+{u'date-and-time': {u'city': {u'endIndex': 162, u'startIndex': 146, u'value': u'New Orleans East'}, u'clock-time': {u'endIndex': 216, u'startIndex': 210, u'value': u'8 p.m.'}, u'time-day': {u'endIndex': 125, u'startIndex': 120, u'value': u'night'}, u'state': u'LA - Louisiana', u'details': {u'endIndex': 252, u'startIndex': 224, u'value': u'14400 block of Peltier Drive'}, u'date': u'2015-11-23'}, u'radio1': {u'The shooter and the victim knew each other.': u'Not mentioned', u'The firearm was used in self defense.': u'Not mentioned', u'The incident was a case of domestic violence.': u'Not mentioned', u'The firearm was used during another crime.': u'Not mentioned'}, u'radio3': {u'The shooting was unintentional.': u'Not mentioned', u'The firearm was owned by the victim/victims family.': u'Not mentioned', u'The shooting was by a police officer.': u'No', u'The shooting was directed at a police officer.': u'No', u'The firearm was stolen.': u'Not mentioned'}, u'radio2': {u'Alcohol was involved.': u'Not mentioned', u'The shooting was a suicide or suicide attempt.': u'No', u'Drugs (other than alcohol) were involved.': u'Not mentioned', u'The shooting was self-directed.': u'No'}, u'victim-section': [{u'victim-was': [u'killed'], u'gender': u'Male', u'age': {u'endIndex': 88, u'startIndex': 77, u'value': u'48-year-old'}, u'race': {u'endIndex': -1, u'startIndex': -1, u'value': u''}, u'name': {u'endIndex': -1, u'startIndex': -1, u'value': u''}}], u'shooter-section': [], u'circumstances': {u'number-of-shots-fired': {u'endIndex': -1, u'startIndex': -1, u'value': u''}, u'type-of-gun': {u'endIndex': -1, u'startIndex': -1, u'value': u''}}}
+</code></pre>
 
-	* url
-	* tile
-	* publication_date
-	* person_1
-	* person_2
-	* person_3
-	* person_4
-	* person_5
-	* city_1
-	* city_2
-	* city_3
-	* city_4
-	* city_5
-	* text
+Here, the keys correspond to the information we asked the workers to extract in our HIT, and the values correspond the their responses. Since not all articles contain the same information, each record is slightly different (e.g. the list in of shooters in <code>shooter-section</code> might be empty or might contain 10 shooters). In general, each record has seven top-level keys: information about the shooter(s) (names, ages, etc.), information about the victim(s), and information about the time/place, and four keys containing other circumstances surrounding the shooting. 
 
-	The `person_n` columns should contain the text associated with the first 5 `"type": "Person"` entities returned from Alchemy; the `city_n` columns should contain the text associated with the first 5 `"type": "City"` entities. If there are few than 5 Person/City entities returned, you should fill in as many columns as possible, and fill the remaining columns with the string `"--"`. 
+Each record should be structured like shown below. In the examples, STRING means the answer will be a single string, DICT means the answer will be a dictionary, and LIST means the answer will be a list of dictionaries. For DICTs, you will mostly just be interested in the 'value' field. (You will also see start/end index fields, which tell you the span in the original article where the answer appears. You don't need to use this information.)
 
-	Your code should take one argument (the name of the input file) and output a single file called `crowdflower-input.csv`. I.e. running the command below should produce the `crowdflower-input.csv` file as specified.
-	
-	<pre><code> python convert_to_csv.py gun-violence-urls-and-text-annotated.txt</code></pre>
-	
-	<b>Hint</b>: In addition to recording the city and person names as columns in my CSV, I used the string `replace()` method to wrap the entity names in a `<span>` element whever they appear in `clean_text`. This allows me to highlight them easily in my HIT interface. 
+<pre><code>>> record = data[17]
+>> record.keys()
+['date-and-time', 'radio1', 'radio3', 'radio2', 'victim-section', 'shooter-section', 'circumstances']
 
-4. <b>Redesign your HIT interface.</b> You will now redesign your HIT interface so that workers cannot input open-ended answers to your questions, but instead select from a pre-defined list of options. You will notice that this is not a perfect solution (Alchemy makes a lot of mistakes), but it solves many of the problems that arise with free text inputs. 
+>> record['date-and-time']
+{'city': DICT, 'clock-time': DICT, 'time-day': DICT, 'state': STRING, 'details': DICT, 'date': STRING}
 
-	At a minium, you should reimpliment [my design](https://tasks.crowdflower.com/channels/cf_internal/jobs/887048/work?secret=jpRirnRaKlcoU%2BZxvWY0bAwR7j9VnBh%2B07agJaEHJ03l), although there is lots of room for improvement. Check the extra credit opportunities for more ideas! 
-	
-5. <b>Post your HIT!</b> <- That! Do that! You should pay the same amount as you did for the previous step, so you can compare their cost and speed of the two designs.
+>> record['circumstances'] #Details about the gun/shots
+ {'number-of-shots-fired': DICT, 'type-of-gun': DICT}
 
-<h3>Extra credit</h3>
+>> record['radio1'] #Details about the circumstances of the shooting 
+{'The shooter and the victim knew each other.': STRING, 'The firearm was used in self defense.': STRING, 'The incident was a case of domestic violence.': STRING, 'The firearm was used during another crime.': STRING}
 
-If you like web design, awesome! We are completely willing to give extra credit for faster, simpler, and sexier UIs. A few ideas:
+>> record['radio2'] #More details about the circumstances of the shooting 
+{'Alcohol was involved.': STRING, 'The shooting was a suicide or suicide attempt.': STRING, 'Drugs (other than alcohol) were involved.': STRING, 'The shooting was self-directed.': STRING}
 
-- Collect information about all shooters/victims. Use CrowdFlower's markup language to dynamically add fields based on the number of shooters/victims. 
-- Allow users to click on entities in the text and flag them as specific fields (e.g. "victim") withough having to select from the dropdown box.
-- Alchemy does a good job, but misses some important things like dates and times. Try some other tools to detect this, or write your own!
-- Anything with drag and drop. People love to drag and drop.
+>> record['radio3'] #Even more details about the circumstances of the shooting 
+{'The shooting was unintentional.': STRING, 'The firearm was owned by the victim/victims family.': STRING, 'The shooting was by a police officer.': STRING, 'The shooting was directed at a police officer.': STRING, 'The firearm was stolen.': STRING}
 
-<h3>Deliverables</h3>
+>> record['shooter-section'] 
+[{u'gender': STRING, u'age': DICT, u'race': DICT, u'name': DICT}]
 
-Once again, your deliverables are:
 
-1. Two csv files from CrowdFlower (one from the first HIT design, one from the second) containing the information the workers extract
+>> record['victim-section']
+[{'victim-was': LIST, 'gender': STRING, 'age': DICT, 'race': DICT, 'name': STRING}]
 
-2. Screen shots of each of your two HIT designs (a bare-bones one, and a more user-friendly one).
+</code></pre>
 
-3. Reponses about your findings in [this questionnaire](https://docs.google.com/forms/d/13ZPafIOfVTxco_Qa3YVYhK-gCC-aJwO-N20C3M3RNh0/viewform?usp=send_form).
+The best way to get comfortable with the data is just to play around with it. Write some code to parse/print different values from the data until you feel reasonably comfortable manipulating and accessing the data you need. 
 
-This assignment is due <b>Monday, March 28</b>. You can work in pairs, but you must declare the fact that you are working together when you turn your assignment. Remember to turn submit your questionnaire before the deadline. You can turn in your data and screenshots using turnin:
+<h3>Deduping the data</h3>
 
-<pre><code>$ turnin -c nets213 -p crowdie -v *</code></pre>
+As we've discussed before, our method for collecting articles (scraping the [Gun Report blog](http://nocera.blogs.nytimes.com/category/gun-report/?_r=0) and training classifiers for arbitrary news articles) isn't perfect. It is highly likely that we have duplicated articles in our dataset, or multiple different articles reporting on the same incident. So, its probably a good idea to [dedoop](https://www.youtube.com/watch?v=AH-AHEsGJWw) the data. 
+
+There is no fool-proof way of doing this, so we will just use some intuitive rules for merging two records into one. 
+
+1. Write a script to identify records which share the same victim name. 
+2. Of records which share a victim, consider them "potential duplicates" if they either share a shooter name or if one of the records' shooters is "unknown". Look at 10-15 of these "potential duplicates" manually. How many of these are follow-on articles which actually add information (e.g. the shooter name was not previously released, but is now known) and how many are actually just redundant (e.g. multiple reports about high-profile shootings like the Zimmerman/Martin case). 
+3. Write a script which iterates through the records and attempts to merge records when possible. You can merge records which match on at least two of shooter_name/victim_name/date. A good pseudocode for your de-duplication algorithm might be: 
+
+	<pre><code>records = json.load(open('aggregated-data.json'))
+	deduped = empty set of records
+
+	def can_merge(this, that) : return True if this/that share two of shooter/victim/date
+
+	add records[0] to deduped
+
+	for this_record in records : 
+	   for that_record in deduped : 
+	      if can_merge(this_record, that_record) : 
+	         update fields in deduped with new information added by this_record
+	   if this_record can't be merged : 
+	      add this_record to deduped
+	</code></pre>
+
+4. Save your dedupped records to a new file. You can save an object in json format like this:
+
+	<pre><code>json.dump(deduped, open('deduped-data.json', 'w'))</code></pre>
+
+<h2>The Gun ReReport</h2>
+
+Now you have a hopefully fairly clean, de-duplicated set of data to work with. Lets ask some questions, and answer them with some figures. Below are instructions for producing four graphs looking at different aspects of the data. Choose two which you find especially interesting and reproduce them using the Google charts API. Each of the API documentation pages gives you an html template you can use, and its usually just as easy as pasting in your own data into the template. You can open the html templates in any browser to look at your results. 
+
+After you have reproduced two of our figures, produce two more plots, charts, or graphs showing any dimension of the data you want to explore. You will answer [a few questions](https://docs.google.com/forms/d/1qNXpuDjhQD9Qn26_XVjJqLR1Fra6FQD2iJyO0sSZ7u8/edit?uiv=1) afterward. 
+
+<h3>When</h3>
+
+First, lets see when shootings happen most often. This will help me decide when are the best times to walk around alone with my wallet in plain view, while texting on my iPhone in the most visibly distracted way. Do do this, we can make a basic [Line Chart](https://developers.google.com/chart/interactive/docs/gallery/linechart).
+
+<div id="time_chart"></div>
+
+<h3>Where</h3>
+
+Back when Doug talked to us, he mentioned that intentional shootings might be more common in urban areas, but accidental shootings are very common in rural areas. Does our data reflect this? We can plot our incidents by location using the [Google Geo Chart](https://developers.google.com/chart/interactive/docs/gallery/geochart). Here you can see it plotted by state (since the page loads faster that way...), but its more interesting when plotted by city. Try plotting the number of intentional shootings (left) and unintentional shootings (right) by city. 
+
+<table><tr>
+<td><div id="intentional_div" style="width: 400; height: 150px;"></div></td>
+<td><div id="unintentional_div" style="width: 400px; height: 150px;"></div></td>
+</tr></table>
+
+<h3>Who</h3>
+
+Most of the records do not contain data about race. But for those that do, we can see some interesting results. Try using the [stacked bar graph](https://developers.google.com/chart/interactive/docs/gallery/columnchart#StackedColumns) to produce a graph like this one. You are welcome to try looking at this slighly differently- e.g. including information about age or gender instead of or in addition to information about race.
+
+<div id="race_div" style="width: 500px; height: 175;"></div>
+
+<h3>How</h3>
+
+The information we collected about "type of gun" is not very structured, but we can still pull out some high-level information. By looking through the records and counting the "type of gun" strings with contain the words "rifle", "shotgun", "pistol", "revolver", and "handgun", we can get a sense of how often each type of gun was used. Using the [Diff Charts API](https://developers.google.com/chart/interactive/docs/gallery/diffchart) we can make it more interesting by comparing how the gun types are different between fatal shootings (inner circle) and non-fatal shootings (outer circle).
+
+<div id="guns_div" style="width: 500px; height: 175;"></div>
+
+<h3>Tell us something cool</h3>
+
+Create any two plots you want to display something interesting from the data. One trick for making your graphs instantly more interesting (and for forcing yourself to ask deeper questions) is to always display multiple dimensions at a time. Shootings over time of day? Boring. Fatal vs. non-fatal shootings by time of day and age of shooter? So much more cool!! Keep in mind all of the types of data we collected and try to think of meaningful questions you can ask. E.g. 
+
+- Look at how is the type of gun used varies based on location. Age? Gender?
+- Look at a subset of the data- just domestic violence shootings, or self-defense shootings.
+- Try looking at the articles' text for a more qualitative analysis; there are great [tools available for building word clouds](https://github.com/Coppersmith/vennclouds). Eg. how is the text of different for intentional vs. unintentional shootings? 
+- Extra credit if you link up with an external resource. E.g. can you say anything about shootings in a city as a function of [the average income](http://www.census.gov/compendia/statab/cats/income_expenditures_poverty_wealth/income_and_poverty--state_and_local_data.html) or the city's [spending on law enforcement](http://www.census.gov/compendia/statab/cats/law_enforcement_courts_prisons/criminal_justice_expenditures.html)?
+
+<h2>Deliverables</h2>
+
+This assignment is due <b>before {{ page.due_date | date: "%I:%M%p" }} on {{ page.due_date | date: "%A, %B %-d, %Y" }}</b>. You can work in pairs, but you must declare the fact that you are working together when you turn your assignment. Remember to submit your questionnaire before the deadline.  
 
 <div class="panel panel-danger">
 <div class="panel-heading" markdown="1">
@@ -196,18 +364,21 @@ This assignment is due <b>Monday, March 28</b>. You can work in pairs, but you m
 </div>
 <div class="panel-body" markdown="1">
 
-This assignment is worth 5 points of your overall grade in the course.  The rubric for the assignment is given below.
+This assignment is worth 5 points of your overall grade in the course.  The rubric for the assignment is given below. 
 
-* 1 point - CSV file containing data extracted using basic HIT design with open-ended inputs
-* 1 point - CSV file containing data extracted using improved HIT design with constrained inputs
-* 1 point - Screenshot of basic HIT design with open-ended inputs
-* 1 point - Screenshot of improved HIT design with constrained inputs
-* 1 point - Your completed [questionnaire](https://docs.google.com/forms/d/13ZPafIOfVTxco_Qa3YVYhK-gCC-aJwO-N20C3M3RNh0/viewform?usp=send_form).
-* Extra credit (up to 1 point) - Your own UI improvements to the interface (you must turn in a screenshot and a short README describing the changes you made.)
+Required: a README.md file explaining what each file contains (both code and text files and supporting images). We should be able to understand what you did and what we're looking at solely through the README. For code, include both its purpose (what it generates) and how to run it from the command line (with input arguments). Be sure that this command runs on eniac (with dependencies). 
 
+* 1 point - Your code to dedupe and your de-duplicated data, in json format compressed using gzip. (Do not submit a full, uncompressed file!)
+* 1 point - Two figures from our analysis, which you reproduced, as html files, including any code used to generate them.
+* 2 point - Your own two figures, as html, png, or pdf files, including any code used to generate them.
+* 1 point - README and your answers to the [questionnaire](https://docs.google.com/forms/d/1qNXpuDjhQD9Qn26_XVjJqLR1Fra6FQD2iJyO0sSZ7u8/edit?uiv=1). 
+* Extra credit (up to 1 point) - Integrating external datasources, or otherwise producing really super cool figures. 
 </div>
 </div>
 
+You can turn in your figures using 
+
+	$ turnin -c nets213 -p analyze-data -v *
 
 <div class="panel panel-info" id="faq">
 <div class="panel-heading" markdown="1">
@@ -215,30 +386,32 @@ This assignment is worth 5 points of your overall grade in the course.  The rubr
 </div>
 <div class="panel-body" markdown="1">
 
-* How much should I pay?
+* Do I have to use Python?
 
-	You should pay at least $0.05 per article. $0.10 would be better. You only have 100 urls to post, and each will be posted twice (once in each HIT design) so paying $0.10 will only cost you and your partner $20 combined. If this is an unmanageable finanical burden, please reach out to your professor or one of the TAs. 
+	No, but just know you are hurting my feelings. Python is awesome. But you can use whatever language is most comfortable for you and will allow you to make the most dazzling figures.
 
-* How many workers do I need to have work on each article?
+* Do I have to use the Google Charts API?
 
-	For this task, one worker per article is sufficient. Since everyone in the class is labeling the same URLs, there is no need for each group individually to collect redundant labels.
+	Yes, you need to reproduce two of the four figures we showed you using the google charts API. But for your own two figures, you may use whatever plotting software you like. You can draw by hand too, but don't expect full credit for it unless you are a very gifted artist. I highly recommend [matplotlib](http://matplotlib.org/), which is the python plotting library and enables you to do almost anything you could ever want in terms of plotting. You can even make [xkcd](http://matplotlib.org/xkcd/examples/showcase/xkcd.html) figures, and I'll even promise that you will not be punished for doing so (as long as they still display something meaningful...).
 
-* Do I need to make test questions?
+* What if when I try to reproduce the charts shown here, the numbers/values are different?
 
-	No. For the open-ended design, this would be near impossible. For the constrained design, it is definitely doable, but we are not requiring it.
+	That is okay. They will change based on how you dedup your data, and what heuristics you use to normalize strings in the database. They don't need to look exactly the same, but the results should be reasonable and the differences should be explainable.
 
-* Is it okay if I post few than 100 URLs? What if I get http/Alchemy errors and am not able to extract text from every URL? 
+* All the strings are different, and it is making it hard to aggregate the values that I need. It is so annoying! 
 
-	That is okay, as long as you are not missing too many URLs. You should account for those that are missing by including a README with your submitted turnin files saying which URLs were skipped, and what errors they threw. Bad Gateway errors, for example, are okay. Errors that are due hitting your Alchemy API limit or due to bugs in your own code are not.
-
-* Is there a way to launch my HIT so that I can debug it, without posting it "live"?
-
-	Yes! If you want to launch your HIT so that only you can do it (to test it without paying workers), go to "Contributors" and then to the "Channels" tab, and turn off "On-Demand Workforce." Then you can follow the link at the bottom of the dashboard to test your own HIT. 
-
-* JavaScript. What to do about it?
-
-	If you want to build a fancier interface with any sort of interactive components, don't use javascript! Use [jQuery](http://jquery.com/). Javascript is an ugly nightmare, jQuery is small and sleek and beautiful. If you don't know javascript, don't bother learning. Just use jQuery. 
-
-	If you want to include jQuery in your HIT, you can do this in Crowdflower's javascript editor. You can see it by clicking the "Show Custom CSS/JS" link at the buttom of the "Build Job" page. However, if you want to access the data fields in your csv from your javascript, you will need to include the javascript within the CML editor. 
-
+	Tell me about it!! There are so many different ways of saying the same thing, you could probably devote [multiple PhDs](http://www.seas.upenn.edu/~epavlick/ppdb-pubs.html) to the problem and not even solve it! So yes, you will have to do some work to normalize differences in strings. E.g. 12am = 12 a.m. = 12 = midnight. You will never make it perfect, but you should make a sincere effort to clean the data as best you can so that your figures are as accurate as possible.
 </div>
+</div>
+
+
+Related Projects
+================
+* [Vox - 11 facts about gun violence in the United States](http://www.vox.com/cards/gun-violence-facts/guns-international-comparison-us-homicide)
+* [Vox - Mass shootings since Sandy Hook, in one map](http://www.vox.com/a/mass-shootings-sandy-hook)
+* [The Guardian - 994 mass shootings in 1,004 days](http://www.theguardian.com/us-news/ng-interactive/2015/oct/02/mass-shootings-america-gun-violence)
+* [The Guardian - The Counted: People Killed by Police in the USA](http://www.theguardian.com/us-news/ng-interactive/2015/jun/01/the-counted-map-us-police-killings#)
+* [Mass killings in the United States](http://www.gannett-cdn.com/GDContent/mass-killings/)
+* [Mass killings in the USA by Muslims and non-Muslims](assets/img/2015-mass-shootings-visualization.jpg)
+* [Mapping Chicago's Shootings](http://blog.apps.chicagotribune.com/2013/07/15/mapping-chicagos-shooting-victims/)
+* [538 - Gun Deaths in America](http://fivethirtyeight.com/features/gun-deaths/)
