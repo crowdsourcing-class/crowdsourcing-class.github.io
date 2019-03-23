@@ -72,7 +72,7 @@ In the data file, the fields with column names `Input.adj_*` are the 10 adjectiv
 
 Majority vote is probably the easiest and most common way to aggregate your workers' labels. It is simple and gets to the heart of what "the wisdom of crowds" is supposed to give us - as long as the workers make uncorrelated errors, we should be able to walk away with decent results. Plus, as every insecure middle schooler knows, what is popular is always right. 
 
-1. First, use majority vote to assign labels to each of the attribute-adjective pair in the data. You will implement a function `majority_vote(rows)` that takes in the initial list of result rows (no column names) read from the result CSV file we give, return a list of three-element tuples in the format `(attr_id, adj, label)` sorted increasingly given the same column order.
+1. First, use majority vote to assign labels to each of the attribute-adjective pair in the data. You will implement a function `majority_vote(rows)` that takes in the initial list of result rows (no column names) read from the result CSV file we give, return a list of three-element tuples in the format `(attr_id, adj, label)` sorted alphabetically given the same column order.
 
 	Lets let $$p$$ be a attribute-adjective pair and we'll use $$\textit{labels}$$ to refer to the data structure we are building, so that $$\textit{labels}[p]$$ is the label we assign to $$p$$. So we have 
 
@@ -95,7 +95,7 @@ Majority vote is probably the easiest and most common way to aggregate your work
 
 	Here, $$\delta(x)$$ is a special function which equals 1 if $$x$$ is true, and 0 if $$x$$ is false. 
 
-	You will implement a function `majority_vote_workers(rows, votes)` that takes in the initial list of result rows (no column names) read from the result CSV file we give and the votes computed from the previous question, return a list of two-element tuples in the format `(worker_id, quality)` sorted increasingly given the worker_id.
+	You will implement a function `majority_vote_workers(rows, votes)` that takes in the initial list of result rows (no column names) read from the result CSV file we give and the returned value from the previous `majority_vote(rows)` function, return a list of two-element tuples in the format `(worker_id, quality)` sorted alphabetically by the worker_id.
 
 	In your `main` function, you should output the returned tuples into a 2-column CSV file called `output2.csv` with the same column names mentioned above.
 
@@ -115,7 +115,7 @@ Majority vote is great: easy, straightforward, fair. But should everyone really 
 
 	Remember, you can know whether or not an attribute-adjective pair in your CSV file corresponds to a gold test question by checking the `*_qual_ctrl*` columns.
 
-	You will implement a function `weighted_majority_vote_workers(rows)` that takes in the initial list of result rows (no column names) read from the result CSV file we give, return a list of two-element tuples in the format `(worker_id, quality)` sorted increasingly given the worker_id.
+	You will implement a function `weighted_majority_vote_workers(rows)` that takes in the initial list of result rows (no column names) read from the result CSV file we give, return a list of two-element tuples in the format `(worker_id, quality)` sorted alphabetically by the worker_id.
 
 	In your `main` function, you should output the returned tuples into a 2-column CSV file called `output3.csv` with the same column names mentioned above. 
 
@@ -131,7 +131,7 @@ Majority vote is great: easy, straightforward, fair. But should everyone really 
 
 	<center>$$\textit{labels}[p] = l \text{ with max } \textit{vote}[p][l].$$</center>
 
-	You will implement a function `weighted_majority_vote(rows, workers)` that takes in the initial list of result rows (no column names) read from the result CSV file we give and and the worker quality computed from the previous question, return a list of three-element tuples in the format `(attr_id, adj, label)` sorted increasingly given the same column order.
+	You will implement a function `weighted_majority_vote(rows, workers)` that takes in the initial list of result rows (no column names) read from the result CSV file we give and and the worker quality computed from the previous question, return a list of three-element tuples in the format `(attr_id, adj, label)` sorted alphabetically given the same column order.
 
 	In your `main` function, you should output the returned tuples into a 2-column CSV file called `output4.csv` with the same column names mentioned above. 
 
@@ -142,7 +142,7 @@ The data aggregation algorithms you used above were straightforward and work rea
 
 We discussed the expectation maximization (EM) algorithm in class as a way to jointly find the data labels <i>and</i> the worker qualities. The intution is "<i>If</i> I knew how good my workers were, I could easily compute the data labels (just like you did in step 2 of weigthed vote) and <i>if</i> I knew the data labels, I could easily compute how good my workers are (just like you did in step 1 of weighted vote). The problem is, I don't know either." So the EM solution is to guess the worker qualities, use that to compute the labels, then use the labels we just computed to reassign the worker qualities, then use the new worker qualities to recompute the labels, and so on until we converge (or get bored). This is one of the best-loved algorithms in machine learning, and often appears to be somewhat magic when you first see it. The best way to get an intuition about what is happening is to walk through it by hand. So for this step, we will ask you do walk through 3 iterations of EM on a [toy data set](assignments/downloads/em_toy_data.txt).
 
-You will implement a function `em_vote(rows, iter_num)` that takes in the list of result rows read from the toy dataset, return a list of two-element tuples in the format `(url, label)` sorted increasingly by the url order. Some skeleton functions are given, which should help with your understanding of the algorithm structure.
+You will implement a function `em_vote(rows, iter_num)` that takes in the list of result rows read from the toy dataset, return a list of two-element tuples in the format `(url, label)` sorted alphabetically by the url order. Some skeleton functions are given, which should help with your understanding of the algorithm structure.
 
 In your `main` function, you should output the returned tuples after 3 iterations into a 2-column CSV file called `output5.csv` with the same column names mentioned above. 
 
@@ -162,7 +162,7 @@ How do we define as "good" workers? In our case, we need a worker to satisfy 3 c
 
 You can of course try other criterions and see how things are different if you are interested and discuss in the report, but not for python code submission purpose.
 
-You will implement a function `select_qualified_worker(rows)` that takes in the initial list of result rows (no column names) read from the result CSV file we give, return a list of two-element tuples in the format `(worker_id, pos_percentage)` sorted increasingly by the worker\_id. 
+You will implement a function `select_qualified_worker(rows)` that takes in the initial list of result rows (no column names) read from the result CSV file we give, return a list of two-element tuples in the format `(worker_id, pos_percentage)` sorted alphabetically by the worker\_id. 
 
 In your `main` function, you should output the returned tuples into a 2-column CSV file called `output6.csv` with the same column names mentioned above. 
 
