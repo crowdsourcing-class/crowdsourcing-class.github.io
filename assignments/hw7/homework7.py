@@ -24,18 +24,18 @@ def weighted_majority_vote(mturk_res, workers):
 
 # Part 2 - EM algorithm
 
-def em_worker_quality(mturk_res):
+def em_worker_quality(rows):
     pass
 
-def em_votes(mturk_res, worker_qual):
+def em_votes(rows, worker_qual):
     pass
 
-def em_iteration(mturk_res, worker_qual):
-    labels = em_votes(mturk_res, worker_qual)
-    worker_qual = em_worker_quality(labels, mturk_res)
+def em_iteration(rows, worker_qual):
+    labels = em_votes(rows, worker_qual)
+    worker_qual = em_worker_quality(rows, mturk_res)
     return labels, worker_qual
 
-def em_vote(mturk_res, iter_num):
+def em_vote(rows, iter_num):
     pass
 
 
