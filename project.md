@@ -35,9 +35,9 @@ Here are the different deliverables required for the final project:
 * [Part 5: Analyze your results and produce a video about your project](final-project-part5.html) -- This is worth 19% of your overall grade.
 
 
-### Example final projects from last year
+### Example final projects 
 
-Here are 3 examples of my favorite final projects from last year. You can also check out all of the the final project videos from the [Fall 2014 class](final-projects-2014.html) and the [Fall 2013 class](final-projects-2013.html).
+Here are 3 examples of my favorite final projects from past classes. You can also check out all of the the final project videos from the [Spring 2016 class](final-projects-2016.html),  the [Fall 2014 class](final-projects-2014.html), and the [Fall 2013 class](final-projects-2013.html).
 
 
 <table class="table table-striped"> 
@@ -178,14 +178,5 @@ Here are 3 examples of my favorite final projects from last year. You can also c
 
 <b>Is there anything else you'd like to say about your project?</b> {{ questionnaire.is_there_anything_else_youd_like_to_say_about_your_project}}<br />
 
-      </div>
-    </div>
-  </div>
-</div>
-
-       </td>
-    </tr>
     {% endfor %}
-  </tbody>
-</table>
  
