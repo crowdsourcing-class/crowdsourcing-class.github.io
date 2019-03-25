@@ -5,7 +5,7 @@ caption: Science used to use ballpoint pens and it was printed on paper
 title: Homework 6 "Replicate Science"
 active_tab: homework
 release_date: 2019-02-26
-due_date: 2016-03-12T23:59:00EST
+due_date: 2019-03-14T23:59:00EST
 
 ---
 
@@ -25,6 +25,14 @@ This assignment is before {{ page.due_date | date: "%I:%M%p" }} due on {{ page.d
 </div>
 
 
+<div class="alert alert-success">
+For this assignment, you can work in teams of 3-4 people. Your final project will require that you work in groups, so this is a good chance for you to form a group and test out whether you want to work with those people.
+</div>
+
+<div class="alert alert-warning" markdown="1">
+Here's an [example write-up](http://crowdsourcing-class.org/readings/hw6writeup.pdf) from a past class that demonstrates the kind of high quality report we’re looking for.
+</div>
+
 
 Replicate Science<span class="text-muted"> : Assignment 6</span> 
 =============================================================
@@ -35,21 +43,17 @@ For this assignment, you can work in teams of 3-4 people.  Your final project wi
 You have seven options for academic papers that you can replicate:
 
 * [Demographics of Mechanical Turk](readings/downloads/platform/demographics-of-mturk.pdf) by Panos Ipeirotis
-* [Exploring Iterative and Parallel Human Computation Processes](readings/downloads/programming/iterative-and-parallel-processing-in-hcomp.pdf) by Greg Little, Lydia B. Chilton, Max Goldman, and Robert C. Miller**
-* [Labeling Images with a Computer Game](readings/downloads/gwap/ESP.pdf) by Luis von Ahn and Laura Dabbish 
+* [Exploring Iterative and Parallel Human Computation Processes](readings/downloads/programming/iterative-and-parallel-processing-in-hcomp.pdf) by Greg Little, Lydia B. Chilton, Max Goldman, and Robert C. Miller.  Please note that the TurKit software used is no longer maintained and does not work with the current version of MTurk APIs.  You can still run the experiments manually rather than with TurKit.
 * [Fast, Cheap, and Creative: Evaluating Translation Quality
-  Using Amazon’s Mechanical Turk](https://www.cis.upenn.edu/~ccb/publications/mechanical-turk-for-machine-translation-evaluation.pdf) by Chris Callison-Burch
+  Using Amazon’s Mechanical Turk](https://www.cis.upenn.edu/~ccb/publications/mechanical-turk-for-machine-translation-evaluation.pdf) by Chris Callison-Burch (we recommend replicating the experiments in Section 5.3)
 * [Sprout: Crowd-Powered Task Design for Crowdsourcing](https://aiweb.cs.washington.edu/ai/pubs/bragg-uist18.pdf) by Jonathan Bragg, Mausam, Daniel S. Weld
 * [Financial Incentives and the Performance of Crowds](readings/downloads/econ/financial-incentives-and-the-performance-of-crowds.pdf) by Winter Mason and Duncan Watts
 * [Crowds in Two Seconds: Enabling Realtime Crowd-Powered Interfaces](readings/downloads/hci/adrenaline.pdf) by Michael Bernstein, Joel Brandt, Rob Miller, and David Karger
-
-** Please note that the [Turkit](http://up.csail.mit.edu/turkit/) software package referened in this paper is no longer maintained
 
 I have sorted the papers roughly in an order of how difficult they will be to replicate.  Because the difficulty level varies, and because I don't want to read 50 demographic studies of Mechanical Turk, I'm going to award different maximum point values to them based on their difficulties.  You can choose whichever one you want to work on.
 
 * Demographics of Mechanical Turk -- 3 points maximum (4 points max if you run the demographic survey on both MTurk and CrowdFlower and contrast the two)
 * Exploring Iterative and Parallel Human Computation Processes -- 5 points maximum
-* Labeling Images with a Computer Game -- 5 points maximum 
 * Fast, Cheap, and Creative: Evaluating Translation Quality Using Amazon's Mechanical Turk -- 5 points maximum
 * Sprout: Crowd-Powered Task Design for Crowdsourcing -- 5 points maximum
 * Financial Incentives and the Performance of Crowds -- 6 points maximum

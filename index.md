@@ -20,8 +20,6 @@ Are you a student who didn't get a permit, but you're still interested in enroll
 -->
 
 
-
-
 <!--
 
 <div class="alert alert-danger">
