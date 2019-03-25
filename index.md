@@ -107,7 +107,7 @@ Time and place
 
 Office Hours
 : Tuesday 6-7pm in 3401 Walnut St, room 452C
-: Wednesday 2-4pm in 3401 Walnut Street 4th Floor outside 463C
+: Wednesday 4-6pm in 3401 Walnut Street 4th Floor outside 463C
 : Thursday 6-7pm in 3401 Walnut St, room 452C
 : Friday 2-4pm in 3401 Walnut Street 4th Floor outside 463C
 : CCB's office hours are [by appointment on ccb-office-hours.youcanbook.me](https://ccb-office-hours.youcanbook.me)
