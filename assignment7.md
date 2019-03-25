@@ -68,7 +68,9 @@ The content for each task changes according to the csv file uploaded to create t
 To simplify things, we treat "Yes" as labeled `TRUE` while "No" or "No an adjective" both as labeled `FALSE`.
 For each assignment, there are up to 16 number of adjectives for worker to label, where up to 10 are the ones we need answers, up to 5 for embedded positive quality control (the answer is supposed to be "Yes", i.e. `TRUE`), and 1 for negative quality control (the answer is supposed to be "No" or "Not an adjective", i.e. `FALSE`). Each assignment are supposed to be done by 3 workers, and those 16 words are shown in the random order for each worker.
 
-In the data file, the fields with column names `Input.adj_*` are the 10 adjectives we need answers; `Input.pos_qual_ctrl_*` are the 5 for positive quality controls and `Input.neg_qual_ctrl` is the 1 for negative quality control. The columns that in the same format with `Input` replaced to `Answer` are the answers we got from workers. For all the function return values and output files in this assignment, you should only contain relevant things for the words in the `Input.adj_*` columns, ignoring the embedded quality control columns.
+In the data file, the fields with column names `Input.adj_*` are the 10 adjectives we need answers; `Input.pos_qual_ctrl_*` are the 5 for positive quality controls and `Input.neg_qual_ctrl` is the 1 for negative quality control. The columns that in the same format with `Input` replaced to `Answer` are the answers we got from workers. 
+
+Notice: For all the function return values and output files in this assignment, you should only contain relevant things for the words in the `Input.adj_*` columns, ignoring the embedded quality control columns.
 
 ### Majority vote
 
@@ -97,7 +99,7 @@ Majority vote is probably the easiest and most common way to aggregate your work
 
 	Here, $$\delta(x)$$ is a special function which equals 1 if $$x$$ is true, and 0 if $$x$$ is false. 
 
-	You will implement a function `majority_vote_workers(mturk_res, votes)` that takes in mTurk result data read from the CSV file we give and the returned value from the previous `majority_vote(mturk_res)` function, return a list of two-element tuples in the format `(worker_id, quality)` sorted alphabetically by the worker_id.
+	You will implement a function `majority_vote_workers(mturk_res, votes)` that takes in mTurk result data read from the CSV file we give and the returned value from the previous `majority_vote(mturk_res)` function, return a list of two-element tuples in the format `(worker_id, quality)` sorted alphabetically by the worker_id. Please keep up to 3 decimal points for your computation.
 
 	In your `main` function, you should output the returned tuples into a 2-column CSV file called `output2.csv` with the same column names mentioned above.
 
@@ -117,7 +119,7 @@ Majority vote is great: easy, straightforward, fair. But should everyone really 
 
 	Remember, you can know whether or not an attribute-adjective pair in your CSV file corresponds to a gold test question by checking the `*_qual_ctrl*` columns.
 
-	You will implement a function `weighted_majority_vote_workers(mturk_res)` that takes in mTurk result data read from the CSV file we give, return a list of two-element tuples in the format `(worker_id, quality)` sorted alphabetically by the worker_id.
+	You will implement a function `weighted_majority_vote_workers(mturk_res)` that takes in mTurk result data read from the CSV file we give, return a list of two-element tuples in the format `(worker_id, quality)` sorted alphabetically by the worker_id. Please keep up to 3 decimal points for your computation.
 
 	In your `main` function, you should output the returned tuples into a 2-column CSV file called `output3.csv` with the same column names mentioned above. 
 
@@ -164,7 +166,7 @@ How do we define as "good" workers? In our case, we need a worker to satisfy 3 c
 
 You can of course try other criterions and see how things are different if you are interested and discuss in the report, but not for python code submission purpose.
 
-You will implement a function `select_qualified_worker(mturk_res)` that takes in mTurk result data read from the CSV file we give, return a list of two-element tuples in the format `(worker_id, pos_percentage)` sorted alphabetically by the worker\_id. 
+You will implement a function `select_qualified_worker(mturk_res)` that takes in mTurk result data read from the CSV file we give, return a list of two-element tuples in the format `(worker_id, pos_percentage)` sorted alphabetically by the worker\_id. Please keep 3 decimal points for your computation.
 
 In your `main` function, you should output the returned tuples into a 2-column CSV file called `output6.csv` with the same column names mentioned above. 
 
