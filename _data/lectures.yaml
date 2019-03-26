@@ -310,6 +310,10 @@
       title: >
         "Is there anything else I can help you with?"&colon; Challenges in Deploying an On-Demand Crowd-Powered Conversational Agent
       url: readings/downloads/hci/challenges-of-crowd-powered-agents.pdf
+    -  
+      authors: Gimlet Media 
+      title: Sandra (a sci-fi thriller podcast about crowd-powered conversational agents)
+      url: https://www.gimletmedia.com/sandra
 -
   date: 2019-03-28
   slides: 
@@ -324,6 +328,18 @@
   speaker_url: https://cs.stanford.edu/~jbragg/
   slides_credit: Jonathan Bragg
   readings: 
+    -
+      authors: Jonathan Bragg, Mausam, Daniel S. Weld
+      title: Sprout&colon; Crowd-Powered Task Design for Crowdsourcing
+      url: https://www.jonathanbragg.com/files/bragg-uist18.pdf
+    -
+      authors: Jonathan Bragg, Mausam, Daniel S. Weld
+      title: Crowdsourcing Multi-Label Classification for Taxonomy Creation
+      url: https://cs.stanford.edu/~jbragg/files/bragg-hcomp13.pdf
+    -
+      authors: Daniel S. Weld, Mausam, Christopher H. Lin, Jonathan Bragg
+      title: Artificial Intelligence and Collective Intelligence
+      url: https://homes.cs.washington.edu/~weld/papers/ci-chapter2014.pdf
 -
   date: 2019-04-04
   slides: 
