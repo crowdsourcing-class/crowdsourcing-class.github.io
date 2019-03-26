@@ -76,12 +76,15 @@ Notice: For all the function return values and output files in this assignment, 
 
 Majority vote is probably the easiest and most common way to aggregate your workers' labels. It is simple and gets to the heart of what "the wisdom of crowds" is supposed to give us - as long as the workers make uncorrelated errors, we should be able to walk away with decent results. Plus, as every insecure middle schooler knows, what is popular is always right. 
 
-1. First, use majority vote to assign labels to each of the attribute-adjective pair in the data. You will implement a function `majority_vote(mturk_res)` that takes in mTurk result data read from the CSV file we give, return a list of three-element tuples in the format `(attr_id, adj, label)` sorted alphabetically given the same column order.
+1. First, use majority vote to assign labels to each of the attribute-adjective pair in the data. 
 
-	Lets let $$p$$ be a attribute-adjective pair and we'll use $$\textit{labels}$$ to refer to the data structure we are building, so that $$\textit{labels}[p]$$ is the label we assign to $$p$$. So we have 
+	Let's use $$\textit{labels}$$ to refer to the dictionary keeping the label of each attribute-adjective pair and use $$p$$ to denote an attribute-adjective pair.
+	Then $$\textit{labels}[p]$$ is the label we assign to $$p$$. So we have 
 
 	<center>$$\textit{labels}[p] = \text{majority label for } p.$$</center>
 
+	You will implement a function `majority_vote(mturk_res)` that takes in mTurk result data read from the CSV file we give, return a list of three-element tuples in the format `(attr_id, adj, label)` sorted alphabetically given the same column order.
+	
 	In your `main` function, you should output the returned tuples into a 3-column CSV file called `output1.csv` with the same column names mentioned above.
 
 2. Now, you can use the pair labels you just computed to estimate a confidence in (or quality for) each worker. We will say that a worker's quality is simply the proportion of times that that worker agrees with the majority. 
