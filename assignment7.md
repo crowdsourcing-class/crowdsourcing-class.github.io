@@ -140,7 +140,7 @@ Majority vote is great: easy, straightforward, fair. But should everyone really 
 
 	You will implement a function `weighted_majority_vote(mturk_res, workers)` that takes in mTurk result data read from the CSV file we give and the returned value from the previous `weighted_majority_vote_workers(mturk_res)` function, return a list of three-element tuples in the format `(attr_id, adj, label)` sorted alphabetically given the same column order.
 
-	In your `main` function, you should output the returned tuples into a 2-column CSV file called `output4.csv` with the same column names mentioned above. 
+	In your `main` function, you should output the returned tuples into a 3-column CSV file called `output4.csv` with the same column names mentioned above. 
 
 
 ## Part 2: The EM algorithm
