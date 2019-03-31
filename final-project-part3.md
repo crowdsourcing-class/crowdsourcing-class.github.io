@@ -4,8 +4,10 @@ img: prototype-2
 caption: Working prototype (icon created by Ben Ehmke from The Noun Project)
 title: Final Project part 3 "Working Prototype"
 active_tab: homework
-release_date: 2016-04-11
-due_date: 2016-04-18T23:59:59EDT
+release_date: 2019-03-29
+due_date: 2019-04-18T23:59:59EDT
+final_exam_date: 2019-05-08T12:00:00EDT
+final_exam_location: Wu and Chen Auditorum (Levine Hall room 101)
 ---
 <!-- Check whether the assignment is up to date -->
 {% capture this_year %}{{'now' | date: '%Y'}}{% endcapture %}
@@ -26,7 +28,7 @@ This assignment is before {{ page.due_date | date: "%I:%M%p" }} due on {{ page.d
 Final Project<span class="text-muted"> : Part 3</span> 
 =============================================================
 
-The final project is due on Thursday May 5th, 2016.  By that time, your system will need to be fully operational, and you'll have to have collected enough data to do an interesting analysis.  We recommend looking over [the questions on the final questionnaire](final-project-part5.html#survey), so that you get a sense of what is expected of the final project. You should pay attention to what sorts of analyses you can do for your final project. 
+The final project presentations will happen during the final exam slot on {{ page.final_exam_date | date: "%A, %B %-d, %Y" }} at {{ page.final_exam_date | date: "%I:%M%p" }} in {{page.final_exam_location}}.  By that time, your system will need to be fully operational, and you'll have to have collected enough data to do an interesting analysis.  We recommend looking over [the questions on the final questionnaire](final-project-part5.html#survey), so that you get a sense of what is expected of the final project. You should pay attention to what sorts of analyses you can do for your final project. 
 
 For your final project, you can collect data by employing a real crowd, or by having your classmates simulate the crowd.  For this part of the project, you will finish a working version of your system, so that your classmates can help you as a simulated crowd, with the goals of debugging your system before you turn the real crowd loose on it, and/or creating some data that you can use to analyze for your final project.
 
@@ -52,7 +54,7 @@ Your classmates will make contributions before the last day of classes, and will
 #### What to submit
 </div>
 <div class="panel-body" markdown="1">
-Please fill out [this questionnaire](https://docs.google.com/forms/d/10kT2rAlzStgj0D6q0FBo4EspBKQQSt4ckRg-30rAnV0/viewform).  It asks for the following:
+Please fill athis questionnaire](https://docs.google.com/forms/d/10kT2rAlzStgj0D6q0FBo4EspBKQQSt4ckRg-30rAnV0/viewform).  It asks for the following:
 
 * Details about your team members
 * Name of your project
