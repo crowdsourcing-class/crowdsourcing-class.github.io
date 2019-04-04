@@ -307,8 +307,7 @@
       url: readings/downloads/hci/evorus.pdf
     -
       authors: Ting-Hao K. Huang, Walter S. Lasecki, Amos Azaria, Jeffrey P. Bigham
-      title: >
-        "Is there anything else I can help you with?"&colon; Challenges in Deploying an On-Demand Crowd-Powered Conversational Agent
+      title: Is there anything else I can help you with? Challenges in Deploying an On-Demand Crowd-Powered Conversational Agent
       url: readings/downloads/hci/challenges-of-crowd-powered-agents.pdf
     -  
       authors: Gimlet Media 
@@ -340,7 +339,6 @@
       authors: Daniel S. Weld, Mausam, Christopher H. Lin, Jonathan Bragg
       title: Artificial Intelligence and Collective Intelligence
       url: https://homes.cs.washington.edu/~weld/papers/ci-chapter2014.pdf
--
   date: 2019-04-04
   title: Crowdsourcing Translation
   slides: slides/crowdsourcing-translation.pdf
@@ -384,7 +382,57 @@
   date: 2019-04-09
   slides: 
   title: Crowdsourcing for low resource langauges
-  slides_credit: 
+  speaker: Stephen Mayhew
+  speaker_url: https://mayhewsw.github.io
+  slides_credit: Stephen Mayhew
+  readings: 
+    -
+      authors: Stephen Mayhew and Dan Roth
+      title:  TALEN&colon; Tool for Annotating Low-resource ENtities
+      url: http://cogcomp.org/papers/MayhewRo18.pdf
+  date: 2019-04-04
+  title: Crowdsourcing Translation
+  slides: slides/crowdsourcing-translation.pdf
+  readings:
+    -
+      authors: Omar Zaidan and Chris Callison-Burch
+      title:  Crowdsourcing Translation&#58; Professional Quality from Non-Professionals
+      url: http://www.cis.upenn.edu/~ccb/publications/crowdsourcing-translation.pdf
+    -
+      authors: Ellie Pavlick, Matt Post, Ann Irvine, Dmitry Kachaev, and Chris Callison-Burch
+      title:  The Language Demographics of Amazon Mechanical Turk
+      url: http://www.cis.upenn.edu/~ccb/publications/language-demographics-of-mechanical-turk.pdf
+    -
+      title:  Machine Translation of Arabic Dialects
+      authors: Rabih Zbib, Erika Malchiodi, Jacob Devlin, David Stallard, Spyros Matsoukas, Richard Schwartz, John Makhoul, Omar F. Zaidan, and Chris Callison-Burch
+      url: http://www.cis.upenn.edu/~ccb/publications/machine-translation-of-arabic-dialects.pdf
+-
+  date: 2019-04-05
+  slides: 
+  title: Withdraw Deadline
+  type: no_lecture
+-
+  date: 2019-04-09
+  title: Crowdsourcing for Automatic Speech Recognition
+  slides: http://crowdsourcing-class.org/slides/crowdsourcing-speech-recognition.pdf
+  slides_credit: Scott Novotney
+  reading:
+    -
+      authors: Scott Novotney and Chris Callison-Burch
+      title:  Cheap, Fast and Good Enough&#58; Automatic Speech Recognition with Non-Expert Transcription
+      url: http://www.cis.upenn.edu/~ccb/publications/automatic-speech-recognition-with-non-expert-transcription.pdf
+    -
+      authors: Maxine Eskénazi and others
+      title:  Crowdsourcing for Speech Processing&#58; Applications to Data Collection, Transcription and Assessment
+      url: http://www.amazon.com/Crowdsourcing-Speech-Processing-Applications-Transcription/dp/1118358694/
+    -
+      authors: Acquiring speech transcriptions using mismatched crowdsourcing
+      title: Preethi Jyothi and Mark Hasegawa-Johnson
+      url: http://www.isle.illinois.edu/sst/pubs/2014/jyothi14aaai.pdf
+-
+  date: 2019-04-09
+  slides: 
+  title: Crowdsourcing for low resource langauges
   speaker: Stephen Mayhew
   speaker_url: https://mayhewsw.github.io
   slides_credit: Stephen Mayhew
@@ -396,26 +444,26 @@
 -
   date: 2019-04-11
   slides: 
-  title: [tentative] Prediction Markets
+  title: tentative - Prediction Markets
   slides_credit: 
   readings: 
 -
   date: 2019-04-16
   slides: 
-  title: [tenative] Expert Crowds
+  title: tenative - Expert Crowds
   slides_credit: 
   readings: 
 -
   date: 2019-04-18
   slides:
-  title: [tenative] Crowdsourcing Research with Social Networks
+  title: tenative - Crowdsourcing Research with Social Networks
   speaker:
   recording: 
   readings:
 -
   date: 2019-04-23
   slides: 
-  title: [tenative] A/B testing
+  title: tenative - A/B testing
   slides_credit: 
   readings: 
 -
@@ -433,7 +481,7 @@
 -
   date: 2019-04-30
   slides: 
-  title:  [tenative] Goodbye
+  title:  tenative - Goodbye
   slides_credit: 
   readings:
 
