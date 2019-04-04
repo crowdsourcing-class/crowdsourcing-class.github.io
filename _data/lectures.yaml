@@ -416,7 +416,7 @@
   title: Crowdsourcing for Automatic Speech Recognition
   slides: http://crowdsourcing-class.org/slides/crowdsourcing-speech-recognition.pdf
   slides_credit: Scott Novotney
-  reading:
+  readings:
     -
       authors: Scott Novotney and Chris Callison-Burch
       title:  Cheap, Fast and Good Enough&#58; Automatic Speech Recognition with Non-Expert Transcription
