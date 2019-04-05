@@ -250,4 +250,4 @@ You can work in pairs, and each pair only needs to submit one ipython notebook. 
 </div>
 <div class="panel-body" markdown="1">
 
-This assignment is worth 100 points in total. We will give 60 extra credits to those who completed part 2.7 and part 3.1-3.2 (see the notebook for details).
+This assignment is worth 100 points in total, which will be scaled down to be worth the same as your other homeworks. Sections 2.7 and 3.1-3.2 of the homework are extra credit. You can earn up to 60 points of extra credit (see the notebook for details).
