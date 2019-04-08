@@ -379,6 +379,14 @@
       authors: Preethi Jyothi and Mark Hasegawa-Johnson
       title: Acquiring speech transcriptions using mismatched crowdsourcing
       url: http://www.isle.illinois.edu/sst/pubs/2014/jyothi14aaai.pdf
+    -
+      authors: Preethi Jyothi and Mark Hasegawa-Johnson
+      title: Dataset&colon; SBS Audio with Matched and Mismatched Transcripts
+      url: http://isle.illinois.edu/sst/data/sbs_transcripts/index.html
+    - 
+      authors: 
+      title: 
+      url: https://voice.mozilla.org/en
 -
   date: 2019-04-09
   slides: 
