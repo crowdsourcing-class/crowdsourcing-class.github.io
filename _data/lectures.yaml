@@ -376,6 +376,10 @@
       title:  Crowdsourcing for Speech Processing&#58; Applications to Data Collection, Transcription and Assessment
       url: http://www.amazon.com/Crowdsourcing-Speech-Processing-Applications-Transcription/dp/1118358694/
     -
+      authors: Eric Fosler-Lussier
+      title: (Video) Introduction to Automatic Speech Recognition
+      url: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fa506105-c37a-46da-97d7-a9d6000a4d96
+    -
       authors: Preethi Jyothi and Mark Hasegawa-Johnson
       title: Acquiring speech transcriptions using mismatched crowdsourcing
       url: http://www.isle.illinois.edu/sst/pubs/2014/jyothi14aaai.pdf
@@ -384,8 +388,8 @@
       title: Dataset&colon; SBS Audio with Matched and Mismatched Transcripts
       url: http://isle.illinois.edu/sst/data/sbs_transcripts/index.html
     - 
-      authors: 
-      title: 
+      authors: Mozilla
+      title: Common Voice (crowdsourced )
       url: https://voice.mozilla.org/en
 -
   date: 2019-04-09
