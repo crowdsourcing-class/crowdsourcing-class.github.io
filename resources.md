@@ -57,6 +57,7 @@ Resources
 - [Purdue University - Crowd-Powered Systems](https://engineering.purdue.edu/~aq/695/15sp/)
 - [CMU - Crowd Programming](http://www.programthecrowd.com)
 - [UT Austin - Crowdsourcing: Theory, Methods, and Applications  ](https://docs.google.com/document/d/1oiweK0Vvio193DSze9gANzj81XqwjaV3W6uF5pQ9s4M/preview)
+- [Matt Lease's resources on crowdsourcing](http://ir.ischool.utexas.edu/crowd/)
 
 
 ### Conferences about Crowdsourcing 
