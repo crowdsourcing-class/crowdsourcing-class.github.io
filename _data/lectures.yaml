@@ -84,6 +84,10 @@
   recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=287ba022-aee1-4c21-9111-a9d80153342f
   readings:
     -
+      authors: Jeff Barr and Luis Felipe Cabrera
+      title:  AI Gets a Brain
+      url: http://crowdsourcing-class.org/readings/downloads/platform/ai-gets-a-brain.pdf
+    -
       authors: Gabriele Paolacci, Jesse Chandler and Panos Ipeirotis
       title:  Running experiments on Amazon Mechanical Turk
       url: http://crowdsourcing-class.org/readings/downloads/platform/running-experiments-on-mturk.pdf
@@ -299,7 +303,7 @@
   speaker: Ting-Hao (Kenneth) Huang
   speaker_url: https://crowd.ist.psu.edu
   slides_credit: Ting-Hao (Kenneth) Huang
-  recording: 
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0b44a80b-f372-4fd6-b5ad-a9d80153387f
   readings: 
     -
       authors: Ting-Hao K. Huang, Joseph Chee Chang, Jeffrey P. Bigham
@@ -322,10 +326,11 @@
 -
   date: 2019-04-02
   slides: 
-  title: guest lecture
+  title: Augmenting Human Work and Learning
   speaker: Jonathan Bragg
   speaker_url: https://cs.stanford.edu/~jbragg/
   slides_credit: Jonathan Bragg
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d4bd0618-b5cd-4b6e-9584-a9d8015338d8
   readings: 
     -
       authors: Jonathan Bragg, Mausam, Daniel S. Weld
@@ -343,6 +348,7 @@
   date: 2019-04-04
   title: Crowdsourcing Translation
   slides: slides/crowdsourcing-translation.pdf
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ab4f8ac0-b2d3-4f19-abfe-a9d801533910
   readings:
     -
       authors: Omar Zaidan and Chris Callison-Burch
@@ -363,9 +369,22 @@
   type: no_lecture
 -
   date: 2019-04-09
+  slides: 
+  title: Crowdsourcing for low resource langauges
+  speaker: Stephen Mayhew
+  speaker_url: https://mayhewsw.github.io
+  slides_credit: Stephen Mayhew
+  readings: 
+    -
+      authors: Stephen Mayhew and Dan Roth
+      title:  TALEN&colon; Tool for Annotating Low-resource ENtities
+      url: http://cogcomp.org/papers/MayhewRo18.pdf
+-
+  date: 2019-04-09
   title: Crowdsourcing for Automatic Speech Recognition
   slides: http://crowdsourcing-class.org/slides/crowdsourcing-speech-recognition.pdf
   slides_credit: Scott Novotney
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=81c9310e-f41b-4d16-a74c-a9d80153393b
   readings:
     -
       authors: Scott Novotney and Chris Callison-Burch
@@ -392,29 +411,38 @@
       title: Common Voice (crowdsourced )
       url: https://voice.mozilla.org/en
 -
-  date: 2019-04-09
-  slides: 
-  title: Crowdsourcing for low resource langauges
-  speaker: Stephen Mayhew
-  speaker_url: https://mayhewsw.github.io
-  slides_credit: Stephen Mayhew
-  readings: 
-    -
-      authors: Stephen Mayhew and Dan Roth
-      title:  TALEN&colon; Tool for Annotating Low-resource ENtities
-      url: http://cogcomp.org/papers/MayhewRo18.pdf
--
   date: 2019-04-11
-  slides: 
-  title: tentative - Prediction Markets
-  slides_credit: 
-  readings: 
+  slides: slides/expert-crowds.pdf
+  title: Expert Crowds
+  slides_credit: Maria Christoforaki, Panos Ipeirotis, and Evgeniy Gabrilovich
+  slides: slides/expert-crowds.pdf
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ac51c2bc-24da-4dfc-ae00-a9d80153396c
+  readings:
+    -
+      authors: Panos Ipeirotis and Evgeniy Gabrilovich
+      title:  Quizz&#58; Targeted Crowdsourcing with a Billion (Potential) Users
+      url: http://www.ipeirotis.com/wp-content/uploads/2014/01/fp267-ipeirotis.pdf
+    -
+      authors: Maria Christoforaki and Panos Ipeirotis
+      title:  STEP&#58; A Scalable Testing and Evaluation Platform
+      url: http://www.ipeirotis.com/wp-content/uploads/2014/11/STEP_A_Scalable_Testing_and_Evaluation_Platform.pdf
+    -
+      authors: Wikipedia
+      title:  Item response theory
+      url: https://en.wikipedia.org/wiki/Item_response_theory
+      optional: true
 -
   date: 2019-04-16
   slides: 
-  title: tenative - Expert Crowds
+  title: Understanding Human Happiness
+  speaker: Matt Killingsworth
+  speaker_url: 
   slides_credit: 
-  readings: 
+  readings:
+    -
+      authors: Matt Killingsworth
+      title: trackyourhappiness.org
+      url: https://www.trackyourhappiness.org
 -
   date: 2019-04-18
   slides:
@@ -425,7 +453,7 @@
 -
   date: 2019-04-23
   slides: 
-  title: tenative - A/B testing
+  title: tenative - Prediction Markets
   slides_credit: 
   readings: 
 -
