@@ -8,6 +8,7 @@ release_date: 2019-03-29
 due_date: 2019-04-18T23:59:59EDT
 final_exam_date: 2019-05-08T12:00:00EDT
 final_exam_location: Wu and Chen Auditorum (Levine Hall room 101)
+submission_link: https://www.gradescope.com/courses/36538
 ---
 <!-- Check whether the assignment is up to date -->
 {% capture this_year %}{{'now' | date: '%Y'}}{% endcapture %}
@@ -36,40 +37,32 @@ Your classmates will make contributions before the last day of classes, and will
 
 ### What you should do to prepare
 
-* Get a working prototype ready
+* Get a working prototype ready.
 * Be sure that it is capable of collecting data from the crowd.
-* Write a step-by-step README that walks your classmates through how to use your system, including all details about how to access it and what you want them to do. If you are using a crowdsourcing platform to collect your crowd contributions, then you should set up your project to be running on the Mechanical Turk Worker Sandbox. If you are using CrowdFlower, you should launch your HIT to the "Internal Crowd." You can do this by going to "Contributors" and then to the "Channels" tab, and turning off "On-Demand Workforce." Then you can follow the link at the bottom of the dashboard to test your own HIT. 
-* Put together a short video tutorial for a new member of the crowd (like one of your classmates) shows you using the system, and explains to them how you would like them to make contributions to your project
+* Write a step-by-step README that walks your classmates through how to use your system, including all details about how to access it and what you want them to do. If you are using a crowdsourcing platform to collect your crowd contributions, then you should set up your project to be running on the Mechanical Turk Worker Sandbox.  
+* Put together a short video tutorial that shows *you* using the system for a new member of the crowd (like one of your classmates) and explains to them how you would like them to make contributions to your project.
 * Think about what sort of analysis you want to do.  
 	- Do you want to compare your system against an existing non-crowdsourcing method?  
 	- Do you want to analyze how accurate the crowd is at making predictions?
 	- Do you want to test how well your method could scale in terms of time/money?
 * Make sure that your capturing the appropriate information so that you can do your analysis.
 
-
-
+### Submission
 
 <div class="panel panel-primary" id="survey">
 <div class="panel-heading" markdown="1">
 #### What to submit
 </div>
 <div class="panel-body" markdown="1">
-Please fill athis questionnaire](https://docs.google.com/forms/d/10kT2rAlzStgj0D6q0FBo4EspBKQQSt4ckRg-30rAnV0/viewform).  It asks for the following:
+Below are the required things that you will be asked to provide about your project.  Please turn in your answers using [Final Project: Part 3 on Gradescope]({{page.submission_link}}).
 
-* Details about your team members
-* Name of your project
-* A one sentence description of your project.
-* A logo for your project (PNG format, stored on github)
-* What type of project is it? 
-  * Human computation algorithm
-  * Social science experiment with the crowd
-  * A tool for crowdsourcing
-  * A business idea that uses crowdsourcing
-  * Other
-* Provide a link to your training video for new members of your crowd (Vimeo link, and password details)
-* A written step-by-step guide for how your classmates should make contributions to your project. This should include where to access it, and who to contact if it isn't working or if  they have any questions.
-* A link to your github repo for the code that you use to run your system
-* A README describing how the code runs
+1. Name of your project.
+2. A one sentence description of your project.
+3. A link (or links) to your tasks on Mechanical Turk Worker Sandbox.
+4. A link (or links) to your training video for new members of your crowd (Vimeo link, and password details).
+5. A written step-by-step README guide for how your classmates should make contributions to your project. This should include where to access it, and who to contact if it isn't working or if they have any questions.
+6. A link to your github repo for the code that you use to run your system.
+7. A README describing how the code runs, and what kind of analysis you plan to do and how to do it. 
 </div>
 </div>
 
