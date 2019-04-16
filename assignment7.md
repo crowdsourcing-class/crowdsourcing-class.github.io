@@ -102,7 +102,7 @@ Majority vote is probably the easiest and most common way to aggregate your work
 
 	Here, $$\delta(x)$$ is a special function which equals 1 if $$x$$ is true, and 0 if $$x$$ is false. 
 
-	You will implement a function `majority_vote_workers(mturk_res, votes)` that takes in mTurk result data read from the CSV file we give and the returned value from the previous `majority_vote(mturk_res)` function, return a list of two-element tuples in the format `(worker_id, quality)` sorted alphabetically by the worker_id. Please keep up to 3 decimal points for your computation.
+	You will implement a function `majority_vote_workers(mturk_res, votes)` that takes in mTurk result data read from the CSV file we give and the returned value from the previous `majority_vote(mturk_res)` function, return a list of two-element tuples in the format `(worker_id, quality)` sorted alphabetically by the worker_id. Please keep 3 decimal points for your computation.
 
 	In your `main` function, you should output the returned tuples into a 2-column CSV file called `output2.csv` with the same column names mentioned above.
 
@@ -122,7 +122,7 @@ Majority vote is great: easy, straightforward, fair. But should everyone really 
 
 	Remember, you can know whether or not an attribute-adjective pair in your CSV file corresponds to a gold test question by checking the `*_qual_ctrl*` columns.
 
-	You will implement a function `weighted_majority_vote_workers(mturk_res)` that takes in mTurk result data read from the CSV file we give, return a list of two-element tuples in the format `(worker_id, quality)` sorted alphabetically by the worker_id. Please keep up to 3 decimal points for your computation. You should ignore quality control columns if either itself or its answer is absent, i.e. `NaN`.
+	You will implement a function `weighted_majority_vote_workers(mturk_res)` that takes in mTurk result data read from the CSV file we give, return a list of two-element tuples in the format `(worker_id, quality)` sorted alphabetically by the worker_id. Please keep 3 decimal points for your computation. You should ignore quality control columns if either itself or its answer is absent, i.e. `NaN`.
 
 	In your `main` function, you should output the returned tuples into a 2-column CSV file called `output3.csv` with the same column names mentioned above. 
 
