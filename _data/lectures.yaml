@@ -337,6 +337,10 @@
       title: Sprout&colon; Crowd-Powered Task Design for Crowdsourcing
       url: https://www.jonathanbragg.com/files/bragg-uist18.pdf
     -
+      authors: Meng-Han Wu, Alexander J. Quinn
+      title: Confusing the Crowd&colon; Task Instruction Quality on Amazon Mechanical Turk
+      url: https://aaai.org/ocs/index.php/HCOMP/HCOMP17/paper/viewFile/15943/15278
+    -
       authors: Jonathan Bragg, Mausam, Daniel S. Weld
       title: Crowdsourcing Multi-Label Classification for Taxonomy Creation
       url: https://cs.stanford.edu/~jbragg/files/bragg-hcomp13.pdf
@@ -445,11 +449,22 @@
       url: https://www.trackyourhappiness.org
 -
   date: 2019-04-18
-  slides:
-  title: tenative - Crowdsourcing Research with Social Networks
-  speaker:
+  slides:slides/speed-dating-okcupid.pdf
+  title: What data can tell us about sex and relationships
   recording: 
   readings:
+    -
+      authors: Rajesh Ranganath, Dan Jurafsky, and Dan McFarland
+      title: Detecting Flirting and its Misperception in Speed-Dates
+      url: http://nlp.stanford.edu/pubs/rajesh09.pdf
+    -
+      authors: Christian Rudder 
+      title: Dataclysm&colon; Who We Are (When We Think No One's Looking) 
+      url: http://www.amazon.com/Dataclysm-When-Think-Ones-Looking/dp/0385347375
+    -
+      authors: Christian Rudder - OKCupid
+      title:  OKCupid's blog 
+      url: http://blog.okcupid.com/
 -
   date: 2019-04-23
   slides: 
