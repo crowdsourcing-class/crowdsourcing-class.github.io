@@ -1,5 +1,5 @@
 ---
-title: Participation Grade "Be the crowd"
+title: "Be the crowd"
 layout: default
 img: participate
 active_tab: homework
