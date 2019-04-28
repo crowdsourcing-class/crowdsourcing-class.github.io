@@ -54,7 +54,7 @@ In this final project milestone, you will perform a preliminary analysis on the 
 #### What to submit
 </div>
 <div class="panel-body" markdown="1">
-Please fill answers to these questions:
+Please create a PDF that answers these questions:
 
 * Details about your team members
 * Name of your project
