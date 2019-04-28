@@ -2,7 +2,7 @@
 layout: default
 img: prototype-3
 caption: Final working system
-title: Final Project 
+title: Presentation and Final Report 
 active_tab: homework
 release_date: 2019-04-26
 due_date: 2019-05-08T12:00:00EDT
