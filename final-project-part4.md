@@ -26,7 +26,7 @@ This assignment is before {{ page.due_date | date: "%I:%M%p" }} due on {{ page.d
 Final Project<span class="text-muted"> : Part 4</span> 
 =============================================================
 
-The final project is due on Wednesday May 8, 2019.  As part of your final deliverables, you'll have to perform some sort of quantitative analysis on your project. Please look over [the questions on the final questionnaire](final-project-part5.html#survey), so that you get a sense of what is expected of you for the final writeup.
+The final project is due on Wednesday May 8, 2019.  As part of your final deliverables, you'll have to perform some sort of quantitative analysis on your project. Please look over [the questions that you'll have to answer for your final report](final-project-part5.html#survey), so that you get a sense of what is expected of you for the final writeup.
 
 In this final project milestone, you will perform a preliminary analysis on the data that you collected from your classmates or through a crowdsourcing platform, if you've already begun collecting real data.
 
