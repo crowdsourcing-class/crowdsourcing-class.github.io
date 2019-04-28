@@ -6,8 +6,8 @@ title: Presentation and Final Report
 active_tab: homework
 release_date: 2019-04-26
 due_date: 2019-05-08T12:00:00EDT
-presentations_start: 2019-05-085T12:00:00EDT
-presentations_end: 2019-05-085T14:00:00EDT
+presentations_start: 2019-05-08T12:00:00EDT
+presentations_end: 2019-05-08T14:00:00EDT
 ---
 
 <!-- Check whether the assignment is up to date -->
@@ -37,7 +37,7 @@ The end is in sight.  This will be the final deliverable for NETS 213.  This ass
 
 ### Final Video
 
-On the day of the final exam, you will each have 5 minutes to wow everyone with your finished product. And, being a recurring theme of the course, we will ask you to do so in a 5 minute video. You all have a lot of work to showcase in those 5 minutes, so you keep it crisp and on-point. Your video should:
+On the day of the final exam, you will each have 5 minutes to wow everyone with your finished product. We will ask you to do so in a 5 minute video. You all have a lot of work to showcase in those 5 minutes, so you keep it crisp and on-point. Your video should:
 
 1. Motivate the problem you are trying to solve or question you are trying to answer, and why crowdsourcing is an especially good fit for solving/answering it.
 2. Give a quick background on related problems. Have others tried to solve the same problem? What makes your approach different/better?
