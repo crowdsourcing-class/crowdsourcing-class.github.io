@@ -467,15 +467,25 @@
       url: http://blog.okcupid.com/
 -
   date: 2019-04-23
-  slides: 
-  title: tenative - Prediction Markets
-  slides_credit: 
+  slides: slides/prediction-markets.pdf
+  title: Prediction Markets
+  slides_credit: Ellie Pavlick
   readings: 
+    -
+      authors: Prediction Markets
+      title: Justin Wolfers and Eric Zitzewitz
+      url: http://www.nber.org/papers/w10504.pdf
+      optional: true 
+    -
+      authors: Using Prediction Markets to Track Information Flows&colon; Evidence from Google
+      title: Bo Cowgill, Justin Wolfers and Eric Zitzewitz
+      url: http://www.eecs.harvard.edu/cs286r/courses/fall10/papers/GooglePredictionMarketPaper.pdf
+      optional: true 
 -
   date: 2019-04-25
   slides:
   title: Ghost Work
-  speaker: Mary L. Gray and Siddarth Suri
+  speaker: Mary L. Gray 
   recording: 
   readings:
     -
