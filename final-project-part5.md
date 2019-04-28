@@ -4,12 +4,10 @@ img: prototype-3
 caption: Final working system
 title: Final Project 
 active_tab: homework
-release_date: 2016-04-29
-due_date: 2016-05-05T09:00:00EDT
-presentations_start: 2016-05-05T09:00:00EDT
-presentations_end: 2016-05-05T011:00:00EDT
-questionnaire1: http://goo.gl/forms/QuDVCcpk75
-questionnaire2: http://goo.gl/forms/0i6kWwiyTU
+release_date: 2019-04-26
+due_date: 2019-05-08T12:00:00EDT
+presentations_start: 2019-05-085T12:00:00EDT
+presentations_end: 2019-05-085T14:00:00EDT
 ---
 
 <!-- Check whether the assignment is up to date -->
@@ -53,11 +51,11 @@ Some other tips for making your video awesome:
 * Every project is different- focus on what makes yours cool/interesting/exciting/impressive. If yours was engineering-heavy, spend the majority of the time on step (3). If yours was more scientific, you should spend the majority of the video on (5). 
 * Show, don't just tell. Demos of working apps or figures of analyzed results are gold. Don't just use your voice-over to read words off of a slide. 
 
-### Final Questionnaire
+### Final Report
 
-Five minutes is short, and we want you do use your video to showcase what is great about what you did. So to make sure you still get credit for all the obligatory parts, and because it is only fitting, we will have you fill out a detailed final questionnaire. This questionnaire is broken into two parts [here]({{page.questionnaire1}}) and [here]({{page.questionnaire2}}). The questions will look familiar - its okay to reiterate points you made on past checkpoints, but highlight what about your original plan changed in your final product. 
+Five minutes is short, and we want you do use your video to showcase what is great about what you did. So to make sure you still get credit for all the obligatory parts, and because it is only fitting, we will have you fill out a detailed final report. The questions that we ask you to address will look familiar - its okay to reiterate points you made on past checkpoints, but highlight what about your original plan changed in your final product. 
 
-The questions we will ask, includes questions about these topics:
+The questions we will ask you to answer in your final report are , includes questions about these topics:
 
 * What problem you are solving/question you are answering
 * How you attempted to solve/answer it
@@ -66,28 +64,29 @@ The questions we will ask, includes questions about these topics:
 * What are the biggest challenges you had to deal with? What changed between your original plan and your final product?
 * What are some limitations of your product. If yours is an engineering-heavy project, what would you need to overcome in order to scale (cost/incentives/QC...)? If yours was a scientific study, what are some sources of error that may have been introduced by your method. If you results deviate from previous work, why might that be?
 
-The questionnaire has questions asking you to do a deeper analysis of the individual components of your project.   You should pick **two** of the sections to do a deeper analysis on. For the two deeper analyses, we ask you to create a graph using [your visualization skills](assignment9.html). Which questions you should pick depends on where the balance of your team's effort went.  Some people are building really complex system that require a lot of engineering.  Other people's focus is on analyzing data.  If your focus is on analysis, then you should generate more in-depth graphs. 
+Your final report should do a deeper analysis of the individual components of your project.   You should pick **two** of the sections to do a deeper analysis on. For the two deeper analyses, we ask you to create a graph. Which questions you should pick depends on where the balance of your team's effort went.  Some people are building really complex system that require a lot of engineering.  Other people's focus is on analyzing data.  If your focus is on analysis, then you should generate more in-depth graphs. 
 
 
 ### Final Presentations
 
-The final project presentations will be held on {{ page.presentations_start | date: "%A, %B %-d, %Y" }} from {{ page.presentations_start | date: "%I:%M%p" }} to {{ page.presentations_end | date: "%I:%M%p" }} in two locations: in LRSM Auditorium and in Skirkanich Auditorium (Berger Auditorium room 101).  We will play your videos and have a short amount of time for you to answer questions from the audience. 
+The final project presentations will be held on {{ page.presentations_start | date: "%A, %B %-d, %Y" }} from {{ page.presentations_start | date: "%I:%M%p" }} to {{ page.presentations_end | date: "%I:%M%p" }} in Wu and Chen Auditorium (Levine 101)   We will play your videos and have a short amount of time for you to answer questions from the audience. 
 
 
 
 
 <div class="panel panel-primary" id="survey">
 <div class="panel-heading" markdown="1">
-#### Questionnaire
+#### Final report
 </div>
 <div class="panel-body" markdown="1">
-Below are the questions that you will be asked to answer about your final project.  lease submit your answers via the questionnaires [here]({{ page.questionnaire1}}) and [here]({{page.questionnaire2}}). (Note that the questionnaire is broken into two parts! Make sure you submit both!). We recommend that you **save your survey answers in a file on your own computer**, rather than typing them directly into the Google form, so that you can have a copy to use when you do your video profile.  You won't be able to access your answers from Google after you press submit.
+Below are the questions that you should address in your final report.  lease submit your answers in a PDF that you submit to Gradescope. 
 
 You must answer the questions in all of the sections below, but you only need to create graphs for 2 sections.
 
 #### Basic project information 
 
 * Name of your project
+* Name of your teammates 
 * Give a one sentence description of your project. Please use the name of the project in your description.
 * Logo for your project. Create a PNG file, save it in your github repo, give its URL. 
 * What problem does it solve?
@@ -221,8 +220,8 @@ Save the screenshot as a PNG file, and put it in your github repo. Include the f
 This assignment is worth 20 points of your overall grade in the course.  The rubric for the assignment is given below. 
 
 * 5 points for your video
-* 5 points for your responses to the questionnaire
-* 10 points will be allocated based on a hollistic evaluation of your project (video+questionnaire), with special attention to how well you address the major themes of the course.
+* 5 points for your final report
+* 10 points will be allocated based on a hollistic evaluation of your project (video+report), with special attention to how well you address the major themes of the course.
 </div>
 </div>
 
