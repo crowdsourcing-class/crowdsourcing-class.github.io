@@ -4,8 +4,8 @@ img: analysis
 caption: Prelimiary Analysis (icon created by Creative Stall from The Noun Project)
 title: Final Project part 4 "Preliminary Analysis"
 active_tab: homework
-release_date: 2016-04-21
-due_date: 2016-04-27T23:59:59EDT
+release_date: 2019-04-23
+due_date: 2019-05-01T23:59:59EDT
 ---
 <!-- Check whether the assignment is up to date -->
 {% capture this_year %}{{'now' | date: '%Y'}}{% endcapture %}
@@ -26,7 +26,7 @@ This assignment is before {{ page.due_date | date: "%I:%M%p" }} due on {{ page.d
 Final Project<span class="text-muted"> : Part 4</span> 
 =============================================================
 
-The final project is due on Thursday May 5th, 2016.  As part of your final deliverables, you'll have to perform some sort of quantitative analysis on your project. Please look over [the questions on the final questionnaire](final-project-part5.html#survey), so that you get a sense of what is expected of you for the final writeup.
+The final project is due on Wednesday May 8, 2019.  As part of your final deliverables, you'll have to perform some sort of quantitative analysis on your project. Please look over [the questions on the final questionnaire](final-project-part5.html#survey), so that you get a sense of what is expected of you for the final writeup.
 
 In this final project milestone, you will perform a preliminary analysis on the data that you collected from your classmates or through a crowdsourcing platform, if you've already begun collecting real data.
 
@@ -55,7 +55,7 @@ In this final project milestone, you will perform a preliminary analysis on the 
 #### What to submit
 </div>
 <div class="panel-body" markdown="1">
-Please fill out [this questionnaire](https://docs.google.com/forms/d/1jyYEjuxL1Lc6FtWV2f6p0Vm_KBlcAHehNjM6Oc_ZLY4/viewform).  It asks for the following:
+Please fill answers to these questions:
 
 * Details about your team members
 * Name of your project
@@ -76,7 +76,7 @@ Please fill out [this questionnaire](https://docs.google.com/forms/d/1jyYEjuxL1L
   * Other
 * Describe what analysis you performed
 * Where the results what you expected?
-* Include a link to a PNG of figure that shows a visualization of your preliminary analysis (a graph, a chart, a table)
+* Include a figure that shows a visualization of your preliminary analysis (a graph, a chart, a table)
 * Write a caption that describes the figure.  Your caption should says how to interpret it, and gives your understanding of what it shows.
 * What will you do differently for your final analysis?
 * Give a link to the data files that you analyzed
