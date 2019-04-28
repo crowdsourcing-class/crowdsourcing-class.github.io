@@ -69,7 +69,7 @@ Your final report should do a deeper analysis of the individual components of yo
 
 ### Final Presentations
 
-The final project presentations will be held on {{ page.presentations_start | date: "%A, %B %-d, %Y" }} from {{ page.presentations_start | date: "%I:%M%p" }} to {{ page.presentations_end | date: "%I:%M%p" }} in Wu and Chen Auditorium (Levine 101)   We will play your videos and have a short amount of time for you to answer questions from the audience. 
+The final project presentations will be held during the final exam slot on {{ page.presentations_start | date: "%A, %B %-d, %Y" }} from {{ page.presentations_start | date: "%I:%M%p" }} to {{ page.presentations_end | date: "%I:%M%p" }} in Wu and Chen Auditorium (Levine 101)   We will play your videos and have a short amount of time for you to answer questions from the audience. 
 
 
 
