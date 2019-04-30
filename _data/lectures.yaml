@@ -495,8 +495,8 @@
       optional: true 
 -
   date: 2019-04-30
-  slides: 
-  title:  tenative - Goodbye
+  slides: slides/wrap-up.pdf
+  title: Course Wrapup
   slides_credit: 
   readings:
 
