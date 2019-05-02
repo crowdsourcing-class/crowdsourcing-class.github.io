@@ -494,6 +494,33 @@
       url: https://www.amazon.com/Ghost-Work-Silicon-Building-Underclass/dp/1328566242/
       optional: true 
 -
+  date: 2019-04-25
+  slides:
+  title: Trusted Strangers&colon; Carework Platforms Cultural Entrepreneurship in the On-demand Economy
+  speaker: Julia Ticona
+  recording: 
+  readings:
+    -
+      authors: Julia Ticona, Alexandra Mateescu, Alex Rosenblat
+      title: Beyond Disruption&colon; How Tech Shapes Labor Across Domestic Work & Ridehailing
+      url: https://datasociety.net/output/beyond-disruption/
+      optional: true 
+    -
+      authors: Julia Ticona and Alexandra Mateescu
+      title: How Domestic Workers Wager Safety In The Platform Economy
+      url: https://www.fastcompany.com/40541050/how-domestic-workers-wager-safety-in-the-platform-economy
+      optional: true 
+    -
+      authors: Alex Rosenblat
+      title: There’s an App for Wrecking Nannies’ Lives
+      url: https://www.nytimes.com/2018/07/12/opinion/gig-economy-domestic-workers-uber.html
+      optional: true 
+    -
+      authors: Julia Ticona and Alexandra Mateescu
+      title: Trusted strangers&colon; Carework platforms’ cultural entrepreneurship in the on-demand economy
+      url: https://journals.sagepub.com/doi/full/10.1177/1461444818773727
+      optional: true 
+-
   date: 2019-04-30
   slides: slides/wrap-up.pdf
   title: Course Wrapup
@@ -504,6 +531,6 @@
   date: 2019-05-08
   slides: 
   readings: 
-  title: Final presentations during fial exam slot - Wednesday, May 8, 2019 from 12:00 - 02:00 in LEVH 101
+  title: Final presentations during final exam slot - Wednesday, May 8, 2019 from 12:00 - 02:00 in LEVH 101
   slides_credit: 
   readings: 
