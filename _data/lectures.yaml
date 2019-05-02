@@ -323,6 +323,7 @@
   title: in-class feedback on term project milestone 1
   slides_credit: 
   readings: 
+  type: no_lecture
 -
   date: 2019-04-02
   slides: 
@@ -434,14 +435,13 @@
       authors: Wikipedia
       title:  Item response theory
       url: https://en.wikipedia.org/wiki/Item_response_theory
-      optional: true
 -
   date: 2019-04-16
   slides: 
   title: Understanding Human Happiness
   speaker: Matt Killingsworth
-  speaker_url: 
-  slides_credit: 
+  speaker_url: https://www.trackyourhappiness.org
+  slides_credit: Matt Killingsworth
   readings:
     -
       authors: Matt Killingsworth
@@ -451,7 +451,7 @@
   date: 2019-04-18
   slides: slides/speed-dating-okcupid.pdf
   title: What data can tell us about sex and relationships
-  recording: 
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2e1392b8-bf1e-458a-a3d6-a9d8015339c5
   readings:
     -
       authors: Rajesh Ranganath, Dan Jurafsky, and Dan McFarland
@@ -475,58 +475,51 @@
       authors: Prediction Markets
       title: Justin Wolfers and Eric Zitzewitz
       url: http://www.nber.org/papers/w10504.pdf
-      optional: true 
     -
       authors: Using Prediction Markets to Track Information Flows&colon; Evidence from Google
       title: Bo Cowgill, Justin Wolfers and Eric Zitzewitz
       url: http://www.eecs.harvard.edu/cs286r/courses/fall10/papers/GooglePredictionMarketPaper.pdf
-      optional: true 
 -
   date: 2019-04-25
   slides:
   title: Ghost Work
   speaker: Mary L. Gray 
-  recording: 
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c0b7f53a-d57f-4b06-9fd7-a9d801533a1e
   readings:
     -
       authors: Mary L. Gray and Siddarth Suri
       title: Ghost Work&colon; How to Stop Silicon Valley from Building a New Global Underclass
       url: https://www.amazon.com/Ghost-Work-Silicon-Building-Underclass/dp/1328566242/
-      optional: true 
 -
   date: 2019-04-25
   slides:
-  title: Trusted Strangers&colon; Carework Platforms Cultural Entrepreneurship in the On-demand Economy
+  title: Online Care Markets&colon; The "Gig" Economy's Missing Women
   speaker: Julia Ticona
-  recording: 
+  slides_credit: Julia Ticona
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c0b7f53a-d57f-4b06-9fd7-a9d801533a1e
   readings:
     -
       authors: Julia Ticona, Alexandra Mateescu, Alex Rosenblat
       title: Beyond Disruption&colon; How Tech Shapes Labor Across Domestic Work & Ridehailing
       url: https://datasociety.net/output/beyond-disruption/
-      optional: true 
     -
       authors: Julia Ticona and Alexandra Mateescu
       title: How Domestic Workers Wager Safety In The Platform Economy
       url: https://www.fastcompany.com/40541050/how-domestic-workers-wager-safety-in-the-platform-economy
-      optional: true 
     -
       authors: Alex Rosenblat
       title: There’s an App for Wrecking Nannies’ Lives
       url: https://www.nytimes.com/2018/07/12/opinion/gig-economy-domestic-workers-uber.html
-      optional: true 
     -
       authors: Julia Ticona and Alexandra Mateescu
       title: Trusted strangers&colon; Carework platforms’ cultural entrepreneurship in the on-demand economy
       url: https://journals.sagepub.com/doi/full/10.1177/1461444818773727
-      optional: true 
 -
   date: 2019-04-30
   slides: slides/wrap-up.pdf
   title: Course Wrapup
-  slides_credit: 
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d5011968-4e73-4ae7-8da0-a9d801533a48
   readings:
-
 -
   date: 2019-05-08
   slides: 
