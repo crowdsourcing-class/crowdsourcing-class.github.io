@@ -88,7 +88,7 @@ You must answer the questions in all of the sections below, but you only need to
 * Name of your project
 * Name of your teammates 
 * Give a one sentence description of your project. Please use the name of the project in your description.
-* Logo for your project. Create a PNG file, save it in your github repo, give its URL. 
+* Logo for your project. 
 * What problem does it solve?
 * What similar projects exist? 
 * What type of project is it? 
@@ -126,7 +126,7 @@ You must answer the questions in all of the sections below, but you only need to
   * Other
 * How do you incentivize the crowd to participate? Please write 1-3 paragraphs giving the specifics of how you incentivize the crowd. If your crowd is simulated, then what would you need to do to incentivize a real crowd?
 * Did you perform any analysis comparing different incentives?
-* If you compared different incentives, what analysis did you perform? If you have a graph analyzing incentives, include a link to a PNG file of the graph here.
+* If you compared different incentives, what analysis did you perform? If you have a graph analyzing incentives, include the graph here.
 
 ####  What the crowd gives you
 
@@ -136,9 +136,9 @@ You must answer the questions in all of the sections below, but you only need to
 * Did you train a machine learning component from what the crowd gave you?
 * If you trained a machine learning component, describe what you did.
 * Did you analyze the quality of the machine learning component? For instance, did you compare its quality against crowd workers using an n-fold cross validation?
-* If you have a graph analyzing a machine learning component, include a link to a PNG file of the graph here.
+* If you have a graph analyzing a machine learning component, include the graph here.
 * Did you create a user interface for the crowd workers? Answer yes even if it's something simple like a HTML form on CrowdFlower.
-* If yes, please give the URL to a screenshot of the crowd-facing user interface. Save the screenshot as a PNG file, and put it in your github repo. Include the full path to your image (prefix with https://github.com/). You can include multiple screenshots, one per line.
+* If yes, please include a screenshot of the crowd-facing user interface in your report. You can include multiple screenshots if you want.
 * Describe your crowd-facing user interface. This can be a short caption for the screenshot. Alternately, if you put a lot of effort into the interface design, you can give a longer explanation of what you did.
 
 #### Skills
@@ -149,7 +149,7 @@ You must answer the questions in all of the sections below, but you only need to
 * If skills vary widely, what factors cause one person to be better than another?
 * Did you analyze the skills of the crowd?
 * If you analyzed skills, what analysis did you perform? How did you analyze their skills? What questions did you investigate? Did you look at the quality of their results? Did you analyze the time it took individuals to complete the task? What conclusions did you reach?
-* Do you have a graph analyzing skills? If you have a graph analyzing skills, include a link to a PNG file of the graph here.
+* Do you have a graph analyzing skills? If you have a graph analyzing skills, include the graph here.
 
 
 #### Quality Control
@@ -160,7 +160,7 @@ You must answer the questions in all of the sections below, but you only need to
 * Did you analyze the quality of what you got back? For instance, did you compare the quality of results against a gold standard? Did you compare different QC strategies?
 * What analysis did you perform on quality?
 * What questions did you investigate? What conclusions did you reach?
-* Do you have a graph analyzing quality? If you have a graph analyzing quality, include a link to a PNG file of the graph here.
+* Do you have a graph analyzing quality? If you have a graph analyzing quality, include the graph here.
 
 
 #### Aggregation
@@ -168,9 +168,8 @@ You must answer the questions in all of the sections below, but you only need to
 * How do you aggregate the results from the crowd?
 * Did you analyze the aggregated results?
 * What analysis did you perform on the aggregated results? What questions did you investigate? Did you compare aggregated responses against individual responses? What conclusions did you reach?
-* Do you have a graph analyzing the aggregated results? If you have a graph analyzing the aggregated results, include a link to a PNG file of the graph here.
-* Did you create a user interface for the end users to see the aggregated results? If yes, please give the URL to a screenshot of the user interface for the end user.
-Save the screenshot as a PNG file, and put it in your github repo. Include the full path to your image (prefix with https://github.com/). You can include multiple screenshots, one per line.
+* Do you have a graph analyzing the aggregated results? If you have a graph analyzing the aggregated results, include the graph here.
+* Did you create a user interface for the end users to see the aggregated results? If yes, pleaseinclude  a screenshot of the user interface for the end user in your final report. You can include multiple screenshots, if you want.
 * Describe what your end user sees in this interface. This can be a short caption for the screenshot. Alternately, if you put a lot of effort into the interface design, you can give a longer explanation of what you did.
 
 
@@ -183,13 +182,13 @@ Save the screenshot as a PNG file, and put it in your github repo. Include the f
 * Did you perform an analysis about how to scale up your project? For instance, a cost analysis?
 * What analysis did you perform on the scaling up?
 * What questions did you investigate? What conclusions did you reach?
-* Do you have a graph analyzing scaling? If you have a graph analyzing scaling, include a link to a PNG file of the graph here.
+* Do you have a graph analyzing scaling? If you have a graph analyzing scaling, include the graph here.
 
 
 #### Project Analysis
 
 * Did your project work? How do you know? Analyze some results, discuss some positive outcomes of your project.
-* Do you have a graph analyzing your project? If you have a graph analyzing your project, include a link to a PNG file of the graph here.
+* Do you have a graph analyzing your project? If you have a graph analyzing your project, include the graph here.
 * What were the biggest challenges that you had to deal with?
 * Where there major changes between what you originally proposed and your final product?
 * If so, what changed between your original plan and your final product?
@@ -202,7 +201,7 @@ Save the screenshot as a PNG file, and put it in your github repo. Include the f
 * Did your project require a substantial technical component? Did it require substantial software engineering? Did you need to learn a new language or API?
 * If project required a substantial technical component, describe the largest technical challenge you faced.
 * How did you overcome this challenge? What new tools or skills were required? Feel free to nerd out a bit, to help us understand the amount of work that was required. 
-* Do you have any screen shots or flow diagrams to illustrate the technical component you described? If so, include a link to a PNG file of the graph here.
+* Do you have any screen shots or flow diagrams to illustrate the technical component you described? If so, include the graph here.
 
 #### Other info (optional)
 * Is there anything else you'd like to say about your project?
