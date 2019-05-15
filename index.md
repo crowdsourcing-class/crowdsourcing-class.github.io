@@ -9,19 +9,22 @@ active_tab: main_page
 
 Crowdsourcing and human computation are emerging fields that sit squarely at the intersection of economics and computer science. They examine how people can be used to solve complex tasks that are currently beyond the capabilities of artificial intelligence algorithms. Online marketplaces like [Mechanical Turk](https://www.mturk.com/) provide an infrastructure that allows micropayments to be given to people in return for completing human intelligence tasks. This opens up previously unthinkable possibilities like people being used as function calls in software. We will investigate how crowdsourcing can be used for computer science applications like machine learning, next-generation interfaces, and data mining. Beyond these computer science aspects, we will also delve into topics like the sharing economy, prediction markets, how businesses can capitalize on collective intelligence, and the fundamental principles that underlie democracy and other group decision-making processes.
 
-<div class="alert alert-success" markdown="1">
-[Use this form to rate your classmates' final presentations.](https://docs.google.com/forms/d/e/1FAIpQLSfYqCIPRVv6QKuD6qByilVLGPToMLN4Yr9yMBZfUVC8QYR5sQ/viewform?usp=sf_link)
-</div>
 
 <div class="alert alert-info" markdown="1">
 NETS 213 will not be offered in the 2019-2020 school year.  If you're interested in related courses, recommend taking [Julia Ticona](http://www.juliaticona.com)'s course Comm 432: Digital Inequality in Fall 2019.
 </div>
 
 
+<!--
+<div class="alert alert-success" markdown="1">
+[Use this form to rate your classmates' final presentations.](https://docs.google.com/forms/d/e/1FAIpQLSfYqCIPRVv6QKuD6qByilVLGPToMLN4Yr9yMBZfUVC8QYR5sQ/viewform?usp=sf_link)
+</div>
+
 <div class="alert alert-success" markdown="1">
 [Please complete this end of semester survey.](https://docs.google.com/forms/d/e/1FAIpQLSeUh7fbELbIniQKyZ8DEapNo_7vM9fJiJmRWJCektpK_QEbcQ/viewform?usp=sf_link)
 </div>
 
+-->
 
 
 <!--
