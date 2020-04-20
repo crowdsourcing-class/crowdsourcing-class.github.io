@@ -6,13 +6,13 @@ title: Creating and Uploading Videos
 active_tab: resources
 ---
 
-#Creating Videos
+# Creating Videos
 There are a variety of ways of making videos. The easiest and most effective for this project is to create a screen recording.
 
-##Screen recording
+## Screen recording
 If you're on a Mac you can use Quicktime or Keynote to create a screen recording.
 
-###Quicktime 
+### Quicktime 
 
 1. Open up QuickTime.
 2. Go to File->New Screen Recording.
@@ -22,7 +22,7 @@ If you're on a Mac you can use Quicktime or Keynote to create a screen recording
 If you're on Windows:
 Check out this [screen recording software](http://icecreamapps.com/Screen-Recorder/).
 
-##Uploading to Vimeo
+## Uploading to Vimeo
 1. Sign up for a Vimeo account following the instructions on their [website](https://vimeo.com/).
 2. You will receive and email with a link to verify your account, after which you can upload a video.
 3. Navigate to the site, login and click the big blue upload button in the top right corner, you'll be prompted to upload your video. 
@@ -32,7 +32,7 @@ Check out this [screen recording software](http://icecreamapps.com/Screen-Record
 
 <div class="panel panel-info">
 <div class="panel-heading" markdown="1">
-####Tips for Making a Good Video
+#### Tips for Making a Good Video
 </div>
 <div class="panel-body" markdown="1">
 1. Write out a script for what you're going to say.  Practice saying it aloud several times to smooth out any places that you might stumble.
