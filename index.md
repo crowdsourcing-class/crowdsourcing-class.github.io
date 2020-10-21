@@ -11,7 +11,7 @@ Crowdsourcing and human computation are emerging fields that sit squarely at the
 
 
 <div class="alert alert-info" markdown="1">
-NETS 213 will not be offered in the 2019-2020 school year.  If you're interested in related courses, recommend taking [Julia Ticona](http://www.juliaticona.com)'s course Comm 432: Digital Inequality in Fall 2019.
+NETS 213 will be offered in Spring 2021!  
 </div>
 
 
@@ -116,17 +116,14 @@ Website
 : [http://crowdsourcing-class.org/](http://crowdsourcing-class.org/)
 
 Discussion Forum
-: [Piazza](https://piazza.com/upenn/spring2018/nets213)
+: [Piazza](https://piazza.com/upenn/spring2021/nets213)
 
 Time and place
-: Spring 2019, Tuesdays and Thursdays 3-4:30pm, Location: 3401 Walnut Street room 401B
+: Spring 2021, Tuesdays and Thursdays 3-4:30pm
+: The first day of class will be 
 
 Office Hours
-: Tuesday 6-7pm in 3401 Walnut St, room 452C
-: Wednesday 4-6pm in 3401 Walnut Street 4th Floor outside 463C
-: Thursday 6-7pm in 3401 Walnut St, room 452C
-: Friday 2-4pm in 3401 Walnut Street 4th Floor outside 463C
-: CCB's office hours are [by appointment on ccb-office-hours.youcanbook.me](https://ccb-office-hours.youcanbook.me)
+: TBD
 
 Prerequisites
 : [CIS 120](http://www.seas.upenn.edu/~cis120/) or prior programming experience
