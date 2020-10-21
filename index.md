@@ -120,13 +120,15 @@ Discussion Forum
 
 Time and place
 : Spring 2021, Tuesdays and Thursdays 3-4:30pm
-: The first day of class will be 
+: The first day of class will be Thursday January 14, 2021.
+: The final day of class will be Tuesday April 27, 2021.
+
 
 Office Hours
 : TBD
 
 Prerequisites
-: [CIS 120](http://www.seas.upenn.edu/~cis120/) or prior programming experience
+: [CIS 120](http://www.seas.upenn.edu/~cis120/) or prior programming experience.
 
 Course Readings
 : Each lecture has an accompanying set of [academic papers](lectures.html)
