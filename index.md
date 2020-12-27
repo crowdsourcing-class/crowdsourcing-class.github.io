@@ -11,7 +11,7 @@ Crowdsourcing and human computation are emerging fields that sit squarely at the
 
 
 <div class="alert alert-info" markdown="1">
-NETS 213 will be offered in Spring 2021!  
+NETS 213 will be offered in Spring 2021!  If you didn't get in during the advance registration period, you can [add yourself to the waitlist](https://forms.cis.upenn.edu/waitlist/index.php).
 </div>
 
 
@@ -120,8 +120,8 @@ Discussion Forum
 
 Time and place
 : Spring 2021, Tuesdays and Thursdays 3-4:30pm
-: The first day of class will be Thursday January 14, 2021.
-: The final day of class will be Tuesday April 27, 2021.
+: The first day of class will be Thursday January 21, 2021.
+: The final day of class will be Thursday April 29, 2021.
 
 
 Office Hours
