@@ -119,7 +119,7 @@ Discussion Forum
 : [Piazza](https://piazza.com/upenn/spring2021/nets213)
 
 Time and place
-: Spring 2021, Tuesdays and Thursdays 3-4:30pm
+: Spring 2021, Tuesdays and Thursdays 3-4:30pm [via Zoom]( https://upenn.zoom.us/j/93824284661?pwd=OUNIQ2czUWRWTEQ3ZkRTU2FKQ3VGUT09)
 : The first day of class will be Thursday January 21, 2021.
 : The final day of class will be Thursday April 29, 2021.
 
