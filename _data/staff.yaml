@@ -4,35 +4,96 @@
     email: ccb@cis.upenn.edu
     webpage: http://www.cis.upenn.edu/~ccb/
     extra_title: Instructor
-    office_hours: <a href="https://ccb-office-hours.youcanbook.me">By appointment on ccb-office-hours.youcanbook.me</a>
-    location: 3401 Walnut St, room 463C
--   
-    name: Danni Ma 
-    pic: danni_ma.jpg
-    email: dannima@seas
-    office_hours: Tuesday & Thursday, 6-7pm
-    location: 3401 Walnut St, room 452C
--
-    name: Jie Gao
-    pic: jie_gao.jpg
-    email: jiegao@seas
-    office_hours: Occasional (will be posted on Piazza)
-    location: 3401 Walnut St, room 464C
--   
-    name: Paul Zuo 
-    pic: paul_zuo.jpg
-    email: pzou@seas
-    office_hours: Wednesday 4-6pm
-    location: 3401 Walnut Street 4th Floor (space outside CCB's office)
--
-    name: Yoni Nachmany 
-    pic: yoni_nachmany.jpg
-    email: yoninachmany@gmail
-    office_hours: Friday 2-4pm
-    location: 3401 Walnut Street 4th Floor (space outside CCB's office)
--
-    name: Aditya M. Kashyap
-    pic: aditya_kashyap.png
-    email: kashyap@seas
     office_hours: TBD
-    location: TBD
+    pronouns: he/him
+-  
+    name: Ajay Patel
+    pic: ajay_patel.jpg
+    email: ajayp@seas
+    webpage: 
+    office_hours: TBD
+    pronouns: he/him
+-  
+    name: Ann-Katrin Reuel
+    pic: ann-katrin_reuel.jpg
+    email: akreuel@seas
+    webpage: 
+    office_hours: TBD
+    pronouns: she/her
+-  
+    name: Anna Orosz
+    pic: anna_orosz.jpg
+    email: aorosz@sas
+    webpage: 
+    office_hours: TBD
+    pronouns: she/her
+-  
+    name: Ashley Nobi
+    pic: ashley_nobi.jpg
+    email: anobi@seas
+    webpage: 
+    office_hours: TBD
+    pronouns: she/her
+-  
+    name: Bryan Li
+    pic: bryan_li.jpg
+    email: bryanli@seas
+    webpage: 
+    office_hours: TBD
+    pronouns: he/him
+-  
+    name: David Fan
+    pic: david_fan.jpg
+    email: fzy@wharton
+    webpage: 
+    office_hours: TBD
+    pronouns: he/him
+-  
+    name: Eddie Cohen
+    pic: eddie_cohen.jpg
+    email: edcohen@seas
+    webpage: 
+    office_hours: TBD
+    pronouns: he/him
+-  
+    name: Jason Kim
+    pic: jason_kim.jpg
+    email: jasonks@seas
+    webpage: 
+    office_hours: TBD
+    pronouns: he/him
+-  
+    name: Joe Cappadona
+    pic: joseph_cappadona.jpg
+    email: josephcappadona27@gmail
+    webpage: 
+    office_hours: TBD
+    pronouns: he/him
+-  
+    name: Megha Mishra
+    pic: kermit.png
+    email: mmishra@seas
+    webpage: 
+    office_hours: TBD
+    pronouns: she/her
+-  
+    name: Rebecca Iglesias-Flores
+    pic: kermit.png
+    email: irebecca@seas
+    webpage: 
+    office_hours: TBD
+    pronouns: she/her
+-  
+    name: Sarah Ye
+    pic: sarah_ye.jpg
+    email: zhilinye@wharton
+    webpage: 
+    office_hours: TBD
+    pronouns: she/her
+-  
+    name: Zach Li
+    pic: zach_li.jpg
+    email: zachli@seas
+    webpage: 
+    office_hours: TBD
+    pronouns: he/him
