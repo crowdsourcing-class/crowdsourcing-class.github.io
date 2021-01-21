@@ -11,7 +11,8 @@ active_tab: lectures
 
 
 <div class="alert alert-info">
-You can <a href="https://upenn.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?embedded=1#folderID=%22452b25f7-ee11-49f9-b818-acb600e12f98%22">watch recordings of the lecture videos online</a>.
+You can watch the lectures <a href="https://upenn.zoom.us/j/93824284661?pwd=OUNIQ2czUWRWTEQ3ZkRTU2FKQ3VGUT09">live via Zoom on Tuesdays and Thursdays 3-4:30pm Eastern</a> or you can 
+<a href="https://upenn.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?embedded=1#folderID=%22452b25f7-ee11-49f9-b818-acb600e12f98%22">view recordings of the lecture</a> a few hours after the live lectures finish.
 </div>
 
 The lecture schedule will be updated as the term progresses. 
