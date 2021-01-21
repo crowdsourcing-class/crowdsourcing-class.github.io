@@ -1,0 +1,537 @@
+-
+  date: 2019-01-17
+  slides: slides/class-intro.pdf
+  title: Intro Lecture
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e430eacc-e1d2-43f3-acb6-a9d80148c3be
+  readings:
+    -
+      title: The Wisdom of Crowds&colon; Introduction
+      authors: James Surowiecki
+      url: http://wisdomofcrowds.blogspot.com/2009/12/introduction-part-i.html
+    -
+      title: Example of fake news
+      authors: UW iSchool's "Calling Bullshit" course
+      url: https://www.youtube.com/watch?v=A2OtU5vlR0k
+    - 
+      title: Digital Labour Platforms and the Future of Work (Chapter 1 and 2)
+      authors: International Labour Oranization
+      url: https://www.ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/---publ/documents/publication/wcms_645337.pdf
+      local_url: http://crowdsourcing-class.org/readings/digital-labour-platforms-and-the-future-of-work-ILO-report.pdf
+-
+  date: 2019-01-22
+  slides: slides/crowd-workers.pdf
+  title: Crowd Workers
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e6d3ea8c-1218-40f4-be2a-a9d8015332cb
+  readings:
+    -
+      authors: Jeff Bigham
+      title:  My MTurk (half) Workday
+      url: http://www.cs.cmu.edu/~jbigham/posts/2014/half-workday-as-turker.html
+    -
+      authors: Lilly Irani and Six Silberman
+      title: Turkopticon&colon; Interrupting Worker Invisibility in Amazon Mechanical Turk
+      url: http://crowdsourcing-class.org/readings/downloads/ethics/turkopticon.pdf
+    -
+      authors: Chris Callison-Burch
+      title: Crowd-Workers&colon; Aggregating Information Across Turkers To Help Them Find Higher Paying Work
+      url: http://crowdsourcing-class.org/readings/downloads/ethics/crowd-workers.pdf
+    -
+      authors: Ben Bederson and Alex Quinn
+      title: Web Workers, Unite! Addressing Challenges of Online Laborers
+      url: http://crowdsourcing-class.org/readings/downloads/ethics/web-workers-unite.pdf 
+    -
+      authors: David Martin, Benjamin Hanrahan, Jacki O’Neill and Neha Gupta
+      title: Being A Turker
+      url: http://crowdsourcing-class.org/readings/downloads/ethics/being-a-turker.pdf
+    -
+      authors: Neha Gupta, David Martin, Benjamin Hanrahan, and Jacki O’Neill 
+      title: Turk-Life in India
+      url: http://crowdsourcing-class.org/readings/downloads/econ/turk-life-in-india.pdf
+    -
+      authors: Karen Fort, Gilles Adda and Bretonnel Cohen 
+      title: Amazon Mechanical Turk&#58; Gold Mine or Coal Mine?
+      url: http://crowdsourcing-class.org/readings/downloads/ethics/gold-mine-or-coal-mine.pdf
+-
+  date: 2019-01-24
+  slides: slides/crowd-workers-2.pdf
+  title: Gig Work and the Platform Economy
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=92b43d6b-6621-4715-82b1-a9d8015333b1
+  readings:
+    -
+      authors: Kotaro Hara, Abi Adams, Kristy Milland, Saiph Savage, Chris Callison-Burch and Jeff Bigham
+      title: A Data-Driven Analysis of Workers' Earnings on Amazon Mechanical Turk
+      url: https://www.cis.upenn.edu/~ccb/publications/data-driven-analysis-of-workers-earnings-on-amazon-mechanical-turk.pdf
+    -
+      authors: Pew Research Center
+      title:  Gig Work, Online Selling and Home Sharing
+      url: http://www.pewinternet.org/2016/11/17/gig-work-online-selling-and-home-sharing/
+    -
+      authors: JPMorgan Chase Institute
+      title: Paychecks, Paydays, and the Online Platform Economy
+      url: https://www.jpmorganchase.com/corporate/institute/document/jpmc-institute-volatility-2-report.pdf
+    -
+      authors: The Supreme Court of California
+      title: Decision on workers classified as employees or as independent contractors
+      url: https://www.uberlawsuit.com/Dynamex%20.pdf      
+-
+  date: 2019-01-29
+  slides: https://docs.google.com/document/d/1l7U081geWguUUCVqb5TIzeZ9wzaM9r16fj_TZ0Umyug/edit?usp=sharing
+  title: Governing Crowd Work
+  speaker: Six Silberman
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0bfed787-f1ba-4cf2-b94c-a9d801533405
+  readings:
+    -
+      authors: Lilly Irani and Six Silberman
+      title: Turkopticon&colon; Interrupting worker invisibility in Amazon Mechanical Turk
+      url: https://www.cis.upenn.edu/~ccb/publications/data-driven-analysis-of-workers-earnings-on-amazon-mechanical-turk.pdf
+      url: http://crowdsourcing-class.org/readings/downloads/ethics/turkopticon.pdf
+-
+  date: 2019-01-31
+  slides: slides/amazon-mechanical-turk.pdf
+  title: The Amazon Mechanical Turk crowdsourcing platform 
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=287ba022-aee1-4c21-9111-a9d80153342f
+  readings:
+    -
+      authors: Jeff Barr and Luis Felipe Cabrera
+      title:  AI Gets a Brain
+      url: http://crowdsourcing-class.org/readings/downloads/platform/ai-gets-a-brain.pdf
+    -
+      authors: Gabriele Paolacci, Jesse Chandler and Panos Ipeirotis
+      title:  Running experiments on Amazon Mechanical Turk
+      url: http://crowdsourcing-class.org/readings/downloads/platform/running-experiments-on-mturk.pdf
+    -
+      title:  Amazon Mechanical Turk
+      url: https://www.mturk.com
+    -
+      title:  Mechanical Turk blog
+      url: https://blog.mturk.com
+    -
+      title: Fast, Cheap and Creative&colon;  Evaluating Translation Quality Using Amazon's Mechanical Turk
+      authors: Chris Callison-Burch
+      url: https://www.cis.upenn.edu/~ccb/publications.html
+-
+  date: 2019-02-05
+  slides: https://docs.google.com/presentation/d/1JFhcj4PesbIXV_-ozElbsHuAJ-QlAFjUcazVq2ZDhVQ/
+  title: Dataturks&colon; Machine learning data annotations made super easy for teams
+  speaker: Mohan Gupta
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=94a1a093-1c28-4e20-a442-a9d801533515
+  readings:
+    -
+      title: Dataturks
+      url: https://dataturks.com
+    -
+      title: Dataturks installation guide
+      url: https://medium.com/@dataturks/dataturks-on-prem-a-fully-self-hosted-data-annotation-solution-86b455bf0634
+-
+  date: 2019-02-07
+  slides: slides/size-of-the-crowdsourcing-marketplace.pdf
+  title: What is the size of the crowdsourcing marketplace? 
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a499e69b-900c-4b70-a450-a9d80153359d
+  readings:
+    -
+      title: Analyzing the Amazon Mechanical Turk Marketplace
+      authors: Panos Ipeirotis
+      url: https://archive.nyu.edu/jspui/bitstream/2451/29801/4/CeDER-10-04.pdf
+    -
+      title: The Dynamics of Micro-Task Crowdsourcing&colon; The Case of Amazon MTurk
+      authors: Djellel Eddine Difallah, Michele Catasta, Gianluca Demartini, Panos Ipeirotis, Philippe Cudré-Mauroux
+      url: http://www.ipeirotis.com/wp-content/uploads/2015/02/frp1365-difallah.pdf
+    -
+      title: Crowdsourced Data Management&colon; Industry and Academic Perspectives
+      authors: Adam Marcus and Aditya Parameswaran
+      url: readings/downloads/econ/crowdsourced-datamanagement.pdf
+    -
+      authors: World Bank
+      title: The Global Opportunity in Online Outsourcing
+      url: https://openknowledge.worldbank.org/bitstream/handle/10986/22284/The0global0opp0n0online0outsourcing.pdf
+-
+  date: 2019-02-12
+  slides: slides/machine-learning.pdf
+  title: Intro to Machine Learning
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4aa027e1-0404-4cfe-8192-a9d8015335da
+  readings:
+    -
+      title: Practical Deep Learning for Coders
+      authors: Jeremy Howard / fast.ai
+      url: https://course.fast.ai
+    -
+      title: Logistic Regression
+      authors: Daniel Jurafsky and James Martin
+      url: https://web.stanford.edu/~jurafsky/slp3/5.pdf
+-
+  date: 2019-02-14
+  slides: slides/computer-vision.pdf
+  title: How Crowdsourcing Enabled Computer Vision
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=86eccb91-1fd3-485d-81cf-a9d801533650
+  readings:
+    -
+      title: The data that transformed AI research – and possibly the world
+      authors: Dave Gershgorn - Quartz
+      url: https://qz.com/1034972/the-data-that-changed-the-direction-of-ai-research-and-possibly-the-world/
+    -
+      title: slides about ImageNet&colon; Crowdsourcing, benchmarking & other cool things 
+      authors: Fei-Fei Li
+      url: http://www.image-net.org/papers/ImageNet_2010.pdf
+    -
+      title: ImageNet&colon; A Large-Scale Hierarchical Image Database
+      authors: Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li and Li Fei-Fei
+      url: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5206848
+    -
+      title: notes for Stanford's CS231n course "Convolutional Neural Networks for Visual Recognition"
+      authors: Stanford University instructors
+      url: http://cs231n.github.io
+-
+  date: 2019-02-19
+  slides: slides/taxonomy-of-human-computation.pdf
+  title: Taxonomy of crowdsourcing and human computation 
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=94f16286-d7cb-4492-9f8a-a9d80153367f
+  readings:
+    -
+      title:  Human Computation&#58; A Survey and Taxonomy of a Growing Field
+      authors: Alex Quinn and Ben Bederson
+      url: readings/downloads/intro/QuinnAndBederson.pdf
+    -
+      authors: Panos Ipeirotis
+      title:  Worker Evaluation in Crowdsourcing&#58; Gold Data or Multiple Workers?
+      url: http://www.behind-the-enemy-lines.com/2010/09/worker-evaluation-in-crowdsourcing-gold.html
+-
+  date: 2019-02-21
+  slides: slides/programming-the-crowd.pdf
+  title: Programming concepts for human computation
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=bacb8584-46c4-40f9-88e4-a9d8015336a4
+  readings:
+    -
+      authors: Greg Little, Lydia B. Chilton, Max Goldman, and Robert C. Miller
+      title:  TurKit&#58; Human Computation Algorithms on Mechanical Turk
+      url: readings/downloads/programming/Turkit.pdf
+-
+  date: 2019-02-22
+  slides: 
+  title: Drop Deadline
+  type: no_lecture
+-
+  date: 2019-02-26
+  slides: slides/iterative-and-parallel-processing.pdf
+  title: Iterative and Parallel Processing
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c628af15-49e9-4bd7-bcaa-a9d8015336d8
+  readings:
+    -
+      authors: Greg Little, Lydia B. Chilton, Max Goldman, and Robert C. Miller
+      title:  Exploring Iterative and Parallel Human Computation Processes
+      url: readings/downloads/programming/iterative-and-parallel-processing-in-hcomp.pdf
+-
+  date: 2019-02-28
+  slides: slides/quality-control-1.pdf
+  title: Quality Control part 1
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=855a8baa-04b2-45d0-8b31-a9d80153371e
+  readings:
+    -
+      authors: Luis von Ahn and Laura Dabbish
+      title:  Labeling Images with a Computer Game
+      url: readings/downloads/gwap/ESP.pdf
+    -
+      authors: Rion Snow, Brendan O’Connor, Daniel Jurafsky and Andrew Ng
+      title:  Cheap and Fast — But is it Good? Evaluating Non-Expert Annotations for Natural Language Tasks
+      url: readings/downloads/nlp/evaluating-non-expert-annotations-for-nlp.pdf
+    -
+      authors: Winter Mason and Duncan Watts
+      title:  Financial Incentives and the Performance of Crowds
+      url: readings/downloads/econ/financial-incentives-and-the-performance-of-crowds.pdf
+-
+  date: 2019-03-05
+  slides: 
+  title: No Lecture - Spring Break
+  type: no_lecture
+-
+  date: 2019-03-07
+  slides: 
+  title: No Lecture - Spring Break
+  type: no_lecture
+-
+  date: 2019-03-12
+  slides: slides/quality-control-2.pdf
+  title: Quality Control part 2
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c074836d-4ade-484e-a74f-a9d8015337cc
+  readings:
+    -
+      authors: Anindya Ghose, Panos Ipeirotis, and Arun Sundararajan
+      title:  Opinion Mining Using Econometrics&#58; A Case Study on Reputation Systems
+      url: readings/downloads/nlp/opinion-mining-using-econometrics.pdf
+    -
+      authors: Kazushi Ikeda and Michael Bernstein
+      title:  Pay It Backward&colon; Per-Task Payments on Crowdsourcing Platforms Reduce Productivity
+      url: readings/downloads/econ/per-task-payments-on-crowdsourcing-platforms-reduce-productivity.pdf
+-
+  date: 2019-03-14
+  slides: 
+  title: Extracting More Wisdom from the Crowd 
+  slides_credit: John McCoy
+  speaker: John McCoy
+  speaker_url: http://jpmccoy.com
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=15fd6ada-cfa1-437f-a174-a9d8015337f6
+  abstract: In many situations, from economists predicting unemployment rates to chemists estimating fuel safety, individuals have differing opinions or predictions. We consider the wisdom-of-the-crowd problem of aggregating the judgments of multiple individuals on a single question, when no outside information about their competence is available. Many standard methods select the most popular answer, after correcting for variations in confidence. Using a formal model, we prove that any such method can fail even if based on perfect Bayesian estimates of individual confidence, or, more generally, on Bayesian posterior probabilities. Our model suggests a new method for aggregating opinions&colon; select the answer that is more popular than people predict. We show that our new method outperforms majority and confidence-weighted voting in a range of domains including geography and trivia questions, laypeople and professionals judging art prices, and dermatologists evaluating skin lesions.
+  bio: John McCoy is an Assistant Professor of Marketing at the Wharton School. As a computational cognitive scientist, his research deals with the processes underlying human judgment and decision making, and applying our knowledge of such processes to problems in marketing. Methodologically, he uses a combination of behavioral experiments and computational modeling, drawing on ideas and techniques from psychology, economics, marketing, Bayesian statistics, and computer science. Much of his current work focuses on better ways to aggregate judgments from multiple individuals, including in situations where the majority may be wrong and the truth may be unverifiable. Prior to Wharton, he was a PhD student in the Brain and Cognitive Sciences Department at MIT. Popular accounts of his work have appeared in places like the Wall Street Journal, NPR, and the New Yorker.
+  readings: 
+    -
+      authors: Dražen Prelec, H. Sebastian Seung, and John McCoy
+      title:  A Solution to the Single-Question Crowd Wisdom Problem
+      url: https://www.nature.com/articles/nature21054
+-
+  date: 2019-03-19
+  slides: slides/crowdsourcing-and-HCI.pdf
+  title: Crowdsourcing and human computer interaction (HCI) design
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=134eb493-3269-4970-ae50-a9d801533820
+  readings:
+    -
+      authors: Michael Bernstein, Greg Little, Rob Miller, Björn Hartmann, Mark Ackerman, David Karger, David Crowell, and Katrina Panovich
+      title:  Soylent&#58; A Word Processor with a Crowd Inside
+      url: readings/downloads/hci/Soylent.pdf
+    -
+      authors: Jeff Bigham
+      title: Real-Time Crowd Support for People with Disabilities (video)
+      url: https://www.youtube.com/watch?v=oUebwz1QqOo
+-
+  date: 2019-03-21
+  slides: slides/crowdsourcing-and-HCI-privacy-and-latency.pdf
+  title: Crowdsourcing and HCI part 2
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3c249ddd-97fa-4c32-bc44-a9d80153384b
+  readings:
+    -
+      authors: Michael Bernstein, Joel Brandt, Rob Miller, and David Karger
+      title:  Crowds in Two Seconds&#58; Enabling Realtime Crowd-Powered Interfaces
+      url: readings/downloads/hci/adrenaline.pdf
+    -
+      authors: Nicolas Kokkalis, Thomas Köhn, Carl Pfeiffer, Dima Chornyi, Michael Bernstein, and Scott Klemmer
+      title:  EmailValet&#58; Managing Email Overload through Private, Accountable Crowdsourcing
+      url: readings/downloads/hci/EmailValet.pdf
+-
+  date: 2019-03-26
+  slides: slides/guest_lecture_crowd_powered_conversational_agents.pdf
+  title: guest lecture on Crowd-Powered Conversational Assistants
+  speaker: Ting-Hao (Kenneth) Huang
+  speaker_url: https://crowd.ist.psu.edu
+  slides_credit: Ting-Hao (Kenneth) Huang
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0b44a80b-f372-4fd6-b5ad-a9d80153387f
+  readings: 
+    -
+      authors: Ting-Hao K. Huang, Joseph Chee Chang, Jeffrey P. Bigham
+      title: Evorus&colon; A Crowd-Powered Conversational Assistant Built to Automate Itself Over Time
+      url: readings/downloads/hci/evorus.pdf
+    -
+      authors: Ting-Hao K. Huang, Walter S. Lasecki, Amos Azaria, Jeffrey P. Bigham
+      title: Is there anything else I can help you with? Challenges in Deploying an On-Demand Crowd-Powered Conversational Agent
+      url: readings/downloads/hci/challenges-of-crowd-powered-agents.pdf
+    -  
+      authors: Gimlet Media 
+      title: Sandra (a sci-fi thriller podcast about crowd-powered conversational agents)
+      url: https://www.gimletmedia.com/sandra
+-
+  date: 2019-03-28
+  slides: 
+  title: in-class feedback on term project milestone 1
+  slides_credit: 
+  readings: 
+  type: no_lecture
+-
+  date: 2019-04-02
+  slides: 
+  title: Augmenting Human Work and Learning
+  speaker: Jonathan Bragg
+  speaker_url: https://cs.stanford.edu/~jbragg/
+  slides_credit: Jonathan Bragg
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d4bd0618-b5cd-4b6e-9584-a9d8015338d8
+  readings: 
+    -
+      authors: Jonathan Bragg, Mausam, Daniel S. Weld
+      title: Sprout&colon; Crowd-Powered Task Design for Crowdsourcing
+      url: https://www.jonathanbragg.com/files/bragg-uist18.pdf
+    -
+      authors: Meng-Han Wu, Alexander J. Quinn
+      title: Confusing the Crowd&colon; Task Instruction Quality on Amazon Mechanical Turk
+      url: https://aaai.org/ocs/index.php/HCOMP/HCOMP17/paper/viewFile/15943/15278
+    -
+      authors: Jonathan Bragg, Mausam, Daniel S. Weld
+      title: Crowdsourcing Multi-Label Classification for Taxonomy Creation
+      url: https://cs.stanford.edu/~jbragg/files/bragg-hcomp13.pdf
+    -
+      authors: Daniel S. Weld, Mausam, Christopher H. Lin, Jonathan Bragg
+      title: Artificial Intelligence and Collective Intelligence
+      url: https://homes.cs.washington.edu/~weld/papers/ci-chapter2014.pdf
+-
+  date: 2019-04-04
+  title: Crowdsourcing Translation
+  slides: slides/crowdsourcing-translation.pdf
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ab4f8ac0-b2d3-4f19-abfe-a9d801533910
+  readings:
+    -
+      authors: Omar Zaidan and Chris Callison-Burch
+      title:  Crowdsourcing Translation&#58; Professional Quality from Non-Professionals
+      url: http://www.cis.upenn.edu/~ccb/publications/crowdsourcing-translation.pdf
+    -
+      authors: Ellie Pavlick, Matt Post, Ann Irvine, Dmitry Kachaev, and Chris Callison-Burch
+      title:  The Language Demographics of Amazon Mechanical Turk
+      url: http://www.cis.upenn.edu/~ccb/publications/language-demographics-of-mechanical-turk.pdf
+    -
+      title:  Machine Translation of Arabic Dialects
+      authors: Rabih Zbib, Erika Malchiodi, Jacob Devlin, David Stallard, Spyros Matsoukas, Richard Schwartz, John Makhoul, Omar F. Zaidan, and Chris Callison-Burch
+      url: http://www.cis.upenn.edu/~ccb/publications/machine-translation-of-arabic-dialects.pdf
+-
+  date: 2019-04-05
+  slides: 
+  title: Withdraw Deadline
+  type: no_lecture
+-
+  date: 2019-04-09
+  slides: 
+  title: Crowdsourcing for low resource langauges
+  speaker: Stephen Mayhew
+  speaker_url: https://mayhewsw.github.io
+  slides_credit: Stephen Mayhew
+  readings: 
+    -
+      authors: Stephen Mayhew and Dan Roth
+      title:  TALEN&colon; Tool for Annotating Low-resource ENtities
+      url: http://cogcomp.org/papers/MayhewRo18.pdf
+-
+  date: 2019-04-09
+  title: Crowdsourcing for Automatic Speech Recognition
+  slides: http://crowdsourcing-class.org/slides/crowdsourcing-speech-recognition.pdf
+  slides_credit: Scott Novotney
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=81c9310e-f41b-4d16-a74c-a9d80153393b
+  readings:
+    -
+      authors: Scott Novotney and Chris Callison-Burch
+      title:  Cheap, Fast and Good Enough&#58; Automatic Speech Recognition with Non-Expert Transcription
+      url: http://www.cis.upenn.edu/~ccb/publications/automatic-speech-recognition-with-non-expert-transcription.pdf
+    -
+      authors: Maxine Eskénazi and others
+      title:  Crowdsourcing for Speech Processing&#58; Applications to Data Collection, Transcription and Assessment
+      url: http://www.amazon.com/Crowdsourcing-Speech-Processing-Applications-Transcription/dp/1118358694/
+    -
+      authors: Eric Fosler-Lussier
+      title: (Video) Introduction to Automatic Speech Recognition
+      url: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fa506105-c37a-46da-97d7-a9d6000a4d96
+    -
+      authors: Preethi Jyothi and Mark Hasegawa-Johnson
+      title: Acquiring speech transcriptions using mismatched crowdsourcing
+      url: http://www.isle.illinois.edu/sst/pubs/2014/jyothi14aaai.pdf
+    -
+      authors: Preethi Jyothi and Mark Hasegawa-Johnson
+      title: Dataset&colon; SBS Audio with Matched and Mismatched Transcripts
+      url: http://isle.illinois.edu/sst/data/sbs_transcripts/index.html
+    - 
+      authors: Mozilla
+      title: Common Voice (crowdsourced )
+      url: https://voice.mozilla.org/en
+-
+  date: 2019-04-11
+  slides: slides/expert-crowds.pdf
+  title: Expert Crowds
+  slides_credit: Maria Christoforaki, Panos Ipeirotis, and Evgeniy Gabrilovich
+  slides: slides/expert-crowds.pdf
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ac51c2bc-24da-4dfc-ae00-a9d80153396c
+  readings:
+    -
+      authors: Panos Ipeirotis and Evgeniy Gabrilovich
+      title:  Quizz&#58; Targeted Crowdsourcing with a Billion (Potential) Users
+      url: http://www.ipeirotis.com/wp-content/uploads/2014/01/fp267-ipeirotis.pdf
+    -
+      authors: Maria Christoforaki and Panos Ipeirotis
+      title:  STEP&#58; A Scalable Testing and Evaluation Platform
+      url: http://www.ipeirotis.com/wp-content/uploads/2014/11/STEP_A_Scalable_Testing_and_Evaluation_Platform.pdf
+    -
+      authors: Wikipedia
+      title:  Item response theory
+      url: https://en.wikipedia.org/wiki/Item_response_theory
+-
+  date: 2019-04-16
+  slides: 
+  title: Understanding Human Happiness
+  speaker: Matt Killingsworth
+  speaker_url: https://www.trackyourhappiness.org
+  slides_credit: Matt Killingsworth
+  readings:
+    -
+      authors: Matt Killingsworth
+      title: trackyourhappiness.org
+      url: https://www.trackyourhappiness.org
+-
+  date: 2019-04-18
+  slides: slides/speed-dating-okcupid.pdf
+  title: What data can tell us about sex and relationships
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2e1392b8-bf1e-458a-a3d6-a9d8015339c5
+  readings:
+    -
+      authors: Rajesh Ranganath, Dan Jurafsky, and Dan McFarland
+      title: Detecting Flirting and its Misperception in Speed-Dates
+      url: http://nlp.stanford.edu/pubs/rajesh09.pdf
+    -
+      authors: Christian Rudder 
+      title: Dataclysm&colon; Who We Are (When We Think No One's Looking) 
+      url: http://www.amazon.com/Dataclysm-When-Think-Ones-Looking/dp/0385347375
+    -
+      authors: Christian Rudder - OKCupid
+      title:  OKCupid's blog 
+      url: http://blog.okcupid.com/
+-
+  date: 2019-04-23
+  slides: slides/prediction-markets.pdf
+  title: Prediction Markets
+  slides_credit: Ellie Pavlick
+  readings: 
+    -
+      authors: Prediction Markets
+      title: Justin Wolfers and Eric Zitzewitz
+      url: http://www.nber.org/papers/w10504.pdf
+    -
+      authors: Using Prediction Markets to Track Information Flows&colon; Evidence from Google
+      title: Bo Cowgill, Justin Wolfers and Eric Zitzewitz
+      url: http://www.eecs.harvard.edu/cs286r/courses/fall10/papers/GooglePredictionMarketPaper.pdf
+-
+  date: 2019-04-25
+  slides:
+  title: Ghost Work
+  speaker: Mary L. Gray 
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c0b7f53a-d57f-4b06-9fd7-a9d801533a1e
+  readings:
+    -
+      authors: Mary L. Gray and Siddarth Suri
+      title: Ghost Work&colon; How to Stop Silicon Valley from Building a New Global Underclass
+      url: https://www.amazon.com/Ghost-Work-Silicon-Building-Underclass/dp/1328566242/
+-
+  date: 2019-04-25
+  slides:
+  title: Online Care Markets&colon; The "Gig" Economy's Missing Women
+  speaker: Julia Ticona
+  slides_credit: Julia Ticona
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c0b7f53a-d57f-4b06-9fd7-a9d801533a1e
+  readings:
+    -
+      authors: Julia Ticona, Alexandra Mateescu, Alex Rosenblat
+      title: Beyond Disruption&colon; How Tech Shapes Labor Across Domestic Work & Ridehailing
+      url: https://datasociety.net/output/beyond-disruption/
+    -
+      authors: Julia Ticona and Alexandra Mateescu
+      title: How Domestic Workers Wager Safety In The Platform Economy
+      url: https://www.fastcompany.com/40541050/how-domestic-workers-wager-safety-in-the-platform-economy
+    -
+      authors: Alex Rosenblat
+      title: There’s an App for Wrecking Nannies’ Lives
+      url: https://www.nytimes.com/2018/07/12/opinion/gig-economy-domestic-workers-uber.html
+    -
+      authors: Julia Ticona and Alexandra Mateescu
+      title: Trusted strangers&colon; Carework platforms’ cultural entrepreneurship in the on-demand economy
+      url: https://journals.sagepub.com/doi/full/10.1177/1461444818773727
+-
+  date: 2019-04-30
+  slides: slides/wrap-up.pdf
+  title: Course Wrapup
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d5011968-4e73-4ae7-8da0-a9d801533a48
+  readings:
+-
+  date: 2019-05-08
+  slides: 
+  readings: 
+  title: Final presentations during final exam slot - Wednesday, May 8, 2019 from 12:00 - 02:00 in LEVH 101
+  slides_credit: 
+  readings: 
