@@ -2,7 +2,7 @@
   date: 2021-01-21
   slides: slides/class-intro.pdf
   title: Intro Lecture
-  recording: 
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=00ba11e5-aa37-4880-b712-acb70167162b
   readings:
     -
       title: The Wisdom of Crowds&colon; Introduction
@@ -17,3 +17,37 @@
       authors: International Labour Oranization
       url: https://www.ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/---publ/documents/publication/wcms_645337.pdf
       local_url: http://crowdsourcing-class.org/readings/digital-labour-platforms-and-the-future-of-work-ILO-report.pdf
+-
+  date: 2021-01-29
+  slides: slides/crowd-workers.pdf
+  title: Crowd Workers
+  recording: 
+  readings:
+    -
+      authors: Jeff Bigham
+      title:  My MTurk (half) Workday
+      url: http://www.cs.cmu.edu/~jbigham/posts/2014/half-workday-as-turker.html
+    -
+      authors: Lilly Irani and Six Silberman
+      title: Turkopticon&colon; Interrupting Worker Invisibility in Amazon Mechanical Turk
+      url: http://crowdsourcing-class.org/readings/downloads/ethics/turkopticon.pdf
+    -
+      authors: Chris Callison-Burch
+      title: Crowd-Workers&colon; Aggregating Information Across Turkers To Help Them Find Higher Paying Work
+      url: http://crowdsourcing-class.org/readings/downloads/ethics/crowd-workers.pdf
+    -
+      authors: Ben Bederson and Alex Quinn
+      title: Web Workers, Unite! Addressing Challenges of Online Laborers
+      url: http://crowdsourcing-class.org/readings/downloads/ethics/web-workers-unite.pdf 
+    -
+      authors: David Martin, Benjamin Hanrahan, Jacki O’Neill and Neha Gupta
+      title: Being A Turker
+      url: http://crowdsourcing-class.org/readings/downloads/ethics/being-a-turker.pdf
+    -
+      authors: Neha Gupta, David Martin, Benjamin Hanrahan, and Jacki O’Neill 
+      title: Turk-Life in India
+      url: http://crowdsourcing-class.org/readings/downloads/econ/turk-life-in-india.pdf
+    -
+      authors: Karen Fort, Gilles Adda and Bretonnel Cohen 
+      title: Amazon Mechanical Turk&#58; Gold Mine or Coal Mine?
+      url: http://crowdsourcing-class.org/readings/downloads/ethics/gold-mine-or-coal-mine.pdf
