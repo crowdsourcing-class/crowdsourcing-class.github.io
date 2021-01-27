@@ -21,7 +21,7 @@
   date: 2021-01-26
   slides: slides/crowd-workers.pdf
   title: Crowd Workers
-  recording: 
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3ecd4c35-aa40-47fb-8ed1-acbc016c9104
   readings:
     -
       authors: Jeff Bigham
@@ -79,12 +79,14 @@
   readings:
 -
   date: 2021-02-09
-  type: no_lecture
-  title: No class (Spring Break)
+  slides: 
+  title: 
+  recording: 
+  readings:
 -
   date: 2021-02-11
   slides: 
-  title: 
+  title: guest speakers Karen Fort and Christopher Cieri  
   recording: 
   readings:
 -
@@ -130,10 +132,8 @@
   readings:
 -
   date: 2021-03-09
-  slides: 
-  title: 
-  recording: 
-  readings:
+  type: no_lecture
+  title: No class (Spring Break)
 -
   date: 2021-03-11
   slides: 
