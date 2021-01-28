@@ -81,10 +81,28 @@
       url: http://crowdsourcing-class.org/readings/downloads/econ/turk-life-in-india.pdf
 -
   date: 2021-02-04
-  slides: 
-  title: 
+  slides: slides/amazon-mechanical-turk.pdf
+  title: The Amazon Mechanical Turk crowdsourcing platform 
   recording: 
   readings:
+    -
+      authors: Jeff Barr and Luis Felipe Cabrera
+      title:  AI Gets a Brain
+      url: http://crowdsourcing-class.org/readings/downloads/platform/ai-gets-a-brain.pdf
+    -
+      authors: Gabriele Paolacci, Jesse Chandler and Panos Ipeirotis
+      title:  Running experiments on Amazon Mechanical Turk
+      url: http://crowdsourcing-class.org/readings/downloads/platform/running-experiments-on-mturk.pdf
+    -
+      title:  Amazon Mechanical Turk
+      url: https://www.mturk.com
+    -
+      title:  Mechanical Turk blog
+      url: https://blog.mturk.com
+    -
+      title: Fast, Cheap and Creative&colon;  Evaluating Translation Quality Using Amazon's Mechanical Turk
+      authors: Chris Callison-Burch
+      url: https://www.cis.upenn.edu/~ccb/publications.html
 -
   date: 2021-02-09
   slides: 
