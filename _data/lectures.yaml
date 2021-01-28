@@ -68,9 +68,17 @@
 -
   date: 2021-02-02
   slides: 
-  title: 
+  title: guest talk by Ben Hanrahan
   recording: 
   readings:
+    -
+      authors: David Martin, Benjamin Hanrahan, Jacki O’Neill and Neha Gupta
+      title: Being A Turker
+      url: http://crowdsourcing-class.org/readings/downloads/ethics/being-a-turker.pdf
+    -
+      authors: Neha Gupta, David Martin, Benjamin Hanrahan, and Jacki O’Neill 
+      title: Turk-Life in India
+      url: http://crowdsourcing-class.org/readings/downloads/econ/turk-life-in-india.pdf
 -
   date: 2021-02-04
   slides: 
