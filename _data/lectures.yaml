@@ -57,32 +57,8 @@
       url: http://crowdsourcing-class.org/readings/downloads/ethics/gold-mine-or-coal-mine.pdf
 -
   date: 2021-01-28
-  slides: 
-  title: 
-  recording: 
-  readings:
--
-  date: 2021-02-02
-  type: no_lecture
-  title: Course Selection Period ends
--
-  date: 2021-02-02
-  slides: 
-  title: guest talk by Ben Hanrahan
-  recording: 
-  readings:
-    -
-      authors: David Martin, Benjamin Hanrahan, Jacki O’Neill and Neha Gupta
-      title: Being A Turker
-      url: http://crowdsourcing-class.org/readings/downloads/ethics/being-a-turker.pdf
-    -
-      authors: Neha Gupta, David Martin, Benjamin Hanrahan, and Jacki O’Neill 
-      title: Turk-Life in India
-      url: http://crowdsourcing-class.org/readings/downloads/econ/turk-life-in-india.pdf
--
-  date: 2021-02-04
-  slides: slides/amazon-mechanical-turk.pdf
   title: The Amazon Mechanical Turk crowdsourcing platform 
+  slides: slides/amazon-mechanical-turk.pdf
   recording: 
   readings:
     -
@@ -103,6 +79,31 @@
       title: Fast, Cheap and Creative&colon;  Evaluating Translation Quality Using Amazon's Mechanical Turk
       authors: Chris Callison-Burch
       url: https://www.cis.upenn.edu/~ccb/publications.html
+-
+  date: 2021-02-02
+  type: no_lecture
+  title: Course Selection Period ends
+-
+  date: 2021-02-02
+  slides: 
+  title: guest talk by Ben Hanrahan
+  recording: 
+  readings:
+    -
+      authors: David Martin, Benjamin Hanrahan, Jacki O’Neill and Neha Gupta
+      title: Being A Turker
+      url: http://crowdsourcing-class.org/readings/downloads/ethics/being-a-turker.pdf
+    -
+      authors: Neha Gupta, David Martin, Benjamin Hanrahan, and Jacki O’Neill 
+      title: Turk-Life in India
+      url: http://crowdsourcing-class.org/readings/downloads/econ/turk-life-in-india.pdf
+-
+  date: 2021-02-04
+  slides: 
+  title: 
+  recording: 
+  readings:
+
 -
   date: 2021-02-09
   slides: 
