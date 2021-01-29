@@ -4,9 +4,9 @@ img: raised-fist
 caption: Workers of the world, unite!
 title: Homework 1 "Become a Crowd Worker"
 active_tab: homework
-release_date: 2019-01-22
-due_date: 2019-01-29T23:59:00EST
-submission_link: https://www.gradescope.com/courses/36538
+release_date: 2021-01-28
+due_date: 2021-02-04T23:59:00EST
+submission_link: https://www.gradescope.com/courses/233619
 ---
 
 <!-- Check whether the assignment is up to date -->
@@ -27,124 +27,155 @@ This assignment is due before {{ page.due_date | date: "%I:%M%p" }} on {{ page.d
 Become a Crowd Worker <span class="text-muted">: Assignment 1</span> 
 =============================================================
 
-The point of the first assignment is to get to acquainted with Mechanical Turk from the worker's perspective. The crowdsourcing platform allows us, the programmers, to work with humans as though they are function calls (fulfilling every antisocial CS student's dreams). Since, for the rest of the semester, you will be relying on crowd workers to complete work for you quickly and accurately, you should take this first assignment as an opportunity to understand your workers and the ways you can help them work best for you. Pay attention to what makes tasks interesting and attractive, how much each task pays, and whether you think the compensation is fair. We will ask you to turn in a short writeup describing your experience.
-
-You should be excited about this assignment! You may actually get *paid* to do it! For my 50 HITs, I made a full $1.14. Only 438 more HITs to go before I can go downstairs and buy lunch at the Franklin Table food court. So go! Have fun!
-
-In this assignment you’ll choose at least 50 HITs to complete.  We’re going to do an experiment to compare how much money you make under two conditions.  The first condition is using the MTurk interface, and the second condition is using a productivity tool that your instructor has built, called [Crowd Workers](http://crowd-workers.com/landing). 
-
-1. Sign up for MTurk as a worker [here](https://www.mturk.com/mturk/welcome).  Please do this as early as possible, since it can take 48 hours or more to have your account approved.  Foreign students may have problems signing up since Amazon now requires a Social Security Number. Problems have also arisen when students attempt to set up an Amazon Payments account, which is required by MTurk (this problem can sometimes be resolved by faxing a government ID). <a href = "#faq"> *If you are not able to create an account, follow the instructions in the FAQ section to create a MTurk Sandbox account.* </a>
-2. Install the [Crowd Workers](http://crowd-workers.com/landing) Google Chrome extension. This will track and help you to analyze the work that you’ve done. Please use the Google Chrome web browser with the Crowd Workers plugin installed for all of this homework assignment. *This is not required if you are using Sandbox version and do not have access to Crowd Workers.* *If you're using the regular mechanical turk version, please see the <a href = "#faq">FAQ section</a> below to use the Greasy Fork extension as an alternative.*
-3. Next, choose at least 50 HITs to complete.  You should pick a goal for yourself.  You can try to make as much money as you can, or you try to make the highest hourly rate that you can. 
-  * For the first 25 HITs that you do, use the [search tools provided by Mechanical Turk](https://worker.mturk.com/projects).
-     Try to get a sense of the variety of tasks that are available, and the kinds of projects for which Mturk is being used. Once you sign up, you will see that you *can* complete this assignment by transcribing 50 receipts, but is it really worth it? 
-  * You may notice that some tasks have pretty strict qualifications. Some of them are based on your amount of tasks completed or your task approval rate. You can see your qualifications [here](https://worker.mturk.com/qualifications/assigned).
-  * For your second 25 HITs, use the search tools provided on the [Crowd Workers web service](http://crowd-workers.com/new_work?ordering=-last_submitted,-available&only_favourites=false&min_available=1). *You are not required to use Crowd Workers if you are using Sandbox version and do not have access to Crowd Workers. If Crowd Workers isn't providing you search results, then you may continue using Mechanical Turk's search tools for the second 25 tasks.*
-4. There are several tools for better Turking. Please explore a few of these and give us your thoughts.
-  * [TurkerView](https://turkerview.com)
-  * [HITs worth Turking for](http://www.reddit.com/r/HITsWorthTurkingFor/new/?sort=new) 
-  * [MTurk Crowd](http://www.mturkcrowd.com)
-5. After you have finished working, please answer the following questions about your experience and turn in your answers using [the Homework 1 survey on Gradescope]({{page.submission_link}}). 
-
-**Note:** The Crowd Workers extension you tried is like totally the next big thing in crowdsourcing. It started with humble beginnings, being run out of the coffee-cup strewn office of a mere tenure-track professor at an Ivy League university. Help it gain some credibility by leaving a review of it in the [Google Chrome store](https://chrome.google.com/webstore/detail/crowdworkers/aamdbafophajiecmhbnbakndfgjkfpce/reviews).
-
-### Suggested Readings
-
-* [My MTurk (half) Workday](http://www.cs.cmu.edu/~jbigham/posts/2014/half-workday-as-turker.html) by Jeff Bigham
-* [Being A Turker](readings/downloads/ethics/being-a-turker.pdf) by David Martin, Benjamin Hanrahan, Jacki O’Neill and Neha Gupta
-* [Turkopticon: Interrupting Worker Invisibility in Amazon Mechanical Turk](readings/downloads/ethics/turkopticon.pdf) by Lilly Irani and Six Silberman
-* [Crowd-Workers: Aggregating Information Across Turkers To Help Them Find Higher Paying Work](readings/downloads/ethics/crowd-workers.pdf) by Chris Callison-Burch
-* [Web Workers, Unite! Addressing Challenges of Online Laborers](readings/downloads/ethics/web-workers-unite.pdf) by Ben Bederson and Alex Quinn
-* [A Data-Driven Analysis of Workers’ Earnings on
-  Amazon Mechanical Turk](https://www.cs.cmu.edu/~jbigham/pubs/pdfs/2018/crowd-earnings.pdf) by Kotaro Hara, Abigail Adams, Kristy Milland, Saiph Savage, Chris Callison-Burch, and Jeffrey P. Bigham
-
-  
-
-<div class="panel panel-info" id="faq">
-<div class="panel-heading" markdown="1">
-#### FAQ
-</div>
-<div class="panel-body" markdown="1">
-- **What should I do if Amazon rejects my application to be a Mechanical Turk worker (or rejects my Amazon Payments account, which has the same effect)?**
-
-	If you cannot create a Mechanical Turk worker account, [create a Mechanical Turk Sandbox account](<https://workersandbox.mturk.com/>). 
-	
-	Mechanical Turk's “Sandbox” version is a test version of the Mechanical Turk marketplace. Requesters use it to test out tasks before publishing them. These tasks, despite showing a reward on the site, do not pay any money. Anyone who has an Amazon account can create a Sandbox account, and no SSN information is required.
-	
-	The Crowd Workers extension doesn't work with the workersandbox, so please put  N/A in your survey answers for questions involving Crowd Workers if you do not have access to it.
-
-- **What should I do if Crowdworkers isn't showing information for my completed tasks?**
-
-  An alternative to Crowdworkers is Greasy Fork, which can help get information on your overall hourly wage as well as different requesters' hourly wages. Here are [instructions](https://greasyfork.org/en/help/installing-user-scripts) on how to get a web extension for your browser to load the Greasy Fork script, and here's a [link](https://greasyfork.org/en/scripts/31108-mturk-hourly) to download the script. Once you have the script loaded, you should be able to see hourly wage information on your mechanical turk [dashboard](https://worker.mturk.com/dashboard) page. On the dashboard, click on a given date, and you should be able to see the HIT(s) that you did, what their rewards were, and what their hourly wages are. 
-
-- **After loading Greasy Fork, why are all the hourly wages on the MTurk dashboard listed as N/A?**
-
-  Greasy Fork does not track previous tasks. It will give an associated hourly wage to the tasks you complete after enabling the feature.
-
-</div>
-</div>
-
-<div class="panel panel-primary" id="survey">
-<div class="panel-heading" markdown="1">
-#### Survey Questions
-</div>
-<div class="panel-body" markdown="1">
-Below are the questions that you will be asked to answer about your experience as a Crowd Worker.  Please turn in your answers using [the Homework 1 survey on Gradescope]({{page.submission_link}}).
-
-It is a good idea to write your answers in a file on you own computer, instead of typing them directly into Gradescope, so that you'll have a copy after you press the submit button. 
-
-**Note:** Please put N/A in your survey answer for questions involving Crowd Workers if you do not have access to it.
-
-1. Did you successfully sign up as a Worker? 
-2. If you were unable to sign up as a worker, please give an explanation.
-3. Did you successfully sign up for a requester account? 
-4. If you were unable to sign up as a requester, please give an explanation.
-5. What is your Worker ID? If you signed up for Mechanical Turk or Mechanical Turk Sandbox, you can look up this information on your Dashboard (<https://www.mturk.com/mturk/dashboard> or <https://workersandbox.mturk.com/dashboard>) or on Crowd Workers (<http://crowd-workers.com/analytics>).
-6. How many assignments did you complete? You can look up this information on your Dashboard (<https://www.mturk.com/mturk/dashboard> or <https://workersandbox.mturk.com/dashboard>) or on Crowd Workers (<http://crowd-workers.com/analytics>).
-7. What was your goal when you were working? 
-* Make as much money as possible 
-* Get a high hourly wage 
-* Get through the 50 assignments as quickly as possible 
-* Other
-8. How much money did you make?
-9. How much time did you spend working?
-10. Do you think you could make a reasonable wage if Mechanical Turk was your sole source of income? 
-* Yes 
-* No
-11. Did any of your HITs get rejected? You can find out on your Dashboard (<https://www.mturk.com/mturk/dashboard> or <https://workersandbox.mturk.com/dashboard>).
-* Yes 
-* No
-12. If you did have a HIT rejected, what reason did the Requester give?
-13. What types of tasks did you do, and how did you pick them?
-14. What was the highest paying HIT that you completed?  Find it on Crowd Workers [here](http://crowd-workers.com/analytics?ordering=-reward) and then click on the HIT title, and copy-and-paste a link to the HIT group. You can also go through your HITs on the Dashboard to see which one is highest paying.
-15. What HIT paid you the highest hourly rate? Sort by "My hourly rate" on Crowd Workers [here](http://crowd-workers.com/analytics) and then click on the HIT title, and copy-and-paste a link to the HITgroup. Please follow the instructions in the FAQ to find this HIT if you used Greasy Fork.
-16. Describe the most interesting or weirdest or most fun HIT that you found.  Write a couple of sentences describing it.
-17. Which do you think provides a better way of discovering work? What is the reason? If other, please specify.
-* Crowd Workers 
-* Mechanical Turk 
-* Other
-18. Would you recommend Crowd Workers to other Turkers? 
-* Yes 
-* No
-19. What would you do to improve the Crowd Worker site to make it easier for users to find higher paying work? If Crowd Workers didn't work for you, what feature would you add to Mechanical Turk to make it easier for workers to find higher paying tasks?
-20. Did you check out any of the other Turker productivity sites or try any productivity plugins? 
-* HITS worth Turking for 
-* MTurk Crowd
-21. What did you think of the other productivity tools?
-22. Did you Leave a review for Crowd Workers on Google Chrome store? 
-23. What did your review say? 
-24. If you prefer to give constructive criticism instead of a review, what changes would help improve the Crowd Workers plugin? Were there any bugs you noticed? What was difficult or unintuitive to use? What features would you like to see added?
-</div>
-</div>
+The point of the first assignment is to get a the worker's perspective. Crowdsourcing platforms like Mechanical Turk allow us, the programmers, to work with humans as though they are function calls (fulfilling every antisocial CS student's dreams). Since, for the rest of the semester, you will be relying on crowd workers to complete work for you quickly and accurately, you should take this first assignment as an opportunity to understand your workers and the ways you can help them work best for you. Pay attention to what makes tasks interesting and attractive, how much each task pays or what non-financial incetives are effective, and whether you think the compensation is fair. 
 
 
-<div class="panel panel-danger" id="rubric">
-<div class="panel-heading" markdown="1">
-#### Grading Rubric
-</div>
+We will ask you to turn in a short writeup describing your experience.  As inspiration for your writeup, you should read this essay by Jeff Bigham called ["My MTurk (half) Workday"](http://www.cs.cmu.edu/~jbigham/posts/2014/half-workday-as-turker.html).  
 
-<div class="panel-body" markdown="1">
-This assignment is worth approximately 5% of your overall grade in the course. Please answer the survey questions thoughtfully.
-</div>
-</div>
 
+In this assignment you should try to do work on *two* crowd platforms from this list:
+* Mechanical Turk
+* Zooniverse
+* Google Crowdsource
+* Figure 8
+* Upwork
+* Datasaur
+
+You should spend 2-3 hours per platform.    If you work with a partner, you should Zoom together and do the tasks together (rather than divvying up the work). 
+
+You should write up your experience working on the two platforms.  Your writeup should be 2000 words long. You can take screenshots of the tasks that you do to include in your writeup. For each of the platforms, we give some suggested questions to answer in your writeup.  You can submit a PDF of your writeup to [Gradescope]({{page.submission_link}}).
+
+
+
+
+## Mechanical Turk
+*Overview:*.  Mechanical Turk is a crowdsourcing website Requesters to hire crowdworkers to perform microtasks in return for micropayments. It is operated under Amazon Web Services, and is owned by Amazon. Employers post jobs known as Human Intelligence Tasks (HITs), named since MTurk was designed for tasks that are easy for people, but that computers are currently unable to do. HITs can be tasks like as identifying content in an image, writing product descriptions, or answering questions. Workers, also known as Turkers or crowdworkers, browse among existing jobs and complete them in exchange for a rate set by the employer.
+
+### How to Sign Up:
+1. Sign up for MTurk as a worker [here](https://www.mturk.com/mturk/welcome).  Please do this as early as possible, since it can take 48 hours or more to have your account approved.  Foreign students may have problems signing up since Amazon now requires a Social Security Number. Problems have also arisen when students attempt to set up an Amazon Payments account, which is required by MTurk.
+2. Optionally, try installing a MTurk productivity tool like [TurkerView](https://turkerview.com) or [Turkopticon](https://turkopticon.ucsd.edu), or check out the [ITsWorthTurkingFor subreddit](https://www.reddit.com/r/HITsWorthTurkingFor/).
+
+### Questions to address in your writeup:
+* How long did it take you to sign up as a worker?
+* What is your Worker ID? If you signed up for Mechanical Turk you can look up this information on your Dashboard (<https://www.mturk.com/mturk/dashboard>.
+* How many assignments did you complete? You can look up this information on your Dashboard (<https://www.mturk.com/mturk/dashboard>.
+* What was your goal when you were working? 
+** Make as much money as possible 
+** Get a high hourly wage 
+** Get through the assignments as quickly as possible 
+* How much money did you make?
+* How much time did you spend working?
+* Do you think you could make a reasonable wage if Mechanical Turk was your sole source of income? 
+* Did any of your HITs get rejected? You can find out on your Dashboard (<https://www.mturk.com/mturk/dashboard>.
+* If you did have a HIT rejected, what reason did the Requester give?
+* What types of tasks did you do, and how did you pick them?
+* What was the highest paying HIT that you completed?  
+* What HIT paid you the highest hourly rate? 
+* Describe the most interesting or weirdest or most fun HIT that you found.  Write a couple of sentences describing it.
+* Did you try any of the productivity tools?  What did you think?
+
+## Zooniverse
+
+*Overview:*
+Zooniverse is a citizen-science platform in which volunteers around the world contribute to projects sourced from the professional research community. With over 1.6mm registered users, the platform supports research projects by allowing volunteers to perform tasks such as completing surveys and labeling datasets. 
+
+### How to Sign Up:
+1. Go to [https://www.zooniverse.org/](https://www.zooniverse.org/) and click on “Register” in the top right corner of the page.
+2. Input your personal information to create your Zooniverse account.
+3. Go to [https://www.zooniverse.org/projects](https://www.zooniverse.org/projects) and click on any of the available projects to reach its project overview page.
+4. Read about your selected project on its project overview page and begin contributing by clicking on “Classify” at the top of the page. Task instructions will be available for your reference. 
+
+### Questions to address in your writeup:
+* What projects did you select? Why did you pick them?
+* What were the specific tasks that you had to complete?
+* Did you find the task instructions easy to follow?
+* What are examples of completed projects and publications that you see featured on the platform? 
+* How much time did you spend on each project in total, and how long did its idividual tasks take?
+* All individuals on Zooniverse participate as volunteers – what do you think incentivizes individuals to contribute through this platform?
+
+
+
+
+## Google Crowdsource
+*Overview:*
+Google Crowdsource is a platform for contributing to making the AI building blocks in Google products better. Examples of products that integrate AI at Google include Google Translate, Maps, Photos, and Assistant. In Google Crowdsource, you’ll perform small tasks (like writing a caption to an image or recognizing facial expressions). The results will be used to train AI models that help make these products better and improve their performance for a diverse population of users. 
+
+See more information about it at: 
+[https://crowdsource.google.com/about/](https://crowdsource.google.com/about/)
+
+### How to Sign Up:
+1. Go to [https://crowdsource.google.com/](https://crowdsource.google.com/) and log into a Google account
+2. Once logged in, make sure you are on the  [https://crowdsource.google.com/](https://crowdsource.google.com/) main page
+3. You should see tasks like “Image Label Verification”, “Handwriting Recognition”, “Facial Expressions” that you can complete. It’s fairly straightforward to click on some of these and try out solving some of these tasks.
+4. On the achievements page (https://crowdsource.google.com/achievements), you’ll see what level you are, a summary of your activity, and “badges” you can earn by completing tasks.
+5. Please complete Level 1 for 3 badges:
+* Earn Level 1 on the Contributor badge (you achieve this by completing 100 tasks total)
+Choose any one of the other badges that interest you to get Level 1 on. You can click on badges to see what you need to do in order to earn them.
+* Choose any one of the other badges that interest you to get Level 1 on. You can click on badges to see a description of what you need to do in order to earn them.
+
+### Questions to address in your writeup:
+* What projects did you select?  Why did you pick them?
+* What were the specific tasks that you had to complete?
+* Did you find the task instructions easy to follow?
+*  How many total contributions did you make on Google Crowdsource? You can find this information on your achievements page.  
+* What badges did you earn? What level are you on each badge? What were the requirements for each badge?
+* If you were designing badges for Google Crowdsource, can you think of a new badge you would create? Give it a name and a description of what it would take to earn Level 1 for your badge.
+* How did you handle ambiguous cases that you were unsure of? Did you make an educated guess or did you skip it?
+* How do you like the UI/UX design of Google’s annotation tool, does it allow you to complete your tasks efficiently? What improvements, if any, would you make?
+* Do you think Google verifies the reliability/trustworthiness of annotators like you? If you were to design a system that filters out “bad” annotators (spammers, bots, NETS 213 students rushing through to complete the assignment), what would you do?
+* Why do you think this platform doesn’t offer money as an incentive like Amazon MTurk?
+* Do you think you would contribute to this platform if it weren’t for a grade? Do you think others would?
+* Had you heard about Google Crowdsource before? Do you think it’s easy to find for most users? If you worked at Google, how might you encourage people to use the platform?
+* Why do you think Google implements a badge system instead of just showing you the total number of tasks completed?
+* Describe the most interesting or weirdest or most fun job that you were assigned. Write a couple of sentences describing it.
+* Describe the hardest or most ambiguous job that you were assigned. Write a couple sentences describing it.
+* For each of the annotation categories, try to name a Google product or service that would benefit from your work.
+* Image Label Verification, Image Caption, Handwriting Recognition, Facial Expressions, Landmarks
+* Write a review (brief, just a couple sentences) of Google Crowdsource from a user’s perspective. What did you like? What did you hate? What did you find frustrating? What would you like to see improved?
+
+
+
+
+## Figure 8
+*Overview:*
+Figure 8 (formerly Crowdflower) was acquired by Appen for $300 million in 2019. The Appen Part-Time flexible jobs now offers a variety of crowd work employment options ranging from the micro tasks we have discussed to longer term projects. 
+
+### How to Sign Up:
+1. To sign up go to the link [https://appen.com/jobs/](https://appen.com/jobs/) and choose ‘Micro Tasks’. From there you’ll need to make an Appen Contributor Account which takes your info and a Paypal for you to receive your payments. Then after you verify you’ll get into a portal to accept a dummy task which will have you sign up for an Appen Platform account. Note that the Contributor account and the Platform account are different so you can use the same email for both but you have to sign up and verify for both.
+2. On the sign up there is also a Projects and a Surveys & Data Collection option but these require applying (similar to applying on MTurk) and to get a feel of the platform it’s easier to quickly sign up for the Micro Tasks platform. 
+
+### Questions to address in your writeup:
+* Were you able to easily figure out the signup and two different platforms?
+* Did you understand how you find tasks to complete once you’re on the platform?
+* Did you find the task instructions easy to follow?
+* What do you think of the badge system that Appen uses to allow work to certain workers?
+* How many tasks did you complete and what was your reward?
+* Did you like the setup of the tasks? 
+
+## Upwork
+*Overview:*
+Upwork is a platform for a variety of different freelance tasks, it is not specific to crowdsourcing. Services that you can offer include IT, design or crowdsourcing services. Upwork goes both ways – you can either post your skills or apply to projects that are being posted by clients. The platform provides a payment guarantee for freelancers as well as a job board.
+
+### How to Sign Up:
+1. Go to https://www.upwork.com/signup/?accountType=client and register. Please select “Work as a Freelancer” during sign-up.
+2. After you’ve verified your email address, you’re being asked to fill out your profile. It’s important to do this thoroughly as Upwork is approving you based on this information. When asked about your experience level, you should select “Beginner” unless you have had some previous CS experience.
+3. Once your account is being approved, you can start searching for crowdsourcing projects by using the search function in the project section.
+
+### Questions to address in your writeup:
+* What was the project that you selected? 
+* Were you able to get accepted by the client? 
+** If yes: What were the specific tasks that you had to complete?
+**  Did you find the task instructions easy to follow?
+**  How much time did you spend on this project?
+** If you didn’t get selected: Why do you think the client picked someone else? Did you think the selection process was fair?
+
+## Datasaur
+*Overview:* Datasaur is a platform for doing linguistic annotation for artificial intelligence. Companies have re-invented the wheel in building their own ad hoc data labeling tools. Datasaur was founded to create high quality annotation interface to reduce the re-invention.  Professor Callison-Burch's lab is using Datasaur to annotate data for one of thier DARPA grants.  If you'd like to help out with this annotation for your project, you can follow [these instructions from TAs Ashley and Becca](https://docs.google.com/document/d/1ha77rColinlURzGMjATMbCs-UMhEC9tHqwnCQMfJcRs/edit?usp=sharing) who are managing the annotation effort.
+
+
+### Questions to address in your writeup:
+* Describe the annotation project that you did.
+* What did you learn about goals the project?
+* Did you find the task instructions easy to follow?
+* How many tasks did you complete?
+* Do you want to learn more about semantic role labeling](https://web.stanford.edu/~jurafsky/slp3/19.pdf)?
