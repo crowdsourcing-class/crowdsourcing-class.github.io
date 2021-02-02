@@ -85,8 +85,10 @@
   title: Course Selection Period ends
 -
   date: 2021-02-02
-  slides: 
-  title: guest talk by Ben Hanrahan
+  slides: slides/hanrahan-ethnographic-studies-of-turkers.pdf
+  title: Ethnographic Studies of Turkers
+  speaker: Benjamin V. Hanrahan
+  speaker_url: https://banrahan.ist.psu.edu
   recording: 
   readings:
     -
@@ -96,7 +98,18 @@
     -
       authors: Neha Gupta, David Martin, Benjamin Hanrahan, and Jacki O’Neill 
       title: Turk-Life in India
-      url: http://crowdsourcing-class.org/readings/downloads/econ/turk-life-in-india.pdf
+      url: http://crowdsourcing-class.org/readings/downloads/econ/turk-life-in-india.pdf 
+-
+  date: 2021-02-02
+  slides: slides/data-driven-analysis-of-workers-earnings-on-mturk.pdf
+  title: A Data-Driven Analysis of Workers' Earnings on Amazon Mechanical Turk
+  recording: 
+  readings:
+    -
+      authors: Kotaro Hara, Abi Adams, Kristy Milland, Saiph Savage, Chris Callison-Burch and Jeff Bigham
+      title: A Data-Driven Analysis of Workers' Earnings on Amazon Mechanical Turk
+      url: https://www.cis.upenn.edu/~ccb/publications/data-driven-analysis-of-workers-earnings-on-amazon-mechanical-turk.pdf
+
 -
   date: 2021-02-04
   slides: 
