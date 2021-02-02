@@ -101,7 +101,7 @@
       url: http://crowdsourcing-class.org/readings/downloads/econ/turk-life-in-india.pdf 
 -
   date: 2021-02-02
-  slides: slides/data-driven-analysis-of-workers-earnings-on-mturk.pdf
+  slides: slides/data-driven-analysis-of-workers-earnings-on-mturk.pdf.pdf
   title: A Data-Driven Analysis of Workers' Earnings on Amazon Mechanical Turk
   recording: 
   readings:
@@ -110,6 +110,14 @@
       title: A Data-Driven Analysis of Workers' Earnings on Amazon Mechanical Turk
       url: https://www.cis.upenn.edu/~ccb/publications/data-driven-analysis-of-workers-earnings-on-amazon-mechanical-turk.pdf
 
+    -
+      authors: Kotaro Hara, Abigail Adams, Kristy Milland, Saiph Savage, Benjamin V. Hanrahan, Jeffrey P. Bigham and Chris Callison-Burch
+      title: Worker Demographics and Earnings on Amazon Mechanical Turk&colon; An Exploratory Analysis. 
+      url: https://www.cis.upenn.edu/~ccb/publications/crowd-workers-demographics.pdf
+    -
+      authors: Abi Adams-Prassl, Chris Callison-Burch, Kotaro Hara, Kristy Milland, Saiph Savage and Jeffrey Bigham
+      title: (In Submission) The Gender Wage Gap in an Online Labour Market&colon; The Cost of Interruptions
+      url: http://crowdsourcing-class.org/readings/downloads/econ/gender-wage-gap-on-mturk-the-cost-of-interruptions.pdf
 -
   date: 2021-02-04
   slides: 
