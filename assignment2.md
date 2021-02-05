@@ -4,16 +4,16 @@ img: launching-a-start-up
 caption: Crowdsource your startup!
 title: Homework 2 "Market Research"
 active_tab: homework
-release_date: 2019-01-29
-due_date: 2019-02-05T23:59:00EST
+release_date: 2021-02-05
+due_date: 2021-02-11T23:59:00EST
 submission_link: https://www.gradescope.com/courses/36538
 deliverables:
     -
       description: written survey
-      due_date: 2019-02-05T23:59:00EST
+      due_date: 2021-02-11T23:59:00EST
     -
       description: presentation 
-      due_date: 2019-02-12T23:59:00EST
+      due_date: 2021-02-19T23:59:00EST
 ---
 
 <!-- Check whether the assignment is up to date -->
@@ -40,93 +40,88 @@ Market Research <span class="text-muted">: Assignment 2</span>
 =============================================================
 This week we will be looking at the wealth of companies and projects that use crowdsourcing as part of their business. Here’s a list of companies and projects that you could research:
 
-[5 Calls](https://5calls.org),
-[99Designs](http://99designs.com),
-[Airbnb](https://www.airbnb.com),
-[Apple HealthKit/ResearchKit](http://www.apple.com/researchkit/),
-[Benefunder](http://www.benefunder.org),
-[Change.org](https://www.change.org),
-[CivilServant](https://civilservant.io/about_us.html),
-[Clickworker](https://www.clickworker.com/),
-[CloudFactory](http://www.cloudfactory.com/home),
-[Couchsurfing](https://www.couchsurfing.org/),
-[Coursera](https://www.coursera.org),
-[CrowdAI.org](https://www.crowdai.org/),
-[CrowdMed](https://www.crowdmed.com),
-[Crowds On Demand](http://crowdsondemand.com),
-[Daemo](http://hci.stanford.edu/publications/2015/crowdresearch/daemo-uist.pdf),
-[Dataturks](https://dataturks.com/),
-[Defined Crowd](https://www.definedcrowd.com/en-us/),
-[Duolingo](https://www.duolingo.com/),
-[EatWith](http://www.eatwith.com),
-[eBay buyer/seller ratings](http://pages.ebay.com/help/feedback/scores-reputation.html),
-[edX](https://www.edx.org),
-[EyeWire](https://eyewire.org/signup),
-[Facewatch](http://arstechnica.com/tech-policy/2015/12/pre-crime-arrives-in-the-uk-better-make-sure-your-face-stays-off-the-crowdsourced-watch-list/),
-[Field Agent](http://www.fieldagent.net),
-[Figure Eight](https://www.figure-eight.com),
-[Flattr](https://flattr.com),
-[Freelancer](https://www.freelancer.com/),
-[Genius](https://genius.com/),
-[GoFundMe](https://www.gofundme.com/),
-[Good Judgment Open](https://www.gjopen.com),
-[Google Crowdsource app](https://play.google.com/store/apps/details?id=com.google.android.apps.village.boond&hl=en_US),
-[Iceland’s Crowdsourced Constitution](http://www.slate.com/articles/technology/future_tense/2014/07/five_lessons_from_iceland_s_failed_crowdsourced_constitution_experiment.html),
-[The iLabour Project](https://ilabour.oii.ox.ac.uk),
-[IndieGoGo](https://www.indiegogo.com),
-[Indivisible](https://indivisible.org),
-[Innocentive](http://www.innocentive.com),
-[Instacart](https://www.instacart.com/faq),
-[Invisible Boyfriend](https://invisibleboyfriend.com),
-[iStockPhoto](http://en.wikipedia.org/wiki/IStock),
-[Intrade](http://en.wikipedia.org/wiki/Intrade),
-[Iowa Election Markets](http://tippie.uiowa.edu/iem/),
-[Jovoto](https://www.jovoto.com/),
-[Kaggle](http://www.kaggle.com),
-[Kickstarter](http://www.kickstarter.com),
-[Kiva](http://kiva.org),
-[leadGenius](https://leadgenius.com),
-[Lending Club](https://www.lendingclub.com/public/how-peer-lending-works.action),
-[Lyft](https://www.lyft.com),
-[Microworkers](https://microworkers.com),
-[Mighty AI](https://mighty.ai/),
-[Netflix prize](https://en.wikipedia.org/wiki/Netflix_Prize),
-[New York Times](https://www.dailykos.com/stories/2017/5/10/1660135/-The-New-York-Times-is-now-crowdsourcing-nice-things-to-say-about-Donald-Trump),
-[OpenStreetMap](http://www.openstreetmap.org/),
-[Orchestra](http://orchestra.unlimitedlabs.com),
-[PatientsLikeMe](http://www.patientslikeme.com),
-[Patreon](https://www.patreon.com/home),
-[Polis](https://pol.is/home),
-[Postmates](https://postmates.com),
-[PredictIt](https://www.predictit.org),
-[PredictWise](http://www.predictwise.com/),
-[Premise](http://www.premise.com/),
-[Prolific](https://prolific.ac/),
-[PublicStuff](https://www.publicstuff.com),
-[Quora](http://www.quora.com),
-[Qualtrics](http://www.qualtrics.com/),
-[Samasource](http://samasource.org),
-[Scale](https://scale.ai),
-[Scistarter](http://scistarter.com),
-[Sunshine](http://www.slate.com/blogs/future_tense/2015/03/27/apple_watch_could_make_you_a_walking_weather_station.html),
-[TaskRabbit](https://www.taskrabbit.com),
-[Threadless](https://www.threadless.com/how-it-works/),
-[Thumbtack](http://www.thumbtack.com/),
-[Topcoder](http://www.topcoder.com),
-[TurkOpticon](http://turkopticon.ucsd.edu),
-[TurkPrime](https://www.turkprime.com),
-[TurkServer](http://dash.harvard.edu/bitstream/handle/1/11956911/Parkes_TurkServer.pdf?sequence=1),
-[Uber](https://www.uber.com),
-[Upwork](https://www.upwork.com),
-[Ushahidi](http://www.ushahidi.com),
-[vTaiwan](https://www.technologyreview.com/s/611816/the-simple-but-ingenious-system-taiwan-uses-to-crowdsource-its-laws/),
-[Waze](https://www.waze.com),
-[We the People](https://petitions.whitehouse.gov),
-[Wikipedia's AI helper](http://www.wired.com/2015/12/wikipedia-is-using-ai-to-expand-the-ranks-of-human-editors/),
-[XPRIZE](http://www.xprize.org),
-[Yelp](http://www.yelp.com/),
-[Zensors](http://zensors.com/),
-[Zooniverse](https://www.zooniverse.org).
+
+* [5 Calls](https://5calls.org/): A platform that allows individuals to call member of congresses regarding specific issues.
+* [99Designs](http://99designs.com/): A freelancer platform for connecting graphic designer and clients.
+* [Airbnb](https://www.airbnb.com/): Hosts  provide  lodging accommodations for others; the personal relationship hosts have with their lodge allows for creative accommodations. 
+* [Apple HealthKit/ResearchKit](http://www.apple.com/researchkit/): build apps to enroll participants and conduct studies at scale.
+* [Benefunder](http://www.benefunder.org/): Benefunder is a crowdfunding platform for funding research in a variety of fields.
+* [Change.org](https://www.change.org/): A platform where users can create and prompt petitions.
+* [Citizens and Technology Lab](https://citizensandtech.org/): A public-interest research group at Cornell focusing on researching and studying the effects of technology on society. 
+* [Clickworker](https://www.clickworker.com/): A platform that connects independent contractors called "Clickworkers" with a variety of projects for clients.
+* [CloudFactory](http://www.cloudfactory.com/home): Offers human-powered data processing for AI and automation businesses.
+* [Couchsurfing](https://www.couchsurfing.org/): Connects travelers with locals for short-term stays.
+* [Coursera](https://www.coursera.org/): Offers massive open online courses, specializations, degrees, professional and mastertrack courses.
+* [CrowdAI.org](https://www.crowdai.org/): Crowdsourcing platform focusing on real-world problems solvable by AI.
+* [CrowdMed](https://www.crowdmed.com/): is a healthcare crowdsourcing platform that uses a medical case-solving community to try to identify illnesses that doctors have been unable to diagnose.
+* [Crowds On Demand](http://crowdsondemand.com/): Provides people and materials for clients interested in creating protests, rallies, mobs, or other PR events.
+* [Daemo](http://hci.stanford.edu/publications/2015/crowdresearch/daemo-uit.pdf): A self-governed crowdsourcing marketplace.
+* [Dataturks](https://dataturks.com/): A platform that offers specific label annotation for Machine Learning tasks.
+* [Defined Crowd](https://www.definedcrowd.com/): Provides data sets to train artificially intelligent speech programs.
+* [Duolingo](https://www.duolingo.com/): App to teach people new languages. 
+* [EatWith](http://www.eatwith.com/): Provides online cooking classes from chef hosts live streamed from their kitchen.
+* [eBay buyer/seller ratings](http://pages.ebay.com/help/feedback/scores-reputation.html): Users provide feedback scores for merchants which then affects their ratings.
+* [edX](https://www.edx.org/): Sourcing professors from all over the world to teach free courses online.
+* [EyeWire](https://eyewire.org/signup) A game which allows players to help mapping real retinal neurons from Princeton.
+* [Field Agent](http://www.fieldagent.net/): Provides clients with information regarding store audits, shopper insights, ratings, and reviews from real users.
+* [Figure Eight (now Appen)](https://www.figure-eight.com/) Provide various AI services like data annotation, smart labelling etc.
+* [Flattr](https://flattr.com/) - Support creators with one-time/recurring subscriptions
+* [Freelancer](https://www.freelancer.com/) : A platform that facilitates the listing and hiring of freelancers.
+* [Genius](https://genius.com/): Annotate the meaning behind music/rap lyrics, mostly user contributions, with some interaction between the artists themselves and the community.
+* [GoFundMe](https://www.gofundme.com/): Crowdfunding for widely varying, user-submitted causes.
+* [Good Judgment Open](https://www.gjopen.com/): Focuses on crowdsourcing forecasting of political, economic and technological events.
+* [Google Crowdsource app](https://play.google.com/store/apps/details?id=com.google.android.apps.village.boond&hl=en_US): Help label data for Google's AI products.
+* [Iceland's Crowdsourced Constitution](http://www.slate.com/articles/technology/future_tense/2014/07/five_lessons_from_iceland_s_failed_crowdsourced_constitution_experiment.html): Has been passed as a basis for a new constitution in Iceland. Written by a commission of 25 people with all citizens of Iceland allowed to comment on the drafts and propose their own modifications. 
+* [The iLabour Project](https://ilabour.oii.ox.ac.uk/): A blog that investigates the construction of Labour Markets, Institutions and Movements on the Internet
+* [IndieGoGo](https://www.indiegogo.com/): Crowdfunding platform similar to Kickstarter for raising money for startups and charity projects. 
+* [Innocentive](http://www.innocentive.com/): Crowdsourcing platform that connects individuals with a variety of tasks related to business, data, and AI
+* [Instacart](https://www.instacart.com/faq): UberEats for groceries. Order groceries from nearby stores and a shopper will pick up and deliver them to your door. 
+* [Invisible Boyfriend](https://invisibleboyfriend.com/): Invisible Boyfriend gives you social proof of being in a relationship so you can get back to living life on your own terms.
+* [iStockPhoto](http://en.wikipedia.org/wiki/IStock): A media exchange platform that enables users to sell and purchase rights to different stock photos, videos, and artworks.
+* [Jovoto](https://www.jovoto.com/): Crowdsourcing marketing plans using experts in marketing. 
+* [Kaggle](http://www.kaggle.com/): Kaggle allows users to find and publish data sets, explore and build models in a web-based data-science environment, work with other data scientists and machine learning engineers, and enter competitions to solve data science challenges.
+* [Kickstarter](http://www.kickstarter.com/) Funding for startups and entrepreneurial pursuits (Ashley)
+* [Kiva](http://kiva.org/): Connect lenders to micro loan borrowers in developing countries
+* [LeadGenius](https://leadgenius.com/) - Generate leads for B2B Sales
+* [Lending Club](https://www.lendingclub.com/public/how-peer-lending-works.action) - Connects lenders with borrowers on a ad-hoc marketplace.
+* [Lyft](https://www.lyft.com/): Develops, markets, and operates a mobile app, offering vehicles for hire, motorized scooters, a bicycle-sharing system, and food delivery.
+* [Microworkers](https://microworkers.com/): Microtask site for small jobs like labeling data.
+* [Mighty AI](https://mighty.ai/): Startup acquired by Uber for automatic labelling of incoming data from autonomous vehicles. 
+* [Netflix prize](https://en.wikipedia.org/wiki/Netflix_Prize): A historical example of an innovation prize.  Netflix held a competition for researchers to develop an improved movie recommendation system and offered a million dollar prize for the best system. 
+* [OpenStreetMap](http://www.openstreetmap.org/): An open source, free map that is maintained by localized mapping community.
+* [Orchestra](http://orchestra.unlimitedlabs.com/): Orchestrate teams of experts with Robotic Process Automation.
+* [PatientsLikeMe](http://www.patientslikeme.com/) - Find other patients experiencing the same chronic illness as you do.
+* [Patreon](https://www.patreon.com/home): A crowdfunding platform that  helps creators and artists earn a monthly income from their subscribers in return for providing rewards and perks.
+* [Polis](https://pol.is/home): Real-time crowdsourcing for gathering, analyzing and understanding what large groups of people think.
+* [Postmates](https://postmates.com/): Similar to UberEats you can order food from restaurants and a person will pick up and deliver it to you. 
+* [PredictIt](https://www.predictit.org/): Online marketplace for trading penny shares of events like whether 2021 will be the hottest year on record or who will win an election. 
+* [PredictWise](http://www.predictwise.com/): a website that makes predictions on politics, sports, finance, and more
+* [Premise](http://www.premise.com/): Gather market intelligence data from customers
+* [Prolific](https://prolific.ac/): Supports online research by giving researchers access to participants for their studies
+* [PublicStuff](https://www.publicstuff.com/): Offers local governments citizen engagement apps and websites to extend access to city services 
+* [Quora](http://www.quora.com/): A question and answer website that allows people to post and answer questions about a wide variety of topics 
+* [Qualtrics](http://www.qualtrics.com/): Survey software for gathering data on a product for businesses.
+* [Robinhood](https://robinhood.com/us/en/): Allows layman investors like everyday people to buy stocks directly without having to go through a broker.
+* [Samasource](http://samasource.org/): A training data platform that works with companies to develop ML models.
+* [Scale](https://scale.ai/) - Get labelled AI data for Self-Driving Cars, Transcription, OCR, etc.
+* [Scistarter](http://scistarter.com/): Contribute to gathering data for various science research projects.
+* [Sunshine](http://www.slate.com/blogs/future_tense/2015/03/27/apple_watch_could_make_you_a_walking_weather_station.html) (Ashley) This smart watch application uses mobile data to collect local weather data.
+* [TaskRabbit](https://www.taskrabbit.com/): same-day service platform instantly connects you with skilled Taskers to help with cleaning, furniture assembly, home repairs, running errands and more.
+* [Threadless](https://www.threadless.com/how-it-works/): "How it Works" - Artists from around the world submit designs, the Threadless community scores each design and the best of the best are printed and sold. New designs are chosen for print every week and the winning artists can profit handsomely for their designs, and in some cases, also take home big cash prizes from special themed design challenges.
+* [Topcoder](http://www.topcoder.com/): Accessing amazing technology talent, like unleashing the gig economy... a project manager to shepard you through your projects
+* [TurkOpticon](http://turkopticon.ucsd.edu/): Forum for Mechanical Turk workers to share reviews and see statistics of requesters for attributes like their fairness, generosity, and timeliness. 
+* [TurkPrime](https://www.turkprime.com/) CloudResearch, formerly TurkPrime, is the leading participant-sourcing platform for online research and surveys. Our tools provide academic and market researchers immediate access to millions of diverse, high-quality respondents around the world.
+* [TurkServer](http://dash.harvard.edu/bitstream/handle/1/11956911/Parkes_TurkServer.pdf?sequence=1) Enabling Synchronous and Longitudinal Online Experiments...We see synchronous and longitudinal experiments involving real-time interaction between participants as a dual-use paradigm for both human computation and social science, and present TurkServer, a platform that facilitates these types of experiments on Amazon Mechanical Turk. Our work has the potential to make more fruitful online experiments accessible to researchers in many different fields.
+* [Uber](https://www.uber.com/) A gig economy business known for ride hailing services.
+* [Upwork](https://www.upwork.com/) connects businesses to specialized workers for associated needs.
+* [Ushahidi](http://www.ushahidi.com/): A platform first developed to map reports of violence in Kenya after the post-election violence in 2008.
+* [vTaiwan](https://www.technologyreview.com/s/611816/the-simple-but-ingenious-system-taiwan-uses-to-crowdsource-its-laws/): Taiwan's exploratory system online allowing citizens to crowdsource laws
+* [Waze](https://www.waze.com/): Provides directions and route changes based on driver reports of traffic and accidents. You can also see recent gas prices for nearby stations among other features. (Eddie)
+* [Wikipedia's AI helper](http://www.wired.com/2015/12/wikipedia-is-using-ai-to-expand-the-ranks-of-human-editors/): Article on how Wikipedia uses AI for quality management of its crowdsourced content creation.
+* [XPRIZE](http://www.xprize.org/): Prizes to solve large moonshot problems for society
+* [Yelp](http://www.yelp.com/): a platform for users to post reviews and information about local restaurants and businesses, as well as these businesses to interact with their customers (Bryan)
+* [Zensors](http://zensors.com/): An AI solution service for office buildings, college campuses, retail shops, etc to leverage the power of computer vision and sensing to improve their businesses.
+* [Zooniverse](https://www.zooniverse.org/): This website allows interested members of the public to contribute to specialized research, producing results that have been found in relevant papers.
 
 <!--
 
@@ -137,15 +132,81 @@ You are also welcome to profile a [relevant company](http://www.crowdsourcing.or
 This assignment has two deliverables:
 
 1. Answering [the Homework 2 questionnaire on Gradescope]({{page.submission_link}}) about the company or project that you are researching. This is due before {{ page.deliverables[0].due_date | date: "%I:%M%p" }} on {{ page.deliverables[0].due_date | date: "%A, %B %-d, %Y" }}.  If you are working with a partner, only one of you needs to submit the questionnaire. **Please save your survey answers in a file on your own computer**, so that you can have a copy to use for your presentation.
-2. A presentation, optionally a video, about the company. If you're not submitting a vidoe, Google Slides (or equivalent slide deck) are required. Several of the best videos will be selected for in-class presentations.  Teams whose videos are selected will receive extra credit. This is due before {{ page.deliverables[1].due_date | date: "%I:%M%p" }}  on {{ page.deliverables[1].due_date | date: "%A, %B %-d, %Y" }}.  You can submit a link to your video/slides on [the Gradescope presentation form]({{page.submission_link}}).
+2. A presentation, optionally a video, about the company. If you're not submitting a video, Google Slides (or equivalent slide deck) are required. Several of the best videos will be selected for in-class presentations.  Teams whose videos are selected will receive extra credit. This is due before {{ page.deliverables[1].due_date | date: "%I:%M%p" }}  on {{ page.deliverables[1].due_date | date: "%A, %B %-d, %Y" }}.  You can submit a link to your video/slides on [the Gradescope presentation form]({{page.submission_link}}).
 
-This assignment should be done in pairs.
+This assignment can be done in pairs.
 
-First, please [sign up for a company or project](https://docs.google.com/spreadsheets/d/14feAFi0wqhkE2nW7hEDAL9EOczxvCFvqflZRYbSa_CI/edit?usp=sharing).  Please do not pick a company that another team has already signed up for.  If there’s a company that you’d like to research that isn’t on the list, you are welcome to ask the instructor or the TA to ask if it is OK.  
+## Part 1: Researching a Company 
 
-You should independently research the company, and then [fill in your answers about it in the Homework 2 questionnaire on Gradescope]({{page.submission_link}}).  Your short answers to these questions on  {{ page.deliverables[0].due_date | date: "%A, %B %-d, %Y" }}.  Remember to save your survey answers on your own computer, so that you can have a copy to use when you do your video profile.
+First, please [sign up for a company or project](https://docs.google.com/spreadsheets/d/1VcP0zT3UATj97opOe3_DMHC_Dxe975Ub7k2FxXsA5Us/edit?usp=sharing).  Up to two teams can sign up for a company.  If two teams have already signed up for a company that you're interested in then please pick a different company.  If there’s a company that you’d like to research that isn’t on the list, you are welcome to ask the instructor or the TA to ask if it is OK.  Please post your request to Piazza.  
 
-You will prepare a short presentation, optionally a 5 to 7 minute video presentation, about your company. Your presentation should address the following questions:
+Next, please read the academic paper [Human Computation:
+A Survey and Taxonomy of a Growing Field](http://crowdsourcing-class.org/readings/downloads/intro/QuinnAndBederson.pdf).  The paper introduces several dimensions that we'll use to categorize the companies that you'll be doing research -- dimensions like motivation, quality control, aggregation, and so on.  We will ask you to write a short summary of the paper.
+
+You and your partner should research the company together, and then [fill in your answers about it in the Homework 2 questionnaire on Gradescope]({{page.submission_link}}).  Your short answers to these questions on  {{ page.deliverables[0].due_date | date: "%A, %B %-d, %Y" }}.  Remember to save your survey answers on your own computer, so that you can have a copy to use when you do your video profile.
+
+
+
+<div class="panel panel-primary" id="survey">
+<div class="panel-heading" markdown="1">
+#### Questionnaire
+</div>
+<div class="panel-body" markdown="1">
+Below are the questions that you will be asked to answer about the company or project that you are profiling. Please turn in your answers on [Gradescope]({{page.submission_link}}).
+
+1. Please give a summary of the academic paper [Human Computation:
+A Survey and Taxonomy of a Growing Field](http://crowdsourcing-class.org/readings/downloads/intro/QuinnAndBederson.pdf), and how it relates to this assignment.
+1. What company are you profiling?
+3. What online resources did you use in researching it? Include URLs.
+4. Did you use any other resources? Did you conduct any interviews, did you try the company’s service?
+5. Give a one sentence description of the company. Be sure to use the name of the company in your sentence.
+6. Give a URL for the company’s website
+7. Give a URL for the company’s logo
+8. When was the company started?
+9. Who were the founders?
+10. Does it have an interesting origin story?
+11. What kind of organization is it? 
+  -  Publicly traded company
+  -  Privately held company
+  -  Non-profit organization
+  -  Other
+12. If the company type is none of the above, please specify.
+13. What service does the company provide?
+14. Does this update a previous service or business model, or is it completely new?
+15. If it updates something, what does it replace?
+16. What other new companies provide services that are similar to your company’s?
+17. What is an example of how someone uses this service? What sort of people use the service? If this is a service that you have used, then describe your experience. 
+18. Compare the number of users to contributors.
+  -  More users than contributors
+  -  More contributors than users
+  -  Roughly equal numbers
+19. Who are the people who contribute services?
+20. How does the company incentivize them to contribute, or what motivates them to participate?
+21. Is this a service that was previously provided by experts / professionals?
+22. Are the contributors experts / professionals?
+23. How does the company generate revenue?
+24. How does the company ensure the quality of the services it provides?
+25. Is its service something that is typically regulated by the government?
+26. If so, what are the intents of the regulations and does your company meet those standards?
+27. Is a reputation system used by your company?
+28. If so, how does it work?
+29. If the service is provided by many contributors, how are are their contributions aggregated?
+30. Describe the workflow for how the service is advertised, and how the contributors contribute, and what the users get in the end.
+31. What is the scale of the services that your company provides, in terms of users?
+32. What is the scale of the services that your company provides, in terms of dollars?
+33. If your company were to scale up to 10 or 100 times its current size, how well do you think its business model would work? How well would the incentive scheme scale? How about the quality/aggregation model?
+34. Have there been any controversies about the company or the service that it provides?
+35. Is there anything else you'd like to say about the company?
+</div>
+</div>
+
+
+
+
+## Part 2: Creating a Video 
+
+
+You will prepare a short presentation in the form a 5 to 7 minute video presentation about your company. Your presentation should address the following questions:
 
 - What incentives does it offer to get people to participate?
 - How does it aggregate the information provided by the crowd?
@@ -155,9 +216,7 @@ You will prepare a short presentation, optionally a 5 to 7 minute video presenta
 
 Your presentation is due on {{ page.deliverables[1].due_date | date: "%A, %B %-d, %Y" }}. To turn in your video, please upload it to [Vimeo](https://vimeo.com/). Give us the link to your presentation or video using [the Homework 2 presentation form]({{page.submission_link}}). Make sure that your video is publicly viewable or that you give us a password to view it on the web form.
 
-If you have managed to make it this far in life without having to sign up for accounts for things on the internet, here are more detailed instructions:
-
-
+Here are instructions on how to sign up for Vimeo:
 
 <div class="panel panel-info">
 <div class="panel-heading" markdown="1">
@@ -202,62 +261,6 @@ If you have managed to make it this far in life without having to sign up for ac
 
 </div>
 </div>
-
-
-<div class="panel panel-primary" id="survey">
-<div class="panel-heading" markdown="1">
-#### Survey Questions
-</div>
-<div class="panel-body" markdown="1">
-Below are the questions that you will be asked to answer about the company or project that you are profiling. Please turn in your answers using [the Homework 2 survey on Gradescope]({{page.submission_link}}).
-
-We recommend that you **save your survey answers in a file on your own computer**, typing them directly into Gradescope, so that you’ll have a copy after you press the submit button.
-
-1. What company are you profiling?
-2. If you choose a company that is not in the list above, please specify the company name.
-3. What online resources did you use in researching it? List URLs, one per line.
-4. Did you use any other resources? Did you conduct any interviews, did you try the company’s service?
-5. Give a one sentence description of the company. Be sure to use the name of the company in your sentence.
-6. Give a URL for the company’s website
-7. Give a URL for the company’s logo
-8. When was the company started?
-9. Who were the founders?
-10. Does it have an interesting origin story?
-11. What kind of organization is it? 
-  -  Publicly traded company
-  -  Privately held company
-  -  Non-profit organization
-  -  Other
-12. If the company type is none of the above, please specify.
-13. What service does the company provide?
-14. Does this update a previous service or business model, or is it completely new?
-15. If it updates something, what does it replace?
-16. What other new companies provide services that are similar to your company’s?
-17. What is an example of how someone uses this service? What sort of people use the service? If this is a service that you have used, then describe your experience. 
-18. Compare the number of users to contributors.
-  -  More users than contributors
-  -  More contributors than users
-  -  Roughly equal numbers
-19. Who are the people who contribute services?
-20. How does the company incentivize them to contribute, or what motivates them to participate?
-21. Is this a service that was previously provided by experts / professionals?
-22. Are the contributors experts / professionals?
-23. How does the company generate revenue?
-24. How does the company ensure the quality of the services it provides?
-25. Is its service something that is typically regulated by the government?
-26. If so, what are the intents of the regulations and does your company meet those standards?
-27. Is a reputation system used by your company?
-28. If so, how does it work?
-29. If the service is provided by many contributors, how are are their contributions aggregated?
-30. Describe the workflow for how the service is advertised, and how the contributors contribute, and what the users get in the end.
-31. What is the scale of the services that your company provides, in terms of users?
-32. What is the scale of the services that your company provides, in terms of dollars?
-33. If your company were to scale up to 10 or 100 times its current size, how well do you think its business model would work? How well would the incentive scheme scale? How about the quality/aggregation model?
-34. Have there been any controversies about the company or the service that it provides?
-35. Is there anything else you'd like to say about the company?
-</div>
-</div>
-
 
 
 <div class="panel panel-danger" id="rubric">
