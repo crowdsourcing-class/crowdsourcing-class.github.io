@@ -152,7 +152,7 @@ You and your partner should research the company together, and then [fill in you
 #### Questionnaire
 </div>
 <div class="panel-body" markdown="1">
-Below are the questions that you will be asked to answer about the company or project that you are profiling. Please turn in your answers on [Gradescope]({{page.submission_link}}).
+Below are the questions that you will be asked to answer about the company or project that you are profiling. Please upload a PDF with your answers to [Gradescope]({{page.submission_link}}).
 
 1. Please give a summary of the academic paper [Human Computation:
 A Survey and Taxonomy of a Growing Field](http://crowdsourcing-class.org/readings/downloads/intro/QuinnAndBederson.pdf), and how it relates to this assignment.
