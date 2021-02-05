@@ -12,7 +12,7 @@ deliverables:
       description: written survey
       due_date: 2021-02-11T23:59:00EST
     -
-      description: presentation 
+      description: video 
       due_date: 2021-02-18T23:59:00EST
 ---
 
