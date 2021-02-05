@@ -13,7 +13,7 @@ deliverables:
       due_date: 2021-02-11T23:59:00EST
     -
       description: presentation 
-      due_date: 2021-02-19T23:59:00EST
+      due_date: 2021-02-18T23:59:00EST
 ---
 
 <!-- Check whether the assignment is up to date -->
