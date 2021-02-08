@@ -9,7 +9,7 @@ due_date: 2021-02-11T23:59:00EST
 submission_link: https://www.gradescope.com/courses/36538
 deliverables:
     -
-      description: written survey
+      description: writeup
       due_date: 2021-02-11T23:59:00EST
     -
       description: video 
