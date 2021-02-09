@@ -121,9 +121,25 @@
 -
   date: 2021-02-09
   slides: 
-  title: 
+  title: guest lecture
+  speaker: Ivan Lee
+  speaker_url: https://datasaur.ai
   recording: 
   readings:
+-
+  date: 2021-02-09
+  slides: slides/taxonomy-of-human-computation.pdf
+  title: An Analytic Framework for Human Computation
+  recording: 
+  readings:
+    -
+      title:  Human Computation&#58; A Survey and Taxonomy of a Growing Field
+      authors: Alex Quinn and Ben Bederson
+      url: readings/downloads/intro/QuinnAndBederson.pdf
+    -
+      authors: Panos Ipeirotis
+      title:  Worker Evaluation in Crowdsourcing&#58; Gold Data or Multiple Workers?
+      url: http://www.behind-the-enemy-lines.com/2010/09/worker-evaluation-in-crowdsourcing-gold.html
 -
   date: 2021-02-11
   slides: 
