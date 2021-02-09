@@ -146,6 +146,26 @@
   title: guest speakers Karen Fort and Christopher Cieri  
   recording: 
   readings:
+    -
+      title:  Using Games to Create Language Resources&colon; Successes and Limitations of the Approach 
+      authors: John Chamberlain, Karën Fort, Ugo Kruschwitz, Mathieu Lafourcade, Massimo Poesio
+      url: https://hal-lirmm.ccsd.cnrs.fr/lirmm-00831442
+    -
+      title:  Crowdsourcing Complex Language Resources&colon; Playing to Annotate Dependency Syntax 
+      authors: Bruno Guillaume, Karën Fort, Nicolas Lefèbvre
+      url: https://hal.inria.fr/hal-01378980
+    -
+      title:  Rigor Mortis&colon; Annotating MWEs with a Gamified Platform 
+      authors: Karën Fort, Bruno Guillaume, Yann-Alan Pilatte, Mathieu Constant, Nicolas Lefèbvre
+      url: https://hal.inria.fr/hal-02571466
+    - 
+      title:  pKatana and Grand Guru&colon; a Game of the Lost Words (DEMO)
+      authors:  Alice Millour, Marianne Grace Araneta, Ivana Lazić Konjik, Annalisa Raffone, Yann-Alan Pilatte, Karën Fort
+      url: https://hal.archives-ouvertes.fr/hal-02106757
+    - 
+      title: LanguageARC&colon; Developing Language Resources Through Citizen Linguistics
+      authors: James Fiumara, Christopher Cieri, Jonathan Wright, Mark Liberman
+      url: https://www.aclweb.org/anthology/2020.cllrd-1.1.pdf
 -
   date: 2021-02-16
   slides: 
