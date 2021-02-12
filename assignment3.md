@@ -5,9 +5,9 @@ img_link: http://xkcd.com/353/
 caption: Hello world!
 title: Homework 3 "Python Bootcamp"
 active_tab: homework
-release_date: 2019-02-05
-due_date: 2019-02-12T23:59:00EST
-submission_link: https://www.gradescope.com/courses/36538
+release_date: 2021-02-12
+due_date: 2021-02-18T23:59:00EST
+submission_link: https://www.gradescope.com/courses/233619
 ---
 
 <!-- Check whether the assignment is up to date -->
