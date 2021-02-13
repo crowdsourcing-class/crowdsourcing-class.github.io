@@ -35,16 +35,24 @@ Python Bootcamp <span class="text-muted">: Assignment 3</span>
 =============================================================
 This week we will start writing some code! This assignment is designed to be a crash-course to get you up to speed on the level of Python you will need to know in order to do the remainder of the assignments. It's easiest to learn by doing, so please start early so we can help you get on board. You want to spend the semester focusing on the crowdsourcing and machine learning, not the indenting and semicoloning. 
 
-To start with, download the skeleton file [Jupyter notebook](assignments/hw3/skeleton/homework3.ipynb) and upload it to [Google Colab](https://colab.research.google.com). And you can start working from there. For a tutorial on Jupyter notebooks, download [this notebook](assignments/hw3/00_notebook_tutorial.ipynb) and walk through it on Colab.
+
+## Part 1 (Ungraded): Using Python with Google Colab 
+
+We'll be using Google Colab to write and run our Python programs.  Colab hosts Python Notebooks (also known as Jupyter Notebooks), which are ways combinations of code (Python, naturally) and prose (fancy-pants term for nicely formatted documentation).  They're so good that Nobel-winning economists [use Python Notebooks](https://paulromer.net/jupyter-mathematica-and-the-future-of-the-research-paper/).  Colab is awesome because Google lets you use its GPU computers for free (or $10 per month for an upgraded Pro account).  GPUs will be useful for our machine learning experiments later this semester.
+
+For now, you can start learning the basics of [Python Notebooks and Colab via YouTube](https://www.youtube.com/watch?v=yEIc9z-Ad3k).  Better yet, try out this [Colab Notebook tutorial on Python](https://colab.research.google.com/github/cs231n/cs231n.github.io/blob/master/python-colab.ipynb) which introduces a lot of Python language concepts. 
+
+
+## Part 2 (Graded): Write Python Code
+
+For this part of the assignment, we'll ask you to implement several Python functions.  These will be automatically graded via a Gradescope autograder.  You can submit your code multiple times.  The autograder will give you a score, and that's the score that you'll get for this homework assignment.  There are no hidden tests.
+
+(By the way, the point totals may vary from homework to homework, but each assignment is worth the same as each other assignment when we compute your final grade.) 
+
+To being, make a copy of [this Google Colab notebook](https://colab.research.google.com/github/crowdsourcing-class/crowdsourcing-class.github.io/blob/master/assignments/hw3/assignment3.ipynb).  From the `File` menu of Colab, pick `Save a copy in Drive`, and you can start working  on the assignment. For a tutorial on Python notebooks, download [this notebook](assignments/hw3/00_notebook_tutorial.ipynb) and walk through it on Colab.
 
 Detailed instructions are given in the skeleton file. Functions that are required for you to implement are in python format. Some examples are embedded as comments for your reference. 
 
-Two deliverables are required for you to upload to [Gradescope]({{page.submission_link}}):
-1. IPython notebook **homework3.ipynb** modified with your implementation;
-2. The corresponding python **homework3.py** file. 
-
-You can download both files through the drop-down menu of "File" in the Colab environment.
-
-**Notice:** Before you make submissions to [Gradescope]({{page.submission_link}}), make sure that all the codes except the required functions are commented, including the provided examples.
+When you're ready to check your solutions, you can upload your **homework3.py** file to [Gradescope]({{page.submission_link}}):  You can get the python code through the drop-down menu of "File" in the Colab environment.
 
 This homework can also be done in pairs. Only one group member is required to submit the work. Both of you will share the same submission and get the same grading.
