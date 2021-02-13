@@ -53,6 +53,8 @@ To being, make a copy of [this Google Colab notebook](https://colab.research.goo
 
 Detailed instructions are given in the skeleton file. Functions that are required for you to implement are in python format. Some examples are embedded as comments for your reference. 
 
+You can download the batch.csv [here](batch.csv). Once you've downloaded it you can drag it into your Colab.
+
 When you're ready to check your solutions, you can upload your **homework3.py** file to [Gradescope]({{page.submission_link}}):  You can get the python code through the drop-down menu of "File" in the Colab environment.
 
 This homework can also be done in pairs. Only one group member is required to submit the work. Both of you will share the same submission and get the same grading.
