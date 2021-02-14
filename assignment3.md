@@ -43,6 +43,9 @@ We'll be using Google Colab to write and run our Python programs.  Colab hosts P
 For now, you can start learning the basics of [Python Notebooks and Colab via YouTube](https://www.youtube.com/watch?v=yEIc9z-Ad3k).  Better yet, try out this [Colab Notebook tutorial on Python](https://colab.research.google.com/github/cs231n/cs231n.github.io/blob/master/python-colab.ipynb) which introduces a lot of Python language concepts. 
 
 
+If you have never programmed in Python before, then I recommend that you watch this [Pyhon tutorial on YouTube](https://www.youtube.com/watch?v=_uQrJ0TkZlc).  The full tutorial is 6 hours long.  If you watch the whole thing then you'll be fully up to speed on Python and you'll even be able to develop web apps vid Django, which could be useful for your final project.
+
+
 ## Part 2 (Graded): Write Python Code
 
 For this part of the assignment, we'll ask you to implement several Python functions.  These will be automatically graded via a Gradescope autograder.  You can submit your code multiple times.  The autograder will give you a score, and that's the score that you'll get for this homework assignment.  There are no hidden tests.
