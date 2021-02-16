@@ -142,11 +142,30 @@
       url: http://www.behind-the-enemy-lines.com/2010/09/worker-evaluation-in-crowdsourcing-gold.html
 -
   date: 2021-02-11
-  slides: 
-  title: Games with a Purpose and Citizen Science  
-  speaker: Karen Fort and Christopher Cieri 
+  slides: slides/guest_lecture_citizen_linguistics_christopher_cieri.pdf
+  title: Citizen Science  
+  speaker: Christopher Cieri 
   recording: 
   readings:
+    -
+      title: LanguageARC&colon; Developing Language Resources Through Citizen Linguistics
+      authors: James Fiumara, Christopher Cieri, Jonathan Wright, Mark Liberman
+      url: https://www.aclweb.org/anthology/2020.cllrd-1.1.pdf
+    - 
+      authors: Christopher Cieri, James Fiumara, Mark Liberman, Chris Callison-Burch, Jonathan Wright
+      title: Introducing NIEUW&colon; Novel Incentives and Workflows for Eliciting Linguistic Data
+      url: https://www.ldc.upenn.edu/sites/www.ldc.upenn.edu/files/lrec2018-introducing-nieuw.pdf
+    - 
+      authors: Christopher Cieri, James Fiumara
+      title: LanguageARC – a tutorial
+      url: https://www.ldc.upenn.edu/sites/www.ldc.upenn.edu/files/lrec2020-LanguageARC-a-tutorial.pdf
+-
+  date: 2021-02-11
+  slides: slides/guest_lecture_GWAPs_karen_fort.pdf
+  title: Games with a Purpose 
+  speaker: Karën Fort 
+  recording: 
+  readings: 
     -
       title:  Using Games to Create Language Resources&colon; Successes and Limitations of the Approach 
       authors: John Chamberlain, Karën Fort, Ugo Kruschwitz, Mathieu Lafourcade, Massimo Poesio
@@ -163,21 +182,7 @@
       title:  pKatana and Grand Guru&colon; a Game of the Lost Words (DEMO)
       authors:  Alice Millour, Marianne Grace Araneta, Ivana Lazić Konjik, Annalisa Raffone, Yann-Alan Pilatte, Karën Fort
       url: https://hal.archives-ouvertes.fr/hal-02106757
-    - 
-      title: LanguageARC&colon; Developing Language Resources Through Citizen Linguistics
-      authors: James Fiumara, Christopher Cieri, Jonathan Wright, Mark Liberman
-      url: https://www.aclweb.org/anthology/2020.cllrd-1.1.pdf
-    - 
-      authors: Christopher Cieri, James Fiumara, Mark Liberman, Chris Callison-Burch, Jonathan Wright
-      title: Introducing NIEUW&colon; Novel Incentives and Workflows for Eliciting Linguistic Data
-      url: https://www.ldc.upenn.edu/sites/www.ldc.upenn.edu/files/lrec2018-introducing-nieuw.pdf
-    - 
-      authors: Christopher Cieri, James Fiumara
-      title: LanguageARC – a tutorial
-      url: https://www.ldc.upenn.edu/sites/www.ldc.upenn.edu/files/lrec2020-LanguageARC-a-tutorial.pdf
 -
-
-
   date: 2021-02-16
   slides: 
   title: 
