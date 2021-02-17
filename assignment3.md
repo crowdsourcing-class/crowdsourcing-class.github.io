@@ -6,7 +6,7 @@ caption: Hello world!
 title: Homework 3 "Python Bootcamp"
 active_tab: homework
 release_date: 2021-02-12
-due_date: 2021-02-18T23:59:00EST
+due_date: 2021-02-25T23:59:00EST
 submission_link: https://www.gradescope.com/courses/233619
 ---
 
