@@ -201,10 +201,18 @@
 
 -
   date: 2021-02-23
-  slides: 
-  title: 
+  slides: slides/machine-learning.pdf
+  title: Intro to Machine Learning
   recording: 
   readings:
+    -
+      title: Practical Deep Learning for Coders
+      authors: Jeremy Howard / fast.ai
+      url: https://course.fast.ai
+    -
+      title: Logistic Regression
+      authors: Daniel Jurafsky and James Martin
+      url: https://web.stanford.edu/~jurafsky/slp3/5.pdf
 -
   date: 2021-02-25
   slides: 
