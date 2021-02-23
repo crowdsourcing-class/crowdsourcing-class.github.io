@@ -176,6 +176,7 @@ MMID contains around 100 images for around 10,000 words in 100 foreign languages
 </div>
 <div class="panel-body" markdown="1">
 Below are the questions that you will be asked to answer about this assignment. Please turn in your answers in a PDF for Homework 4 on Gradescope.
+
 1. What is the link to your Colab notebook?
 2. Attach screenshots of the pages confirming the settings of your second HIT (India-based workers) and third HIT (US-based workers).
 3. If you had more time to work on this HIT, what additional things would you add in the creation or processing of the HIT for better quality control and aggregation?
