@@ -39,11 +39,11 @@ Once you are a requester, you will be able to post work on MTurk and to pay work
 
 We will be asking workers to label images for us, similar to how [Fei-Fei Li created ImageNet](https://qz.com/1034972/the-data-that-changed-the-direction-of-ai-research-and-possibly-the-world/).
 
-In this assignment, you will ask workers to classify images on whether or not the image depicts a wedding. These images will be representative of both Western and Indian cultures. You will create two HITs – the first HIT will be completed by workers located in the US and the second HIT will be completed by workers located in India. Your results from both HITs will be used in the following HW5 assignment, in which you will train a classifier solely on the US-based results and another classifier solely on the India-based results. During HW5, you can observe the differences in the two classifiers. 
+In this assignment, you will ask workers to classify images on whether or not the image depicts a wedding. These images will be representative of both Western and Indian cultures. You will create three HITs. The first HIT will be a small task with 17 sample images and is intended to be completed as a tutorial for students to learn how to make a HIT. The other two HITs will be completed with a larger dataset of wedding images. The second HIT will be completed by workers located in the US and the third HIT will be completed by workers located in India. Your results from these two HITs will be used in the following HW5 assignment, in which you will train a classifier solely on the US-based results and another classifier solely on the India-based results. During HW5, you can observe the differences in the two classifiers. 
 
 ## Creating your first HIT
 
-Let's get started with creating your first HIT on MTurk.   After logging into your requester account, go to the Create Tab and then click [New Project](](https://requester.mturk.com/create/projects/new)).  We'll be labeling images, so you can start with the default Image Classification template (shown below).
+Let's get started with creating your first HIT on MTurk. Again, this HIT is intended to be completed as a tutorial for students to learn how to correctly make a HIT on Amazon Turk. After logging into your requester account, go to the Create Tab and then click [New Project](](https://requester.mturk.com/create/projects/new)).  We'll be labeling images, so you can start with the default Image Classification template (shown below).
 
 <img src="images/requester-step-1a.png" alt="Click on the Create tab to start building a New Project" class="img-responsive" />
 
@@ -67,7 +67,7 @@ In the **Enter Properties** tab, you should change the following fields (you can
 In the **Worker requirements** section of the **Enter Properties** tab, add the following qualifications that workers have to meet in order to do the task:
 * HIT Approval Rate >= 90%
 * Number of HITs approved >= 500
-* Location is "INDIA (IN)". A reminder – you will later create a second HIT with the location set as "UNITED STATES (US)".
+* Location is "INDIA (IN)". A reminder – you will have to create a HIT with the location set as "INDIA (IN)" and another HIT with the location set as "UNITED STATES (US)".
 
 <img src="images/requester-step-3.png" alt="Edit the Worker Requirements for your project" class="img-responsive" />
 
@@ -75,26 +75,26 @@ In the **Design Layout** tab, edit the HTML for the categories, header, and name
 
 <img src="images/requester-step-4a.png" alt="Edit the Worker Requirements for your project" class="img-responsive" />
 
-After you've made those edits, you can click on Save and then Preview to see what your HIT will look like to workers.   Since you haven't yet uploaded any information (like the URLs for the images that you want users to judge), there will be a placeholder saying "Image will display here".  
+After making those edits, click on Save and then Preview to see what your HIT will look like to workers.   Since you haven't yet uploaded any information (like the URLs for the images that you want users to judge), there will be a placeholder saying "Image will display here".  
 
 <img src="images/requester-step-5a.png" alt="Preview what your HIT will look like to workers" class="img-responsive" />
 
-If you're satisfied with how the HIT looks, you can click the Finish button.  You'll then see your newly created task listed with a big orange button saying "Publish Batch" next to it.  You can publish a batch by clicking that button and uploading a comma separated value (CSV) file with the inputs to the HIT.  The popup screen that appears will give you a link to download a sample .csv file that shows what fields you need for your HIT.  For this HIT design, all we need is a single column with the header *image_url*, and a list of the image URLs that we want workers to judge.  Here's a [small CSV file](assignments/downloads/wedding-photos-small.csv) that you can use to test your HIT.
+If you're satisfied with how the HIT looks, click the Finish button.  You'll then see your newly created task listed with a big orange button saying "Publish Batch" next to it.  You can publish a batch by clicking that button and uploading a comma separated value (CSV) file with the inputs to the HIT.  The popup screen that appears will give you a link to download a sample .csv file that shows what fields you need for your HIT.  For this HIT design, all we need is a single column with the header *image_url*, and a list of the image URLs that we want workers to judge.  Here's a [small CSV file](assignments/downloads/wedding-photos-small.csv) that you can use to test your HIT. Note: This is a sample .csv file that should be used just for testing purposes. You will use a larger .csv file containing all of the wedding photos in your two HITs. This larger .csv file can be found further down in the instructions. 
 
 
 <img src="images/requester-step-6.png" alt="Upload your CSV file" class="img-responsive" width="50%"/>
 
-Once you've uploaded the CSV then you can preview the HITs with the data populating them. There's a "Next HIT" button that will let you click through and preview multiple assignments.  This is useful to check things like whether your image links are all working properly.  
+After uploading your .csv file, you can preview the HITs with the data populating them. There's a "Next HIT" button that will let you click through and preview multiple assignments. This is useful to confirm that your image links are all working properly.  
 
 
 <img src="images/requester-step-7a.png" alt="Preview what your HIT will look like to workers" class="img-responsive" />
 
-If you're happy with how the HITs look, you can click the big orange "Next" button at the bottom.  You'll then see a summary screen that gives details about the HIT including how much it will cost.  You can then publish your task for Turkers to work on by clicking on the big orange "Publish" button.
+If you're happy with how the HITs look, click the big orange "Next" button at the bottom.  You'll then see a summary screen that gives details about the HIT including how much it will cost.  Publish your task for Turkers to work on by clicking on the big orange "Publish" button.
 
 
 <img src="images/requester-step-8.png" alt="Confirm the cost before you publish" class="img-responsive" />
 
-Your HITs will be posted to MTurk.  Once work has begun, you can mointor progress in the [Manage tab](https://requester.mturk.com/manage). You'll see a green progress bar showing how many of them have been completed. 
+Your HITs will be posted to MTurk.  Once work has begun, you can monitor progress in the [Manage tab](https://requester.mturk.com/manage). You'll see a green progress bar showing how many of them have been completed. 
 
 
 <img src="images/requester-step-9.png" alt="Confirm the cost before you publish" class="img-responsive" />
@@ -118,14 +118,15 @@ Three workers said that the second URL did show a wedding.  This is the image th
 <img src="images/weddings-indian-languages_hindi_7246_01.jpg" alt="This does show a wedding" class="img-responsive" width="33%" />
 
 
-The Review Results screen will also let you approve or reject the Workers' submissions.  I recommend going ahead and approving all the assignments for this test HIT.
-You can also Download all of these results in a CSV file.  Here is the [results file](assignments/downloads/wedding-photos-small-Batch_3537650_batch_results.csv) from when I ran the HIT.   You can open the CSV file in a spreadsheet app.  You'll notice that the CSV file has a lot of extra fields that include information about your HIT, including the properties that you included for it, and info about the amount of time that workers took to complete each assignment.  Columns in the results CSV that start with "Input." are the variables that were in the CSV that you uploaded.  Columns that start with "Answer." are the answers that the Turkers provided.
+The Review Results screen will also let you approve or reject the Workers' submissions. It is recommended to go ahead and approve all the assignments for this tutorial HIT.
+
+You can also download all of these results as a .csv file.  Here is the [results file](assignments/downloads/wedding-photos-small-Batch_3537650_batch_results.csv) from when Professor Callison-Burch created a test HIT with the 17 sample images. You can open the CSV file in a spreadsheet app. You'll notice that the CSV file has a lot of extra fields that include information about your HIT, including the properties that you included for it, and info about the amount of time that workers took to complete each assignment.  Columns in the results CSV that start with "Input." are the variables that were in the CSV that you uploaded.  Columns that start with "Answer." are the answers that the Turkers provided.
 
 
 
 ## Why are we labeling images of Indian weddings?
 
-Last week, you trained an image classifier with modern machine learning methods to achieve state-of-the-art results, making use of _transfer learning_ from the ImageNet dataset, which was [collected with large-scale crowdsourcing](http://image-net.org/tutorials/cvpr2015/crowdsourcing_slides.pdf). 
+This assignment is directly connected to HW5. In HW5, you will create classifiers trained on the images and labels you receive from your HITs. As one classifier will be trained solely on the US-based results and another classifier solely on the India-based results, it is expected that there will be differences between the two models. The goal of these two assignments is to highlight the ability for human bias and beliefs ingrained in the training data to influence the predictive nature of ML models, which can cause unintended and sometimes negative consequences.
 
 [AI encodes and magnifies bias](https://www.fast.ai/2019/01/29/five-scary-things/#bias), and [Google researchers](https://ai.google/research/pubs/pub46553) found that ImageNet and another popular dataset called Open Images "appear to exhibit an observable amerocentric and eurocentric representation bias," as demonstrated by the distribution of geographically identifiable images in the datasets, with 2/3 of the images from the Western world.
 
@@ -134,13 +135,13 @@ Last week, you trained an image classifier with modern machine learning methods 
 
 
 
-In addition, classifiers trained on the datasets show "strong differences in the relative performance on images from different locales", with lower accuracy and confidence on images with labels related to people, like "bridegroom" and "police officer", from countries like India and China. The research helped inspire the [Inclusive Images Challenge](https://ai.googleblog.com/2018/09/introducing-inclusive-images-competition.html), run by Google in partnership with a top deep learning conference called NeurIPS, last year.
+In addition, classifiers trained on the datasets show "strong differences in the relative performance on images from different locales", with lower accuracy and confidence on images with labels related to people, like "bridegroom" and "police officer", from countries like India and China. The research helped inspire the [Inclusive Images Challenge](https://ai.googleblog.com/2018/09/introducing-inclusive-images-competition.html), run by Google in partnership with a top deep learning conference called NeurIPS, back in 2018.
 
 
 <img src="images/bias-towards-western-weddings.png" alt="This classifier has no problem correctly labeling photos of Western weddings, but fails on pictures of weddings from other cultures" class="img-responsive" />
 
 
-A different large-scale crowdsourced dataset, [The Massively Multilingual Image Dataset (MMID)](http://multilingual-images.org/), was created by Penn researchers to learn English translations for words in 100 foreign languages, by scraping images for each foreign word and finding the English words that had the most "similar" images.
+A different large-scale crowdsourced dataset, [The Massively Multilingual Image Dataset (MMID)](http://multilingual-images.org/), was created by Penn researchers to learn English translations for words in 100 foreign languages by scraping images for each foreign word and finding the English words that had the most "similar" images.
 
 
 
@@ -150,18 +151,8 @@ A different large-scale crowdsourced dataset, [The Massively Multilingual Image 
 
 MMID contains around 100 images for around 10,000 words in 100 foreign languages, providing an interesting source of data for improving the "geodiversity" of image classifiers. However, [the images for an English translation of a foreign word can be noisy](http://aclweb.org/anthology/P18-1239), as shown by crowdworkers who evaluated the relevance of images for a large subset of translations in 3 languages.
 
-In this assignment, you will explore how a classifier pre-trained on ImageNet performs on photos representing wedding-related words in several Indian languages, and employ Indian workers on Mechanical Turk to validate that images are in fact related to weddings. You should work in teams of 2.
 
 ## What to do in this assignment
-
-You'll do the following things in this assignment:
-1. Use an image classifier trained on ImageNet to classify a set of wedding pictures that were collected in the MMID data set for several Indian langauges and several Western European languages.
-2. See what faction of the images are predicted to depict weddings by the classifier.
-3. Post the images to Mechanical Turk and having India-based Turkers manually label whether the images depict weddings.  We'll give you a HIT design that will allow Turkers to label more than one image at once.
-4. Aggregate the workers results to create a set of correct labels for the images.
-5. Validate the model's predictions by comparing them to the correct labels that you derived from the Turkers' answers.
-6. Analyze the results and write a short report about your findings.
-7. Upload your MTurk results CSV file and your code.
 
 <div class="panel panel-info">
 <div class="panel-heading" markdown="1">
@@ -169,38 +160,21 @@ You'll do the following things in this assignment:
 </div>
 <div class="panel-body" markdown="1">
 
-1. In a Colab notebook with a GPU runtime **(Runtime -> Change runtime type -> Hardware accelarator -> GPU)**, follow the Keras code to [Classify ImageNet classes with ResNet50](https://keras.io/applications/#classify-imagenet-classes-with-resnet50) on a wedding image you download from Google Images and upload to Colab, to get a feel for the code. Keras is a high-level neural networks library that makes it easy to run pre-trained models. **You should upload files to Colab by going to the "Files" tab on the left panel.**
 
-2. Upload the [zipped "Weddings Indian Languages" dataset](https://nets213-hw5.s3.amazonaws.com/weddings-indian-languages.zip) to Colab and run `!unzip "weddings-indian-languages.zip"` in a new cell. The dataset is composed of around 200-1000 images per language, for 8 languages spoken in India (Bengali, Gujarati, Hindi, Malayalam, Marathi, Punjabi, Tamil, and Telugu), taken from MMID. Repeat with [the "Weddings European Language" dataset](https://nets213-hw5.s3.amazonaws.com/weddings-european-language.zip), which includes Spanish.
+1. Upload the [zipped "Weddings Indian Languages" dataset](https://nets213-hw5.s3.amazonaws.com/weddings-indian-languages.zip) to Colab and run `!unzip "weddings-indian-languages.zip"` in a new cell. The dataset is composed of around 200-1000 images per language, for 8 languages spoken in India (Bengali, Gujarati, Hindi, Malayalam, Marathi, Punjabi, Tamil, and Telugu), taken from MMID. Repeat with [the "Weddings European Language" dataset](https://nets213-hw5.s3.amazonaws.com/weddings-european-language.zip).
 
-3. Create a [Pandas DataFrame](https://colab.research.google.com/drive/1aASE_EiwZTT18ktR7uaLMWbMI30QXdk5) from a list of dictionaries, where each dictionary contains the results of the classifier on an image, and looks like this.
-```
-{"path": "weddings-indian-languages/punjabi/7899/01.jpg",
-"predictions": ["vestment", "abaya", "cloak"],
-"predictions_include_groom_or_bridegroom": False}
-```
-We recommend using the [glob module](https://docs.python.org/3/library/glob.html) with the appropriate wildcards to get a list of all the images. Save the DataFrame as `image_paths_and_predictions.csv`, which you will use later in the assignment. To simplify step 7, **you must add "https://s3.amazonaws.com/nets213-hw5/" to the beginning of each image file path**, before saving the DataFrame as a CSV.
+2. Create a single list of all image_url filepaths to the photos found in both datasets. We recommend using the [glob module](https://docs.python.org/3/library/glob.html) with the appropriate wildcards to get a list of all the images. The format of the filepaths must be the same as that found in the sample "wedding-photos-small.csv" input file used in your tutorial HIT. For example, one image_url would look like: "https://s3.amazonaws.com/nets213-hw5/weddings-indian-languages/gujarati/7267/01.jpg". In other words, **you must add "https://s3.amazonaws.com/nets213-hw5/" to the beginning of each image file path**. Additionally, **shuffle all your rows**. You need to shuffle all your rows in a random fashion in order to randomize the images that the workers label. As it would be too costly to have all the images labeled, this randomization is necessary to get an even range of images. Save this Colab notebook, as you will be submitting a URL to it.
+
+3. Save this list as a .csv file called "input.csv". This .csv file should be in the exact same format as that found in the sample "wedding-photos-small.csv" input file you used in your tutorial HIT. In the end, your input.csv file will contain all the image_url filepaths for both the Indian and European wedding folders. 
 
 4. We have created an alternate HIT design that lets workers label 12 images at a time (here's a [screenshot](images/requester-step-11.png)).
-Use the [HIT design that we provide](assignments/downloads/wedding-image-annotation-HIT-design-v2.txt) to create the HIT. Download a sample of the input CSV file for the project at the top of the preview page, and finish creating the HIT.  
+Use the [HIT design that we provide](assignments/downloads/wedding-image-annotation-HIT-design-v2.txt) when designing your two HITs.
 
-5. Use the sample `input.csv` file format and data from `image_paths_and_predictions.csv` (created in step 3, which you can load in as a DataFrame) to create `variables.csv` with the right format for this HIT.
+5. Using this alternate HIT design found above, create your second HIT with the same settings as the first tutorial HIT. This HIT should also have a worker location property of "INDIA (IN)". This second HIT will be completed by workers located in India. Confirm all your settings and publish your HIT. This second HIT should cost approximately $12.50. **Make sure to screenshot this page for the report**. 
 
-6. Click "Publish Batch" in MTurk, uploading `variables.csv`, and preview the tasks. Click "Next" and confirm the settings of your HIT, which should cost approximately $25 per team. **Make sure to screenshot this page for the report**. Sit back and watch the crowd work!
+6. Create your third HIT with the same settings, but with the worker location property of "UNITED STATES (US)". This third HIT will be completed by workers located in the US. Confirm all your settings and publish your HIT. This third HIT should cost approximately $12.50. **Make sure to screenshot this page for the report**. As your first tutorial HIT should cost approximately $1, second HIT as $12.50, and your third HIT as $12.50, the total expense per team should be approximately $26.
 
-7. When the HIT is done, download the Batch CSV and read it into a DataFrame in Colab. For every row in the DataFrame, split "Answer.selected" to get the list of images that workers identified as wedding-related. For each image in the row (in columns "Input.image<number>"), if image<number> is in the selected images, update a counter, where the key is the URL in the "Input.image<number>" column. Here is the pseudocode:
-```
-Create a Counter object counts
-For every row in the DataFrame:
-     true_images = the list of images from splitting the string in the "Answer.selected" column of the row
-     for every column "Input.image<number>":
-         url = row["Input.image<number>"]
-         if image<number> is in true_images:
-            counts[url] += 1
-         else:
-            counts[url] += 0
-```
-8. Create a DataFrame from the resulting counter, and derive a new column that is True only if the counter value is 2 or more (a majority of the workers said the image represented weddings). Use the merge function to join the DataFrame loaded from `image_paths_and_predictions.csv` to the DataFrame of true labels, on the column of image paths. Save the DataFrame as `submissions.csv`. Calculate the precision, recall, and F1 score of the classifier, for Western images vs. non-Western images. Are you surprised by the results you got? Analyze the predictions and "true labels" further by visualizing images that the classifier (in)correctly labeled.
+7. After these two HITs are completed by workers, download the results into two separate .csv files. These two files will be submitted on Gradescope. 
 
 </div>
 </div>
@@ -211,15 +185,14 @@ For every row in the DataFrame:
 </div>
 <div class="panel-body" markdown="1">
 
-Below are the questions that you will be asked to answer about this assignment. Please turn in your answers in a PDF for [Homework 5 on Gradescope]({{page.submission_link}}).
+Below are the questions that you will be asked to answer about this assignment. Please turn in your answers in a PDF for Homework 4 on Gradescope.
 
 1. What is the link to your Colab notebook?
-2. Attach a screenshot of the page confirming the settings of your HIT.
-3. What is the precision, recall, and F1 score of the classifier on Western images vs. on non-Western images? Compare the differences.
-4. Analyze how the predictions of the classifier compare to the labels of the workers. Include images to explain why you think the classifier correctly or incorrectly labeled certain images.
-5. If you had more time to work on this HIT, what additional things would you add in the creation or processing of the HIT for better quality control and aggregation?
-6. Upload `submissions.csv` and the Batch CSV file (From step 9) with the MTurk results
-7. Calculate the cost of annotating images from the entire wedding dataset (Both Indian and European) on MTurk using the 1-image-per-HIT design that was described in the section “Your First HIT”. Compare this cost with the cost you obtained while using the multiple-images-per-HIT-design we gave you. Assume the “Reward per Assignment” in both the cases to be $0.01, and the “Number of Assignments per Task” to be 3. State any other assumptions necessary.
-8. Calculate the cost of annotating the 35 million images in the MMID. For this question, you are free to choose any HIT design, and any values for “Reward per Assignment” and “Number of Assignments per task”.  State your reasons for choosing the design and these values. State any other assumptions necessary.
+2. Attach screenshots of the pages confirming the settings of your second HIT (India-based workers) and third HIT (US-based workers).
+3. If you had more time to work on this HIT, what additional things would you add in the creation or processing of the HIT for better quality control and aggregation?
+4. Calculate the cost of annotating images from the entire wedding dataset (Both Indian and European) on MTurk using the 1-image-per-HIT design that was described in the section “Your First HIT”. Compare this cost with the cost you obtained while using the multiple-images-per-HIT-design we gave you. Assume the “Reward per Assignment” in both the cases to be $0.01, and the “Number of Assignments per Task” to be 3. State any other assumptions necessary.
+5. Calculate the cost of annotating the 35 million images in the MMID. For this question, you are free to choose any HIT design, and any values for “Reward per Assignment” and “Number of Assignments per task”.  State your reasons for choosing the design and these values. State any other assumptions necessary.
+6. Next week you will use the results from your HITs to train classifiers. What differences could you expect between a classifier trained solely on the India-based worker labels and a classifier trained solely on the US-based worker labels?
+7. Find a real life incident when bias within a model's training dataset caused unintended negative consequences. What were the consequences? Why did these unintended conseqences occur? What was the problem in the training dataset? What could have been done to prevent this incident from having occurred? 
 </div>
 </div>
