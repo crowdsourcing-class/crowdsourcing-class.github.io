@@ -41,9 +41,9 @@ We will be asking workers to label images for us, similar to how [Fei-Fei Li cre
 
 ## Your first HIT
 
-Let's get started with creating your first HIT on MTurk.   After logging into your requester account, go to the Create Tab and then click [New Project](](https://requester.mturk.com/create/projects/new)).  We'll be labeling images, so you can start with the built-in Image Contains  HIT design (shown below).
+Let's get started with creating your first HIT on MTurk.   After logging into your requester account, go to the Create Tab and then click [New Project](](https://requester.mturk.com/create/projects/new)).  We'll be labeling images, so you can start with the default Image Classification template (shown below).
 
-<img src="images/requester-step-1.png" alt="Click on the Create tab to start building a New Project" class="img-responsive" />
+<img src="images/requestor-step-1a.png" alt="Click on the Create tab to start building a New Project" class="img-responsive" />
 
 Select Image Classification, and then click on Create Project.  You will see 3 tabs: 
 * **Enter Properties** is where you can configure how much you will pay workers to do your task (Reward per assignment), how many workers you want to annotate each item (Number of assignments per task), and who is allowed to work on your your tasks (Worker requirements).
