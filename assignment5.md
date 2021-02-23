@@ -39,7 +39,7 @@ Once you are a requester, you will be able to post work on MTurk and to pay work
 
 We will be asking workers to label images for us, similar to how [Fei-Fei Li created ImageNet](https://qz.com/1034972/the-data-that-changed-the-direction-of-ai-research-and-possibly-the-world/).
 
-In this assignment, you will ask workers to classify images on whether or not the image depicts a wedding. These images will be representative of both Western and Indian cultures. You will create three HITs. The first HIT will be a small task with 17 sample images and is intended to be completed as a tutorial for students to learn how to make a HIT. The other two HITs will be completed with a larger dataset of wedding images. The second HIT will be completed by workers located in the US and the third HIT will be completed by workers located in India. Your results from these two HITs will be used in the following HW5 assignment, in which you will train a classifier solely on the US-based results and another classifier solely on the India-based results. During HW5, you can observe the differences in the two classifiers. 
+In this assignment, you will ask workers to classify images on whether or not the image depicts a wedding. These images will be representative of both Western and Indian cultures. You will create three HITs. The first HIT will be a small task with 17 sample images and is intended to be completed as a tutorial on how to make a HIT. The other two HITs will be completed with a larger dataset of wedding images. The second HIT will be completed by workers located in India and the third HIT will be completed by workers located in the US. Your results from these two HITs will be used in the following HW5 assignment, in which you will train a classifier solely on the India-based results and another classifier solely on the US-based results. During HW5, you can observe the differences in the two classifiers. 
 
 ## Creating your first HIT
 
@@ -67,19 +67,19 @@ In the **Enter Properties** tab, you should change the following fields (you can
 In the **Worker requirements** section of the **Enter Properties** tab, add the following qualifications that workers have to meet in order to do the task:
 * HIT Approval Rate >= 90%
 * Number of HITs approved >= 500
-* Location is "INDIA (IN)". A reminder – you will have to create a HIT with the location set as "INDIA (IN)" and another HIT with the location set as "UNITED STATES (US)".
+* Location is "INDIA (IN)". A reminder – your second HIT will have the location set as "INDIA (IN)" and your third HIT will have the location set as "UNITED STATES (US)".
 
 <img src="images/requester-step-3.png" alt="Edit the Worker Requirements for your project" class="img-responsive" />
 
-In the **Design Layout** tab, edit the HTML for the categories, header, and name. Additionally, edit the short-instructions and add full-instructions. Below is a screenshot with an example of instructions.
+In the **Design Layout** tab, edit the HTML for the categories, header, and name. Additionally, edit the short-instructions and add full-instructions. Below is a screenshot with an example of instructions. Workers will be able to read these instructions to better understand what to do in the task.
 
 <img src="images/requester-step-4a.png" alt="Edit the Worker Requirements for your project" class="img-responsive" />
 
-After making those edits, click on Save and then Preview to see what your HIT will look like to workers.   Since you haven't yet uploaded any information (like the URLs for the images that you want users to judge), there will be a placeholder saying "Image will display here".  
+After making those edits, click on Save and then Preview to see what your HIT will look like to workers.   Since you haven't yet uploaded any information (like the URLs for the images that you want workers to judge), there will be a placeholder saying "Image will display here".  
 
 <img src="images/requester-step-5a.png" alt="Preview what your HIT will look like to workers" class="img-responsive" />
 
-If you're satisfied with how the HIT looks, click the Finish button.  You'll then see your newly created task listed with a big orange button saying "Publish Batch" next to it.  You can publish a batch by clicking that button and uploading a comma separated value (CSV) file with the inputs to the HIT.  The popup screen that appears will give you a link to download a sample .csv file that shows what fields you need for your HIT.  For this HIT design, all we need is a single column with the header *image_url*, and a list of the image URLs that we want workers to judge.  Here's a [small CSV file](assignments/downloads/wedding-photos-small.csv) that you can use to test your HIT. Note: This is a sample .csv file that should be used just for testing purposes. You will use a larger .csv file containing all of the wedding photos in your two HITs. This larger .csv file can be found further down in the instructions. 
+If you're satisfied with how the HIT looks, click the Finish button.  You'll then see your newly created task listed with a big orange button saying "Publish Batch" next to it.  You can publish a batch by clicking that button and uploading a comma separated value (CSV) file with the inputs to the HIT.  The popup screen that appears will give you a link to download a sample .csv file that shows what fields you need for your HIT.  For this HIT design, all we need is a single column with the header *image_url*, and a list of the image URLs that we want workers to judge.  Here's a [small CSV file](assignments/downloads/wedding-photos-small.csv) that you can use to test your HIT. Note: this is a sample .csv file that should be used only for this first tutorial HIT. You will use a larger .csv file containing all of the wedding photos in your other two HITs. This larger .csv file that you will create will have a different format as this sample .csv file, as explained in the instructions below. 
 
 
 <img src="images/requester-step-6.png" alt="Upload your CSV file" class="img-responsive" width="50%"/>
@@ -108,7 +108,7 @@ You can see the individual responses by clicking on the "Review Results" link ab
 
 <img src="images/requester-step-10.png" alt="Review the results from the workers" class="img-responsive" />
 
-You can see that the three workers all said that the first URL did not show a wedding.  This is the image that they said doesn't show a wedding:
+Notice that the three workers all said that the first URL did not show a wedding.  This is the image that they said doesn't show a wedding:
 
 <img src="images/weddings-indian-languages_gujarati_7268_01.jpg" alt="This doesn't show a wedding" class="img-responsive" width="33%" />
 
@@ -118,9 +118,9 @@ Three workers said that the second URL did show a wedding.  This is the image th
 <img src="images/weddings-indian-languages_hindi_7246_01.jpg" alt="This does show a wedding" class="img-responsive" width="33%" />
 
 
-The Review Results screen will also let you approve or reject the Workers' submissions. It is recommended to go ahead and approve all the assignments for this tutorial HIT.
+The Review Results screen will let you approve or reject the Workers' submissions. It is recommended to automatically approve all the assignments for this first tutorial HIT.
 
-You can also download all of these results as a .csv file.  Here is the [results file](assignments/downloads/wedding-photos-small-Batch_3537650_batch_results.csv) from when Professor Callison-Burch created a test HIT with the 17 sample images. You can open the CSV file in a spreadsheet app. You'll notice that the CSV file has a lot of extra fields that include information about your HIT, including the properties that you included for it, and info about the amount of time that workers took to complete each assignment.  Columns in the results CSV that start with "Input." are the variables that were in the CSV that you uploaded.  Columns that start with "Answer." are the answers that the Turkers provided.
+You can download all of these results as a .csv file.  Here is the [results file](assignments/downloads/wedding-photos-small-Batch_3537650_batch_results.csv) from when Professor Callison-Burch created a test HIT with the 17 sample images. Note that the .csv file has many additional fields that include information about your HIT, such as the properties that you specified and information about the amount of time that workers took to complete each assignment. Columns in the results .csv that start with "Input." are the variables that were in the .csv file that you uploaded.  Columns that start with "Answer." are the answers that the Turkers provided.
 
 
 
@@ -160,21 +160,23 @@ MMID contains around 100 images for around 10,000 words in 100 foreign languages
 </div>
 <div class="panel-body" markdown="1">
   
-1. Upload the [zipped "Weddings Indian Languages" dataset](https://nets213-hw5.s3.amazonaws.com/weddings-indian-languages.zip) to Colab and run `!unzip "weddings-indian-languages.zip"` in a new cell. The dataset is composed of around 200-1000 images per language, for 8 languages spoken in India (Bengali, Gujarati, Hindi, Malayalam, Marathi, Punjabi, Tamil, and Telugu), taken from MMID. Repeat with [the "Weddings European Language" dataset](https://nets213-hw5.s3.amazonaws.com/weddings-european-language.zip).
-2. Create a single list of all image_url filepaths to the photos found in both datasets. We recommend using the [glob module](https://docs.python.org/3/library/glob.html) with the appropriate wildcards to get a list of all the images. The format of the filepaths must be the same as that found in the sample "wedding-photos-small.csv" input file used in your tutorial HIT. For example, one image_url would look like: "https://s3.amazonaws.com/nets213-hw5/weddings-indian-languages/gujarati/7267/01.jpg". In other words, **you must add "https://s3.amazonaws.com/nets213-hw5/" to the beginning of each image file path**. Additionally, **shuffle all your rows**. You need to shuffle all your rows in a random fashion in order to randomize the images that the workers label. As it would be too costly to have all the images labeled, this randomization is necessary to get an even range of images. Save this Colab notebook, as you will be submitting a URL to it.
-3. Save this list as a .csv file called "input.csv". This .csv file should be in the exact same format as that found in the sample "wedding-photos-small.csv" input file you used in your tutorial HIT. In the end, your input.csv file will contain all the image_url filepaths for both the Indian and European wedding folders. 
-4. We have created an alternate HIT design that lets workers label 12 images at a time (here's a [screenshot](images/requester-step-11.png)). Use the [HIT design that we provide](assignments/downloads/wedding-image-annotation-HIT-design-v2.txt) when designing your two HITs.
-5. Using this alternate HIT design found above, create your second HIT with the same settings as the first tutorial HIT. This HIT should also have a worker location property of "INDIA (IN)". This second HIT will be completed by workers located in India. Confirm all your settings and publish your HIT. This second HIT should cost approximately $12.50. **Make sure to screenshot this page for the report**. 
-6. Create your third HIT with the same settings, but with the worker location property of "UNITED STATES (US)". This third HIT will be completed by workers located in the US. Confirm all your settings and publish your HIT. This third HIT should cost approximately $12.50. **Make sure to screenshot this page for the report**. As your first tutorial HIT should cost approximately $1, second HIT as $12.50, and your third HIT as $12.50, the total expense per team should be approximately $26.
-7. After these two HITs are completed by workers, download the results into two separate .csv files. These two files will be submitted on Gradescope. 
+1. Upload the [zipped "Weddings Indian Languages" dataset](https://nets213-hw5.s3.amazonaws.com/weddings-indian-languages.zip) to Colab and run `!unzip "weddings-indian-languages.zip"` in a new cell. The dataset is composed of around 200-1000 images per language, for 8 languages spoken in India (Bengali, Gujarati, Hindi, Malayalam, Marathi, Punjabi, Tamil, and Telugu), taken from MMID. Repeat with [the "Weddings European Language" dataset](https://nets213-hw5.s3.amazonaws.com/weddings-european-language.zip). You will submit the URL to this Colab notebook on Gradescope.
+2. Create a single list of all image_url filepaths to the photos found in both datasets. We recommend using the [glob module](https://docs.python.org/3/library/glob.html) with the appropriate wildcards to get a list of all the images. The format of the filepaths must be the same as that found in the sample "wedding-photos-small.csv" input file used in your tutorial HIT. For example, one image_url would look like: "https://s3.amazonaws.com/nets213-hw5/weddings-indian-languages/gujarati/7267/01.jpg". In other words, **you must add "https://s3.amazonaws.com/nets213-hw5/" to the beginning of each image file path**. Additionally, **shuffle all your rows**. You need to shuffle all your rows in a random fashion in order to randomize the images that the workers label. As it would be too costly to have all the images labeled, this randomization is necessary to get an even range of images.
+3. In order for your input .csv file to work with the alternate HIT design (see step 4), it will have a different format than that found in the sample "wedding-photos-small.csv" input file you used in your tutorial HIT. The goal of this step is to ultimately create a "input.csv" file with twelve columns labeled "image1", "image2", "image3", "image4", "image5", "image6", "image7", "image8", "image9", "image10", "image11", and "image12". The image_url filepaths should be evenly distributed among these twelve columns in your final input.csv file. It is recommended to do this step in Colab and then export as a .csv file.
+8. We have created an alternate HIT design that lets workers label 12 images at a time (here's a [screenshot](images/requester-step-11.png)). Use the [HIT design that we provide](assignments/downloads/wedding-image-annotation-HIT-design-v2.txt) when designing your HIT by copying and pasting the code into your "Design Layout" section. 
+9. Using this alternate HIT design found above, create your second HIT with the same settings as the first tutorial HIT. This HIT should also have a worker location property of "INDIA (IN)". This second HIT will be completed by workers located in India. Confirm all your settings and publish your HIT. This second HIT should cost approximately $12.50. **Make sure to screenshot this page for the report**. 
+10. Create your third HIT with the same settings, but with the worker location property of "UNITED STATES (US)". This third HIT will be completed by workers located in the US. Confirm all your settings and publish your HIT. This third HIT should cost approximately $12.50. **Make sure to screenshot this page for the report**. As your first tutorial HIT should cost approximately $1, second HIT as $12.50, and third HIT as $12.50, the total expense per team should be approximately $26.
+11. After these two HITs are completed by workers, download the results into two separate .csv files. These two files will be submitted on Gradescope. 
 </div>
 </div>
+
 
 <div class="panel panel-primary" id="questions">
 <div class="panel-heading" markdown="1">
 #### Report
 </div>
 <div class="panel-body" markdown="1">
+  
 Below are the questions that you will be asked to answer about this assignment. Please turn in your answers in a PDF for Homework 4 on Gradescope.
 
 1. What is the link to your Colab notebook?
