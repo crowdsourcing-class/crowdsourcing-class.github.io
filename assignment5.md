@@ -161,20 +161,12 @@ MMID contains around 100 images for around 10,000 words in 100 foreign languages
 <div class="panel-body" markdown="1">
   
 1. Upload the [zipped "Weddings Indian Languages" dataset](https://nets213-hw5.s3.amazonaws.com/weddings-indian-languages.zip) to Colab and run `!unzip "weddings-indian-languages.zip"` in a new cell. The dataset is composed of around 200-1000 images per language, for 8 languages spoken in India (Bengali, Gujarati, Hindi, Malayalam, Marathi, Punjabi, Tamil, and Telugu), taken from MMID. Repeat with [the "Weddings European Language" dataset](https://nets213-hw5.s3.amazonaws.com/weddings-european-language.zip).
-
 2. Create a single list of all image_url filepaths to the photos found in both datasets. We recommend using the [glob module](https://docs.python.org/3/library/glob.html) with the appropriate wildcards to get a list of all the images. The format of the filepaths must be the same as that found in the sample "wedding-photos-small.csv" input file used in your tutorial HIT. For example, one image_url would look like: "https://s3.amazonaws.com/nets213-hw5/weddings-indian-languages/gujarati/7267/01.jpg". In other words, **you must add "https://s3.amazonaws.com/nets213-hw5/" to the beginning of each image file path**. Additionally, **shuffle all your rows**. You need to shuffle all your rows in a random fashion in order to randomize the images that the workers label. As it would be too costly to have all the images labeled, this randomization is necessary to get an even range of images. Save this Colab notebook, as you will be submitting a URL to it.
-
 3. Save this list as a .csv file called "input.csv". This .csv file should be in the exact same format as that found in the sample "wedding-photos-small.csv" input file you used in your tutorial HIT. In the end, your input.csv file will contain all the image_url filepaths for both the Indian and European wedding folders. 
-
-4. We have created an alternate HIT design that lets workers label 12 images at a time (here's a [screenshot](images/requester-step-11.png)).
-Use the [HIT design that we provide](assignments/downloads/wedding-image-annotation-HIT-design-v2.txt) when designing your two HITs.
-
+4. We have created an alternate HIT design that lets workers label 12 images at a time (here's a [screenshot](images/requester-step-11.png)). Use the [HIT design that we provide](assignments/downloads/wedding-image-annotation-HIT-design-v2.txt) when designing your two HITs.
 5. Using this alternate HIT design found above, create your second HIT with the same settings as the first tutorial HIT. This HIT should also have a worker location property of "INDIA (IN)". This second HIT will be completed by workers located in India. Confirm all your settings and publish your HIT. This second HIT should cost approximately $12.50. **Make sure to screenshot this page for the report**. 
-
 6. Create your third HIT with the same settings, but with the worker location property of "UNITED STATES (US)". This third HIT will be completed by workers located in the US. Confirm all your settings and publish your HIT. This third HIT should cost approximately $12.50. **Make sure to screenshot this page for the report**. As your first tutorial HIT should cost approximately $1, second HIT as $12.50, and your third HIT as $12.50, the total expense per team should be approximately $26.
-
 7. After these two HITs are completed by workers, download the results into two separate .csv files. These two files will be submitted on Gradescope. 
-
 </div>
 </div>
 
@@ -183,9 +175,7 @@ Use the [HIT design that we provide](assignments/downloads/wedding-image-annotat
 #### Report
 </div>
 <div class="panel-body" markdown="1">
-
 Below are the questions that you will be asked to answer about this assignment. Please turn in your answers in a PDF for Homework 4 on Gradescope.
-
 1. What is the link to your Colab notebook?
 2. Attach screenshots of the pages confirming the settings of your second HIT (India-based workers) and third HIT (US-based workers).
 3. If you had more time to work on this HIT, what additional things would you add in the creation or processing of the HIT for better quality control and aggregation?
