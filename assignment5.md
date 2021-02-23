@@ -45,7 +45,7 @@ In this assignment, you will ask workers to classify images on whether or not th
 
 Let's get started with creating your first HIT on MTurk.   After logging into your requester account, go to the Create Tab and then click [New Project](](https://requester.mturk.com/create/projects/new)).  We'll be labeling images, so you can start with the default Image Classification template (shown below).
 
-<img src="images/requestor-step-1a.png" alt="Click on the Create tab to start building a New Project" class="img-responsive" />
+<img src="images/requester-step-1a.png" alt="Click on the Create tab to start building a New Project" class="img-responsive" />
 
 Select Image Classification and then click on Create Project.  You will see 3 tabs: 
 * **Enter Properties** is where you can configure how much you will pay workers to do your task (Reward per assignment), how many workers you want to annotate each item (Number of assignments per task), and who is allowed to work on your your tasks (Worker requirements).
@@ -87,9 +87,9 @@ If you're satisfied with how the HIT looks, you can click the Finish button.  Yo
 Once you've uploaded the CSV then you can preview the HITs with the data populating them. There's a "Next HIT" button that will let you click through and preview multiple assignments.  This is useful to check things like whether your image links are all working properly.  
 
 
-<img src="images/requester-step-7.png" alt="Preview what your HIT will look like to workers" class="img-responsive" />
+<img src="images/requester-step-7a.png" alt="Preview what your HIT will look like to workers" class="img-responsive" />
 
-If you're happy with how the HITs look, you can click the big orange "Next" button.  You'll then see a summary screen that gives details about the HIT including how much it will cost.  You can then publish your task for Turkers to work on by clicking on the big orange "Publish" button.
+If you're happy with how the HITs look, you can click the big orange "Next" button at the bottom.  You'll then see a summary screen that gives details about the HIT including how much it will cost.  You can then publish your task for Turkers to work on by clicking on the big orange "Publish" button.
 
 
 <img src="images/requester-step-8.png" alt="Confirm the cost before you publish" class="img-responsive" />
