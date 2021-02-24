@@ -2,7 +2,7 @@
 layout: default
 img: xkcd-computer-vision
 caption: In the 60s, Marvin Minsky assigned a couple of undergrads to spend the summer programming a computer to use a camera to identify objects in a scene. He figured they'd have the problem solved by the end of the summer. Half a century later, we're still working on it
-title: Homework 4 "Training a classifier"
+title: Homework 5 "Training a classifier"
 active_tab: homework
 release_date: 2019-02-12
 due_date: 2019-02-19T23:59:00EST
@@ -25,7 +25,7 @@ This assignment is before {{ page.due_date | date: "%I:%M%p" }}  due on {{ page.
 </div>
 
 
-Training a classifier<span class="text-muted"> : Assignment 4</span> 
+Training a classifier<span class="text-muted"> : Assignment 5</span> 
 =============================================================
 Deep learning is transforming the world, and the point of this assignment is to demonstrate that _**you**_ can do deep learning!
 
