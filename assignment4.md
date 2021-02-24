@@ -186,5 +186,6 @@ Below are the questions that you will be asked to answer about this assignment. 
 5. Calculate the cost of annotating the 35 million images in the MMID. For this question, you are free to choose any HIT design, and any values for “Reward per Assignment” and “Number of Assignments per task”.  State your reasons for choosing the design and these values. State any other assumptions necessary.
 6. Next week you will use the results from your HITs to train classifiers. What differences could you expect between a classifier trained solely on the India-based worker labels and a classifier trained solely on the US-based worker labels?
 7. Find a real life incident when bias within a model's training dataset caused unintended negative consequences. What were the consequences? Why did these unintended conseqences occur? What was the problem in the training dataset? What could have been done to prevent this incident from having occurred? 
+8. Confirm that you submitted your two results .csv files from your two HIT sets onto Gradescope as well. 
 </div>
 </div>
