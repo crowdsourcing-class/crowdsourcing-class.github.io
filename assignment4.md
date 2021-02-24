@@ -43,7 +43,7 @@ In this assignment, you will ask workers to classify images on whether or not th
 
 ## Creating your first HIT set
 
-Let's get started with creating your first HIT set on MTurk. Again, this HIT set is intended to be completed as a tutorial for students to learn how to correctly make HITs on Amazon Turk. After logging into your requester account, go to the Create Tab and then click [New Project](](https://requester.mturk.com/create/projects/new)).  We'll be labeling images, so you can start with the default Image Classification template (shown below).
+Let's get started with creating your first HIT set on MTurk. Again, this HIT set is intended to be completed as a tutorial for students to learn how to correctly make HITs on Amazon MTurk. After logging into your requester account, go to the Create Tab and then click [New Project](](https://requester.mturk.com/create/projects/new)).  We'll be labeling images, so you can start with the default Image Classification template (shown below).
 
 <img src="images/requester-step-1a.png" alt="Click on the Create tab to start building a New Project" class="img-responsive" />
 
@@ -67,7 +67,7 @@ In the **Enter Properties** tab, you should change the following fields (you can
 In the **Worker requirements** section of the **Enter Properties** tab, add the following qualifications that workers have to meet in order to do the task:
 * HIT Approval Rate >= 90%
 * Number of HITs approved >= 500
-* Location is "INDIA (IN)". A reminder – your second HIT will have the location set as "INDIA (IN)" and your third HIT will have the location set as "UNITED STATES (US)".
+* Location is "INDIA (IN)". Keep in mind that your second HIT set will have the location as "INDIA (IN)" and your third HIT set will have the location as "UNITED STATES (US)".
 
 <img src="images/requester-step-3.png" alt="Edit the Worker Requirements for your project" class="img-responsive" />
 
@@ -79,7 +79,7 @@ After making those edits, click on Save and then Preview to see what your HIT wi
 
 <img src="images/requester-step-5a.png" alt="Preview what your HIT will look like to workers" class="img-responsive" />
 
-If you're satisfied with how the HIT looks, click the Finish button.  You'll then see your newly created task listed with a big orange button saying "Publish Batch" next to it.  You can publish a batch by clicking that button and uploading a comma separated value (CSV) file with the inputs to the HIT.  The popup screen that appears will give you a link to download a sample .csv file that shows what fields you need for your HIT.  For this HIT design, all we need is a single column with the header *image_url*, and a list of the image URLs that we want workers to judge.  Here's a [small CSV file](assignments/downloads/wedding-photos-small.csv) that you can use to test your HIT set. Note: this is a sample .csv file that should be used only for this first tutorial HIT set. You will use a larger .csv file containing all of the wedding photos in your other two HIT sets. This larger .csv file that you will create will have a different format as this sample .csv file, as explained in the instructions below. 
+If you're satisfied with how the HIT looks, click the Finish button.  You'll then see your newly created task listed with a big orange button saying "Publish Batch" next to it.  You can publish a batch by clicking that button and uploading a comma separated value (CSV) file with the inputs to the HIT.  The popup screen that appears will give you a link to download a sample .csv file that shows what fields you need for your HIT.  For this HIT design, all we need is a single column with the header *image_url*, and a list of the image URLs that we want workers to judge.  Here's a [small CSV file](assignments/downloads/wedding-photos-small.csv) that you can use to test your HIT set. Note: this is a sample .csv file that should be used only for this first tutorial HIT set. You will use a larger .csv file containing all of the wedding photos in your other two HIT sets. This larger .csv file that you will create will have a different format than this sample .csv file, as explained in the instructions below. 
 
 
 <img src="images/requester-step-6.png" alt="Upload your CSV file" class="img-responsive" width="50%"/>
