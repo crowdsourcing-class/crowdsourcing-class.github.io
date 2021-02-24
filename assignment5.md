@@ -30,7 +30,7 @@ This assignment is before {{ page.due_date | date: "%I:%M%p" }} due on {{ page.d
 
 
 
-Become a Requester<span class="text-muted"> : Assignment 5</span> 
+Become a Requester<span class="text-muted"> : Assignment 4</span> 
 =============================================================
 
 In this homework assignment, you're going to learn how to be a [requester on Amazon Mechanical Turk](https://requester.mturk.com/).  You should try to sign-up as a requester as soon as possible, because it is a multi-step process and each step can take time.  If you're unable to sign up as a requester yourself, we recommend partnering with another student who has successfully signed up. You will work in pairs.
