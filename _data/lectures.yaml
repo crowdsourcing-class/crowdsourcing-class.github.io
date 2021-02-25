@@ -215,10 +215,26 @@
       url: https://web.stanford.edu/~jurafsky/slp3/5.pdf
 -
   date: 2021-02-25
-  slides: 
-  title: 
+  slides: slides/computer-vision.pdf
+  title: How Crowdsourcing Enabled Computer Vision
   recording: 
   readings:
+    -
+      title: The data that transformed AI research – and possibly the world
+      authors: Dave Gershgorn - Quartz
+      url: https://qz.com/1034972/the-data-that-changed-the-direction-of-ai-research-and-possibly-the-world/
+    -
+      title: slides about ImageNet&colon; Crowdsourcing, benchmarking & other cool things 
+      authors: Fei-Fei Li
+      url: http://www.image-net.org/papers/ImageNet_2010.pdf
+    -
+      title: ImageNet&colon; A Large-Scale Hierarchical Image Database
+      authors: Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li and Li Fei-Fei
+      url: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5206848
+    -
+      title: notes for Stanford's CS231n course "Convolutional Neural Networks for Visual Recognition"
+      authors: Stanford University instructors
+      url: http://cs231n.github.io
 -
   date: 2021-03-02
   slides: 
