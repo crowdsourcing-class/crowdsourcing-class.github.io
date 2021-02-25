@@ -152,10 +152,3 @@ document.write('</div>');
 
   });
 </script>
-<div class="banner-header" helvetica="" style="font-weight: 700; font-size: 1.3em; color: rgb(217, 28, 92); text-align: center;" text-align:="">Looking to make more money on MTurk?</div>
-
-<p font-size:="" helvetica="" style="color: rgb(217, 28, 92); text-align: center;" text-align:="">Check out our extension which will help you find good work and keep track of the work you do (and you can track your goals, too!)</p>
-
-<div class="banner-capitalize" helvetica="" style="text-transform: uppercase; font-size: 1.1em; color: rgb(217, 28, 92); text-align: center;" text-align:="">LEARN MORE AT</div>
-
-<p style="text-align: center;"><a helvetica="" href="http://crowd-workers.com" style="color: rgb(106, 196, 218); text-decoration: underline; font-size: 1.1em; font-family: " target="_blank" text-align:="">Crowd-Workers.com</a></p>E
