@@ -122,19 +122,19 @@ Time and place
 
 Office Hours
 : To join the office hour queue, please go to [OHQ.io](https://ohq.io/courses/204).
-: Monday 8am-9:30am Eastern - Anna
+: Monday 10:30am-noon Eastern - Anna
 : Monday 6pm-8pm Eastern – Ashley
-: Tuesday 8am-9:30am Eastern - Anna
 : Tuesday 2pm-3pm Eastern - Bryan
 : Wednesday 9:30am-11:30am Eastern - Zach
 : Wednesday 1pm-3pm Eastern - Jason
+: Wednesday 3pm-4:30pm Eastern - CCB
 : Wednesday 7pm-9pm Eastern - Joe
 : Wednesday 9pm-10pm Eastern - Sarah
-: Wednesday 3pm-4:30pm Eastern - CCB
 : Thursday 8am-9:30am Eastern - Anka
 : Thursday 9:30am-10:30am Eastern - Zach
 : Thursday noon-2pm Eastern - Eddie
 : Thursday 6pm-9pm Eastern - David
+: Friday 10:30am-noon Eastern - Anna
 : Friday 2pm-3pm Eastern - Bryan
 : Friday 9pm-10pm Eastern - Sarah
 : Saturday 10:30am-12:30pm Eastern - Megha
