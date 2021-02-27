@@ -61,14 +61,10 @@ Below are the questions that you will be asked to answer about this assignment. 
 It is a good idea to write your answers in a file on you own computer, instead of typing them directly into Gradescope, so that you'll have a copy after you press the submit button. 
 
 1. What is the link to your Colab notebook?
-2. What are two places that you often get data from, and why are they each important?
-3. What is “fine-grained classification”, and why is it difficult?
-4. What are “labels”, and how do you get them in this dataset?
-5. Why shouldn’t images in a dataset have different shapes and sizes?
-6. What does it mean to “normalize” images?
-7. What is “transfer learning”, and why is it helpful?
-8. What is “overfitting”, and how do you try to avoid it?
-9. Describe two ways to interpret your model’s performance.
-10. Describe the connection between “unfreezing”, “fine-tuning”, and “learning rates”.
+2. What is the difference between classification and regression?
+3. What is a validation set? What is a test set? Why do we need them?
+4. What does it mean to “normalize” images?
+5. What is “overfitting”, and how do you try to avoid it?
+6. Describe two ways to interpret your model’s performance.
 </div>
 </div>
