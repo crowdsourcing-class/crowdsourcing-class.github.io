@@ -4,9 +4,9 @@ img: xkcd-computer-vision
 caption: In the 60s, Marvin Minsky assigned a couple of undergrads to spend the summer programming a computer to use a camera to identify objects in a scene. He figured they'd have the problem solved by the end of the summer. Half a century later, we're still working on it
 title: Homework 5 "Training a classifier"
 active_tab: homework
-release_date: 2019-02-12
-due_date: 2019-02-19T23:59:00EST
-submission_link: https://www.gradescope.com/courses/36538
+release_date: 2020-03-05
+due_date: 2020-03-11T23:59:00EST
+submission_link: https://www.gradescope.com/courses/233619/
 ---
 
 <!-- Check whether the assignment is up to date -->
@@ -45,7 +45,7 @@ And next week, we will explore [shortcomings with current image classification a
 1. [Read the Getting Started section](https://course.fast.ai/#getting-started), which describes the need to access a NVIDIA GPU (Graphics Processing Unit). Thankfully, Google Colab freely provides the use of a NVIDIA K80 GPU for up to 12 hours at a time!
 2. [Follow the Colab Setup](https://course.fast.ai/start_colab.html), opening the notebook called "nbs/dl1/lesson1-pets.ipynb". Make sure to change your runtime type to GPU and save a copy of the notebook in your Google Drive, as instructed!
 3. [Watch Lesson 1 on image classification](https://course.fast.ai/videos/?lesson=1), following along in your copy of the notebook - it's fun, and you'll learn more by runnning code!
-4. [Answer the following Homework 4 questions on Gradescope]({{page.submission_link}}), where a link to your Colab notebook with all the outputs shown is required.
+4. [Answer the following Homework 5 questions on Gradescope]({{page.submission_link}}), where a link to your Colab notebook with all the outputs shown is required.
 </div>
 </div>
 
@@ -56,9 +56,7 @@ And next week, we will explore [shortcomings with current image classification a
 </div>
 <div class="panel-body" markdown="1">
 
-Below are the questions that you will be asked to answer about this assignment. Please turn in your answers for [Homework 4 on Gradescope]({{page.submission_link}}).
-
-It is a good idea to write your answers in a file on you own computer, instead of typing them directly into Gradescope, so that you'll have a copy after you press the submit button. 
+Below are the questions that you will be asked to answer about this assignment. Please turn in your answers for [Homework 5 on Gradescope]({{page.submission_link}}).
 
 1. What is the link to your Colab notebook?
 2. What is the difference between classification and regression?
