@@ -236,6 +236,28 @@
       authors: Stanford University instructors
       url: http://cs231n.github.io
 -
+  date: 2019-04-04
+  title: Crowdsourcing Translation
+  slides: slides/crowdsourcing-translation.pdf
+  recording: 
+  readings:
+    -
+      authors: Omar Zaidan and Chris Callison-Burch
+      title:  Crowdsourcing Translation&#58; Professional Quality from Non-Professionals
+      url: http://www.cis.upenn.edu/~ccb/publications/crowdsourcing-translation.pdf
+    -
+      authors: Ellie Pavlick, Matt Post, Ann Irvine, Dmitry Kachaev, and Chris Callison-Burch
+      title:  The Language Demographics of Amazon Mechanical Turk
+      url: http://www.cis.upenn.edu/~ccb/publications/language-demographics-of-mechanical-turk.pdf
+    -
+      title:  Machine Translation of Arabic Dialects
+      authors: Rabih Zbib, Erika Malchiodi, Jacob Devlin, David Stallard, Spyros Matsoukas, Richard Schwartz, John Makhoul, Omar F. Zaidan, and Chris Callison-Burch
+      url: http://www.cis.upenn.edu/~ccb/publications/machine-translation-of-arabic-dialects.pdf
+    -
+      title: Fast, Cheap and Creative&colon;  Evaluating Translation Quality Using Amazon's Mechanical Turk
+      authors: Chris Callison-Burch
+      url: https://www.cis.upenn.edu/~ccb/publications.html
+-
   date: 2021-03-02
   slides: 
   title: 
