@@ -45,7 +45,8 @@ And next week, we will explore [shortcomings with current image classification a
 1. [Read the Getting Started section](https://course.fast.ai/#getting-started), which describes the need to access a NVIDIA GPU (Graphics Processing Unit). Thankfully, Google Colab freely provides the use of a NVIDIA K80 GPU for up to 12 hours at a time!
 2. [Follow the Colab Setup](https://course.fast.ai/start_colab.html), opening the notebook called "nbs/dl1/lesson1-pets.ipynb". Make sure to change your runtime type to GPU and save a copy of the notebook in your Google Drive, as instructed!
 3. [Watch Lesson 1 on image classification](https://course.fast.ai/videos/?lesson=1), following along in your copy of the notebook - it's fun, and you'll learn more by runnning code!
-4. [Answer the following Homework 5 questions on Gradescope]({{page.submission_link}}), where a link to your Colab notebook with all the outputs shown is required.
+4. Make a copy of [this Google Colab notebook](). From the File menu of Colab, pick Save a copy in Drive, and work through the assignment. 
+5. [Answer the following Homework 5 questions on Gradescope]({{page.submission_link}}), where links to your Colab notebooks with all the outputs shown is required.
 </div>
 </div>
 
@@ -63,6 +64,6 @@ Below are the questions that you will be asked to answer about this assignment. 
 3. What is a validation set? What is a test set? Why do we need them?
 4. What does it mean to “normalize” images?
 5. What is “overfitting”, and how do you try to avoid it?
-6. Describe two ways to interpret your model’s performance.
+6. Interpret the accuracy plot of the transformer model. Is the accuracy dependent on the train_size parameter? Would you say that the model is performing well overall? Why or why not?
 </div>
 </div>
