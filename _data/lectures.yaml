@@ -265,10 +265,24 @@
   readings:
 -
   date: 2021-03-04
+  title: Linguistic Wisdom From the Crowd 
+  speaker: Michael Tseng
+  speaker_url: https://research.google/people/MichaelTseng/ 
   slides: 
-  title: 
   recording: 
   readings:
+    -
+      authors: Nancy Chang, Russell Lee-Goldman, and Michael Tseng
+      title:  Linguistic Wisdom from the Crowd
+      url: https://research.google/pubs/pub45743/
+    -
+      authors: Christina Funk, Michael Tseng, Ravindran Rajakumar, and Linne Ha
+      title:  Community-Driven Crowdsourcing&colon; Data Collection with Local Developers
+      url: https://research.google/pubs/pub46950/
+    -
+      authors: Jennimaria Palomaki, Olivia Rhinehart, and Michael Tseng
+      title:  A Case for a Range of Acceptable Annotations
+      url: https://research.google/pubs/pub47111/
 -
   date: 2021-03-09
   type: no_lecture
