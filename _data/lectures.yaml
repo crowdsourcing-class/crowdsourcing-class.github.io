@@ -278,6 +278,26 @@
       authors: Jennimaria Palomaki, Olivia Rhinehart, and Michael Tseng
       title:  A Case for a Range of Acceptable Annotations
       url: https://research.google/pubs/pub47111/
+    -
+      authors: Clark et al. 
+      title: TyDi QA&colon; A Benchmark for Information-Seeking Question Answering in Typologically Diverse Languages
+      url: https://research.google/pubs/pub48992/
+    -
+      authors: Kwiatkowski et al.
+      title: Natural Questions&colon; A Benchmark for Question Answering Research
+      url: https://research.google/pubs/pub48992/
+    -
+      authors: Min et al.
+      title: AmbigQA&colon; Answering Ambiguous Open-domain Questions
+      url: https://www.aclweb.org/anthology/2020.emnlp-main.466/
+    -
+      authors: Parikh et al. 
+      title: ToTTo&colon; A Controlled Table-To-Text Generation Dataset
+      url: https://research.google/pubs/pub49797/
+    -
+      authors: Zhang et al. 
+      title: PAWS&colon; Paraphrase Adversaries from Word Scrambling
+      url: https://arxiv.org/abs/1904.01130
 -
   date: 2021-03-09
   type: no_lecture
