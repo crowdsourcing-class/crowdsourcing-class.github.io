@@ -217,7 +217,7 @@
   date: 2021-02-25
   slides: slides/computer-vision.pdf
   title: How Crowdsourcing Enabled Computer Vision
-  recording: 
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0af6ca1d-80bd-4cde-8a6d-acda0168b007
   readings:
     -
       title: The data that transformed AI research – and possibly the world
@@ -236,7 +236,7 @@
       authors: Stanford University instructors
       url: http://cs231n.github.io
 -
-  date: 2019-04-04
+  date: 2021-03-02
   title: Crowdsourcing Translation
   slides: slides/crowdsourcing-translation.pdf
   recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ab4f8ac0-b2d3-4f19-abfe-a9d801533910
@@ -257,19 +257,14 @@
       title: Fast, Cheap and Creative&colon;  Evaluating Translation Quality Using Amazon's Mechanical Turk
       authors: Chris Callison-Burch
       url: https://www.cis.upenn.edu/~ccb/publications.html
--
-  date: 2021-03-02
-  slides: 
-  title: 
-  recording: 
-  readings:
+
 -
   date: 2021-03-04
   title: Linguistic Wisdom From the Crowd 
   speaker: Michael Tseng
   speaker_url: https://research.google/people/MichaelTseng/ 
   slides: 
-  recording: 
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0750c859-614e-421f-8ddb-ace10168eb2c
   readings:
     -
       authors: Nancy Chang, Russell Lee-Goldman, and Michael Tseng
