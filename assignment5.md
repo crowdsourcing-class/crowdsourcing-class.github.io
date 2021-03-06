@@ -25,28 +25,43 @@ This assignment is before {{ page.due_date | date: "%I:%M%p" }}  due on {{ page.
 </div>
 
 
-Training a classifier<span class="text-muted"> : Assignment 5</span> 
+Training Classifiers<span class="text-muted"> : Assignment 5</span> 
 =============================================================
-Deep learning is transforming the world, and the point of this assignment is to demonstrate that _**you**_ can do deep learning!
 
-The [fast.ai](https://www.fast.ai/) community is making deep learning easier to use and [getting more people from all backgrounds involved](https://www.youtube.com/watch?v=LqjP7O9SxOM&list=PLtmWHNX-gukLQlMvtRJ19s7-8MrnRV6h6) through free online classes like [“Practical Deep Learning for Coders 2019”](https://www.fast.ai/2019/01/24/course-v3/), which was launched at the end of January and covers cutting-edge results in an introductory class.
+## Part 1: Training an Image Classifier
 
-For example, after following along with the [first lesson](https://course.fast.ai/videos/?lesson=1) for this assignment, you’ll have trained an image classifier that can recognize 12 cat breeds and 25 dog breeds at a state-of-the-art accuracy of around 94%, compared to 59% in 2012!
+This week we will learn how to use the annotations that you collected as a Requester on Amazon Mechanical Turk to train image classifiers. We will be using [fastai](https://docs.fast.ai/), which is a wrapper around PyTorch that helps people get quickly started with deep learning.   Deep learning uses multi-layer neural networks. Applications of deep learning can be found all around you, including speech recognition, autonomous driving, and board games.
 
-And next week, we will explore [shortcomings with current image classification approaches](https://www.fast.ai/2019/01/29/five-scary-things/#bias) and how crowdsourcing can help.
+The creators of Fast AI have created a bunch of very good tutorials that are a hands-on practical introduction to deep learning for coders.  You will watch [Lesson 1](https://course.fast.ai/videos/?lesson=1) for an introduction to deep learning, and follow along with their [Python notebook](https://colab.research.google.com/github/fastai/fastbook/blob/master/01_intro.ipynb). 
 
-![Breeds](https://raw.githubusercontent.com/hiromis/notes/master/lesson1/8.png)
+We'll then adapt the Fast AI example so that we use deep learning to classify wedding photos.  You'll load in the aggregated results that we all collected from Amazon Mechanical Turk to get labeled training data.  You'll aggregate the Turkers' labels with voting to determine whether an image represents a wedding or not.  We will use these labels to train the classifier.
+
+We'll also try training different versions of the wedding photo classifier to see the effects of representation in data collections.  The first version of our classifer will be trained only on Western weddings, and the next will be expanded to include Indian weddings as well.  
+
+## Part 2: Training an Text Classifier
+
+Text classification is one of the tasks that is addressed in natural language processing (NLP).  Like with computer vision, NLP uses deep learning.  A particular kind of deep learning model that is used in NLP is called the transformer.  If you're interested in learning  about transformers in this [blog post](http://jalammar.github.io/illustrated-transformer/).  We'll be using an implementation of transformers from an open source package called Hugging Face.  
+
+For this assignment, we'll look at wallk through a text classification task called *intent detection*.  When you talk to your Amazon Alexa, it needs to figure out what you're trying to do.  If you say "add five mintues to my chicken timer", what are you trying to do? Are you trying to play music?  Do you want to check the weather?  Are you setting a timer?  Are you trying to get a recipe to cook something?  Depending on what it thinks your intent is, it routes your message to a specialized module to handle your request.
+
 
 <div class="panel panel-info">
 <div class="panel-heading" markdown="1">
-#### Detailed Instructions
+#### Instructions
 </div>
 <div class="panel-body" markdown="1">
-1. [Read the Getting Started section](https://course.fast.ai/#getting-started), which describes the need to access a NVIDIA GPU (Graphics Processing Unit). Thankfully, Google Colab freely provides the use of a NVIDIA K80 GPU for up to 12 hours at a time!
-2. [Follow the Colab Setup](https://course.fast.ai/start_colab.html), opening the notebook called "nbs/dl1/lesson1-pets.ipynb". Make sure to change your runtime type to GPU and save a copy of the notebook in your Google Drive, as instructed!
-3. [Watch Lesson 1 on image classification](https://course.fast.ai/videos/?lesson=1), following along in your copy of the notebook - it's fun, and you'll learn more by runnning code!
-4. Make a copy of [this Google Colab notebook](https://colab.research.google.com/github/crowdsourcing-class/crowdsourcing-class.github.io/blob/master/assignments/hw5/Assignment_5_–_Transformers.ipynb). From the File menu of Colab, pick Save a copy in Drive, and work through the assignment. 
-5. [Answer the following Homework 5 questions on Gradescope]({{page.submission_link}}), where links to your Colab notebooks with all the outputs shown is required.
+1. [Watch Lesson 1 on image classification](https://course.fast.ai/videos/?lesson=1), following along in [your own copy of the accompanying Python notebook](https://colab.research.google.com/github/fastai/fastbook/blob/master/01_intro.ipynb) - it's fun, and you'll learn more by runnning code!
+2. Make a copy of [this Google Colab notebook for image clasification](https://colab.research.google.com/drive/1QEoA9eIP7NxVMBhcHNHLdfja2a1flrA9?usp=sharing), and then work through the assignment.  The parts that you have to code are marked with
+```python
+##### START CODE HERE
+##### END CODE HERE 
+```
+3. Make a copy of [this Google Colab notebook for text classification](https://colab.research.google.com/github/crowdsourcing-class/crowdsourcing-class.github.io/blob/master/assignments/hw5/Assignment_5_–_Transformers.ipynb), and then work through the assignment.  The parts that you have to code are marked with
+```python
+## TO DO:
+... 
+```
+4. [Answer the following Homework 5 questions on Gradescope]({{page.submission_link}}).  There you will submit links to your Colab notebooks with all the outputs shown.
 </div>
 </div>
 
