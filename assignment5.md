@@ -5,7 +5,7 @@ caption: In the 60s, Marvin Minsky assigned a couple of undergrads to spend the 
 title: Homework 5 "Training a classifier"
 active_tab: homework
 release_date: 2020-03-06
-due_date: 2021-03-11T23:59:00EST
+due_date: 2021-03-13T23:59:00EST
 submission_link: https://www.gradescope.com/courses/233619/
 ---
 
