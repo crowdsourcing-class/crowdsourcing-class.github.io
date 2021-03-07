@@ -4,8 +4,8 @@ img: xkcd-computer-vision
 caption: In the 60s, Marvin Minsky assigned a couple of undergrads to spend the summer programming a computer to use a camera to identify objects in a scene. He figured they'd have the problem solved by the end of the summer. Half a century later, we're still working on it
 title: Homework 5 "Training a classifier"
 active_tab: homework
-release_date: 2020-03-07
-due_date: 2021-03-13T23:59:00EST
+release_date: 2021-03-07
+due_date: 2021-03-18T23:59:00EST
 submission_link: https://www.gradescope.com/courses/233619/
 ---
 
