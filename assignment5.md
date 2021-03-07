@@ -4,7 +4,7 @@ img: xkcd-computer-vision
 caption: In the 60s, Marvin Minsky assigned a couple of undergrads to spend the summer programming a computer to use a camera to identify objects in a scene. He figured they'd have the problem solved by the end of the summer. Half a century later, we're still working on it
 title: Homework 5 "Training a classifier"
 active_tab: homework
-release_date: 2020-03-06
+release_date: 2020-03-07
 due_date: 2021-03-13T23:59:00EST
 submission_link: https://www.gradescope.com/courses/233619/
 ---
@@ -34,7 +34,7 @@ This week we will learn how to use the annotations that you collected as a Reque
 
 The creators of Fast AI have created a bunch of very good tutorials that are a hands-on practical introduction to deep learning for coders.  You will watch [Lesson 1](https://course.fast.ai/videos/?lesson=1) for an introduction to deep learning, and follow along with their [Python notebook](https://colab.research.google.com/github/fastai/fastbook/blob/master/01_intro.ipynb). 
 
-We'll then adapt the Fast AI example so that we use deep learning to classify wedding photos.  You'll load in the aggregated results that we all collected from Amazon Mechanical Turk to get labeled training data.  You'll aggregate the Turkers' labels with voting to determine whether an image represents a wedding or not.  We will use these labels to train the classifier.
+We'll then adapt the Fast AI example so that we use deep learning to classify wedding photos in [our Colab notebook for image classification](https://colab.research.google.com/github/crowdsourcing-class/crowdsourcing-class.github.io/blob/master/assignments/hw5/Train_a_Classifier_Weddings_Dataset_STUDENT.ipynb).  You will write code in several places in our notebook.  You'll load in the aggregated results that we all collected from Amazon Mechanical Turk to get labeled training data.  You'll aggregate the Turkers' labels with voting to determine whether an image represents a wedding or not.  We will use these labels to train the classifier.
 
 We'll also try training different versions of the wedding photo classifier to see the effects of representation in data collections.  The first version of our classifer will be trained only on Western weddings, and the next will be expanded to include Indian weddings as well.  
 
@@ -51,7 +51,7 @@ For this assignment, we'll look at wallk through a text classification task call
 </div>
 <div class="panel-body" markdown="1">
 1. [Watch Lesson 1 on image classification](https://course.fast.ai/videos/?lesson=1), following along in [your own copy of the accompanying Python notebook](https://colab.research.google.com/github/fastai/fastbook/blob/master/01_intro.ipynb) - it's fun, and you'll learn more by runnning code!
-2. Make a copy of [this Google Colab notebook for image clasification](https://colab.research.google.com/drive/1QEoA9eIP7NxVMBhcHNHLdfja2a1flrA9?usp=sharing), and then work through the assignment.  The parts that you have to code are marked with
+2. Make a copy of [this Google Colab notebook for image clasification](https://colab.research.google.com/github/crowdsourcing-class/crowdsourcing-class.github.io/blob/master/assignments/hw5/Train_a_Classifier_Weddings_Dataset_STUDENT.ipynb), and then work through the assignment.  The parts that you have to code are marked with
 ```python
 ##### START CODE HERE
 ##### END CODE HERE 
