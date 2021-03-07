@@ -38,7 +38,7 @@ We'll then adapt the Fast AI example so that we use deep learning to classify we
 
 We'll also try training different versions of the wedding photo classifier to see the effects of representation in data collections.  The first version of our classifer will be trained only on Western weddings, and the next will be expanded to include Indian weddings as well.  
 
-## Part 2: Training an Text Classifier
+## Part 2: Training a Text Classifier
 
 Text classification is one of the tasks that is addressed in natural language processing (NLP).  Like with computer vision, NLP uses deep learning.  A particular kind of deep learning model that is used in NLP is called the transformer.  If you're interested in learning  about transformers in this [blog post](http://jalammar.github.io/illustrated-transformer/).  We'll be using an implementation of transformers from an open source package called Hugging Face.  
 
