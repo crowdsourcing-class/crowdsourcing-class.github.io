@@ -300,14 +300,26 @@
       url: https://arxiv.org/abs/1904.01130
 -
   date: 2021-03-09
-  type: no_lecture
-  title: No class (Spring Break)
--
-  date: 2021-03-11
-  slides: 
-  title: 
+  slides: slides/quality-control-1.pdf
+  title: Quality Control part 1
   recording: 
   readings:
+    -
+      authors: Luis von Ahn and Laura Dabbish
+      title:  Labeling Images with a Computer Game
+      url: readings/downloads/gwap/ESP.pdf
+    -
+      authors: Rion Snow, Brendan O’Connor, Daniel Jurafsky and Andrew Ng
+      title:  Cheap and Fast — But is it Good? Evaluating Non-Expert Annotations for Natural Language Tasks
+      url: readings/downloads/nlp/evaluating-non-expert-annotations-for-nlp.pdf
+    -
+      authors: Winter Mason and Duncan Watts
+      title:  Financial Incentives and the Performance of Crowds
+      url: readings/downloads/econ/financial-incentives-and-the-performance-of-crowds.pdf
+-
+  date: 2021-03-11
+  type: no_lecture
+  title: No class (Spring Break)
 -
   date: 2021-03-16
   slides: 
