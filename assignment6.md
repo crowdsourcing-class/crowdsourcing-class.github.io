@@ -48,7 +48,6 @@ You have seven options for academic papers that you can replicate:
   Using Amazon’s Mechanical Turk](https://www.cis.upenn.edu/~ccb/publications/mechanical-turk-for-machine-translation-evaluation.pdf) by Chris Callison-Burch (we recommend replicating the experiments in Section 5.3)
 * [Sprout: Crowd-Powered Task Design for Crowdsourcing](https://aiweb.cs.washington.edu/ai/pubs/bragg-uist18.pdf) by Jonathan Bragg, Mausam, Daniel S. Weld
 * [Financial Incentives and the Performance of Crowds](readings/downloads/econ/financial-incentives-and-the-performance-of-crowds.pdf) by Winter Mason and Duncan Watts
-* [Crowds in Two Seconds: Enabling Realtime Crowd-Powered Interfaces](readings/downloads/hci/adrenaline.pdf) by Michael Bernstein, Joel Brandt, Rob Miller, and David Karger
 
 I have sorted the papers roughly in an order of how difficult they will be to replicate.  Because the difficulty level varies, and because I don't want to read 50 demographic studies of Mechanical Turk, I'm going to award different maximum point values to them based on their difficulties.  You can choose whichever one you want to work on.
 
