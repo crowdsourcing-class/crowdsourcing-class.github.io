@@ -322,10 +322,19 @@
   title: No class (Spring Break)
 -
   date: 2021-03-16
-  slides: 
-  title: 
+
+  slides: slides/quality-control-2.pdf
+  title: Quality Control part 2
   recording: 
   readings:
+    -
+      authors: Anindya Ghose, Panos Ipeirotis, and Arun Sundararajan
+      title:  Opinion Mining Using Econometrics&#58; A Case Study on Reputation Systems
+      url: readings/downloads/nlp/opinion-mining-using-econometrics.pdf
+    -
+      authors: Kazushi Ikeda and Michael Bernstein
+      title:  Pay It Backward&colon; Per-Task Payments on Crowdsourcing Platforms Reduce Productivity
+      url: readings/downloads/econ/per-task-payments-on-crowdsourcing-platforms-reduce-productivity.pdf
 -
   date: 2021-03-18
   slides: 
