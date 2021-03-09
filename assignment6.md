@@ -46,25 +46,24 @@ You have seven options for academic papers that you can replicate:
 * [Exploring Iterative and Parallel Human Computation Processes](readings/downloads/programming/iterative-and-parallel-processing-in-hcomp.pdf) by Greg Little, Lydia B. Chilton, Max Goldman, and Robert C. Miller.  Please note that the TurKit software used is no longer maintained and does not work with the current version of MTurk APIs.  You can still run the experiments manually rather than with TurKit.
 * [Fast, Cheap, and Creative: Evaluating Translation Quality
   Using Amazon’s Mechanical Turk](https://www.cis.upenn.edu/~ccb/publications/mechanical-turk-for-machine-translation-evaluation.pdf) by Chris Callison-Burch (we recommend replicating the experiments in Section 5.3)
-* [Sprout: Crowd-Powered Task Design for Crowdsourcing](https://aiweb.cs.washington.edu/ai/pubs/bragg-uist18.pdf) by Jonathan Bragg, Mausam, Daniel S. Weld
 * [Financial Incentives and the Performance of Crowds](readings/downloads/econ/financial-incentives-and-the-performance-of-crowds.pdf) by Winter Mason and Duncan Watts
+* [Crowds in Two Seconds: Enabling Realtime Crowd-Powered Interfaces](readings/downloads/hci/adrenaline.pdf) by Michael Bernstein, Joel Brandt, Rob Miller, and David Karger (you only need to replicate the experiments in either study 1 or study 2 but not the real time app)
 
 I have sorted the papers roughly in an order of how difficult they will be to replicate.  Because the difficulty level varies, and because I don't want to read 50 demographic studies of Mechanical Turk, I'm going to award different maximum point values to them based on their difficulties.  You can choose whichever one you want to work on.
 
-* Demographics of Mechanical Turk -- 3 points maximum (4 points max if you run the demographic survey on both MTurk and CrowdFlower and contrast the two)
+* Demographics of Mechanical Turk -- 3 points maximum
 * Exploring Iterative and Parallel Human Computation Processes -- 5 points maximum
 * Fast, Cheap, and Creative: Evaluating Translation Quality Using Amazon's Mechanical Turk -- 5 points maximum
 * Sprout: Crowd-Powered Task Design for Crowdsourcing -- 5 points maximum
-* Financial Incentives and the Performance of Crowds -- 6 points maximum
-* Crowds in Two Seconds: Enabling Realtime Crowd-Powered Interfaces -- 7 points maximum 
+* Financial Incentives and the Performance of Crowds -- 5 points maximum
+* Crowds in Two Seconds: Enabling Realtime Crowd-Powered Interfaces -- 5 points maximum 
 
 Here are the steps and deliverables for this project:
 
 1. Read at least 3 of the academic papers and write a brief summary of each of them.
 2. Pick one paper, and write an in-depth summary of its experimental methodology and its findings.
 3. Re-create one or more experiments from the paper.  For this step, it's fine to deviate somewhat from the paper's design.  For instance, you can use a different crowdsourcing platform, or a different set of images to collect labels for.  
-4. Create a task on CrowdFlower or Mechanical Turk or another crowdsourcing platform, and perform the experiment.  You will submit your task templates, along with any code and other materials that you used.
-
+4. Create a task on Mechanical Turk or another crowdsourcing platform, and perform the experiment.  You will submit your task templates, along with any code and other materials that you used.
 5. Collect responses from crowd
 6. Analyze your findings and say how they are different from the findings in the original paper.
 7. Write a report and submit your final materials. 
@@ -91,13 +90,13 @@ Write up the experimental methodology in your final report. Once again, you shou
 
 Pick one or more of the experiments that you want to replicate. If the paper described a set of experiments, then you can pick one of them.  For instance, [Financial Incentives and the Performance of Crowds](readings/downloads/econ/financial-incentives-and-the-performance-of-crowds.pdf) performs two studies -- one where they have workers organize traffic cam photos chronologically and another where they have workers perform word puzzles.   Similarly, [Exploring Iterative and Parallel Human Computation Processes](readings/downloads/programming/iterative-and-parallel-processing-in-hcomp.pdf)  had 3 studies, one involving writing image descriptions, one on brainstorming, and one blurry image recognition.   If you are reproducing either of those papers, you only need to pick one of those studies. 
 
-When you create your own version of the paper's experiment, it's fine to deviate somewhat from the paper's design.  For instance, you could use CrowdFlower even if the original paper used Mechanical turk.  Or if the crowd was shown a particular set of images and asked to write captions or label the images, it might not be possible for you to get exactly the same set of images.  It's fine to choose your own.  When you deviate from the setup of the original experiment, you should note why.  You should also briefly explain if you think it might result in a different outcome than the findings of the original paper. 
+When you create your own version of the paper's experiment, it's fine to deviate somewhat from the paper's design.  For instance, if the crowd was shown a particular set of images and asked to write captions or label the images, it might not be possible for you to get exactly the same set of images.  It's fine to choose your own.  When you deviate from the setup of the original experiment, you should note why.  You should also briefly explain if you think it might result in a different outcome than the findings of the original paper. 
 
 In this step, you should collect any materials that you'll be presenting to workers (images, prompts, survey questions, etc).  You should save these in a directory and write a README describing them.  You'll submit them along with your final writeup.
 
 ### 4. Use a crowdsourcing platform to set up your experiment
 
-Create a task on CrowdFlower or Mechanical Turk or another crowdsourcing platform that you'll use to perform the experiment.  You should write clear instructions on what you'd like the workers to do (and how they will be rewarded, if that's relevant to the experiment).
+Create a task on Mechanical Turk that you'll use to perform the experiment.  You should write clear instructions on what you'd like the workers to do (and how they will be rewarded, if that's relevant to the experiment).
 
 Please save your instructions, and take a screenshot of your task design, and/or submit an HTML template for it.  If you write any code with it (like for a Javascript alert for the [Crowds in Two Seconds](readings/downloads/hci/adrenaline.pdf)), then also include that code and a README describing what it does.
 
@@ -147,7 +146,10 @@ This assignment is worth 5 points of your overall grade in the course.  The rubr
 * 1 point - a description of your experimental setup, including descriptions of any deviations you made
 * 1 point - for successfully executing the experiment on a crowdsourcing platform, and describing how you used the platform
 * 1 point - for analyzing your results and comparing them to the original paper
-* Extra credit: up to two points extra credit for choosing a more challenging paper
-* Point caps: if you replicate the Demographics of Mechanical Turk paper, you point total will be capped at 3 points maximum if you run a demographic survey on one platform, or 4 points maximum if you run the demographic survey on both MTurk and CrowdFlower and contrast the two.
+* Point caps: if you replicate the Demographics of Mechanical Turk paper, you point total will be capped at 3 points maximum
+
+
+
+and contrast the two.
 </div>
 </div>
