@@ -40,7 +40,7 @@ One of the awesome things about crowdsourcing is that it lets us quickly run sci
 
 For this assignment, you can work in teams of 3-4 people.  Your final project will require that you work in groups, so this is a good chance for you to form a group and test out whether you want to work with those people.
 
-You have seven options for academic papers that you can replicate:
+You have five options for academic papers that you can replicate:
 
 * [Demographics of Mechanical Turk](readings/downloads/platform/demographics-of-mturk.pdf) by Panos Ipeirotis
 * [Exploring Iterative and Parallel Human Computation Processes](readings/downloads/programming/iterative-and-parallel-processing-in-hcomp.pdf) by Greg Little, Lydia B. Chilton, Max Goldman, and Robert C. Miller.  Please note that the TurKit software used is no longer maintained and does not work with the current version of MTurk APIs.  You can still run the experiments manually rather than with TurKit.
@@ -54,7 +54,6 @@ I have sorted the papers roughly in an order of how difficult they will be to re
 * Demographics of Mechanical Turk -- 3 points maximum
 * Exploring Iterative and Parallel Human Computation Processes -- 5 points maximum
 * Fast, Cheap, and Creative: Evaluating Translation Quality Using Amazon's Mechanical Turk -- 5 points maximum
-* Sprout: Crowd-Powered Task Design for Crowdsourcing -- 5 points maximum
 * Financial Incentives and the Performance of Crowds -- 5 points maximum
 * Crowds in Two Seconds: Enabling Realtime Crowd-Powered Interfaces -- 5 points maximum 
 
@@ -63,7 +62,7 @@ Here are the steps and deliverables for this project:
 1. Read at least 3 of the academic papers and write a brief summary of each of them.
 2. Pick one paper, and write an in-depth summary of its experimental methodology and its findings.
 3. Re-create one or more experiments from the paper.  For this step, it's fine to deviate somewhat from the paper's design.  For instance, you can use a different crowdsourcing platform, or a different set of images to collect labels for.  
-4. Create a task on Mechanical Turk or another crowdsourcing platform, and perform the experiment.  You will submit your task templates, along with any code and other materials that you used.
+4. Create a task on Mechanical Turk, and perform the experiment.  You will submit your task templates, along with any code and other materials that you used.
 5. Collect responses from crowd
 6. Analyze your findings and say how they are different from the findings in the original paper.
 7. Write a report and submit your final materials. 
@@ -128,7 +127,7 @@ Your paper should include the following information:
 * An in-depth explanation of that paper's experimental design, including all of its experiments
 * If you choose one specific experiment from the paper, explain which one you picked and why
 * A description of your experimental setup, along with an explanation of any  deviations that you made from the original design
-* A description of what crowdsourcing platform you used, a description of the selection criteria you used for workers, how much you paid, and how you decided to reject workers (if applicable).  You should also give a pointer to your task design, which can be in a separate document. 
+* A description of the selection criteria you used for workers, how much you paid, and how you decided to reject workers (if applicable).  You should also give a pointer to your task design, which can be in a separate document. 
 * An analysis of your results, and a comparison to the findings of the original paper.
 
 You will submit your final report and your other materials via Gradescope. Your report should be titled *report.pdf* and your other deliverables should be in a zip file titled *deliverables*.
