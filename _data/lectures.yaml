@@ -322,7 +322,6 @@
   title: No class (Spring Break)
 -
   date: 2021-03-16
-
   slides: slides/quality-control-2.pdf
   title: Quality Control part 2
   recording: 
@@ -335,6 +334,10 @@
       authors: Kazushi Ikeda and Michael Bernstein
       title:  Pay It Backward&colon; Per-Task Payments on Crowdsourcing Platforms Reduce Productivity
       url: readings/downloads/econ/per-task-payments-on-crowdsourcing-platforms-reduce-productivity.pdf
+    -
+      authors: A.P. Dawid and A.M. Skene 
+      title:  Maximum Likelihood Estimation of Observer Error-rates using the EM Algorithm
+      url: readings/downloads/ml/EM.pdf
 -
   date: 2021-03-18
   slides: 
