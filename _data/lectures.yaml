@@ -338,6 +338,10 @@
       authors: A.P. Dawid and A.M. Skene 
       title:  Maximum Likelihood Estimation of Observer Error-rates using the EM Algorithm
       url: readings/downloads/ml/EM.pdf
+    -
+      authors: Panos Ipeirotis, Foster Provost, Jing Wang
+      title:  Quality Management on Amazon Mechanical Turk
+      url: readings/downloads/quality-control/Quality-Management-on-Amazon-Mechanical-Turk.pdf
 -
   date: 2021-03-18
   slides: 
