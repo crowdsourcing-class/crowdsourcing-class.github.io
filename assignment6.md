@@ -145,6 +145,7 @@ This assignment is worth 5 points of your overall grade in the course.  The rubr
 * 1 point - a description of your experimental setup, including descriptions of any deviations you made
 * 1 point - for successfully executing the experiment on a crowdsourcing platform, and describing how you used the platform
 * 1 point - for analyzing your results and comparing them to the original paper
+* 1 point (Bonus) - additional bonus point for particularly stellar paper
 * Point caps: if you replicate the Demographics of Mechanical Turk paper, you point total will be capped at 3 points maximum
 
 
