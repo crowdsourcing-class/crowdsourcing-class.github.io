@@ -302,7 +302,7 @@
   date: 2021-03-09
   slides: slides/quality-control-1.pdf
   title: Quality Control part 1
-  recording: 
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f24c4306-2c53-4577-aa8e-ace601709f1b
   readings:
     -
       authors: Luis von Ahn and Laura Dabbish
@@ -324,7 +324,7 @@
   date: 2021-03-16
   slides: slides/quality-control-2.pdf
   title: Quality Control part 2
-  recording: 
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8f8306b0-d365-4960-af33-aced015a942c
   readings:
     -
       authors: Anindya Ghose, Panos Ipeirotis, and Arun Sundararajan
@@ -334,6 +334,12 @@
       authors: Kazushi Ikeda and Michael Bernstein
       title:  Pay It Backward&colon; Per-Task Payments on Crowdsourcing Platforms Reduce Productivity
       url: readings/downloads/econ/per-task-payments-on-crowdsourcing-platforms-reduce-productivity.pdf
+-
+  date: 2021-03-18
+  slides: slides/quality-control-3.pdf
+  title: Quality Control part 3
+  recording: 
+  readings:
     -
       authors: A.P. Dawid and A.M. Skene 
       title:  Maximum Likelihood Estimation of Observer Error-rates using the EM Algorithm
@@ -342,12 +348,7 @@
       authors: Panos Ipeirotis, Foster Provost, Jing Wang
       title:  Quality Management on Amazon Mechanical Turk
       url: readings/downloads/quality-control/Quality-Management-on-Amazon-Mechanical-Turk.pdf
--
-  date: 2021-03-18
-  slides: 
-  title: 
-  recording: 
-  readings:
+
 -
   date: 2021-03-23
   slides: 
