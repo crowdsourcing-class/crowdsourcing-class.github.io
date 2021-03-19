@@ -4,9 +4,9 @@ img: brainstorm
 caption: Brain designed by <a href="http://www.thenounproject.com/marcusmichaels">Marcus Michaels</a> from the <a href="http://www.thenounproject.com">Noun Project</a>
 title: Final Project Part 1 "Brainstorm 3 Ideas"
 active_tab: homework
-release_date: 2019-03-15
-due_date: 2019-03-21T23:59:00EST
-submission_link: https://www.gradescope.com/courses/36538
+release_date: 2021-03-19
+due_date: 2021-03-25T23:59:00EDT
+submission_link: https://www.gradescope.com/courses/233619
 ---
 
 <!-- Check whether the assignment is up to date -->
@@ -31,7 +31,7 @@ This assignment counts as a deliverable toward your final project.   The goal of
 
 ### Step 1: Form a team
 
-Your final project must be done in a group.  The size of the group can be 3-5 people.  Find some awesome people.  Do you remember what James Surowiecki says about groups?  They're best if they are composed of a diverse set of people.  So maybe you should try to pick out people who aren't already your friends.  Use the [Piazza message board](https://piazza.com/class/jqh5fxq39c65y?cid=5) to advertise that you're looking for teammates. 
+Your final project must be done in a group.  The size of the group can be 4-6 people.  Find some awesome people.  Do you remember what James Surowiecki says about groups?  They're best if they are composed of a diverse set of people.  So maybe you should try to pick out people who aren't already your friends.  Use the [Piazza message board](https://piazza.com/class/kgjibsv4k6zqi?cid=5) to advertise that you're looking for teammates. 
 
 ### Step 2: Brainstorm ideas for your project
 
@@ -122,61 +122,6 @@ My expectation is that your final project will represent a substantial amount of
 
 Long before video games had the amazing graphics they have now, there existed text adventure games like [Zork](http://zorkonline.net) or [The Hitchhiker's Guide to the Galaxy](http://textadventures.co.uk/games/view/3cbedqimquselmanehhzxg/the-hitchhikers-guide-to-the-galaxy). Text adventure games were also known as [Interactive Fiction](https://en.wikipedia.org/wiki/Interactive_fiction). There was a recent paper from Facebook Research that used MTurk to create data to help [Learning to Speak and Act in a Fantasy Text Adventure Game](https://arxiv.org/pdf/1903.03094.pdf).  The Facebook project is probably a better example of a [Multi-User Dungeon (MUD)](https://en.wikipedia.org/wiki/MUD) than interactive finction.   Your project could create data in a similar fashion to the Facebook paper, with some augmentations suggested by CCB and his PhD student Daphne.
 
-### Definition Annotation in Legal Contracts (suggested by Seth Kulick and Neville Ryant of the LDC)
-
-The project is to use crowdsourcing to identify spans of text in legal
-documents that specify the definition for an inline defined term.  For
-example, given
-
-(1) During the Term, the Executive shall receive a base salary at the
-initial annual rate of Two Hundred Thousand Dollars ($200,000) ("Base
-Salary"), payable …
-(2) “Unless sooner terminated pursuant to other provisions hereof,
-Company agrees to employ Executive for the period beginning on the
-Effective Date and ending on December 31, 2009 (the "Employment
-Term").
-
-In (1) the span "a base salary at the initial annual rate of Two
-Hundred Thousand Dollars ($200,000)" would be marked as the definition
-for "Base Salary”, and in (2) the span "the period beginning on the
-Effective Date and ending on December 31, 2009" would be marked as the
-definition for "Employment Term”.
-
-We have about 5 million sentences with inline defined terms, extracted
-from about 500,000 contracts of various types pulled from the
-Lawinsider site.  Some cases are more difficult than others - e.g.,
-(1) is easier than (2) because of the repeated “base salary”.  (2)
-relies on the similarity of "period" and "term"  while in other
-still-harder cases even that kind of basis for finding the span is not
-available.  Also, some of the sentences can be extremely long, due to
-the nature of the legal language.   We will also have a rough
-categorization of the sentences for their difficulty so that a sample
-can be selected for crowd annotation, and also provide examples of
-non-inline definitions, of the form “X means Y”, as control instances
-for QC of the annotation.
-
-We hope (although cannot guarantee) that the resulting corpus will be
-released through the Linguistic Data Consortium (pending IRB approval), in which case
-students(s) who worked on this will be listed as co-authors. 
-
-### Collecting data for Chatbots (3 ideas suggested by João Sedoc)
-
-*Empathetic Dataset creation for chatbots*: 
-We have a set of 419 news articles and what we want is to have MTurkers chat with each other about the news article. This will then create a dataset to train chatbots on. There has been prior work from FaceBook, called an [empathic dialogues dataset](https://openreview.net/forum?id=HyesW2C9YQ), but the stimulus setup is lacking. It should look something like [this](https://raw.githubusercontent.com/facebookresearch/ParlAI/master/docs/source//_static/img/mturk.png).
-
-*ChatEval Human Evaluation* 
-Part 1:
-Currently, we are evaluating chatbots using an A/B testing mechanism, but we would like to use [RankME](https://github.com/jeknov/RankME) for chatbot evaluation; however, this is made for CrowdFlower and the task of natural language generation and not chatbot evaluation. Here's an [example](https://github.com/jeknov/RankME/blob/master/lik_stp1.png) of what it currently looks like, but there are more on github.
-Part 2:
-ChatEval Human Baseline Collection:
-As part of ChatEval we have a bunch of evaluation datasets. We need to collect human responses for these currently we stated with [DataTurks](https://dataturks.com/projects/chatevalteam/Human%20gold%20standard%20chat%20responses%20(III)), but we need to migrate to using AMT to get more data. This can in turn then be used to evaluate chatbots.
-Part 3:
-Conversations with Chatbots:
-As part of ChatEval we have several near state-of-the-art chatbots. We would want MTurkers to converse with the chatbots on some topic and then rate the chatbot. Some of this has already been done in [ParlAi](http://parl.ai/static/docs/tutorial_mturk.html). (code [here](https://github.com/facebookresearch/ParlAI/tree/master/parlai/mturk))
-
-*MTurk Survey Master*
-The goal of the project is to find or create a survey and then have one MTurker to be the interviewer and have the other MTurker be the responder. Instead of just giving the survey, we have the survey be a conversation, and instead how answering questions from a lets say 1-5 scale the responder would give open ended responses. Then at the end of the conversation, the responder will actually fill out the survey. An initial step might be to look at the [national election survey](https://electionstudies.org/project/2018-pilot-study/).
-
 
 
 
@@ -219,14 +164,6 @@ Choose some aspect of the cognitive science that can be tested through experimen
  
 Write a suite of HITs on Mechanical Turk to test behavioral economic theories by implementing a set of games like the "ultimatum game". In this game two people are paired up. (They can communicate with each other, but otherwise they’re anonymous to each other.) They’re given $10 to divide between them, according to this rule: One person (the proposer) decides, on his own, what the split should be (fifty-fifty, seventy-thirty, or whatever). He then makes a take-it-or-leave-it offer to the other person (the responder). The responder can either accept the offer, in which case both players pocket their respective shares of the cash, or reject it, in which case both players walk away empty-handed. See more details in "The Wisdom of Crowds". Note that this requires pairing two people simultaneously or simulating their interactions. 
  
-### Speech Recognition Systems
-
-Apple uses speech recognition systems for Siri.  You can develop this technology for new languages.  You need an [open source speech recognition system](http://kaldi-asr.org) and a bunch of training data.  What sort of data?  Audio files paired with their transcriptions.  Where do you get data?  Crowdsourcing!  You can come up with ways of collecting data.  You could gather data either through transcription of existing audio files, or `elicitation' where people read texts out loud and save recordings of it. You'll need to figure out how to do good quality control, to what extent the quality matters when you're training a speech recognition system for a new language.
-
-### Food Truck Tracker
-
-There are a lot of food trucks in Philly.  Some of them are so awesome that they move to different locations on different days.  They announce their whereabouts on Twitter or Facebook.  Do they really expect us to keep track of where they all are?  Why not have the crowd create a map of the current whereabouts of all the food trucks.  How about having the crowd keep track of their menus and prices while you're at it?  A good crowdsourcing platform to use for this project is [FieldAgent](https://www.fieldagent.net).  FieldAgent gave me $2000 in credit, which I can share with students.
-
 ### Track the spread of the flu using social media 
 
 Did you know that you can catch the flu from social media?  Well, you can't.  But you can use it as a tool to track the spread of certain diseases.  You could try re-creating one of the publications by [this cool researcher](http://www.cs.jhu.edu/~mdredze/publications.php).  What sorts of health problems do you think social media can give us information about?  
@@ -242,11 +179,6 @@ Prediction markets use collective intelligence to try to predict the outcome of 
 ### Political Descriptors by Demographic
 
 The words we use to describe politicians and public figures in general depends a lot on their background. Pick one characteristic to keep track of (age, gender, party, country or state of origin, relationship status, time in office, anything), figure out which words correlate most strongly with politicians who possess that characteristic, and use the crowd to assign an intensity and sentiment to some of these words -- maybe even design a HIT that swaps out the names and pronouns of one politician for another and ask the Turker to assess the clarity and cohesion of the article to see how background affects descriptions in the media. 
-
-### Efficacy of Gun Violence Databases
-
-The Guardian recently started publishing an online database of police-involved killings called [The Counted](http://www.theguardian.com/us-news/ng-interactive/2015/jun/01/the-counted-police-killings-us-database). In turn, the FBI announced that it would also be [publishing information](http://www.theguardian.com/us-news/2015/dec/09/fbi-launch-new-system-count-people-killed-police-officers-the-counted) about the deadly use of physical force nationwide. This information is tracked in a lot of places, including gun violence blogs and even in the projects of students who took NETS213 last year. Using the crowd to identify duplicates and supplement details in one place could yield interesting information about which areas are best at reporting violence, which news sources are least accurate, or any other problem you'd like to study. Automatic reconciliation of conflicting data and classification of the type of data would likely require some strong HIT design. 
-
 
 ### Inspiration from others
 
