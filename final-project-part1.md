@@ -102,7 +102,7 @@ Below are the questions that you will be asked to answer about this assignment. 
 
 This assignment is worth 7 points of your final project grade.  
 
-* 1 point for successfully forming a team with 3-5 members
+* 1 point for successfully forming a team with 4-6 members
 * 2 points for each of your 3 project ideas
 
 </div>
