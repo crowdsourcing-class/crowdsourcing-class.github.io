@@ -69,7 +69,7 @@ Your initial ideas don't have to do all of these things yet, but they should be 
 
 Below are the questions that you will be asked to answer about this assignment. Please turn in your answers in a PDF for [Final Project: Part 1 on Gradescope]({{page.submission_link}}). 
 
-**Notice:** you should answer all questions separately for each of the 3 ideas.
+**Note:** you should answer all questions separately for each of the 3 ideas.
 
 1. What is the name of your project (points for creativity!)
 2. Give a one sentence description of your project. (Please use the name of the project in your description.)
