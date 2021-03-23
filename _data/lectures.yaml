@@ -351,10 +351,18 @@
 
 -
   date: 2021-03-23
-  slides: 
-  title: 
-  recording: 
+  slides: slides/crowdsourcing-and-HCI.pdf
+  title: Crowdsourcing and human computer interaction (HCI) design
+  recording:
   readings:
+    -
+      authors: Michael Bernstein, Greg Little, Rob Miller, Björn Hartmann, Mark Ackerman, David Karger, David Crowell, and Katrina Panovich
+      title:  Soylent&#58; A Word Processor with a Crowd Inside
+      url: readings/downloads/hci/Soylent.pdf
+    -
+      authors: Jeff Bigham
+      title: Real-Time Crowd Support for People with Disabilities (video)
+      url: https://www.youtube.com/watch?v=oUebwz1QqOo
 -
   date: 2021-03-25
   slides: 
