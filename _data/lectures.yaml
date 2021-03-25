@@ -365,10 +365,18 @@
       url: https://www.youtube.com/watch?v=oUebwz1QqOo
 -
   date: 2021-03-25
-  slides: 
-  title: 
-  recording: 
+  slides: slides/crowdsourcing-and-HCI-privacy-and-latency.pdf
+  title: Crowdsourcing and HCI part 2
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3c249ddd-97fa-4c32-bc44-a9d80153384b
   readings:
+    -
+      authors: Michael Bernstein, Joel Brandt, Rob Miller, and David Karger
+      title:  Crowds in Two Seconds&#58; Enabling Realtime Crowd-Powered Interfaces
+      url: readings/downloads/hci/adrenaline.pdf
+    -
+      authors: Nicolas Kokkalis, Thomas Köhn, Carl Pfeiffer, Dima Chornyi, Michael Bernstein, and Scott Klemmer
+      title:  EmailValet&#58; Managing Email Overload through Private, Accountable Crowdsourcing
+      url: readings/downloads/hci/EmailValet.pdf
 -
   date: 2021-03-29
   type: no_lecture
