@@ -4,8 +4,8 @@ img: academic-paper
 caption: Science used to use ballpoint pens and it was printed on paper 
 title: Homework 6 "Replicate Science"
 active_tab: homework
-release_date: 2019-02-26
-due_date: 2019-03-14T23:59:00EST
+release_date: 2021-03-25
+due_date: 2021-04-01T23:59:00EDT
 
 ---
 
@@ -26,7 +26,7 @@ This assignment is before {{ page.due_date | date: "%I:%M%p" }} due on {{ page.d
 
 
 <div class="alert alert-success">
-For this assignment, you can work in teams of 3-4 people. Your final project will require that you work in groups, so this is a good chance for you to form a group and test out whether you want to work with those people.
+For this assignment, you can work in teams of 4-6 people. You can use the same group as your final project team if you'd like.
 </div>
 
 <div class="alert alert-warning" markdown="1">
