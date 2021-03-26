@@ -38,7 +38,7 @@ Replicate Science<span class="text-muted"> : Assignment 6</span>
 =============================================================
 One of the awesome things about crowdsourcing is that it lets us quickly run scientific experiments.  You're going to practice doing this by reading an academic paper that uses crowdsourcing and trying to replicate its findings.  Good science should be repeatable, so you're helping science by replicating someone else's experiments.  And it's good for your own understanding of crowdsourcing and academic research.  Did you know that your professors secretly spend most of their time doing research?  It's true.  If you think that their lectures sometimes seem underprepared, it's likely because they're in their lab, bringing down lightening from the Gods and cackling like Dr. Frankenstein until their calendar app reminds them to go to the lecture hall.
 
-For this assignment, you can work in teams of 3-4 people.  Your final project will require that you work in groups, so this is a good chance for you to form a group and test out whether you want to work with those people.
+For this assignment, you can work in teams of 4-6 people.  Your final project will require that you work in groups, so this is a good chance for you to form a group and test out whether you want to work with those people.
 
 You have five options for academic papers that you can replicate:
 
