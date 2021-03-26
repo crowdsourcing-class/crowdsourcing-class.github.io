@@ -363,6 +363,10 @@
       authors: Jeff Bigham
       title: Real-Time Crowd Support for People with Disabilities (video)
       url: https://www.youtube.com/watch?v=oUebwz1QqOo
+    - 
+      authors: Jeffrey P. Bigham, Chandrika Jayant, Hanjie Ji, Greg Little, Andrew Miller, Robert C. Miller, Robin Miller, Aubrey Tatarowicz, Brandyn White
+      title: Vizwiz&colon; Nearly Real-time Answers to Visual Questions
+      url: readings/downloads/hci/vizwiz.pdf
 -
   date: 2021-03-25
   slides: slides/crowdsourcing-and-HCI-privacy-and-latency.pdf
