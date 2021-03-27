@@ -118,7 +118,7 @@ We had many excellent reports written the last time this class was offered. Here
 
 ### 7. Final write-up
 
-Write a final report.  Your final report should be written in markdown format (there's a good tutorial for markdown [here](http://markdowntutorial.com/)), and should be approximately 3,500 words long (~5 pages excluding figures and appendix).  The maximum length is 3,750 words.  If you need more than that, you're welcome to include an appendix containing additional figures or analysis, but your main document should be constructed so that it is readable as a standalone report.  
+Write a final report.  Your final report should be submitted as a PDF, and should be approximately 3,500 words long (~5 pages excluding figures and appendix).  The maximum length is 3,750 words.  If you need more than that, you're welcome to include an appendix containing additional figures or analysis, but your main document should be constructed so that it is readable as a standalone report.  
 
 Your paper should include the following information:
 
@@ -146,7 +146,7 @@ This assignment is worth 5 points of your overall grade in the course.  The rubr
 * 1 point - for successfully executing the experiment on a crowdsourcing platform, and describing how you used the platform
 * 1 point - for analyzing your results and comparing them to the original paper
 * 1 point (Bonus) - additional bonus point for particularly stellar paper
-* Point caps: if you replicate the Demographics of Mechanical Turk paper, you point total will be capped at 3 points maximum
+* Point caps: if you replicate the Demographics of Mechanical Turk paper, you point total will be capped at 4 points maximum
 
 
 
