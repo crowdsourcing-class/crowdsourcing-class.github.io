@@ -5,7 +5,7 @@ caption: Science used to use ballpoint pens and it was printed on paper
 title: Homework 6 "Replicate Science"
 active_tab: homework
 release_date: 2021-03-25
-due_date: 2021-04-01T23:59:00EDT
+due_date: 2021-04-08T23:59:00EDT
 
 ---
 
@@ -51,7 +51,7 @@ You have five options for academic papers that you can replicate:
 
 I have sorted the papers roughly in an order of how difficult they will be to replicate.  Because the difficulty level varies, and because I don't want to read 50 demographic studies of Mechanical Turk, I'm going to award different maximum point values to them based on their difficulties.  You can choose whichever one you want to work on.
 
-* Demographics of Mechanical Turk -- 3 points maximum
+* Demographics of Mechanical Turk -- 4 points maximum
 * Exploring Iterative and Parallel Human Computation Processes -- 5 points maximum
 * Fast, Cheap, and Creative: Evaluating Translation Quality Using Amazon's Mechanical Turk -- 5 points maximum
 * Financial Incentives and the Performance of Crowds -- 5 points maximum
