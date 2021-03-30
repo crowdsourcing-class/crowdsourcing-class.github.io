@@ -51,7 +51,7 @@ As a group, pick the 3 ideas that you like the most and start fleshing them out.
 Here are some considerations that you should take into account when selecting your shortlist of ideas.  The final version of your project should:
 
 * Solve a real world problem
-* Actually use crowdsourcing (it doesn’t have to be via CrowdFlower, but that is a good default way to incorporate crowdsourcing)
+* Actually use crowdsourcing (it doesn’t have to be via Mechanical Turk, but that is a good default way to incorporate crowdsourcing)
 * Include a significant machine learning or human-computer interaction component, or another component that you can analyze quantitatively
 * Explain the choice of incentives and discuss alternative ways of incentivizing workers
 * Contain a quality control component
@@ -180,8 +180,5 @@ Prediction markets use collective intelligence to try to predict the outcome of 
 
 The words we use to describe politicians and public figures in general depends a lot on their background. Pick one characteristic to keep track of (age, gender, party, country or state of origin, relationship status, time in office, anything), figure out which words correlate most strongly with politicians who possess that characteristic, and use the crowd to assign an intensity and sentiment to some of these words -- maybe even design a HIT that swaps out the names and pronouns of one politician for another and ask the Turker to assess the clarity and cohesion of the article to see how background affects descriptions in the media. 
 
-### Inspiration from others
-
-[Jeffery Bigham](http://www.cs.cmu.edu/~jbigham/) runs a class at CMU. [You can check out his list of suggested final project topics.](http://www.programthecrowd.com/finalproject)
 </div>
 </div>
