@@ -4,8 +4,8 @@ img: analysis
 caption: Prelimiary Analysis (icon created by Creative Stall from The Noun Project)
 title: Final Project part 4 "Preliminary Analysis"
 active_tab: homework
-release_date: 2019-04-23
-due_date: 2019-05-01T23:59:59EDT
+release_date: 2021-04-02
+due_date: 2021-04-29T23:59:59EDT
 ---
 <!-- Check whether the assignment is up to date -->
 {% capture this_year %}{{'now' | date: '%Y'}}{% endcapture %}
@@ -26,7 +26,7 @@ This assignment is before {{ page.due_date | date: "%I:%M%p" }} due on {{ page.d
 Final Project<span class="text-muted"> : Part 4</span> 
 =============================================================
 
-This will be a preliminary  analysis for your final report.  Your final report and final presentation are both due on Wednesday May 8, 2019.  You'll have to perform some sort of quantitative analysis on your project. Please look over [the questions that you'll have to answer for your final report](final-project-part5.html#survey), so that you get a sense of what is expected of you for the final writeup.
+This will be a preliminary  analysis for your final report.  Your final report and final presentation are both due on the day of the final.  You'll have to perform some sort of quantitative analysis on your project. Please look over [the questions that you'll have to answer for your final report](final-project-part5.html#survey), so that you get a sense of what is expected of you for the final writeup.
 
 In this final project milestone, you will perform a preliminary analysis on the data that you collected from your classmates or through a crowdsourcing platform, if you've already begun collecting real data.
 

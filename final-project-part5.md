@@ -4,10 +4,8 @@ img: prototype-3
 caption: Final working system
 title: Presentation and Final Report 
 active_tab: homework
-release_date: 2019-04-26
-due_date: 2019-05-08T12:00:00EDT
-presentations_start: 2019-05-08T12:00:00EDT
-presentations_end: 2019-05-08T14:00:00EDT
+release_date: 2021-04-03
+due_date: 2021-05-08T12:00:00EDT
 ---
 
 <!-- Check whether the assignment is up to date -->
@@ -69,7 +67,7 @@ Your final report should do a deeper analysis of the individual components of yo
 
 ### Final Presentations
 
-The final project presentations will be held during the final exam slot on {{ page.presentations_start | date: "%A, %B %-d, %Y" }} from {{ page.presentations_start | date: "%I:%M%p" }} to {{ page.presentations_end | date: "%I:%M%p" }} in Wu and Chen Auditorium (Levine 101)   We will play your videos and have a short amount of time for you to answer questions from the audience. 
+The final project presentations will be held during the final exam slot.  We will play your videos and have a short amount of time for you to answer questions from the audience. 
 
 
 
