@@ -3,7 +3,7 @@ layout: default
 img: prototype
 caption: Simple prototype (vitruvian man by Brad Ashburn from The Noun Project)
 url: http://www.qmed.com/mpmn/medtechpulse/power-20-minute-prototype
-title: Final Project Part 2 "Simple Working Prototype"
+title: Final Project Part 2 "Quality Control and Aggregation"
 active_tab: homework
 release_date: 2021-04-02
 due_date: 2021-04-20T23:59:00EDT
