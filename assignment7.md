@@ -4,7 +4,7 @@ img: quality-never-goes-out-of-style
 caption: Quality never goes out of style.
 title: Homework 7 "Quality control"
 active_tab: homework
-release_date: 2019-04-08
+release_date: 2021-04-06
 due_date: 2021-04-15T23:59:00EST
 ---
 
@@ -156,7 +156,7 @@ In your `main` function, you should output the returned tuples after 3 iteration
 
 You can refer to the [lecture slides](slides/quality-control-3.pdf) as a guide. The numbers are slightly different, but the process is idenitcal. If you are super ambitious, you are welcome to delve into the depths of the [original 1979 paper](http://crowdsourcing-class.org/readings/downloads/ml/EM.pdf) describing the use of EM for diagnosing patients.
 
-### Extra credit (1 pt)
+### Extra credit
 If you are super ambitious and/or super in want of extra credit, you can code and run EM on the data on the Adjectives and Attribute Matching result data. Add a function called `em_vote_ec(rows, iter_num)` to the same .py file, and have it output the returned tuples after 3 iterations into a 2-column CSV called `output_ec.csv`. 
 
 ## Part 3: Qualified workers
@@ -206,11 +206,11 @@ Additionally, create a new qualification type and add the "good" workers to it a
 </div>
 <div class="panel-body" markdown="1">
 
-This assignment is worth 5 points of your overall grade in the course. The rubric for the assignment is given below.
+This assignment is worth 100 points. The rubric for the assignment is given below.
 
-* 1 point - Python file with required functions implemented. Your code should be readable enough that we can tell what you did, but does not need to conform to any particular interface.
-* 2 point - 6 ouput CSV files in the required format.
-* 2 point - Report with required details.
-* Extra credit (1 point) - an extra function `em_vote_ec` in the same Python file, and CSV results in `output_ec.csv` with your EM implementation on our data.
+* 20 points - Python file with required functions implemented. Your code should be readable enough that we can tell what you did, but does not need to conform to any particular interface.
+* 40 points - 6 ouput CSV files in the required format.
+* 40 points - Report with required details.
+* Extra credit (10 points) - an extra function `em_vote_ec` in the same Python file, and CSV results in `output_ec.csv` with your EM implementation on our data.
 </div>
 </div>
