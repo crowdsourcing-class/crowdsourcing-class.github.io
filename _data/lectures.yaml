@@ -426,10 +426,14 @@
       url: https://arxiv.org/abs/2005.02367
 -
   date: 2021-04-08
-  slides: 
-  title: 
+  slides: slides/iterative-and-parallel-processing.pdf
+  title: Iterative and Parallel Processing
   recording: 
   readings:
+    -
+      authors: Greg Little, Lydia B. Chilton, Max Goldman, and Robert C. Miller
+      title:  Exploring Iterative and Parallel Human Computation Processes
+      url: readings/downloads/programming/iterative-and-parallel-processing-in-hcomp.pdf
 -
   date: 2021-04-13
   slides: 
