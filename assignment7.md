@@ -4,8 +4,8 @@ img: quality-never-goes-out-of-style
 caption: Quality never goes out of style.
 title: Homework 7 "Quality control"
 active_tab: homework
-release_date: 2019-03-22
-due_date: 2019-03-28T23:59:00EST
+release_date: 2021-04-06
+due_date: 2021-04-15T23:59:00EST
 ---
 
 <!-- Check whether the assignment is up to date -->
@@ -44,13 +44,13 @@ For this assignment, you will run the first two algorithms and provide a brief a
 Since EM is a more advanced algorithm, we will only require you to walk through a toy example.
 If you are interested in machine learning, and want to understand this concept better, you are welcome and encouraged to run it on the same real mTurk project data and earn some extra credits!
 
-Please first download the skeleton python file [homework7.py](assignments/hw7/homework7.py).
+Please first download the skeleton python file [homework7.py](assignments/hw7/homework7.py). Since we have set up an autograder for this assignment (which will take in as input the .py), we will not be providing a Colab notebook. However, if you wish, you may copy the Python code into your own Colab notebook and code from there. Then you can export the notebook as a .py before submititng.
 
 ## Part 1: Aggregation methods
 
 ### Data
 
-The data you will be using are the results from a real mTurk project **Adjectives and Attribute Matching** with a more complicated result file. You can download it as [hw7_data.csv](assignments/hw7/hw7_data.csv). These are real data collected for research purpose. 
+The data you will be using are the results from a real mTurk project **Adjectives and Attribute Matching** with a more complicated result file. You can download it as [hw7_data.csv](assignments/hw7/hw7_data.csv). These are real data collected for research purposes. 
 
 In the skeleton python file, we have put one line of code `mturk_res = pd.read_csv('hw7_data.csv')` in the `main` function for you to read the data using the python package `pandas`. Please do not change it and use this `mturk_res` as input to all the functions below with same the argument name.
 
@@ -60,12 +60,13 @@ Below is a screenshot of the HIT instructions (same across all HITs) that worker
 
 <img src="assignments/hw7/ins_screenshot.png" alt="Example HIT view" width="90%"/>
 
-And below is a screenshot of an example that worker would see and need to complete after the instruction. 
+And below is a screenshot of an example that worker would see and need to complete after reading the instructions. 
 
 <img src="assignments/hw7/hit_screenshot.png" alt="Example HIT view" width="90%"/>
 
 The content for each task changes according to the csv file uploaded to create the batch. 
-To simplify things, we treat "Yes" as labeled `TRUE` while "No" or "No an adjective" both as labeled `FALSE`.
+To simplify things, we treat "Yes" as labeled `TRUE` while "No" or "Not an adjective" both as labeled `FALSE`. Note that "Not an adjective" will also be abbreviated as "Naa" in this assignment.
+
 For each assignment, there are up to 16 number of adjectives for worker to label, where up to 10 are the ones we need answers, up to 5 for embedded positive quality control (the answer is supposed to be "Yes", i.e. `TRUE`), and 1 for negative quality control (the answer is supposed to be "No" or "Not an adjective", i.e. `FALSE`). Each assignment are supposed to be done by 3 workers, and those 16 words are shown in the random order for each worker.
 
 In the data file, the fields with column names `Input.adj_*` are the 10 adjectives we need answers; `Input.pos_qual_ctrl_*` are the 5 for positive quality controls and `Input.neg_qual_ctrl` is the 1 for negative quality control. The columns that in the same format with `Input` replaced to `Answer` are the answers we got from workers. 
@@ -153,7 +154,10 @@ You will implement a function `em_vote(rows, iter_num)` that takes in the list o
 
 In your `main` function, you should output the returned tuples after 3 iterations into a 2-column CSV file called `output5.csv` with the same column names mentioned above. 
 
-You can refer to the [lecture slides](slides/quality-control-3.pdf) as a guide. The numbers are slightly different, but the process is idenitcal. If you are super ambitious, you are welcome to delve into the depths of the [original 1979 paper](http://crowdsourcing-class.org/readings/downloads/ml/EM.pdf) describing the use of EM for diagnosing patients. If you are super ambitious and/or super in want of extra credit, you can code it up and run EM on the data on the Adjectives and Attribute Matching result data!
+You can refer to the [lecture slides](slides/quality-control-3.pdf) as a guide. The numbers are slightly different, but the process is idenitcal. If you are super ambitious, you are welcome to delve into the depths of the [original 1979 paper](http://crowdsourcing-class.org/readings/downloads/ml/EM.pdf) describing the use of EM for diagnosing patients.
+
+### Extra credit
+If you are super ambitious and/or super in want of extra credit, you can code and run EM on the data on the Adjectives and Attribute Matching result data. Add a function called `em_vote_ec(rows, iter_num)` to the same .py file, and have it output the returned tuples after 3 iterations into a 2-column CSV called `output_ec.csv`. 
 
 ## Part 3: Qualified workers
 
@@ -167,7 +171,7 @@ How do we define as "good" workers? In our case, we need a worker to satisfy the
 	* Must be correct about the negative quality control adjective;
 	* Must be correct about at least 4 out of 5 positive quality control adjectives;
 
-You can of course try other criterions and see how things are different if you are interested and discuss in the report, but not for python code submission purpose.
+You can of course try other criterions and see how things are different if you are interested and discuss in the report, but not for python code submission purposes.
 
 You will implement a function `select_qualified_worker(mturk_res)` that takes in mTurk result data read from the CSV file we give, return a list of two-element tuples in the format `(worker_id, percentage)` sorted alphabetically by the worker\_id. The `percentage` here is the percentage of completed HITs computed for the second condition above. Please keep 3 decimal points for your computation.
 
@@ -202,11 +206,11 @@ Additionally, create a new qualification type and add the "good" workers to it a
 </div>
 <div class="panel-body" markdown="1">
 
-This assignment is worth 5 points of your overall grade in the course. The rubric for the assignment is given below.
+This assignment is worth 100 points. The rubric for the assignment is given below.
 
-* 1 point - Python file with required functions implemented. Your code should be readable enough that we can tell what you did, but does not need to conform to any particular interface.
-* 2 point - 6 ouput CSV files in the required format.
-* 2 point - Report with required details.
-* Extra credit (1 point) - an extra Python file and CSV results with your EM implementation on our data.
+* 20 points - Python file with required functions implemented. Your code should be readable enough that we can tell what you did, but does not need to conform to any particular interface.
+* 40 points - 6 ouput CSV files in the required format.
+* 40 points - Report with required details.
+* Extra credit (10 points) - an extra function `em_vote_ec` in the same Python file, and CSV results in `output_ec.csv` with your EM implementation on our data.
 </div>
 </div>
