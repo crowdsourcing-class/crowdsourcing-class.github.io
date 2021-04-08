@@ -167,6 +167,10 @@ This is a project-based course.  Instead of exams, you will do a series of hands
 Late day policy
 : Each student has ten free "late days". Homeworks can be submitted at most two days late. If you are out of late days, then you will not be able to submit your homework. One "day" is defined as anytime between 1 second and 24 hours after the homework deadline. 
 
+Regrade Policy
+: If you have a regrade request, please submit regrade requests to Gradescope not private posts on Piazza.  If you submit the regrade request to Gradescope, it makes it easier and faster for us to re-grade your homework.  If you need to attach files, you can provide public shared links to files on your Google Drive. 
+Regrading will typically be available for a 2 week period following the release of an assignment's grade, so please don't wait until the end of the semester to submit a regrade request. 
+
 
 Course materials
 : Students should expect to spend around $50-$100 of their own money on MTurk or other crowdsourcing platforms.  If this will cause you undue financial hardship, please let the instructor know.
