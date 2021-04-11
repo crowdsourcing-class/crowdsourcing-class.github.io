@@ -338,7 +338,7 @@
   date: 2021-03-18
   slides: slides/quality-control-3.pdf
   title: Quality Control part 3
-  recording: 
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b16a0151-9d46-4f6e-ac79-acef016059b8
   readings:
     -
       authors: A.P. Dawid and A.M. Skene 
@@ -353,7 +353,7 @@
   date: 2021-03-23
   slides: slides/crowdsourcing-and-HCI.pdf
   title: Crowdsourcing and human computer interaction (HCI) design
-  recording:
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=81ec894a-5798-4a7b-b3fd-acf40156be3d
   readings:
     -
       authors: Michael Bernstein, Greg Little, Rob Miller, Björn Hartmann, Mark Ackerman, David Karger, David Crowell, and Katrina Panovich
@@ -371,7 +371,7 @@
   date: 2021-03-25
   slides: slides/crowdsourcing-and-HCI-privacy-and-latency.pdf
   title: Crowdsourcing and HCI part 2
-  recording: 
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e2209e06-b8f4-4dc5-bc7e-acf6015c985e
   readings:
     -
       authors: Michael Bernstein, Joel Brandt, Rob Miller, and David Karger
@@ -393,7 +393,7 @@
   date: 2021-04-01
   slides: slides/programming-the-crowd.pdf
   title: Programming concepts for human computation
-  recording: 
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=cc113b4d-41e9-4d20-8b8d-acfd0156c242
   readings:
     -
       authors: Greg Little, Lydia B. Chilton, Max Goldman, and Robert C. Miller
@@ -406,7 +406,7 @@
   speaker_url: https://crowd.ist.psu.edu
   slides_credit: Ting-Hao (Kenneth) Huang
   slides: 
-  recording: 
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9e623e42-25a9-45ca-9988-ad02016016f6
   readings:
     -
       authors: Ting-Hao K. Huang, Joseph Chee Chang, Jeffrey P. Bigham
@@ -428,7 +428,7 @@
   date: 2021-04-08
   slides: slides/iterative-and-parallel-processing.pdf
   title: Iterative and Parallel Processing
-  recording: 
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9af4db6b-c4e3-4f38-b795-ad04015671b3
   readings:
     -
       authors: Greg Little, Lydia B. Chilton, Max Goldman, and Robert C. Miller
