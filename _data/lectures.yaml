@@ -436,10 +436,24 @@
       url: readings/downloads/programming/iterative-and-parallel-processing-in-hcomp.pdf
 -
   date: 2021-04-13
-  slides: 
-  title: 
+  slides: slides/expert-crowds.pdf
+  title: Expert Crowds
+  slides_credit: Maria Christoforaki, Panos Ipeirotis, and Evgeniy Gabrilovich
+  slides: slides/expert-crowds.pdf
   recording: 
   readings:
+    -
+      authors: Panos Ipeirotis and Evgeniy Gabrilovich
+      title:  Quizz&#58; Targeted Crowdsourcing with a Billion (Potential) Users
+      url: http://www.ipeirotis.com/wp-content/uploads/2014/01/fp267-ipeirotis.pdf
+    -
+      authors: Maria Christoforaki and Panos Ipeirotis
+      title:  STEP&#58; A Scalable Testing and Evaluation Platform
+      url: http://www.ipeirotis.com/wp-content/uploads/2014/11/STEP_A_Scalable_Testing_and_Evaluation_Platform.pdf
+    -
+      authors: Wikipedia
+      title:  Item response theory
+      url: https://en.wikipedia.org/wiki/Item_response_theory
 -
   date: 2021-04-15
   slides: 
