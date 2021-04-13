@@ -436,6 +436,31 @@
       url: readings/downloads/programming/iterative-and-parallel-processing-in-hcomp.pdf
 -
   date: 2021-04-13
+  speaker: Six Silberman and Hannah Johnston
+  title: Minimum Wage Pledge for Requesters
+  recording: 
+  readings:
+    -
+      authors: WeAreDynamo
+      title:  Guidelines for Academic Requesters
+      url: readings/downloads/ethics/guidelines-for-academic-requesters.pdf
+    - 
+      authors: WeAreDynamo
+      title:  Crowdsourcing Code of Conduct
+      url: http://crowdsourcing-code.com
+    - 
+      title:  Crowdsourcing Code of Conduct
+      url: http://crowdsourcing-code.com
+    - 
+      authors: Oxford Internet Institute 
+      title:  Fairwork Principles
+      url: https://fair.work/en/fw/homepage/
+    - 
+      authors: Amy Glasmeier
+      title:  MIT Living Wage Calculator 
+      url: https://livingwage.mit.edu
+-
+  date: 2021-04-15
   slides: slides/expert-crowds.pdf
   title: Expert Crowds
   slides_credit: Maria Christoforaki, Panos Ipeirotis, and Evgeniy Gabrilovich
@@ -454,12 +479,6 @@
       authors: Wikipedia
       title:  Item response theory
       url: https://en.wikipedia.org/wiki/Item_response_theory
--
-  date: 2021-04-15
-  slides: 
-  title: 
-  recording: 
-  readings:
 -
   date: 2021-04-20
   slides: 
