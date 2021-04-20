@@ -481,10 +481,22 @@
       url: https://en.wikipedia.org/wiki/Item_response_theory
 -
   date: 2021-04-20
-  slides: 
-  title: 
+  slides: slides/speed-dating-okcupid.pdf
+  title: What data can tell us about sex and relationships
   recording: 
   readings:
+    -
+      authors: Rajesh Ranganath, Dan Jurafsky, and Dan McFarland
+      title: Detecting Flirting and its Misperception in Speed-Dates
+      url: http://nlp.stanford.edu/pubs/rajesh09.pdf
+    -
+      authors: Christian Rudder 
+      title: Dataclysm&colon; Who We Are (When We Think No One's Looking) 
+      url: http://www.amazon.com/Dataclysm-When-Think-Ones-Looking/dp/0385347375
+    -
+      authors: Christian Rudder - OKCupid
+      title:  OKCupid's blog 
+      url: http://blog.okcupid.com/
 -
   date: 2021-04-22
   slides: 
