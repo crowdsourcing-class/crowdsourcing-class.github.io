@@ -6,7 +6,7 @@ caption: Read this book. It will change your life.
 title: Homework 8 "Analyze Data"
 active_tab: homework
 release_date: 2021-04-22
-due_date: 2021-05-11T23:59:00EST
+due_date: 2021-05-11T12:00:00EST
 ---
 
 <!-- Check whether the assignment is up to date -->
