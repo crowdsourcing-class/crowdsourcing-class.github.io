@@ -495,10 +495,19 @@
       url: http://blog.okcupid.com/
 -
   date: 2021-04-22
-  slides: 
-  title: 
-  recording: 
-  readings:
+  slides: slides/prediction-markets.pdf
+  title: Prediction Markets
+  slides_credit: Ellie Pavlick
+  recording:
+  readings: 
+    -
+      authors: Prediction Markets
+      title: Justin Wolfers and Eric Zitzewitz
+      url: http://www.nber.org/papers/w10504.pdf
+    -
+      authors: Using Prediction Markets to Track Information Flows&colon; Evidence from Google
+      title: Bo Cowgill, Justin Wolfers and Eric Zitzewitz
+      url: http://www.eecs.harvard.edu/cs286r/courses/fall10/papers/GooglePredictionMarketPaper.pdf
 -
   date: 2021-04-27
   slides: 
