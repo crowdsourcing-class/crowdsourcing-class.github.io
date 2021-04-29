@@ -2,7 +2,7 @@
 layout: default
 img: analysis
 caption: Prelimiary Analysis (icon created by Creative Stall from The Noun Project)
-title: Final Project part 4 "Preliminary Analysis"
+title: Final Project part 4 "Preliminary Analysis" (Optional)
 active_tab: homework
 release_date: 2021-04-02
 due_date: 2021-04-29T23:59:59EDT
@@ -23,7 +23,7 @@ This assignment is before {{ page.due_date | date: "%I:%M%p" }} due on {{ page.d
 </div>
 
 
-Final Project<span class="text-muted"> : Part 4</span> 
+Final Project<span class="text-muted"> : Part 4 (Optional)</span> 
 =============================================================
 
 This will be a preliminary  analysis for your final report.  Your final report and final presentation are both due on the day of the final.  You'll have to perform some sort of quantitative analysis on your project. Please look over [the questions that you'll have to answer for your final report](final-project-part5.html#survey), so that you get a sense of what is expected of you for the final writeup.
