@@ -139,6 +139,18 @@ You must answer the questions in all of the sections below, but you only need to
 * If yes, please include a screenshot of the crowd-facing user interface in your report. You can include multiple screenshots if you want.
 * Describe your crowd-facing user interface. This can be a short caption for the screenshot. Alternately, if you put a lot of effort into the interface design, you can give a longer explanation of what you did.
 
+#### Ethics
+
+Your report should include a discussion of ethics.  One method of address this requirement is to nominate one of your teammates to ask ethics question of the whole group.  
+* Should my application exist at all?
+* Does this task potentially expose workers to harm (for example, content moderation)? What effect can it have on them?
+* Are you fairly compensating the workers for their time?
+* If you are creating a dataset for machine learning: 
+** Are you allowed to access the data that you're labeling (have you ensured that it isn't private data)?
+** Is there the potential for introducing bias in your machine learning classifer (unintended discrimination against a group because of underrepresentaiton)?
+** ML algorithms sometimes amplify bias in the training data.  What would be the consequences if this happens in your ML system?
+ * Is your evaluation sound? Do the conclusions you reach stand up to scientific scruitny? 
+
 #### Skills
 
 * Do your crowd workers need specialized skills?
