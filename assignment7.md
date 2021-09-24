@@ -196,8 +196,8 @@ Additionally, create a new qualification type and add the "good" workers to it a
 2. All 6 required output CSV files from **output1.csv** to **output6.csv**
 
 3. Report **homework7.pdf**
- * Compare 2 method results from Part 1, give interesting examples on how they are different on some example attribute-adjective pairs
- * Worker quality and URL labels after each iteration of EM algorithm for toy dataset
+ * Compare the majority and weighted majority labels from Part 1. If there are any differences, give 2 interesting examples on how they are different on some example attribute-adjective pairs. If there are no differences, discuss why could be the case.
+ * For the EM algorithm on toy data, discuss how worker quality and URL labels change for each of the 3 iterations.
  * Screenshot of your own new qualification type with "good" workers added
  * Share your thoughts on different quality control methods
 </div>
@@ -211,9 +211,9 @@ Additionally, create a new qualification type and add the "good" workers to it a
 
 This assignment is worth 100 points. The rubric for the assignment is given below.
 
-* 20 points - Python file with required functions implemented. Your code should be readable enough that we can tell what you did, but does not need to conform to any particular interface.
+* 25 points - Python file with required functions implemented. Your code should be readable enough that we can tell what you did, but does not need to conform to any particular interface.
 * 40 points - 6 ouput CSV files in the required format.
-* 40 points - Report with required details.
+* 35 points - Report with required details.
 * Extra credit (10 points) - an extra function `em_vote_ec` in the same Python file, and CSV results in `output_ec.csv` with your EM implementation on our data.
 </div>
 </div>
