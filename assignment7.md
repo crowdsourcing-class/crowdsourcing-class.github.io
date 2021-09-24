@@ -150,7 +150,10 @@ The data aggregation algorithms you used above were straightforward and work rea
 
 We discussed the expectation maximization (EM) algorithm in class as a way to jointly find the data labels <i>and</i> the worker qualities. The intution is "<i>If</i> I knew how good my workers were, I could easily compute the data labels (just like you did in step 2 of weigthed vote) and <i>if</i> I knew the data labels, I could easily compute how good my workers are (just like you did in step 1 of weighted vote). The problem is, I don't know either." So the EM solution is to guess the worker qualities, use that to compute the labels, then use the labels we just computed to reassign the worker qualities, then use the new worker qualities to recompute the labels, and so on until we converge (or get bored). This is one of the best-loved algorithms in machine learning, and often appears to be somewhat magic when you first see it. The best way to get an intuition about what is happening is to walk through it by hand. So for this step, we will ask you do walk through 3 iterations of EM on a [toy data set](assignments/downloads/em_toy_data.txt).
 
-You will implement a function `em_vote(rows, iter_num)` that takes in the list of result rows read from the toy dataset, return a list of two-element tuples in the format `(url, label)` sorted alphabetically by the url order. Some skeleton functions are given, which should help with your understanding of the algorithm structure.
+You will implement a function `em_vote(rows, iter_num)` that takes in the list of result rows read from the toy dataset and a number of iterations, and returns two lists:
+* `labels`: list of two-element tuples in the format `(url, label)` sorted alphabetically by the url order
+* `worker_qual`: list of worker qualities
+Some skeleton functions are given, which should help with your understanding of the algorithm structure.
 
 In your `main` function, you should output the returned tuples after 3 iterations into a 2-column CSV file called `output5.csv` with the same column names mentioned above. 
 
