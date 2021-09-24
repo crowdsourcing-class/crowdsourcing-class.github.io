@@ -25,6 +25,10 @@ def weighted_majority_vote(mturk_res, workers):
 # Part 2 - EM algorithm
 
 def em_worker_quality(rows, labels):
+    # the return format should be a dict that maps
+    # key: 'workerX'
+    # value: {('fakenews', 'fakenews'): A, ('fakenews', 'notfakenews'): B, ('notfakenews', 'fakenews'): C, ('notfakenews', 'notfakenews'): D}
+    # where X is a worker index, and A, B, C, D are values between 0.0 and 1.0
     pass
 
 def em_votes(rows, worker_qual):
