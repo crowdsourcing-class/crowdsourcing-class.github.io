@@ -36,6 +36,8 @@ def em_iteration(rows, worker_qual):
     return labels, worker_qual
 
 def em_vote(rows, iter_num):
+    
+    # return both the final labels and the final worker qualities
     pass
 
 
