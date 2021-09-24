@@ -43,7 +43,7 @@ We'll be using Google Colab to write and run our Python programs.  Colab hosts P
 For now, you can start learning the basics of [Python Notebooks and Colab via YouTube](https://www.youtube.com/watch?v=yEIc9z-Ad3k).  Better yet, try out this [Colab Notebook tutorial on Python](https://colab.research.google.com/github/cs231n/cs231n.github.io/blob/master/python-colab.ipynb) which introduces a lot of Python language concepts. 
 
 
-If you have never programmed in Python before, then I recommend that you watch this [Pyhon tutorial on YouTube](https://www.youtube.com/watch?v=_uQrJ0TkZlc).  The full tutorial is 6 hours long.  If you watch the whole thing then you'll be fully up to speed on Python and you'll even be able to develop web apps vid Django, which could be useful for your final project.
+If you have never programmed in Python before, then I recommend that you watch this [Python tutorial on YouTube](https://www.youtube.com/watch?v=_uQrJ0TkZlc).  The full tutorial is 6 hours long.  If you watch the whole thing then you'll be fully up to speed on Python and you'll even be able to develop web apps vid Django, which could be useful for your final project.
 
 
 ## Part 2 (Graded): Write Python Code
@@ -58,6 +58,6 @@ Detailed instructions are given in the skeleton file. Functions that are require
 
 You can download the batch.csv [here](batch.csv). Once you've downloaded it you can drag it into your Colab.
 
-When you're ready to check your solutions, you can upload your **homework3.py** file to [Gradescope]({{page.submission_link}}):  You can get the python code through the drop-down menu of "File" in the Colab environment.
+When you're ready to check your solutions, you can upload your **homework3.py** file to [Gradescope]({{page.submission_link}}):  You can get the python code through the drop-down menu of "File" in the Colab environment. Make sure you don't have extra print statements or unused code in your Colab notebook, as this could cause your `.py` file to fail the autograder.
 
 This homework can also be done in pairs. Only one group member is required to submit the work. Both of you will share the same submission and get the same grading.
