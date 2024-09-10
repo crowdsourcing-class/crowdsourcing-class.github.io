@@ -44,6 +44,7 @@ This week we will be looking at the wealth of companies and projects that use cr
 * [5 Calls](https://5calls.org/): A platform that allows individuals to call member of congresses regarding specific issues.
 * [99Designs](http://99designs.com/): A freelancer platform for connecting graphic designer and clients.
 * [Airbnb](https://www.airbnb.com/): Hosts  provide  lodging accommodations for others; the personal relationship hosts have with their lodge allows for creative accommodations. 
+* [Amazon SageMaker Data Labeling](https://aws.amazon.com/sagemaker/data-labeling/): Create high-quality datasets for training machine learning models
 * [Apple HealthKit/ResearchKit](http://www.apple.com/researchkit/): build apps to enroll participants and conduct studies at scale.
 * [Benefunder](http://www.benefunder.org/): Benefunder is a crowdfunding platform for funding research in a variety of fields.
 * [Change.org](https://www.change.org/): A platform where users can create and prompt petitions.
