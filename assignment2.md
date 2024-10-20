@@ -5,15 +5,15 @@ caption: Crowdsource your startup!
 title: Homework 2 "Market Research"
 active_tab: homework
 release_date: 2024-02-05
-due_date: 2024-02-18T23:59:00EST
-submission_link: https://www.gradescope.com/courses/36538
+due_date: 2024-02-31T23:59:00EDT
+submission_link: https://www.gradescope.com/courses/885628
 deliverables:
     -
       description: writeup
-      due_date: 2024-02-11T23:59:00EST
+      due_date: 2024-02-29T23:59:00EDT
     -
       description: video 
-      due_date: 2024-02-18T23:59:00EST
+      due_date: 2024-02-31T23:59:00EDT
 ---
 
 <!-- Check whether the assignment is up to date -->
