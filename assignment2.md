@@ -38,7 +38,7 @@ The {{deliverable.description}} is due before {{ deliverable.due_date | date: "%
 
 Market Research <span class="text-muted">: Assignment 2</span> 
 =============================================================
-This week we will be looking at the wealth of companies and projects that use crowdsourcing as part of their business. Here's an updated list of companies and projects that you could research:
+This homework will look at the wealth of companies and platforms that use crowdsourcing as part of their business. Here's a list of companies and platforms that you could research:
 
 1. Microtask and Freelance Platforms
    * [Amazon Mechanical Turk (MTurk)](https://www.mturk.com/): Marketplace for Human Intelligence Tasks (HITs)
@@ -133,7 +133,7 @@ You are also welcome to profile a [relevant company](http://www.crowdsourcing.or
 This assignment has two deliverables:
 
 1. Answering [the Homework 2 questionnaire on Gradescope]({{page.submission_link}}) about the company or project that you are researching. This is due before {{ page.deliverables[0].due_date | date: "%I:%M%p" }} on {{ page.deliverables[0].due_date | date: "%A, %B %-d, %Y" }}.  If you are working with a partner, only one of you needs to submit the questionnaire. **Please save your survey answers in a file on your own computer**, so that you can have a copy to use for your presentation.
-2. A presentation, optionally a video, about the company. Several of the best videos will be selected for in-class presentations.  Teams whose videos are selected will receive extra credit. This is due before {{ page.deliverables[1].due_date | date: "%I:%M%p" }}  on {{ page.deliverables[1].due_date | date: "%A, %B %-d, %Y" }}.  You can submit a link to your video on [the Gradescope presentation form]({{page.submission_link}}).
+2. A presentation video about the company. Several of the best videos will be selected for in-class presentations.  Teams whose videos are selected will receive extra credit. This is due before {{ page.deliverables[1].due_date | date: "%I:%M%p" }}  on {{ page.deliverables[1].due_date | date: "%A, %B %-d, %Y" }}.  You can submit a link to your video on [the Gradescope presentation form]({{page.submission_link}}).
 
 This assignment can be done in pairs.
 
@@ -196,12 +196,11 @@ A Survey and Taxonomy of a Growing Field](http://crowdsourcing-class.org/reading
 31. What is the scale of the services that your company provides, in terms of users?
 32. What is the scale of the services that your company provides, in terms of dollars?
 33. If your company were to scale up to 10 or 100 times its current size, how well do you think its business model would work? How well would the incentive scheme scale? How about the quality/aggregation model?
-34. Have there been any controversies about the company or the service that it provides?
-35. Is there anything else you'd like to say about the company?
+34. How do you think AI will affect this company?
+35. Have there been any controversies about the company or the service that it provides?
+36. Is there anything else you'd like to say about the company?
 </div>
 </div>
-
-
 
 
 ## Part 2: Creating a Video 
@@ -215,24 +214,8 @@ You will prepare a short presentation in the form a 5 to 7 minute video presenta
 - How does the company benefit from user contributions?
 - Are there any controversies about the company?
 
-Your presentation is due on {{ page.deliverables[1].due_date | date: "%A, %B %-d, %Y" }}. To turn in your video, please upload it to [Vimeo](https://vimeo.com/). Give us the link to your presentation or video using [the Homework 2 presentation form]({{page.submission_link}}). Make sure that your video is publicly viewable or that you give us a password to view it on the web form.
+Your presentation is due on {{ page.deliverables[1].due_date | date: "%A, %B %-d, %Y" }}. To turn in your video, please upload it to [YouTube]() or [Vimeo](https://vimeo.com/). Give us the link to your presentation or video using [the Homework 2 presentation form]({{page.submission_link}}). Make sure that your video is publicly viewable or that you give us a password to view it on the web form.
 
-Here are instructions on how to sign up for Vimeo:
-
-<div class="panel panel-info">
-<div class="panel-heading" markdown="1">
-#### Instructions for uploading your video to Vimeo
-</div>
-<div class="panel-body" markdown="1">
-1. Go to [Vimeo](https://vimeo.com).
-2. Create an account by clicking the enormous blue "JOIN" button. 
-3. You will receive and email with a link to verify your account. You have to verify before you can upload videos.
-4. Once you are signed in, click "Upload" at the top of the page.
-5. Click the "Choose a Video to Upload" button and choose your video
-6. Once it is uploading, you can change the privacy settings. If you are soon to be on the job market, be careful. You probably don't want potential employers to know how intelligently and elegantly you are able to analyze and present on the potential market value of technology companies, so maybe don't use your real name.
-7. That's it! Fill in the title and tags and what-have-you in the survey to tell us where to find it.
-</div>
-</div>
 
 
 <div class="panel panel-info" id="faq">
@@ -275,6 +258,8 @@ Extra credit would worth approximately 5% of the overall grade in the course.
 
 </div>
 </div>
+
+<!--
 
 #### Examples profiles from last year
 
@@ -382,3 +367,4 @@ Extra credit would worth approximately 5% of the overall grade in the course.
 <br />
 </div>
     {% endfor %}
+-->
