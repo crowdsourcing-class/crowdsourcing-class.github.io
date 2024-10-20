@@ -4,16 +4,16 @@ img: launching-a-start-up
 caption: Crowdsource your startup!
 title: Homework 2 "Market Research"
 active_tab: homework
-release_date: 2021-02-05
-due_date: 2021-02-18T23:59:00EST
+release_date: 2024-02-05
+due_date: 2024-02-18T23:59:00EST
 submission_link: https://www.gradescope.com/courses/36538
 deliverables:
     -
       description: writeup
-      due_date: 2021-02-11T23:59:00EST
+      due_date: 2024-02-11T23:59:00EST
     -
       description: video 
-      due_date: 2021-02-18T23:59:00EST
+      due_date: 2024-02-18T23:59:00EST
 ---
 
 <!-- Check whether the assignment is up to date -->
@@ -38,91 +38,91 @@ The {{deliverable.description}} is due before {{ deliverable.due_date | date: "%
 
 Market Research <span class="text-muted">: Assignment 2</span> 
 =============================================================
-This week we will be looking at the wealth of companies and projects that use crowdsourcing as part of their business. Here’s a list of companies and projects that you could research:
+This week we will be looking at the wealth of companies and projects that use crowdsourcing as part of their business. Here's an updated list of companies and projects that you could research:
 
+1. Microtask and Freelance Platforms
+   * [Amazon Mechanical Turk (MTurk)](https://www.mturk.com/): Marketplace for Human Intelligence Tasks (HITs)
+   * [Clickworker](https://www.clickworker.com/): European-based microtask platform
+   * [Toloka](https://toloka.ai/): Yandex's platform for data collection and enrichment
+   * [Upwork](https://www.upwork.com/): Freelance job marketplace connecting businesses with global talent
+   * [Fiverr](https://www.fiverr.com/): Freelance services marketplace
+   * [Freelancer](https://www.freelancer.com/): Freelance job marketplace
+   * [TaskRabbit](https://www.taskrabbit.com/): On-demand task completion platform
+   * [Microworkers](https://www.microworkers.com/): Microtask platform
 
-* [5 Calls](https://5calls.org/): A platform that allows individuals to call member of congresses regarding specific issues.
-* [99Designs](http://99designs.com/): A freelancer platform for connecting graphic designer and clients.
-* [Airbnb](https://www.airbnb.com/): Hosts  provide  lodging accommodations for others; the personal relationship hosts have with their lodge allows for creative accommodations. 
-* [Amazon SageMaker Data Labeling](https://aws.amazon.com/sagemaker/data-labeling/): Create high-quality datasets for training machine learning models
-* [Apple HealthKit/ResearchKit](http://www.apple.com/researchkit/): build apps to enroll participants and conduct studies at scale.
-* [Benefunder](http://www.benefunder.org/): Benefunder is a crowdfunding platform for funding research in a variety of fields.
-* [Change.org](https://www.change.org/): A platform where users can create and prompt petitions.
-* [Citizens and Technology Lab](https://citizensandtech.org/): A public-interest research group at Cornell focusing on researching and studying the effects of technology on society. 
-* [Clickworker](https://www.clickworker.com/): A platform that connects independent contractors called "Clickworkers" with a variety of projects for clients.
-* [CloudFactory](http://www.cloudfactory.com/home): Offers human-powered data processing for AI and automation businesses.
-* [Couchsurfing](https://www.couchsurfing.org/): Connects travelers with locals for short-term stays.
-* [Coursera](https://www.coursera.org/): Offers massive open online courses, specializations, degrees, professional and mastertrack courses.
-* [CrowdAI.org](https://www.crowdai.org/): Crowdsourcing platform focusing on real-world problems solvable by AI.
-* [CrowdMed](https://www.crowdmed.com/): is a healthcare crowdsourcing platform that uses a medical case-solving community to try to identify illnesses that doctors have been unable to diagnose.
-* [Crowds On Demand](http://crowdsondemand.com/): Provides people and materials for clients interested in creating protests, rallies, mobs, or other PR events.
-* [Daemo](http://hci.stanford.edu/publications/2015/crowdresearch/daemo-uit.pdf): A self-governed crowdsourcing marketplace.
-* [Dataturks](https://dataturks.com/): A platform that offers specific label annotation for Machine Learning tasks.
-* [Defined Crowd](https://www.definedcrowd.com/): Provides data sets to train artificially intelligent speech programs.
-* [Duolingo](https://www.duolingo.com/): App to teach people new languages. 
-* [EatWith](http://www.eatwith.com/): Provides online cooking classes from chef hosts live streamed from their kitchen.
-* [eBay buyer/seller ratings](http://pages.ebay.com/help/feedback/scores-reputation.html): Users provide feedback scores for merchants which then affects their ratings.
-* [edX](https://www.edx.org/): Sourcing professors from all over the world to teach free courses online.
-* [EyeWire](https://eyewire.org/signup) A game which allows players to help mapping real retinal neurons from Princeton.
-* [Field Agent](http://www.fieldagent.net/): Provides clients with information regarding store audits, shopper insights, ratings, and reviews from real users.
-* [Figure Eight (now Appen)](https://www.figure-eight.com/) Provide various AI services like data annotation, smart labelling etc.
-* [Flattr](https://flattr.com/) - Support creators with one-time/recurring subscriptions
-* [Freelancer](https://www.freelancer.com/) : A platform that facilitates the listing and hiring of freelancers.
-* [Genius](https://genius.com/): Annotate the meaning behind music/rap lyrics, mostly user contributions, with some interaction between the artists themselves and the community.
-* [GoFundMe](https://www.gofundme.com/): Crowdfunding for widely varying, user-submitted causes.
-* [Good Judgment Open](https://www.gjopen.com/): Focuses on crowdsourcing forecasting of political, economic and technological events.
-* [Google Crowdsource app](https://play.google.com/store/apps/details?id=com.google.android.apps.village.boond&hl=en_US): Help label data for Google's AI products.
-* [Iceland's Crowdsourced Constitution](http://www.slate.com/articles/technology/future_tense/2014/07/five_lessons_from_iceland_s_failed_crowdsourced_constitution_experiment.html): Has been passed as a basis for a new constitution in Iceland. Written by a commission of 25 people with all citizens of Iceland allowed to comment on the drafts and propose their own modifications. 
-* [The iLabour Project](https://ilabour.oii.ox.ac.uk/): A blog that investigates the construction of Labour Markets, Institutions and Movements on the Internet
-* [IndieGoGo](https://www.indiegogo.com/): Crowdfunding platform similar to Kickstarter for raising money for startups and charity projects. 
-* [Innocentive](http://www.innocentive.com/): Crowdsourcing platform that connects individuals with a variety of tasks related to business, data, and AI
-* [Instacart](https://www.instacart.com/faq): UberEats for groceries. Order groceries from nearby stores and a shopper will pick up and deliver them to your door. 
-* [Invisible Boyfriend](https://invisibleboyfriend.com/): Invisible Boyfriend gives you social proof of being in a relationship so you can get back to living life on your own terms.
-* [iStockPhoto](http://en.wikipedia.org/wiki/IStock): A media exchange platform that enables users to sell and purchase rights to different stock photos, videos, and artworks.
-* [Jovoto](https://www.jovoto.com/): Crowdsourcing marketing plans using experts in marketing. 
-* [Kaggle](http://www.kaggle.com/): Kaggle allows users to find and publish data sets, explore and build models in a web-based data-science environment, work with other data scientists and machine learning engineers, and enter competitions to solve data science challenges.
-* [Kickstarter](http://www.kickstarter.com/) Funding for startups and entrepreneurial pursuits (Ashley)
-* [Kiva](http://kiva.org/): Connect lenders to micro loan borrowers in developing countries
-* [LeadGenius](https://leadgenius.com/) - Generate leads for B2B Sales
-* [Lending Club](https://www.lendingclub.com/public/how-peer-lending-works.action) - Connects lenders with borrowers on a ad-hoc marketplace.
-* [Lyft](https://www.lyft.com/): Develops, markets, and operates a mobile app, offering vehicles for hire, motorized scooters, a bicycle-sharing system, and food delivery.
-* [Microworkers](https://microworkers.com/): Microtask site for small jobs like labeling data.
-* [Mighty AI](https://mighty.ai/): Startup acquired by Uber for automatic labelling of incoming data from autonomous vehicles. 
-* [Netflix prize](https://en.wikipedia.org/wiki/Netflix_Prize): A historical example of an innovation prize.  Netflix held a competition for researchers to develop an improved movie recommendation system and offered a million dollar prize for the best system. 
-* [OpenStreetMap](http://www.openstreetmap.org/): An open source, free map that is maintained by localized mapping community.
-* [Orchestra](http://orchestra.unlimitedlabs.com/): Orchestrate teams of experts with Robotic Process Automation.
-* [PatientsLikeMe](http://www.patientslikeme.com/) - Find other patients experiencing the same chronic illness as you do.
-* [Patreon](https://www.patreon.com/home): A crowdfunding platform that  helps creators and artists earn a monthly income from their subscribers in return for providing rewards and perks.
-* [Polis](https://pol.is/home): Real-time crowdsourcing for gathering, analyzing and understanding what large groups of people think.
-* [Postmates](https://postmates.com/): Similar to UberEats you can order food from restaurants and a person will pick up and deliver it to you. 
-* [PredictIt](https://www.predictit.org/): Online marketplace for trading penny shares of events like whether 2021 will be the hottest year on record or who will win an election. 
-* [PredictWise](http://www.predictwise.com/): a website that makes predictions on politics, sports, finance, and more
-* [Premise](http://www.premise.com/): Gather market intelligence data from customers
-* [Prolific](https://prolific.ac/): Supports online research by giving researchers access to participants for their studies
-* [PublicStuff](https://www.publicstuff.com/): Offers local governments citizen engagement apps and websites to extend access to city services 
-* [Quora](http://www.quora.com/): A question and answer website that allows people to post and answer questions about a wide variety of topics 
-* [Qualtrics](http://www.qualtrics.com/): Survey software for gathering data on a product for businesses.
-* [Robinhood](https://robinhood.com/us/en/): Allows layman investors like everyday people to buy stocks directly without having to go through a broker.
-* [Samasource](http://samasource.org/): A training data platform that works with companies to develop ML models.
-* [Scale](https://scale.ai/) - Get labelled AI data for Self-Driving Cars, Transcription, OCR, etc.
-* [Scistarter](http://scistarter.com/): Contribute to gathering data for various science research projects.
-* [Sunshine](http://www.slate.com/blogs/future_tense/2015/03/27/apple_watch_could_make_you_a_walking_weather_station.html) (Ashley) This smart watch application uses mobile data to collect local weather data.
-* [TaskRabbit](https://www.taskrabbit.com/): same-day service platform instantly connects you with skilled Taskers to help with cleaning, furniture assembly, home repairs, running errands and more.
-* [Threadless](https://www.threadless.com/how-it-works/): "How it Works" - Artists from around the world submit designs, the Threadless community scores each design and the best of the best are printed and sold. New designs are chosen for print every week and the winning artists can profit handsomely for their designs, and in some cases, also take home big cash prizes from special themed design challenges.
-* [Topcoder](http://www.topcoder.com/): Accessing amazing technology talent, like unleashing the gig economy... a project manager to shepard you through your projects
-* [TurkOpticon](http://turkopticon.ucsd.edu/): Forum for Mechanical Turk workers to share reviews and see statistics of requesters for attributes like their fairness, generosity, and timeliness. 
-* [TurkPrime](https://www.turkprime.com/) CloudResearch, formerly TurkPrime, is the leading participant-sourcing platform for online research and surveys. Our tools provide academic and market researchers immediate access to millions of diverse, high-quality respondents around the world.
-* [TurkServer](http://dash.harvard.edu/bitstream/handle/1/11956911/Parkes_TurkServer.pdf?sequence=1) Enabling Synchronous and Longitudinal Online Experiments...We see synchronous and longitudinal experiments involving real-time interaction between participants as a dual-use paradigm for both human computation and social science, and present TurkServer, a platform that facilitates these types of experiments on Amazon Mechanical Turk. Our work has the potential to make more fruitful online experiments accessible to researchers in many different fields.
-* [Uber](https://www.uber.com/) A gig economy business known for ride hailing services.
-* [Upwork](https://www.upwork.com/) connects businesses to specialized workers for associated needs.
-* [Ushahidi](http://www.ushahidi.com/): A platform first developed to map reports of violence in Kenya after the post-election violence in 2008.
-* [vTaiwan](https://www.technologyreview.com/s/611816/the-simple-but-ingenious-system-taiwan-uses-to-crowdsource-its-laws/): Taiwan's exploratory system online allowing citizens to crowdsource laws
-* [Waze](https://www.waze.com/): Provides directions and route changes based on driver reports of traffic and accidents. You can also see recent gas prices for nearby stations among other features. (Eddie)
-* [Wikipedia's AI helper](http://www.wired.com/2015/12/wikipedia-is-using-ai-to-expand-the-ranks-of-human-editors/): Article on how Wikipedia uses AI for quality management of its crowdsourced content creation.
-* [XPRIZE](http://www.xprize.org/): Prizes to solve large moonshot problems for society
-* [Yelp](http://www.yelp.com/): a platform for users to post reviews and information about local restaurants and businesses, as well as these businesses to interact with their customers (Bryan)
-* [Zensors](http://zensors.com/): An AI solution service for office buildings, college campuses, retail shops, etc to leverage the power of computer vision and sensing to improve their businesses.
-* [Zooniverse](https://www.zooniverse.org/): This website allows interested members of the public to contribute to specialized research, producing results that have been found in relevant papers.
+2. AI Data Creation and Training
+   * [Scale AI](https://scale.com/): AI training data platform
+   * [Appen](https://appen.com/) (formerly Figure Eight): AI training data and content relevance services
+   * [Labelbox](https://labelbox.com/): Data labeling platform for AI
+   * [Hive](https://thehive.ai/): AI solutions and data labeling
+   * [Sama](https://www.sama.com/) (formerly Samasource): Training data for AI
+   * [Snorkel AI](https://snorkel.ai/): Data programming platform using weak supervision
+   * [CloudFactory](https://www.cloudfactory.com/): Data processing for AI and automation
+   * [Amazon SageMaker Ground Truth](https://aws.amazon.com/sagemaker/groundtruth/): Data labeling for machine learning
+   * [Dataloop](https://dataloop.ai/): Combines human and machine intelligence for data annotation
+   * [Surge AI](https://www.surgehq.ai/): Network of annotators for AI data labeling
+   * [Invisible AI](https://invisible.ai/): Human-in-the-loop processes for high-quality AI training data
+
+3. Prediction Markets and Forecasting
+   * [Metaculus](https://www.metaculus.com/): Community forecasting platform
+   * [Good Judgment Open](https://www.gjopen.com/): Crowdsourced forecasting of geopolitical events
+   * [Kalshi](https://kalshi.com): A prediction market that operates under the approval of the Commodity Futures Trading Commission (CFTC)
+   * [PredictIt](https://www.predictit.org/): Online marketplace for event predictions
+   * [Polymarket](https://polymarket.com): Prediction market for politics, providing real-time odds for election results
+
+4. Citizen Science and Research
+   * [Zooniverse](https://www.zooniverse.org/): Platform hosting various citizen science projects
+   * [Foldit](https://fold.it/): Online puzzle game about protein folding
+   * [BOINC](https://boinc.berkeley.edu/): Volunteer computing and grid computing platform
+   * [EyeWire](https://eyewire.org/): Neuron mapping game
+   * [Apple ResearchKit](https://www.apple.com/researchkit/): Platform for building health research apps
+
+5. Crowdsourced Content Creation and Curation
+   * [Wikipedia](https://www.wikipedia.org/): Crowdsourced encyclopedia
+   * [Quora](https://www.quora.com/): Question-and-answer platform
+   * [Stack Overflow](https://stackoverflow.com/): Q&A platform for programmers
+   * [Genius](https://genius.com/): Collaborative lyrics annotation platform
+
+6. Distributed Problem-Solving
+   * [InnoCentive](https://www.innocentive.com/): Platform for posting and solving challenges
+   * [Kaggle](https://www.kaggle.com/): Data science and machine learning competition platform
+   * [Topcoder](https://www.topcoder.com/): Competitive programming and design platform
+
+7. Crowdfunding and Financial Services
+   * [Kickstarter](https://www.kickstarter.com/): Crowdfunding platform for creative projects
+   * [GoFundMe](https://www.gofundme.com/): Crowdfunding platform for various causes
+   * [Experiment](https://experiment.com/): Crowdfunding platform for scientific research
+   * [Unbound](https://unbound.com/): Crowdfunding publisher for authors
+   * [Kiva](https://www.kiva.org/): Microlending platform
+   * [Robinhood](https://robinhood.com/): Commission-free stock trading platform
+
+8. Peer-to-Peer Services
+   * [Airbnb](https://www.airbnb.com/): Peer-to-peer lodging platform
+   * [Uber](https://www.uber.com/): Ride-sharing and delivery platform
+   * [Lyft](https://www.lyft.com/): Ride-sharing platform
+   * [DoorDash](https://www.doordash.com/): Food delivery platform
+   * [Instacart](https://www.instacart.com/): Grocery delivery platform
+   * [Postmates](https://postmates.com/): Food and goods delivery platform
+
+9. Crowdsourced Design and Creativity
+   * [99designs](https://99designs.com/): Platform connecting clients with graphic designers
+   * [Threadless](https://www.threadless.com/): Creative community for art and design
+   * [iStockPhoto](https://www.istockphoto.com/): Stock media marketplace
+
+10. Education and Online Learning
+    * [Coursera](https://www.coursera.org/): Online education platform
+    * [edX](https://www.edx.org/): Online education platform
+    * [Duolingo](https://www.duolingo.com/): Language learning app with crowdsourced translations
+
+11. Review and Recommendation Platforms
+    * [Yelp](https://www.yelp.com/): Business review platform
+    * [TripAdvisor](https://www.tripadvisor.com/): Travel review and booking platform
+    * [Amazon Reviews](https://www.amazon.com/): E-commerce platform with user reviews
+
+12. Mapping and Navigation
+    * [OpenStreetMap](https://www.openstreetmap.org/): Collaborative mapping project
+    * [Waze](https://www.waze.com/): Crowdsourced navigation app
+
 
 <!--
 
