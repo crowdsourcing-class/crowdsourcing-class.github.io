@@ -10,10 +10,10 @@ submission_link: https://www.gradescope.com/courses/885628
 deliverables:
     -
       description: writeup
-      due_date: 2024-02-29T23:59:00EDT
+      due_date: 2024-10-29T23:59:00EDT
     -
       description: video 
-      due_date: 2024-02-31T23:59:00EDT
+      due_date: 2024-10-31T23:59:00EDT
 ---
 
 <!-- Check whether the assignment is up to date -->
@@ -139,7 +139,7 @@ This assignment can be done in pairs.
 
 ## Part 1: Researching a Company 
 
-First, please [sign up for a company or project](https://docs.google.com/spreadsheets/d/1VcP0zT3UATj97opOe3_DMHC_Dxe975Ub7k2FxXsA5Us/edit?usp=sharing).  Up to two teams can sign up for a company.  If two teams have already signed up for a company that you're interested in then please pick a different company.  If there’s a company that you’d like to research that isn’t on the list, you are welcome to ask the instructor or the TA to ask if it is OK.  Please post your request to Piazza.  
+First, please [sign up for a company or project](https://docs.google.com/spreadsheets/d/1GMaMkncEuwUdGeWZjWlKYMhYpaTy4sIV47mwvm0d_ds/edit?usp=sharing).  Up to two teams can sign up for a company.  If two teams have already signed up for a company that you're interested in then please pick a different company.  If there’s a company that you’d like to research that isn’t on the list, you are welcome to ask the instructor or the TA to ask if it is OK.  Please post your request to Piazza.  
 
 Next, please read the academic paper [Human Computation:
 A Survey and Taxonomy of a Growing Field](http://crowdsourcing-class.org/readings/downloads/intro/QuinnAndBederson.pdf).  The paper introduces several dimensions that we'll use to categorize the companies that you'll be doing research -- dimensions like motivation, quality control, aggregation, and so on.  We will ask you to write a short summary of the paper.
@@ -214,7 +214,7 @@ You will prepare a short presentation in the form a 5 to 7 minute video presenta
 - How does the company benefit from user contributions?
 - Are there any controversies about the company?
 
-Your presentation is due on {{ page.deliverables[1].due_date | date: "%A, %B %-d, %Y" }}. To turn in your video, please upload it to [YouTube]() or [Vimeo](https://vimeo.com/). Give us the link to your presentation or video using [the Homework 2 presentation form]({{page.submission_link}}). Make sure that your video is publicly viewable or that you give us a password to view it on the web form.
+Your presentation is due on {{ page.deliverables[1].due_date | date: "%A, %B %-d, %Y" }}. To turn in your video, please upload it to YouTube or Vimeo. Give us the link to your presentation or video using [the Homework 2 presentation form]({{page.submission_link}}). Make sure that your video is publicly viewable or that you give us a password to view it on the web form.
 
 
 
@@ -253,8 +253,7 @@ Your presentation is due on {{ page.deliverables[1].due_date | date: "%A, %B %-d
 </div>
 <div class="panel-body" markdown="1">
 
-The written survey is worth approximately 10% of your overall grade in the course. Please answer the survey questions thoughtfully. 
-Extra credit would worth approximately 5% of the overall grade in the course.
+The written survey is worth approximately 10% of your overall grade in the course. Please answer the survey questions thoughtfully. Importantly, you must discuss aspects of the company to crowdsourcing, and the themes of the class like aggregation, quality control, machine learning, etc. Extra credit would worth approximately 5% of the overall grade in the course.
 
 </div>
 </div>
